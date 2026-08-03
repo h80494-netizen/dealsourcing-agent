@@ -65,6 +65,8 @@ def fetch_google_news_rss(keyword, country="한국"):
         })
     return articles
 
+import concurrent.futures
+
 def collect_all_rss(domains=None):
     all_articles = []
     
@@ -77,25 +79,29 @@ def collect_all_rss(domains=None):
                     all_articles.extend(articles)
                 except Exception as e:
                     print(f"Error fetching RSS from {d.rss_url}: {e}")
-                time.sleep(0.5)
                 
     # 2. 키워드 기반 글로벌 뉴스 수집
     countries = ["한국", "미국", "일본", "중국", "유럽", "독일", "프랑스"]
     
+    tasks = []
     for country in countries:
         _, lang = get_google_news_params(country)
-        
-        # 언어별 키워드 리스트 추출 (상위 2~3개씩만 테스트)
         lang_signals = SIGNAL_KEYWORDS_DICT.get(lang, [])[:3]
         lang_industries = INDUSTRY_KEYWORDS_DICT.get(lang, [])[:2]
         search_kws = lang_signals + lang_industries
-        
         for kw in search_kws:
-            try:
-                articles = fetch_google_news_rss(kw, country)
-                all_articles.extend(articles)
-            except Exception as e:
-                pass
-            time.sleep(1) # Rate Limit 방지
+            tasks.append((kw, country))
+            
+    def fetch_task(args):
+        kw, country = args
+        try:
+            return fetch_google_news_rss(kw, country)
+        except:
+            return []
+            
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        results = list(executor.map(fetch_task, tasks))
+        for res in results:
+            all_articles.extend(res)
             
     return all_articles

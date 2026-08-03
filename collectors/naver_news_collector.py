@@ -48,5 +48,5 @@ def collect_naver_news(keywords):
     for kw in keywords[:5]:
         articles = fetch_naver_news_html(kw)
         all_articles.extend(articles)
-        time.sleep(2) # 네이버는 Rate Limit 엄격함
+        time.sleep(0.5)
     return all_articles
