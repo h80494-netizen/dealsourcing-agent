@@ -118,13 +118,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     try {
                         const statusRes = await fetch('/api/crawl_status');
                         const statusJson = await statusRes.json();
+                        
+                        // 주기적으로 테이블 새로고침하여 새로 추가된 데이터를 바로 보여줌
+                        fetchArticles();
+                        
                         if (statusJson.status === 'success' && !statusJson.is_crawling) {
                             clearInterval(pollInterval);
                             updateMsg.textContent = '수집 완료! 화면을 새로고침 합니다.';
                             setTimeout(() => location.reload(), 1500);
                         }
                     } catch(e) {}
-                }, 5000);
+                }, 3000); // 3초 간격으로 더 빠르게 업데이트
             } else {
                 updateMsg.textContent = json.message;
                 btnRealtime.disabled = false;

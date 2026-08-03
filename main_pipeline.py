@@ -79,9 +79,13 @@ def run_pipeline():
                     compressed_summary=analysis_result.get('compressed_summary')
                 )
                 session.add(new_deal)
-                new_count += 1
+                try:
+                    session.commit()
+                    new_count += 1
+                except Exception as e:
+                    session.rollback()
+                    print(f"Error committing article {art['link']}: {e}")
             
-    session.commit()
     print(f"[{datetime.now()}] 파이프라인 완료. 새로 추가된 유의미한 기사 수: {new_count}")
     
     # 3. 일일 리포트 생성
