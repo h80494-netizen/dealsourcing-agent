@@ -52,9 +52,16 @@ def analyze_text(title, content="", url="", source_country=None):
         except Exception as e:
             print(f"Failed to extract summary from {url}: {e}")
     
-    found_industry = [kw for kw in INDUSTRY_KEYWORDS if kw.lower() in full_text]
-    found_signal = [kw for kw in SIGNAL_KEYWORDS if kw.lower() in full_text]
-    found_financial = [kw for kw in FINANCIAL_KEYWORDS if kw.lower() in full_text]
+    def match_keywords(kws, text):
+        found = []
+        for kw in kws:
+            if re.search(r'\b' + re.escape(kw.lower()) + r'\b', text) if kw.isascii() else kw.lower() in text:
+                found.append(kw)
+        return found
+        
+    found_industry = match_keywords(INDUSTRY_KEYWORDS, full_text)
+    found_signal = match_keywords(SIGNAL_KEYWORDS, full_text)
+    found_financial = match_keywords(FINANCIAL_KEYWORDS, full_text)
     
     if found_industry or found_signal or found_financial:
         # 1. 국가 분류 (source_country 우선)
