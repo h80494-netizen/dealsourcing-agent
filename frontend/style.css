@@ -535,3 +535,31 @@ tr:hover td:first-child {
 .btn-close:hover {
     color: white;
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+        padding: 0.5rem;
+        height: auto;
+        min-height: 100vh;
+    }
+    .sidebar {
+        width: 100%;
+        max-height: none;
+        margin-bottom: 1rem;
+    }
+    .bottom-panels {
+        flex-direction: column;
+    }
+    .main-content {
+        overflow: visible;
+    }
+    .table-container {
+        overflow-x: auto;
+    }
+    .modal-content {
+        width: 95%;
+        padding: 1rem;
+    }
+}

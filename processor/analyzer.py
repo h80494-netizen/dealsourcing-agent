@@ -23,7 +23,7 @@ def translate_to_korean(text):
         return text
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-1.5-pro')
         prompt = f"다음 텍스트를 한국어로 자연스럽게 번역해줘. 번역 결과만 출력해:\n\n{text}"
         response = model.generate_content(prompt)
         return response.text.strip()
@@ -98,7 +98,7 @@ def analyze_text(title, content="", url="", source_country=None):
         if api_key and (compressed_summary or full_text):
             try:
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-1.5-pro')
                 eval_prompt = (
                     "당신은 벤처캐피탈(VC) 심사역입니다. 다음 기사의 [제목]과 [내용]을 읽고, "
                     "이 벤처/스타트업 기사가 투자 대상으로서 가지는 '영향력 점수(0~100)'와 '등급(S, A, B, C)'을 평가하세요.\n\n"
