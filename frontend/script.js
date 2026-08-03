@@ -495,6 +495,44 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    
+    // Delete Industry from Sidebar
+    const btnDeleteIndustry = document.getElementById('btn-delete-industry');
+    if (btnDeleteIndustry) {
+        btnDeleteIndustry.addEventListener('click', async () => {
+            const selected = Array.from(industrySelect.selectedOptions).map(opt => opt.value).filter(v => v !== "");
+            if (selected.length === 0) {
+                alert('삭제할 유망산업을 먼저 클릭(선택)해주세요.');
+                return;
+            }
+            if (!confirm(`선택한 유망산업(${selected.join(', ')})을 삭제하시겠습니까?`)) return;
+            
+            try {
+                const res = await fetch('/api/keywords');
+                const json = await res.json();
+                if (json.status === 'success') {
+                    for (const kw of json.data) {
+                        if (selected.includes(kw.keyword)) {
+                            if (kw.is_builtin) {
+                                alert(`'${kw.keyword}'은(는) 내장 키워드라 삭제할 수 없습니다.`);
+                            } else {
+                                await fetch(`/api/keywords/${kw.id}`, { method: 'DELETE' });
+                                // Remove from select
+                                Array.from(industrySelect.options).forEach(opt => {
+                                    if(opt.value === kw.keyword) opt.remove();
+                                });
+                            }
+                        }
+                    }
+                    if(typeof loadSettingsKeywords === 'function') loadSettingsKeywords();
+                    alert('삭제가 완료되었습니다.');
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        });
+    }
+
     // Load industries dynamically on boot
     const loadIndustryOptions = async () => {
         try {
