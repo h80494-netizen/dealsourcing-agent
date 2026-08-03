@@ -69,7 +69,7 @@
                     </div>
                     <div class="input-group">
                         <label for="industry">유망 산업 검색</label>
-                        <select id="industry" multiple size="5" class="multi-select">
+                        <select id="industry" multiple size="5" class="multi-select" style="margin-bottom: 5px;">
                             <option value="">전체 (All)</option>
                             <option value="AI">AI / 인공지능</option>
                             <option value="바이오">바이오 / 헬스케어</option>
@@ -78,6 +78,10 @@
                             <option value="핀테크">핀테크 / 금융</option>
                             <option value="로봇">로봇 / 자동화</option>
                         </select>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="text" id="new-industry-input" placeholder="새 유망산업 추가" style="flex: 1; padding: 4px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white; font-size: 0.8rem;">
+                            <button type="button" id="btn-add-industry" class="btn-primary" style="padding: 4px 8px; font-size: 0.8rem;">추가</button>
+                        </div>
                     </div>
                 </div>
 

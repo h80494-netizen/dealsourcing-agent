@@ -457,3 +457,64 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === reportModal) reportModal.style.display = 'none';
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Add Industry from Sidebar
+    const btnAddIndustry = document.getElementById('btn-add-industry');
+    const inputNewIndustry = document.getElementById('new-industry-input');
+    const industrySelect = document.getElementById('industry');
+    
+    if (btnAddIndustry) {
+        btnAddIndustry.addEventListener('click', async () => {
+            const val = inputNewIndustry.value.trim();
+            if (!val) return;
+            
+            try {
+                const res = await fetch('/api/keywords', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ keyword: val, type: 'industry', category: 'promising_industry' })
+                });
+                const json = await res.json();
+                if (json.status === 'error') {
+                    alert(json.message);
+                } else {
+                    const opt = document.createElement('option');
+                    opt.value = val;
+                    opt.textContent = val;
+                    opt.selected = true;
+                    industrySelect.appendChild(opt);
+                    
+                    inputNewIndustry.value = '';
+                    if(typeof loadSettingsKeywords === 'function') loadSettingsKeywords();
+                    alert('유망산업이 추가되었습니다!');
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        });
+    }
+
+    // Load industries dynamically on boot
+    const loadIndustryOptions = async () => {
+        try {
+            const res = await fetch('/api/keywords');
+            const json = await res.json();
+            if (json.status === 'success') {
+                const existingValues = Array.from(industrySelect.options).map(o => o.value);
+                json.data.forEach(kw => {
+                    if (kw.category === 'promising_industry' || kw.category === 'industry') {
+                        if (!existingValues.includes(kw.keyword)) {
+                            const opt = document.createElement('option');
+                            opt.value = kw.keyword;
+                            opt.textContent = kw.keyword;
+                            industrySelect.appendChild(opt);
+                            existingValues.push(kw.keyword);
+                        }
+                    }
+                });
+            }
+        } catch(e) {}
+    };
+    if (industrySelect) loadIndustryOptions();
+});
