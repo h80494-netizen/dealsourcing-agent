@@ -401,46 +401,18 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-report').addEventListener('click', async () => {
         reportModal.style.display = 'flex';
         document.getElementById('report-loading').style.display = 'block';
-        document.getElementById('reveal-container').style.display = 'none';
+        document.getElementById('markdown-container').style.display = 'none';
         
         try {
             const res = await fetch('/api/report');
             const json = await res.json();
             if (json.status === 'success') {
                 const markdownText = json.report;
-                
-                // --- 로 구분된 마크다운을 슬라이드로 변환
-                const slidesContainer = document.getElementById('reveal-slides');
-                slidesContainer.innerHTML = ''; // 초기화
-                
-                const slideContents = markdownText.split('---').map(s => s.trim()).filter(s => s.length > 0);
-                slideContents.forEach(content => {
-                    const section = document.createElement('section');
-                    section.setAttribute('data-markdown', '');
-                    const textarea = document.createElement('textarea');
-                    textarea.setAttribute('data-template', '');
-                    textarea.value = content;
-                    section.appendChild(textarea);
-                    slidesContainer.appendChild(section);
-                });
+                const markdownContainer = document.getElementById('markdown-container');
+                markdownContainer.innerHTML = marked.parse(markdownText);
                 
                 document.getElementById('report-loading').style.display = 'none';
-                document.getElementById('reveal-container').style.display = 'block';
-                
-                // Reveal.js 초기화 (중복 방지)
-                if (revealInstance) {
-                    revealInstance.destroy();
-                }
-                revealInstance = new Reveal(document.getElementById('reveal-container'), {
-                    embedded: true,
-                    plugins: [ RevealMarkdown ],
-                    slideNumber: true,
-                    hash: false,
-                    width: '100%',
-                    height: '100%',
-                    margin: 0.1
-                });
-                revealInstance.initialize();
+                markdownContainer.style.display = 'block';
                 
             } else {
                 document.getElementById('report-loading').textContent = '리포트 생성 실패: ' + (json.message || '알 수 없는 오류');
