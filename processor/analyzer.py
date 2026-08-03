@@ -23,7 +23,7 @@ def translate_to_korean(text):
         return text
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-3.5-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         prompt = f"다음 텍스트를 한국어로 자연스럽게 번역해줘. 번역 결과만 출력해:\n\n{text}"
         response = model.generate_content(prompt)
         return response.text.strip()
