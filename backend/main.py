@@ -5,6 +5,8 @@ from fastapi.responses import RedirectResponse
 import uvicorn
 import os
 import sys
+import yaml
+import datetime
 
 # 상위 폴더 경로 추가하여 모듈 임포트 가능하도록 설정
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -15,7 +17,9 @@ from main_pipeline import run_pipeline
 from sqlalchemy import desc
 from pydantic import BaseModel
 from typing import Optional, List
-from sqlalchemy import desc
+from newspaper import Article
+from processor.analyzer import analyze_text
+from processor.report_generator import generate_daily_report
 
 app = FastAPI(title="VC Deal Sourcing API")
 
@@ -187,8 +191,6 @@ def delete_domain(domain_id: int):
     session.close()
     return {"status": "success"}
 
-import yaml
-
 @app.get("/api/keywords")
 def get_keywords():
     engine = init_db()
@@ -256,7 +258,6 @@ def delete_keyword(keyword_id: int):
 @app.get("/api/report")
 def generate_report():
     try:
-        from processor.report_generator import generate_daily_report
         report_text = generate_daily_report()
         
         if not report_text:
@@ -275,10 +276,6 @@ class AnalyzeUrlRequest(BaseModel):
 def analyze_custom_url(req: AnalyzeUrlRequest):
     engine = init_db()
     session = get_session(engine)
-    
-    from processor.analyzer import analyze_text
-    from newspaper import Article
-    import datetime
     
     try:
         article = Article(req.url, language='ko')
@@ -315,10 +312,6 @@ def analyze_custom_url(req: AnalyzeUrlRequest):
     except Exception as e:
         session.close()
         return {"status": "error", "message": str(e)}
-
-# Serve frontend static files
-frontend_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend")
-app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8002, reload=True)
