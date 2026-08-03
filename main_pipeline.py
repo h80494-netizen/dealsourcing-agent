@@ -31,9 +31,15 @@ def run_pipeline():
     # 2. 분석 및 저장
     print(f"총 {len(all_articles)}개의 기사 중 새로운 기사를 필터링합니다...")
     
-    # 먼저 DB에 없는 기사만 추려냄
+    # 먼저 DB에 없으며, 최근 2일 이내의 기사만 추려냄
+    from datetime import timedelta
+    time_threshold = datetime.now() - timedelta(days=2)
+    
     new_articles = []
     for art in all_articles:
+        if art['pub_date'] and art['pub_date'] < time_threshold:
+            continue
+            
         exists = session.query(DealArticle).filter_by(link=art['link']).first()
         if not exists:
             new_articles.append(art)
