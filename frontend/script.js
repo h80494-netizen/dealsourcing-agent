@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusBadge = document.getElementById('status-badge');
     const updateMsg = document.getElementById('update-msg');
 
-    // 다중 선택(Ctrl 없이) 및 '전체' 단일 클릭 로직
+    // ?�중 ?�택(Ctrl ?�이) �?'?�체' ?�일 ?�릭 로직
     document.querySelectorAll('.multi-select').forEach(select => {
-        // 최초 상태로 '전체' 자동 선택
+        // 최초 ?�태�?'?�체' ?�동 ?�택
         if(select.options.length > 0) select.options[0].selected = true;
         
         select.addEventListener('mousedown', function(e) {
@@ -18,17 +18,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const originalSelected = option.selected;
                 
                 if (option.value === "") {
-                    // '전체' 클릭 시 나머지 해제
+                    // '?�체' ?�릭 ???�머지 ?�제
                     Array.from(this.options).forEach(opt => opt.selected = false);
                     option.selected = true;
                 } else {
-                    // 다른 항목 클릭 시 '전체' 해제
+                    // ?�른 ??�� ?�릭 ??'?�체' ?�제
                     if(this.options.length > 0 && this.options[0].value === "") {
                         this.options[0].selected = false;
                     }
                     option.selected = !originalSelected;
                     
-                    // 만약 모두 해제되었다면 '전체' 다시 선택
+                    // 만약 모두 ?�제?�었?�면 '?�체' ?�시 ?�택
                     const anySelected = Array.from(this.options).some(opt => opt.selected);
                     if (!anySelected && this.options.length > 0 && this.options[0].value === "") {
                         this.options[0].selected = true;
@@ -55,30 +55,30 @@ document.addEventListener('DOMContentLoaded', () => {
             industries.forEach(i => params.append('promising_industry', i));
             if (sortBy) params.append('sort_by', sortBy);
 
-            const res = await fetch(`http://localhost:8002/api/articles?${params.toString()}`);
+            const res = await fetch(`/api/articles?${params.toString()}`);
             const json = await res.json();
             
             if (json.status === 'success') {
-                document.getElementById('collected-count').textContent = `검색된 딜: ${json.count} 건`;
+                document.getElementById('collected-count').textContent = `검?�된 ?? ${json.count} �?;
                 renderTable(json.data);
             }
         } catch (e) {
             console.error(e);
-            tbody.innerHTML = `<tr><td colspan="8" style="color:red; text-align:center;">데이터를 불러오는 중 오류가 발생했습니다. 서버가 켜져 있는지 확인하세요.</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="8" style="color:red; text-align:center;">?�이?��? 불러?�는 �??�류가 발생?�습?�다. ?�버가 켜져 ?�는지 ?�인?�세??</td></tr>`;
         }
     };
 
     const renderTable = (data) => {
         tbody.innerHTML = '';
         if (data.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="8" class="empty-state">데이터가 없습니다.</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="8" class="empty-state">?�이?��? ?�습?�다.</td></tr>';
             return;
         }
 
         data.forEach(item => {
             const tr = document.createElement('tr');
             
-            // 뉴스 등급 스타일링
+            // ?�스 ?�급 ?��??�링
             let gradeClass = '';
             if(item.news_grade === 'S') gradeClass = 'news-grade-S';
             else if(item.news_grade === 'A') gradeClass = 'news-grade-A';
@@ -106,34 +106,33 @@ document.addEventListener('DOMContentLoaded', () => {
     btnRealtime.addEventListener('click', async () => {
         btnRealtime.disabled = true;
         btnLoader.style.display = 'block';
-        statusBadge.textContent = '수집 중...';
+        statusBadge.textContent = '?�집 �?..';
         statusBadge.classList.add('active');
-        updateMsg.textContent = '실시간 수집 파이프라인이 실행되었습니다. 백그라운드에서 뉴스를 분석 중입니다.';
+        updateMsg.textContent = '?�시�??�집 ?�이?�라?�이 ?�행?�었?�니?? 백그?�운?�에???�스�?분석 중입?�다.';
         
         try {
-            const res = await fetch('http://localhost:8002/api/crawl_now', { method: 'POST' });
+            const res = await fetch('/api/crawl_now', { method: 'POST' });
             const json = await res.json();
             if (json.status === 'success') {
-                updateMsg.textContent = '실시간 수집 명령 전송 완료! 약 1~2분 뒤 다시 조회해주세요.';
+                updateMsg.textContent = '?�시�??�집 명령 ?�송 ?�료! ??1~2�????�시 조회?�주?�요.';
                 setTimeout(() => {
-                    fetchArticles(); // 5초 뒤 한번 리프레시
+                    fetchArticles(); // 5�????�번 리프?�시
                 }, 5000);
             }
         } catch (e) {
             console.error(e);
-            updateMsg.textContent = '실시간 업데이트 요청 실패';
+            updateMsg.textContent = '?�시�??�데?�트 ?�청 ?�패';
         } finally {
             setTimeout(() => {
                 btnRealtime.disabled = false;
                 btnLoader.style.display = 'none';
-                statusBadge.textContent = '대기 중';
+                statusBadge.textContent = '?��?�?;
                 statusBadge.classList.remove('active');
             }, 3000);
         }
     });
 
-    // 초기 로드 시 데이터 가져오기
-    fetchArticles();
+    // 초기 로드 ???�이??가?�오�?    fetchArticles();
 
     // Keyword Handling
     const keywordInput = document.getElementById('custom-keyword');
@@ -141,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const loadKeywords = async () => {
         try {
-            const res = await fetch('http://localhost:8002/api/keywords');
+            const res = await fetch('/api/keywords');
             const json = await res.json();
             if (json.status === 'success') {
                 keywordTags.innerHTML = '';
@@ -167,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const val = keywordInput.value.trim();
                 if (!val) return;
                 try {
-                    const res = await fetch('http://localhost:8002/api/keywords', {
+                    const res = await fetch('/api/keywords', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ keyword: val, type: 'industry', category: 'custom' })
@@ -196,10 +195,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!url) return;
             
             btnAnalyzeUrl.disabled = true;
-            btnAnalyzeUrl.textContent = '분석중...';
+            btnAnalyzeUrl.textContent = '분석�?..';
             
             try {
-                const res = await fetch('http://localhost:8002/api/analyze_url', {
+                const res = await fetch('/api/analyze_url', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ url: url })
@@ -208,13 +207,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (json.status === 'success') {
                     inputCustomUrl.value = '';
                     fetchArticles(); // Refresh table
-                    alert('수동 분석이 완료되었습니다!');
+                    alert('?�동 분석???�료?�었?�니??');
                 } else {
-                    alert('분석 실패: ' + json.message);
+                    alert('분석 ?�패: ' + json.message);
                 }
             } catch (e) {
                 console.error(e);
-                alert('요청 중 오류가 발생했습니다.');
+                alert('?�청 �??�류가 발생?�습?�다.');
             } finally {
                 btnAnalyzeUrl.disabled = false;
                 btnAnalyzeUrl.textContent = '분석';
@@ -232,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const loadSettingsKeywords = async () => {
         try {
-            const res = await fetch('http://localhost:8002/api/keywords');
+            const res = await fetch('/api/keywords');
             const json = await res.json();
             if (json.status === 'success') {
                 kwList.innerHTML = '';
@@ -246,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     li.style.borderRadius = '4px';
                     li.innerHTML = `
                         <span><strong>${kw.keyword}</strong> <small style="color:#9ca3af;">(${kw.category} / ${kw.type})</small></span>
-                        <button class="btn-delete-kw" data-id="${kw.id}" style="background: #ef4444; border: none; color: white; padding: 4px 8px; border-radius: 4px; cursor: pointer;">삭제</button>
+                        <button class="btn-delete-kw" data-id="${kw.id}" style="background: #ef4444; border: none; color: white; padding: 4px 8px; border-radius: 4px; cursor: pointer;">??��</button>
                     `;
                     kwList.appendChild(li);
                 });
@@ -254,7 +253,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.btn-delete-kw').forEach(btn => {
                     btn.addEventListener('click', async (e) => {
                         const id = e.target.getAttribute('data-id');
-                        await fetch(`http://localhost:8002/api/keywords/${id}`, { method: 'DELETE' });
+                        await fetch(`/api/keywords/${id}`, { method: 'DELETE' });
                         loadSettingsKeywords();
                         loadKeywords(); // update dashboard tags
                     });
@@ -265,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const loadSettingsDomains = async () => {
         try {
-            const res = await fetch('http://localhost:8002/api/domains');
+            const res = await fetch('/api/domains');
             const json = await res.json();
             if (json.status === 'success') {
                 domainList.innerHTML = '';
@@ -283,7 +282,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div style="font-size: 0.8rem; color: #60a5fa; margin-top: 2px;">URL: ${d.url}</div>
                             ${d.rss_url ? `<div style="font-size: 0.8rem; color: #34d399; margin-top: 2px;">RSS: ${d.rss_url}</div>` : ''}
                         </div>
-                        <button class="btn-delete-domain" data-id="${d.id}" style="background: #ef4444; border: none; color: white; padding: 4px 8px; border-radius: 4px; cursor: pointer; margin-left: 10px;">삭제</button>
+                        <button class="btn-delete-domain" data-id="${d.id}" style="background: #ef4444; border: none; color: white; padding: 4px 8px; border-radius: 4px; cursor: pointer; margin-left: 10px;">??��</button>
                     `;
                     domainList.appendChild(li);
                 });
@@ -291,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.btn-delete-domain').forEach(btn => {
                     btn.addEventListener('click', async (e) => {
                         const id = e.target.getAttribute('data-id');
-                        await fetch(`http://localhost:8002/api/domains/${id}`, { method: 'DELETE' });
+                        await fetch(`/api/domains/${id}`, { method: 'DELETE' });
                         loadSettingsDomains();
                     });
                 });
@@ -307,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const category = document.getElementById('setting-kw-category').value;
             if(!keyword) return;
             
-            await fetch('http://localhost:8002/api/keywords', {
+            await fetch('/api/keywords', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ keyword, type, category })
@@ -328,9 +327,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const country = document.getElementById('setting-domain-country').value;
             const category = document.getElementById('setting-domain-category').value;
             
-            if(!url) { alert('URL은 필수입니다.'); return; }
+            if(!url) { alert('URL?� ?�수?�니??'); return; }
             
-            await fetch('http://localhost:8002/api/domains', {
+            await fetch('/api/domains', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, url, rss_url: rss_url || null, purpose, country, category })
@@ -362,15 +361,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('reveal-container').style.display = 'none';
         
         try {
-            const res = await fetch('http://localhost:8002/api/report');
+            const res = await fetch('/api/report');
             const json = await res.json();
             if (json.status === 'success') {
                 const markdownText = json.report;
                 
-                // --- 로 구분된 마크다운을 슬라이드로 변환
-                const slidesContainer = document.getElementById('reveal-slides');
-                slidesContainer.innerHTML = ''; // 초기화
-                
+                // --- �?구분??마크?�운???�라?�드�?변??                const slidesContainer = document.getElementById('reveal-slides');
+                slidesContainer.innerHTML = ''; // 초기??                
                 const slideContents = markdownText.split('---').map(s => s.trim()).filter(s => s.length > 0);
                 slideContents.forEach(content => {
                     const section = document.createElement('section');
@@ -385,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('report-loading').style.display = 'none';
                 document.getElementById('reveal-container').style.display = 'block';
                 
-                // Reveal.js 초기화 (중복 방지)
+                // Reveal.js 초기??(중복 방�?)
                 if (revealInstance) {
                     revealInstance.destroy();
                 }
@@ -401,22 +398,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 revealInstance.initialize();
                 
             } else {
-                document.getElementById('report-loading').textContent = '리포트 생성 실패: ' + (json.message || '알 수 없는 오류');
+                document.getElementById('report-loading').textContent = '리포???�성 ?�패: ' + (json.message || '?????�는 ?�류');
             }
         } catch (e) {
             console.error(e);
-            document.getElementById('report-loading').textContent = '리포트 생성 중 오류 발생';
+            document.getElementById('report-loading').textContent = '리포???�성 �??�류 발생';
         }
     });
 
     document.getElementById('btn-print-pdf').addEventListener('click', () => {
-        // 모달창만 인쇄되도록 설정
+        // 모달창만 ?�쇄?�도�??�정
         const originalBody = document.body.innerHTML;
         const modalContent = document.querySelector('.reveal').innerHTML;
         document.body.innerHTML = `<div style="color: black; background: white;">${modalContent}</div>`;
         window.print();
         document.body.innerHTML = originalBody;
-        location.reload(); // 리로드하여 이벤트 리스너 복구
+        location.reload(); // 리로?�하???�벤??리스??복구
     });
 
     document.getElementById('btn-close-report').addEventListener('click', () => {

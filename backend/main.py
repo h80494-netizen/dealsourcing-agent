@@ -247,5 +247,9 @@ def analyze_custom_url(req: AnalyzeUrlRequest):
         session.close()
         return {"status": "error", "message": str(e)}
 
+# Serve frontend static files
+frontend_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend")
+app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8002, reload=True)
