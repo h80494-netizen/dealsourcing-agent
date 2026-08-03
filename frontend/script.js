@@ -141,25 +141,6 @@ document.addEventListener('DOMContentLoaded', () => {
             statusBadge.classList.remove('active');
         }
     });
-            const json = await res.json();
-            if (json.status === 'success') {
-                updateMsg.textContent = '실시간 수집 명령 전송 완료! 약 1~2분 뒤 다시 조회해주세요.';
-                setTimeout(() => {
-                    fetchArticles(); // 5초 뒤 한번 리프레시
-                }, 5000);
-            }
-        } catch (e) {
-            console.error(e);
-            updateMsg.textContent = '실시간 업데이트 요청 실패';
-        } finally {
-            setTimeout(() => {
-                btnRealtime.disabled = false;
-                btnLoader.style.display = 'none';
-                statusBadge.textContent = '대기 중';
-                statusBadge.classList.remove('active');
-            }, 3000);
-        }
-    });
 
     // 초기 로드 시 데이터 가져오기
     fetchArticles();
