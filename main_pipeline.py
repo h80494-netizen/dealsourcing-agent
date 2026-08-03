@@ -29,37 +29,57 @@ def run_pipeline():
     all_articles = rss_articles + naver_articles
     
     # 2. 분석 및 저장
-    new_count = 0
+    print(f"총 {len(all_articles)}개의 기사 중 새로운 기사를 필터링합니다...")
+    
+    # 먼저 DB에 없는 기사만 추려냄
+    new_articles = []
     for art in all_articles:
-        # 중복 체크
         exists = session.query(DealArticle).filter_by(link=art['link']).first()
-        if exists:
-            continue
+        if not exists:
+            new_articles.append(art)
             
-        # 분석
-        analysis_result = analyze_text(art['title'], art['summary'], url=art['link'], source_country=art.get('country'))
+    print(f"분석할 새로운 기사 {len(new_articles)}건 발견. 병렬 분석을 시작합니다...")
+    
+    import concurrent.futures
+    new_count = 0
+    
+    def process_article(art):
+        try:
+            return art, analyze_text(art['title'], art['summary'], url=art['link'], source_country=art.get('country'))
+        except Exception as e:
+            print(f"Error analyzing article {art['link']}: {e}")
+            return art, None
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        # submit all tasks
+        futures = {executor.submit(process_article, art): art for art in new_articles}
         
-        # 유의미한 데이터만 DB 저장
-        if analysis_result:
-            new_deal = DealArticle(
-                source_name=art['source_name'],
-                title=analysis_result.get('title', art['title']),
-                link=art['link'],
-                summary=art['summary'],
-                pub_date=art['pub_date'],
-                matched_industry=analysis_result['matched_industry'],
-                matched_signal=analysis_result['matched_signal'],
-                matched_financial=analysis_result['matched_financial'],
-                growth_impact_score=analysis_result['growth_impact_score'],
-                country=analysis_result['country'],
-                deal_stage=analysis_result['deal_stage'],
-                impact_score=analysis_result['impact_score'],
-                news_grade=analysis_result['news_grade'],
-                promising_industry=analysis_result['promising_industry'],
-                compressed_summary=analysis_result.get('compressed_summary')
-            )
-            session.add(new_deal)
-            new_count += 1
+        for idx, future in enumerate(concurrent.futures.as_completed(futures), 1):
+            art, analysis_result = future.result()
+            
+            if idx % 20 == 0 or idx == len(new_articles):
+                print(f"분석 진행 중... ({idx}/{len(new_articles)})")
+                
+            if analysis_result:
+                new_deal = DealArticle(
+                    source_name=art['source_name'],
+                    title=analysis_result.get('title', art['title']),
+                    link=art['link'],
+                    summary=art['summary'],
+                    pub_date=art['pub_date'],
+                    matched_industry=analysis_result['matched_industry'],
+                    matched_signal=analysis_result['matched_signal'],
+                    matched_financial=analysis_result['matched_financial'],
+                    growth_impact_score=analysis_result['growth_impact_score'],
+                    country=analysis_result['country'],
+                    deal_stage=analysis_result['deal_stage'],
+                    impact_score=analysis_result['impact_score'],
+                    news_grade=analysis_result['news_grade'],
+                    promising_industry=analysis_result['promising_industry'],
+                    compressed_summary=analysis_result.get('compressed_summary')
+                )
+                session.add(new_deal)
+                new_count += 1
             
     session.commit()
     print(f"[{datetime.now()}] 파이프라인 완료. 새로 추가된 유의미한 기사 수: {new_count}")
