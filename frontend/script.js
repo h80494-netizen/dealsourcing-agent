@@ -60,6 +60,27 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (json.status === 'success') {
                 document.getElementById('collected-count').textContent = `검색된 딜: ${json.count} 건`;
+                
+                // --- 동적 유망산업 필터 연동 ---
+                const industrySelect = document.getElementById('industry');
+                if (industrySelect) {
+                    const existingValues = Array.from(industrySelect.options).map(o => o.value);
+                    json.data.forEach(item => {
+                        if (item.promising_industry && item.promising_industry !== '기타/미정') {
+                            item.promising_industry.split(',').forEach(ind => {
+                                const cleanInd = ind.trim();
+                                if (cleanInd && !existingValues.includes(cleanInd)) {
+                                    const opt = document.createElement('option');
+                                    opt.value = cleanInd;
+                                    opt.textContent = cleanInd;
+                                    industrySelect.appendChild(opt);
+                                    existingValues.push(cleanInd);
+                                }
+                            });
+                        }
+                    });
+                }
+                
                 renderTable(json.data);
             }
         } catch (e) {
