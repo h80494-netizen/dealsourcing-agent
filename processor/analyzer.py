@@ -89,19 +89,55 @@ def analyze_text(title, content="", url="", source_country=None):
             if any(kw in full_text for kw in kws):
                 deal_stage = stage
         
-        # 3. 영향력 점수 및 뉴스 등급
-        base_score = calculate_mock_score(found_industry, found_signal, found_financial)
+        # 3. 영향력 점수 및 뉴스 등급 (AI 문맥 평가)
+        impact_score = 0
+        news_grade = "C"
+        reason = ""
         
-        impact_score = base_score * 20.0
-        
-        if impact_score >= 80:
-            news_grade = "S"
-        elif impact_score >= 60:
-            news_grade = "A"
-        elif impact_score >= 40:
-            news_grade = "B"
+        api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
+        if api_key and (compressed_summary or full_text):
+            try:
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel('gemini-1.5-flash')
+                eval_prompt = (
+                    "당신은 벤처캐피탈(VC) 심사역입니다. 다음 기사의 [제목]과 [내용]을 읽고, "
+                    "이 벤처/스타트업 기사가 투자 대상으로서 가지는 '영향력 점수(0~100)'와 '등급(S, A, B, C)'을 평가하세요.\n\n"
+                    "- S 등급 (80~100점): 대규모 투자 유치, 인수합병(M&A), IPO, 대규모 흑자 전환 등 매우 결정적인 기사\n"
+                    "- A 등급 (60~79점): 유의미한 실적 개선, 시리즈 A/B 등 중간 규모 투자, 주요 파트너십 체결\n"
+                    "- B 등급 (40~59점): 일반적인 산업 동향, 신제품 출시, 초기 시드 투자\n"
+                    "- C 등급 (40점 미만): 단순 가십, 광고, 벤처 투자와 무관한 기사\n\n"
+                    f"[제목]: {title}\n"
+                    f"[내용]: {compressed_summary if compressed_summary else full_text[:500]}\n\n"
+                    "반드시 아래 JSON 형식으로만 응답하세요. 다른 설명은 제외합니다:\n"
+                    '{"impact_score": 85, "news_grade": "S", "reason": "평가 사유 1문장"}'
+                )
+                response = model.generate_content(eval_prompt)
+                
+                import json
+                # 정규식으로 JSON 부분만 추출
+                json_str = re.search(r'\{.*\}', response.text.strip(), re.DOTALL)
+                if json_str:
+                    eval_data = json.loads(json_str.group())
+                    impact_score = float(eval_data.get("impact_score", 0))
+                    news_grade = eval_data.get("news_grade", "C")
+                    reason = eval_data.get("reason", "")
+            except Exception as e:
+                print(f"AI Evaluation failed: {e}")
+                # Fallback to rule-based
+                base_score = calculate_mock_score(found_industry, found_signal, found_financial)
+                impact_score = base_score * 20.0
+                if impact_score >= 80: news_grade = "S"
+                elif impact_score >= 60: news_grade = "A"
+                elif impact_score >= 40: news_grade = "B"
+                else: news_grade = "C"
         else:
-            news_grade = "C"
+            # Fallback to rule-based
+            base_score = calculate_mock_score(found_industry, found_signal, found_financial)
+            impact_score = base_score * 20.0
+            if impact_score >= 80: news_grade = "S"
+            elif impact_score >= 60: news_grade = "A"
+            elif impact_score >= 40: news_grade = "B"
+            else: news_grade = "C"
             
         promising_industry = ", ".join(found_industry) if found_industry else "기타/미정"
         
@@ -109,13 +145,13 @@ def analyze_text(title, content="", url="", source_country=None):
             'matched_industry': ", ".join(found_industry) if found_industry else None,
             'matched_signal': ", ".join(found_signal) if found_signal else None,
             'matched_financial': ", ".join(found_financial) if found_financial else None,
-            'growth_impact_score': base_score,
+            'growth_impact_score': impact_score / 20.0,
             'country': country,
             'deal_stage': deal_stage,
             'impact_score': impact_score,
             'news_grade': news_grade,
             'promising_industry': promising_industry,
-            'compressed_summary': compressed_summary,
+            'compressed_summary': f"[{news_grade}등급] {reason}\n{compressed_summary}" if reason else compressed_summary,
             'title': title
         }
     return None

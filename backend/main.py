@@ -245,10 +245,29 @@ def create_keyword(kw: KeywordCreate):
     return {"status": "success", "message": "Keyword added"}
 
 @app.delete("/api/keywords/{keyword_id}")
-def delete_keyword(keyword_id: int):
+def delete_keyword(keyword_id: str):
     engine = init_db()
     session = get_session(engine)
-    kw = session.query(SearchKeyword).filter_by(id=keyword_id).first()
+    
+    if keyword_id.startswith('builtin_'):
+        session.close()
+        return {"status": "error", "message": "내장 키워드는 삭제할 수 없습니다."}
+        
+    try:
+        kw = session.query(SearchKeyword).filter_by(id=int(keyword_id)).first()
+        if kw:
+            session.delete(kw)
+            session.commit()
+    except ValueError:
+        pass
+    session.close()
+    return {"status": "success"}
+
+@app.delete("/api/keywords/name/{keyword_name}")
+def delete_keyword_by_name(keyword_name: str):
+    engine = init_db()
+    session = get_session(engine)
+    kw = session.query(SearchKeyword).filter_by(keyword=keyword_name).first()
     if kw:
         session.delete(kw)
         session.commit()

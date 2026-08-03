@@ -66,7 +66,7 @@ def run_pipeline():
             if idx % 20 == 0 or idx == len(new_articles):
                 print(f"분석 진행 중... ({idx}/{len(new_articles)})")
                 
-            if analysis_result:
+            if analysis_result and analysis_result.get('news_grade') in ['S', 'A', 'B']:
                 new_deal = DealArticle(
                     source_name=art['source_name'],
                     title=analysis_result.get('title', art['title']),

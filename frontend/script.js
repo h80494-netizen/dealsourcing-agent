@@ -80,14 +80,24 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // 뉴스 등급 스타일링
             let gradeClass = '';
-            if(item.news_grade === 'S') gradeClass = 'news-grade-S';
-            else if(item.news_grade === 'A') gradeClass = 'news-grade-A';
-            else if(item.news_grade === 'B') gradeClass = 'news-grade-B';
-            else gradeClass = 'news-grade-C';
+            let gradeTooltip = '';
+            if(item.news_grade === 'S') { 
+                gradeClass = 'news-grade-S'; 
+                gradeTooltip = 'S 등급 (80~100점): 대규모 투자 유치, M&A, 확실한 흑자 전환 등 핵심 시그널'; 
+            } else if(item.news_grade === 'A') { 
+                gradeClass = 'news-grade-A'; 
+                gradeTooltip = 'A 등급 (60~79점): 유의미한 실적 개선, 중간 규모 투자, 주요 파트너십'; 
+            } else if(item.news_grade === 'B') { 
+                gradeClass = 'news-grade-B'; 
+                gradeTooltip = 'B 등급 (40~59점): 일반적인 산업 동향, 신제품 출시, 초기 시드 투자'; 
+            } else { 
+                gradeClass = 'news-grade-C'; 
+                gradeTooltip = 'C 등급 (40점 미만): 벤처 투자와 무관한 단순 기사 (수집 안 됨)'; 
+            }
 
             tr.innerHTML = `
                 <td>${item.country || '-'}</td>
-                <td class="${gradeClass}">${item.news_grade || '-'}</td>
+                <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${item.news_grade || '-'}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
                 <td>${item.promising_industry || '-'}</td>
                 <td><a href="${item.link}" target="_blank" style="color: #60a5fa; text-decoration: none;">${item.title}</a></td>
