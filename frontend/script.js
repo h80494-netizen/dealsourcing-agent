@@ -108,10 +108,39 @@ document.addEventListener('DOMContentLoaded', () => {
         btnLoader.style.display = 'block';
         statusBadge.textContent = '수집 중...';
         statusBadge.classList.add('active');
-        updateMsg.textContent = '실시간 수집 파이프라인이 실행되었습니다. 백그라운드에서 뉴스를 분석 중입니다.';
+        updateMsg.textContent = '데이터 수집 및 분석을 시작합니다 (약 1~2분 소요)...';
         
         try {
             const res = await fetch('/api/crawl_now', { method: 'POST' });
+            const json = await res.json();
+            if (json.status === 'success') {
+                const pollInterval = setInterval(async () => {
+                    try {
+                        const statusRes = await fetch('/api/crawl_status');
+                        const statusJson = await statusRes.json();
+                        if (statusJson.status === 'success' && !statusJson.is_crawling) {
+                            clearInterval(pollInterval);
+                            updateMsg.textContent = '수집 완료! 화면을 새로고침 합니다.';
+                            setTimeout(() => location.reload(), 1500);
+                        }
+                    } catch(e) {}
+                }, 5000);
+            } else {
+                updateMsg.textContent = json.message;
+                btnRealtime.disabled = false;
+                btnLoader.style.display = 'none';
+                statusBadge.textContent = '대기 중';
+                statusBadge.classList.remove('active');
+            }
+        } catch (e) {
+            console.error(e);
+            updateMsg.textContent = '서버 통신 오류';
+            btnRealtime.disabled = false;
+            btnLoader.style.display = 'none';
+            statusBadge.textContent = '대기 중';
+            statusBadge.classList.remove('active');
+        }
+    });
             const json = await res.json();
             if (json.status === 'success') {
                 updateMsg.textContent = '실시간 수집 명령 전송 완료! 약 1~2분 뒤 다시 조회해주세요.';
@@ -173,6 +202,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         body: JSON.stringify({ keyword: val, type: 'industry', category: 'custom' })
                     });
                     const json = await res.json();
+                    if (json.status === 'error') {
+                        alert(json.message);
+                        return;
+                    }
                     if (json.status === 'success') {
                         keywordInput.value = '';
                         loadKeywords();
@@ -307,11 +340,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const category = document.getElementById('setting-kw-category').value;
             if(!keyword) return;
             
-            await fetch('/api/keywords', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ keyword, type, category })
-            });
+            const res = await fetch('/api/keywords', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ keyword: val, type: 'industry', category: 'custom' })
+                    });
+                    const json = await res.json();
+                    if (json.status === 'error') {
+                        alert(json.message);
+                        return;
+                    }
+            if (json.status === 'error') {
+                alert(json.message);
+                return;
+            }
             document.getElementById('setting-kw-input').value = '';
             loadSettingsKeywords();
             loadKeywords();
@@ -328,13 +370,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const country = document.getElementById('setting-domain-country').value;
             const category = document.getElementById('setting-domain-category').value;
             
-            if(!url) { alert('URL은 필수입니다.'); return; }
+            if(!url) { alert('URL은 필수입니다'); return; }
             
-            await fetch('/api/domains', {
+            const res = await fetch('/api/domains', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, url, rss_url: rss_url || null, purpose, country, category })
             });
+            const json = await res.json();
+            if (json.status === 'error') {
+                alert(json.message);
+                return;
+            }
             
             document.getElementById('setting-domain-name').value = '';
             document.getElementById('setting-domain-url').value = '';

@@ -110,11 +110,29 @@ def get_articles(
         })
     return {"status": "success", "count": len(data), "data": data}
 
+is_crawling = False
+
+def run_pipeline_task():
+    global is_crawling
+    if is_crawling: return
+    is_crawling = True
+    try:
+        run_pipeline()
+    finally:
+        is_crawling = False
+
 @app.post("/api/crawl_now")
 def crawl_now(background_tasks: BackgroundTasks):
-    # 백그라운드에서 크롤링 파이프라인 실행
-    background_tasks.add_task(run_pipeline)
+    global is_crawling
+    if is_crawling:
+        return {"status": "error", "message": "이미 수집 중입니다. 잠시만 기다려 주세요."}
+    background_tasks.add_task(run_pipeline_task)
     return {"status": "success", "message": "실시간 데이터 수집 및 업데이트가 백그라운드에서 시작되었습니다."}
+
+@app.get("/api/crawl_status")
+def get_crawl_status():
+    global is_crawling
+    return {"status": "success", "is_crawling": is_crawling}
 
 @app.get("/api/domains")
 def get_domains():
@@ -128,6 +146,13 @@ def get_domains():
 def create_domain(domain: DomainCreate):
     engine = init_db()
     session = get_session(engine)
+    
+    # Check for duplicate url
+    existing = session.query(ResearchDomain).filter_by(url=domain.url).first()
+    if existing:
+        session.close()
+        return {"status": "error", "message": "이미 존재하는 도메인입니다."}
+        
     new_domain = ResearchDomain(name=domain.name, url=domain.url, rss_url=domain.rss_url, purpose=domain.purpose, country=domain.country, category=domain.category)
     try:
         session.add(new_domain)
@@ -150,18 +175,50 @@ def delete_domain(domain_id: int):
     session.close()
     return {"status": "success"}
 
+import yaml
+
 @app.get("/api/keywords")
 def get_keywords():
     engine = init_db()
     session = get_session(engine)
     results = session.query(SearchKeyword).all()
     session.close()
-    return {"status": "success", "data": [{"id": r.id, "keyword": r.keyword, "type": r.type, "category": r.category, "is_active": r.is_active} for r in results]}
+    
+    data = [{"id": r.id, "keyword": r.keyword, "type": r.type, "category": r.category, "is_active": r.is_active, "is_builtin": False} for r in results]
+    
+    # Read config.yaml
+    try:
+        config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config.yaml")
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = yaml.safe_load(f)
+        for cat, langs in config.get("keywords", {}).items():
+            for kw in langs.get("ko", []):
+                # Check if it already exists in DB to avoid double listing
+                if not any(d["keyword"] == kw for d in data):
+                    data.append({
+                        "id": f"builtin_{cat}_{kw}", 
+                        "keyword": kw, 
+                        "type": "기존 (내장)", 
+                        "category": cat, 
+                        "is_active": True, 
+                        "is_builtin": True
+                    })
+    except Exception as e:
+        print("YAML Load Error:", e)
+        
+    return {"status": "success", "data": data}
 
 @app.post("/api/keywords")
 def create_keyword(kw: KeywordCreate):
     engine = init_db()
     session = get_session(engine)
+    
+    # Check for duplicate keyword
+    existing = session.query(SearchKeyword).filter_by(keyword=kw.keyword).first()
+    if existing:
+        session.close()
+        return {"status": "error", "message": "이미 존재하는 키워드입니다."}
+        
     new_kw = SearchKeyword(keyword=kw.keyword, type=kw.type, category=kw.category)
     try:
         session.add(new_kw)
