@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VC Deal Sourcing Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .news-grade-S { color: #facc15; font-weight: bold; }
+        .news-grade-A { color: #34d399; font-weight: bold; }
+        .news-grade-B { color: #60a5fa; font-weight: bold; }
+        .news-grade-C { color: #9ca3af; }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Configuration -->
+        <aside class="sidebar glass-panel">
+            <header>
+                <h1 class="gradient-text">VC Deal Sourcing</h1>
+                <p class="subtitle">AI News Tracking & Scoring</p>
+            </header>
+
+            <form id="filter-form">
+                <div class="form-section">
+                    <h3>국가 필터</h3>
+                    <div class="input-group">
+                        <label for="country">국가 선택</label>
+                        <select id="country" multiple size="5" class="multi-select">
+                            <option value="">전체 국가</option>
+                            <option value="미국">미국 (US)</option>
+                            <option value="한국">한국 (KR)</option>
+                            <option value="유럽">유럽 (EU)</option>
+                            <option value="일본">일본 (JP)</option>
+                            <option value="중국">중국 (CN)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>투자 절차별 필터</h3>
+                    <div class="input-group">
+                        <label for="deal-stage">Deal Stage</label>
+                        <select id="deal-stage" multiple size="5" class="multi-select">
+                            <option value="">전체 단계</option>
+                            <option value="Deal Sourcing">Deal Sourcing (딜 발굴)</option>
+                            <option value="Due Diligence">Due Diligence (실사)</option>
+                            <option value="Investment">Investment (투자/조달)</option>
+                            <option value="Value-up">Value-up (성장/수주)</option>
+                            <option value="Exit">Exit (IPO/M&A)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h3>뉴스 등급 및 산업</h3>
+                    <div class="input-group">
+                        <label for="news-grade">뉴스 등급</label>
+                        <select id="news-grade" multiple size="5" class="multi-select">
+                            <option value="">전체 등급</option>
+                            <option value="S">S 등급 (High Impact)</option>
+                            <option value="A">A 등급</option>
+                            <option value="B">B 등급</option>
+                            <option value="C">C 등급</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="industry">유망 산업 검색</label>
+                        <select id="industry" multiple size="5" class="multi-select">
+                            <option value="">전체 (All)</option>
+                            <option value="AI">AI / 인공지능</option>
+                            <option value="바이오">바이오 / 헬스케어</option>
+                            <option value="전기차">전기차 / 모빌리티</option>
+                            <option value="반도체">반도체 / 하드웨어</option>
+                            <option value="핀테크">핀테크 / 금융</option>
+                            <option value="로봇">로봇 / 자동화</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>정렬 방식</h3>
+                    <div class="input-group">
+                        <label for="sort-by">정렬 기준</label>
+                        <select id="sort-by">
+                            <option value="latest">최신순 (Latest)</option>
+                            <option value="importance">중요도별 (Impact Score)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>커스텀 분석 및 키워드 추가</h3>
+                    <div class="input-group">
+                        <label for="custom-keyword">새 키워드 추가 (Enter)</label>
+                        <input type="text" id="custom-keyword" placeholder="예: 양자컴퓨팅, AGI" style="width:100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <div id="keyword-tags" style="margin-top: 5px; display: flex; flex-wrap: wrap; gap: 5px;"></div>
+                    </div>
+                    <div class="input-group" style="margin-top: 10px;">
+                        <label for="custom-url">기사 URL 수동 분석</label>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="text" id="custom-url" placeholder="https://..." style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                            <button type="button" id="btn-analyze-url" class="btn-primary" style="padding: 5px 10px; font-size: 0.8rem;">분석</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons" style="display: flex; flex-direction: column; gap: 10px;">
+                    <button type="button" class="btn-primary" id="btn-apply" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                        <span>필터 적용 및 조회</span>
+                    </button>
+                    <button type="button" class="btn-primary" id="btn-realtime" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                        <span>🚀 실시간 업데이트 (데이터 수집)</span>
+                        <div class="loader-spinner" id="btn-loader" style="display: none;"></div>
+                    </button>
+                    <button type="button" class="btn-secondary" id="btn-settings" style="margin-top: 10px;">
+                        <span>⚙️ 설정 (도메인/키워드)</span>
+                    </button>
+                    <button type="button" class="btn-secondary" id="btn-report" style="margin-top: 10px; border-color: var(--accent-color); color: #c084fc;">
+                        <span>📋 AI 리포트 브리핑</span>
+                    </button>
+                </div>
+            </form>
+        </aside>
+
+        <!-- Main Dashboard -->
+        <main class="main-content">
+            <!-- Top stats / progress -->
+            <section class="status-section glass-panel">
+                <div class="status-header">
+                    <h2>대시보드 모니터링</h2>
+                    <span class="badge" id="status-badge">대기 중</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-stats">
+                        <span id="collected-count">검색된 딜: 0 건</span>
+                        <span id="update-msg" style="color: #60a5fa;">최신 데이터를 확인하세요.</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bottom-panels">
+                <!-- Data Preview -->
+                <section class="preview-section glass-panel" style="flex: 1; display: flex; flex-direction: column;">
+                    <div class="preview-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                        <h3>산업별 뉴스 파이프라인</h3>
+                    </div>
+                    <div class="table-container" style="flex: 1;">
+                        <table id="data-table">
+                            <thead>
+                                <tr>
+                                    <th>국가</th>
+                                    <th>뉴스 등급</th>
+                                    <th>투자 절차</th>
+                                    <th>유망 산업</th>
+                                    <th>기사 제목 (클릭시 원문)</th>
+                                    <th>Impact Score (1주)</th>
+                                    <th>출처</th>
+                                    <th>수집 일시</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                                <tr>
+                                    <td colspan="8" class="empty-state">데이터가 없습니다.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass-panel" style="max-width: 900px; width: 95%; max-height: 90vh; overflow-y: auto;">
+            <div class="modal-header">
+                <h2>설정 (도메인 / 키워드)</h2>
+                <button class="btn-close" id="btn-close-settings">&times;</button>
+            </div>
+            <div class="modal-body" style="display: flex; gap: 2rem; flex-wrap: wrap;">
+                
+                <!-- Keywords Section -->
+                <div style="flex: 1; min-width: 300px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
+                    <h3>🔑 키워드 관리</h3>
+                    <div style="margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <input type="text" id="setting-kw-input" placeholder="키워드 입력" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <div style="display: flex; gap: 0.5rem;">
+                            <select id="setting-kw-type" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                                <option value="추가">추가</option>
+                                <option value="기존">기존</option>
+                            </select>
+                            <select id="setting-kw-category" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                                <option value="industry">산업(industry)</option>
+                                <option value="deal_signal">투자시그널(deal_signal)</option>
+                                <option value="profitability_revenue">수익성/매출(profitability)</option>
+                            </select>
+                            <button class="btn-primary" id="btn-add-kw" style="padding: 8px 12px; font-size: 0.9rem;">추가</button>
+                        </div>
+                    </div>
+                    <div style="max-height: 400px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+                        <ul id="setting-kw-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <!-- Keyword items will go here -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Domains Section -->
+                <div style="flex: 1; min-width: 400px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
+                    <h3>🌐 글로벌 타겟 URL 관리</h3>
+                    <div style="margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <div style="display: flex; gap: 0.5rem;">
+                            <input type="text" id="setting-domain-name" placeholder="이름 (예: TechCrunch)" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                            <select id="setting-domain-country" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                                <option value="미국">미국</option>
+                                <option value="한국">한국</option>
+                                <option value="일본">일본</option>
+                                <option value="중국">중국</option>
+                                <option value="유럽">유럽</option>
+                            </select>
+                            <select id="setting-domain-category" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                                <option value="뉴스/미디어">뉴스/미디어</option>
+                                <option value="기업 DB">기업 DB</option>
+                                <option value="정부/정책">정부/정책</option>
+                                <option value="협회/기관">협회/기관</option>
+                                <option value="정보마당">정보마당</option>
+                            </select>
+                        </div>
+                        <input type="text" id="setting-domain-url" placeholder="URL (예: https://techcrunch.com)" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <input type="text" id="setting-domain-rss" placeholder="RSS URL (선택사항)" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <div style="display: flex; gap: 0.5rem;">
+                            <input type="text" id="setting-domain-purpose" placeholder="목적 설명 (예: 글로벌 스타트업 투자...)" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                            <button class="btn-primary" id="btn-add-domain" style="padding: 8px 12px; font-size: 0.9rem;">추가</button>
+                        </div>
+                    </div>
+                    <div style="max-height: 400px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+                        <ul id="setting-domain-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <!-- Domain items will go here -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Report Modal -->
+    <div id="report-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass-panel" style="max-width: 900px; width: 95%; height: 90vh; display: flex; flex-direction: column;">
+            <div class="modal-header">
+                <h2>AI 요약 브리핑 리포트</h2>
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn-primary" id="btn-print-pdf">PDF 저장/프린트</button>
+                    <button class="btn-close" id="btn-close-report">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body" style="flex: 1; position: relative; padding: 0;">
+                <div class="reveal" id="reveal-container" style="width: 100%; height: 100%; display: none;">
+                    <div class="slides" id="reveal-slides">
+                        <!-- Slides will be injected here -->
+                    </div>
+                </div>
+                <div id="report-loading" style="padding: 2rem; text-align: center;">리포트를 생성 중입니다...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reveal.js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

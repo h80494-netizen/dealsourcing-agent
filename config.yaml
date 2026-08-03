@@ -1,0 +1,28 @@
+keywords:
+  industry:
+    ko: ["AI", "인공지능", "피지컬 AI", "로보틱스", "바이오", "헬스케어", "전기차", "클린테크", "딥테크", "B2B SaaS"]
+    en: ["AI", "Artificial Intelligence", "Physical AI", "Robotics", "Bio", "Healthcare", "EV", "Cleantech", "Deeptech", "B2B SaaS"]
+    ja: ["AI", "人工知能", "フィジカルAI", "ロボティクス", "バイオ", "ヘルスケア", "電気自動車", "クリーンテック", "ディープテック", "B2B SaaS"]
+    zh: ["AI", "人工智能", "物理AI", "机器人", "生物技术", "医疗健康", "电动汽车", "清洁技术", "深科技", "B2B SaaS"]
+    de: ["KI", "Künstliche Intelligenz", "Physische KI", "Robotik", "Biotech", "Gesundheitswesen", "Elektroauto", "Cleantech", "Deeptech", "B2B SaaS"]
+    fr: ["IA", "Intelligence Artificielle", "IA physique", "Robotique", "Biotechnologie", "Santé", "Véhicule électrique", "Cleantech", "Deeptech", "B2B SaaS"]
+  
+  deal_signal:
+    ko: ["시드 투자", "시리즈 A", "프리 A", "브릿지 투자", "신규 창업", "스핀오프", "데모데이", "엑셀러레이팅", "TIPS 선정"]
+    en: ["Seed funding", "Series A", "Pre-A", "Bridge funding", "New startup", "Spin-off", "Demo day", "Accelerating", "Raising seed", "Stealth mode"]
+    ja: ["シード投資", "シリーズA", "プレA", "ブリッジ投資", "新規創業", "スピンオフ", "デモデー", "アクセラレーター"]
+    zh: ["种子投资", "A轮融资", "Pre-A轮", "桥接融资", "新创企业", "分拆", "路演日", "加速器"]
+    de: ["Seed-Finanzierung", "Series A", "Pre-A", "Brückenfinanzierung", "Neugründung", "Spin-off", "Demotag", "Accelerator"]
+    fr: ["Financement d'amorçage", "Série A", "Pré-A", "Financement relais", "Nouvelle startup", "Spin-off", "Journée de démonstration", "Accélérateur"]
+  
+  profitability_revenue:
+    ko: ["흑자 전환", "영업이익 흑자", "BEP 달성", "손익분기점 돌파", "매출 급증", "대규모 수주", "계약 체결", "MOU 체결", "파트너십 체결", "MAU 증가", "ARR 증가", "MRR 증가"]
+    en: ["Turn to profit", "Operating profit", "Break-even", "Revenue surge", "Large order", "Contract signed", "MOU signed", "Partnership signed", "MAU increase", "ARR increase", "MRR increase"]
+    ja: ["黒字転換", "営業黒字", "損益分岐点", "売上急増", "大型受注", "契約締結", "MOU締結", "パートナーシップ締結", "MAU増加", "ARR増加", "MRR増加"]
+    zh: ["扭亏为盈", "营业利润", "实现盈亏平衡", "销售额激增", "大额订单", "签订合同", "签订MOU", "签订合作协议", "MAU增加", "ARR增加", "MRR增加"]
+    de: ["Gewinnzone", "Betriebsgewinn", "Break-even", "Umsatzsprung", "Großauftrag", "Vertrag unterzeichnet", "MOU unterzeichnet", "Partnerschaft geschlossen", "MAU-Anstieg", "ARR-Anstieg", "MRR-Anstieg"]
+    fr: ["Retour à la rentabilité", "Bénéfice d'exploitation", "Seuil de rentabilité", "Forte hausse des revenus", "Grosse commande", "Contrat signé", "MOU signé", "Partenariat conclu", "Augmentation des MAU", "Augmentation de l'ARR", "Augmentation du MRR"]
+
+settings:
+  poll_interval_minutes: 30
+  db_path: "dealsourcing.db"

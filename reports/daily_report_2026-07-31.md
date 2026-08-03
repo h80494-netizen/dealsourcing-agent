@@ -1,0 +1,3898 @@
+# 글로벌 VC 딜소싱 일일 요약 리포트 (2026-07-31)
+
+## 💡 오늘의 AI 트렌드 브리핑
+API 키가 설정되지 않아 AI 브리핑을 생성할 수 없습니다.
+
+---
+
+## 🏆 S 등급 기사 (2건)
+### 📍 Deal Sourcing
+- **[한국] 애니메이션 마약 코미디 'Getting Lost', 시리즈 및 스핀오프, Gersh 배급 계약 체결 - animationmagazine.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi-wNBVV95cUxNX240VkRIM3hCSl8ycGNtX3pfdkhxd2NkMTAzcG1RMUlKRUE5ZEl6RnEtX1FORjUwekpYU2g2SDFIa1VScUtVNEFHS1hHbWNjek5sTkc1Z1VqWDdCYjdTd21PQ1B4NnYzSnJfVTZpZnFiUHoxRk9sdHhfT3hRQ2tmV2gwR2NucGFuUVNpLWhIZWdhNVFCeWRTeTN2bUV0YUdtNG1ZclY1a1E0N0RjOWlWYW8yZkhzbnFhcGJEWXo1LTI2YVVvZFhFQW93T3VTNXJkS0x5b0FzVFB5SzQ1S2tLNzJPdVNabWhpMVpSdHJ2YlNxNFpWSW51SG5kcGlGYlMwSGpZclo5SXZqN2ttMldVaVRVblR6QV9INlNvLWQ1Zy1mOTBxV0NWRVZ4amJnQkR0NEM3eHRtNld0UmxBR3FKTjBDLWdtWGRQam1CMjdWc0VYZ2VWN19rd2FSTUhNN0I2STB5MFZvalEtQ3dGUUZFeGxJTC1yMWtlT0wtaGFMVzBXQy1xN1cybzNQd0ZHcXg4XzRpWnRnUDJVeENXT0tqNTUxWkJSaTFKdGJ2NWxVVXdaOHhLVm5udVJFc0RWYVVMYlY5a3NWbUp2S1FSODl4ZXBBMkNhSHpwOWlXOXpUUnBlTHpyNDdZbmd0YkpQOENUaGdibHNnanNidzg?oc=5)
+- **[한국] 위플로, 스타버스트와 엑셀러레이팅 계약 체결 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UNzZXdHdaa092a0xlVkdSeDZjTXY5ZFB1LXZsa1Vadkhtb0tDNk9xVGQ1NGpSTVItU1RmNWl1RVNvYnRXNWxxYg?oc=5)
+
+## 🏆 A 등급 기사 (117건)
+### 📍 Exit
+- **[한국] 노바벤처스, 새팜 프리 시리즈 A 투자∙∙∙우주 데이터 AI 기술 상용화 가속 - 한국M&A경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5rR1NhX1ZyMDdKMjZKX05aaWg2dGh3bW12V3pEcFlNXzlVTng3SDlWWTVQTTdSLTcwWG5ISTJhSjlOTDVfUG1zTkxFQ0tpdVczNjFQTDZiamtJYVE0SFpaMFEzN3hnNTdCQlE?oc=5)
+- **[한국] 피렐리, 나폴리 페데리코 2세 대학교 스핀오프 스타트업 ‘라이드센스’ 지분 인수 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOY2cybl9LdWNaSll0QmFRWlhQOHhMbnNPZklubm5udnJLRFVwOEZrQTRUa21jTGdsdVFELUIyQU44c3otRURMbW5zTmNneGdROTFNU2pWNXFvdzNiQXA2QmhFTVkxQjJmcnJuZkNhaHdvLWc1YWRlWHhXcFdNQWxPeg?oc=5)
+
+### 📍 Value-up
+- **[한국] 매출 만드는 AI ‘앙코르’, 3천만 달러 시리즈A 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfUnJzelVkLXA3R28zN2dXS19IR3hJYlFpMzJOaDFSbnExYzd1MktINFFMUWxIQzBmSWR5NXR6bmkwLUxvWmhvNWNudG5aam8?oc=5)
+- **[미국] AI 스타트업 링크알파, 시리즈A 340억 유치 ‘Tech 집중채용’ 나서 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zYldMRE5jQXdaaVI3UHVaUUk4bng0eDNmZk9lWWZUamVKRmoyMkhsQ2tidDd0TzZ3bkRPaGhkcjNjTXZUSWlxN2xnaXNDdVFxdnp3aQ?oc=5)
+- **[한국] AI 스타트업 링크알파, 시리즈A 340억 유치 ‘Tech 집중채용’ 나서 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9ja2JZaWNXTlI0UFUwS0RUZ0FsRDhYbnVjbG1hNW1uc1FSOHJUVW1Sd3Y4Tk1hclFHVHp2Rlo3X2tHc2VTOGc?oc=5)
+- **[한국] KMI, 중국 아이캉 헬스케어그룹과 MOU 체결 - 메디칼업저버**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1MQWtNMW9OTTZoZVRQOERRdmVuUWg2UUk5Qkx6M0ttWjBhVVFiMzBSZWRrVTgzR01VTndEOGtiXzVfUHc1VXN6WHVCZEdXYlVLVVZRTm1uXy0xbXBJbjI2WXZjeHA3dEd1bW5z?oc=5)
+- **[한국] DKSH 코리아 헬스케어사업부, 노바티스와 전략적 파트너십 체결 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9fbTZlVVU3Wk9ac04zZlc3bm5qT2pNODVmcHhxdWw0ZHlJT0EwYUg2YlFfZ1ZMV1NaUTdBdDdIZ2k1eVdYZ1B2TV92TWZwbFZEbU5rUmtlTmRRUEhMUEZSYzN4RnFHeTRRQ1HSAW9BVV95cUxQd0M4a3lGM2s4OVZ4cElISDVYQTRUN2RvRXhfV1dqRzRfeXBmRlpGUHhrZVd2cDdHWTFFbkdZNmlMcE1MdFpIWG9WaGJGaDdSTXJhTkREUXZOYkFvU0NEejdtMWtnQS1ad1pVUjFoZlk?oc=5)
+- **[미국] AI 기반 크로스보더 커머스 플랫폼 '사줘', 시리즈 A 295억원 규모 자금조달… 글로벌 확장 나서 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0TUllbHg4eGZtaXQzV2JDaWdTT3JIQktZeWozc3VHbmZKckhZeFVJb3RtTXU4TVU2MG5EVnFqM2h3REgwVXR6TEtiYUM0N1QyLTN2MXR5WXBIeDh3djBuSGpBOFhsQm8?oc=5)
+- **[한국] 지투지바이오, 셀트리온과 초고농축 항체 SC 기술 협력 MOU 체결 - MEDI:GATE NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vYUtNa3JWQnNHVzVXVTVZZ0lhV1dnUjZtMjhrb1RmVXhyZFh4TFp1dkdEMS0tNDEwdjFhUGg2Wk11T25OX1prNFNwSXlNc0UweFFjd05YYw?oc=5)
+- **[한국] 링크알파, 시리즈A 340억 유치 후 Tech 집중채용… AI·엔지니어링 8개 직군 모집 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE41NjVHT1VZck5BRTgyeEJWYWVac0l6SFZGWGUyekNFWnVSM3B0M0NFNHhBbXY5OWtENkdhT3dhY3RXWHZWUWVtUV9sYw?oc=5)
+- **[한국] 디피니트, Pre-Series A 브릿지 투자 유치…제조 AI 시장 확장 본격화 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IN3RJd0M1UWlLMnlMNElwdlM1X2ZvMEVjYktQeVFhekNnZHNfa0lmWFNZbFBSR0w5TU5mVjZIZm1WZ2ppS0ZRQg?oc=5)
+- **[한국] 디피니트, 프리A 브릿지 투자 유치…제조 AI 시장 확장 본격화 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1oM1E4eEEycWRsWFJ2Q1pIdjVUT01mTDVDZHA3bW5FRUR2MmwwZDI3dFl6UUpldmhNMmNNMExaTjdDLXdzenBqY1pPWktDYnA5VjlZaGpJaW53MWE0TnhhX3lEclhXUlVPZ2ZRcw?oc=5)
+- **[한국] LG전자, 英 옥토퍼스 에너지와 클린테크 사업 전략적 협업 MOU 체결 - 넥스트데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE80NjB4V3dkNzgycE96UWdWRFhzQjYyQVFFWXdlUXdVSk1zYk1INXB1Y29BazN3VEstQVgyQ3o2UEE1RTd3eFllZnFKN1ZBZWlDZVRMTG9xR2RzY19LX2dRVHd1TjgzOXZfbU9BMUdka9IBc0FVX3lxTE5IZWoyY3pSaEpMcFMtcDBPZXRxX1NvNldSZFJkcW5ER2ktcnp0LWVQZ1o5cmtINFNZalUxWm80QkhhZ25YMUxyb1NjcjBMdVF6ZU1fZ2xTQl9fWkdFTHJnVEV2aGhwWERqMXlMTXR4OEZPMDg?oc=5)
+- **[미국] Lyte Leaves Stealth Mode to Help AI Robots Tackle Household Chores - The Daily Upside**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitgFBVV95cUxQak44ekJTUW5LZ2s5NTVaYWMzd3JYeEFPd1A5dUZQdDYxUDBBajlRZlZCV2JMZy1aRldSXzVjQzRvdTM1a2JiUDNNZ1VUSXN5R0hCVXBmY2dBNk1oSWUybEp4N3hpeW1yS3VNNFlXTEVRTzJRNHQ1Ukd1RHlwRW1taDRLd1laVUZYdmtMSlg3eWhQbkJyZXpQSlVSdGZNVHdBNmpCUGRSMmpIT3g1T0FOaHZSV0x5dw?oc=5)
+- **[한국] 파수 AI, 2분기 매출 22.7% 증가…영업익 흑자 전환 - 디일렉**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NVUp0RkhKZTRlZ1hlLUpTRGJ2Tk55blE2YjFyS3hOLXhZanhaNnd4eVJ5UlM4SWRid1o5RzZNVmNPV2lvR0hiZW1QV0FrV2dYZ0NSTDJXUkZVcWVBbjl2MXY2N1A0Zw?oc=5)
+
+### 📍 Investment
+- **[한국] [AI서머리] 언엑스, 시드 투자 유치‧새팜, 프리시리즈A 투자 유치 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE52RmJqZHUxZ05XcXVCLW1oVV81cl96Zkt5b3RpbWhRMlJKZmduYnpiUUlLNUdmRGJWSVRGS09tVlR0ZDZkUFB6VEJlUFdOUzdTbWZ4RjFaRQ?oc=5)
+- **[한국] 대동로보틱스, 50억원 규모 '시리즈A' 투자 유치 성공 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwWWZfUEJRc1IxYkJtRDdjSElqQTVBQ0NtdjJWTV9FcC1vQ2Q1Qm5pbjk1dHV0d0Y3NHc0MlZvVEZvZFJHajhVc3BQRzBVWkx6RGx4SA?oc=5)
+- **[한국] AI 데이터센터 전력 병목 뚫는 스탠퍼드 스핀오프 ‘그리드케어’, 6,400만 달러 시리즈A 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE80RHplRXhVcl9wZmFTLUZCYnVZVDdwb0hGaENWRWQzYVU5czBBa3lRQXhyZHFDSU1pclNVN0pLcHhsTW45NUhlSE95WV9qOHM?oc=5)
+- **[미국] 피놀로지, 중기부 팁스 선정…"AI투자 에이전트 '캐리' 기술 고도화" - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE90U3hNN2JiWENjdnQtYjgwUHBwWVlZMVdWTUpGcXFSbGNIQlRZcTVoMTVQOFBpR3R3R2ozbnhwQnRKMUlhSUlFbG8tcl8xTWhfZ2duS1FkRGpJUnhFbk1TWExtek1INzRiRXfSAW9BVV95cUxQMlJySnVTSlVUbnhsQWdxWlZ0RVdRN0pyTllHM1BHNHZMZFRZWDgxb0daNm9mWUVzb2k2WWM0dkV5WnhkbWEzQlJ0RjFrTXRJaHVWNWVWSURRdEwtVmMxY1pkSUt5cG93eGdnMF95dGc?oc=5)
+- **[한국] 강원대 기술지주 투자기업 '메인', TIPS 선정…의료 AI 창업 생태계 성과 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWWlltZTN1OWZPTTV3ZzNuTHRnRDNLN1RCbkN2bGo2YXFMSWJzbzViRHlvVE1DU25HdEl4NHJMQnZ3ck5STlF2OTRmU1NBQQ?oc=5)
+- **[한국] 플랜트너, 프리 시리즈A 투자 유치…해양바이오소재 기술력 인정 - 아이뉴스24**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhN2JLQk1ZWGFpUlMzMUpaSEpFY3ZhRGk1YTNPSl9pX0VtMW1LZDRiOV85MThSdzJXalNIYWpObm9Nb2RuUG5CaE9xOA?oc=5)
+- **[한국] 친환경 소재 전문 '﻿플랜트너', 프리 시리즈A 투자 유치 "해양바이오소재 국산화 속도 높인다" - Queen 이코노미퀸**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9kWGQ1RVo3QXhmZ1VPSkJWalpYTnZXMjU3Yjk1SmdqZHdxSGJ0cmJNOURUUXhaUDFDWktScTBIUUk3SUVlN2xjbEJjSWFOeENEWTR2QWl3dUdzOWQtSE5TMlVsNHhpNjVhOVE?oc=5)
+- **[한국] 울산콘텐츠기업지원센터, IR 데모데이 성료… 기업 실질적 투자 유치 기회 제공 - 울산종합일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9Mb04yTDh6TlRyXy1ZWEN5b1paUHRwZ0R5ai1hOTVjTEtvQVdtbmt3SUxzc2FISmFRZWtoaHRnUDlZb29ORldFd3VxZllIalhyU1l2bWZWSUFIS1NnQ21yMk8wMVlndmI2NUdiRmhB?oc=5)
+- **[한국] 양산부산대병원, 바이오·의료기업 투자 연계 ‘데모데이’ 개최 - 메드월드뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFAwR1VqTlRzVEY5c2d4V3VITkNYSTR1aVBoOUVULXlqaDV1X19aSngzTGJzUzFKTlNrMXYtcmZIUXpMTTVGNlEtMFkyTUJGRFFXT1RadEpjbDhmVnUyVEpmbXVHUU1VdVlSTVFUbnFB?oc=5)
+- **[한국] 플랜트너, 프리 시리즈A 투자 유치…해양바이오소재 기술력 인정 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rcjFGVGpwM29mRHZKYUpuaEhJLXdXVzhKMXBmcVZwdmxNY05rUWdGVDhVSVdMUEJjUDlObzlKZ0x6S3NINlp0cG9yUG50SjM0UWFB?oc=5)
+- **[한국] [AI서머리] 자일로랩스, 시드 투자 유치‧경기창경, 유니콘 브릿지 IR 개최 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1MSWUyUEZpX250YTJ1eDcyQ3ZSd0tsNVBvVG1sMHpjQXNWRjBDWjJPdEpNWUh5RWdXalNldVBKeTA0dGlXMFhfWVVJcWxsaloyZUZQVm5TMA?oc=5)
+- **[유럽] 오토텔릭, 복합신약 ”美1상 승인“..시리즈B 브릿지 투자도 - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVSS1vMXM3T21JLTZ5aEloTXZaSFo1WEtnUVljdW1tNm9QNWpjclB5STFMZU8ycXY4TEowbkpkR3BGeEN5OTJId2c5dktnak82eWtEU2dqRQ?oc=5)
+- **[한국] 스트레스솔루션, MYSC 등서 Pre-A 브릿지 투자 유치… 누적 투자금 50억 원 돌파 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9LbGI1eS1SakFGT2V5NHVObjNzamZiX3hRMEtoR29XLVRKMk1kcXQ4bUFwVlFJVkxWQzFLd2F2X1RHSkdBck5ZYWtQY1NiOVd2X2JrdW0tY1FNYkUzTkFybVNYbEJZVU1MYnVNVw?oc=5)
+- **[유럽] 에봄에이아이, 시드 브릿지 투자 유치…심장 AI 제품화 가속 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5BQWhoc2YzQUlQQ0xlUFVXZkdlYWVzZFlqQkFndGs5UlRFaTdDX2prTWZsdVBtZ3pOVTI5cE4yTWQxajZDQ2lKWFlvMGMwdXFfMFVHQS1aTGRnTDBJZENmc1RZVk05LWdGQ3fSAW9BVV95cUxPUEU2VTNZNU9QRUc3aUw0WlBSMUhpd2VpcVdZZnMySmxCZVR6WExPdFY0NDVseE1jUXRJeGRuVFJfS1Y2cXNhVzRfRWR2R2Z0RHJoeVVROGkyT25qSmdqeHRSZU1CWTVMWkFUQjlQZHM?oc=5)
+- **[한국] 큐팁, 김기사랩으로부터 시드 브릿지 투자 유치…AI 영상 플랫폼 ‘타쿠’ 고도화 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFB2bjBFTUd1SnFNd0VjdGRlaF9jNkV4cjZwMVdHWU91MnVhaUYtWjlIY3BkaWtqZmRnbFhCc2xlcDU1U0FScFBJdw?oc=5)
+- **[한국] 리솔, 30억 규모 시리즈A2 브릿지 투자 유치…글로벌 전자약 플랫폼 도약 본격화 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1MNFBKQ3Y3cm5kcEo1X2pKWFVLZnRGVXlHZ2JRT2tQcHJPdWp5Q0EtcTFqQ1JWekk5ZG9NaW8zZmFURWlfQXBpWl9wS1FxT3NHUTlTOXJhZFpFY0Y2RTNJaFJDNUthdlVSQWRwSw?oc=5)
+- **[한국] [포토] 관악S밸리 브릿지 데모데이 및 투자자 매칭데이 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxPU0VkNktxSGgxWS1UUjJwSWdEa1JiNFBlUnVCcUNEN0RhMHZfTVVJekdaVEV0QThlNE5nY3JuUFRfbm1nTkZ2Z0kzbUdRN20tYjJySGFkMXNHVlE4aE11RDFWd0hXTGJ4bkFsazNIa2ttcDBNWkZoOTBiQThPOVF6TQ?oc=5)
+- **[유럽] 멘탈 헬스케어테크 '리솔', 30억 '시리즈A2 브릿지' 투자 유치 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9relV0eWtEcmdJLXJQcVQzOUZ6dXlmS01LbDFpUjBQbmFDcXhzM2w5NURMTUZjQ2JlYkp6b3pDVFdzM3NQMmRBbGNma0tyYUVtMWhBN1JyWnc1MkZ3RjBScFFCcU10T21qZXfSAW9BVV95cUxOcVRVaE5rY2dackhYd1VTbllxbFdzNy1mRW9JS3g3aWxXMmlJZndBSTVDQ0lLX0VBXzZpY2JfVGhHU3AzWEwtS3FXTFBOZHVnbDBjVGFfM2ptcGV1c29RM3hyM05DVi05LXhxZm1UUEU?oc=5)
+- **[미국] 경기혁신센터, 딥테크 스타트업 6개사 신규 투자…엑셀러레이팅 지원 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5rMUpIUTJkbXZvazJYNUtUS2N6R1Q3WTdHbVdQX0IyZ0tIenlSd2hHZHFvQ2tMcFNQUDlVaXhCTkd6WVVJMS1SMjdvYzVZN1VuWFFCZUZuVnpJM1U2ODd2dmJwZEs3X1cyb2fSAW9BVV95cUxQX2tjeHZkaEE3dzRWcXJpdXRNZkJQQkRMOHNsQm55eTh0ZUdEMGhTX0pDLWFMNzVQM2JCZGhPemZlNUI1MjhYNXdCVWFtaDhWa0R1SmVoMzBPVzBDYkdEUks3OENoZmlPV2wzOWtTQUE?oc=5)
+- **[한국] 버려지던 해조류에서 친환경 소재로…씨엔티테크, 플랜트너 투자**
+  - 요약: Coolidge Corner Investment participated as the lead investor in the Pre-Series A round, and Impact Square, Hana Financial Group-Qnesty, and Yuhan-Kimb...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102716/)
+- **[미국] 네이버가 투자한 웨어러블에이아이, 딥테크 팁스 선정 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxNRDhzY1BneV84ekhWVFZwbDY3bUJWYVVaWDlzS1pvb3gwLUJDa3dUaGc4QU5DaTZIZ0piWXVyRWlOTVZKVkRXcGM5RXl5TlhCQWN4WHU0MFhYSVdJMGhEc2ZlcGRyY3ZDSUNjeUFIUDB5UWt6dF9sRHBNR0V0VDRSd1Jn0gGWAUFVX3lxTE92MkNUSWhyU3dnMmJEMGVhbHpHYWFRd2NfbmkzS0NBRGUtSVM3N244Ujk1aElrWFY1Q3RaYjl1OUVaa3ZLZWwxYTVEYklhaDUzRWNGU2VLWHFSSTJ0ckhiOVdPNFRaWjFCWm85WHRpcHJrcjNSVkxjZDMtUTlnc3diZVQxRFRKR2pEdHVqRkJ5WWR0My16QQ?oc=5)
+- **[한국] 누빈다, 연세대 기술지주로부터 브릿지 투자 유치…딥테크 TIPS 추진 - beSUCCESS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5PZ1B5YjVHM04wdm1ENjJLdXFsYmlDRXVwUk5RblRibVRsRVJYb1BuU3N2MFRqWWdpaGl1LUdrdjZ2ek1yeGc?oc=5)
+
+### 📍 Deal Sourcing
+- **[한국] 중기부 TIPS 선정된 아크헬스케어, 재가요양 특화 온디바이스 AI 기술 고도화 - dt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9tend1cTU3OUlqRHZKb2J4TEU4TFMyY3lVNE9aYWxJSDVXQVFBYkx1N1d4RGpERU9WcDg3NzdmdDl0amxmckdfd3gyZEtVZw?oc=5)
+- **[한국] 중기부 TIPS 선정된 아크헬스케어, 재가요양 특화 온디바이스 AI 기술 고도화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JVFk2VXoxcmdDNjFVT2Y0S3FzdFRCUGZVT3Zkemh1c1pBejhLRDUwenVtbmhIUUt1YVUxa2RSMGVnNWRvY3AtaEl6VnNfSE0?oc=5)
+- **[한국] 삼립, 신제품 ‘비스포크빵’ 3종・‘잘익은 이야기’ 스핀오프 ‘설기이야기’ 출시 - ksdaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE8zRFNVOFBtX3ZiS2l5TFpJUjNOalM4M2V3SFhkRUlPM3JHallzWTNsaG5oY3gySkl1Ym1LZHl2OVVXYkV6T01fZXU4UEJ1bTRLSDFiV3RfMjFzYms4S0JHdnpZSW9Ya0ZxcHNn?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 제작 확정 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxQeHJMRUd1WkNSaVhYMV9ad1UxbXdwdEhobUhfUVQzYnVoMHdKc2MySi1sVWxBYUk1SHdpaHVYNE92SThQRmtlXzR4anhXSWdtWFpGQmZ4XzNVT1Z2c25LbWhjYUxTdGlLWDNQVFoyZUY4UXFvWEhSRlJkNVBfYjdjLQ?oc=5)
+- **[한국] 언더커버 셰프 스핀오프 제작 확정, 현지 셰프들 한국 찾는다 - stardailynews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9JNDk5Z04ySjI3aURvX2xuczFNc2prUXpVZ3dJcGFvNDY4RUw1RDdkaW94cnAxc3VPazhoREhpallYZWJ5akpkTG1fLXZRdExLcnJYUlBWcEVlNEM4SF9JUG0zOXFMVnBiUEszZ0pMVG02dXRu0gF4QVVfeXFMTVVidWxWbk1XZ3FYWFcyWEFnZWd4eVZqdllUaVhMdU9RdGNSSXYzUXlOTEd1Wng1MlgzTldLeEFZODlmczVrRU9SQWRCbnV2Z2Z4RW9JWHVJaGE2UUhibnJzek5YVUpHNFg1YkotTDhrS1hIZTZJNHh2?oc=5)
+- **[한국] “다음 연애는 언제?”…사주도 ‘스핀오프’ 만든다 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxONUlqWHYtRUJqR0V6dXZZaEJodWdWTnFLMXZIUlRfbzMwWlBPdGZBUi1rd0xrU1F4TzBhRFNFcmFJRy1vdGVSMmh5MHF0TzJlYmRiQ0M5RG42RFNqbWRDV3NMYndtZ3kwZkpuWDhtZFpJNFp6a2ZTMGdIejNmZWZuVA?oc=5)
+- **[한국] 영화 `파묘` 스핀오프 웹툰, `네이버웹툰`에서 만난다 - ddaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE11ZTNTYk1jS1JabEJ5RVp3Ri1QNEZ3UUpTR2dveU9TSHdrZmMwWUdzeDE5VzY3VDVZQ25hRktQaTFXQWNBWHZpWGZrN29wRmxZYkFFSzV4RTdURGdyMnlSZXV3?oc=5)
+- **[한국] 중기부 TIPS 선정된 아크헬스케어, 재가요양 특화 온디바이스 AI 기술 고도화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTFBlNC1BeUhQQ2ZzYWlITnJGVUdlNXhnS3J0RTQ4ZEVsV1lMNlpObVpxeDh3dEtFNHVFMGJtSThRQ0tNVDhyaFE?oc=5)
+- **[한국] 워커린스페이스, 스케일업팁스 선정···AI기반 위성 수명 연장 핵심기술 개발 - hellodd.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYTRwa3ZfLXBLdm9JTFU4Z1JmUkotWEpTQ0dGbVZabGdqZXZLZ0ZBbFpCZVEtRTIzZ016VlkyOG5EeFpKbWRaS3Y0T3l1TGVZU2RZcnMyVEhGUU9ibkhFWkN3b0dZcUFqbGc?oc=5)
+- **[한국] 피엑스프리메드, 팁스 선정…AI 차세대 정밀의료 시스템 개발 착수 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EQTgyYS1zZTBrMnZPNlZfYXcwLXgxNTBtUDRRR1VHaC1yLURiN29Udm1XMml1TzJUTlZxQ21McnVCRllFTVNQTXl3bVo0R28?oc=5)
+- **[한국] 청구스 운영사 데브올컴퍼니, 팁스 선정… 외상거래 AI 엔진 개발 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxPVjR6OGRFcTN5RUpnTzZvU2RrbF9PbS1qeEVsbGpxLUVPUV9tMDJsM3ctWmFSX01rNHNZc1JuRzhaUnc1dmNMRTctcmxYRVM3dGFSbllWWWJlMW9hT0ZYTlJMZ3NEbzU5U3o4YUZSY0xUXzJqZ2Y2Rjc1MG5yVXF2Q0dFd2Z1RmZfcDFMMtIBoAFBVV95cUxPUWtaeUtEeWVqSFJHS3J6ckJiYW0yLWlONkN2VFJadHNickdFeXc3XzlCMVlsSy0xRWI3czJpNDFPUzJMTk1IRVRqNi13c2pZZlQzRmRiU1NzS000NkhucXBZcGNGSjNnQkFJMlRUbmdYRHA4NmF4V2RMaTNtV21yQ2xRbHhPWTVMUFo5UE0wRzdlNUZUM2ZCMHFsaXRNejFB?oc=5)
+- **[한국] ROAI, 스케일업 팁스 선정…AI 팩토리 구현 핵심 기술 개발 - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE42N2NqeEN4Z1lKcmRyQTItczVTYldabFJBTTlvcmtsUXJsSEtqTnJyLXVCb0ZmdWxyTFBGNG51ZFFpcGt6Q3JZYVZiQW1RYl9KN2tYanRfc0Q1TFlzalNUd1hfSXdHR1VzelHSAW9BVV95cUxNeGstd2tidzYxZE84N29BalU2TEtnRTN5MkZmeXZtQ2dhc3RKNEZPb2g3YkYxX1RCV1VSVHlFdGVLMXVXMVVUemJ4WmxzYVJqaUoyMk1BU2ZlZk5hQzBIVTllbHVFWDZGWVRVb2ZpUUU?oc=5)
+- **[한국] AI 마케팅 솔루션 ‘플레어레인’, 중기부 팁스 선정 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE91YlpRWGxVdGE3TEJiZWZDeXhsdkF5dzlHZHR3dmZFOUpETngxWGlXSENuR1g3S1pvRHBNd19XZ0JzajlsYlJFQmZrYzk2SU1xRUJ1cjFiNmhmdHYxVXp6Q0VjVnFfUQ?oc=5)
+- **[한국] KOIIA 발굴 기업 '네오와이즈', 중기부 TIPS 선정…방산 특화 Physical AI 플랫폼 개발 본격화 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE44WElzYlBNWWYzMnNuWW5ZbXZiVC04OExncDZzT0sxNmkxYXRGUGVDaEh1cEx5dDYzMXhDT3JjZXYtRmtpTmJ4QXJLZGpwQQ?oc=5)
+- **[한국] AI 마케팅 솔루션 ‘플레어레인’, 팁스 선정 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MNW5zeGNaajc3eEw1OEJNdmU0cU0zSV95dmNQamItYktjVUhFOEFLeGRTb1ZVNl90SmQ4b0ZtT3NhOTBRcW50TWdmdHYyOTQ?oc=5)
+- **[한국] 모빌리티 태크 ‘공카’, 딥테크 팁스 선정 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE05c2Rqd0pCSWZuLWVPQWlsc2Y1T0pyTmg0ZW43YUVlUHJfSTZWS3l4dzRhakxnR0NjN2djOF91QTJGRVJEMU5IZlQ2LWlsRmc?oc=5)
+- **[한국] KOIIA 발굴 기업 '아크헬스케어', 중기부 TIPS 선정…AI 기반 K-Care 디지털 돌봄 플랫폼 개발 본격화 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE00ZW1feVBnS1pZZEpKT2xfTEd5TlNuVVNDTW9hMWI0dU9LUEVNblplSFc2akpoYXNhRHIzWVM5Q21vVk5GdmR4VldYcUZkZw?oc=5)
+- **[한국] 씨쓰리브이, 중기부 팁스 선정 ··· ‘AI 신원증명’ 인프라 선점 박차 - 데이터넷**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9vdmxySS1Pd3F5QmZoc2xMZ0xoYXA1QnR5RVUwMEU4UnBKRXBuQlRzQU0ycmZfRE56Q0J2T3Y3WjJXQkZrNFNMYkdRRElKbm82RGVlRG1FWHlfanFnTzhuNW0tWFFXaEFES0Z5Zw?oc=5)
+- **[한국] 진료 경험을 연구 자산으로…이문원바이오, TIPS 선정 계기로 천연물 소재 개발 확대 - 유스연합**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZX3lsZWMtLW8xelhxVmlGdlZpNTc5QmU3REsyZFA5cHRvSzRkRnlLQ0QzOURSZ2dVQjBKeXloU1hwMy1oVE81QzhVWXRId0dmQ2c?oc=5)
+- **[한국] AI 인과추론 스타트업 '자블리',TIPS 선정 행정 자동화 플랫폼으로 글로벌 시장 공략 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IeFRqLUc4RWdJRUY4Y1diYjE5VUhaQjl5NHBwclpmS19oN01rcDhnb0NqakE3WTE4aW5MVDBKSS1ZQzd1YVQwdHpHWi1BekdIajJiWXI0TzlicUg3MGhueGMwWHktSFk?oc=5)
+- **[한국] 스튜디오에임, 팁스 선정…AI 마케팅 콘텐츠 기술 강화 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TSHkzQ0g4UnFieVAtdmJSY2lPSlYyRzNNSEhXU19feHlKR2pfQTVsTUpicVBfc01uNlhqN1hySUozZzV5Ql9CYTZLMkd4MkE?oc=5)
+- **[미국] 용인시산업진흥원, 딥테크 스타트업 데모데이 마무리 - 이뉴스투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5CLU9BeTlkM1dneHdzN0JwUS1VcjdaODFkVFV6emNVZ3REcXlNTk9rS3ZjWWxyb08yb0Jncmp5M055WEY3aExuc1F6YVVYZEczMDA2aEpWaF9sNUpyc0VwSG9XTjF0VVJqQWphRWd2cFTSAXRBVV95cUxORW1mLUpKd2t5VnN3alcwOWJhaVlXNThrSzhQcWhZRHRaQTg3SzZtZTVENDNJdDRRTi1MQzF3a1cxNFFBU3g1SFUyYWEycmtqWjJITlVUcGh5OEFjN09lVFR4V1VMcGRFbTNzWFktV2E3WFpmLQ?oc=5)
+- **[한국] 용인 딥테크 스타트업 육성 결실…'DeepTech STARTUP Batch 2026' 데모데이 성료 - 내외뉴스통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1velprYS1Jc0RRdUdMNmFIUVFKVDhUaU5SbFBsbjVkdkRIdEhoQUl2eEphdUgtWUFoaWpsZjNGUkRWNHVBMXNmVlhscnNkZGRpM0hNTXE5WnpXRjJ0alExX016ZS1pRzJfOG1BOdIBcEFVX3lxTE5STlE2UFpiYS1ETmpleHdPQk42Z2VMNmJEVGxhdl9pQU5CamI4RmJuMWFpY3VwcThTd1ZQT2FCaUJpUUp5U2lKa1EtdGxsQmotY01XY2ZBWWpQbWJEd0RRS0JjMkdMZDBRTTJYd1o2QjQ?oc=5)
+- **[한국] 경기도, AI기업 20곳 글로벌 진출 지원...데모데이 거쳐 12곳 최종 선발 - 아주경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE52c2JfU2tTbmV4M2FDUnlnUXA4UEctLWlpMlZXcnpRWlFYTkhXREktUGoxUEJzR2NQU3YtTGZkY0hHWWFLVE9vNTFxQVB0b01fM2l1YjRBRWVXd9IBWEFVX3lxTE80bkEyZk00ejN5RjFYM2drUjQ3Tmo2Zm9wbGtFRmpKWENfTm9XSzhVSGxMeGVSU1ZzZ1V1OHFLal85dkVweW9tOXEzMmdwbVYwU0tMZWpseno?oc=5)
+- **[한국] KT, AI로 업무 방식 다 바꾼다...데모데이 개최 - 디일렉**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rMVF3R2RycVBlLTBNME9TZTBSNFJseDZrNUJPMC0wV1pvT2ZDbURiVFhWeExPRjF6cDZDNUdYaWp5VmlkbEJhWlFPUHhweVlLeEFqZnJKak9MVUlYcWEtZE1nR1hIZw?oc=5)
+- **[한국] KT, AI로 일하는 방식 바꾼다…'AID-X 데모데이' 개최 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CVXFsTmNxVk5saWJxV2laVndLbS04WS1Eb1VoaHlvRXdBZHNtNklQXy1Bbmd3Qm84cHVJQnNLcmppUEc4WHBYVXFGc19TaEk?oc=5)
+- **[한국] KT, ‘AID-X 데모데이' 개최 - 아시아에이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBhQW10RlFpUTU3TnFVSzhTOFFFYzJFMjliQUZiR3Y5bDRCUjlGeUpoS1NLWVRGU3dzVi05WXFjckhhN1Q1ZGhBNVFaekdqbTNqMEdGcWpFQk1zcWxhc0RxdTBtSFhBWG96elHSAW5BVV95cUxPZXZBRC0xdzAxOGUyQThfajRfZV93RzVnN2FXQ05vUDNDRllVQzd1alh3ZzBEV1VPVksyd0VFZ2JMR1Q3SF9HMVhtUnlRb0FSOHRPdGttU1JGZGJIZC1iWDNzS053YVhjc2JFMUVHQQ?oc=5)
+- **[한국] KT, ‘AID-X 데모데이’ 개최…AI로 개발·업무 방식 전환한다 - 아이티데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE04Z1UyRlMwYXgzYlFrX01ZaS1ieUFjTmZqUlcxUUF2TVd5c2xXaEhPdGdNOGJPNGpQb215SUJjek1NZElCSmpvOHowUHk1VERtX2stY2VSd2lUVU1Mdnlldnd2ZGJZMWhE?oc=5)
+- **[한국] KT, AID-X 데모데이 개최…AI 활용 업무혁신 사례 공유 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4ZW5DRXgzNnZBemZBLWhKeDlONXN2bVB2Q1lkME83WlRkNnN1V2RHMGNVRzBhNklfbUIwLUprMUFOei16bnY5WnFTbFh1dw?oc=5)
+- **[한국] KT, ‘AID-X 데모데이'서 AI 혁신 사례 공유 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wTHY2ZGNaRFN4VG5JSGV2eXBidnI3Zk9OcFpCSlpCamFBQkhHSUt5YUlRWGlWTVB2UWpFamRxdTllLVpWejJqTHQzaTdjSVZxSC1jckN0TjV4Y3kzZVVlOVFrdENiVnk3?oc=5)
+- **[한국] KT, AID-X 데모데이 개최…AI 기반 개발·업무 혁신 공유 - 중소기업신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1CUWlVS0dTQXhXRVY0Vk1LVUFtcEJ3bmlBUmJWV3hVeHhISk1OZmxuUExqNkxzeVB2YWctRXJFQjN0R0VKd19oV3d1S2lQbGJYNW9uaEpGVnItUHNSQXlfOXZPNHZsZ1NCaTY5R2hR?oc=5)
+- **[한국] [Telecom & Now] KT, 'AID-X 데모데이' 개최 - ebn.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMWGM3NzEyMnFBWTF0MWEwVXEwQXVhdWtZSndxRlBjOGNpNGFsSXZHU2pCb01MN1E4NWZPUVpGQmFSa3NUcW9CbC1pUHI4VVBNZlVSNUJnZUJtSlloMmJGNDZlOExEVllh?oc=5)
+- **[한국] KT, ‘AID-X 데모데이’ 개최...기획·운영까지 AX 가속 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EOEIzOXBPeS1zOGo4U3FiVGFCVkdacjNicjhzVlRBR09EN1YtY3lLZmFybzdOY3doMFkwVHB6TEZ1dlFOVGNORGVKeDFlTDV6N1HSAVNBVV95cUxPVlBFblJIZm9UT0tnZmdweUNaY29kbVlPNXhqa2dUc0pIS2ZwYmVIdk56akxjXzYtYjlNa1NMSDMxWENDdzhYQ2hjRS1JNV9SQmNRcw?oc=5)
+- **[한국] KT, ‘AID-X 데모데이’ 개최…AI로 개발·업무 방식 혁신 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GdlBMX3Bmd2xMeGdyYjF6QVRReUJpd20zWHFMOEI0RjhvTXU4ak9YLXRrYUNjaTltV0dhUktiT19OVXBaaVlEQUtxeTR6b3BZYW55Rg?oc=5)
+- **[한국] KT, 'AID-X 데모데이' 개최…AI 경험·노하우 공유 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE16X3haMGp3T1M5S2FseVVEZWRjRjF2WEllcTFZYUw1d0JkWkZEa2RhdjUtQU5SV3oyX1BuLWJQMEJUTjNFWGpKME05SkZkQ1JfYmxEcjhidEo0dDQxVFppNg?oc=5)
+- **[한국] KT, ‘AID-X 데모데이’ 개최… AI로 개발·업무 방식 혁신 - 뉴스웰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5uVU9Ec3lSVnZxTng3dGlqek9CVU9ESUlpdWNYcE1XSTB6S1I1Mnc4NTVJV0dOMElxUXlvcVd6QW04QlJxUUlkb2Q3TjNHMzR2UG41cDAxenphMTRDRUNwOHZkYzVrT2o5MzZTdg?oc=5)
+- **[미국] 현대차 정몽구 재단, 실리콘밸리 임팩트 스타트업 데모데이 개최 - Hyundai Motor Group**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixgFBVV95cUxQRkxta1d0eXNuU1hjN25zYXlPdlpjVjZyMFNhQ3lVTmFpWlMxMWttcW9PVVJSOHRwUEtpQk1kWjNtUDlpczhrWDRCTHk2UkttVVMxeVlYQWVyZWVUZi1jQUJPcFlkbjNvV0p6dFBsajVsU3VKUUtVNFVNNlVnanpiTmtQYUdHSnZqRTRscHJPTkZnU3lHeFMybTZtTzBKUzRmUUc1VlFjbUN1R1M3ZjQ4WHZMcU5XM3VIREFqQURSTkRkemdNSWc?oc=5)
+- **[한국] ‘바이오 인사이트 데모데이’ 개최 - 부산일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE8yUGdqY3BrdDh2YS05TnFXdXBOWGp5RFdTLUlZMXRaUVdfNUJfWnJpYXY0NzB5X3R5SzUzWVBsbS1vLW1tSDRMYUJGN2R5WGNJb3dqTUlSLTIyY3pDNDFubXFEbF9pX1ZQQ1Q4LWNPWHZNMVI3?oc=5)
+- **[한국] KT, 'AID-X 데모데이' 성료...AI 활용 개발 혁신 사례 공유 - 핀포인트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE1hNVpkUF9yelJ0ZDJvNE9OMG9IR2tUVG5lQUw3VkhQY1dNaGRzWS11MnVjWEdWcmZBQjlQY0ZWLWktdmZ5dVhqV2dRYjRQOGEyTGIxMjhjVHR4SEhQSjNZc252djhRTjRpWHFnb2NRdU5IYmfSAXdBVV95cUxOVGQzVHBDY1ZNWlIwRnJlYzRCdlVIUVVkTDdTWk1CeEQ0bjdXOU5lZlJTMmFySXV5SmtKdWd3bDJvdVg0VHVCTHR1MVlzeGoxUWhVVHJnVkktWGpCUEZYWEdycFFmZFdxMzYzMjJ3d05lcHpFdWNPQQ?oc=5)
+- **[한국] [포토]아산 유스프러너 데모데이, 학생 부스의 기업가정신 팀 프로젝트 소개 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxQMEZzT3lnLVA2VWhpNFBsd2VnaG1UXy1uMmppaW5kZTZMd3U4TUhOa1RhNGpRcGxiV0lXbUdDZzZPNWd3Y2FVOC1TRnRST09YdXFoUjdoenYtSngwdDNFMWd5ZEZILVZ3TzVhampfQnUzVlpLcmRZbHY5UTVzc2cyRg?oc=5)
+- **[한국] 라이프커넥트, ‘2026 안양시 청년 엑셀러레이팅 지원사업’ 선정···피트니스 AI운영 혁신 본격화 - 이넷뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE95aFlmZnVZd05UV2hnUzlqdnVrUnNrNGRCMDlYNEd2MVE4emF3OFNDaHRvc1Y0bFBCUlBwZ0NfT2IzWUp2WVBESkktRVFmVGgwU2w0Ymp6ZVhmMnhESDNJV2VNc09LMTVtbDVzUdIBcEFVX3lxTE0waW56VjVIZHRRNV9OTjlRLTZIMEJuZXFkcGpLS2FiSFhKTEt1S0ZLXzVNSVFtMnVnQ3JlU3NuMzdWZ2hfRGQyQ19FazZsMW82R2FxZGtsM3pWQmZ6Qk5kTTkzX1pHQjg3eEg0b3AwLUw?oc=5)
+- **[유럽] 슬러시 무대 선 경북 딥테크…포스텍 '유럽 엑셀러레이팅' 성과 가시화 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9rMkV2Z0dUQktoanFWSjlKVkItcEJVVVpSUUxnMkdsVjVtdjQxZUU1elFvZW5vaDlEbkN6dzdPS0VEV3dPVzVCYmtjMnA3NkxtWXU2NHR3R2VpNFlwcGtVOHBEOEJNWWJpaEFXMw?oc=5)
+- **[한국] 위플로, KIC DC 주관 글로벌 엑셀러레이팅 프로그램 선정 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9OaldBaFNMSkhHOXBWUW1QaVRGdENIaWZLeTM0TlpxYkkyRzZYeVJHSEpkdGJYbXJCOEdYU0paTUM0MUNhRFk5WV8xRHRuWDhSeS1EMVVOOHJtZzdsWE9NT3k4TWE4X21HeVE?oc=5)
+- **[한국] 아울바이오, 스케일업 팁스 선정…1개월 지속 비만치료제 개발 박차 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DblJpVnJRdzJyWFdIWHNhd1lBWkp6b2RLZ3lBZzdublRDWmZuZEJVSGJ1RlNWdHFsRlZmRHMwNEdGRGNHUV8taUUyQnhoWDUtbnc4?oc=5)
+- **[유럽] 청구스 운영사 데브올컴퍼니, 팁스 선정… 외상거래 AI 엔진 개발 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWtaeUtEeWVqSFJHS3J6ckJiYW0yLWlONkN2VFJadHNickdFeXc3XzlCMVlsSy0xRWI3czJpNDFPUzJMTk1IRVRqNi13c2pZZlQzRmRiU1NzS000NkhucXBZcGNGSjNnQkFJMlRUbmdYRHA4NmF4V2RMaTNtV21yQ2xRbHhPWTVMUFo5UE0wRzdlNUZUM2ZCMHFsaXRNejFB0gGgAUFVX3lxTE9Ra1p5S0R5ZWpIUkdLcnpyQmJhbTItaU42Q3ZUUlp0c2JyR0V5dzdfOUIxWWxLLTFFYjdzMmk0MU9TMkxOTUhFVGo2LXdzallmVDNGZGJTU3NLTTQ2SG5xcFlwY0ZKM2dCQUkyVFRuZ1hEcDg2YXhXZExpM21XbXJDbFFseE9ZNUxQWjlQTTBHN2U1RlQzZkIwcWxpdE16MUE?oc=5)
+- **[한국] 워커린스페이스, 스케일업팁스 선정…AI 기반 궤도상 서비싱 기술 개발 - beSUCCESS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5MeC1kZms3WENhZ3lRLWNHLVFsMm13N3RxX3VnbldtUUtlMWNXc3UtVi1KdG9ZVFI0WXlzelVXVmtkaElYVGc?oc=5)
+- **[한국] 서강대 하정욱 교수 창업기업 AIVY 팁스 선정.. '스크린리스 AI 웨어러블 개발' - 베리타스알파**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFA5R1NHQkxtQmdBSVR1NmJtN2sxVWNsQWdHbmFOdlVMSDZaX3ZDQ19IXzZQRWQ5bXNHVFZLancwVUdvQ05Oc3FTT0lISE1yTktuVWdfbm8tUlItMlFHXzR1YjVlVjJncldDaUJydA?oc=5)
+- **[미국] ROAI, 스케일업 팁스 선정…AI 팩토리 구현 핵심 기술 개발 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NbkM0cDQ0SEVtRDNNQ2MxM05XM1p6d1lZcVNUS3VybnpDT0hXaEsxTE9qdkE0d2hycENFTUk4RlRreGV0d0wtUVlsOFcxYnh3Y0dZ?oc=5)
+- **[한국] 블랙피그에이아이, 팁스 선정…세무 AI 에이전트 R&D 8억 확보 - 네이버 프리미엄콘텐츠**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOWkV5Z0N2MXMtUVdXR1pzOUtoaGxZeG1YbFdWY01fNnhaOHg4Z050WHJ4dTVCUTBrZ0FIUXBmRkM4YXprYU0yYXRBdGhDYUJndzRrc0NObWdIdDNWclNVeVQzZm8wOWY2VGJqTjVHMWwtUjdOSzZWazljekJnQmFwVQ?oc=5)
+- **[유럽] 제이인츠바이오, 스케일업 팁스 선정…3년간 30억 지원 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9PYkc3TzBYYTNpTVBmWExEUEN5YlhfcW1jSk16YUNSeXV4bzRMR2dlNFBrVUdDanYxUk1PcUtGUGhyM3JWWkx2RUo0MGZpSXlXbU9IcVc4bFFONFFqc0M2cVZ6R2kxQWRlMkwwNtIBckFVX3lxTFBWbWVkUmVsNk13NW5MREFLZmFfaHU4ODRHc21yZzNqWkRIUGdINmJIQy1TOG5LOEpmaVRTTlBHdW5EWU5HbUdZaWR3T1hRbmpTT3BQSkc3TDR0TXBJTVRDcFpjZjE3R2N3MWVuQ3RGYUJnUQ?oc=5)
+- **[한국] 디디에이치, 스케일업 팁스 선정…30억원 지원받아 치과 AI 고도화 - PRESS9**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE11b2NqYXp5bnU1RzdNaG1FdkEwYlFYU25NbGFQWmt6dnFtOGZsZnFCaXViLTZlX2xQUEsxOVdTbkpBTUNxbTNyXy1RSzE4eHpxU01YaWlZQVhOaVpxV0Y0OXRVLXVNdw?oc=5)
+- **[한국] 농어촌 여행 플랫폼 ‘노는법’ 운영사 바바그라운드, 팁스 선정… AI 관광기술 주목 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KSGhaSkp5TDBsWEEwY21jbFNCRURYS2JOUVRkbTgzZzBnMW9ybE90OV9lTmtWQ1BGM0RlUHZzRFFhekt4akNPakk1a1pKUE8zTk5raGZnWWMzMWx1VTNpOG9WWVVpOU1k0gFsQVVfeXFMT2k4ZkFmcTZKOHRGUmdzRGx1dW1nY3AzcFhBY2VLOS1qUjBvclN6Sm9iUm53ZDVHR2lrWFlSQ3dlYVRRYUtocmZvcUg2SDdCWkh3QWxXTEtXRzZOZkxSMVNWY3dCaEFtN2oyTDBW?oc=5)
+- **[한국] '칸' 공식 상영작에 AI 영화 올린 스튜디오에임, 중기부 팁스 선정 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9TUW8yUUF6NGt2OEstLWdVWG1IWmJIbEZFNEFVbHBLYzhOVVQ1elFSWXdBVThELXhuQTZQdXR4WDBNZFo1TTE5Z19ZRGlhYXdFXzhfVHZlaVpvdTE1aFdVNkRhdUhyN2RabFHSAW9BVV95cUxPWDZhaVJGRWxPRVdjVFBaU1h3Mk1zZmV5N3FGZy1jRjY1UE9MLU1hR2NvR2paenNQcnh2WmRZaE52VG5UM3dhZXZ6VjUwWGdDYlMyU1k5OTRoWlZzUVlyY3BYYVhlN2xNbGtiakw5WlE?oc=5)
+- **[유럽] 크리에이터벤처스튜디오, 팁스 선정…AI 기반 IP 사업화 엔진 개발 - 싱글리스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE90cW8yNlFfUDZSZmtyVlRReURzYzc3aF9vVVAtWUdtOXZKVkdLQU1rWmFraWRfcVpHQnJSZ0w5Y05tRE9ydFRPN1htQXpkQjNDMERUUWU4Y0tvT01XWTdaSVVUXzRIdw?oc=5)
+- **[한국] 한국어 AI 가드레일 ‘튜닙’, 스케일업 팁스 선정 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tTjR3blk2UlB1THd6MVRQcEN4amRkMEZFcnB6OTdJZXBPNlNIV2FVeXNqWW9QVHJScklsMlNZSWJNTm96S3ZDUzhoaGhpNGM?oc=5)
+- **[한국] “AI 환각·정보 유출 실시간 차단”… 티냅스, AI 신뢰성 기술로 팁스 선정 - 벤처스퀘어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5acEVWTEpxMXpHbThDc2NEQno1QmlIbWU1bDZDRVhpQ3dlSzlKUUgwTERyVzRIek1zdy1OcEQ2RVY4VWhBZGxUUmpzemJfOVU?oc=5)
+- **[미국] Former SentinelOne COO emerges from stealth mode with $100M raise for AI security venture - The Business Journals**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipwFBVV95cUxNM0VIWVdaZjJGa3NtU2k3ZDZCSEhWaXpYTEh1aVVybDQzaTNHYTl4Tk9JeFdNdVRhelhreHlZcVlsWUJVTlhURnZmODItZk16SV8zNUZpWjRaRlNOcVIwMU5iYWJkSnZfVFhjYkg3bVJwRFhRZzJGY0ZhQXJRTTA1WHNUY0JpU21Kbk10OFVSUWZpNXA3ZGVhVjNEcm9NOXMwMmN4TnoyZw?oc=5)
+- **[미국] Healthcare platform Carefam exits stealth mode, raises $14.5 million - Staffing Industry Analysts**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivgFBVV95cUxOTmx0M3BBbUhXejBQMUZ5bDI2Y3VOQkk1NGZrdXlUeVpLSHo5czNoVE4xZXcwbmdBc2NNWXpqc1p4RXdQb1BTSE55UERZd0VoaVVNcmM5cmUyMFpBRTgxcV9TX1Q2aVpybVp3TXplMFFETkpoNjIxY0tGWnJHUEVUZkE5MXliVlNuV3dnQ1NoM3U1MWJxM1BRdUpBYm1USy16MEFGa2hfZkV3X09veGdCWV9NNko4TWtfNkEyaFBR?oc=5)
+- **[한국] Carefam exits stealth mode with $14.5M for AI-powered HR platform - McKnight's Senior Living**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxOcnJ2LUZ6RGJsUFphWXpSLXNWeWQtVEM4YTdYTlU2OGlYakstTUhSaTlxY1R1UEp6Y1NNRTdYcmNnR3d0OGRzVGVKOFdRZUVwc2UtS0VkdUhYRlpQZTNnd3QxbEFObTF3aHlBYmVWZGlsSGJOd1g4dTdLRjhCNVlJYkh0bGpGMUZ0NHEyN21yaUdHb1Bnam1ZWnhJV0g4LTVydE5DV1IzRGVRS1JK?oc=5)
+- **[한국] Hiding in plain sight: McMaster study shows bacteria can activate ‘stealth mode’ to evade attacks from phages - Faculty of Health Sciences - McMaster University**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZDBDei1jV1I3WGNpLTdWVER2YmdUcnd0dHh1emFTeHhuZ2pGclNJc2hMYWVpWXZocGthX19QTmtoMHJNUEJqS1ZPWm5qQUcyeGhoWkpoVUZxQkoyUXAyQ0o3aXotT3YyWkJUOWdiUXFnblBtdTRzbWoyLUJjTi1TQnV0SHA5UWxheFJxdkZvQ3RhRld6WS16MWpjUGZOSkpQQklQNmF5WkxsRnhzbmQxY0RWYTFGTG41SlRicU92dG9hRTBmQkRfb01HM1NNN0NfWElF?oc=5)
+- **[미국] JFJ Proposes Use Of Stealth Mode On Police Body Cameras - radiojamaicanewsonline.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxQV0JydktmaTdUYXZ2ek4wZXk2Z0RGYnRQSXVjOHMycW9mZkttRjUtWHFXYnhTM3o5VkpBYktILVB1ZW5EQXZiekxQcnQ2cjhWSldNclVJUmdYSm0zY29adGsxVTUwektmbkREakJ5R1JKeGhleHJtMkZUVDVXbXJrdk1YVmdKZFlVYVFFeTUzV1Z6Z3Jsckd1V3FHazQ?oc=5)
+- **[한국] The Shrouded Air Jordan 4028 Hybrid Enters Stealth Mode - Sole Retriever**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxOWk5ZckNGRXFYQVU4ZXhtV1JCNm9xV080TTRQYlpabFh3THpVdHhMTlFwTWlSWkY4RzNfMWdQcVpITFRsbDNyZ0x3d3VlUmxENUtTdy1LNHZwZlBLX3V4aXBVU29yZjFvaXJDZFpZZ3d3RG9sS3NNSjM1aXdqdHF2bjN1UHJHemZPcUlGUDZHOWpxbHIwYkpIZFM3WGRzSlduZnRtWExR?oc=5)
+- **[미국] The Hellstar x adidas AE 2 Black Camo Goes Stealth Mode - Sole Retriever**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMioAFBVV95cUxOVFJvUEdINXROUEtfZkpCQ2NXLUdIclIydWdZMG5XazA3STBrcjNJeWRSVFRlSzdiTm1rSHphM1BQMFprd0doTEktdmNPUTZuQ2lDZ2swSnVUVDJrV2haN1lORGJYai1XRFItajFtdTV1Zm82M2pYNFJoQUotRDVUS0tsQlF3NENTRU9JYWw0U1lSVjdmMDNQTUM2dldCRDFf?oc=5)
+- **[유럽] German AI ConTech startup conmeet secures €1.3 million pre-Seed as it exits stealth mode - EU-Startups**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdjRncDJZdUJ1VWp4ODFMVFRaaDVPS0lnUXZJVlFtQUYxWExWdUJ6Y0RqMTkwUk9kOUR4ejZwY20xa2d6NjZuRFA5eTBCd0I5Q0w1d3VhLTQyMnhJYjhHUTBWM29XMkhfTndwSklDNHVTZlBSdTZxc3M0cmQ0aTk4Nm1vUEt4QXZ3SXpxYU1TaUxvQTM2STV4RFJpZ05TaE5OWDQ5RUpWVU1Ja1NlZHpFV3UwdXBQUWtrbkYtU3IzTDl1NUk?oc=5)
+- **[한국] AMPERA LAUNCHES FROM STEALTH MODE TO REVOLUTIONIZE CLEAN ENERGY FOR THE AI ERA - PR Newswire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ1BwMHVVQTNpWWd1TGtXTk9LZDlXY3BIN1JBZU5ncDFha1J4dGhRNEVHQ1FuWVNGY2ZHTFVFZGg4MWJlQkVEYUVqRHVvUUw3WUVFX0h2VnFIcmVwZS1XZEd5dWlUUHlIMGVta21Ya0lvUFZsNTFVREdCc3lrUmdvY1oxbG5CelZYQlFwbTNXbHpYWnEzWDE4Y3FmYkRZMV9JTjRHUU9xcnJNLTk3WmlLTTV1WnA1NGZlUXluRHNjVmx4QzUxUmRoOUNGZ0szODg?oc=5)
+- **[한국] Imper.ai Emerges From Stealth Mode With $28 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilgFBVV95cUxOZmF1TVZWUk41enpTSEV2UmZhZDFKVENncmROcmgyWFJUVXRyM3VmaDUxN3lqUnRVb29DU1o1cFRpcDBIaXctajY4djJ2Znc2MW02N09zTWVIZWItT01IcmZTa1ZILWdvQmF0SmYtaDJsN0dGNmZDQXlUX0VqaDZNUnRoY3Y0bTV0ZFFidVc3ZDd4eDkwNXfSAZsBQVVfeXFMTV9DNXFJWkg4cDlLQkg2Q0NFQ2tJR2ZLMTc1ZW80VVBsY1EwbHc4aGwxaUNTNmU1OUdYdTZxR0ZoUUQ1d0RDaFdmSWdnYmhWTTJhT2pGcEZQUkFLcEVPelpwajZKMHNDbnFyZm9WOG1qU1RCU3pIcGRHeWRQVnhNYmtJcmNIM0dEYl9ram1YYkQ4bndLTUR0Rjc3Z0k?oc=5)
+- **[유럽] Tech news: Abacor AI assistant launches from stealth mode - Accounting Today**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxQS3hLU1Y2Z1FRdHhuTjZvSkZmVkhNVTVsb3pjX2kxenlTWWR0N3JIaHJvUGNPOW4yUWlVZ2ZBdFJKMzdiTkhnRGhnaHR5TFBmRGF5cERjNGlzZ1h0ZFphdEhhM0l1b2UzUWdFeVVYY3gxandQNWN5ZjVXeUczQ3dRNFZvclhZb0pWRmtXOGNMZnNadw?oc=5)
+- **[미국] Exclusive: Quub Emerges from Stealth Mode, Announces Two Air Force Contracts - payloadspace.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kYjBsQm9UZjV2S0ZRV0dfRGRlRlVZOVB1bVZLVnl4Z2FnMVdaQXpsMHZaektRWmlUdFBPdzBuMnN5MjBtN0E0VFdqYTZvNExKY08wZ3VoMGR4V2pwMER2Qw?oc=5)
+- **[미국] This Legendary Sports Watch Just Went Full Stealth Mode - Gear Patrol**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxNTkM0RUNjbEhmWFN2eEFNeUVvbk9wZ2g3eTBqeUhMOVBfS2dpekd2THYxMXV5dlZ6ai1pZUlxcGpCV2VEbG10NUhxZWJDVmxkNER2czMyXzhKenk2VGVxcFpTU09feEZwZmppcy1VYkQwYVJnb2hnaUlEODIyaWw5cmx6NA?oc=5)
+- **[유럽] Freightmate Ai exits stealth mode with pre-seed funding and new tech - FreightWaves**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxPWW5kblNCb3piUWdZeXJISlZ1N1d6cWN5aFI4M1Vxb0xTbnd4R3ZWZVJuOGdReWU5M2F1cngyUlZSVnIxVzYybW1zT2JoYkMwUEpqTTBJNFRXdzBWamF0UnlsS29WdjlYLTZJbUhwdjc3TTB1V2ZobmlXR1YyWm1oWjdWUVdPRlRkcmQyWk41NUJXQTJLNU9XeUJIaUxRYnJCTDFEcQ?oc=5)
+- **[한국] Generate Biomedicines Emerges from Stealth Mode With AI and Big Data Aimed at COVID-19 - IEEE Spectrum**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxNN3JwZWlUVDdvdUlGQXBQNk5NNDExTWIxS3NTYTFVTjRvazRtenp6STRUZzdSVEhKYW1VaDB6ODB6NF9kM3ZkaFdia1hwQjdyU2s4eWpmbGp4dVNEampLWXRPaHFkTzltM2psZDN3TzFxOXhFRk1NS2hsamNjMTliTlRPTWtza2VYSVFGc1MtU0J5NzYtc2NKOWVfTk51Ym8?oc=5)
+- **[한국] Quantum entanglement in quasiparticles: A stealth mode against disorder - Phys.org**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZElId3RsYnl5RDlncnhYOTJYdXBPZGlxQzdCckZ3b3dLTW9tX1ZHTGdKYVdha2F0WnNNbXl2NkVRa0RNQjZLek1lR19qZEtXcERWLWpqeDVFY19LYnItOV9ZWWdsYm0tcFRMT2VnMG91MWN6TnhBalQxY25aVXVDZ2ViX290Y2FHZUpN?oc=5)
+- **[한국] Nike Air Max 95 にマットなブラックカラーで仕上げた新色 “Stealth Mode” が登場 - Hypebeast**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTFBsLXFRc2JzMG9LNEo5enRrdEFiYkp6YzZUb2NEZXdGNGRkOGRJV293Yi1NM0tlTmpoV2Jfd0JQdEFVdVNvWjNlRXpxbDV2a3NYc2FObVJmbWF2MXFRNDI2MFNaWUNTclQ2VmNqVmdwak5LU0I2WUxQbjZaMDZDdw?oc=5)
+- **[미국] Sophie Turner Goes Stealth Mode In Every A-Lister’s Favourite Trainer - British Vogue**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5XZFJHMFd2QW5vSzNkZGZpNEJKaEJuZEFfMWZBLU9PV1VxR3c0aGlERkhiSG5oS045R2tkTlIwcjdrMVY3aUVFYTlvYXZBVGRsc3dvY0huSG82S0NNQjlnaUxfV0ptdl8yYklGMA?oc=5)
+- **[미국] Spotnana exits stealth mode with big names – and big aims - Business Travel News Europe**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUUd5a2xTcndZcEl2M2RrWlRQaXFYUVJpd0N2dklrMTBCdFBsQ3ItZHpBc3ozelFWZ3FBaWRkR19HVlo5YXVBdzhZQVprb2xvTk0tM2l3RVNJQVp0U0pGTDhyUkJlWkROZEVaWVNzSmhiSTJBa2lvazZIYnBXNHFPbjhkODhtYy15Q0JMSjB0T0E3VWZPZmxSLS1BVG56blhEVHBaWmJoU3h6QQ?oc=5)
+- **[미국] Italian Air Force F-35s Flew In Full "Stealth Mode" During Red Flag Alaska 24-1 - The Aviationist**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlbUstbGRsbzN3WUg5c2xNdkRTbkxwdk9oODdScFRyWlAyZTAtcjBuZ2c2UGJIRU5LTzYwaUROM29WRDZLZ0RFRG1JQXB3amt4SFFndVhwSTYtVDVZU0t6dDk4TkZQdEk?oc=5)
+- **[한국] Clipper Race: Stealth Mode - Scuttlebutt Sailing News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTE1iQjFib0dWRVAzWnl1MS1LZU5RQkYwTm1BNXpNWS1UNFZGai1RSHAxcEtWMXY2YTZIcWQ1VzlyS0VlQm4yV1VJanVMbHk3UldjLVdyRmV4d2lGSzJPYTBqMTJaMjV4a3V4cDRMOTZDbGR6bUxzd2ZTaXZuTF8?oc=5)
+- **[유럽] Were Air Force F-35As Flying Over Eastern Europe in Stealth Mode? - The National Interest**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRVJVVWctM1lmVHhWN3JzOG0zc3psTEJWVEl3TlVUNFRaLTgtaDYwRGNyRzJFNXhLLXdkMEJ0N1NSNHItanlUMExpbTk4VnZBUnN0LUZYMGJ5Y1JTNFhuczhaWkt5SE1Obk01eU9lZ0FBZ0ZYVWhmMml1N3pYQkdEaVBrc2pkS0JxaHNPN2NoWWpvUWcyMEsycDU4OURURll2QWdjOXRzUjRqb0U?oc=5)
+- **[유럽] Swiss semiconductor cooling startup Corintis exits stealth mode with €20.4M to tackle AI’s thermal bottleneck - Silicon Canals**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE1pZUR3LVhncUNNSDBFUjl1NmozbkFuMHVHZGhobmxFSnkwNlNHZWVwSlAzTVNSOElxU1l6RVZxeUNCM016WTVDSTk4VVp4YzJFbWVwaE95N1I0UDlnTWZwTVczUlgyYTdHWFVvZGRGZWNjZ2JG?oc=5)
+
+### 📍 Due Diligence
+- **[한국] [AI서머리] 용인 딥테크 스타트업 데모데이 성료‧달구, 응급처치 평가 AI 상용화 착수 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFAteFAzajlWZmxtc0xrY3hkX1p6TElmaEFieDZrbk5XT050MmE2MW8xVmJIMXJBZ2REMFpNbUFSSVNHZmo1c01vRXJrQUtfSkU4ckRHc19Qdw?oc=5)
+
+## 🏆 B 등급 기사 (1808건)
+### 📍 Investment
+- **[한국] 다시물결, 생분해성 소재로 프리시리즈A 투자 유치 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOaEZ5blFhYm9fSFVBVGlhdXN3VzczaG85aXJCN3ZwMEFCamJwcDRfZzR4RHRQd1BGV3JFTnRGWk4wNWItOEJpaQ?oc=5)
+- **[한국] 브루커, 6.375% 의무전환우선주 시리즈 A에 주당 3.9844달러 분기 배당 선언 - 데이터투자**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE5SclBGdFlwTXZuVHA3ZUpmVExjeFJuM3VWbWI1NXlPXzlvR0ZzcnY2SFdOMDJqb3NKdHp3YXFjX1RfUWlSQU12T29obVVFZHltMjZubjhGTGdZdV9hQXR2R1R4MUVMTGlJMDhyNHVwODdGa1U?oc=5)
+- **[한국] 다시물결, 프리시리즈A 투자 유치로 글로벌 생분해성 소재 시장 진입 가속 - 2news.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkQzZGN0tXZnBwUWpBQkluclFGVG9yUk41VzdJNzhsQzlCTVA1MHpqNVBXMVVlMnJFa1FfWjVRR3RWaU44dFNpNkltV3V4VEFoMzA2OVQ0N2g4Z2JLODdlU3B5eFFKQzcw?oc=5)
+- **[미국] 사줘, 295억 규모 자금조달… 시리즈A 투자 유치 마무리 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yTzNYUTVMWUQtemRuSkFlZFE0Z19BRjFVNGpsMGtTOTFiV2cxS0x3LUJUZXVGTkJZalFLTXBIOFVzYk9vMjM4Zk1XQVpaU05ISThKSWw1SGVvd2RHTjdFSXM2SzFUQQ?oc=5)
+- **[한국] 프리 시리즈 A 투자 라운드에서 5억 5,500만 엔 유치, 핸즈프리 인증 기술 강화 (Sinumy) - ペイメントナビ**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5V1A3RXVsN3o5VEx5aFdQR0VvSXcwOV9rdDdLZXplMGlfQ3BGUlV3MENXQXEyY0NPUE5mT2dwLWdrdFJtSnNqTUhKN0dZWVFxMWd4c0lkN3JlRE0?oc=5)
+- **[한국] 플렉셀스페이스, 250억 시리즈 A 투자 유치 완료 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPTkVuTGhZa3Vha3I4UXg1cGxlZE1xaVA1MGZ4cFdyWGdRRWt6TVhFWGh2SnNmSE5CUFhTd2R1cWxpTXE2UHJneWFRdjFaamwycVBkcQ?oc=5)
+- **[한국] 스톤브릿지벤처스, 아르고스아이덴티티 프리시리즈A 투자 완료 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yMDdzc0YwY2ppc2M2MXB2NDVZOTFfT0JSckFyTFVxcWpRaV9SZGJMYlJXd1Z2b2lQUG1TN3hNemEwc1AzeW5BMl8ySXFsdFg0d05RNGo4WUdSdw?oc=5)
+- **[한국] 스카이인텔리전스, 기업가치 1000억 인정…시리즈 A 이어 오라클-벡터 펀드 투자 유치 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTFB4QkVNR1RkSElpbmw0aDBYaE9JSmRRQmkzN2ZvNTB4Tm1hLXlRbHNBZHFweTdzc05Fend4dGx2SVlGN3ZJeldxUVVTQQ?oc=5)
+- **[미국] 플렉셀스페이스, 250억 시리즈 A 투자 유치 완료 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE85SFpLT3VqT3N0c0dTYTNDRDl4NC1zSldobGNEMVY1a19mbjAwbUNmSXNZX09hUFJOUFRrVHN2TEJzWkFLRjB0LVJETkVMZS1lWVZkWDVxREJLOFlKUzNIeUF0TW45cFpRbnF0UHIzWnh3QVBKS1HSAWZBVV95cUxQNVlfZjJra05YQUI1NWlORDNjUm1yMm1kaFZrNXZBRks2Q2gxRWVXQmxFUlRPUnJsN2o2X1ZUSXc2dnFSN2VjS25KQU44cUVVM05aVTlzWEhKT0p1Z3VMQTBEaWVNNXc?oc=5)
+- **[한국] '게임 커뮤니티 플랫폼' GGWP, 1500만달러 시리즈A 투자 유치 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBKWWNDYmpkNW1uVGduX3d2ZjI5T1dUVEw4cFNtWGZfWF8zUG8wNnE2Z2lIcF9Nc0VSNGZVU0RubUhBY3ZmUnk0M3ZtUmFmZFhmSzIxS2ljbHJ5a1ZaczBpajFlR01QV0FCVHBwNQ?oc=5)
+- **[한국] 장애인 신규 창업·폐업 후 재도전 ‘창업 사업화 자금’ 최대 2000만원 지원 - 에이블뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE84MXZkdGhzWHoxUm9zV0xxYVM1c19ZMUxmTlhUa1RBYzJnSldyeTFFUFBhWXlvSEVkWm90Y2xsdjVrNkxhMjI3d3RlZ2QxbVg2TmY1a2c5dmE0R2R0enpPTkxtQ1pITWpQejd2b2V30gFyQVVfeXFMT2pHdl9fM0pZZHlJX2JjS2liM2haZWNjY1k2RE1jN0NwY01BQkVMdjFfY3VyWTNYeTRhSVZPNEptVlFRcmQtdjRadm40Q21RanR0ZXVWOVhqYWUzbGVORTgtUEQyWDN1NjZLRjhLTGYzYWJB?oc=5)
+- **[한국] Galux Secures KRW 42 Billion in Series B Funding, Bringing Total Capital Raised to KRW 68 Billion - 금융경제플러스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5rMVg0QVNyczlXMkxSemFLNjQ2eEc4SGFsYjJuOGkwWndWbmNZaFAxcTVXd0FfTU5EMGNJN2F3dzR3SlAySzg2WGkxYTU4S3V1VXpxYndEcG5VNHpwOWJhelVNTS1Qczh2REFNaA?oc=5)
+- **[한국] DS투자증권 "현대차, 피지컬 AI 윤곽은 하반기부터 구체화" - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE42YTMwSV9YUWNkYzNKOEpsckpFcDRrcnFaZlhiR0tTd0pYN2VTNkxTbGRzVDNHUlc4cmhZYmxyOXNGMEFDTy1MZXpvSHc2Rkc2U2VTSTVqTFFjQ3lzX3ByQXVUczBBY0RnLXJ4cw?oc=5)
+- **[한국] 경남도, 2035년까지 21조 원 투자…피지컬 AI 산업 글로벌 허브 도전 - 드론매거진 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVR0hoa0tJVnEwS0tFbVlQQkh4bzVnX1lHVHZpckczckRsUHJDUFRqNDkwaWlTcWI2YVZ6WWVYaXAxS0FBenFwU0U3YXRQZHdRTDdJM3IyU2RtUi1KNnZOMmM1TXE?oc=5)
+- **[한국] 물류·제조 현장 바꾸는 피지컬 AI…기업들 투자 확대 - mstoday.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBJa180TVJYZlZjd2hmN0lVakY3ckllLVYzalhwRmo3czNGanFnZGFJVktEWUpaR2VWZncwNjQ3cGNYVlBRbTNNdFhMRVA1c2pzZHdNaE04WHpTZWNsT2ExRVFfWmdMMHVIZndWTg?oc=5)
+- **[한국] "바이오·헬스케어 투자 전문성 강화"…더인벤션랩-비앤피랩 맞손 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9CQnhFQ3lNVnUyQ1pJZkdKZlJkTHpYdXAyLTBTX21VN0ZYQk1HcWpqMnU4UUVhTTNtQXNMRjlfMTBBREtVTlp6TnJmaWFEaUc5SzVZc3dYWTd4WEU1OGNCNkxKN0dRS2psb3fSAW9BVV95cUxONFEwSlk5M2tWSEF0VklvdWhHakhHUXZ6SG5sczZIZUtaZ0UyMXNGRzVVZmlrM2ItRTYxZVpqeEE5NmZWM1hicDc2T1hfWnc2UUlmT2Nhc3FDUVdoMDFiN29pWjdyd3dJVDR4RFNXbzA?oc=5)
+- **[한국] 헬스케어 리얼티, 2분기 실적 발표…연간 가이드라인 추가 상향 - 데이터투자**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFBjbEE1UWdYM0szSHd6Mlp0WVp5ZVY5NWN5Z1JkdE4wcmwtSmZ0c3Zva3pHSEdHeGJxZEtIRDNVN1ZqQUgzSVR2V0NfcmRudjkxUFBfd0VkWXFHSmM5eXN2Mk5ra0dXVjFJaFpqdkxaQnZLNXM?oc=5)
+- **[한국] 오펜하이머, GE 헬스케어 투자의견 ’시장수익률 상회’ 유지... 목표가 $85 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE96YkFQeUpWVTdGeDBnWXl5NGRhS2ExVVZUUVNWNU05bzJ4eFM0Ulc5ZFVsVjQxd1JqWVo1RElKMFduZTFXcVRraWRHWWVLbUg4TlVqWk1pWjcxMzZIS2JaZWhibXJMTnFhSFhiWGNDZjBtUzZP?oc=5)
+- **[한국] ASML 스핀오프 인비식스, 2,000만 유로 투자 유치…소프트 X선 계측으로 차세대 반도체 검사 혁신 나선다 - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oMndKODNCWFAtX3dNUEZ4VkF5d1JyMXQwWWVpcW1Vblc4bkZZd3J0bG9PWWlEMGg4YUtVNDlqN1FWTXRodl9ES3c3VGpRR2dtb3JERnQ0TFhjWlNCUTNv?oc=5)
+- **[한국] 공카, 중기부 ‘딥테크 팁스’ 선정…15억 원 R&D 자금 확보 - besuccess.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTFBMLVlRYXlkbVhiOWpoQ3JNenNib18yd0RHbmJ0N1JHZ1NmRzhXZXRSalBfN3ZPcFl6YnZMTExfZmtNb1MwMWc?oc=5)
+- **[미국] '공카', 중기부 ‘딥테크 팁스’ 최종 선정… 기업 자금조달 120억 돌파 - 에이빙**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43TVFUcElPNjNTZmtjS0ZXTGpETWk3WThyVm9DbmxTbHJ5eUE5ek03VFBQNmJLZVJHWjVZM1M1MTU3bWppR2EtbWs2ZDM5aWt3TG9GeFpNYlVIMjAzS2dYV1g1MTM2a2PSAWtBVV95cUxPZ0NlUnBUZ2xMTU13c3dWU3ZscXlpdEdhNHBOay1IWGZCWDBXcmdQenVqeWxwN1MwS1lzMEVqMVpUcnR2Q3QxV0RvTGJ4T3JnYnkyTmhCZkkyRFNYSjlBYnRUSlZBWXN6NnVkZw?oc=5)
+- **[미국] 슈퍼터빈, 투자 유치·TIPS 선정… 음원 유통 모델 개발 본격화 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxYVh2MEw4ci1fb04tcVVQS2wtSXp3QTNwWEZrZlpnUGZvNUNtVVdjT2ZINTIxT3lUSW5peEVrdU83VlhaU1g1SFM1ZVpSSGc?oc=5)
+- **[한국] '공카', 중기부 '딥테크 팁스' 최종 선정…기업 자금조달 120억 돌파 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFZ2tCRVYzUm5iU1YwNnJQVVNmMzh4aVZQUUtFeEg5SnRDUmhKYzRaV2EwRWt4RUw4amdvOFFPTHZIc1VjS3JkU3p0ZzJ2M1V4UElj?oc=5)
+- **[미국] 플랜트너, 프리 시리즈A 투자 유치…해조류 기반 알긴산 국산화 추진 - 뉴스락**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9nVl94Nk4xZWxxczd4SG44Z0ptenJ0dWFtT2FqU0p3bUstWVRDejRvRjVNazJ4UTJtV2dtQ212djhEcW9VTGxJcmEwZk4tbUxla3d1SGJTSnFZN0lLcEpjQW1MVnMybjd1WUZhWA?oc=5)
+- **[한국] 플랜트너, 친환경 소재 경쟁력으로 프리 시리즈A 투자 유치 성공 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NT01YR2NLSngyOF94OHBEZXpNQ1VGMWVyNWtXUThtZldVS0JJVGo1VGVCNnZOQl9Pd3RIbUJEWVItbzZPcFhZMXVoUDhpWVdYZ3hR?oc=5)
+- **[한국] "버려진 해조류를 산업 소재로"…플랜트너, 프리 시리즈A 유치 - kdfnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9hRVZFbjRLd1Y5M2JkSnhsSDktLS15LWI1TmNGNTlpTlduUkxDVUItRDZ0aW8tV1dlQnFnZzVQZ3l0V21ldF9mMEhScS1pNHNVbmFOV0pHd0NHbjlzX040ZVpvSGsyaklDNkE?oc=5)
+- **[한국] “도매시장 디지털 표준 세운다”… 남도마켓, 60억 시리즈A 투자 유치 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9pTkdsVVdGa1cwQ08zcGh2VXRTOXZ4cHVXR0xrZ1VSbldCTUEwbWNpTkNBaERzd2Jkb2JfdzUzNzZEN1pEZHhndkViVQ?oc=5)
+- **[한국] 플렉셀스페이스, 시리즈A 250억 투자 유치…우주태양전지 상용화 속도 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TSW1Hb0xlVTRLLVlZeUFLaG1WVXVpRnVOVkg1d1J0QnpkR1p5MWRDRk02RnRhQkJIUUp1ZnJGMXZoM3NlVXc?oc=5)
+- **[한국] 씨엔티테크, 해양바이오소재 알긴산 국산화 추진 '플랜트너'에 투자 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9idndwbG53aU9VeXZEdkxFWUh3YXVzb2NTZ19mbzNzdllhRXNKVTZ2UkE3eHNYRnd6cThRWFhuVkpuMEQ4TXpJNnI0ZFl5dw?oc=5)
+- **[한국] 일본 정부, 지역별 전략산업 클러스터 육성…반도체·바이오·차세대 기술에 집중 투자 - 알파경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE93ZGFGbWRUX2pldW1McUVnNkNqVVRndmRyMlktT0tfS3dUOEd2cDkwTkI3Q2JmY295dHZ2VjJWQjlDRmJiTEpiWEVBZ1IxdVZ1NTRTOHhQMjdsQ2NSbTBya3lLTHlYb0ZrOENVNkJn?oc=5)
+- **[한국] 용인시산업진흥원·카이스트청년창업투자지주, ‘용인 DeepTech STARTUP Batch 2026 데모데이’ 성료 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvYjlMSkwwQWxfMExZNkd3ZUtIQXJ6bDlxNVZWbXlQdDZCVHFaQkdMbXFPTENxcDJsRWlXeXdCN25DS2x3RWZFUGF4WktvNUxKMFo5Y1RscXFQMTI5eXZfVFdIWjd6dw?oc=5)
+- **[한국] 조달청, 2차 혁신제품 스카우터 데모데이 개최 - 조달경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5ER2VvcG54UDBnS21va19CSUtVVFZmdjZxNHFQemxPZFgxbEk0NXhNUEFGbWMzSEdSdVZrbWtFTm04TnM2NGNsOEc4S29iZ2ZzSUVGZnRjaWdSaGM4MUhPMkpiMGRBSnZROVFjUFJ3?oc=5)
+- **[한국] 조달청 ‘제2차 혁신제품 스카우터 데모데이’ 개최 - 데일리안**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAJBVV95cUxNTDNDbEE0djFJTGxlV3g0ZndRTmpWaGVoT19PTmMxMmZjUmxIV2dPY3VJVGFKSnlOVGJ4bVowVmFtWTFpOWFjbElBQV9GMGEyeG11emlydXFneXBGZzFmOG1pX01xcTRabFJtcjZidmdyV0Z1eldPSkFZTXhkVHh3YUdEOEVGakZNSC03T1NuaGE3V21YaWxEcUdQMEhQN3JSOFQ2NEN0cGh4ajRmQzRmSUZaRjU3V25OU01lV1pyX1ZYcm1RSmxsNzk1UTYwS3Y3cXpmUjNjZDdCM1B3ZzJkcXJxLW9RNFdwTTdmem5ReVpLNnZRcHh6d2Q1ZFgtY2hyUndZMjJ6LTVMczNvUV9ON0ZIVUFjUEU1?oc=5)
+- **[한국] 조달청, 민간주도 혁신조달의 장 '스카우터 데모데이' 개최 - 안동데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1paU1RT3M3cTNpWmJQbnVTcXA2ZVFhUnVGb0pIcnZCMWdodHE4VkJ6YUlnRjhsTHM0dENWQ1pkUHJYUDFuTG9kdEhsQTF5ZFU0eDJ1QUphNXZoV2ZBOE0tMS1ka3dBQ3R1dllTWg?oc=5)
+- **[한국] 조달청, 민간주도 혁신조달의 장 '스카우터 데모데이' 개최 - go.seoul.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE1VMFVGR2VzNGVDRDQzMGZBd1BMYUZMczdtOWI2OEc3MEN1Tm5aYTUtQTltSUNQdnBNUzlDd1dBX1Z5U0pyX3k3Y29ESnUtY0M5dDlBdGxYX1RqTXlNYWpJRHdR?oc=5)
+- **[한국] 세종RISE사업단, 스타트업 데모데이 개최…투자유치 역량 강화 나선다 - 교수신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FYUZKU0pSQ2ZhbUdRSlBDZk80SmpLd3pZNG5Hc0VtcVF3VF83ME5SWVVCdDE3cmNRbGd4eXlGckF4SmFONmlsakpsckw2eERVSVRCN3ZzTElod0RQbGI0WV82WHVxSVk?oc=5)
+- **[미국] 고려대 세종 RISE 데모데이, 지역 스타트업 투자 유치 가속화 - 브릿지경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE85UEw0U2k1T1dZN1c3N0hydHVHVG4yNHFEcFVLM3pmYzhrUkJEZlNVbk5OMjJweG8wdVNtQzR6Vm9Pd1NlSXZzSUs2Q2g5TDRRVkk5b3NyM2F0dw?oc=5)
+- **[한국] 마크앤컴퍼니, 제5회 프라이빗 데모데이 성료…스타트업 9곳 투자 무대 올라 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mZmx2aExxZE5MMkNSXzlHVTRiTjJkQjlzQlZ6WnNpTzdjTVhRcVppUWt4WEpFOWI4MTdCUjZiMkExeWotUmlWUUFlN21LRktiekJJbm45T1ZIN1lTb3dWeXhMb0xCanFL0gFsQVVfeXFMTk9VN1Axb1owV2hpbUxDSjBnQWM0bElXN0hTZnNzU2ZCUGdLMFdCVnliYThHRWZoeHBlRWROYnFBRTBBaGtGa0l2Nlhra0RIOTVsTmVMLTJsWUF0VXFpVEZaeU81SUlVcldTNnJG?oc=5)
+- **[한국] 관악구, ‘관악S밸리 브릿지 데모데이’ 성료…창업기업 투자 연결 나서 - sijung.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1tWWphRnltNUlHMWZPS1FqRl9YWHpoUUZLSXh0QVpoTE5SOWdZamZheXRVMHNyTlpZNGgyWkhpT05kTVljWXVRd1B1TXRTLWk4WmVhSkFlaF80RjhLdmJGRXg0WFZYVERSalo4?oc=5)
+- **[한국] 투자 IR부터 데모데이까지…’G-Star 모두의 창업 페스티벌’ 경주서 개막 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFAxQWl5dloxR0RZS29CN1hHRV9mbzUtMFg1elRqZmFaLVdicGVZY0hNSElTbE1oZDgtX0RSbUpBSjRRNTVZa1dmTw?oc=5)
+- **[한국] ‘투자유치 데모데이’ 성공적으로 개최. - gwangjin.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5wSk1jZkx2cDJ1N0RuemE5WnctNlRwTUZiLWh4V1BrcnJhLUFLNVg3VUJBYnkwZVU5cE1zWVhGckE5Y28?oc=5)
+- **[한국] 기보, 벤처캠프 통합 데모데이 개최…스타트업 투자유치 지원 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE13ODBuQmVMbU1VNkZhX1VSMTU0UHZjYmR6YlRreXZtSUlRUzIyMDRiQnZwRUFBQmxIeXdJSjdJMVhaVmQzLXh6Y2JjX0RtRGR5N1pJS2dLVm9LXzJoWEJ5Rk9XOEM?oc=5)
+- **[한국] 기정원, 스마트공장 기업 투자유치 지원…IR 데모데이 개최 - 매일일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zS3FlamE3OWhLOHBDUWVtelppM2tuRFpYQXVGVFlQR245Q3BmNmZmQWF4bXh6ekRHRnluVE9XTTVQMFVBc1FYTWo2VWZ2V3pnU2FiMGpPaG9ibk04QjJLOFVDSEc?oc=5)
+- **[한국] 기업·투자자 한자리에…기정원, 2026 스마트공장 IR 데모데이·투자상담회 개최 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lQlQxeFlBb1FXOUdsTDM5aTdFcmpFRjN0b1AzQThpMWluZHhLZ2JLTjRBTUpyOWxOQ1NEa2JBNDFtbDFPVFItWTZyY0RDV0FuZ3NpM1VxNFlzWWhT?oc=5)
+- **[한국] 씨엔티테크, ‘해양 소재 국산화’ 플랜트너 투자… “바이오 산업 게임체인저 기대감” - 산업인뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5uNlZIYnE2eDlFcVN4WEl6TjNHTzI5bWRNM0RablRYZHlpUXBvUklzS2N4YjFGUEE3ODJxM3R4SS02TENFa2RKS0xJTDJlZHVaUk5MeDNHRVlnbnFFc0hMWUlTNFROX1FVeXJGTkVR?oc=5)
+- **[미국] 플랜트너, 프리 시리즈A 투자 유치 성공…맞춤 개량 소재 연구 - 한국금융신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTFA5WE9yc0RTZVczTHpuSlZhcHduWTFCUE9wMlVmTkwtTk1ndTk2bU96Vm1OV2RGWm90U1VQYzF1cU9xei1Ib1lYdUVyQXNBWVhZOHB1Y2xPWVA5UWdEdk40b05qc1ZSUmpGdTJPamE4UVptaTRWZjZCM2szb2k?oc=5)
+- **[한국] 우주 부품 전문기업 엠아이디, 157억 규모 시리즈A 투자 유치 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1vMEo1NHJReVRxWl9Bd3BjbUlqMFFIS05jTFdqc0RnYWVSZExHdkZIME03NXhsdVJVdTlzSjlfelpnVXNtV1gwWWVIRkFkckF2VGtUVEZKSVFLRWRHd05QSWhzaFVoODBUX1HSAW9BVV95cUxNWDE5RFRiWC1TSDJZN09hQ2ZNUi1WcDhQd2d5WlQ3X01fWEZvNWFKOERTZms2QS04TDFyY3dNdXhWZVFmc0hrdGRjYVpUb081Y0RXZWVrRnd1dWk1ZnEzM0ZEa2J3c0RadURYdFRTY1E?oc=5)
+- **[유럽] 소프트뱅크그룹, OpenAI 투자용 6.5조 엔 브릿지론에 21개 금융사 추가 참여 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYTNQd1ZLM19mWDREYV9RaG12OG16SEJpem05LUJPOGVUR1ZqZUVLVXp5WmplWW1TQVpIQ19MVVYzeUk5RzZ4dW1CU01sTWJJaVdxUEhhTDgzakpzLWNoelNtNDVxcWdGaW9aUHI4ZjJUNmtvZUdnN0piWlRjc1M2dzhXbmk0MTV1?oc=5)
+- **[한국] 스톤브릿지벤처스, AI글로벌 제1·2호 투자조합 결성…출자약정 총 3250억원 - 디지털투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE00S05UYkprbnFIUlRxYkhOUFRkWXpjM1U2THBUUm00TjJWODRDWWRwZnpmTTJEM09FRjNpUmVibGQ0OUNIMURSd0RxYVBEdUZBQnhtVm41UlNxSzJ1eWdUdklFUGl2ZWhhRkFfWFRjTk8tNDg?oc=5)
+- **[한국] 펄크럼테크놀로지스, 스마일게이트인베서 시드 브릿지 투자 유치 - IT조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBvNjFsMktPZXh4ZnJYSE9LU2lPTlNJZktKTERKQy1vNS1GOG9Kb2d2WkR0SjJ1NTdtUlVnV1BpNkQ1MC1iekJ2VEhhTmV0UXZiRDktREdCZkRtdWh6ZHZaX2IzaWtwMzdiUm9xSm5CT3LSAXRBVV95cUxOWUh2RWZyWG9oamsxdk91ZHdBb3NyUWNfSmJhMXZObThRS0tSUXEyUlNRUnVNVElsXzlNVEdud2JPS1VOZXRoQ216LWZBQmFVY3JDb3Z6bzZ5VENWNy1BUC1SNW1mMWl3TXUxUVJJUzhQa3V4cw?oc=5)
+- **[한국] 에봄에이아이, 끌림벤처스 등서 시드 브릿지 투자 유치… 식약처 인허가·KGMP 인증 확보 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBTRHhUUE1sTHhCRm9LcWVBSy1yZGpVSFZOZGhBb3B3YS11bFNyYmlwY3JBbDlxSWx4a1JxNFJDMW9TTnNCaXZYag?oc=5)
+- **[한국] 고양 창업 브릿지 투자유치 전략 워크숍 열어 - 고양신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5TSjg1TEFsODlrUjBfbDZRV1hUR3dlWlpCVU5nTjU0OHVybmVtYVc1MWp2LVotODQyYXVBbDlxbzRvYVE0NDR0amJKX1Nvb0hSdW9VdWVoUVJxUm1aTmhFRFpkRF9jaG5JWkE?oc=5)
+- **[유럽] '정형 데이터 AI 개발사' 넘즈에이아이, 40억 투자 유치…스톤브릿지벤처스 리드 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ROWpKRXd0Zmd3MW81cV94NHVraTlEX1RLaHZmS2dSX1pVeUZLek9UMHpQS2ppV1ZxcVFWVkoyejY3MENYeUg2YXdIbHZualk?oc=5)
+- **[유럽] 스톤브릿지벤처스, 아르고스아이덴티티 프리A 투자 완료 - 아시아경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XTnNmY2Nab2NjWWJFVlp4UV96RkRfSGdDODkxUHNRaGlmMGtGcGZpbmIyWXBRN2M2eUYzQ2Fmb0diRFJIXzFrbHdHUzVnbklEMDBZUmw0dlJudjlNSGlQNg?oc=5)
+- **[한국] AI 투자 언어에서 숫자로…넘즈에이아이 첫 투자 유치 - 마켓인**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE5GVUFrLVVobEVsQVNxaGhob1FfVU53a280eXc1VGlDdm9UNlhseTFOeDRzbFRjUUdGTlp1aF8zeGNDVVRwcHJtZ1NIU0RzSDRldnNKY3E0TFVPd3VBX3dZV3JaUm94MVBycE9hRWdObVBZQQ?oc=5)
+- **[한국] 펄크럼테크놀로지스, 스마일게이트인베스트먼트서 시드 브릿지 투자 유치…글로벌 진출 속도 - beSUCCESS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRYmlRX0VrWHQ2MFNhVWNXSHlhOS1mM1RPNkxZaUVJSjQxYVVzYnN2XzVGVmctRGJzbzdfdVlnMURMYUtqX1E?oc=5)
+- **[유럽] 부산 글로벌 브릿지 투자조합 결성…59억원 규모 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxQmt2Mkk4VXoxUTJxTkF0QXVnb2w0VlQ0OVJqU0pIczdvSGx0WkxTS1lRWGRmZzlTYkZmR0Z6OTBvTk82Sm9BYUItNDFTU05jU3YzaTlhQnFxenPSAWBBVV95cUxOeENlRWRHMlhpejdPMDU0dUNTaGtRRnFuRlI4NUV2VjRkYnA4STZneU1hOHBFcXBmaS12YkRNeVA0ZW9zVWFXZGNXTXhBb1BuYmZXaW50bm4tRVJjZEQ1QXI?oc=5)
+- **[한국] 나눔비타민, MYSC로부터 Pre-A 브릿지 투자 유치 - 소셜임팩트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE5JVENaWHBqelhiekVLSkJmR3E2SW9hWmFGbWpkZWFaS0pZNlQyQ083d0Q0YzRTWURtWjJ4SWlGNEtwY01hUzdGUi10NjNVWDNxUDNnMG9CVjZzTU9RSEN4WFFBcUVNRTVCNWY5cHdhaHdFZ1nSAXdBVV95cUxOampoSmFwX0JhRkFhcHdBMUR6Y3hwMUxCUHpkeHRWT0lpUjVobXQxVzhVMkctSkg0RGViZ1lxLWxTbHE2UlBtZHhjZnFCc1NOZUt6emwwVHB1dlQ5MzllNVdVZm5DSVgwMkh1UllzcnZxeHl2MHRrbw?oc=5)
+- **[한국] 글로벌 중고명품 플랫폼 패피스, A라운드 브릿지 투자 유치 - 마켓인**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE8yU2MxNk5xTXF2c2R5VFFMUHVlbE9TV0FyUmpzaWRLR3EzMG9QMFdsTWJJX3M3Y3N0ZkktNUQ4eEhJXzVucHdsVXNjZm56OXpRQXI5WXh5N05wVEpQZmVSVE5lTUxyZ3lwYml0OG9iWDFpZw?oc=5)
+- **[한국] 디피니트, Pre-Series A 브릿지 투자 유치 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VaXhSZmkyYWdzaWxrOXBzSVhqM3JPNGduRGZKdTVYLVBkZHNtZXNiRkJCYTBWVmNINVp0TDlIUUtpUkJBZXozcWQwYnltTEQ5M0FjNkxadDdEZlNFNXZYeXZ6TDJpQQ?oc=5)
+- **[한국] [속보] 스톤브릿지벤처스, AI 글로벌 투자조합 2개 결성…총 약정액 3250억원 - CBC뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tSjNjSDdhYW1YOXVUZmJmbkl3N2JvbVJ5V2VMNnFyODhtVm9TLWFYTDVGQkN3RHFicVJZOE5mX2lKdGp0U3ZzUkxpbjdERlJIdGt5REdKMFhiSmhodTlHYmJhUURFNHpV?oc=5)
+- **[한국] 파이토소울, MYSC·다날투자파트너스서 시드 브릿지 투자 유치 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Vc3B5M0VTNm1qM2NoUWpYSXFOeGItRmFuZkN3c2tBTi1RTWhPM0NHWVhmY21iQWlxNC0zekZQWmsxdmFzX2FkcQ?oc=5)
+- **[한국] 고양산업진흥원, ‘고양 창업 브릿지 투자유치전략 워크숍’ 참가자 모집 - 경인신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GblJydXV4bGV4SmUtRDl4MWdFOGoxMGI1bDRVNE5va1hMUk9sV0ZkbDNvUTBJRzBzLXU3T0F5cVNqR1kyQklEMUlCQ3N5S3pabmdRWXRSNm1ZVGVzOWlUYkREdktGajA?oc=5)
+- **[한국] '복지 결제 플랫폼' 나눔비타민, MYSC서 프리A브릿지 투자유치 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9vMVVwa2I5TnZJeWt0Ul9tb2twajZocXpmX0ZDby13aWtjc1pwSkcycl9Yem10Uk1XSFV0bXJMdmRUd3hmVzNfVzI4cnZFTUdOWHZldF9iQnRoYkl5UU42ZHZqYzl5LTRVTlNvTA?oc=5)
+- **[한국] 생체 데이터로 멘탈케어 '스트레스솔루션', 프리A 브릿지 투자유치 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1vYlVNaUhOdnVsQnVtd25BNXFzUmNRemZIWXJ6TnJYd2YtcENpMVRMR2pOYl9ScTZrZHJDQmdDNUNnYnpHRy1adFZjY0tzT3dMZHVlbVc0ZmszWFhkVmJUMU1YYnpDTFlmQmFxdg?oc=5)
+- **[한국] 나눔비타민, MYSC로부터 프리A 브릿지 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sbU5CRnc2dmlyOTlwWVo4RlNNSUJ4aDM5UVZzQVJZVTBpQ0x6aFhZRDd2X3FKSDQ1cDFZQU04dXkzcm9SalRibFh2THhmNE0?oc=5)
+- **[한국] 폴스타게임즈, 유니온투자파트너스에서 프리A 브릿지 투자 유치… 협동 액션 RPG 개발 가속 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1xaHlyRm1PaFVfVkluUHFYcVhDNW5yY3N2UDFabG9pRmZBRk8zQUNoU21LNkQzZTk2UC1XU3p5RVh2LUhYcTlhcg?oc=5)
+- **[한국] '복지 결제 플랫폼' 나눔비타민, MYSC서 프리A브릿지 투자유치 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE4wbFN6d3FycVVIaDFsVDBFd2k5ZF9LUmRDZXppVW1MdElVUllGVmtWeTRqQVM2STA2R3hhalkxT1dibWtMSFJveEV5RzhMZ1doSG5aY1FNWjNZVFlrU2NKekRZSlN4MnA4X1HSAW9BVV95cUxNM19IdGZQdlJER1MxUFFDZEEwcWhtSzRiWlRSNjdwWEFGQ2FLczZBWjhuaTRwY0x3SFo0Z0xYV3RUZk1CeHdVc2E2M0gwbnJYTGJ2Mldac3dpRHFDS0RnV0JQQmwtNkFXYTVlZDFIWTQ?oc=5)
+- **[한국] R2C컴퍼니, 한양대기술지주로부터 브릿지 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDaGtJUGxkanVQRGlkdmdHOHJ6UDZSb3VPMjM4MmRKaWdMWGZ1WGJuYlY4NE1BQVlZVXlHMkdjMFhLajlhLWpnbHI4NGdmVVU?oc=5)
+- **[한국] [시드] 50만 유저 '픽플리' 운영사 알투씨컴퍼니, 브릿지 투자 유치 - investnews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE1wbGlQOEtQM3ZvRGpYa2RJWHZ4a3lQWjNKZTVJVlVaU2IwWkpHQ3k0NFd6U2lETVRiRThmVzY0LXhMWHZnRWxkZDRhY296UjNwZmdxVTNwYU9tTTRtVjVCSmZFZ3VpT1JlNzE3blV1QVJBd9IBdkFVX3lxTE9tYV9jUmkxQnluanR4Vk1sNG80OHRNTGRYamxoOFowcW9nQ1M5VnR4NkFQRnRCVy02S2RxU2RqNFV0RVZnX3J5NzY3ZFh3YjVRUFV1UkR6MkpnbkJ2X0IxdHpBM0pkMVdzd1RjWmpjQzdUV3RoYWc?oc=5)
+- **[한국] 피플앤드테크놀러지, 150억원 규모 SI브릿지 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aamlrWldkUVVKQTNPVkg5VjJHZFpVanVmNGNkMWFtX2dtWmpNNXRzbFlBekxBRzBDRm02MnVxcy1EV3hMS3VQMEFNOFhwUTA?oc=5)
+- **[한국] 캐시백 앱 ‘캐시모어’ 운영사 브릿지웍스, 라구나인베스트먼트서 프리A 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6WUpOXzQ1SXZVa1pwMGFyTXZ5b296dXRmaFBQbWU3WDA3V1hobnh2ME13cU9yQ1o3cFd5dDI4YkZqS1ZLeTVIQjM4Mm16WHM?oc=5)
+- **[유럽] 폴스타게임즈, 유니온투자파트너스로부터 프리A 브릿지 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1VeUd0QVFDMUpqcXVLeTZsUUZONk1oYXJCTms0cWZlZFRlbW04Tjd3R2liSXhfT1ZlSEVBUnFJaXFhU0JPSDM1eGdUV0xac1E?oc=5)
+- **[미국] 글로벌 중고명품 플랫폼 패피스, A라운드 브릿지 투자 유치 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xRlF2YXZCSGZZdDFZdF9tMjh6SVVnNzR3NUZJN19UZkUwRDJiMktoRFhhdjQ2bWxZYVdlV0R4X2VsbUstZ3VTV09Yckc1YzgzS0I0cA?oc=5)
+- **[한국] 서울투자진흥재단, 美 샌디에고서 ‘서울 바이오 브릿지’ 구축…글로벌 기업 유치전 본격화 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HYk1PQTQ0RGZNcWpyYzFoVU1LcldwTzBkMVNHNjMtZmRNa1BlcWV2dEpTWHNXaHBlVGY1RjhWNXRqTXZZS19iUzJVNXRZOVZSYmgyT1ZFSUw3YVVfNjFTN3ZHRXh6OWhN0gFsQVVfeXFMTjJRTWxSU1F1Q0RQTDg1azhMaHB0VmNtMkNlbjVRdnVobnJ3aWNFcnZ1NUF0aWFVcXl4T25Ld2ZhN0RocUw0ZkNkT2JtUFVuNVZuQ0FvTFdhWWlFaTNnMll5bjhqelVhWmFzcVNa?oc=5)
+- **[유럽] "농식품 부산물→단백질" 시그널케어, 50억 프리B 브릿지 투자유치 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5LdUZVNnI4M0JIcVFyanM1bDQza3dKdXZJZDQtekdib21RR3YxbnRyU1ptdGQ2aWp4TVZEU2pRQ2V1NFc3eC1talNEcWJyZVVpLXRCcEtsOFVHMC1wX0d6TjgwVWNTbGxHX0HSAW9BVV95cUxNR1lxdG02LUg5bE9lRzA0V3M1eUpNQlM3VkpBbGk2dUF3Sldpa3V0NDNzeUlLSmFFM1lBTjkxMmNVVUFickFvc2VBOWFnMHVCTVQ2WUNIeU5xZWxRb0pjaWE4cm9rVTg3NWoyeEhJRjQ?oc=5)
+- **[한국] 전자약 스타트업 '리솔', 30억 규모 시리즈A2 브릿지 투자 유치 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFB2amlQZVdVaVNILXlfUHZ5N25Ha290UjgzUWYtTldMbkVBMkVCUTBZbm9EdFdHaTFVejFlUWVtQVFuQnpDXy0wTVZWRjRfWURaaW85c19pY3B1Y2ZMeFpHQmRMZmZCVngxS1BGLQ?oc=5)
+- **[한국] 서울투자진흥재단, 美 바이오 중심지 샌디에고서 ‘서울 바이오 브릿지’ 구축 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoX2lWR1g3NHZiVHVLRUM3ZzRYSkRkTzNBLUNhMzJsR3hLTWE4NUJaREdLaG9PRVBfbEdqZ2RLSzZfekwyNVRyaUk4RXJDaHc4Szl6UW9KbHZ5YXRtWVVuMGQtSVdVUQ?oc=5)
+- **[한국] 서울투자진흥재단, 美 샌디에이고서 '서울 바이오 브릿지' 구축…글로벌 바이오 기업 유치 나서 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBGdGtIN3ZWR3RraFVwWllQdXRNTXNNVVM3bzNFb214S2FNSDllQlhZZmtRdnRGc1V0VjRCd0pUZWk1em9tVVpVWm5CVUtGYmRKeXF6c3RSS0hQaGg3Yll0VDRfYkpiRWQteEFLRw?oc=5)
+- **[한국] 글로벌 중고명품 플랫폼 패피스, A라운드 브릿지 투자 유치 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9wZ3pNUXhtU0xiTzZ3N05Ia01uVlVEaURHRlJxZTk1YzVlSTFpQXh5NWxHMWJDczBHUVJ0amhJSUd4WWlkcnc?oc=5)
+- **[한국] 나눔비타민, MYSC서 프리A 브릿지 투자 유치 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9fejQtY0ViR0s5XzIzcW1IWDBNMzdEbzZFM0RNVjhzM1IxSk5LMjA4d1JhckpMbk1iNlE4aHNCMHlONC1ieFNzbA?oc=5)
+- **[유럽] 글로벌 중고명품 플랫폼 패피스, A라운드 브릿지 투자 유치 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXVnpSRWU0YUJMMW1EUFpYYVNOQVpKU1pTT184elQ3M3YwbGFsTHMwS2FmTXZ5VXpZdUoyWEc5MUtMZHpGVmVSZjh5Wjgtdkk?oc=5)
+- **[유럽] 스톤브릿지벤처스, 아르고스 아이덴티티 프리A 투자 : 네이버 블로그 - Naver Blog**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxPRXVBaFFySkhVZi0xQzFVY3JCRTFnZnV5VHpZeUNMbkdQSDNsOG1SeWVrMnJjWXRBalVhNkFLRVpCbWttM3JSdWNSemdSRmF3SkdkRWVRMVJXMjF5Njd3cVV2UVRtblZmUGJpc09EOVNUU194UWZVYU8wMmNPTUNHcGt5MU9pcmhvSmlHVmItYw?oc=5)
+- **[한국] 고양특례시 고양산업진흥원, ‘고양 창업 브릿지 투자유치전략 워크숍’ 참가자 모집 - 사회적경제뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiP0FVX3lxTFBKY2JsZTRxNUFRME5JOVdHcWxsa2p5NEZDYWJaSFNmVElYUG01UGZQSDhlZ2IxUDlERnlZUlQ0Zw?oc=5)
+- **[한국] 큐팁, 김기사랩서 시드 브릿지 투자 유치 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvQlBaT05iN0RtbXhVQWxQYmdqNFdDV21KZjdJSDNCWncxYmVzR0VZR1JEazVOSGh4cjM1b3hOWHloWW5nZHJmVzgtMnhqQjFuR2oySU9R?oc=5)
+- **[한국] 테이텀시큐리티, 삼성벤처투자·SJ파트너스서 시리즈A 브릿지 투자 유치 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GRFQ5aHpPR0RfOWhrS1dNSTFhZ3BmeTc3cEhJNF9jVDZBNGJ2WURBNnlEQ25iaWt1ZGFpWXA1Rnl3OUg5X1RMMWVtaFhyZkU?oc=5)
+- **[한국] 스톤브릿지벤처스, 스포츠AI 플코에 40억 투자 - 마켓인**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFAta3BpNnp2dHl3VmNMd3l5anNiamY3YjVzYlVnNUNFa2RpTk5vOEZZXzJYeXRkV3B2QWpQYlV2b1ZYMTVPc0dlZDZONTB6WmZJSjFjLVQ3NTFtSW82NFRsSVIybjUxU0xVdUxselVwTF9HUQ?oc=5)
+- **[한국] 삼성도 주목한 클라우드 보안... 테이텀시큐리티, 시리즈A 브릿지 투자 유치 - 보안뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WVEwyR1NUU21FdmZRY2d4R1VXRVd2eHUxMTB2RG82Wkt4NVU5MFhrREN1OXJrZEVIOVFMZ3hyTmRzZmdIZTY2azJqdmdvVWhST2JnaFRlanNVbkhkbjhj?oc=5)
+- **[한국] "농식품 부산물→단백질" 시그널케어, 50억 프리B 브릿지 투자유치 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5SeHhXVHozemZtWHN0T0I3NEdTNkNQZ2hBcmZrT3l2QnRsXzlkdGxFeTEybXBybG5PYV9HVkhfTkhPVUUxOFU3TlM0SzUtaGFSZlBfT056bHdFV1RXNnRIcjNSUnRIUnZ0bjNybw?oc=5)
+- **[유럽] [스타트업도약 투자연결]관악구, ‘관악S밸리 브릿지 데모데이’ 개최… 유망 스타트업 투자유치 본격 지원 - 전국뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1lOEhGTlkxYnFnWDRXYUVTN0hwclBhdDViYWI2bmhZbXdBdThHLU1uZ2J1am5lcGM4SW9qbWpXTUJmZFpoV1AxRUhweUZhNDZrTmlFOG90S1dKLWVsUE5KSGhNdmN3dXEyWkJZR21JQS0?oc=5)
+- **[한국] 리아드코퍼레이션, 사제파트너스로부터 시드 브릿지 투자 유치 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NN1RNNkhvWTlOejR3cmNhelRQM0ZNd1YwbDhNTGFjVXY1WkpiLVdPQklvMVBMckJPVk5OeWpCeHJ2Z3FfVTZoMQ?oc=5)
+- **[미국] 부산형 워케이션 통해 부산 이전한 ‘리솔’, 최근 30억 원 규모 시리즈A2 브릿지 투자 유치 - 소셜임팩트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE1icFRQV0dVMHJHUlJMQlpLUXdBeWJRTmNTZDE0RHR0MXpGTlUyQWhXR3pidENPR3MzT25WNi1QS1hkYzRNN2p0bk8wNjFsSjdHN19XNVJVNUU3Z0NQTTNZYWxWenlhSUFkX3BNc2N6ZFhfbHPSAXdBVV95cUxNZ18wQnhrSlZaRU1yM2U3U2Nqd09xZHlUVmNfYVdwSUlZUjhLRVRjNS1vM2Vzdzd0NzNHTFpsM2tUUTJXZGFFSldDMGNCbnhoMEF1dmtMbXgxSEtoWDBha0ppZHZjeGxfREgya1luSkFzWXFWQTNSRQ?oc=5)
+- **[한국] 비마이프렌즈, 日 아뮤즈 투자 유치 기반 팬덤 엑셀러레이팅 가속∙∙∙글로벌 에코시스템 다각화 - startuptoday.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZNU1GaVRQOFg0aUI5OGRIeFZXNVduTzhCWFRjVHVfaXZJVmZrSkg3TlN0VERZN0tkaXY4Z3YzT1U1M3J0QVZmdERHVHVaVlVvQVh3ZHMwS2V5TkQyYmQ1SmxsSlZhWEZTbU4ycmxR?oc=5)
+- **[유럽] 하임벤처투자, 안정환 부대표 영입…글로벌 엑셀러레이팅 승부수 - 자본시장뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FLXFGRlJ6Rm03cTZhWFNqdEFwLTV1Slp4UTc1S1BFbXBYejAyTl9qSW5UdHRwMkFNaTZBRFJDbGVXVU5lcHByemRuZTZfVlo1SjBjdG54eHdSQ0xwQVQxVjNOdG1aNEU?oc=5)
+- **[한국] 창업진흥원, AI 스타트업 해외 투자유치 지원 ‘GMEP’ 사업설명회 개최 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBiYUhtWVlxaWo4Ni1aVEJrRF9lWjNkeHV6bWdfVEltdjJBX2w5Tm1PZEo5aURxRVViY2pkeEhvV0lPc3IwV3RsNg?oc=5)
+- **[유럽] 전남정보문화산업진흥원, 콘텐츠기업 투자유치 지원 나선다 - AI포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1ndU1tT3YtRzNqWUlCZVREUlpNSnRET3NJeGd5d1Bidm04cXhWSldzdzd0M0l4dUpCXzBlSEU4MWtXd0FMRkhhUzVnOXhZT2VteVNkZlBEWmcwYjdGdHlWeVVrdkd1WVNuMWNUVU1R0gFyQVVfeXFMTWhXOGtHUXIxU1BKUzQzMmt4RC1nMXFCNW9HSjB3RnpSb21iVVlTWG80SkZ6c2dnMFlHc1hDbWpZeExlOUtNNTJ1emVLaXgwck5ZMWxJS3FlRWE4VTlqazJsYWhNNkpzc013VjdGY1ZONUtB?oc=5)
+- **[한국] 부산 엑셀러레이터 메라클, ‘피닉스투자조합’ 결성 준비… 지역 딥테크 스타트업 육성 속도 - 경상일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBxYkRYY2U2Y292ZGZuVTBpbGo0U1o0azdSNlJUc3VEa3NLbFh5SGxvZk5CSDgwVVZyWFh0ZXh1UGp6T0ZWRndZS2I5eXJEaDNpV0tyX0daOE8wNDJlSTNLV2hCaXdST2lOS3llTw?oc=5)
+- **[한국] 콘텐츠융합진흥원, ‘투자유치 엑셀러레이팅 지원사업’ 참가기업 모집 - 전민일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE55eFU3MWo2dERKRjVuM2k0VXk1clpRRWs0RFFacThnakRObktLaEZmajlkNVJ3eW9sLXVJQ0NkZDJ6N2R3Ni1NcGpjODAxNjRnSzI0Ry14RXQtal9pQTFFT3hyZlhjRTNkMmhDUw?oc=5)
+- **[한국] [AI 고속도로] 클라우드 빅3, AI 투자 결실 맺었다…인프라 슈퍼사이클 진입 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6WWdfd1pBTmhyamJ2dTZfT291T1JCLXJWRzRyZUxmTTc1RHpfSjV0VDQtM2dsM0toWWIwZ2lwTmk1Mk01ZlZmdEhsT2l0a1hJRVg0SUt3?oc=5)
+- **[유럽] EU, ‘AI 기가팩토리’ 7곳 확정…총 49조원 규모로 투자 확대 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBGQkZlX3NTX2xUNG0zY2lZUmtNcnBINEhyaWVIbnJNemZHd3p6Y1Z5dGo2Slo1aTdsOEFZbDBpUWVYeGJMUE5qSURabE40NHZBbm02Q2xONkRCbmxpY285Y3MxTkxUWU5NU1E?oc=5)
+- **[한국] AI 투자도 '실적 증명' 시대…MS가 바꾼 시장의 평가 기준 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5QOGpXQ09paGdDUEFUOXlmd1VnOV8yVlhQc2JCSGxuVGVnUnNWTDZXRzVYd1ZKb3hQeHNoQ0NnQjR5X2RNOVFCbjNnZkF0WjhnRmNudUtVX2NYLUwzZ1gzT1UzX09QVnA3TXc?oc=5)
+- **[한국] 아마존 2분기 호실적...AI인프라 투자에 현금흐름은 적자 전환 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOMmRHaHpBNHl3RkhNNmtLUTdKbGFibXRrTXh5cWl6cUkxcmIzb3UtTjg4c1BENG1CT2xDMVJCWUJJaHlpQ2tMLWFtT1phUnFHU28yWWI5RUlFU245dW95SHlQeEtyMjI5cEI1aTc0UmtKWDhaU1NiSVYzbld5cEV2ZnBEQQ?oc=5)
+- **[한국] 메타, AI 인프라 투자 약속만 7000억 달러…실제 성과 이어질지 관심 - 더구루**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OTlpBQW9iaElieVlhR2g4TjJQUVVWVUx3TFhnQ2t1SmoyczJlTEhJdjFDNEpKTk9HWGNKb242UDZNTS1Wd2Q2RW8yU3JLVEdTMVVRcXAxc2QtYjZIWDlTTVNnNA?oc=5)
+- **[유럽] 인천시, AI 커넥티드카 기술개발사업 유치 총력 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZMHd1UktYN3ctbmd6U0k2all0d2JEUFc3N2twUUFlMkdRUGpVQTB3SXd5XzByM3h0NFNvZVZidmJPQzlaaFV6YUQ1dWlRVmxTZHkzbmtFcW5OeldiUUtJX0JoREEtYkZpaGfSAW9BVV95cUxOSVMtQ1pFdVl4b0ZIbHdYWTJ0QS1rc2J4dHpKX0pDUHNCTFJPMjlWMEUzX0k4S0ZOUm02U1F5MnBDcU1yZGZYa1Fic3UxMDkwaWx3RERUYkpLSlNvOS1uWTRjdkdvcUI4bEs1UHBqdzQ?oc=5)
+- **[한국] 삼성SDS·LG CNS, AI 투자 본게임...하반기 실적 '시험대' - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjbWcxM2hiTnR1Y2VMRFE4N0ZSVTNCa24wQUViZnpiSzVSUWtWYWRhUEtIMHl5Q1VhOXB2RVVnMl92ZTVycFY4Ym5FeFRPYVk?oc=5)
+- **[유럽] 공포의 7월 폭락장, 중심엔 이 남자…AI인프라 ‘투자의 신’도 월가에 당했다 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xcTV6OTZOSVNiNDNzcjBMWG1HN1VvbWJfdi1FRWFld2lWT1RBWjRoMU9lZ3lXQng1NXlheUVCMUJVS2FBTzF6VWlGSFZzY0RxblE?oc=5)
+- **[유럽] [특집]LG그룹, 5년간 50조원 이상 AI·바이오·클린테크 집중 투자 계획 - 경향신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nNThWbDZKblU0VTY5RzZlMzIzWURSRXpJVXBHRzAzVmtkVWI4VEFNUVRSYWZxY2Joa0Q2cW1ndFh2U2lGTFB5LVdEVG9Ga3d2RXdwY3pES1NKd9IBX0FVX3lxTE9nY0Q1TFZxSGVrY3oyek9SVXRTckxNQ0diT1VUVnlGdXVWNjdkZEV1MGhfcEU2aEtWVzZ0WVhHcjk2YXZfbnZINXR3TldxVm5zblNzbjR1SmlhdjhpV080?oc=5)
+- **[유럽] 글로벌 클린테크투자 79조원 돌파…중국·유럽 대형거래 잇따라 - 임팩트온**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LbzM3b2N4Uzdna3g2bTNVV1JRaEJOdkI4b051WUtQNmlUME9XajBZVnI0MmphVjd2ZDNBeTRacGxJOGZsUWktZDdDWnpMQm1ad2ZTOHFLaDlxTlcxenlQRkV1cFJiOHll0gFsQVVfeXFMTkJKWGdtazR4Y1hLZWY2d05NV05FZ0ZKcWVnVjhhSHpkNnN5MXgzNzdoN3gxZV8ydDRxQUxHRUw3RF8yQTZRaElNRXZaLTc4WXlFeXNVaF9PTFlyZWxBUDNDd0ZCSkRTOW5yd3Bj?oc=5)
+- **[한국] 싱가포르 스타트업 생태계 가치 1770억달러…AI·딥테크 투자로 글로벌 허브 굳힌다 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JQUwzSDZLUWhpamFXVGVzNlhvMllfNHdyaEs0Y0ljbVBZUGgyLTFtYjdYYnNwRTg3MkxmYnZlSVZONFZ1X2tZY21EdFNoT2Y2VldrUjVaZC1VNS1vSzJJenZsMTk1dGJM0gFsQVVfeXFMTlk5b3RSYUtSdU1VTFY5QkMxWEE5OFA0RzVxcnVHNTg2Z1hYWTFIaEp1TGtHQVR3ZGdlcUM0UHE5d0t0ZlpTRnJLOVVGbm1la0lXSmlYLWgxd3RUU0RxcXlabjdvS29tWUZ3N0pT?oc=5)
+- **[중국] 중국 클린테크 초격차…서구권 VC, 투자 불가 영역 확대 - 임팩트온**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZFA0dF9vZE5XRFpXbU1kbzdZcFlzZXVNM1ZmYU5UR1lMeVNjRE4xVWtOVWFMRlFqVG9sUE1QQ3VKS2tMallfMkMwTlFTaFA0UVdieEJ0U21XTFBFaG9kc2xGUXE3dlhw0gFsQVVfeXFMUGt6aXd4cW85azNyOGhXVWhPSFpoc2tWNEk3WlFxdVRZMDdza2lYamtFaFd4eC1DSXBjUzNJWm81cl9YTGRCTGVaVmpoc0lXZkhoc25CNjlXLVMyMURYM2VTUzNiNU4yUU9oNDF3?oc=5)
+- **[한국] 구광모의 승부수…LG테크놀로지벤처스, 작년 ‘피지컬 AI’ 투자 역대 최대 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrb1Y2QzNSeE9Xa2Nqd2pFbkdKN1J4T2wzZVktenNVR1FsSDJSc1BaUDU4bGxROFU4dFlFdjJIaXQ5NmE4UG5PWUIwVkVfR0k?oc=5)
+- **[유럽] 구광모의 승부수…LG테크놀로지벤처스, 작년 ‘피지컬 AI’ 투자 역대 최대 - 헤럴드경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpRjJYYWtLbVREa2p0aENURGVmV3V2Y2U5MEIteUdzZWQzQTVCclZySVJmSUlyX0NDQk5maXE1MlZBUElCeGY5STY1WGhCOUw3ZWFrT05R?oc=5)
+- **[미국] Synthetic-user startup Simile raises $200M at $2B valuation 5 months after $100M Series A**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/)
+- **[한국] inforcer raises $50M Series C to scale AI security platform for MSPs**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/30/inforcer-raises-50m-series-c-to-scale-ai-security-platform-for-msps/)
+- **[미국] Qureight secures $20M Series B to expand AI-powered imaging platform for clinical trials**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/29/qureight-secures-20m-series-b-to-expand-ai-powered-imaging-platform-for-clinical-trials/)
+- **[한국] Greyparrot secures $27M Series B to scale AI waste intelligence for the circular economy**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/28/greyparrot-secures-27m-series-b-to-scale-ai-waste-intelligence-for-the-circular-economy/)
+- **[미국] AI price wars: OpenAI cuts GPT-5.6 Luna prices by 80% as model competition shifts toward cost**
+  - 원문: [링크 바로가기](https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost)
+- **[한국] AI 서버용 MLCC 투자 속도…아모텍, 206억원 유상증자 발행가 확정**
+  - 요약: 특히 AI 서버용 MLCC 수요 증가에 대응하기 위해 향후 3년간 설비 투자를 진행하고, 고부가가치 MLCC 생산라인을 구축한다. The expected listing date for the new shares is August 25. Les souscriptions ...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102579/)
+- **[유럽] Eindhoven’s Keiron raises €20.7 million to tackle one of electronics manufacturing’s most expensive problems**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/eindhoven-based-keiron-raises-e20-7-million-to-tackle-one-of-electronics-manufacturings-most-expensive-problems/)
+- **[한국] 충남혁신센터 투자육성 '그린에이아이' 팁스 선정 - 대전일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZUW04ZW9RQ0VpOFk4TEdhLXZFNlZ0YnJXd0F3aHVUeWNFSlF5LUpxS3Y0UTFVQm81enFPamJ0WXdoN1gtNDJaOEg1bUNEMlBnbUVGTm8xN21nVXZNbVZ3a1M2WVdjQzI0ZVIxMG5mSdIBc0FVX3lxTFA1dU8xVzlSb0xsSjZ1dU8tYS1SeVJBckxCRXVRNFdVZTJyckpkdnQ2SThZTmh0TkJPaXNqVTdmSXRMd2xjU3hGazYtcDJCU3NNSndObTVjZDN5SGstem5GTHRKaThDcnoxblAzWWRTM1NqSEk?oc=5)
+- **[한국] 디디에이치, 중기부 스케일업 팁스 선정…美 보훈 조달시장 정조준 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTFByS3RNclAtSkFOWHRhbGpHbVd3RGwyX2RWd1lFYkxDRkIwcFpGX2IwWEwzVVI2RGlIUF9mblJSeTd0X1BtMW9IQ194NA?oc=5)
+- **[미국] 디디에이치, 중기부 스케일업 팁스 선정…美 보훈 조달시장 정조준 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKQ0xxdE9xbjJkeUR2YkFzdlZDUGwxNnFCNnBBeUxxMEt2Zkxfb2EzUWppQ0lueW83SEVMQ1ZuSGc2ay00cjZQRGUtSG9sVnQ3RGtJaA?oc=5)
+- **[한국] 사사사, 부산창경 등으로부터 시드투자 유치 및 프리팁스 선정 - 벤처스퀘어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwdkYyZ0RMM0FRZE1kYmlmUmgwdlN4bER4SjBGTUlWamRRek5RV0F1WExIdWlwaXJ0aGNtME9NTmxtcGpMdTYzRldrUzVaZmM?oc=5)
+- **[한국] New Trailer Revealed for Spin-off Series of 1982 Classic ‘Blade Runner’ - Men's Journal**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxOU2c2UkFWRzd4dkJHTHF4UW1OWVJOU2VfNUVQNXFzZ1dtMDZYNFVuVVQ2bGpZVzhwbUNlMG1KN1dodHFQM0R5dmZIeGZQbTJyamlhOU1HOGYyeDQ1SjlpWVJpUmhTeWRiTklzeGRVVk9ILU9ORWF5QzdkMm9KT2txR3hLY3dlbVZYRUVNZ1RnNUFyRkV0ZGlsV0VVMGVXb3lyUTFGNA?oc=5)
+- **[한국] Fair Game - BBC Comedy releases brand-new YouTube spin-off series from the creators of Funboys - bbc.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5xbkloNGM2Z1FVZWQtZ1kxSFdQU0NBT1E1VENWLTItbTJOc3NCTkxqZWhwdExlbHFoVmFBdTlOdE4zMmtGYy1YSWpSaGJtVDNNbDByUldMUEhZRVkyQUk2SVdOWlloVHV4bENVQUNJYjE?oc=5)
+- **[미국] Unilever hails best sales in more than a decade ahead of food business spin-off - Free Press Series**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU1BFUFJwYTdaY3hvNUgtVWVSaWowMVM1LV80VFJfUUdaYVRIUWdxaEw5NW5PN2M1NHlVR1BUUUt6S1Nlemw4djdGQTVtLWdvdDczdk93ank3OWdQV3ZIVzV5Yy0wVWh6UTlnRk5peFdQYXlxcmRuZ01IekFfeldMR0hXaXFmZzNiTFQ0TGx3ZXZHOW1MQXZ2TFF4enl5OXB4aVpodU1sdnNBTi0xYklOc2JNb3Nkakh2SzA4?oc=5)
+- **[한국] Call The Midwife spin-off: Release date and series details revealed - Yours Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE14d240Nm5aRF9oZFlVUk1Pa2tTRHJxWlpJYVN0eDJDaXBPdGVDZm5GUF9PcEFHdzFHSWhiZy1YSnhhQ1BjNHplSU12QjFlX0lzakd4aHNzcFZwdUxvWTB1QUkwa1VWdUNTOXUxVThsdVVxS3BxNmNJYUpvZw?oc=5)
+- **[한국] Xiaomi 17 Pro Series Receives New Rear Screens: Real-Time Weather, Digital Wooden Fish, and Stealth Mode - ximitime.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNm9fVWJRTjVLV1IyWU12bE96b0IxLVlBckgtVVU5Ni1Tcnk1MWZhR3pHYWFIRmtkeHpSQzFFTnI3M2xqV2hEcG96djVJaV9NT0FpSW15UGtmUXBMM3pHaHhmNGxPNHdiSDg3Zk4yY1FFSEJSUVJteHlHZVJST2VhMGVMZjREN0tmTm5odldwX0VfU19hV0Y0UE5Jb0xaZEtkN1lobWh1TWxmQ2NudnNYdzdybXBwZ2Vac2hJRzhrVDVIMjR2RUNXUA?oc=5)
+- **[한국] “AI, 돈 된다” 투자 확대 나선 빅테크…미소 짓는 삼성·SK - 중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yY0RkYXVRaEJzMlRBSjVSbjYyNkc5MWRlQnNoMUp1VjhCT3NmME8tVlN1Z1REd2E2YVQxemtWb0kxbDJoM0FwY3pNLXFEV1p5SkRiZW93?oc=5)
+- **[한국] "끝이 안 보인다"…美빅테크 4개사, AI 투자 1조달러 넘었다 - 마켓인**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE54aTNQTm9fOHRYdE9PQ1hka04wd21PX1pZTTJFbmZaYVBjM0dSYmYwZEdCdVc5UVBhalp1N0ZvMnppdkI1S0xzVDk4QmJXbzN3S3cxck9hcE42dVhyOXZQWEFoZll5ZzJlaXdnR0E5TDlZdVU?oc=5)
+- **[미국] 구글과 아마존, 마이크로소프트(MS), 메타 등 미국 4대 빅테크의 인공지능(AI) 투자 규모가 AI 경쟁이 본격화된 이후 처음으로 1조달러(약 1437조원)를 넘어선 것으로 전해.. - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wbGFTYklVVnR3NURodWxwakFpTkRzNFZlOG0yWXgzMm5tZlZJWDYtNlU5YXJJOUxTWm81bHhUUmxXUHpPLTlpcTF1VTdwUFk?oc=5)
+- **[한국] Factory Raises $4.69 Million Series A - The SaaS News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdTd4aEpEV1U1Rks0QWdqRDU0QnlYbE0zVkVyQ29mZDIwaVhPUEVDdE5pQUJXdF9pcGpOelpQdDZfOFNodzllRmRHSURJdF95VWFWQjlQT01vRGE2SkdRd2xuLXBCbU5Uc05ZQTBrX09JSTFVQmhGSXl3?oc=5)
+
+### 📍 Deal Sourcing
+- **[한국] 101번지 남산돈까스, 로드숍 신규 창업 대상 '4無 창업 지원'...최대 2000만원 지원 - 더밸류뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBROTVzTng2ZmNSY0l3ZEwzeGlyU3dpRDRQWjI1emFWbXcxZE0tUk5NOGQ5NUU5UC15MXJsOHNIRkR0WlBwTmxLbGU1dy0wUEdsekdB?oc=5)
+- **[한국] 101번지 남산돈까스, 로드숍 신규 창업자 ‘4無 창업 지원 프로모션’ 운영 - sportsseoul.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VNTBxRWt6Ump2cm9FX2V1T0t4ekx5V3NSWlN1RDhfZXltOHZqRWNtc3RDeG1BT0pCRHZQVGhYS0YwLURqWWI0eHQyYzJmVDZtZF9aaTd0M1U?oc=5)
+- **[미국] [포토] 은평구, '청년 창업인의 집' 신규 입주자 모집 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxNS0VRZ1BmU3NhalRuSlhsWVczUXBST0dCTlZBZGdmbDEtSm4yMnVSZDFaVU5GZWxSU2drOTBkNnJCTUtyQ3p3bGJhRWZJb0xGWGs4bnVLY0NYM3Y1aTQ0cjU5Ny1naFR6blRuelN0MWtWU2xwUG9senlkeXJZSkM2MA?oc=5)
+- **[한국] 베트남, 신규 창업 증가 속 폐업도 급증…2월 기준 신설법인 3.6만개 육박 전년比 70.7%↑ - 인사이드비나**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1tcS1EV3dqWGIyUVJIRHZISERfNWdSVXhJMS1WaFRNUm9kblJ4SDRFaU1KSnlKeUlPdGU0aWpXcjV2TFYxcmZTbFFYUVowNnRtZng3V2Q1Z21LaEdtLXpWRDdrYlF6SzRINUQ0dw?oc=5)
+- **[한국] [사이언스게시판] 과기정통부, 딥테크 창업 지원 특구펀드 신규 조성 外 - 동아사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kbHluVXctdk5RZHUxS3BtZWw1MmZSSFg4Z2ozZ2lCUjRIa3ZkczI2ZFRGYXZIaTBiajFXUjNhRlVGWk5JblgtTXRkOWY0WTJCYUxJeg?oc=5)
+- **[한국] 페이히어 '비대면 카드가맹', 신규 창업 85%가 이용 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrdFUyZVM0OElxN042R19vTFRreVJRNWRGWm04QlNTOHFzUlVFdVB1UDhiUDNtSzFoTVpNdktmdm1Wa2tCNUtxa093YmN0dw?oc=5)
+- **[한국] 스테프핫도그, 4~5월 신규 창업 및 업종 변경 지원 프로모션 실시 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBSQnhHaTk5YTJuYlpDaG9QZnpYbFg1ZUl0MGJYcGhweDB3bXd3MThaSEM0d2syVkxQbEE1Q05OLVdZY2g3TzcxT1BsRGZuRTVOcDR6SFlBTl9vWlJWX3dUaHRhVFFHbmRhUnI4?oc=5)
+- **[한국] 곡성군, 농어촌기본소득 도입 후 면 지역 이동장터부터 읍 시가지 신규 창업까지 지역경제 변화 가시화 - 뉴스깜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5WVXM3TTVhR05OelNfeXdBYVliMnY3QTJ0NTBTeDVvUXhQODg4U0RkcUlJVEZvQUZUMlFPeDFwRGUxZzhlTjFtVzJEWjVPVDFJaElwNnBpdXBkMl9xU2Voc3dEQWxHbHA4Rmc?oc=5)
+- **[한국] 연구개발특구, 딥테크 창업 전진기지로…512억 규모 신규 지원 착수 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ybTI4R1QzMjVOLUFEN3NnSmgxdHhHeHdjRzEycFE3dTJSQkZpOEdjUTUwbUFUa0c5bFVaM2E2RWRrMW9oUlhwMERWeXZaQQ?oc=5)
+- **[한국] AI·디지털 기반 창업가형 석‧박사 양성 대학 4곳 신규 공모 … “논문을 넘어 창업으로” - unipress.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9kcmk3dkUwa1BidEE0WjgtVEtoeFJrQzRyMnlMTXl2YklCa3d1WThtNlBCZ3dOQ1F4bFdIM21WMlJfaE1DUmxlclFJTGlDNTJVMGozSUg4UkNIeFFDdVFGOVV5aHB3VE9jc0JQcg?oc=5)
+- **[한국] [Selected Companies for the Catholic Kwandong University Early-Stage Startup Package 2025] 'Globally101,' a startup operating a B2B platform, connects overseas expansion with revenue - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE5JNEFRakZ0NEgza0FkU0ZPOTdfc0VuRHBscUtxai0zRTBDQWcxdk1LOTgzTjlIOWFYYnJTR0FQUWhHR0dqaWtXbDhoUlE4RTdER01tOVhQbkR4WDVfOWEzcmdLdllRV1B2ei1r?oc=5)
+- **[한국] Star Catcher raises $12.25 million in seed funding to build space power grid - 산경투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE45MlJuVDBtcjg5akFrdnFOWkpKUTI2M25BSllvNHJWVnB5LXgxVTV3WFVnZW1od3FNcE5aYUdfdzB2SnQ1U0FkSU9tU091RmgtenZZc1dYbzNMSlE0OXhKcTNNQjN2TUVQU05LWFQzR0vSAXRBVV95cUxPVHBfZHZHQVlQSk5uZjZFR2VSd1dFU2FubmtJMW5xV1A3d1puMlFOVk9jazdOY3NsV2U0VzdINWlXMGxOSHRaVjd5MmpiZjZKUTNLTTAwQWZfZy1pckRYMnhoNDNIcUp5NWJHSHJybXNGdkxYTA?oc=5)
+- **[한국] BPA, HD현대삼호와 항만장비 피지컬AI 기술 연구개발 협력 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yNEpXb01UYzQzbUFsdWJsUkhpekF0NU4yV21rRHF1cWRib3hFbDh6UHVWZktyX0dfdFd5T19hZC1WM2t4LU5TYXlaR282N2RVLWoxYzRpSTZob3ZSWGFz?oc=5)
+- **[한국] 실증용 클로이드 양산…LG전자, ‘피지컬 AI’ 속도전 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE51eEJ0QnpHRjc3VmZQRDdzX3l4S2NGbmRUbjNQMjItNVhnbnl3RjE3c1RjTkxMdVQyMHNkUmt6aElEaGVkdXpkOW1GaTlubk5CNmfSAVNBVV95cUxQclNheXl4Z0ViWGNuQXRNa3phaE5mQUdKbVBLQ2ZvekxIS2tHQ0ZWd0lJSmZmTml2R1lucFdka1hqOWxjMExaM191aXpJSldEek9Xaw?oc=5)
+- **[한국] DGIST AI대학, `피지컬AI·메디컬AI·AI-X` 3개 학과로 출범 확정 - 매일신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5keUVZVzZxajBweVZIQXFLMjJ6djdaNGtPeE5VaFdyTUw0RDRnNkx5cXB3dkdkbGxGcGpsYzc2NzAyV0lQMmg1M2NJRHpscUg0UzV3NHpLS0tzUkdPN3g5Q2FR?oc=5)
+- **[한국] [물류 혁신의 그늘] (중) 인천, 피지컬 AI 전환…안전성 숙제 - 인천일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5CSHQ3aURQQzdRaUZ0MHpmWnRLclZxSmRRSlhDUElMNWduQXVGVHdzZUZzWWozUVlocnNDU2xybktuTTFIQW45dGV2SVB4Wk9jRTJPLWZSSUFPRXB2OVlsRFVrTTJCQjF1YlVCV1drVUE?oc=5)
+- **[한국] 피지컬AI 구현 속도내는 NC AI…씨메스로보틱스와 맞손 - 파이낸셜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jVVpJQnViNUxCN2NXcGZjNHB3alUwRW50Q1ptRW1jeUdHN3VUaXlWM1NYMG1IOXJIMFYtczdNczdmWHpUcm03clhnUDFoOHk5RjF4dmZjcWo4Zw?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 피지컬 AI 상용화 속도 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ua2hmWmt1ZmJwRXVfVXI5a1RVVzVpRlp1VHZuTkpFZ1ladHBFSUp5U3hSME9MOHJ6VkZTa2gyckZMMVF1eXRwd1RUOVE5c2JxTzYxdVVR?oc=5)
+- **[한국] NC AI·씨메스로보틱스, 피지컬 AI 맞손…제조·물류 로봇 상용화 속도 - 메트로신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE00U2oxX3BYUm00OU1HdkJIXy1lVWZjYUVzeURoYTBMYjF3X0FwSnhtM3l6THNCNzhHTHBlYi14b3NHZDlPWlJyTVJ2WGRzWXViTkpVRFFETlkxVUwtR2ZPRA?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업과 손잡고 로보틱스 생태계 키운다 - SK텔레콤 뉴스룸**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE5BdlF4c0RHM3psOUpPbzV3bzJqQWJwN0VVRHVDSVBBWjBObVNxTmdSbDI4UURLYXdvR0ZHTVQwTlFoWWlwVkNJNA?oc=5)
+- **[미국] 부산항만공사-HD현대삼호, '피지컬 AI' 기반 스마트항만 기술개발 맞손 - 대한경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE44RDBLRjUxQ3N3U1FnTmtxaU5MMzJGQmZwaHpUSG02cmNGVnJwN0ZOel9tN3B5M2owS3RNM2hiblE5V0FGWUxmWU5IX3RZTkdDN2Y2b1owLW1PWGFwYUx2MW9NWm8zYlFnc1B1bl8yREhVLXM2?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업과 협력 로보틱스 생태계 키운다 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE40ekZyVzdxQzBLSmJTbW5TU0ViSzF3Q2dPWGl2emJLVEQ4Y1J0MEVjaFZ0bmYzTXFod2x0QUNlSk1RSTNZQV82elU1MUVfdEJNVFM0UzAwcTB0Q2dPcmJKYTBiUmhEWnlI?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 맞손…로보틱스 생태계 키운다 - 리드경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBYWmlfbXFJUE5Ic3IwSDlsbTJzQXMyYklfUGVSaW9TcS1pVHJ1N2J5SkU2SjBONmxMS3BRMDFtVWgzT3ZKR3duMnlPbWNnS3huMkV4TVhqZkdTV01obXNtczJuRi1ELWNBVWd1TVNpNA?oc=5)
+- **[한국] 테슬라 옵티머스, 피지컬 AI 시장 재편…제2 엔비디아 부상하나 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEtoanNVQVRyZWZySDk2c0hhcjZob181cG9Mb1VoSzhFOGVRZUxPU003OU1RTmdNOXpCU3N4QkxVbXhkTEFfOW9KcWZvd1ZUa3pyLVM5bUd1UzJQd1c5SUFCdk9TTzN6QW02c1dqTU1JZVJyTVh4ZEUzWDNoRFBNTm1rNTZ6M0g1?oc=5)
+- **[한국] 여기서잠깐/ 가상세계 벗어난 ‘피지컬 AI’, 우리 일터에 스며들다 - 대한건설기계신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE04RVpCUGFnMXQ1bnZ6NnRpUERrbzNjMXZldjVWRVQ5djBTV0JlalhqQTZPTEt6dEFOckg0b2RXUzlEUFQzNFlRS19rQVhUZXlTVkVJeGo2U09YaTkzQVFMQ0tvd2Zndm1R?oc=5)
+- **[한국] 포스코DX, 무인 하역·AGV·자율주행까지…피지컬 AI 전면 확대 - 물류신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBPZ3VkeEF3THd4aUdoSW1hbEhuWGhDUllTUEt3X1BNS3dORThKa3gwQkttRElNVjlPZU55QXhwaFlLZDZiZjJ1T2ZFaVJ4bWNqZ2R3ZmdkN3RfRE4ycnFGTkdtSWdpYXgzTTZZ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업과 협업 확대… 로보틱스 생태계 강화 - 아이티비즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zS2lvX05hU1hfTHRXVFJnQ0pvazBXY3hqelQ4NFVDUi12bk9sN2RPWXY3c1JCNTd3UFZiWVlMNHZvdDJXZl9pZnZIcU9iLVhDa20wRmE5ZE9tUURpOXM3S1FlZ1lSQWs?oc=5)
+- **[한국] [여기는 전남] “피지컬 AI로 자동화”…광양항 스마트항만 착공 - KBS 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vS2VWZFJZOTJuV2JzTklaSWNLb3M5UnFCNDNocU1ncjhMR2FlV195dXNiZjgxbldHOXNDcktMYkRPbGtuRk5MWDlMZXQ3NHFRMjdPRnZMX2xPcWM?oc=5)
+- **[한국] 원격의료·반려로봇·피지컬 AI와 복지기술의 현재 - 에이블뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBYN3hHMlRCVGU4cnlTTFlpZk1pLVZLY0lrdDRqdFpERTBCUU5FZXRUenpaVmFUZHpEQWhIU2RBSmxkY1dxUDFhQlZ5Z1A2d2R1RUMyYWtRQTJybHY5Q0pNNUFlTXFRWGx2MjB3cVBB0gFyQVVfeXFMTXRsbm9pczRfZXBEUnN4VUx1WDdlbmIwYXYwclF1Ymx5NmhWSmFmVUl6bDhnVnhIZWhjbVNrdTRvVk1nZVluLTRzcVp0VGVkZnVRYWtiMGhpN1huYkZLNUJWM2RHMVNDZ2p5a2VaOERhaEZn?oc=5)
+- **[한국] '피지컬 AI'로 조선산업 바꾼다…부산대-삼성중공업 맞손 - 해사신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE56X0JPZ1VsSHRDY3JId1JrZGkyZkxaMmRxMVZzeEJKTEFHdndPMVk0UXhxU3RfRnV6SDEzWUEyNFBQTnExcmgxOXZZV3E4MU9ySzQ5Q3ZsaG83WnNCd1dNQzUxMmxZVG52aktV?oc=5)
+- **[한국] SKT가 그리는 AI의 다음 무대...피지컬 AI 스타트업과 동행 - 소비자경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFAxUmZ5bUVKTVpYaGx1M29pb2RkV05EZDJpNTdQU0JSdnBHNndqWVV2UTJsMkdXT2gyZ3E0QnpXT21OV1NJMlNieEFIRUJudjRZOWRzdXFXdmhYUzA5a3pJZkYxbXR3Ql9zV0E?oc=5)
+- **[한국] 부산항만공사-HD현대삼호, 피지컬 AI 업무협약 - 부산경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5EM3ZteHZlbld1OTU1alR6ZmptZVVvN1lBcGJYTmZFdmN0akxNeUlvaTFOQjdGRXp5clZibVNrelc1X0c3TzJmZG5ySUtnVHR1Yk9ZVmw3SGxrdnNl?oc=5)
+- **[한국] 피지컬 AI 접목… 부산항 스마트기술 개발 속도 - 팍스경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fd1B3LWNFY2lkYWVnSWtvY3JSYjIzOS1SR0psRXdaZjg4T09ZZ2t5Qzl5RVZ6cUxQSTdKMWlrUElXb2NxU2p3QmplYWg4aFRkbzc2c2czRkl4RjQyNGozWS1QWXV0c1E?oc=5)
+- **[한국] [컨콜] LG전자 “엔비디아·中 로봇 기업과 협력… 피지컬 AI 전 밸류체인 구축” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxQOE5abkYwRG1TZFExREtmT0tSMDBvWEhQUnBjQ0Ntdm1zN1FzY0VLTWFsMEpYTWtiTmxzSVZmR01vaWxLcXRqV0RlVFd4bldVZHBYOGdBQ1V5X1lqelMxcnJjcVNCbURQcVQwdERFVEE3Z0VUaXM3Vlk2Si1PUDVVSXlB0gGWAUFVX3lxTE94X2tFRGFpdUNEcmJ0RUlnMFluTERicWNUdE1VUFdLY2d6X04xMDB2X1dCVFlISzAyRkU5bU1tY3hjY1NETEFpZ1lJaHRleXBTY2R1M3VrUm5ody1rZ08xSVREcXdnVjRBdVdwS1l1Qk1BeXNLRlhLdXRQQnlnM0tRa3IySTlwOHRFWG9wM05QSWNrVDh4dw?oc=5)
+- **[한국] (최홍규의 피지컬 AI)로봇을 가르치는 일도 숙련이 필요하다 - 뉴스토마토**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNREJEeVcwQnFqN1NqYVdJYzhSUjYyakVOV2k5UzJubWV4QTl2UXQ3VHVEMGhXQ05jcnlWd0tlNGw4REpZRFBIUEo2eGRwd29zSUdjRUZiR2F1QURqR0M5Uw?oc=5)
+- **[한국] 인천대, 피지컬 AI 기반 ‘AI 로봇·제조 AX’ 초광역 협력체계 구축 나선다 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE8zQWdEbG5ialRQMHFJNEU2eW1BbzBtejNmSHIybFVfc1RnWnJyeWhUUXI2WG9XdDMzbFFpQ2U2MEVjTTduQjVET2JucldsdWczYTFYLVNHMGJ1aG1hWGJ2ZHk0SnYtZ1FWc1plNA?oc=5)
+- **[한국] NC AI-씨메스로보틱스, 차세대 로보틱스 솔루션 개발 - 디일렉**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE14Qk1SVE04TFZUX0R5UmFLVXlGVDd0WGM3cU5YZnJBR3NwNGhOZ3BGSlFqVXgzdlhmQjlta1g5R3dyQjlsajlJZ2F1WFY0MVRBTzVCWlBQUnpOakMxeC1jLWJLS0poZw?oc=5)
+- **[미국] NC AI, 씨메스로보틱스와 피지컬 AI 로봇 공동개발 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5lZlQtTF9ad1czMW1kb2dvM1ZnLVJTTjdxeWVaQmZ6STZxTk91Wno5T0swR3hlSkRUSXQyelpyRTQzN25CRXU3bFlGSl9BQ0VuLWJzTklSWHRlSmct?oc=5)
+- **[한국] 박영선 전 장관, 전북, 피지컬 AI 거점 가능성 제시 - 전라매일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOMHRjOU1RNl90OVlnRVRpZ2tjOU5QY1pXakdRMWgzd0ZNbVNKQ2Rxd3Q3QnZNMWUxZjUzOG01SE9vRGhtcGVLTHdPZGZpTy1oYlE?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 피지컬 AI 로봇 공동개발 - 더퍼블릭**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBxTjRVaEhKd2J0WTFNWDlCV3NhdEhkck52MldWQ0RNMTRPRkk3TWN0UlFoVzFOb3o0NUI1a2w5TlRodkp3LVQwRGtibWxMSXdKVWdUNmVnNGN1MFhiVGZIMjhnamQtbnFuYjl30gFvQVVfeXFMT2FiNElER2lvVG9IdjdSc29uemQzWTZPTEhranpRc0N3R2taeTRDV3doQVhsQUdWWjFGVDFraHBCYzZxcmlZQVNUXzNoQ29jVHNzTlNma1B4OVlqeDFXUHBibmUtYjlLTzA5UUlVclBZ?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 제조·물류에 필요한 피지컬 AI 개발 - 더에이아이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE92d2l4ZjItMU90ckI4YlcxWHpRSmx2NnNzNjc0OEhTdjIzNlNhTXZkSmh6bkoxNlNUbkRFQ3VUU00za3ZHMTJUbHdPU1RLSjVKVDhvVWVVaVlZT2pQSmpMdUY5b1hSa1RYMTZj?oc=5)
+- **[미국] 엔비디아·삼성 출신 ‘AI 전문가’ 영입성공…현대차그룹, 피지컬 AI 대항해 시작 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTFBPeXFkZWR5cFBfNmRrOHV0N2lBTVFZR0Y5RXdoZVBHRzB0ZG1FMENCWGJJVnJuUS1CT0pyQVBoSllUNFdaY3VabkpSLXU2YlhxMkZEd0pqZ0RqWTB0OWNYdEFVUzM2VWVYX1ZkeDktQ3VRV3hSUGfSAWZBVV95cUxQRTZFYnhNNG45bVdMXzFPU2pRMUR3NEF1akVnTGtXeGNsRFU2OUFPSVcxUFBZYXRfazhLSldGNFZ3ZzdKeVVOQllXU3VTaGE1TENRa0RTQzh1OHhZZnJHRldJSkJNZVE?oc=5)
+- **[한국] 정부, 피지컬 AI 항만 전략 본격 추진 - 해양한국**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiekFVX3lxTE9kUWpkUUlkZGRlT3hsdDQxOWJodVZvLW9Xdm0tNmxEc250ZlREWFdrMFdGb1ZxdVZGUm4ySnFCRlZLUTAwUVNrbFppYjgwaW41bXB1TkE0TFpqWWRlVGVQOVN4ZEVhdFIxRWQ4ejdpb2kwUDBOVEt6NXRR?oc=5)
+- **[한국] NC AI, 씨메스와 피지컬 AI 기반 로보틱스 솔루션 개발 협력 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wSlZfNTkxWlhFR3ByNU5oXzBFVWdtZ29GWmpaamVUMmR3VnllUlFVNHozSU5aSXUzSngwaDdRWkczWlFRdXdiU0tFTERCZw?oc=5)
+- **[한국] 씨메스로보틱스-NC AI, 피지컬 AI 공동 연구개발 협력 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5XNlNSS0pxNzlRbGN6SG1VcnJ6akJjeDNYcXNVTDRzaFlPbFNMZmcxQmdjZ2tDMTM5MmhmU0lycndOblJrNFZ4Q0xlaDBxVEFuUTJpdDJaZWtEV3pyTHRRUkdWd3I0eV9sX1RpYw?oc=5)
+- **[한국] 부산항만공사, 피지컬AI 기반 항만장비 개발에 본격 나선다 - BBS불교방송**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE4xN3ZRQWN6T0JTdFVOYlY2UGYwdVo0ZmZpVzg3NnBmN1pKLW1KSVVmbTB0LUltcjRYRl9sMGg0QlFjTERaNVpOV3RQSUlINkE2NGwxOENYZUMxRDY4VkRzYVprVldQMTFfQVdN?oc=5)
+- **[한국] [컨콜] LG전자 "엔비디아와 '피지컬 AI' 로봇 협력…AIDC 냉각 부품 인증 획득" - ebn.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HRnlCNnJQU0NiYXlVSDkweTE4WlZTS0NWbGJfOFRVRXJtNUphTnFkaXNfZlpJRTMxOTkzU3JJVUNvdDBQZzNfSnkyeTV4TG9DVGkxZ19nVHlyV043T0RnanNZTnR3cVgt?oc=5)
+- **[한국] 부산항만공사-HD현대삼호, 피지컬 AI 항만장비 및 미래기술 개발 맞손 - 부산일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTFBaZ3JMcjJGaHpiU2lLZ3lEdFJGS0sxcjZSeHRpeTVpS29TR1JoelBXaWZPNHpFMzFWdXBzWU83MW1OaGFaRW8zRDJlZnhZLVoxZ05LVldQTDVoQlpYNHJ2RWF6ME1zR2VkLWxyV2JMMjVvdU9vbjk3Rg?oc=5)
+- **[한국] '피지컬 AI' 품은 광양항…7724억 규모 자동화 테스트베드 첫 삽 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9icmprb2VNSm1qX3JPNjFRX1hINGdYZ29SMm9SblJ1enBNOXVUdVhFNi1pVHFoWFE4djYzdVhwdzdMalV3eXY5eFdkdFdJZVE?oc=5)
+- **[한국] 경남도, 제조역량 발판으로 피지컬 AI 선도…10년간 21조 투입 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5MGJ0S0wydXJoMTU1QXQzV0pfa2N4R0dkenpvNnQtSkFtakY5djg1dWg0azgwVmdBZndhVVlObnhvWnNsM0FhNTFwZ3lLdDd1aVNBcGtNRks3ZUXSAWBBVV95cUxQaE9td1dqRGtidGhfaEtaS25fQU4zYjBHTndVLVVwT1VLRW9BdU02THBSQWZrQWdfeDRXd0NzT2FzQ1JzSDhlREtLMjdWd29IWkRTc3pqRXNMWHpSNnkxdjE?oc=5)
+- **[미국] [컨콜] 삼성전기 “휴머노이드용 카메라모듈 연내 양산…피지컬 AI 시장 공략” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxNRkFvdXdYc3R4MnpDSE9fMEc3M1A1UXJPY21hVnlFSnRwQklMMFZjTVduZWdrbldvXzRRaTNKa0tPYlhxaU1QZGpyUGFiN0wwbG4xNEpONHJnNVFxOFRuWDFRN205OHZ0Zk1PYXZQNm0xdDhneUJBLXBwM1NUdGZzZ2xR0gGWAUFVX3lxTE9ZdUZMNXU3YjBkaGI5dGNoa0dPY0c1MzQyVXBpLVNPYXFhd3BSeThOWFNzUXQ3VTl6bDJCbDFtWWVocmFna1Y0MG5WZ1A2dVQybVRGc25jS2lZZ0RtX1ZtbzZNSkFkTE1KM2JnV2QwN2VLdEFKQnlZQi1NR3RFbUZCQnlFQnhYaWUwMjFqbnFOX19uSXhoUQ?oc=5)
+- **[한국] [AI픽] NC AI, 씨메스로보스틱스와 피지컬 AI 협력 강화 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTOFlRQlhfZHliVHREX2VUUm9fMG9sa1JKbU95bjZFeFhSZnUtRkFINVZvYktpTG1rUVFzZTg4YUFnWHFzNnVPNnlIaVUwLWFZTmo4dzJjZGdrYzE5bDBlQdIBYEFVX3lxTFBTOFlRQlhfZHliVHREX2VUUm9fMG9sa1JKbU95bjZFeFhSZnUtRkFINVZvYktpTG1rUVFzZTg4YUFnWHFzNnVPNnlIaVUwLWFZTmo4dzJjZGdrYzE5bDBlQQ?oc=5)
+- **[한국] 엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeFE4Qm1yWFZIRExpQTBfXzQ1OG1NM05Ddl9BenZaSUU1MVFXQXVpeDBoU3JkNVdhd0lnT2hSTERVRW9wMHR3a01wN0xlVlBrWTNhQjVBVmt4RTVwSC1sZXRoeURnZk9lZHlHUA?oc=5)
+- **[한국] [컨콜] LG전자 "로봇 액추에이터 2030년 결실…'원 LG' 피지컬 AI 시너지" - ebn.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PYURBZk4xbnFHaS1UUmhWOHhKSEhLVmxmOTBJeFhrZGVaZ3FkeGYxaTg0RjV0QVVpaDNjTzhQOUlfVTVjVDVNX3N4YVF0OS1CWTZQLUVFR1ZVWnpJUWp4aHlUUC1Jajd2?oc=5)
+- **[한국] [문화 트렌드] 배우 정일우, 피지컬 AI 엔터테크 기업 갤럭시코퍼레이션 합류 外 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TdXpyS25zb25COFc2Szd1cHFwTWhXVlo3UUlhd2NVSTJ4Y0N5VnZ3NGtUM010dHdVNE9CVmcyTXVxTWE1VW5xZGlUYy03QU0?oc=5)
+- **[한국] 남동경협, ‘피지컬 AI 로봇 도입 전략설명회’ 개최 - joongboo.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE9rWXdTMDBvdFI3X2R5ZXpqWElza1lpdGRRWDM0ZW4tYVdmSU9OMkpBTWdVV185eTRRYXNBOUdnRmJCbm9NYlRDWjVHZU9abThxMlFBcmxjNFN1LXFCZ1N5NlVPM1ZlSHZxMTFUaWFFTQ?oc=5)
+- **[한국] AI모델은 늦었지만 ‘피지컬AI’로 승부수 띄운 日 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxQV3AzV0FiTG9VUkhHSEZUdUZOVzZtX3Bsek1scWZSQ0NnVkdwQkZHekhyUVdPUkowNmliSTB4UnNTMC1ldDZWOUJWbUNGZTU0ZEVlWURsREdoZk43UXlzUFQyOC1MYXhaLTRNRHI0T2prdjBvc2JVZWFveGdjUHktZl9uRQ?oc=5)
+- **[한국] ‘2분기 최대 실적’ LG전자, 가전 끌고 TV 받치고… 엔비디아와 ‘피지컬 AI’ 정조준 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxPZVlkTjlpcUtvUUdyYklwUzZudGNqSmgtR1JKallVUXhEMFVaRzRhdXBTRzYzelB1eGtwdjdfV0RxamUzd1VSWFNXbjVSMng5eXRLT01EMTVuNWloUGQwUjZucV83R0VsSjZ1b09XbHMzQURkRUZSRkk4ZVhPbWlFclR30gGWAUFVX3lxTFBsQ1FSam02RUlMRXN6aHpyMVNtZGRESnZmVXBTc3dhNUNDX0dwZVNhemEteWlMeEVzb3B2cDhFa09obXlrOEVLemlKQ2RmRXdCQlA0X3ROd1BoV0Y2RXBsTDhpTWR4V25mR0VIYmdKZ0xzbkRwa0lkaUJqVHNVNEpaajJqakl4MURvcEVlWUZSQ1BlY01NZw?oc=5)
+- **[한국] 모레, 전북대서 피지컬 AI 기술이전…“국방·공공안전 AI 플랫폼 개발” - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFA0dGcxT2xsN2xEVW9rT1RBSkJPcllIWjZZMERfOXV6czRRLW1OckE3dVpFd2NSY0R2YnRwTURvREpWWFZqcERXZkxXNjg0dk16NmpmNHZONHM3OXRraFRZVE5ETTZRMTA0NW9kaQ?oc=5)
+- **[한국] 부산항, 피지컬 AI로 항만장비 고도화 - 중도일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zeGF5MkR6RnNKdjhvenlCbHRveE1PSlUxNFIwQzIyZDZSbmRZUmtrbldISkdUb0dwaC1ubkQzc3ZMVDJMQTNaRmR5R2swMEVyODctemlCVXJmUFJOYlBrV09pRVc?oc=5)
+- **[한국] 한국형 AI 스마트항만 구축…BPA, HD현대삼호와 협력 - 해사신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE13Tmo5YTVLcmhQOGg2Wjd6eEF6VmxaNnl5VURsWWphOU9hYkxIMGVXWGt4ZjFDeDAtZk5mUkFRUDA3SVpZWWlYMkg2YU1rS3QyY1J4RVpPZFFlRmJHWFRqZ2gxNWxSWXBzQUJZ?oc=5)
+- **[한국] 인천대, 한국해양수산개발원(KMI)과 맞손 … 「피지컬 AI 항만물류」등 해양수산산업 발전 공동 대응 본격화 - 대한경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE1OcExlc3owbXY2eXlNMllnSGZfWXB5MGF5R09sYjZaa19qeXp4dWYxUlMtQVhTQ1VwamRNX0JoS0x4a20xaUxRcTZJUGtsYzBQVGlFcVkzMVY4cm9CWktUa215UzNnZVc2dEpMeHZVYXh4MEJJ?oc=5)
+- **[한국] '피지컬 AI' 품은 광양항…7724억 규모 자동화 테스트베드 첫 삽 - OhmyNews**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE14UWNvTGMwUjl4QklZRDNxejg2X3dkMW9nYThGODNxNFpFa1FQamw2eDVRdjRUZUtNdVJmTjdVRUkyWHlwMERiTU01YXItY2FraE50NXdBcXl1X0NwdGhlbG1lT2tuc0R3T2xhb0owdWlRTVRIV3k0?oc=5)
+- **[한국] 조선소 용접공 기술 배운 로봇…부산 산학연 피지컬 AI 실증 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sUG9NS2FsVWZtdHJuYW9zVy1OT1FmaENjMFgxUDJ2azRBeHF0R25pUEYxNUlOUk1yeXladmJQWWZJbXBhZUlYUEdXNmNjclcwNEdPNTNOTlZlYjDSAWBBVV95cUxNY3oxYThULXdENzQwRXhxaDRrQ0k5MjFWbFYxR01iLTAwb3dvZ1piU0J0aEkxYkduYjBHczJBc3BoUHpReFNrbGt6RmJlU0RzT2RSTjNJTVZIMFBJbzlWVVY?oc=5)
+- **[한국] '생각하는 로봇' 만든다…씨메스로보틱스, NC AI와 피지컬 AI 협력 - 물류신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE0tb1ZKT2JvZ1E4YkV4WXZXMHZ5SU9zQ08wcVA1aVJiTmNZMlBSOHRTZERFem83ZkZNSmlCOEVEeHo1ZEc2aEpST1E5VTM4aHFGdC1OUnktV0E3UTd0aGZneGg2bnhWN2VSUkhJ?oc=5)
+- **[한국] 피지컬·에이전틱AI 띄운 포스코DX, 하반기 반등할까 - bloter.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WRzVpZlVESEhjTlVPQkNHVWI3djJWb0NrUlQ2VFJiZUNHQ0JZdlFlZEE5dm95RFJqV0JVVi0ycDRveTRKQXkwN2t2c204ZXI0YklET0UycU9iZi1yVjI2TTlDSjl0ckxv0gFsQVVfeXFMTXM0MFJNbWpzOTBkTEdPdFNzRmhSTzlWZjJPUVBUNTNIMzhrYTcyMGlETENJeUNYbkNwaXEtVXZhVHQ3bVFOd0xGamhUVng4SkZnWHdIeU9EbUNGWGRibU1BTmJPVTRmOWdzUThT?oc=5)
+- **[한국] NC AI, 494억원 규모 에이전틱 AI 국책사업 선정 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE83cGYyMG4zR1RWQ2ZZNlJBQzBMU2Z5UzdlNGNCcUVpbVZBSi00OE1pSDFOOGpndllvWUJ5R1NTRE1scURmYkUwXzYwLTRYMy11YlpKYW1ocURSdFdtdnZIddIBeEFVX3lxTE5udXA2VTdfSjk2YV9EMUU5S08yNHBmUXkyS2FwNUtCMTV5UE96TEFHS1RWcVg1RTJBeVhBRzRoNkxOdGRfYTlyc1I4LWk4V3pRZm16LU1KR0VETmZwaGhlUjlzUVR5WG5ZUVE4LXJEN2MxaDk1MFViRQ?oc=5)
+- **[한국] 남동경협, 피지컬 AI로봇도입 전략설명회 - 현대일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5fUGxSZGx3NmVCQzFLb3RIX2pSM25nLS1QdUJiTERsRENOdnhFS0RDa2dSY3hiVDJXZmhxOWVNdUx4S0JUWlY2eGtBZ0J5MnVWM3JvQS1zbTNqN0RRTlE5TmdOVGVyU2tPbXJXSk5B?oc=5)
+- **[한국] [사진] 피지컬 AI 항만 혁신 첫 삽…광양항 테스트베드 착공 - 해양레저신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hOXVOa2JDTEhGWE5la2NDdmRDS1MtU2djX2RYeTJPUlFtYVFobUE5MEQ5V2gzZDdRNUROemVwcEstVjNoVXc4UHZfd3I5V3JXcVh0WUpfbw?oc=5)
+- **[한국] [피지컬 AI ③] 트랜스포머와 LLM, AI의 천재적인 뇌는 어떻게 만들어졌을까? - 미디어피아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1VOGJaekk2dDBCdmg1UWNUaF9YSUZoaDJvc28yUC0wcFFNZEpMVmxKMjNjelRjU3p5amtrU2NUY003Uko5aWtDd3dYT1M4ZlZ6c1hFOWNlM2FPTl9MLUNXaTdtNndZR1F5RC03Vw?oc=5)
+- **[한국] “피지컬 AI 항만 혁신 시작”…30일 광양항 ‘항만자동화 테스트베드’ 착공식 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9tM05WanRvUTlaOVUxV0lxNUdaX1habXRPaFQ2MXBJYlh1WU5SaFpiWnV1UmlLRGVoRDJwUWJwQVkyd3hfVkIyWTlHNGZpa0dybEVMNENnejZlUzk1a09La2I0WHFaZTc4bm8tZg?oc=5)
+- **[한국] 광양항, 피지컬 AI 시대 첫 삽…국내 첫 완전자동화 항만 구축 본격화(종합) - 해사신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1BRGFBSDNGMlQ5bkhKQ0JIYXpaSUcyTWZKWDBpY2t2OUQ1clVUbTB1ZUY1LWZ3UlJBUm9VaHdHTmtiMnE3SlNLR1RFQmZzamswTjJpR2pHb2pJVU1iRC1DMkZCRTBPYl96cEpn?oc=5)
+- **[한국] 구글, '피지컬 AI' 속도 낸다…현장 투입 앞당길 '새 로봇 뇌' 공개 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE51WndFNDE2ZlpIMnJmRVV5bW40MkhCUTlFUHVNUU9WT2dtUUFubVZqT1JlQXhxRWtGLW5Ld0puWFlBdnRtM0V6SW55ejFIWWlUTUhZ?oc=5)
+- **[한국] 남동경협, '피지컬 AI 로봇 도입 전략설명회' 개최… 인천 중소제조기업 인력난 해법 제시 - OBS경인TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1IcDVXUDkwanZxNGtiY2tWZ2t6VDMyaTZfclRDVTdKSTRHUmR6cnZ0ZVd6TlJCRm1CNVc1eEpFaEkzT0NEVy1tVUlZaHdMQmNmNWloQkJ3TDdlZHlNQU8tTU1Ya0hKSGFGQTBRZmxR?oc=5)
+- **[한국] 박영선 "새만금, 대한민국 피지컬 AI 산업 거점으로 키워야" - 전민일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE5PM2ZvYTlINEUzWG1vbDk2Wm9EZnVLRlFnUUhOYU0xNGJQa1ZTNGxkbkRPb0dUZ2ZIdXQ5bGNGdkxPdUpodGt1V0h4cVhnUmRPS0U0TzdlZFNaVkVCN1BFVzlYWVF4YXFPNWZJ?oc=5)
+- **[미국] “월 구독으로 로봇 도입”… 남동경협, AI 로봇 전략설명회 개최 - 경기일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LVFpVSHItU2lzaTA0OU13UTFTWEJ6bjZLbWRNMnh5bHJ1ODZBRXg5NGtEY2h3OWQ2UndZd1JsVks4UXktS1VlQURUSmo0c1NMT1I2Y19HZmhLazg?oc=5)
+- **[한국] "피지컬AI 항만미래기술 연구"…BPA-HD현대삼호 손잡다 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zTFVOUGh3Ym1NQ0wzQzRPRWNaZ0p4RTRqRWtRZTd1T1lCVUJCc1R3Q0phZmFiMHpHUk9LUkNSYll1Y2ZfNXVSQ0JzU0xOVHdnYmFZNmc3bE5EQlAxdVR2ONIBeEFVX3lxTE5VY0hGTk55MU43LVlEVzBJT1FSSWxuU0cwVVBoR25La2xkWm9TT3d0VmkxYW5ScjZ2dHkwanY0TzJXTDZ6VVM0dUpYejhONkdJZnI1Wm9hQS1LMXhyQWJvdkFRQ3I5enRpM2RVZFI4Ykl6QTlUN1ptSw?oc=5)
+- **[한국] [컨콜-LG전자] 김창태 CFO "엔비디아와 피지컬 AI 전방위 협업" - fetv.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDYXZLcDlzWUNNVzNYSkw3WjhFbGdYX3lyQTkwYzI4SnFvb2FTeFhQXzl2WllVVzZhRDVhTnZxb3lhYnhiZERwOE9wMm4xbUFyUUN4Z3plVHM4UkFVQmZGUDRYV3BZSkxQ?oc=5)
+- **[미국] 부산항, 피지컬 AI 입고 스마트항만 전환 속도 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CVDRsX2VQdzA5blZuSXBRamdtMGtBNXFXLTFpOEdkNVNaeG5lYXJXcjhhUXRVQ0tiQWRpZmhtUHFfNDZ5bzZQdy0tZkZpcEZiWlVF?oc=5)
+- **[한국] [특징주] 씨메스로보틱스, NC AI와 ‘피지컬 AI’ 협력 소식에 상한가 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdHkxb2ZEWjVBMFdQX243NjZCRXE3NUFkT1BlSmFFZ1RLTEgxMEpMRWd5SVk0a25yM0JsTUFrTkhId1d5cEdUY1V0ckt6azdFNEZCeTd1alNLNnk5aF9RRW9PZUplUDlvbHV5bERFM0l2MC1qc1FZeXFtRDBBMTlwejRLbGtyV1kx0gGcAUFVX3lxTE5Uc2IybWNLQ3N6QmRBTkJidGdHRDZDanJ0MVdaVXhmVC1ibV9rNXNjVnlVNlRiN3lCYkEwcmZNVnNxVjRvSVNOd0hVMVoxdmdTT0JGT3lwQk1Yc3NMajA5ZU9PbzBXaElKVWlWRjNKZE1PSzR0b1JNbWdJM09PNVZoMkp2bGs0bVFvdTZuNjVVVE1rb21wb3hkVkFleQ?oc=5)
+- **[한국] AI가 부산항 크레인 관리… BPA-HD현대삼호 공동개발 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFAweG5vMlQ4X2lEd3RsWTQwNWJVTnRGcGxDNm9HWFJNLTFNaWxvY3ZiZ3UyaGNpV2laaXM0UXptRXRpYlRBSEhzbnV6RUdDWXc?oc=5)
+- **[한국] NC AI-씨메스로보틱스, 피지컬 AI 공동 개발…제조·물류 로봇 고도화 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yV2ZhZjJyYkhrWVlhYTBxZDZkcloxS1BJZHc3V08zTHduR3hmbWx5bDVLRGZWa2NWR3NVNnl3QmE1Vi13X1BCZG5QTUZFTEhCdm9sbkdkQUtZRlk3XzhuU1VMNGlSZkJy?oc=5)
+- **[한국] [정의선의 '피지컬 AI'] 完 다음 승부처는 보스턴다이내믹스...과제는 로봇 상용화 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uZDBFUHZZODhhTzJGNEZiM1RJa29TTnN0NGRQTXlIOUE0ekE1LUJNeDhFSlUyV3c1MVRWLVhZdzZYa2hURFFIZk54cjNtNTBsUWpJUVpPOFJPRnl1?oc=5)
+- **[미국] 남동산단, 문화선도산단 이어 ‘피지컬 AI’도 앞서가나...설명회 100여 명 북적 - 쓰담미디어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZeUlFZzJtVld1SVpzemhMU000OTFIX25DdVZxLVA0OGVYeUUxQThXckpQamhONjdqOUlXeDJUS21STGNVSUxCcTdjcHc3VlhncS00WVQ2UC1uV0FhV050RzRqQ20zYjg?oc=5)
+- **[한국] 엔씨에이아이와 손잡은 씨메스로보틱스, ‘로봇 자율성↑’ 프로젝트 정조준 - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SamUxSGZWZW1ZV3plZ19GZlVZSnFZQllaa2l3MTR4cUtkSHhZRkczQkRRb1VkUUhENnJ4ZGlFMnU5c3VaRW9zWElNOHJEbkFuZ3Nnazh0Njd6QXRZNmd3?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 맞손…제조·물류 '피지컬 AI' 솔루션 개발 - 이코노미스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE94T2xiZVdnSWZlTHBuVG9qRUl4MHFTTzVmMlZBTHlDa3Z0ZHhoOGFJNEJzdEE2MG1fcDV6VG9JdS0wNWs4UzFQelFBX3dpUy1JaU9fU0hBTnVjR1JpX0I0cm9R?oc=5)
+- **[한국] 포스코DX, ‘AI 네이티브 컴퍼니’ 선언…피지컬 AI·에이전틱 AI 혁신 가속 - kyongbuk.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1Bd0FBMUVWbG01WjZZaUdOUzBQOERTUDgwZlpvOEVSS2lqS3dhTm1OZ09Wd2ViZklMRGxCbUx1bzJYcU42dFI2cC1waFMtYXkwenMwQXpTbkJtaExPNnl3LTVCRkNMQnNDMnFDZUhJOA?oc=5)
+- **[한국] 포스코DX ‘AI 네이티브 컴퍼니’로 전환…산업 현장 피지컬 AI 적용 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OeE95a1dlYXg0TnpDWDhUcFh3UDQzemdKN0pFcFNnT0E5d3p4eVExU2VaZVF6bUpnVTNXajc3U0pISjFYcHpoRjE5OFZyeWM?oc=5)
+- **[한국] 단체급식업계도 ‘헬스케어’ 경쟁...AI·의료데이터 활용해 체중·혈당 관리 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CdS1kejRLM0d0UWdsWHdkNVYwUGlpcEdSdG9Oc2VqNFIxanl6cEExaUJJdHVLSHdfVkdPM2xKLWxvRmpUMHNmTEVwS1JjMzg?oc=5)
+- **[한국] 픽셀로, 인도네시아 KIH 병원그룹과 AI 헬스케어 키오스크 현장 실증…동남아 사업화 본격화 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE8ya3VGbzVwbWRsZUprNkgxNHpIdE5DVHNOV2thRUpJVHU3ZjJlb2VGNnV2aHZ6dThTV2E5aVBvQTJwXzZZY0hlOG9TYXJyQQ?oc=5)
+- **[한국] KMI, 中 아이캉 헬스케어와 업무협약…예방의료 협력 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBXMDNuMTB0RFNiX0hVVTFKbXI2VElWVHl5MWcwbi1oMkczMk5jSFcxSXdhd1ptT2NZVVBJd3NSUmFVYXBjQ0tLWUZ2S3dRMzRKcDRYNDBNSmp0cHlJMll2T0ZRM1F0amtZXzNwYXpnONIBZkFVX3lxTE8zek1sRDY0V1NOMTRZQWNlLWRzdFQ5c1EwZWE4bXg3Tlg1LU9vVXROZ25mWEdUUXdLVjRQNE9SeDFidFBCdGpfOWFIVzRfa3ZxR3V0UTJZbWdYLUhjbWtacWQtTk9EZw?oc=5)
+- **[한국] [GAM] GE 헬스케어 ② 혁신 가속화로 향후 성과 증가 기대 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE56UXMtdzFMRHVzT054VXlLS05LR1VMbmpWVU5qNWlPVDFORXBXTTZHc2paVUZrd3NxVFVqUlBYRGItTTZCNUUzM2k1OHJ5SU9mdXBjT1RuQ01PMDhu?oc=5)
+- **[한국] [보험세미나]“헬스케어·시니어 키우려면 규제 풀어야” - 아시아투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE12c1d4dWxRVjBnZjB2cWdaeW1jdzRvTjMyWFp1RTNQclczaW5PWVVGTVJVVTZDMjduUk5kbjlHcC1aZEgtRjhwNTBIWlBJRWREcnMwRENHWVJwTVdXcXZoejAtY3Z1X3FFRzJvMlBR?oc=5)
+- **[한국] 7월은 산업안전보건의 달… 대웅, ‘국제안전보건전시회(KISS)’서 기업 건강관리 프로그램인 ‘대웅헬스케어’ 소개 - 내외뉴스통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9SOU40a1d6aWJYOXJlVHU4ejlxWXNkZTlxeXl2cnRTQmgzdzZ0LVdtT0Z0MUdhTzJSTUNFUEVRZnhpUjNkcU00Zm9MLVdURmtfeC11WjVCN0Q0TmFuQmJkcy12cm5fTy1ZQnp2ZNIBcEFVX3lxTE44NVVUaWFEdWozeWNVT2F4anFCYkVkR3VxSWhlUXhOTXUtaGFZeG9wbXZUYkg0MnJqeklpWGppVEpDeUc2SjEyVmppMjhCbFljYUlUMzE2OEtrMFhSNElzc0Z5bnA0OVY4Q3RTcUo3SVc?oc=5)
+- **[미국] 변동장 피난처 된 헬스케어 배당주…빅파마, 배당 늘리고 주주환원 강화 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxOM0RodDQtTENUS2RFaklIWGhaYjh4Ym1OckRPWlJ2VlVVMHU0TXRIcTlTYjdTWjY1bmNyemI5WEtwcWxQMEc3VXBrSE54LUdHSnFsZF91dlN2RVd3TXcyT1dIaHpmdWJUemNiajZ3M3pkaVV5Tjk5c3ZQSVF4ODVET21wZGNyWWPSAZsBQVVfeXFMTmE1WHpjTzlsOUtzRVp4bmFnNnU3b2hJSDd6SmtjckxHYV9ERFpyV0dCME4xbU5zVndqS1VybXhwRjdZNE51MWxjc0w1R3NxVFFyalRfTDdwZm5vRjVJVnd6b252bm5sX2Noc0gzdnhKZW52X0o4VHYwRXN3WTFMQ2ZiWVB5SFZIaVVqSlk4OHVzM29vUHN5bGhLRGM?oc=5)
+- **[한국] 부산대병원 '디지털 헬스케어 메디컬 해커톤' - dailymedi.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE92QjdTTnVWVkJfRmhyM3Q4eG9nUV85XzRRQkE3bi1jaUozaTQ0cXhfdjg0TnRkY1p4ZFVheDVhUjAxSHNrM0tJaDVhYWNFTWNJR1c1QVF4VmFHVzFDQlM2bTB0YUI?oc=5)
+- **[한국] 넛지헬스케어, 창립 10주년 맞아 인포그래픽 ‘넛지로드’ 공개 - MEDI:GATE NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ySWZFM1V1WVRVT3Q3Y2FnOWxsb1VJcVRiT0pYOE55aktvQWM2VFJqUlU3ZjU5T0lKalNXN2lWWnREaGE5Uk5uelhNRTg1cE5NOHI5Vm1SQQ?oc=5)
+- **[한국] 분당서울대병원, 디지털 헬스케어 지역인재 양성 ‘앞장’ - 후생신보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiREFVX3lxTFBWNUJWU0Y4YnU3TmxiSTdUUEpsa3BEWmhhNTAyRzR1QjB6UF9zRXlmUkUwT3U1OTFGV0V5R2pTVDBJc2xY?oc=5)
+- **[한국] [단독 인터뷰] 로킷헬스케어 유석환 회장 "글로벌 마케팅 3허브 구축...펀더멘탈 견고" - 팍스경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiTzFEb0ZlRFJsMjlZRkJocjBQRngzNGEyMDhZakhJT2x2RjdUcUJiNXZsNVRMSDVwVnlrUnNPTjlGdExOT3Y2N2YwTDB1Z0lMYlRoLV9ZdkhjVVpwcThfRmY1LUlhQlk?oc=5)
+- **[한국] 림피드, AI 반려동물 헬스케어 플랫폼 '킨포라' 출시 - 한국농어민신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE8tMUl1NjhZQjVCSnJTUFJVNjRNckw4NVlLbkRnVWhnd0ttZ2JCd3hCc1llcVhKMjRmbjBTd2NEVHZxdzdnUTNuYXNlQU1fQzlXMHlpbGRqYjE1ZjJwU2QwcW9YMTEwQjk5MTlFUw?oc=5)
+- **[한국] 대웅, KISS 2026서 기업 건강관리 프로그램 ‘대웅헬스케어’ 소개 - 약사공론**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5Kc0lpcGNYenBUNG0wTHJmTnh0VXlia1E2QlJydHN6ZEd6QXE1d0U0WGZEaDg5dmdXd01UeUhzRmNlSlNOc29RbmZQSGpLOHRSYldudWZXOXJDeTZNbVNmV0w2aXhBamdwY3hmNw?oc=5)
+- **[한국] [유한양행-유일한 아카데미] “코딩 몰라도 앱 만든다”…청년들이 AI로 설계한 헬스케어 해법 - 더나은미래**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE12SGpnTFBHcnJTbjFuTkQ1cFgwdWhleXVGNy1CaEM1WFZBcnJKRE1zTW9PanJINHN6OHRIUTNqaDhoSlFiNEVSZzFyUWtQdGgxWVE?oc=5)
+- **[한국] 경남대 RISE사업단, 디지털 헬스케어 일머리사관학교 최종발표회 개최 - 경남도민신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrc0M1V0pXUnBxd1BVb0x1MjBUUFVkTEkyM2VxRkU2X01wY2dMenRVQ1ktQk9DYnlLenBoMzU1NXpMV0VEMHdtR3Z1YmpGQlRjTUxZT2g5UTdqOVZHWjBmVDhVS1R5Q05Z?oc=5)
+- **[한국] 얼라인먼트 헬스케어, 회계 조사 속에 실적 발표 예정 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE90OW5nSzFnYWJkVE9CcWRJRFRnUDNKNzdqdlNLeTZWU1hFN0VnQlFLelQ0d0k0SHFQMXRSaVNOVnAtUU5BZUJRM25pVlU0eXRwLW5XZ29Wd0ZhcUdkT0NVY2lsd1VreU5yY0x3?oc=5)
+- **[한국] 구겐하임, 아카디아 헬스케어 목표주가 상향...EBITDA 예상치 상회 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE5IMjBwcjJnV2sxZnFZOWlPSjE1RHRQanduQ0FSMVl6UzBmWHMzVXBJQ19vR3k3Szh2MFVSOGxxQ3BxQzktb2taT0ZkZnJya1ppM2RRUFJkeVFJWUNoQUgyVGJWTS1VYjZLMWNMVEwtNTE1ZFZI?oc=5)
+- **[한국] 영국 디지털 헬스케어 산업과 우리 기업 진출전략 - 한국개발연구원(KDI)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOU3AyRUJlNG9KSWFPWEJhTU9hM2tCUXdzNV8tT2NXV3U1d1NUTDhkVVMzM0pBdEFZZ2lYTnNHck1FdjBXM1poVThJMGx3b1dTeGlzNm1KNGVUcWhFUzBtZkhVT3NwempMc0J0N09UU1ZpdEQwS1ZCbkZMVlN3Mm8yTUV5SQ?oc=5)
+- **[한국] 바야다홈헬스케어, 국내 첫 JCI 홈케어 국제인증 - 의협신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR2duWTUxOVhoRl9kVVVtYWk4ZmhXeDZpRm1uRHh6VjBrT01BR1AxVURZT2VrMEQ3dWRaLTdHLTZsaEpBU1hqYnNXZVNWck1SdE9CbHhRUnNsMHpWUTJic1dETDk1dnRzeS1JdzNtSXNvNWV1OFROUHVnYml0TWtNVENoQzU0SF9nXzM0?oc=5)
+- **[한국] 대웅제약, AI 기반 디지털 헬스케어 시장 주도 ‘가속페달’ - 후생신보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiREFVX3lxTE9RZ29kWWRPRUp0QUxhc3dESlozQ0szQ3h2RlpRd09ha3BuVlIwLTNCRXYtUjNZazN4M1ZaVjBDRXN2aV95?oc=5)
+- **[한국] 한국머크 헬스케어, 고령 난임 치료 해법 모색…인천 심포지엄 개최 - 약사공론**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBJcWk5ejJoaGtPX0gtbVhxTlFaVE5uYzdZNTQyM29XMV9xb1ZTeDZpQ1djSFhYMWloVEdEcnZJdDMtWXhqMkVYeUVTR2pmVmlBblpYUG1wQkVzR1RoTGJnVUJtTGxNT2FqMFh3ZQ?oc=5)
+- **[미국] 헬스케어 전시회에 국내 대표 대학병원들이 몰려든 이유는? - 메디칼타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFAzRHJyOV9vV0R3Z19yM1RCMHV6SXBQYVdaOTloRi10U1U0a3R4QmRldEd2U3E3NUJrdUE5SGxMcE4zcUNqeUsxN3F5X25WZDJSb25uQllVZnpGQU1BSE1aYktMY28yNmxHSGZFUFlGTXhZN0k?oc=5)
+- **[한국] 건국대병원 헬스케어센터, 치매·알츠하이머 특화 검진 신설 - MEDI:GATE NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xTENPdmtQcElNeEx6a1RMSWdPNWlaSlVDV2VuQ0xSbEtRZGZOaFN0ekZfa2VVSEZ2UmNjUzBySnYtOElBbDYxX045WlB4a2dIa25QQW8yaw?oc=5)
+- **[한국] 바야다홈헬스케어, 국내 최초 JCI 홈케어 인증 획득…재택의료 품질관리 새 기준 제시 - 헬스경향**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFA5SW5VX3lRM3ZFUDBGbW5TVHp1aGhkOWFiRXNsSHNaQnVzenFXTFRicE9CVlhzVnB3a0JTSFVXemdCZ2pBX1dQRDBlam5jZ3pjZ285cmhhc0tMak1KQTlyNGtzS0tiaGQ0bS13?oc=5)
+- **[한국] 대웅, ‘KISS 2026’서 ‘대웅헬스케어’ 소개 - 의학신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE8teFpBTko1bXZnaVo3Z3dwckRlaXNYenZ2SGtYT2d4aVBGd3BXSEZDRWdYX0o3WnZDN1dTXzhQZVV0Z19qOTBvUkZwYUVOLWJrdUJ4aVhidUNhRlB2OVFUMU04dE81dmh1emc?oc=5)
+- **[한국] ㈜럭스텝헬스케어, AI 기반 시니어 건강관리 실증 성과 - 충북일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxU1RabW50TnlqV2FCVU5sNnJ4QnN4eE1BelJTZHMtNDVqQmI4UlgzSUpKRkVDVFd6LU9Lc0tYNERmaWl5OHh6VW5TU2x1VW00Q3NmekJOQ0UwM1dhbWcxYTh3?oc=5)
+- **[한국] 맞춤 건기식 활성화, SW헬스케어-메디코치 손잡는다 - 약업신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE1qTlp2ZUdhSS1pdGxnMmxJMnJqeFdfT2xHYUxvNXBBd3VjRXhRRGttdkptUHFtSzZYMDlpd1ZTel96RGZ3WHprc3NIXzBfVzhPTlBVOXdiZUp4bkI0MjJDenNtVkVxeXFJSmhPU2V2MjljZw?oc=5)
+- **[한국] 충북대 BI 보육기업 럭스텝헬스케어, AI 기반 시니어 건강관리 효과 확인 - 더퍼블릭**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFAxOXBucEVWSW1NeklHZUdJVDgyQUJGdUFJTlE4a0tIc3RZRFBvVTNmdUNTd0swTEFEYTJCZXJ3bnBQaExEU09YRmVfazE3aFowR015YTMwYVkzQnVER1laZkVSY2ZsMThWOVVJ0gFvQVVfeXFMTXNGTDBva2k4Xzd0TkVCSTRTYkVMRjZKMXlEZHoxZDR3ZTlTdzNCblpiMld0TG5BTnAtWnhKdndhRzRRU2drVFFSRk5TMVN5bW1sYWNwUDZhV3JMN1NnYkMwaTJMb19KSVFnaGs4NlZv?oc=5)
+- **[미국] 대웅, 안전보건전시회서 ‘대웅헬스케어’ 소개 - docdocdoc.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1BSEotcEZ3RTlCWEZLRXhHanpwci1DZXpqb3huVFphRjViem9QNlVMaFlhemEyd1I4eUszUDlWUXBUZFJXS3RfWWVlZXJGVUdQQkZOeHJ4TkhlQjdUWEJ1bEZIMmRZc05KU296cW5md9IBc0FVX3lxTE5NUURrMmd3bVhBWl81Zm5ZX0QyMUh6bDM5T25DY3NST3ZIckQ0NEZkQVR3NEwyX19XVW5acTBZUWhKdUx3MFJGZDA4Z0Y3djA2V25HQk9RNUxmbGFXaUtrcTVSbk9zVGkyZGNwZ09nakVzRm8?oc=5)
+- **[한국] 지난주 실적 발표 후 +32% 급등, AI가 선택한 헬스케어 종목의 랠리 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5tSG9QYU9RXzVhNm9UN3hwY0RHWUZZOGx5R21BY1Z4REVtWEVkRzVYS1dNM3l4cEo2SHJXdnRDNFVfMVV0aF9ZamRsWE1salpyZmNvUXNNTFJaWGEzMEpSREx3QVNUYUxvX2c?oc=5)
+- **[한국] 한국머크 헬스케어, 난임 전문 의료진과 학술 교류 확대 - 메디칼타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE5oMFBvWWxOeXJFTnNqOWhTMlZ1QjRXV0lSNWFVaFhDaXNGaEszLUpieVBlZmZ2bDl2VHFFUjhDQTRVb2JjUHVHSlNWVzdQb0N5eDdMbTRZWVoxMjBxcVlzY3NnYWdNY3BqVC1iZUM4QkhYaTg?oc=5)
+- **[한국] 단체급식업계도 ‘헬스케어’ 경쟁...AI·의료데이터 활용해 체중·혈당 관리 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1oLTJXRmR0cGRZSTF2MnQ4dVRlS1p0Vm5Yc0dveDA0b01RanhkTzRBZFRZeExFallxQU5QMkgxeEFFa3lWcWtyYUhYMDNhQ0lPRE4yRg?oc=5)
+- **[한국] 머크 헬스케어, 난임 전문 의료진과 학술 교류 확대 - 후생신보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiREFVX3lxTE5BZER4TFREX1Via1lFaTlVZnE4VmlMNEF2WlFKNXFUVnR1MHplWXh1ZXRxbldTMUVGcG1LM1hNakI3dnk3?oc=5)
+- **[한국] 한국머크 헬스케어, 난임 심포지엄 개최 - MEDI:GATE NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oUjdlVnJZUEtrRjF4NlFFZGdvR0ZYN05QSHdRUktoZlpBbnhEY2tmbi1FTlVHcEY5aF9OZ29ieE83bDYyNjI1LVlpOVdiNnhhbEo2bE82TQ?oc=5)
+- **[한국] 창립 10주년 캐시워크…"걷기앱 넘어 디지털 헬스케어 기업으로" - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZM2tCWHlhaEhTZy11SmIzT3FPV1dpcGVfa1VpNm9reVd3Y3hxdEtFWGYtSENtWmRsSzhGSEJnVU15ZEhISU9kNkhpRDBpZUpYSVpITFVHVnlNYTJMY3VUcVFmUjlkTk8zRnhWZw?oc=5)
+- **[한국] GE 헬스케어 테크놀로지스 주가, 오늘 급등한 이유는? - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZNkxUQjM2ZUdaX3RpWDNlVFh4V0xDMTNEMGlUbHdNNWJvX1hQVHV6MnA1cHR6SGRROTJ6SGE3Zm03dnNmTHNJakZublBJRUdnT19mX0ltd29EUk9BdlNDSmVOZHpBbmhIOTJ4YkxjSVBDWnRWd2xr?oc=5)
+- **[한국] 대웅, KISS서 헬스케어 소개 - 한국의약통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE9rd2oyUmJIbWRhbzdSVGMxWVhGLXRXR2ZxS3FBS3Y3TV92U0xGRHVyVDctZGw0SFdtSVF6SVE3ZG5BV1UtOWRkeTJEdVE0U3d4MkY4SXREczhaSjRfNmVWUHNGeUU0SHVQVnEw?oc=5)
+- **[한국] 펫 헬스케어 시장 확대…KCC글라스, 반려동물 관절건강 고려한 '포레스톤' 선봬 - 헬스경향**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE9qT0VQSDNsX2NzV2FVcDhRQl9qYVp4OXB1UVY2MF80cjRqbkRGS0p1eTNaSWRDcXJROUpGclNUeTFQd3oxVVFUODVHRTZqbFpubi1SdUlXcTBJR190Q3ZjUkFyalI0c1ZDQ3ZF?oc=5)
+- **[한국] 이엘뷰티, 체험형 콘텐츠로 ‘2026 뷰티&헬스케어쇼’ 성료 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5iN0ZENEg4WVpscm1lOHRfSmMzcEZDbnNoa1dLZWVMeHdHWW5DQWFmT2w1dkVUZWxabkl4UXdQZ09PTTZmTzNKam1EaG1PaXRvbEhFQ0w3T2FNUTc5TDR2YnBVcVpPb0gzVERVcg?oc=5)
+- **[한국] GE 헬스케어, 예상치 상회하며 주문 사상 최고치 기록 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPZGdTSDRnQ083c3lCcE13ZVZxM3FjTmdZTGN1UktxSEdfSmlzLW80OTBzTmpwaHdGSGpaU2NKNXpobTBZYVZVS1R0clhGVkREcnBKNk5PUmR0RHF0Zk5aS2tsWWM?oc=5)
+- **[한국] Datavault AI, DataMeds 헬스케어 데이터 라이선스 계약 수정 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5ldGpmN3dJbC14V3hLSy02bnctcXlIZWdYQ2FvdFd3dGFpaGVmRGtsX3dtN2dfRjh3Nm90c2xiY0IxMnpRVHc2dlpRbVIxak1Oak5McGJ5YVYwczduVWtjcmctVEJsdG5rTmhfQk1tNHA?oc=5)
+- **[한국] 넛지헬스케어, 창립 10주년 인포그래픽 '넛지로드' 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNYWJfSjc0cFBFbDRkbjdSSTdOaWxkQlN5TGtwc0E0OGNxTm85NGFOcVVHQkIxTHZGa0puc0F6Ui1INVVnY2pzMzZjc3FTajQ?oc=5)
+- **[한국] 오메가 헬스케어 Q2 실적, 수익 예상치를 넘어 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Od09SemszaDJPZ0E4RHJFZ2ZqZ2F6cnlwWnUzRmg4M254RVdBeFd3RWM3eHBqUUZSMUw2Y0tKTTd1aDVEYnFyRWZ5ZFg3QW5vNnFUb1h1UW9raFhfR3FtY2pBWnY?oc=5)
+- **[한국] 오메가 헬스케어 실적, 노인 주택 사업 전환 시험대 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE5Qd09aaUIwTjB3NHkxWngtZVZMZ2VEUUJCdUhhVktGV2dGSmJuMDhLZHpMaEFUR0tqODVpSnhSQWVobzY0aXhOMExQbVpnX21fUHg5ME1fdGloM0ZfSGk0eUV3a24yWkg4SWRB?oc=5)
+- **[한국] 광주 AI헬스케어 체험존, AI디지털 배움을 넘어 건강관리까지 새로운 가치 증명 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOdGJkWWJ0MmI4NWtYc3FpRmxLSko5V2JOX0ZRbC03VjZGbFpFZEZtdWZyMGJqT3ktYXpZWHB0ZEU1X1VGY2JQSFRDUGtzb1E?oc=5)
+- **[한국] 대웅, KISS서 기업 건강관리 프로그램 ‘대웅헬스케어’ 소개 - 메디코파마**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE1nZ1A5eUFWMDJ1ODBEaTVsSEV4aC1QYks4ejFXUTd4T1J2WXlLMkl1UlNMTWd6cXdtM2I1ZXBSS0VRR1ZyYTVqYkNGUUtNUXdyOGt3dUJmTWVTekRMSEFCdWhnZnlaNGlDZHFiWTVid0JBdw?oc=5)
+- **[한국] GE 헬스케어 테크놀로지스 주가 오늘 급등한 이유는? - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTFBqVmYwd3EwX295clFSa0ZDR0tkWGExY3FTeGNPWXdGdy1YLTVUYWZiY0VJT3hPSl83WnJKajFQQWxGX1JZSTVzdkplMXRTVUgxUjRmV2FLeWNHODhQZmcteFAyWl9tX3RPMmgyLXdlcExkVUhQRWNR?oc=5)
+- **[미국] 한양디지털헬스케어센터, 복약지도 지원 약사보조 AI 개발 - 뉴스H**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBiTm5WWWtQY0tUaWRUZkduSzVXMTRHWDlQNTViSnlod3F5NUVQTTB0TmNGemRwZzFVWGlVWHJXMTV3SW1jOXR6M2xaUkctWTdQa1pNVE5Zb250V2JXSGkzTzh6eTRZYlFjMGZV?oc=5)
+- **[한국] 레몬헬스케어, 병원 앱 '세월호 참사일 예시' 문구에 "머리 숙여 사과" - MBC 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE9iUnRvemhiRUZ3U0dpWlFKR0lHT2ZlZ0QzaHJCRHNiWmtFNEdDSWVVZW1Zb3dnYm5NRWxrY29TMVNQRjBvZWhDUlFiaF9QRngyWUVGM1FmQ0lvLXppcXlCOVJlUEJxLVFtUkFSM3Z4MUtPX3N6SG1Z0gF3QVVfeXFMT01BZ3ZWWXA4dkdxaVlLcWpHYTlMOXE2OU5mMUdjV2xONVpSWGZYSXJpMDBpSjdraTRWQ0g0WXpnTklzcjZ3QWhnS2lIN0k3Mnlzbjh6S2FacWs1ZzNVUzdVMTZqZVJJTUlxU1hyMGdKRXNuRUl6cU0?oc=5)
+- **[한국] 자큐보, 뇌졸중 환자 위장관 출혈 예방으로 영역 넓힌다 - 헬스케어N**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE1EcjZoMDROUmxtMy1DTGoweDBLUUNndXMtdGllMzQzZHN1TXd3Vzc5b05pdzlvX2Y1ZnhwQVJuRHF4MGx6dVRYbGVEa3B4Zktqb1dSM25rU1F3dFdxWXRVcFlYRHN2czhnX1cxczBPMVRuMHhN?oc=5)
+- **[한국] 넛지헬스케어, 창립 10주년...'걷기 앱' 넘어 통합 디지털 헬스케어 기업으로 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nclVQWUR0a2ZoN05pQ29BRXU1QWZvbmxLTkNyV2wzNGZzRGxPQ0hUdUZDcWFOYkg5S1BPQkc0OXRqdFVuU2F0cW54WXFlLUE?oc=5)
+- **[한국] 알츠하이머 치료, ‘로봇 수술’로 가능할까 - 헬스케어N**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9HY0ZzUWlVX2tTT2lVRDY4bDdCNTRiZVdJc0hjYl90Z2hqQzV1eVE4MW53blVqc3RVdnlkVEJvSVA5TmpPaDVjZk5PNFRwXzRXVTV1SndFZDhWOXE4OGJmTzFBUFNoaGZJLVc2aEVLOUtHaTk2?oc=5)
+- **[한국] 동아제약 ‘듀오버스터 오랄밸런스 구강유산균’ 출시 - 헬스케어N**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9TMUlBb3FYblFMdDA1NTBBQ0xpNnEyd2p0X2c2blNxeXZrczJxNXkxS2xDMFozV1dxUTZBMWVncGJ4VW1aaHducEZqMFd2WmU2YjBTUHBqWEZEVVJmN2ZRc215TEJMLVFWV05ad210NndzVVl4?oc=5)
+- **[한국] 오메가 헬스케어 주식, 51.99달러 사상 최고가 기록 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBKV09xbGJJYkV3UkthTmFVa2lRRlM1cDlxMGVhck5ia3l6b0UxSU5NYzFVdFhzaVV6WkZSLUZqU204RXFMSnV2TlVPaVVGZHk4VUNHRGpkRkZZYm43czVPS1I3ZGpURy1NdUFpWHQ1c0g?oc=5)
+- **[한국] 아카디아 헬스케어, 인건비 부담 속 실적 발표 임박 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBaak9iSTU2OEIzRHNEWXdzRUhvZGVCbEF4R29IQVgtVVVJa3Z2QmNLV1BhNXFGVmZBbkxWWDNlTHFWX19QVGxYeWlaV1FfZE0ydUpDZWtZcEhYa0lYMDZZbUVnNnBEUU9HY244?oc=5)
+- **[한국] [상한가 종목] 금호건설-씨메스로보틱스 이어 레몬헬스케어-케이엠제약 등 마감 - 이코노뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE9DX3M3bFg2Q1ZFZ2tYZTQxZkRpbmlJWDJWbmJjcURrbHR1Si01cktfT3FXc0I3dml4Vk15VEMzbzBEYVNoU2hFd1JKSUk2MkdCY0JyZjJtQWJIc2pzX0ZZZWxiOXhlcE1VeFZvc3MxOA?oc=5)
+- **[한국] 아카디아 헬스케어, 2026년 2분기 예상치 상회했으나 주가 10% 하락 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5oOExaNE8zQnhmVTVkTWxvMTU2U0JvUmVnRlpUUC1iWm5XQjk1aHA5bEM2eUdKaHBiZUo2UFV2NmdFSUhOOVJBckoxZ0dSWGRaSVVLRldDVDU5b2JnODBCVUdmaTBPY3BQUTJGYTZLSQ?oc=5)
+- **[한국] 서울시 장애인치과병원 ‘함께하는 구강보건교육’ 호응 - 헬스케어N**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE5jNXk5cmc1T3BnbXNhUjFuemlPdUdBUnhjUWk2UzJ0Uk9NZHo2MkdQT09Wa0ZIcW9UM2ZoZzIyUDRNd1lOdXRIWk1FZkIyTHBWNzV4eVZCRTFGODAxa0pFWEtsd1FHb0t1a1JnRV9KeXNHYk9o?oc=5)
+- **[한국] 인천 뷰티·헬스케어쇼 수출상담액 540억원 돌파…역대 최대 성과 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE01c0kxanBiWVBrMlZYOURoeWRheXVvV0N5enYwR0Y1QzVDS0tEcDBqcmRGLXhZRUZjODF2cWNzenVpa1Njd1hfX2R3Z3AzQm8?oc=5)
+- **[한국] 대웅, 'KISS 2026' 참가…사내 건강증진 프로그램 '대웅헬스케어' 소개 - 백세시대**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE0teVplMk9IMjdmRWRObUtnU1g5Q1VZTi1GUWF1UWlNVENoLXhudDVsWlpPSnEzN09xRG1YTFZub092b1VDQ01IYzUwY0drUktYR3VSQmlwUzBUNThybl9Fa0M0SG0tOE44R0tF?oc=5)
+- **[한국] [바이오맥짚기]인버스만 웃은 하락장…실적·기술로 버틴 티앤알바이오팹·레몬헬스케어 - 팜이데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9yaXBWcDRJZl9QWnZKbHI3cnBMdTlWcFJhZVlSSDM3V0dBeFp1MllYWldkOGtSVk8ySENTTVdkbUFoYTVyc1dFZDR2RWlMemUzQ0JhaU1zczF4eG9EREt6MkxnM3BZMTJzWVdJeVlR?oc=5)
+- **[한국] 레몬헬스케어 주가, 7월 30일 5,350원 29.85% 상승 상한가 마감 - 톱스타뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE91c2ZHeE9nVGItdERXMWRoZGVzLTV6X1RQdFJCcTkwSlFaOW9jWE1PamhPRHE1bVZlMzVjMkhlUVA2V0JmNGxTYVRjMDhBVXk0N3MwZ2hCRkVwMEhvVm9rR3dmUmZMWVpPR1EzTzlYNUJPQQ?oc=5)
+- **[미국] 대웅, ‘국제안전보건전시회(KISS)’서 기업 건강관리 프로그램 ‘대웅헬스케어’ 소개 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFaUJDdUs2SVJORXJiVmZVTUZHYzJ4RWNIOGlOQ0ZWRFJKYWxWR3FPV0dNM0FkNEl6eENManF3TjJjNi1sRXNtbi1jWnJEQVlPb3lHMF9pTFB5dw?oc=5)
+- **[한국] KMI, 중국 건강검진 전문기업 아이캉 헬스케어 그룹과 업무협약 - 병원신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE93c0J4UEFYTGV6S3FyeXRBT0ZmZDZpeklGWU96NWpOZW1mTEJwY3l4LUZYaHhwaGU5RVgyTUYzekJrNFh0dm9vYWRVeWNHRmJyXzdHVVFJdkphSnpFYjhrY2xjWVZWY1pGS1E?oc=5)
+- **[한국] 비브 헬스케어, AIDS 2026서 HIV 치료·예방 데이터 발표 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBlZHhzSmRkWkRMaUEzSFZBRjVkcXFic0lNX0ZvQlQ2RDF5TC1MdzVuZjBLOXBQMzFTbG9mU243MVdqVWx4aWRtWnZvMTZYQnlhUmtRNm03eUU5OGNTOUhFTXpxem1VSEhrWHpkRF9ubW0?oc=5)
+- **[한국] BTIG, GE 헬스케어 목표주가 $79로 상향…견조한 주문 호재 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE01ZXkzUUVBaTR6SlpkNVMxYVlaMHpHcVV3MWNuN3pyTEJ5M1FsUXJ5Q3NqbXFxc3JaSW9ZNFhqS0NlVEZIaXd1ZER0SkpCaEVrSDk4TERDeVh6TVRVd2tINVFoT3Rqc3pzNnNOOEU4Q1JtNzRI?oc=5)
+- **[한국] 부산대병원, '디지털 헬스케어 혁신' 해커톤대회…CORBIT팀 대상 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYemRnUmVHOUUwa05NSWU2THdRSUY3WjRsMUU4MHQwSVpDelMyNzNfZUt3RThFZVdzN2s3Y0QwT2t3ZS1EaUxzQkloeVJGRGs?oc=5)
+- **[한국] [시간외Y] 로킷헬스케어, SK디앤디 '하한가' - 프라임경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE10WnR4bk1WQ1M2cENxckk1SGdYZF9zemNsanFJVkNzd0UwTFYxYTBTQzhlRkJ3RWZzT2ZCbi1IanRIMzNpTzkwNm94TFowZkl5d0VYNGE5Mk1YdE1PQ3JWeHlIOHlzM01MUkFvbQ?oc=5)
+- **[미국] 대웅, ‘국제안전보건전시회’서 임직원 건강증진 프로그램 ‘대웅헬스케어’ 소개 - 더바이오**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBYMTVvMk91UHNXNmxSSkkzcGVtYVc5Y1V3Q3BUbnJrTWllbl84ZTdGUy1veVN0SENsc2NsLUhHMExhMzZUS3NpWFZaLU5JQkg4dl9nTVpicjZGNFg1WnpONXY3WXFicTYxRERuedIBcEFVX3lxTE5yZlB3WmtXY0lJb1prWHlSTW9CUVR3aUc2WnZhMGdDQTlhZklxdGc5YXBxME14MmppdG02U1FvMWI2SloyWUNySFpkU1dfMjBtVVphT2pLMDJ3cFVKenBaeWx6ZC1KSHFOSDhHeGNXQ2s?oc=5)
+- **[한국] 아기상어 스핀오프 ‘문샤크’…버추얼 아이돌 IP로 키운다 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ibzMtOFBKb2xhNkpYVERGdFBRY3dNalBNaXFiVWlFdUJwc3dTdHpBMjVzUUpvbktRc1c5S0RhT1VYbEx2cy1Dek80c3c3VTlhTHfSAVNBVV95cUxOM1NGQW9qY1VOb0dCUzJoV0otZjZuU2VaWk9NTDdHTlhSUEdPMFl5TFZXbXpPdDk0S3dvSG9TZGRCNmxZSVFWZmtXQlRQdkdLWld1QQ?oc=5)
+- **[미국] ‘언더커버 셰프’ 스핀오프 확정…파르마·청두·나폴리 셰프들 한국 온다 [공식] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE50YUY2TjlVSTJwLWZiSUNQaXVGallCdWYxYzJVZjFzOTQ0dGtuSVp3MDVKTVV1TVA4TjFVbVBnakp3S3k1YXZJaW9IUVRfZUk?oc=5)
+- **[한국] '모솔연애2' 현커 근황 밝힌다⋯스핀오프 내달 1일 공개 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE95eVZiaDhtMFR2YnVUb3ZxTy1JVGZYcy0xd2JETWIzVFBfMFYtZ2VYS1JCdmlvVFQ5STd6YUMtWVhiQklXSGRkV1QtaFAtVWNBVzRNVg?oc=5)
+- **[한국] 디즈니+, '운명전쟁49' 스핀오프 '신빨스테이' 제작 확정 - 알파경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZVWxGeWRPSlZLM3NTQktjMmZtOWNac25GT0FqM2ZPYVhtZFI4NkxFc1lqVXE0WHE2U3hUY184SnM2Yi1NRGczSGJKd1hHTUFjZVlfRmpVb3F3S19QNWZoeC1WV3oyWlVTSXRkVVRB?oc=5)
+- **[한국] ‘운명전쟁49’ 스핀오프 내년 공개…‘신빨스테이’, 글로벌 숙박객 지원 폭주 - 브릿지경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aS0JPcTlaNE9uRmxCUGxRNGItV3lyWXZKRHYwTGU0X05FbGFLc3BoMUJCbUI0VzJtXzBSTkswSUwwZy02OUVMRlZuYjk3bnJVWVg1MHBwaFFwZw?oc=5)
+- **[한국] 주방 선배들이 한국으로 온다...'언더커버 셰프' 스핀오프 제작 - 메디컬투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5MYjNBMTNQQ3ItZFF1dDlFZTI1SzExQkVWWVp2aE00SVZoNUZ4Mm9SN0ZuVzI2bFRtaDNUZjdwUU5WdWU5ZHlhMS01OXgyNkgxdDBtSlRZZ1MwYkxLY3hVNVN6bkVBVERYNjhVbg?oc=5)
+- **[미국] '운명전쟁49' 스핀오프 제작 확정…'신빨스테이', 내년 공개 - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE5UOXpzQ2FOU2c0QVcyN21WQUxMc195NUs3QTVTVENGbFZyNW9TSkxxZXZWbTg3eWpMbFotUmEyRTN1VVh5Um4wenl3X3lZY016Z3pUTUZWdFVQY0ZVUXloanNIVmwtVENKRnFVM2ZZQzdpdkZJSFJQMtIBeEFVX3lxTE5UOXpzQ2FOU2c0QVcyN21WQUxMc195NUs3QTVTVENGbFZyNW9TSkxxZXZWbTg3eWpMbFotUmEyRTN1VVh5Um4wenl3X3lZY016Z3pUTUZWdFVQY0ZVUXloanNIVmwtVENKRnFVM2ZZQzdpdkZJSFJQMg?oc=5)
+- **[한국] ‘운명전쟁49’ 스핀오프 제작 확정…‘신빨스테이’ 온다[공식] - sportsseoul.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ORmotTzBkTGR0Q2daMXRIVVZVMUJ1bjUtenhuQlB1QmU2LW9kMG40MnQxMGtYWlFqempqbnBEZXljRVRZZy1mUEJJWXRrdkRkVkpIbHFaZTM?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 나온다 - 대구신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE9wVUYycWJmTVNvdk5MNTBjaHZ4R0JJLXRFandoUm5wUFBoM0xmMXEydkp2VTlKWDBQQ3JfZXpBUXAxWVNjeGEwRUVUbTBBUVNJck9GSE9xbFNMY2ZRS1hsLVduaVRiWUxIVlpN?oc=5)
+- **[미국] tvN '언더커버 셰프' 스핀오프 제작…주방 선배들 한국 온다 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBPa2pNQW4tUE9Edi00OG5MNUN4c3Bpb2xwOF9KVkVMUFlvU1k3WmVsM1hMSXVKYTNQTllFUEZwR0JWRzlSb01hNTU2cXJzcHBLU1RZQTB0NVdHNDDSAWBBVV95cUxPeVZqd2haWW9vd1V6QnFGTFVPQWk0Q1NtQk5aOWRpN3cxTGFQLVloemxMbWVQUk5RTUszWmJWMnBUTGFkeERsNVBKUGJSQmVjaWVONGdxWlp3ZG1lOW1nX2Q?oc=5)
+- **[한국] 디즈니+ '운명전쟁49' 스핀오프 제작…'신빨스테이' 내년 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTFBlZTQxU0MwdTlHWTg3ckxUb1Q3THdkS1pFUXFMeWQ4MUdBMWdWUTNVd0hLMTFZRDZodm9jNFUwSHhjblA2aVlxVmd2MA?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 나온다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6VFBHNmpUTjlkNk5oMzY0TDFpcVUzNnJ4WUZ1ODBIMXpkWllsQVAwdy1hLXpuZWZpLTItSWc1MVc1SUtKNURMZVU0U0t2cW8?oc=5)
+- **[한국] ‘언더커버 셰프’ 스핀오프 확정…파르마·청두·나폴리 셰프들 한국 온다 - sports.donga.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9aS3pkQURWZTZsR0R0SmdrX21kSktlVDFEcGxvMWQ2anZqY3FBSElJOTZXanBPeDNVR2ZXc3dkUWkzOFlnVkxudUM1VU1xTEx2WEU1cmZYbFFHUlVDVzlKYkhlaUdOUHIyZ2drSzh3?oc=5)
+- **[한국] '모솔연애2' 현커 근황 밝힌다···스핀오프 내달 1일 공개 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE03TG9VUGpjUlVNTkc0QXRiOFZUOXlnLXhTLUFpVWhySEpjekF4aXBJTHljejdFYmRhUmJuZ3gyN1dvQnRNVU42LU4tempsWExxOEpr?oc=5)
+- **[한국] '냉부' 출연료 지급 이어 겹경사...샘킴 "'언더커버 셰프' 스핀오프 빨리 와" - starnewskorea.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFBEWG1aQkktQTdPQmltQjF0dWtGQUdpUEVtRzdWbmp0WU9zTTFIYV9WcFhyckRwSW9lbHdBdnA2ZEZpM2tQdjc1UGUyRnhLLWdTek9ZRWZjMHhCUmp2Z1pxbVVVb01RdGpNelJyZVFqeS1Galk?oc=5)
+- **[미국] [공식] 논란의 '운명전쟁49', 톱3 무당들과 '신빨 스테이'..스핀오프 제작 - starnewskorea.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxQYl82Z0F4RzB3SzBVQ0wtLVdZNmNjMzYzTmxWMG1hQUNkOHhRcFpNdjhOZlBBM1RBY0syMi11REo0WkJXZTRJZUUzMzd2dTdXSjhMS3NQNE1ObFFIWkNUSmhDb21wYWZTVXY1elNIbWxOWHZSOF9DTnRnZnk0REN5ZA?oc=5)
+- **[한국] 언더커버 셰프, 현지 선배 초청 스핀오프 제작한다 - 톱스타뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE1XemFLMENDcHlTMWFua29kOXVPWVQzc1FPREVsTS01eGp3ZDVrMnItSUdibXVHcU1MaG01OFNabExKUFhSazJ5OEtIZHZoSk15OHA3TzVYVlluZWdXVFVha1RaU1RQTUU4ZUVielNRTXVCQQ?oc=5)
+- **[한국] ‘운명전쟁49’ 스핀오프 ‘신빨스테이’ 나온다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE1Ya3dzVHFrb2p4ak5VeGM3UHJyeXppNjdZbTAxSVN4cnVibU5SM2dQOXRlNnhtWVVNelF0ZC1ZNzB1T3VnTHc?oc=5)
+- **[한국] [공식] 샘 킴·정지선·권성준 선배들 韓 온다..'언더커버 셰프' 스핀오프 확정 - starnewskorea.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOVmZnS1M2SjhmRE9nQ1B4OWU2Zk9FWE1FTTU3WldCcUxBQmYzaWx2ZFpOYXdLeUhuOW5SR1F0dVdodTF1bXZhLVo2TURYSS1xOE1zdWJOLXNoTjZwdnRKNVktU3pnQkwxM0JlQVdjVkwtNVRhRE5ncVBtMzJVQlZkag?oc=5)
+- **[한국] 디즈니+ ‘신빨스테이’ 제작 확정…‘운명전쟁49’ 스핀오프 - 미디어펜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlNWdQV2d0VVBpUklXS0xac2FqS1QxMzh2S2NwcVBVeGVOTFVJRjJvNWFJbzNvU09QOXFCMktsUHN1ZFBjWk1lVTBGaXdheldjNVpvctIBWEFVX3lxTFBUekZrTGlldGVCUTJjSnR3X0l0QWQ1WE9GUnliQk1paVFObUJKbkpRWlNHSGo0a0I2UGM0R1ZpdzVFSXBKdDVyOHhzaW01eEI4cm9kMzZjNHk?oc=5)
+- **[한국] 삼립, ‘잘익은 이야기’ 스핀오프 ‘설기이야기’ 출시 - breaknews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFA3bzVTT1FIdGwyRVNTQ2ZqTnhiODB0SzFGUFNoRzZaVkFfOU9oVURhbHNlQ3ZNeFFKX0Q5TTNESVk3SjlvMVdFeQ?oc=5)
+- **[한국] '언더커버 셰프', TV 비드라마 화제성 순위 2위…스핀오프 제작 확정 - 톱스타뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9zVW1QYlViLVVuZGpSLUgzeF9kWFBBQjdrSFRkREFibEVhcm0yaVhpaG9KMmZ5S0FnVlJ2TUxicXRUX0pjck5CTFd2dnhOc3VsdkYtdlltU1B4NGRQeE9iYkVxWHdKb1FyQzFQWEoyNzlBdw?oc=5)
+- **[한국] ‘언더커버 셰프’ 현지 주방 선배들 한국 온다…스핀오프 방영 확정 - mhnse.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNU3FMOGFfZ1B5Nm1BQnNOVzltRWlnRXY4Sy13d2VvNV9mTllpSy1DWXg0QjNJQWdqTTZieGZQQzI2U3lhaUUtTGx5RDJvTURlczRoVTZsS043TEd6Q0R6SW9DRdIBa0FVX3lxTE9pd1ByZXp4akRxVEphTzI1QUM0d0NsV0ZHdjlBcUczTzBST1hnZ1pkMk0tSHZCc1ZOTGl1ZTRsTUpqazdjTGxOTnFBZFluQWpLbEYyOWhvWUc1NUNQU3BlM09QdjR4Rm5OT21B?oc=5)
+- **[한국] ‘6억 뷰’ 대박 터졌다…스핀오프 웹예능도 ‘5천만 뷰’ 코앞인 대세 韓 예능 (‘용감한 형사들’) - mhnse.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9wUnB4YV9FZXQxQ2l4U0lYcC1OYkM3N2ZnS1V0YVBOTndkQXVHWkJ6Mm84ZG5SYThBbHRyaHJDSV9Mb2JaSUZ0dHAzaUhQNVp6N1h3Vmd5b0NMSjQ5Tl9lRTQtRdIBa0FVX3lxTFAzX013dVVSVlVQMWFteEFGc0Z5aURwdmtTY0JuUXBvbkdNSTgtbURPMHY4bjZwcnM1NnE0dnRUZU1TNGtCUTg5c1JfRWtWdTgzOWxCM01xalVuQW1pVzl3ZWw0QW92Mjg4VWZZ?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 제작 확정…'신빨스테이' 온다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kMmpWRlY3UlpZYmxEbGpDR1lFVE1qYVFveWhBV0twREpWZ0pHamxFOUNKNEJQaGxMVGxpRG4wVjBLNldjMFdkcXV3bVNLMFJjWlVPQklRRjd5elhiWTBHOQ?oc=5)
+- **[한국] ‘언더커버 셰프’ 스핀오프 제작 확정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pNExaSnVfVlNpR2d5N19IWmNOVDcxbThQbzBvbF9palFEcGJ5ZWF4dV9tSnBNODdOTExqYjZkSlVPWEM2aFVvblNlSC1felU?oc=5)
+- **[한국] '운명전쟁49' 운명술사들 숙박객 맞는다⋯디즈니+, 스핀오프 '신빨스테이' 제작 - 조이뉴스24**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Pem0yYVNjUm1OU3I1UWVMc0xxbEl2YWFzUUlBd3ZrVU9yTWlRUmhSbktGbEVyeEdTaHljRndhdWNtMzM3elFaNk9aQ2hCak0?oc=5)
+- **[한국] 언더커버 셰프 스핀오프 제작 확정, 현지 셰프들 한국 찾는다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5OLUxKZGFjUUFIR20wZ0dVblpDMHItbmJWcFZ2bEJsX19yQVd3clA0NEFqWjdYWGlDdW9lZVo2T1llbHJsaklrQktBcVBwd3pPUG1kQVVFb2Y1YjA4Q2cwbmZTSXAxWnlMTjg0dw?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 제작 확정…'신빨스테이', 내년 공개 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EaE9SRWdYSV9tVFJQOWdEVVRzUllkUV92ZGo5cURNSXFlV2RPTUZ5SnBEM093aFE1c05DWU5KdWwwVkxQYTh3ZW9IOUxjWW9yUklF?oc=5)
+- **[한국] '언더커버 셰프' 스핀오프 확정, 현지 주방 선배들 한국行 "올해 방송"[공식] - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TZkV2SXhDNC13R25UQzJpZlR3dm5JSGdiYW51dnczRFZiVDFjSGt1OEFfdnk1RGdaemJBSFFucVBjMHB5YTgzd01yTEhKdEpwUHlr?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 제작 확정…2027년 공개 예정 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE15Vk1wbVVFNmhqaG1yc1FrcFNMM1hMZVRWRVNmdkh2Y0pWbDZqZGY0akhXYzJKNk9MczIxM19FNGEyeV9SM213UnQtdzg0VDNNeFR3?oc=5)
+- **[한국] '언더커버 셰프', 스핀오프 제작 확정⋯현지 선배들 韓 방문 - 조이뉴스24**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CM1lRVFB6REhTX2RnZTJ2V0YxX3BFenNTSjE0bzNsLUdRbmY3d3o1N2Z0UE9rWEdFLWJ6Si15eVlERGVJbnloQWlFV3JiRnM?oc=5)
+- **[한국] '언더커버 셰프' 선배 셰프들, 한국 온다…스핀오프 확정 "국경 넘은 특별한 인연" [공식] - 스포츠조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxQZS1jWlFoa2YzREhWbGNGZE9SeDBkSHBDaTRodkw0QWhEcDJETWFCMEtpNTNxWXRGSTZrSUtsSTJsVkJTbS01b1VSbi1yWldhUjFlYk13NTJkUV9VOWJsUU9Obm9yWFFOTEdUcWlyazJWbDdCbTl2YzNjdVM3V1RtaWl2TEY?oc=5)
+- **[한국] '냉부' 출연료 지급 이어 겹경사…샘킴 "'언더커버 셰프' 스핀오프 빨리 와" - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UZzJUcWljTm9rQmhwT21IWFJVN2tsWEI1eW9EX19WQXdlb0hxOUdzODZ3WGhGM2RwNHFZSGN6UUVMNlJpRlNuVGNHZGdqYVd3TkVTemNiXzdrQjlseUJpNXp3QTVTYm9r?oc=5)
+- **[한국] “정호연 스핀오프 내달라”…관객 홀린 나홍진의 ‘평범한 그녀’ - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoMEN6MFMxenI5ZjhxMXlpTUNYd3MzR29sODVxYWpTS1hDMEk3SVZ6aUJueUF2b3dtbVRUTlVLcmVWaGU4VnpKRGYwcklBZ00?oc=5)
+- **[한국] 파르마·청두·나폴리 셰프들 韓 온다…'언더커버 셰프' 스핀오프 확정 [공식] - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KTXBOS0JVamdVeG5IaU1TOWZmeEE1dUVMcURST2MtRDR3Q0xqbzlHTkJLblgxYW95aExlUDdBQjcyVFZ1YXJoUjlPcjVPOTBwWE93?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 나온다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iMFBIQ01Makx1dXdlamNyWTVFS3dzd0xPelV3SS04ZlEtekhYZk55OVZhVEdIVTdoOTItTU5MTC1jWGtwaDZvZksxLWYyR3hLS3lB?oc=5)
+- **[한국] '냉부' 출연료 지급 이어 겹경사…샘킴 "'언더커버 셰프' 스핀오프 빨리 와" - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZMHFianpfV1RyeDNLeGpTN1NpY3RYeHY3eng0eUkwNmZrUU5fNHNNQVdva0ktbVR5RDhCb19zWUFMVTA3dHF1SHdlLXhJanNsWTR1ZlFOWTZ0UExKak1UOVB5MU1KTm5rMXJqRA?oc=5)
+- **[한국] '언더커버 셰프' 스핀오프 확정…선배 셰프들 한국 온다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GWVd1YjhJcGpDdEJRTVljX3ZXc0ZfSVNKdWlnN2VDc3RBcW1Ebk9RckJaQ256WkVTNnV1MkRFWjhtLVNUZ0s1N2x1Z1k5cXUyUUlZ?oc=5)
+- **[한국] 권성준 '언더커버 셰프' 스핀오프 깜짝 스포 "한국 오는 셰프들 대접할 것" - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yc3JlTll3aDZjcDlJWnY2RVNGME81Tm1sVEhlR3p5WUFoNnBuYnJ2UnF1V01pY25WaGVveGhPZWZab2NkanhPNW1kSUZ4Vm5TM2ZN?oc=5)
+- **[한국] '운명전쟁49' 스핀오프 '신빨스테이' 제작 확정…K-샤머니즘 힐링투어 2027년 공개 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xUTBYWEprUFpxRjJGa3Q0ei1zRG9CMjhDU3pqYkp1MGVyVkdzVXdUX2M0V3gwNDB2MV9RODlsdEVPNGFUektGM0dfbUNWc0NnODhV?oc=5)
+- **[한국] ‘운명전쟁49’ 스핀오프 ‘신빨스테이’, 내년 디즈니+ 공개 - 싱글리스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uQWpCWDh2ODhYU0V3cGhsZ0cyLUM1eDFJMnlxb0hlTHFlOG5OM25qM016U0JQS0l5bWVmMFZCdzJIMVZIaFNLRXRJdmFQZmVBR01yQnpiNjRJYXJKWloyTlV2RGtOZw?oc=5)
+- **[한국] ‘언더커버 셰프’ 스핀오프 확정…샘 킴·정지선·권성준 주방 선배들 韓으로 - 싱글리스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tRU5WbnBHNlZDaXV3ZE9IZ3ozdEdtelpxdkxFMWJfdGFKTVpMMU9OeUttbkZNUTRWVk4yMmYwY1gyb2w3V0E5WVNFSnRfTmh3empxdndRbE1VTmNoQ2NhQS1mOXVDUQ?oc=5)
+- **[한국] 시즌제부터 스핀오프작까지…큰 사랑 받으며 전격 출격하는 tvN 예능 - mhnse.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tbTBJWE84WXlVMHVpMmE0RUhVaHdRcFJ4NERlMTFKdkFDRzV1Nlg1OGNiUURxUGlSa3NWc2lIQm0tRmFHZW91ekRaQWNjdFdOaDZSUHlRTVVRV0VyZm5NQ0pob9IBa0FVX3lxTE9EUUtfaEs0WEhLQnVyOXoyd0lrQTM3Sjkwdy1EV2pvV01XM3lhT2tlcER5LTJhTGowNFphOW5iZDZsZmdRY2Z0UkpHeEd6Yk4xdHFiSTVPN0RFNlVaSUU4ODBveGYyX0ItcG5B?oc=5)
+- **[한국] 권성준, ‘언더커버 셰프’ 스핀오프 계획 깜짝 공개 “한국 오면 막내 시킬 것” - sportsseoul.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE83cDBWeUFvZG9sdzM3WG1nbUl0Rk1EQ1NNelNSMzczbEJUVGpzbDBhcERZYVFQZkY2Q1hJMWpWb21tNllPYWRGWDNyaHJMOHRudzNXQ2VMM2c?oc=5)
+- **[한국] '파묘' 이전 이야기 웹툰으로 본다…스핀오프 '맹종' 공개 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mN1JxYkZVUEhpdmJEQURfQnpkYng3YXdwT21hbjNDdjFCcGpieWw1aVdwRGd5WEtibE1OMkdVZnZ5cmRRbHFWQ2VZTHJwVC1iSnNPTnhCR2VrZU3SAWBBVV95cUxOaTNQZ1p0bms2QXVubkVINVZyWThmWERjQldEZ1pmdEdpMmZ1LVQxU0NSTy14aFdfRjJ2b3RtM0h0UGRzM2JMa0hTV0pNejhjWFpoQUJMWnlhcnJFR0wtZjE?oc=5)
+- **[한국] '언더커버 셰프' 스핀오프 확정…파르마X청두X나폴리 주방 선배들 韓 온다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmME5lS3ptRmxLOGtETFV5MjhuMzBULWpNQ25LX3VFbklVUFFDQmtiellEeGNJUlNvWW4tUDVhb0oxTHVTMklIMGVwVndqVzRyUnlV?oc=5)
+- **[한국] '출연자 논란→고인 모독 발언'에도 화제성은 역대급…스핀오프 제작까지 확정한 韓 예능 ('신빨스테이') - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE16WmI1d1AzeXUyODQ0MmZyczFBM3R6bEdnWFpCSUduWkV5bkQ0VmhxcEh0dWxDYjZHUWlQVGItcUxqYnNFNE5CelU1anJpT3dkU1k4?oc=5)
+- **[한국] “정호연 스핀오프 내달라”…관객 홀린 나홍진의 ‘평범한 그녀’ - 중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE80SGZOWmQ5UkhQclFMMUV0R1hJTTNQWVVPMW9NSkJlLXEwME5rNV85Rm8tS0hkNFpKc2w1bXQ1U2lPMjdDVDNnc2J2TmlvLVVvaElFZkxB?oc=5)
+- **[한국] “잘 팔리는 메뉴의 변신은 계속된다” 외식 업계 ‘스핀오프’ 전략 확대 - 에너지경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FUTFRemNCVGdkSExLc3hFdVA0YTQ4UXJwNHpidVl1RTRIQnpFcjF5QlRPVGpHdjNNSjZjQXlORFhhcTVyN1prUEdFSjZUTUVBZ3h5eG9HMmZOdVE?oc=5)
+- **[한국] 북미 게임팬 만난 넥슨 "'블루 아카이브' 스핀오프 만들고파" - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sWEVUQ1lRMl9sM2p5MFdQWkhvZms1elFNQmR2UU5OYW1qVVJUNTNodFo1aWM4WTZJeXZydnRXRzluX0oyeG1jcUQxRlcwT29oZEN5dVNiZHcya2fSAWBBVV95cUxQRXdtQ0EySmhOS2RQcHAza0RSTXBHSU9SYTJfU05qeXN6ZFBRRDVyVGlVOTk0UVJGbzA0ZjlITGM2bWFnNy1XczFZcWpjVEpIZ0cwRWQ2Ukpxd1lVTndEVFI?oc=5)
+- **[한국] '지락실' 스핀오프 나온다…tvN '우주떡집' 31일 첫선 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RbEYydHozcURsRV9XaDVGWllnajUyV2VNQkltZHQ2VGF4bXQtcFlONS1vN3VZajNnS3Jvamc2d0hoakRFZEZqYU1MUQ?oc=5)
+- **[한국] '지락실' 스핀오프 나온다…tvN '우주떡집' 31일 첫선 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ORFFqcUhiNWJhZEU3dTFsZzdwTkV1Q3B2MHY3ZlpJaERTOU41NUFIaERHSUdBSFFpOXQ3NlFiX3MzeU12NVdzcVVXbGtlN2NsbUJhVFIxVGdDaDDSAWBBVV95cUxQTGpsbHpNbjFsRzh5cXF3a1FjQlBBcnExQVA0dnpzWTh0Y3RieWk1d1B5X0E4X1R0RHdXZmRBcmYwVWx6V3Y4Y2tMSlprVk9XZ0dqb0dnanVPa0xVd0VTVE8?oc=5)
+- **[한국] ‘풍향고’ 스핀오프 ‘풍향중’…유재석·이성민·지석진·양세찬 NO내비 여행 - sports.donga.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBXcXYyOTFnMEpLSmRsMUd0Rzg5OWdySFl6UkNGMktpWHEzX193T1JvQWs4ZVY4ZkdIQnhlbW1NVUg3NUhTVFFreXV5SzFheHlrYWpYd0pXdVJsUG0xLTk0WHljTDM3TkgxeTNuRlhR?oc=5)
+- **[한국] '패밀리 가이' 스핀오프 '스티위'에 케넌 톰슨, 바네사 바이어 등이 캐스팅되었습니다. - animationmagazine.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi_wNBVV95cUxNMzA2cmpucUVQdXAtRGJGXzBfSlM2MThJVXdKUmhwUTZIRzRrRDM4WERvZnRhZDV4Z1E1SDFiSWM2aDExOVFSTFNSRDFfTkdXRHNfYTk5T1R0LUJ6d2JkenhibEx6MFVQTE0tVzBPUGtDSS1lOXV2aDU0dUlfb1RKMXNqQVZsN1Bka3NDb29LbUpJMlE1U1ZkdnA2TWhUa1pHRFVoT0s4ZXIycklmWGNadzJSRFplRkFjSmM2bG5VQi1zQjFmRXlhZmJ3YVdNZzRZanpDaVVGREJDS3F0M0VqU0FPZEJsaERrdEJLMUUwU1BtTVdGd0NhWlRIODJZaFFSUmtsbHdGbExNSHhLUGx0YUlmLXpZTDB2NVFBc01jVHJIdDFNbzVIdHpOTWxHdzRFWi1MSWJCN09HX3Z2R1prcGY3R0FaSUpSVUFXNlNwNEhCSjNsSTJJZklnYV9pR1cxSG9IUDVnU1dqcXhVYmpqaUg1TXZzamVEWTNwWWxKU2VnMEhwWUhPQmZtdTN1ZFowTDBkeS1uV3JxNjYyNmpxMERKcUg1NDVGTnVwTEx5cFNPTU16TUk1VEE0dmtpaFA0R2ZBWlZWQlVONUc4NElCTG5CZzlxMHhVVFhfMkVna0hCdHpJNjBVdGlIb1RPa1ZyZ0J2VUhMZG85ZHZCLWQ4?oc=5)
+- **[한국] 이러다 ‘풍향대’도 나오겠네…‘핑계고’ 스핀오프 ‘풍향중’ 론칭 - 스포츠경향**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UVXlZSnFFczY0Z1VETmJPMGdXZE1ndGhSbm14U2oybU43Q3pZYTdjQ0JVUFdNenVKQ1BmanJuLWp4dHBZamNPMVNYMGNiZlRMcWc0dnB5OEp2Q3lVREHSAWNBVV95cUxNdllqUzc2aVpIZVJzTGJLdkR4S0tzUnRLekxMSXh3aERwR0d4WU8yM3hGeTRDTDFHcnRhRUFBQzJOZTRkSi16VHpJbXYycGdqVnpyM3o4TllOMjRrZ3phNExJbFk?oc=5)
+- **[한국] [공식] '전과자' 스핀오프로 또 만났다…이창섭X카이 "1년 안에 결혼하면 돌봄 서비스" - 텐아시아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fR3dEZkxXVGwxR2FnR09pMGp2TGM3LUprMHlkN0hoQ3J4N2o3SWpMTDhwZzNhTGh4UDdSRXZaMFkyX3hVak01R2Y3dGt1anlYbVFhSzhwYk1HWjA?oc=5)
+- **[한국] 북미 게임팬 만난 넥슨 "'블루 아카이브' 스핀오프 만들고파" - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kdjNtaWVyeGx1S1RNbjVQUmRXeV9lTG5TYkJPeTNRUWZqSmp5am9xa0FFMWVscENHWlVBcTRkRjZ0blZ1S1hnNlFnRlVGQlBHcEE?oc=5)
+- **[한국] ‘가왕쇼’ 전유진 vs 박서진 vs 홍지윤 (현역가왕 스핀오프) - bntnews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FWGI4SFRLQUJoczZjUW5XU3BsaEJyWFJWSGFTY1N5aDNmME05V21HSUR3U1hxOExDelhqSU5DNmVsQnU3TC1sbmk5T25KTzJpRWN1OTd5bmZPbUFjQ0o1T3J6akQ?oc=5)
+- **[한국] '무명전설', 스핀오프도 대박..'전설의 사내' 수요 예능 2주연속 1위 '기염' - SPOTV NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1kcjBlV0tRaWFVQ0M5elo0SmYwWTVtaklOWm1BeFdmalJ2S0dxbEhjQ21senJtNHRoUG5lSkwxRjhYSlk5aUVFSmNEN3V0VkM3WkxfOTFSMVNkc1dhWUtNZ2J4OUIwcHV0emU5UllKMNIBc0FVX3lxTE1OQUxuakZzWVRwODJYZEpPSWJYcFFUV3dWWnA3MlhIbW52cDhJdzhiWWpGdXByV0lWdFVwREhCc21kbWZ4X3ZoQlRla3JuZGpxWFMxT0Q0Mml6cS1sNlQwR3FXZ0FCakQtUlpSWUM2NVloZHM?oc=5)
+- **[한국] “정호연 스핀오프 내달라”…관객 홀린 나홍진의 ‘평범한 그녀’ - 미주중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RY0dIVlVSR0IzUFR2ZDVYTFJxODdQLUNDQlFjS3dNenR4U0IycEVIRU50RFNvalZncnZSZjk0TzVRbVp2blRBY0h3QXJhcDNrdW1JNkxya3p2RENuQTR4Ni13?oc=5)
+- **[미국] 유재석·이성민, 내비 없이 떠난다…‘풍향중’ 여름 스핀오프 론칭 - 앳스타일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9QdmFicnhBSkdoVE1jNDZFaGJfbWJQNHd6bHFwQ3gxeDNPa0ZXaG1MQlBlTnZ4OGtwcHYxTFJMT1pGM0h6S1BaSld1elljTnhmOFc2WXVpUDJzLVppZDNfVDBwQ1Rkbmd4OHfSAW5BVV95cUxOdU90Y1c0VHZWT05SdU8xZFZUYURTYmJVc1V6ZTU3MWhfLTFOY1hKREZjZ2w1YzRwd2pvbi1JSlRhcm9RNjZOMWRreXVsVkhUUVNMUVJSM2JJSTM4MnduS1hOWjBkcFhmSGw0ZFV2dw?oc=5)
+- **[한국] ‘슈렉’ 인기 캐릭터 ‘동키’ 스핀오프 나온다…2028년 개봉 예정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tT1ZuN2IxNWNialktQWZETGZEXzE2WXducFRyX0dnWXZMUmJiUkpQTmhJSHlWOUxWalgtRG9DQ0JWTUNVU3JzR2M1NA?oc=5)
+- **[한국] 네이버웹툰, ‘파묘’ 스핀오프 웹툰 ‘맹종’ 30일 공개 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aOXFIYkxfTkVfcC1vXzAybWlKVUJOeHZyMlhHdl9UX2JmakNGSmgxbDBUYm9HVHhQSkJDbTk0RGpnQmtUMUpyeGhCMVhYSzYtNU50bXBQOEtKVkRsQm5DWjJNZFM?oc=5)
+- **[한국] ‘모솔연애2’ 이은지 “시즌1·2 섞은 스핀오프 제작…끝까지 즐겨주시길” - JTBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LdlJnUUlIdUVHbjFJdWRCZEo1R3RkVU1UNFd6eVQwSm1JZ0RyN1Q4YVB5SWtZbU5TLXlvMERGalFfYl9zRjRva29hUFpYa1JjQmlGVw?oc=5)
+- **[미국] 네이글리 : 리처의 스핀오프 첫 공개 이미지와 개봉일 - Sortir à Paris**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTFdyM3RHY01OYVFIQk9pNVNNVlR0dDBPLTFnYzlPaW93RGg3SGpfMmg1N2VyV1pGbGduMmxmZTJ0elV0MWUteVZiYUNSOEp3RHNsRUxLSXlUd2tmUzBjUWw1OHJQcDNoMGRuSEFiSUpkb3NPQ2gyOUxfRkdfQkJEZDVWX0ttcXdURlo2QzRJeDdYbmZDMF9KV1pmX3JlMjJlZEQwOEJiQWV5QWVwaE9aUUdjRVZoaVhydjl3R01SRzB1V2N1SkRVRC1vOURSOXlZUkJjVTFGQkZLSU54a1Z0TWcyNzJWdw?oc=5)
+- **[한국] [공식] 황정민은 빠졌다…유재석, 새 스핀오프 '풍향중' 공개→'풍향고2' 멤버들과 동행 - 텐아시아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEcmRJS3ZwSTlxUk1fTU9oX0VFcExxalRMS2stOVF4Tm94NEZjRlNvUk5TdkdzTVl0bGJuWW95b0VVRU9mV2puMnluVnVmVHdOYV9sc1pGYVpkNTQ?oc=5)
+- **[한국] 日 판타지 소설 '로도스도 전기' 스핀오프, 5월 9일 네이버웹툰에서 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9QWjl1SzJQOWpTQV80bnl6SUxBT1FRNkUyVVU1c0I1dnZ3RzA4azJ5LU0yeVZCUUdqX2ZuZkZrSEtLb1hWMVE?oc=5)
+- **[한국] '지락실' 스핀오프 '우주떡집' 31일 첫 방송 - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5M2NFNExSNHlFcXRiTGJpc0Q2MG5UWUFtMngzSUFaWDBHV2Jua2V5aG9SdGdTaHZ2UVlVSlcwdFV5SDY1TC1FSmhLeUphMzhCMXZDVXNfb3A5VWxuc2hGb9IBeEFVX3lxTE96N25mbXZHeHFGTkI3RkExMldScGRjVVdXX3BUUUlQV0pKTWIzamRtbnMxVGlLaG9UMWxhQXJvMy1qcTVTT1BFZEV6azRhMlZ5Z2Rkal84ODY4V3kyT05odWtZYTBoN1pNejZBNU05WW9LZnQwUHE3eQ?oc=5)
+- **[한국] Stuart Fails to Save the Universe의 예고편이 HBO Max에서 공개됐다 - Sortir à Paris**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVjVYU1RpMXEtQTZkSWszb2xKS1EzUGgxQU56eklvM3Exd0NvX0luT082cDdvVkRDZXQ3ZzlhNUJCdUV1MEZwd2NzSTNSWnVDdl9HckdjQ1pwVWp4SUVuZEdpSWJodWFTbmtWb2hjUW1DUDJmZ0phUTFxNjRTVU00ZkFFOTREYmUtaHpKUVFjRGJFUzJDbnhnLU1FdzRueXdQSVcxUUh0TEQ0Xy1SNUlHMzl1QTc3Qi0zOTFrelRDcHY4Ni1wWTFELURSTkQ5bWZRV2o3dkkzUnNfWjNVUHh5OUFndmNCWVNIOHl4blliV0o?oc=5)
+- **[한국] '무명전설’ 톱7, 스핀오프 ‘전설의 사내’로 돌아온다 - 미디어펜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OZC1hSjR6NnQwSVFmZlI3Q2R6eFEwN2ZMcGkyTHRZQklwM1J1T2FzZkxFdW9LSU9ZdURCV0JGZUJlZWNEU3JmQnVqZlJBYl9Xa3ktcdIBWEFVX3lxTE9hd05FdTYtd2loenpQU0o3S3hRZzYtdWNxRWE3b1pYVkJMUnc0dVd0bFJKb3FDOThsdERKZ3lqY1QydnJCM3ljRExJT1BqOU8yd3FqcFQ1UnU?oc=5)
+- **[한국] [인터뷰] 엘칸토, '브랑누아' 별도 법인으로 스핀오프 - 어패럴뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTFBNNHpCanJicmxaZmc1aEdBWmpKN29rNERWOTZ6R0FtXzQ0YTZ0SF9SYVFlTUlhSzEybGF3OG1tVG80cjJxczZWYXM5WjBCT0xMVjdFLXdEWkgwVkk3U05pT2MyOHd6TVFOMGRWeEJFLUZrbTZB?oc=5)
+- **[한국] 이러다 '풍향대'도 나오겠네…'핑계고' 스핀오프 '풍향중' 론칭 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLa08zT3VYWDFNMXJfUFJMVUxkajljc1F3RFR3SVpwd3I3ODdjeEFJZFZoQ3A1Z2I1czRnOG9ic010TG1vRTJJUFM4Q05nV2kwdzc0?oc=5)
+- **[한국] [공식] 김대호, 하차 안 한다…스핀오프는 빠졌지만, 시즌2 MC는 그대로 ('무명전설2') - 텐아시아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zamhhbi1GazlzTVhVQnRBc0Z6N2dleHk4VkR5VEQwZ2lCSHlvNGFiSzdtU281OWV2UlBxejhOR1llX1Z0RXdidW9aQVEzYWpnVXlFOE85ZG12Nk0?oc=5)
+- **[한국] '파묘' 이전 이야기 웹툰으로 본다…스핀오프 '맹종' 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tdzg2YmZsb1hZUDJBNXJpdDI0UXptSnYxSVVsOXFvUTY4NHZiT3dPeEJVWGx2MGVZZE90WVVaZUN2d0ZzS3l3QWVfZU1jMEE?oc=5)
+- **[한국] 스핀오프로 돌아온 '피의 게임', 쟁점은? - 한국일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFB3UFRlUGhQUWNNLW9MNXQ0ZV81c1RZYXpPbVpkMzV0RFVUV2FjaXNlQW1uRWhoWEtkbVZ6ZEdYTGVxTlI0OEN4blBiNm5oRno2MmE0YjAxOUZKYV9fTFVpNnhqUTV0MFRPZENvak5R0gFzQVVfeXFMTi1WSnBzdmFLckp2RzdCSEVRd1BVelBXdXhDbk9iZXhXWDBLM01DclBTVWNsM0lQcUhNRGpmaTFfUTc1Mlg1Tlo0UnQ0UVk5dUZSN05ETVQ5OGFvOEtDSGZUeDNXRVBuTE1LVWFiV0ZxRVo0dw?oc=5)
+- **[한국] 천만 영화 ‘파묘’ 이전 이야기 담았다…스핀오프 웹툰 ‘맹종’ 연재 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9iNENWUXF2OXhTNTVRNldWdnYtaS1wVjhqUkhrNkVScmhHMEMyRmtHQUVwTENTckNybnhMYzRjUUd0OWRhN0h1dEl4TQ?oc=5)
+- **[한국] 도-전북TP, 도내 유망 창업기업 팁스 선정 확대 - 전북중앙**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1RakYtRGpOVlBydlA3V2d4RlBYNGJ4bTktdHdIX2pRZmdsVWh4ZVVVMjFTZ3F6cGswUWJuUGZGR0hOM1ZJT2k4NXMxZkp6N1FtX1VRVTA0QW5HMU5sX0NubXh2WnhyMnFibEVN0gFrQVVfeXFMTVFqRi1Eak5WUHJ2UDdXZ3hGUFg0YnhtOS10d0hfalFmZ2xVaHhlVVUyMVNncXpwazBRYm5QZkZHSE4zVklPaTg1czFmSno3UW1fVVFVMDRBbkcxTmxfQ25teHZaeHIycWJsRU0?oc=5)
+- **[한국] 티에치팜, 중소벤처기업부 '딥테크 TIPS' 선정 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2UzJ5b3ZDeWRpRFNGSG9QNzE3czI5cWNKX1Bpbk9lZmEteUJyMXhyS0hQeTJvVFNla2xyQlRmSl9oZDNqelFxVktVYU00SHd4SWJrOWlTRXJNUQ?oc=5)
+- **[한국] 로웨인, 중기부 '딥테크 TIPS' 선정… 수직농장 로봇 자동화 기술 고도화 - 파이낸스투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBDOFRhZTc3NFYta08tZFNEQXRrT1NwVzQtd2l5aktCTUtCWjlhWHpjR3FRcTFrQUgzTVBoRDJkOHNLX2JENnM0TFlOXzQ3M2RueW8yYlgyNkw0X3VtelFiV3lrUVFNZXhBYi1JbQ?oc=5)
+- **[한국] 와이앤아처, “에이포랩, 팁스(TIPS) 선정… AI 기반 수술 내비게이션으로 글로벌 시장 정조준” - 메디소비자뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE5tcFFSTFNqQXlYVkxGMldpTUlUaDAzUW5hUTZFN3FEaFBZSVdoZThFZXRydXhQQjdwSWFfbG9sWWRydG9hd3A5cl8xNDg4cTdXanFHYnhLRXZLbG01dWlha0sxY24xdW1wY1RaMUIxa0QyNDdUUlHSAXZBVV95cUxObXBRUkxTakF5WFZMRjJXaU1JVGgwM1FuYVE2RTdxRGhQWUlXaGU4RWV0cnV4UEI3cElhX2xvbFlkcnRvYXdwOXJfMTQ4OHE3V2pxR2J4S0V2S2xtNXVpYWtLMWNuMXVtcGNUWjFCMWtEMjQ3VFJR?oc=5)
+- **[한국] 바이오앱, 중기부 '2026 스케일업 팁스' 선정 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zaUxMQVZ3UFJ5RnlaSjhvMFFqTWc0RHNqRUthYnpDLXAzTW9aQnJ1eDd5SU0zR25qcDh0NWk4OGZhRFpESk1qTE9yNXJmYUxJSE9Hdk84NjNiMFQ3?oc=5)
+- **[한국] 서강대 교수창업기업 'AIVY', 온디바이스 AI 웨어러블 ‘TIPS’ 선정 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10LUJTc1hINDh0ZUNSeDllY2JEUGg1bmNUcjJZTmpQSU5JVDFiazJtVXhRWkpJeFB4OXAyQzZMNld5amQ5cG9EeHVhN01WSTQ3N1VnQzcxNVF6TEVmbGdBMDFuZjUyckU?oc=5)
+- **[한국] AI·물리적 육류 공정 융합 딥테크 기업 딥플랜트, 중기부 ‘딥테크 팁스’ 최종 선정 - 뉴스와이어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VRTdTQVRxVF9YR1FQZXh3TXdIcWdBaGoxWFJrUk1PWlNfTXJld1B3QnYwTmxYVmJKYUwwWks1UWRYME9DeEZxWVZqWFdoeVJkZXV1ZVMxM2Q3eGNrVWZB?oc=5)
+- **[미국] 홈핏, 중기부 팁스(TIPS) 선정…기업 건강관리 AI·데이터 플랫폼 고도화 나선다 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GSmpxVVZwMzJJaGFWMXA2NW5oaGNkX19zckh6dVFBWVdSTjlhT19CRmhMbEJ2TTV3TWRUYm52bGlUY1NvRDhwOVhqQnBsc0FXQmhmTEY4T09RQ1R4MG02RXJ6TFQ0d0Zk0gFsQVVfeXFMUDRIcEw1eVVrSkVQWlpPbGpmT1JnQWN1M2VLTVlWUnpoa1dCZ3hsbXAyR0dJYUs5VWI4MEQ2eHd6TjEwN0dEZUdxUWpzeUlwaU00azQySGJfa2w2V0syMmFlNG1mVnV2ejFNc0U5?oc=5)
+- **[한국] 서강대 교수창업기업 AIVY, 중기부 ‘팁스 사업’ 선정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE42VmFiZ3h4WnVJdFRKRlBhdklDV3dGUlljSU5NNXdHS2duUG8zMGNucHA4NExXQWZHSmRjaDhleVpZNTcxN3FJLWlYVm1uOEE?oc=5)
+- **[미국] '청구스' 운영 데브올컴퍼니, 중기부 TIPS 선정 - 컨슈머치**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE8zR0hGSlcyNEhXSDNaNjBLOEdYUnVsSWZjWmx0Q25rWGVZQWpmc2lTemU1X0RKcnQ4eHhWTUZoczJVdU9ySEl0SFVUYU40LVYzSnVrbGlnZkxyUWY1M1pUSUljZ2FONF9XTWtZ?oc=5)
+- **[한국] 아크헬스케어, 중기부 TIPS R&D 선정 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tNlJlamRPQV91bm5sSVdXLTlyS1BwdHg3Y1EwR0s5dFRrNUpSLXVCWHd6V2gzRklOZUUwbGlVbTloelVsbFBOcVdZeTg2aHlwVV90LWlBUzJiWE9OQmlsSQ?oc=5)
+- **[한국] 그린에이아이, 중기부 팁스 선정…자율주행 핵심 '3D 라이다' 개발 본격화 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBRVlJISDJJQWNWUzlXeklQSHphSjExZzdBV3REczZjN3dGWFZYa0l4a2VmUE85Wk5TQ1NmM1AzNkVoT3pFS0xiYVE5bG5tZw?oc=5)
+- **[한국] 창원 창업기업 ‘아이리닉’, 중기부 팁스 선정 - 경남일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1xNUdDY0xOTmpObzBQZjJCY0FQTnZpdzJhNmhCdU05NVNKMVRqSGpaanFhYkxydl90TVhFa2pLMy00UzlxZW1BaG9IYU93WENSdS1CY1E4ZzFwSXpReU82RGN0ZHAtYVZCeVJB?oc=5)
+- **[한국] 그린에이아이, 중기부 TIPS 선정…자율주행 인프라 핵심기술 개발 - 로컬투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE4tOEx1ejZBNU15RDIzdFNPTHk3QjRMRVhFYVZVLVd0YXNaVUNlazFmbkFsYXd5cVZHVzd2MGpJaDFWZm1ZYUtDelNzQWVYTzdXUmgwb0l6Q1lzWnZIT25NOFZjMVFaZE5aOU9nVndFVlQ?oc=5)
+- **[한국] 더블유엠어시, 중기부 TIPS 최종 선정…AI 기반 스마트농업 고도화·외식시장 진출 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1YbGV5VUdRQ01ZeTFPd1RZT0g4emgzVFRaTXR4S0JjRS1iOHFfNzJyaXF6RlVPWV9jNHkyV2QtTFdtajdFanBuTk56RGNnZ1hPOGFCZ2FGSnlWdw?oc=5)
+- **[한국] 모닥불에너지, 중기부 팁스 선정…히트펌프 구독 플랫폼 고도화 - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5IeVl1c2l0ZkxjdVdRa0ZqUHp0dWlfQ3FyX2lELS1TVDZaalRpZnlOYW5mYnJSM2xtYjlNa0pFSkdSZG1DTk9ObWZ2NjF1RjN5dnhtRlZRdUNvODJXV3VJS1l3YXFUNnhjTkHSAW9BVV95cUxQbTVlWVVZdnUwNzFQaVU2RFNoR2QtTjVxXzZsVVFTNlpkSGtHVjZraDdmYS1ieDd3M1BRRFhQd1BSVWUwUm9IYThRUHpTZFJ0RGJkclc0Z0hPeHlSWFlXQUxPNjJta2xKZEFyQUVxdlE?oc=5)
+- **[한국] 바이오앱, '스케일업 팁스' 선정…반려동물 아토피 치료제 개발 착수 - edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxNalVKdWROSTlfelRCUFo4UzB4YVZpb3l2U0FxMzRadTJINU5vcFVDa0ZhQ25KMjlmcUp6aFR4emo1NHlQUlJUeWRJNzhremItRmUzaW9WSzVJWFRXSmdIMExmbjdfUG5WcGF2akh5cHh4X2dmRGRuU1dHdjZkb2dNXw?oc=5)
+- **[한국] 전주대 창업기업 더블유엠어시, 중기부 팁스 선정 - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dU9qWWRSU0VCeXZUUTFBdV9yQklkbVZJdVU2aHpqZXEwOVVNVG5xa21Fd2xuOTdDX3BPUkZxVkFTS2w2Y2hoUmdpRTVFNWs5YzRfaXA0Mm92Q0JQc3k5RNIBeEFVX3lxTE5PYkZvOFRkSmpUX3ZqR0FPMTY5Y29GRDZ0ZzFyVTNVYXE2SUJwQnRzQ0dIMHVLcEY3QjJXX0k3d1RYZFF2OFY1MnMyZTFCRXFCRVN1MTg1cS11R3E2cjljWGdyZVZmN0ZVWFZIMDY2TzJKVlZzQVdBNQ?oc=5)
+- **[한국] 서강대 교수창업기업 AIVY, 중기부 '팁스(TIPS)' 선정 - pinpointnews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE9rU3VYNmVpNW1pMnRrejFpYzVCT3hfZWltb3VUeG55dlk5d0FSdW1vdDRtOWpOZ3c2SVpBanAwd2Q5cFdtZTFCbTc3WldwaC12MExGSEpNQnl1Y3hhb1VxbVZXbUpQNDF6TFBJTnNoYWlCUnPSAXdBVV95cUxOWllWWDFqbElBUW9tYTZJNy1GMW1ZY2tkR1l4SHMwOWxIcHJLOENveFc0d0YzYzE2T09RNjdacXk4ckdiY2NLai1fZ1dZQWRlVXRmTTZ6V1JHQ09KWWJYWkZ2NHBsQVA1OVlxVllwdHlVNE85c2pqZw?oc=5)
+- **[한국] 솔루투스, 중기부 '팁스' 선정…독자 AI '라피'로 글로벌 보험산업 혁명 주도 - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbUxzbENKZzVzTWxoTm5yRW9rWXNSY2ZXam1faTBCVXZQUjVSdjNzZDVpZ0hnbzliSTFRVXhUWHd5MDJGdEYzRGxWbERKZ2JPdkc4MHV6SW5QaXB4UHdNakF1LXN1cnN0cFZ6VNIBckFVX3lxTE1EbXFYZ05wc21XVjZNN0JzelZyaWU4SUdrTEVmZ1k3dWI0UkstS0MtOFVYNTc4bTdpSXRkaFJLbk01cVZ4WkRuZDlKMWhXenpfRWo0b0toZFQwYzhMaG8yaU9wUUt1REZ3YzMxM3kzd2VtQQ?oc=5)
+- **[한국] 부산창경 추천기업 ‘팁스 100% 합격’…AI·K컬처 스타트업 16억 확보 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE00TF9jVGk0T3Q1ZFU5ZC1HSWh2SGNMTEJYNFg5cGtvN1RVcl9SQ1BKZFVBTlZWSjJwZ3hxdGRna3M2RDhQUi0zNUFSUGxJc3draVHSAVNBVV95cUxQVmV6TnN3cEx4R1U4Q1dqaHdDMWgwY2djNVZaSEdGeU9WSTc3LWlpMU50SkhhMXZsZTdPdk9SRTFfN01DYWtEVW53NzNGVUxmZzhOWQ?oc=5)
+- **[한국] 빅뱅엔젤스 포트폴리오사 '지엠엑스' 중기부 팁스 선정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNR3RfNmRrSDJlUDVFVExxQk1jalF6c0lDQjZWRjhYVW83YXdTSUZrR2FQVE9tWnhMN25qOXFXR1VFeDBEWEhFOVhZWGlBeGM?oc=5)
+- **[한국] 더선한, 팁스(TIPS) 선정… '에이전틱 세일즈 AI'로 B2B 영업 혁신 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE83Z1l1dU1HRkdCQUp4OFpNSktJXy1kdjIyeHhCdFVTTlJuYjJ4OWFnd2lXMnhEN2VSVFdpcjNXZUg0NndQLUNZZEFnMmw3QQ?oc=5)
+- **[한국] 우주영역인식 AI 광학모듈 만든다…스텝랩, '스케일업 팁스' 선정 - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1IeUJLa29LUjU1dm84T00yRzZyd2pJQ1pwOEdrVU41NkhfcjduQndRM1RBV0VDNHlBeGZ1RjZDVUZ4UDdJaTZmbXJSM2cyQjNyd01fTmdQeUZ0bW1kWjhtZWw0UnIydFktR2fSAW9BVV95cUxNNk41a2MzalJBWUhJMm9vbGkzc3BlcjJuejA1THFvY2dTbjdtQUpOX2FwOVNuYXhSX0V2dXJwVXFJb1BCWnVuTk5zcWNhcTZ2dHM0TFB1ZDlRTEYtdTM1blJQal8xUndMRFJfQ0w5X2s?oc=5)
+- **[한국] 휴램프로, 중기부 'TIPS 딥테크트랙' 선정…노동법 AI 플랫폼 개발 착수 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4aHMxVFVXZkFLYXI5bnBGa3pWTExzckszR0ZOWGRpbWVteWxwVU5OMEhuVXpMZEhySHVOVmdhUzgxN0JhSWVJbFZUQWt3QQ?oc=5)
+- **[한국] 엑심플로우, 중기부 TIPS 선정 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtWTRnNGFEWG1Qcl9ueTAtbnRZN3NMdHd2MkpsNnluV3hzY2htYWlORW9qYXdlVHA0OEpLVVUwTHdXdEtGSXlZc0t6QVpCamxDdC0yaFFnTHJmQ2Yt?oc=5)
+- **[한국] 빅뱅엔젤스 포트폴리오 ‘스튜디오에임’, 중기부 팁스(TIPS) 선정… 글로벌 AI 마케팅 시장 공략 가속화 - 핀테크경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wWlNpZ1h6NFJlSTVxY0FvT1h3RG4zNHhGTHlrM3VLZUdyelRxWjdndm1DdWdVMGNjZmZIN2tnYV9tWDdqc25iekFlTEFycTNJUGs2a2k3VENQWlhTZDdnX3lOS1AycU9J?oc=5)
+- **[한국] 리뉴어스랩, 중기벤처부 TIPS 선정 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE44X1pzMVVyMFBac0Fwa3psSFFlN0ZSUV93SXo1enBvdVNGcDZWX1AtTmlCTnU3SS1CU2JtWGRGLVR6Ml9PMk1VdmtoaTVTVml0ZmVmS0tB?oc=5)
+- **[미국] 트립닥터, 중기부 TIPS 선정 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IMzhXRU9BSml4ZGR1TnhZakRHTU83Z0N5SUpmd2JGVWpwdEZTa1JuWWRuSUxkcWF6QUVHcDBReUNhWGJHcGxsblpfZl9PZWhkUWl5VXhrN0tmeVVf?oc=5)
+- **[미국] 브레인치즈, 중기부 ‘팁스(TIPS)’ 최종 선정…온디바이스 AI 영상관제 고도화 속도 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mUTZHeFR2MnFlcWJuV0tRcjNFenNDelgxcFNNVjg3QmJWREx1WXRDemxBS01LYjE0T204dUtza3RMZmFnSEMxUS1PS2RJYUFhc3M3Tg?oc=5)
+- **[한국] ‘BBB 일시 개방’ 뉴머스, 중기부 스케일업 팁스 "선정" - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBZT2V0SnlvaGlTQ3ZCOFdReGNjUk5wbDl4VXZHa3ZlS2lwcWZtU2g2NDFKSGlMZnMwRHhVU19xcXRfUm5pRDhRa3hldEdfRmpUN0ZuNGMzTQ?oc=5)
+- **[한국] 제이인츠바이오, 중기부 ‘스케일업 팁스’ 선정…AI 신약 개발 고도화 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE83cGZkOUczRm1xSVVKQkQyblpwSGZYRUo4Zl96elRWMzJ6RXhNelNGRjQ3eUJYZUNDbjQybVYxR2FmVXNLY1dmeS1RNHh1TjQ3WHhFR2NHaU9oNkg1bk5pRUxrOTRieEJsblVvaGZOVdIBZkFVX3lxTE9fVFRTQXlHdkV2ZEVscXl4SEhKRWlPMUc3QXpzRnlUUklnZFJXc0w4T0x5ZkxKSGdoMDZxeDczQl9pUGlXNjUxenM1QllaMmpTYlNrdjQ0cVUzT2ZZWmpsRElMTHZvZw?oc=5)
+- **[한국] 중기부 딥테크 팁스(TIPS) 선정된 아트라미, AI 유통 혁신으로 글로벌 정조준…'독점 자산화' 가속 - globalepic.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTFBheFB3bmxZbDZmWjVXeVotN2VxbnVNTEFIUlR2MHcyLTloU21Za25HSndUVmdHbWJmOVFmVWM4ZXdJTmlyd1NoWVFsV0xLY2hDdnNtRDdkVFFVcmxuc0p5UThldEp2cmFDMzNzbl96SVFDX0RKRnp1TU1KQUY?oc=5)
+- **[한국] 트리오어, 스케일업 팁스 선정…차세대 ADC 플랫폼 개발 속도 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE03MU5BblpBcGZsakctUWNEdmU2U2RzekVmcV9GOG5yY3FJMGxtbDdNWU83VUVFX2d5NkhoRUNhZG8zSFFWSXZISjVETkdqaERYc3ozcg?oc=5)
+- **[한국] 전주대 창업기업 더블유엠어시, 중기부 팁스 선정 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RdUpWdUJObXVaamd4X2tkc1NLX3Fva2FrazdVZlpuRHo2LWJrUWtwOVI1b2Z4M3Bqc2pGekFXaHNIRExsazgwY0oxQnlqN0FtanBN?oc=5)
+- **[한국] [대한민국 명품 SaaS]〈4〉웹케시그룹, B2B SaaS 전문기업 도약 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaVVVhdFFhMHh4bWtJLUJfcFc3QkZLVmZFVGRLLVZaSnpnYXIyTzB3MUt3RlRFOGRqaXJDLW9qWHZndm1RNEdENmxXc1lZUQ?oc=5)
+- **[미국] 힘 받는 야놀자 B2B SaaS 사업, 글로벌 비즈니스로 큰다 - 디지털투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkZzdTRiZXJnd0lZZ0lwNTRWMmFpMGNfRE42dkZxNVdUXzE3US1lTVN4eTk3SUpnUmpuQXdMbHNweHI0enVVd01vX2RISFpWVG1jRV9qZU55dHQ3ckFjLXY4VnNaZW8zbV91ckR0X0VKMjg?oc=5)
+- **[한국] 대형 IT서비스에 클라우드 MSP까지...B2B SaaS 파상공세 - 디지털투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE5ROWJQODhuc2o5UFFVN012UDhMc1FrWXp4aFBpRm9zV2JzelVJSWs0dGFWVlJjTC0ta1dPaFhlaUJ6SVNIRjRuampXb25sYUZ2UHVyYUZ2MnA2X25OcEpVdUp4dkVzTlNlempjakFXaVp5RVE?oc=5)
+- **[한국] B2B SaaS 스타트업 5개사, 메타버스로 세일즈 네트워킹 행사 개최 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TbEhxWF81ZUJCT3dITnA5dWZLaDhsTF94Ync1b3NUbXlhNVpQMUhMSll5dXV4NC0zeDdFdXlVV0tzWTBDWEpMdjNJV2lYdw?oc=5)
+- **[한국] 패션 B2B SaaS 플랫폼 ‘셀업’, 2021년 거래액 총 2천 6백억 돌파 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aODBEMWg2ZEtWMExjcXZyaDVNbnBjamFmNW50bDdzcnZNZXRoNG1rbVZ2VWVZOWU2UXl0RzlCWkl3Vlg0UGdWUQ?oc=5)
+- **[한국] B2B SaaS 플레이북 변화에 대처하는 자세 - 브런치**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE91Wl9qY3VVWFRjSVFYYmtOdnhrbGcyaG01eWYtLXNhb0QyR0xZZ2g5Y1RJZzBzQ2w3NmpYczF5QUNDXzNTRmJ2ZnlETS1wTEY1?oc=5)
+- **[미국] [100세 과학] 70세 피부를 30세로 회춘, 美 바이오 기업 개발 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxQQW1FNzllbmtIYnMxZ291SUlMNmw4SnM1dVRYLVZUWTVPZ3ZGdGduSWxoOTJKR1d2MTdYWExCRkh2R21rTkxfSHB1dDVwS05iR0VFdWtSLWhtT2psMVBnb2FIVWI4X1hZUTc1V2RXSERVaUtiOUhCOEpxenVQQjM0ZkdhcTVOd05PWWxvOGFBZXNSdGF4aVpZ0gGrAUFVX3lxTFBOQlQwSGt3bThuLVRwcERSNlBXMVlfX1dZZjdyMEdMTVhQWUg3V0NWOGZJOUdwUF9LWU1HakdudHRCbkdtY3I0WGpMR3hEZUNxLUZDTVhrR1l5eTJJVmEyNURLNEFQd1B0REhHS0s4UGVkM1d2OU01Sm1VaFE0MTJGMzdYX1pyTDBCSzJYeGE3VlNRVTJMRnhhaU9Da3RzRm1Db2dobks4T2JYaw?oc=5)
+- **[한국] 엘앤케이바이오, ‘팩투스’로 美 최상위 병원 공략 계속 - 팜이데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1xYXhTUXl6OHZQTlRTcEVIZ1JWREtvU1dMVHVMTzFyeHN1TV9xRlJSWHRpdzhmLXFVVzRaWGdGVEJkZFJqTFVVcDI0MU9GeU5qRTk3VlRyQU10S013MTN5bFVBNXZxZEhzR1dzUEln?oc=5)
+- **[한국] 제약·바이오 기업들 AI 도입 확산…"전문인력 양성 필요" - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1acTBjOG9xaUZJb251WjZjMEk1ZFFTS3JLUnUyTlJRQ0RCdzlrallOelVpYUFBWkhiOFVwbVY5bHV2NC1nWS1OM1kwbzFwcS1FdDBzUkJCVE03QlpXM0N5aA?oc=5)
+- **[한국] 뉴로크린 바이오사이언시스 Q2 실적, 수익 예상치를 넘어 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jaG9qRnBLeVNlaFl2MW9OWUJueDVpRTc5NUhjSTBKOWoyMjJjQTR5UlliX21KNzlTQXpWUWUzd3Y0eTlNbUVpc2gxcGlvb09fbnROZUp5TkM3eHNTMlB0NUZ6STU?oc=5)
+- **[한국] 경유값 상승에 영향줬나…바이오연료 9.7조 담합 적발 [Pick코노미] - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oUDQxRTJuRlo1X29mR3BoekxPWGNsUWVCaEhfNkN4YU1RNDZWNHY1QjdwQXlNcWN2YklvaWNtSlpfM2tNV3FGcGdLYnNjSjBDVGfSAVNBVV95cUxQcTczTTVTYWdPYUVRWFpFSzFwN3lTUmJwdkh5STFGb2kzRXl6U3gzMjJjV0NUQ1NLd3hTV3g4Q1hFLW5mNHN1YUItWjU5M3E4a2Z3NA?oc=5)
+- **[한국] K바이오, 1조원 메가펀드 윤곽…신약개발 ‘돈맥’ 뚫는다 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DVDJJc3c3MUpUUTdzSTBUV2ppc2xRMlRDS29RUkRFV01iYkR1SEFZQ0xhQmwzY0FBd2hRdlMxQkluTktpWk5WT2VSRldYU05tay1fWg?oc=5)
+- **[미국] 리가켐바이오 항체약물접합체 기술 적용한 익수다 ‘IKS04’, 미국 임상 1상 진입 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oVkRUZDN3RVl1aUZweUZYZXFYZUpzb1piQVJxdVNDdkd6bXlDTm1VVU52ZXlPMGY5Xy1SQmF2aWF4aUU2UmFQTzJWWHA4b2dwZVJMNkhrNk14QQ?oc=5)
+- **[한국] 무릎 관절염 통증엔 프리바이오틱스 먹어라?…“물리치료 수준 효과” - 하이닥**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBkb2xOcnhaMm1jOVZ0d05rb2U1OVh2SkszeDRLRm1zM0FZMmEtSkJ3UGF2UTQwUldtX0FXQzlHVXBGZ1lqTGpNYjdXT1QxeFEyakV3Q3ZPLWdZOG0wTjFjelREMmtvSWo4NWc?oc=5)
+- **[한국] '상반기 1.1조 영업익'에 웃지 못하는 삼성바이오로직스…3Q 파업 '쓰나미’ - 더구루**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFB4eXBvNXpLR2NGRjZuQnA1NThZbEhZX1NmNDBINzRCaWl5alJfN0x5TG9ZNG9oelJpMDZjcUdGNF9aVnAtQ001OGI3Q0NwMHotMWJUVU5kLU5PbUdmT3IzS1dFMA?oc=5)
+- **[한국] 'CDMO'… "삼성바이오도 펩타이드 진출, 생산 유연성이 경쟁력" - 히트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBlOHVWVTNranRtcjdXRG9pZnFnVkU1WlVPQzd0bTRaUmRtZWxMbDlQZXRjc3l5SHNjdWFldGtTMTVibklIOE1JTU1VZTZfUkhFUkJtOHQ0cmtHRVpwaUN0N1FqekJITjVaMmpj?oc=5)
+- **[한국] 제약·바이오 공시 개편 "전 제품 개발중단·기술이전 등 공개해야" - 메디칼업저버**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1VaTk2UDBQRkJBaXlUWmlOM3d3VWVhb2hDYUE4MTVGRnVxMDFRYlpHWjgzdEhPRE5tajdtd1dYRk5sdllkS0EyZDl1TDVmYktWRkIwZGVjN1VuZmhUZXpTTmU2VlRMeGhua3Y4?oc=5)
+- **[한국] [바이오스냅] 동아제약, 에너지샷 '박카스 O' 출시 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YMG54NGxwVVhfV1cwNkVWQlc1UUlQWVZDYS1jTmpRRW9ycUdySWx5ajZtdUVGd0V2cjk3VnpVT2EzSEVSNVR0Z3htTTZESWl4NHBOOG1RdmkweW5OYzh3ctIBYEFVX3lxTE1YMG54NGxwVVhfV1cwNkVWQlc1UUlQWVZDYS1jTmpRRW9ycUdySWx5ajZtdUVGd0V2cjk3VnpVT2EzSEVSNVR0Z3htTTZESWl4NHBOOG1RdmkweW5OYzh3cg?oc=5)
+- **[한국] 국내 제약바이오업계, AI 도입 속도 높인다 - 병원신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFB0clF1YUxKWVhGT3g1eHFjMkY4WnlsRmpqc3NqRTdpbmF0U3BVZjc1VVBjTVJYOVVDQzc4Zlo3RVNCckdaOTU2V0wyZFBvbmItcHZ2b2VNZkhQOUFvcGFrbDMtQS1CS2tqemc?oc=5)
+- **[한국] 종근당바이오 제조, '보툴리눔 톡신' 우울증 "美1상 승인" - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1nTUczOU03VGZNdU84LXc3bzBSM3FXMGloRkhwa3JwRzl2cTJVM1JCMFBkZWVmZC1VOHlYTlhWTDc5M0U3bGhkMVpUX2pjejdGYXhyd0cwWQ?oc=5)
+- **[한국] 'R&D 성과 숫자로 공개'…제약바이오 공시 전면 개편 - 데일리팜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wT242b0UxYnBaaFZySVFlblpJaVpuYlY5clFPamhJbEFvZENGemJuT2dvdTZvUmRnUE9hZURWd1lybHZVSVhNLXJyak83YU5lX3V4X0hn?oc=5)
+- **[한국] “임상 3상만 되면”…꿈만 앞세우는 바이오, 이제 ‘숫자’ 공개 의무화 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5scEdZb2FLa2wxVkN1dENGMWlQN2ZfSm1zcUVJVUNNZVhiaGtjTlBUb29SZFp2S0wzdmljdklrRDNLQXV0Q3NqdmFzV1ZnYldQRVE?oc=5)
+- **[한국] 리가켐바이오, 파트너사 익수다 ‘IKS04’ 美 FDA IND 승인 - 한국의약통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFB6TGhITGt1SURac3JSLXFLYUMzOVN2Rk9HN0I5M3FXOFZTQnloZ2Y0aUNWZWJvWlZYQVpYR2E5NnJSdkRha2RFZm02VWMwSWtuN1AySnpESXU0MURQVTNvZWU4Rm5IbXd5Sl9J?oc=5)
+- **[미국] 美 상원, 바이오제〮약 분야 ‘특허 남용 방지법’ 통과… 소송 가능 특허, 최대 20개로 제한 - IPDaily**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi3AJBVV95cUxQRVdOQldnNzBYRExjSWowRk9TTkNjR3BJNnZ4ZjlHcUxPSU1GRnhjSm84N3JTbFRadUx0Y0JOdTZqOGxMb1k3bFZWX2hGV1o3WXhXaUtvMFlUUl9QQ2lQYUd2aURoV3VVXzNTWTczR002Yzk2cUF2NkdNdVhiVUNJdlducHNsU29PczhZX1ZnTnV5dTlRQjRnZWVJdjhsRGVpdzdNNUs2U1A0Mmo2TjZJU21OcjJTemFRX0NmWXBja0d6NG1YNjlyUnNXOFZLTmNDYkl3aGUwY3JOdEgzOUd6MTVPWEFsOFpGanBPQ2hzSGtPMG5jSVZYWlVRZVJHdm5oV1JlR0ppQzhLY1ItYkxpcmZsb3pHZXJqS0w5WVFQZWhPWWh0VGM2MldRckVzT01OMi02ZUdlLU0ybndnUWktMkJIYmlidUYwdUFhNUkwSy1vVkl4YUxLRWhFU3Y?oc=5)
+- **[한국] 리가켐바이오 기술 적용 ADC, 세 번째 美 임상 승인 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxOd0ExcjU2NFJYR3dMZmFBTEJCek5UYXRqYnFLa3NVbzRNYU5sMURsY3NJakVPQldiTHBJWGxGb1BGQ0tBTi1JVXVoNFhzYkcwSlZ0VFRRdEJ6UUM3RmVTaWV1d3N4bzgwQ0ZJOEVvRXdaTkJNU1NyeWJWYkV5ZTVFaHhiRTQtYU3SAZsBQVVfeXFMTV85cE5jdUd5UnBhSFoyZ1VBU3ctNDc4X2RvVnI1N3kzTFpFYWd0c0dPS1lEdnhkX0NQb3JMLUFLcVBLX1M4aVJ2ek81OHZhTWIwUE5VS2lORWdLYXROd1FKQmhzaVNTLVNGX3VvUk1RcXZ0WWR5QkZwZXVXWFlXVVZ4N0N6NlRSaVVqcGY3OXFOMkVjeUJXU1ZGQzA?oc=5)
+- **[한국] 연구실 밖 승부 가른다…제약·바이오 ‘귀한 몸’ RA·BD - 팜이데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBEdk9fSXpCblhocWVJcHA4OXBVRmNoeldmVEFPVnFSMkpsekRTZXAtczZ1bk1KcndqQ0tfeF90RHZTQU9wZTFRelNsOVBlUGZHZ01qLVpjT0tOSEE1aHpzdk9LWVVJZjI1WENFZ0ZB?oc=5)
+- **[한국] 셀트리온 “이탈리아 바이오시밀러 공급 확대” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1phT1l4cklmMjFmN05MLUpjVjgwTWEzS0oxeE5NbnBWMW1TZHFxbG9jTzBTd2pqN0dCVUxlQ2g0OWNlOTdzVzlQdE9hQ3NwN204Z1NwTHMtZm9pUUVjem9KaTZPd0ExeGdlOU1meEt1enJrQXF4ZzdiLWtNYnl3SmQ2UnFpaDjSAZsBQVVfeXFMT01OdDRZX0RfeUJrc193VDBDVHVFMERxczREQlMzakp3dmtIM19sT3RHN0dybWRTR1BKaDdtOHc4cElmRlFHSUIzbDI5UzNVTWdMdUZ3YjFnS2JMNVVvY2sxYjluN2RXN2FqbmNmRkJGeWJWSWpodWtGVk9wSGFvcUhUbFZ1eF82cjIyRmZNci1qcVpVQk8yT3hSdUU?oc=5)
+- **[미국] 박셀바이오 배우균 의학본부장 '젊은 연구자상' 수상 - 히트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBmZTR3ZkkyOEYxV1NISklJbzlES3FfZEVXNE9lR0RFTmtZdDFSZW5IakJzdjEwWXhrMGNpWmZPM2otVktwZ3M4anZ3dDN4bHBqQTZLcGR1REN2QVgxeUs4cWhieTdHTjdia1lR?oc=5)
+- **[한국] 클라리스, 시리즈B 1.18억弗.."HGF 점안제 임상개발" - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IcU1lcVRYN0lOTVlkUlg4X0lGR2ZiajZFLTVxY0tYb0V6Nzd4ZExDU3lTdTF1WWotSGlOQ3hFd0h2MXBsVVAwWnNfRkp2c05IZXBPc0xVbw?oc=5)
+- **[한국] 인천대 'K-Bio BootCamp@Incheon' 개강… 바이오 인재양성 허브 시동 - 베리타스알파**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE13Vi1SbmtZM1BzalE1LTU2eWFtc2ptTnJ2emF1M0R6b2xQRzBXTDVybFVoNF8xX1BJblphYV9oQWpHQmd0d0dDY0xidTgyMmZrUThXSW5JNFR2YWtwUkhsWHdJcUJLUlBlSXJCdg?oc=5)
+- **[한국] 늘어나는 관심 "첨단바이오의약품 법안 줄잇는다" - 약사공론**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1FX2VSRFZsV3JJaVZQN1NucTZEYWg5bmRFc3FodVdOWDRabUNXUWFaZ21TRHBoQUVfM1dxWUg2c3V2V1NYOG5iUWVQdnk5S3YxOVVPY0lhMlhXZ3BCZTVmbkw5OEFTMkkzaUJ3ZA?oc=5)
+- **[한국] 기후부, 바이오·헬스 업계와 맞손… 지속가능성 공시 대응 체계 구축 본격화 - 기후에너지경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE85blk0b3VzN2tWMWl6SUNHZDl0STVrcTlXX1Rtd3JaWm45V3E4LVhVd1g2bkpXTkRVaXA5VVFkYkY4R0FBTjJRNXI5TzhUemFZNzJOT1RKQzJLd09WeWVaY2lwRWI?oc=5)
+- **[한국] [정책브리핑] 기후부, 바이오·헬스업종 지속가능성 공시 대응 간담회 - ESG경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1DbzNUZTctYk9YbzJjY19IakdsamdrYWJSdk1SeEVFZ2ZKdElIY0V6Q3gwRjViSmlHUC15SkpPSEtfNzJjdkJUdm9ubGhuRkdtMjBTbV9TaktnMXBseHl4ZzFJU3A1X2gwOXZ4ag?oc=5)
+- **[한국] 종근당바이오 “보툴리눔 톡신, 美 우울증 시장 도전” - 데일리메디**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9kYjhhbkpMbUwwUk5yeG5oclNfSE1Eb003c2NyLTVyQmpaOUpkSS1KNkVzMG91aEJsRi1FQ1JTZUtlUG5YcjRvZXRHYVpjWEtsYzRfY1I4WW1hOTdIY0ZJa2t2VG5DTDBQbTRvaE4xa3JzTF9m?oc=5)
+- **[한국] 버텍스, 앱셀레라와 ‘자가면역 다중타깃 TCE’ 개발 딜 - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE95S2NzU2R0RGdSVXdZbU5KRVh0NEFKN0s5NkFfS3Y0Y2d3bkJ1X0Uzcjk1akJ0RG1LY0dQM2pMVEpFUDBVWm94M1FteERXLUtmMWZtX2dFVQ?oc=5)
+- **[한국] 인천창조경제혁신센터, 바이오 창업기업 R&D 돕는다...연세대 연구장비 현장투어 진행 - 미디어인천신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5HWU53SFhJYWtERzB3M1pqV3Zud0hwZjJrNW15NEVSTUp6YTBQY2lwb3VCSEdSaVZLc1BDYVhGb1M0N25CdXFSMjZRR0c4WXpUX1FIUnhwVFREUUoyZmhNWGQycDRYdnFJVlE?oc=5)
+- **[한국] 금감원, 제약·바이오 공시 전면 개편…"숫자로 말해야" - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzUUZySGRqTVRIVXdna1BUV1BhWWFBclFIdE81VnU2cUJ3anJlNC1LRlRSZGUzVjhfeXR0YUpjbWZjRUdMX1dSaGVQQ2lYWTM3c2p2b1NzUWZnRU9GMGMyMms1N2w?oc=5)
+- **[미국] 리가켐바이오, 기술 적용 위장관암 ADC 美 임상 승인 - 아시아투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBFLXBuSkIxZEZrZVpqMUtIR2FOLWZXbjF6aFRET0VET2p4UDNRX3JqVkZkejlGaDFBcU11SFpkT0sxNF9ycGpFcUZmN25qUjNfeFdPM1UxanozZlVaajFtbUdmLVM4SkNYMlRnYS13?oc=5)
+- **[한국] [바이오人큐베이터] 딕스젠 이진우 대표, 25년 째 현장진단에 집중..."기술이 아니라 문제를 개발한다" - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9XWGQtMmxvWEZScUFXWURBREJDZU5nOUVib0N1bWo5N1c5eFdsZkE0X3czakd6dHZZWnAzLU85ZURmaUlQOEFEWGdTbk5lWjAtZnlmUUpvMlZrcW9qTTJOMW9UTmdoVHV6SmFURw?oc=5)
+- **[미국] 유통사 떼고 미국 직판…제약바이오, 수익구조 바꾼다 - 매경헬스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBabmZvRFNkb1BlbjJ5Y0x6TVZiWGJqZ0dUeGxxVUs4Q2dMR2ttdllaTF9US1lkTVZ3dUpfS0wxT0lIc3ZNbk5KdTlMWENXYnRkVV9HS2l1UDJsSXNFWnZja0Q4bFY5cTdZQW9TMA?oc=5)
+- **[미국] K-제약바이오, AI 신약개발 도입 열기... But 전문인력 부재 '걸림돌' - 팜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE82ckNHVDZLZHpiVDRLcWl3azh2dzlWZ3RxY0F4aE91ZjB1SUsxY1I4OWxTQVllS01oaXlaSjBMSkdjTy0wRlB0WGFIR2Q1OS02cktfVzd6b2FqQzNPNEdPbVdyZVM3cUhUd3d1VQ?oc=5)
+- **[한국] [K산업, 미래설계자들]'약한 친환경 플라스틱' 선입견 깼다…화이트바이오 집념의 17년 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jM0tfN2VFX2JpZGxMLWU1ZERYeXU1a2hxaXlTay1QOENYOENxUjhqUzcyNkYzYlhieHNKbjJCQWV2anBGNHdpTjZibnNZMmc?oc=5)
+- **[한국] 신테카바이오, 75억원 규모 ‘2026 한국형 ARPA-H 프로젝트’ 참여 - 팜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBsQ1pjQ3JfWWs2X1NicGU2TmM0YWl2UFZMb2wzVlZpRjV1SzFpMEhoV1luWlgwS1hQUDFCT3BKWXlsZ0lLQnFVcXptR1JUZUExNEdMTVpmYjE1dWdyZzIta2tRRHJQbzlGRHlvOQ?oc=5)
+- **[한국] [더벨]신테카바이오, 75억 '한국형 APPA-H 프로젝트' 참여 - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jVmV1UUZYdzB4X3NBUUdRdWJMNjdyMGRzYnNxN0hqcXZVdzVpbDNsazZ2cG1xV09mOXplSnlWLTRaTmlCN2x0TGVqSmd2N1ZPM18wRE5uR2g3clFLYlBSNmJZYTJzQVhJ0gFuQVVfeXFMUEZCNWVRTC1wbHdQNEF4UkRCTVB4Mm9janRCUktSak9iTlpoSUxWakFyX3VsREMtM01uNW05bnRJNTZBaVV2b25qS3JpTm9qb0lJOGpXUWJjbmk2eVRJMTRkcW5HbU9mTE9oV3lkcFE?oc=5)
+- **[한국] 알에프바이오, ‘비엣뷰티&코스모보떼 베트남 2026’ 참가 - bosa.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9vd2hhblhBRDAxUTRraS04MUNaTk5TSG8xR284UUp2TWJrRDU4RGpQVzladWdTc1FaV19qSkl1LU9uQzhlckR2a3FTWmtMbFBRelMxMUNSMkdOOXVWZ0hRbm1LU241RHYwY1E?oc=5)
+- **[한국] 시흥산업진흥원, 제조기업 바이오 진출 지원 위한 경진대회 참가 모집 - 신아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5PTnFmTUVvM3dGNWdvOU1FWFhaMEQxS0NBZ280dVhDRl9namtmSTNiNVgtaFpYSG94V1ZKTzdXeHAyREtrWWtkSUxhbVJCc20wQVM5MDc1RS1RUm5OTERib3JiX0JTUGtqSTZ2UGh3bE8?oc=5)
+- **[미국] 엘앤케이바이오메드 ‘팩투스’, 미국 메이요클리닉 수술에 첫 적용 - bosa.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1IY1RLWXZTZUk2a2xiR2s5SjZHZk5oTlU0a0FnYWFlUFQtanFyN3dvSzBJcTJzci16SmJENk5UbjRnMGdJRG5OTTc4YXdFbXRGd3BYc0ZvTHBLbnBXSkZYNEV4Wnc3UWxuRGc?oc=5)
+- **[한국] 유니온바이오메트릭스, 합천축협과 체온 마이크로칩 기반 대동물 사업 본격화 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1pQXNxcGtDVkNaYUZUeTI2RW1WTWpRcmNUM0tFVXlXV0hxcHQ2b25XVDBWRkpwN0xPNzhPQ05CeDB4MnA2cDhza25lQjN3VUVjWnRoWkhWU2dqRzdS?oc=5)
+- **[한국] 리가켐바이오 플랫폼 적용 ‘IKS04’, 美 임상 1상 승인 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpeUFKaDVTYW1jR24zVUtNT2o2QzRvMllWU2RwcmtHZ0M1UlBfQnR3U3QycklXaXA4Yk85VkJLb2lMZGlGOE81WlBtQkVQcWVfMjB1TnNFV2lhMTFyTG84V0pjaFk?oc=5)
+- **[한국] 엘앤케이바이오메드 ‘팩투스’, 美 메이요 클리닉 흉벽기형 수술에 적용 - 팜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBkenF4MXdhZE9ySk1ZMjdrNlhQamFQbzFBRTR4Tm9CQ3NEaFVORzA4cGw3SWJNU3Q5VGdPajF1Rk14b25WQzJnbzBILUxWMTJHQ2p5R3kybEZqdk0zWUpoUVAxR21JQVUxaFRJNg?oc=5)
+- **[한국] 휴온스엔 "프로·포스트바이오틱스 체지방 감소 효능 확인" - 아시아경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ZXUwRVA0dzBjMXN0T1lZVTZBV29LQ0MxS3htQUdNdVZQclBHZmxDSF9oZmxfRVdQLTVoQzdhbF9QUFREcUJzeFhqcUhxbFB6Z21QT0VjVmJXbTBzeTB4bQ?oc=5)
+- **[한국] [특징주] 삼성바이오로직스 빼고 다 올랐다…시총 상위주 프리마켓 강세 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUaUFGdUVDdGFMTGNoLXlXUVM5QlEzTzhESURaSU94QWdaQlBnYjJOUUx5WGxHN0xscTY2cllsM2xTeG5QMDdhRmYzUnpBYkt5U1VxUGRaVGNieUpO?oc=5)
+- **[한국] 임병택 시흥시장, AI·바이오 중심 미래 100만 도시 시동 - 필드뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBwdGxtc1N5aXI0cmlha005dU1pbVB5TzhKWUZUUDhvS0ZlendvZUZ2S3A3SjZoc0dmdzlYQmx1QnRmZFd0Wk9QOUNkMUlfSndTOFlMalMtN1hmalA2QnBkSFRPMnBsamJ2bnfSAWxBVV95cUxQRVIyN0JoZ19PaUNLNWtYOXBFeHZacF9fcDZtWThhNnlLcFRUcUdzTXhPOExmdGVreFBZZlpJaDZjSUo1cVdXQmhZbUN6MWViVDd4R2t5Xzd6cVVxVE5xcnozcWl5cXQ0Z1FSNTA?oc=5)
+- **[한국] 인천대 ANCHOR사업단, 전국 바이오 인재 양성 허브 도약 - kgdm.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE42aHlSNzRyYmo0MmZUMkcwMHNKZEpOTnQ4OFVhMjNGNGdHTHVWRmFxdW5HSWJWZDBFVWJiNXItanRFUTVhX1UyQzU3eGxVVUNtUmN0QTFhZnM3dzFVWHU5ZFJvVzY5eEZ3Ync?oc=5)
+- **[한국] 바이오·헬스 ‘스코프 3’ 산정 체계 만든다 - 환경일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wYVZ4ZWRUNlVvaFFoYUV3NmhUQ3pyQXJLT3J5TjEzeFd6eW9YT3NKWW1tOUFTdXNabklXWGtCR3c5MEdGdnhPS3l6TV90SkpQX2RpN1pQdUtweHBrcENqUUt5T0ViUVJZ?oc=5)
+- **[한국] 삼성물산 상사부문 일본 전력회사와 바이오매스 사업 협력, 발전소에 연료 공급 추진 - 비즈니스포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE84Vklsd3RrdnVRMlEzNU1SU0VlQ2hhcEp5U2xseE1NaVhyVWlEOFNNNlI3cnkyOU9mQVM2WmUtZWp5TnljU2RrbmlieHJPbHhJUTFSQzZwel9jUmRHdWQ4X1dxWk5tQzdxSzZHRzA3bWFfOGc?oc=5)
+- **[한국] [경기] 방치되던 팥배나무의 반전, 탈모 잡는 천연 바이오 소재로 탄생 - 월간친환경**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBXclJYeUJESmRVUTg3TGh1c09jWUFFODlpY09kb19MeG5aNUU2RWFqVk03Wkhac0dOZld0dWxseFd6eVBIQ0owTW1KLXRlUDM5WlZRenB0Q3AzblEtYTlmLTBvbXVmbGRaTkx2QlBiekJfQQ?oc=5)
+- **[한국] 삼천당제약 사태가 쏘아 올린 제약·바이오 공시 개편 … '옥석 가리기' 본격화되나 - 뉴데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE9CMmppZzRwb0M3bDZXQ0NVek8xaC1rRkFTdHVLSjlJTks2NXhNZ1I2bDMybmh5M3dzTmlXUzl6NmI2d2RQZ2xpaVN2OXhxQ2xDRHY2RldTc3VBdEItcjBMNm9YamgwR3RPbGtWOWM2b2hyLW1wVVVwbm0wa9IBgAFBVV95cUxORFNQMDQ2WTRfRFRzem83YWRxbHB5Ni15NDZrY1ZQS1ltbTZwNXRYS3lWYkx0Y2hNeFZXNHI0MHdMTTBZTV9ZYUZwaEhMR183ZFdxQ1VCa2pWWF9FUWRSMjltTG1VRmotNDNRV0Y5X253eHA5QkR0V1BIR0FLS3VScA?oc=5)
+- **[한국] 인천대, 'K-Bio BootCamp@Incheon' 개강… 바이오 인재양성 허브 시동 - 한국미디어뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oTU1rYmxieGkyQkRVdjBITUE5NFc5d3NkVW1tZlFKV05ubWRwWTNxQXZJbk5YRXlmQ0taMzhZWDdnSkNEN1NZMzJCM09XOEtwVGNBM2UxQUltUm5IRVI5Mm1PdFcwZw?oc=5)
+- **[한국] 기후부, 바이오·헬스업계와 지속가능성 공시 대응 논의 - 전기신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE84ek9CaHJJcmc0RGpVcFhQa3VFOVBBUXVzVGtpdFFmSG04YThhajJyN0VwRTVOeWUtTE9DUXpvTU5EY3ZBSFdLMEdEeU9telM5LWdpR01xSXRWazJJekY1VEV6Y0E3V2QyejRYZld1SEXSAXBBVV95cUxPOHpPQmhySXJnNERqVXBYUGt1RTlQQVF1c1RraXRRZkhtOGE4YWoycjdFcEU1TnllLUxPQ1F6b01ORGN2QUhXSzBHRHlPbXpTOS1naUdNcUl0VmsySXpGNVRFemNBN1dkMno0WGZXdUhF?oc=5)
+- **[한국] 사흘 연속 하락 코스피 전망 낙관·비관론 교차…제약·바이오 공시 강화 코스닥 구원할까 [한강로 경제브리핑] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yV0pXUHNibzJVZTRYc1dRQURRblA1SkxmWi1jOV9DUjJpODcwSEdtLTZJNkNodGJKNV9WOUhlMkRXTXd1NHVWeDlPcHpfTE0?oc=5)
+- **[한국] 리가켐바이오 기술 적용 ADC, 美 FDA IND 승인 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE0ybnpzanFQanJOYnI1OGUyOHlJUXJyRl92OE9MYzRGSEQxNUNTQ0xHRElaTDhqa3poTWVieDhWNDA2am53OXJhRXMzdFkzWjlvT1RDNG14enJFYmdyb2JwMg?oc=5)
+- **[한국] 대한항공, 공항 출국 3가지 팁과 공항공사 바이오패스 이벤트 - 교통뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE8zSzdNdHhqcTBDcDhHcVY4cW00UHdRYWlFaUh5Vk1SQjExbV8wMFcydFdoSUcwSjdjY19za001c2JOSGJVaUlxV2xMYnVwcElCMUxHZGJPTktLTllDNVBIeXM4SkVxRWRNc1Rheg?oc=5)
+- **[한국] [굿모닝! 31일 제약바이오 소식] 셀트리온·동아제약·JW중외제약·종근당 - 굿모닝경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9UUkxlRmlkd3M0OVpvRWJfVF9XYnVGem5VODdjQ3ppREpaUUdaZmlZYkF5T1pGem1jT29kSjVOaUtVclpSUmdxcnhYc1kyTVJOUkRlUjJGdVFXSlhzdk1fQURDM3kyX0p2VGdvYg?oc=5)
+- **[한국] 제약바이오 공시 개선안 발표…업계 "육성 방안도" - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUTWxTUnZvN3o2RzR5Y3g1WnR5N0tLS0JNOHgtai1lVEtKN2JnQ0I3b0kwNTJCbUc5c1gxdUl1S1hRbHZMSGtSeDNTOExhc2p4aVpOM0stMVFqX051SDJLbtIBeEFVX3lxTE5pMnlZUWJYTnlEVnBCZXhOLWI3dExsaFJBMVl2c0lseklXeUw5V0FYU3J3alVISFg3ZW1NcEx1UktwSWoyUGppbjF3YmdhWG9kZTBXNkptZGpuWThHMk5rZWpOV3kxc1VWR1RXMFh5ZmlhUDcyUXlVTA?oc=5)
+- **[한국] 맥널티바이오, 체지방 감소 개별인정형 원료 담은 '센스컷 블랙커민' 출시 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBERVUteFluMENabUVoNzFEd0FBSmdiR2REWDQ4UjFZM3BhaFBQTDFyZ3lVRk1iZ19tbG1vMlBVNnpYQ044YVFoSDJ5QUNoZmQxSXFQWUl6UHZBdw?oc=5)
+- **[한국] 인천대, K바이오 인재양성 허브 시동…국립대 인재 집결 - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XV20zT2IzVGpwU1dkNENIUUpFYWEtSXJkU3BmTXZ4Z0V2X3FvX3ZKVEM1TE81OGVUb2lYcTNsVzZpcU1LTHB6UG1MR01PSHh3UHQ2enhuNlhoT1pkN3lyTtIBeEFVX3lxTE9tWTdkeGdxamw3QjlyNXNSeURTdXpicnVCRk92SzN4Qm9nWlFZczJNRGhHS1l0ODlROEFOU0NJdXRtcWF6SFQ3V0lrNkJmVHdTN09xRHJKdi1xanJuZkVuVC16QUZmTTBHUWltUEdTU3BUa1Z4Mzc5TA?oc=5)
+- **[한국] 리가켐바이오, ADC 플랫폼 적용 ‘IKS04’ 美 IND 승인…“플랫폼 경쟁력 입증” - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxLVA5UlhyV0FITUhtSW5UaVNCX0kwb0ttVVRtMzhRR2pVR3dqb1FyYjlHSzlWYXhmMVpuOEFaR2ZRZGU5dnhkNEpiV1JtWEVDWUHSAVNBVV95cUxOa1lPZmh6U3RMTWpucy1ITmlCZzV2cVdRdG9FSFZXLTlHd3BEZ0U1UDUyYUpLTkNVUVg2NDM2aEZOT2pteF9fSWs5SmQwaUxoS0dlOA?oc=5)
+- **[미국] 리가켐바이오 기술 적용 ‘IKS04’, 미국서 위장관암 임상 1상 진입 - PRESS9**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DSkpWMXNDNUliQXhMdmZrdGtoTFZpX3E4MWVPR29admlFQ284WnlDbHJoWFcwY2RkVDhwYnRudXBhUTY1N0QzNkFyTG5RdDBBcFRoUURDbnZzWFJ0U1A0THVVdzg?oc=5)
+- **[미국] 리가켐바이오, IKS04 미국 임상 1상 IND 승인 - 한국경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTFB0LTBDTExEbDdGSjZiUDdTVG0zT005ZGJQNnJFUnUtclJCTHBub1VOSE5Sa1JBUE5xclVJVUJtNEZIYVhINS04NHNlM2pnQ1luamJqbEh2cC1uaVA0NnFXRXBwcHlfeGthdW92dDVVbTRKOGYwWC00?oc=5)
+- **[한국] 셀트리온, 이탈리아서 신규 바이오시밀러 직판 확대…옴리클로 판매 본격화 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1FWHU2RU43T0VRWkJtWXp3ZFlUbnFLblBuQ2JpZVZCOUdrZjVCdnpwU2dxclFHTXRiQnZFY0I5cG54dklvU2kwbzFFX0ZmM0lHa3U3RS1PM1lTRXlIREpqd3V6VFIyT2pSUzl3Vg?oc=5)
+- **[한국] 휴온스엔, 체지방 감소 프로·포스트바이오틱스 인체적용시험 완료 - 팜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5DMUFxandEcHA2c0VuZk83LVBMaHdnQ3JoN1h4Z1hCR0Q5c2NFT2QtQU9iVUFlSmFnYVliSVdERzlJcUZjckNiVktOX3ZuV1Q0UFctY1lFYlFoMm0tRVVuRklPYXNUXy1oRzJCVg?oc=5)
+- **[한국] 불확실성 털어내는 제약·바이오… 공시 제도 개선으로 밸류에이션 정당성 확보 - 아시아경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kdEVjcldybFZldVd6djNQREVIRU44Q1BLRGt4N1E3TGpsSnpvZ1NtUWNCVXljakRtQi1aU21MLS1jVXdRS2Q4cVY5SEFxd1BUQXlOZFFxMXhldGlXd2N4ZA?oc=5)
+- **[한국] 제약바이오 업계 "AI 신약개발 도입 확산"… 전문인력 확보는 과제 - 보건신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE81RVVWYjJ1VGh6b2FBZ2hmYTd1bzJZcjRRSVpYTlc0eHVPRlpxOTltcFdTVGpMNzlCOXRmNnhudEhOVTR3aTU4emRIb3pGLTg0V050R3pEVTVsNE5oUDdISTVsSQ?oc=5)
+- **[미국] [바이오스냅] 종근당바이오, 미국서 우울장애 치료제 임상 추진 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2dU5mbHY0Rks1Uy16c0tkM2xrWFlBNWh5VnExNmp5cWhZRTZNdm9GNy0yQ1ZBMWFNNFJxRWpaV2xwM1lYb19ldnBoal9QRGV2c0tVaVlIN1RtRndCckcxbNIBYEFVX3lxTFB2dU5mbHY0Rks1Uy16c0tkM2xrWFlBNWh5VnExNmp5cWhZRTZNdm9GNy0yQ1ZBMWFNNFJxRWpaV2xwM1lYb19ldnBoal9QRGV2c0tVaVlIN1RtRndCckcxbA?oc=5)
+- **[한국] 시흥시, AI·바이오 중심 도시 재설계 돌입 - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KNmJDS2VmaVd3eDVDWGFRb3BVdVBKdXp1NGc1OWwySl83eHl1TWgzb2d2UkhuVlV1ckFWOUFZc2FXNTBCSWJuLWMzRHh4WmozMlJDQ3ZSMXE2YTFmN1o5RdIBeEFVX3lxTE15dEJCa09pNFVYOHFKTHlzMUhmWFg1UzFYYWs3cWlrT0hqRnlCbzFpclhrZVh1YzVtOEF2LUUyRWJsOXpheHlNV3Nvc0djSHFkbi0zT2JPUjV1V2o4YmJjS1l0c3h6YlQ2bXBMNFc5OGpmUUtLeWgwMw?oc=5)
+- **[한국] 엘앤케이바이오, 美 메이요클리닉 첫 진입…흉벽 수술 성공 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBxYk9KQl9qVWFOenpKcXA5Ny1aQ1ZQZnc0b1BNc2hfMWQtZWtIVVpoVWt0OU5xbUFybUNOSFF0V3EzS0ZUNkhwNHJET29LQWhGN1N3ajZ3?oc=5)
+- **[한국] 시흥산업진흥원, 바이오 소부장 캡스톤 경진대회 참가기업 모집 - 시흥저널**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qaFZTbTRPZjJodUFkOHktODdsU3pRMGlOenJfTGF5NDhGUmdQM0p3ZXJzZEVyVUFpYmhNcE9XeWtpRXQ2OG9JQ2Z2N0x5VEMxR0FqRjFKdXpKN1VpaDFZcGJ3b0t1bHM?oc=5)
+- **[한국] 바이오연료 7개사 10조 규모 입찰 담합…과징금 최대 2조원 - 연합뉴스TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54dFJ5OXVWazBpT2R4RFNmRUxGVFFIQ091NmgtUEx6Zi15RHFXTlR1VEI1VHFvTDlvZ3dNbkNpVlpCbnZBemU2d3E2Ykh2Wkg3SFJzek5yeGZLQ3JQSG1Ca182X2IwOWc?oc=5)
+- **[한국] 엘앤케이바이오메드 '팩투스', 독보적인 자사 ‘샌드위치 수술법’ 앞세워 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ROG1lTmRuWVM0dFl3SmdabXltSFUzakR2V1ZYVS1jZDEwbWhnYk9TYU51aHg3OUtFQmU3Mkk5bzh2enA2eEUySThfRlFWcnBnMmZMTEtvYUtNQQ?oc=5)
+- **[한국] 제약바이오업계, 공시 규제에 "기업영위 힘들다" 호소 - 사이언스엠디뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jeE5hekhvZU1fbzVNMElHR2pVWHdFMVJjNmVONmo4UXlrMVhiQ1Q5RkpreFpTblZSa2Zta3pnNG9rdUJFaElNSnVCZVhiTmhBVmhLcmF0RW40cWM?oc=5)
+- **[한국] 한미약품, 평택제조센터 제약바이오 최초 PSM 최고등급 2회 연속 획득 - 헬스미디어뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9rbVRvUkJNb3dTb3ljNms5OF8xQkdUYk1uOGJqQnRaQlFXeFZMaVdRNmZ1aEI4TkpfTmV6UXI1YkcwOXp2dVRZdE9ucTh3eURQR3h1YmV1T2VFV0V1d3dwZG05LTZQM0hyTFJCMzFqNG9HQQ?oc=5)
+- **[한국] 조경수에서 바이오소재로…팥배나무의 새로운 가치 - 어반톡**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iZUJlMXJJYTZlOHRRUzc0SXJ3UTBuaVBMbG1Qclp1bXNHcUFKd3p3VHlhdUg2c0JDS2ZpX2dISWFCUm1IT2RTTUd6aG9rOGM2VER4NFZ3?oc=5)
+- **[한국] [AI픽] AI 신약개발 뛰어든 제약업계…발목 잡는 인력난 - 연합뉴스 한민족센터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTFBHV1ZqclNrSldiWWdBRzNmY1Fma1d0cmktQVNSOWIycWVwUmhjWkV4R2Q0VDkwa1NKMFpja3JQWlF3Z0ZBeWxlS0liVENjV1J6d0lFLVRMdHNFQnlwSXhZaVB5MkRVRThZVXMySUNiMU55c19J?oc=5)
+- **[한국] 셀트리온, 이탈리아서 바이오시밀러 '돌풍'… 직판 전략 통했다 - Korea IT Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1pSlhCVExmcGZYRVpMVUUzbm9EdUIxLVFHTi1IM0xYRThVOWExeFk3UTdJbVNHTldJQU9pTWZMX1g4czI0aFRnbm0zUWNHQXk2dTJ4ZXN3bDViUlh6SnZnSWptTmpJLUh2ejdnVjZqcGM?oc=5)
+- **[미국] 고기굽는방앗간, 신규 창업점 오픈 앞두고 브랜드 경쟁력 강화 - 뉴스티앤티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5raXlUTmdRZmtQTlo0cGpHNmpSTjJ4eUNZVXB5N3UxcHd2a0RpbE5zLXNqZnlVUkxLVFpKV2huSnE1V0ZBVzh1YVNTUHZFZzNtaFhNMWh3bmNhNDVnRElBMnR2T2ZCMDBDMUE?oc=5)
+- **[한국] 101번지 남산돈까스, 로드숍 신규 창업자 '4無 창업 지원 프로모션' 운영 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE92X2VCRktYZmtzV1hzTnY5cFdhNm42M2lnOW45LXpXZ3I2cG5RZ1dBOXdSQWZuQVhlU19YSUNWMDk2V0I0Y1dzcXNyT1JQd0pCRjVF?oc=5)
+- **[한국] 대전 버드내초 인근 신생 핫플레이스로 '주목'... 신규 창업점포 지속적 증가 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTFBqekNCbUJrY2lxU1B2WkhWQU1EVk9wazR2aVU2aDZLX0NOMlhyMXFsLWI0V3lDSEgwb0dyZkJaSTd4b3ZfUzFGclRmWVc3RnA5eEh4bA?oc=5)
+- **[한국] 원자력산업협회, 초격차 스타트업 프로젝트 창업기업 7개사 신규 지원 - energydaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFA3OXp6Zk1OU1RyMjNwNzJYOXByd3dSdEFXbEdIM01VTzFLRWwtMVJ3N3oyX0x2SXN4SFdJUEdaS19NeUN4SUkwUXJid0ZfUi1PVzRJZ1ZKT3ktRzZQZ1BOTFE1cmRoVTdQS0VRaXdnbHpNdw?oc=5)
+- **[한국] ‘용인 DeepTech STARTUP Batch 2026 데모데이’ 성료 - snilbo.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBETjRQYTRmR1VuWWZwbU5aYmlIQUptRTdZbGNWanhnMFY3UFFhMTZ0WVVhd0h1Q2RtaU1OVGpoSVpjNGFDVGd4VGRqUHRma3dodkdFWEYwTnNwWXhBcXlz?oc=5)
+- **[한국] 한국폴리텍대학 서울강서캠퍼스-한국피엠오협회, ‘온라인 데모데이’ 개최 - kdpress.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5EOXBBeGRQR0MyYlF4MDM5N29JQzhTUWRkVDRfcDMySWhzemg2YTU2aXdLYmpuN1o4blJvUU5xNDNoQV9lVGEzLWd1NzE1YjRwSk5jcHBTa0pPRWNQWWxWQm4wREp6S3FmNHAtTg?oc=5)
+- **[한국] [테크 차이나] 데모데이에서 공급망으로…중국형 오픈이노베이션 본질 [박지민의 비욘드 차이나] - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE14eTU5QldVdE9VSjNsUFN1aFF2RERpejhRX05qYTdkMmwwUHNlMElkNHJQV0YwcHNROWw4Rm5FUTFuNEpEUmtUb0IxdWszZw?oc=5)
+- **[한국] 강원혁신센터,‘7월 월간데모데이’개최 - 한국관세신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GWmFwbGw0dllac2twRHkyWE94dXh5WFI1Y1R0RDlmMm5HSzAwV0g2dUIzMzdUVEtTZG16SWNDZS1VWk5IeF9JaEhTOXNSbTBmeHJnZmxDNVJCRzcwYjF5ZzNtb1g1Z9IBa0FVX3lxTE4xeWM3dlN4ZG1SY0dsNERqOV9vTlM5TU5xbmE4ZjdWVE9Kalh4LVM5akhFM1d6UTZfSzNWWmhRVUNNNTF3dURlZ2QtNnY0Mng0bVE5OVhVeHlCcUR3QVpWN0ZhUnZXUVNqRXdN?oc=5)
+- **[한국] 중진공 대경본부, ‘넥스트 유니콘 IR 데모데이’ - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KeVZkMms1d05aekE1SmYzMXFzNS13Z3FOVG5rSVhSdWhPWS1wR1JldC1qU21yWFVwVmNCalV1ZzRTcHhuU012VDY1ODJlS1E?oc=5)
+- **[한국] 울산정보산업진흥원, 콘텐츠기업 IR 데모데이 - 경상일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFAwd1o5TWF2Y21rZWUwQ1Nfb3ZMLThUVWhOYXRLd2VrVlJYTFVqYUdfUDZDQUxBVjE1dG50YzJZUE9fTXdDQzQ5M3gwdkdTSkJidXpWZDVIY2pyR0pTY000NGNqcVV3T0FEcG92Qw?oc=5)
+- **[한국] 수협은행, 사내 혁신 프로그램 ‘쇼미 더 아이디어’ 데모데이 개최 - 뉴스락**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE4wU2piNlI2TERMTFFCZGpSR1NBOGFTRldoSFZ4TFk3Qmw0cG51dVV5WHB3Nl9zX3B1RE1RZUdvYVVIQ0ZRMEZMUlUwQnFqTmxrWEpGb1RIU1h2NkxjSGFVTkpCWFZMT2dyZVZuNw?oc=5)
+- **[미국] 강원혁신센터, '강원BRIDGE 화요IR 7월 월간데모데이' 개최 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzYUhqVmFQcERmZEcxRkxLeHFFX3JENFllalM0VDk5MDUxYWxsTEJuSTVOTzQwOXozTlFUbFp2eXMxd1dZdFNsZTd1VEVHQQ?oc=5)
+- **[한국] 수협은행, 사내 혁신 데모데이…"웹소설부터 사주까지, 톡톡 튀는 미래 금융" - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzOTl6RHRHelZfUjFhZlZKQkF6YmlYUGRpNExXRjhGR1JzU0dsNlY0aDhseUhPRzNhdXlBVkZ6YUcyX2RvdmhMa3ctZ0hXUjA?oc=5)
+- **[한국] 와이앤아처, '2025 체육인 창업점검과정' 데모데이 개최 - 데일리안**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwJBVV95cUxQcEtRZnAxeXNhX1p2V3hDLVVkYVdodkNCQnBwRkFZYnN1Tmx1T2Q3V24xelh4YkJyeGtCZ3NGNm5kWFRfN3l1UXBTbV9WTndWU29IbkpRa1BWcG4tRWtHeER0TmdDOXRLY19nNjl3U1JSLVU5UHFpQVdsRGFCTVIxS2VkSXlidGstNUxnMEpwekdXVjN5Smg2OHZldWJhRFVLTkM0SUFiQlRwNHVFdlB2MVlfN3JVMVVseG42Z094aFhLMVl6N1pNRkFyYThlN0wtODlueTB6MDNTejVaVGVMOExIZjhIMXFIQ01YNnBBN1V6SDNpRFRlcDJqNGl3XzNFbFVR?oc=5)
+- **[한국] 2026 ‘구글 포 스타트업 액셀러레이터’ 데모데이 현장을 소개합니다! - blog.google**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxORERlY0Q0MllSbDVNMzAxVDktTHROMGl2dnFPNG90b1otUXZPcXRBWXd0T3l0aTl2aTFwZmtOMWlpZDNWVnBvcmQ4MHlFU0pVLUFLM0w4ek10M2ZRNGI2eHdGbkx4NTNHY25OSF9NZk8teUtxcTd0OW1nWnFndVBzdzZR?oc=5)
+- **[미국] 울산콘텐츠기업지원센터, 28일 IR 데모데이…"7개사 참가" - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1reUVtUVZOMDJiUWxqUXcyZUVUdHN4dHRzOXJFWlpkRFV1TVY1SnRWaUdIUHpIUDBXS3oxMjdURk5RUGlwQzZrVkRiU0ZXRERTcXE5ZU5JVHllQ1FHUnN2ddIBeEFVX3lxTE5OYkdwOUhqUmpyTEJyQzJieG5pVWh0bHd4NjM5MmVZRWlQZkMxOVZnMnZ2ejV2QlhLWmktRDMzOEtxaUtsQ2FrdEtCaTRBamtuSExndFlmVWt2aVBfQ1pURTB2dndoWjd4Ymsyc0tGQ0w2YVpzTkl3RA?oc=5)
+- **[한국] 아산나눔재단, ‘아산 유스프러너 데모데이’ 성황리에 개최 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE51T3FjMVhtZmhOZTdnbmt4LTRuTkhMWVBacnFqaUxoNlhDSDNjdVFDNU0tUnpSSFRkSG9CcUg0WVAtbWJ3LU1oQnlqTFc4RzJYZGZ4OEIxRGhxN3Q3NVBpZ3g1TXlqUQ?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 축제 ‘아산 유스프러너 데모데이’ 개최 - 더버터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9LZ0M3d0JTd0FXZ1Z3SndReWpUWVBJYnFLbWtQRmhlcEYxZS1vc0VaVV9HdVBzaGhxT0lJeXZ5aHd6Ti1jb255SGZBVzYtRHdwSTZwUWxNX2dWRmllVlNWeTlCbkl4OGdPTVE?oc=5)
+- **[한국] 마크앤컴퍼니, '제5회 프라이빗 데모데이' 성료 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE12Ui1oOVhZX2w4WHc5Um50bWRqYVNDOC1TbVg5d3RhNnBmNFB1SUVpdFZ5VU83RjdCTnZXZUxZaGdia2hjOHpXUEZsdFlfaXBHU2pBR3lhZkxuRmVqR0dCdGVFRkw2X3lmdm5hSNIBckFVX3lxTE43cXFjYnVJS1R5MXV0UVpXY3ZRTFMyWEdvRTNvTlJOSGlkUk9OX3lyLS1vX3FDY0VCeHkwYmowS2lxcWphdXZfSWlPZUZtTWs0WGIzN0N1RnJoLXFaNHBnY1dWX1pvajRTaVZ6MXFUaEMtdw?oc=5)
+- **[한국] 아산나눔재단, '아산 유스프러너 데모데이' 개최…대상팀엔 교육부 장관상 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1aOHM3d0U1WmdZcTV1QWdkMWx0Nkp0SHdWUDNNRlhtSmtGOUtmWkN4QWhTQVkzQnpQZ25wZWJoZmxpb19ZOHNrTU1BUWxoTTJKOE41VUxLLVlBT281WVQxbUpIQ1Bzc0FFZ0HSAW9BVV95cUxPWHQ3MEtyQWEyU21HWURwN1VEU0dXNDBhOUlkVXRKejhnNXBkOTRNS1hCM2sxX01TcHVBTzNxY0FiU1FPcVRreXVCNE9NRXBJcUh2WkRyaWhKSkNBZXBkMUYwUUdma0VLTE90eWpXYmc?oc=5)
+- **[한국] [포토] 아산나눔재단, '아산 유스프러너 데모데이' 성황리에 개최 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTblFwOGFmTm1sZXpxWGYyNVpOZldIb3hUczQ4SDRMSkVYQUc0bXhtZW5iYlJZUXI4RjR2cVRaVmJIUV9FaGNhR3NvSmowZw?oc=5)
+- **[한국] 2026 아산 유스프러너 데모데이 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9aTHBqNTFSbzVnWHptejBJRUlIZlpVSVZ2NkpTa3pJeGlLRHFMTk52TC1ocDlGellpWmNlTWpNSURBazdkeThBUXFkYUc0SS1NemsweHl2SEdILW_SAWBBVV95cUxPY21DVkdINFgyX21pMTRFU1AtcEQ4anBWN0x2SmxaVUxuREowWm5Dcno3MG5qSHRtRVQ3aGM5REhwWHg1cUVSTGhHZGNGTkw2OFhrZkF5T2ctOGRxTjhDQTQ?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 축제 ‘아산 유스프러너 데모데이’ 성료 - 서울신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE04OXpUVFFObG1HeU9MYndNcVRlRGd6bzVtcDRoRUpCanNObTJkck50UkxDdU9tWUF1NzN2aFVZNjJlU3ZvYUxrdnFkUm0xX3lXbkdjTWJEUENFQ0Vsam5QeUNkZmtoMk5TUHAwUHM3bw?oc=5)
+- **[한국] 와이앤아처, ‘2025 체육인 직업안정 사업’ 데모데이 개최…5개 창업기업 IR 진행 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE80R3MxbG1yNC1XUjFxaDNXMVlQOU14SnRiVUhfUFFHR2VLUlZsaXFRMTVjcUo5dUEzUmJZandnRE9lNzdmUVE?oc=5)
+- **[한국] 북적이는 아산 유스프러너 데모데이 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kZ3k0YzNGYkJaRWRNMHYySkd4bFdlS0NYTGZWTUVTem9GblFaN2VFWEI4ek5tcGo0QU42cnhnWUI0ZERZVkQzajFGWERuNkhWd3Z5Wjg1WUlNR0HSAWBBVV95cUxQUk9XNmtTSm8wRjgzRHItY1ZFRi1RaVAtci1TZDlJYk1fUy1vSkNDS0JUdzVqZnJ3bXhtbUJXOWthOVFZYWJjU2NEd3V0d1RmbGJxdURwVVN5VlBzWmVFWUk?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 무대 응원…유스프러너 데모데이 성료 - dt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFeFVQN0MxTk5pNXVaNDRsX0tpVmZvV2xfZGk0M3hVSUtsLXMzQ19LdnR0MlVOWTlHRGU0UEV3NU9YQTFhNkdjX3VTUEJJUQ?oc=5)
+- **[한국] 아산나눔재단, '아산 유스프러너 데모데이' 개최…대상팀엔 교육부 장관상 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5NTWZwSmlEZjZaQzdBNDJDZkUzcC1BaWdnUmtaTWJGYmtBRVBkeGE0Vng0TjhJdDdzdk5YNG5vTnlzbVNSeF96Z3RGcUZLenItZzlTUFMzVko5WkdmTmtiMzl2Tkhscjl4ckhEVg?oc=5)
+- **[한국] UNDP-현대차 정몽구 재단, 아태 지역 임팩트 스타트업 10개사 데모데이서 SDGs 솔루션 발표…'Global ImpactPreneur' 성료 - United Nations Development Programme**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTDdvbnRmN0lrQXUzWWxDOGVscWl1XzNJdTkxVjAxdW1NR0x2VWRJTy1XLVEzanlzSnRZZDlxTkkzdGJEdXNJRGtHeGdpLU9WcFBKdXN1MVFkYUZDaC1mWXNSc3A4RmpzT2tNcTRkSGVXNXZBOGR1SzZQajhOTWpwR3pPY0FnZVFTanp5WjdjN2htTG1UYTZkNUE5WUdOS2ZpVEctQ0RmbXJRUmI0eTVhWmdZeXJEdmN2QUpuZnE4ZU1fUnRaTnVSU1pfUTduNUFqSWJybktmaXdGeEF0UGR3WHVwXy12V19NQmJQVDB4alBmU3JUVmc?oc=5)
+- **[한국] 전국 학생 '기업가정신 축제' 참여…아산 유스프러너 데모데이 성료 - 매일일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE54TkVCWUNWT0VtU3V1ZFA5ek1aX2RtWDRiYkNRYlVwSU1SV2NjanhCaWpBZ21nSWZqVUVBX1UwMkxYNjNSZUlvTUNKM1hWQWRCcXBzejVzWmNIVEItdE5YNTFUT04?oc=5)
+- **[한국] [헤럴드포토] 아산나눔재단, 아산 유스프러너 데모데이 개최 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE04V3ZKQVFDMjRjMDJTUXlRNEhnNWthNTRVajlzSHMyd2NFeE5ydXpOUjlEZmltbWYxUG9DOVkwWXhQQXFVdWRqZXhQbnlqcGhLTmQ0RQ?oc=5)
+- **[미국] 경기자동차과학고, 아산 유스프러너 데모데이 ‘최우수상’ - 천지일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBDdWJ0Q1c4VUtvWW0taVRPMGxHYWdQLWthTkh3UlphVjZDdlJuS3VWZjBLaFB1RU9HNGRWN2pJdExnQlhZd1FiRzNhSm5wWGR2T2hUMkJtcGpZU2ZxUGdHOTByR2dOTkJuZ2c?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 도전 '아산 유스프러너 데모데이' 개최 [TF사진관] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE11bko0RlpoVF9yOVFLUnRySkRhclJ2Q2VkQUlIWF9PZUFrWnNVTXVtckRPWGdkMkR6VnAwSVp4b1VOcG5hcV9RU3JpaUZtRFU?oc=5)
+- **[한국] [포토] 아산 유스프러너 데모데이 개최 - 국민일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DWGdXQkpPRDM2NXR3c0szNWxvYUFGSXhNS2gzU3A5SmtOZWdYRzZoOVlQS0NZZnNrMkcwbnpUOFBmbUNrS1h2bWtqMl9CRWMzTkdkMldXYjJEdjNuRUwyNU1HbERwbE3SAWxBVV95cUxPU1N6Wm16bDhabGs5cEI4S3B2WDk3NXdCVUlrS1lnOGlZT3Y5S2tTcWVGZk9nejVma05hU01OTzZ3WkxQbGVXYUlNRVBLTnBBcGIxelJFVUdadmpwWGI5NzRUaWxiTmg5QmZld24?oc=5)
+- **[한국] KT, ‘AID-엑스 데모 데이’ 개최 - bikorea.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE52VV9PcjRPWlc2ZUZ6Z0I0OElIR1ZiSGpad2dKYm05Z2VrS2xMaG1idUN6MUdkdTlWcEhLY1JHcmpXcGdiRko5ZEQ2clBnQ0psbGd6bzdvSXEtTkJjWXlvU1hVZGg4UQ?oc=5)
+- **[한국] 학교 밖으로 나온 기업가정신…청소년 데모데이 열린다 - 더나은미래**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmS2tNemg0ZGlZb0xrQTZYVVZHd2k5SGN3anp6Q1YxYjA1cmpCRVZQckl6ZVN0ZUVQQ1JmUndITXp5Ukk1cjNFLW9HNG9HS0dnc2c?oc=5)
+- **[한국] [이번주행사] 2026 아산 유스프러너 데모데이‧GFC 1st Demo Day 2026 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE1vbHpBMnVlT1RIR3NJbUpLVWdkVjNySmlKTDRVaUY4ZnVvcWkxZERReGkzWlNXTUlFNktGRXV3QkJxRXhrWWN5SWpUcW1mQldHQ1N2X214SQ?oc=5)
+- **[한국] 아산 유스프러너 데모데이 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WYWI3S2JhQy1WWWRQeV9JenRHb19NWXU1ZUZwN0p0XzlTSDJMX0NsZ1BldVlldHBPMzFjZDZOY1cwczVfUUc2bTFBVkE3RUQ5TlY5OU4tYjAzWm5HMlUtQQ?oc=5)
+- **[한국] KT, ‘AID-X 데모 데이' 개최…AI 기반 개발 체계 전환 성과 공유 - 굿모닝경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBTMFB6ejRGUUNhdXZXX1hmOTRVMms1NXlnelJBQWJ4c1RHTVBRYnVrTWEza04wOXBsYkYxSl9IbndrQnNMeUNHckx0QmdOVkNJTVZ0VU1rd0tiREF4V1dyTzNQcVVMd1VscVdXbQ?oc=5)
+- **[한국] 현대차 정몽구 재단·UNDP, 아태 지역 임팩트 스타트업 데모데이 개최 - 파이낸셜신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE15MF91cTZONEJNWTQ3MzNMazFENmdUczFZMS1iaEstV3hoSERlSjBzdElDTFZsNTZMMk80U1FrZWpja2xvTF9ySlpWVnljY1pndmoxcnBFUUdJdFFsZDNjcURBQ1B3c0RDTUNB?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 축제 '아산 유스프러너' 데모데이 개최 - 소셜임팩트뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFBzYU8yUDVJUEhlaDVDajRrQjBpOHgybEFiOWRWWS1NZElueWVQY0t3Ql9ielFHMmVER080V0Jmei13UjNNNnN3dkRjN1I5bVR6OFkzQ1JsODRlUlZ5ODBlbHpCUWJVRThyN0JWYjVDN3hNWkHSAXdBVV95cUxQdnVmXy1UbXRETFpFQVg1S1NTTTBYUGZ4dlhJVlk2eGk2ZmlUUGxadjZDdC05eWZ6RklqWHdoNmFwbEtJUFBrVjBKU292b1FpNWwwRWhuLThPa2JhVUdIZGdTZU1IQlY0VE51Wmdwc2stN1Fyc3Bkaw?oc=5)
+- **[한국] 아산나눔재단, 청소년 기업가정신 축제 ‘아산 유스프러너 데모데이’ 성료 - go.seoul.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE1vNDF4SEQ0MzNMdk5tSVI3N24wMFVCOXpfa3pLR3h3WXhNbDFtVExkbF9TU1otcVhiTWh1SVZwNjNQY0RrMk1uT2NYaE1jeEp3STBEVXFXSzJvd29iaFYzVURuVy1OZURWU3VlOTJOU3c3M1dPcUFRaw?oc=5)
+- **[한국] 현대건설, H-Safe 오픈 이노베이션 데모데이 개최 - 한국건설신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFAyNTliREFCaVpGQWVKdUxnSlEtZWtoSXREVWdLVXRERDNKeFM1cUJxa1h1MmswSDlmOHdFd1RNT3JKMDYzUGlDeGc3NzRoQ29zRUZsSFdpYU81U2RxU05tUXFaVldEckhBYzVj?oc=5)
+- **[한국] 현대건설, 건설안전 스타트업 육성한다…'H-Safe 데모데이' 개최 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MV19sMDF5dkphSW5kM2QxRFRlcXF1cGo5RFNoTXdfZXZsRDZLS0JoaU9MeF9pZUFkU0tfblNLQVNzUC1SUXBKUEpMaDdFb3Q2NlJac01sRXViQQ?oc=5)
+- **[한국] KT, AI로 개발·업무 방식 바꾼다...‘AID-X 데모 데이' 개최 - 이코노뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5rY1k3UTRGSkh0RnVGVS0zNFBJTlZ1VEVSN1VKMWFNa1QxNlpVZl9fMVEydWtMYVYtbXVKa0JKamVPOFoycGJ1alU2SFFlYlFvYm1TenQ3czRFRXJvNm9vYzlEUmt6M0ttaGpRbmNqZw?oc=5)
+- **[미국] '아산 유스프러너 데모데이’ 성황리 개최 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE04Qy12OUo3czBybXRWVmJsU3dzS3BDSUxnRjBhbE80dzNvdGwyU0g3QkUxVUVmZml5WDgxUnV0Q0huS3ViMWtPWkNYZw?oc=5)
+- **[한국] '아산 유스프러너 데모데이’ 프로젝트 피칭 시상 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5adTQ4WE11Vm1VNl9pRjJfUmpYTHpEMFhJbWJ5cjdvY2d6RDBvaUg4eFMtYURidmlQazlKRDVyZks2Y0Y3ajVpSndlSQ?oc=5)
+- **[한국] 현대건설, ‘2026 H-Safe 오픈이노베이션 데모데이’ 개최 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxNMmJKRUdYaks2WjNHaG5IdGNxeWJ0LUVCelhwRk9RSHl6UHV2YVJScm9vYjY4MEg4NXh6ZG02RkhXemt1dHZScGNNcHVob09nZllobmx1b3NwUGdBbVp1eEpNa29aWGlpZGdUZmp1SXItdXJsWWRoTU01OHNtNDBqaTNJRXg5bm9INmc?oc=5)
+- **[미국] 현대건설, 'H-Safe 데모데이' 개최…건설안전 스타트업 육성 목표 - 매일일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBkTEkwQk40ZUVlS2hrRWlpRWo5WlUwRmF1Qm5TdGw2VXc0alhxTUsyLXdZNFd2SWlrTzYxLXEtelBCX2NvRDF0OUE4OUtad25mVjU4WmVfdUdRbndfa3ZnLWFRejQ?oc=5)
+- **[한국] 젠엑시스, 2026 기보벤처캠프 18기 개별 데모데이 성료 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ndnVidXFJaDFHZm9BSE9meE1EUlZPSnotaS0zZGxQVENxTGtUREZLS0F2a1gwTmJTWFpTQS1yV2o5WE53STRfY2lYVWNjeDdjVklGaElIazNhYzVqTFgtRGtiaTc4Zw?oc=5)
+- **[한국] 비디씨엑셀러레이터, 제1기 오픈이노베이션 데모데이 성료 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yREo2dThqNURIVXJLUWhoQTJ6cXJZTF83NnNxWFNETFRrNnNDaG5BSEVoaXJ5eU1XeWVZM2stQUhfWmhfNTVYYQ?oc=5)
+- **[한국] 삼성전자, ‘2025 C랩 스타트업 데모데이’ 개최 혁신 스타트업과 함께 미래를 열다 - Samsung Global Newsroom**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwgJBVV95cUxPMlo1Wm8xdTNZUWtkZWUyWndLeHVWWTlSRHp2SGh2RVYzcHp4eWk1bjExcGlPMTZwc2dUb3dwMmFfQlhFbktYc3ljX1d0aEg1WUpJYU44UElZaW1OTUx4eWhkSGRJZGhjZDFWUXJwVVM4ZlNPTXhYNnQweVdxQ3ZvSDBMeUY1V1ZEOWVLOU5HNGxXc20zYjE4N2VQblBlYTZ6UVh6TzBRdjZTcEl6Mzd6eHAtVGJFOWdaSjlCUmpLMDU1MG1YeUVKMzU0YVVfdFRJeDNLZnN5ZWZvVHp2Rmx2RVpLVW1vNXN6aG5YeUtOSHZPZ3oxbkJMTmFpbzlOU3ZfOUhiZXJBcDRyR1h4aVpLaDV3cWNGUl9Tbm5qX3dOcE5mOHFXNGdwMUFCUXIydlBWNjFSNjZkajUwQVRsc3VRU3JR?oc=5)
+- **[한국] 씨엔티테크, ‘TIPS 스테이지 데모데이’ 참가기업 모집(~2월27일) - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kenBTcHJfZFFPLTd6R3l5UG1KLWQzTnBPVVNIbzVyTUd0b2lMUzhkT3NRME1hT3JhUDgzdkcwMFRmazJYVThKRTB6SVlsblk?oc=5)
+- **[한국] 고려대 경영대, 학생창업 데모데이 '2026 봄 츄츄데이' 개최 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tcjJnZzlyaGxVRDZvVUt4cnV3OWctQXlaZ0MzS0ptNGJ5Tkw0RTMzd0k4bldoNDRHMm9Yazd3N01TS3ViamNLWjllOHdWUQ?oc=5)
+- **[한국] [이번주행사] 슈퍼스타트 데이 2026‧2026 언더우먼 임팩트 데모데이 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVZU1lVVVaR0NxSHZOQWtPTF81LUVXWjExVGoyS3p4SXlQV25SQ2hfdFY2WGU2WEZNcEh5WHQ2T1laYll0c0tSOGpmQVRiTEVfVjlseHVuRQ?oc=5)
+- **[한국] 비디씨엑셀러레이터, 오픈이노베이션 프로그램 데모데이 개최 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nTzRxRHVsRlFIeGw2ME9NeUpqZnlVODhTelFWRXNySEJTUUc0R1lGR05BdUxBdDkyM1RnYXRqcGpNcXVmSlFPWXpDT010SEE?oc=5)
+- **[한국] 현대건설, 건설안전 스타트업 협업 확대…'H-Safe 데모데이' 개최 - 파이낸셜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE0yd0JEUTc5RHBpeG1WYUdobEdhMURWZWtLWl9RN0NMbUMtZ3p0SjZhRmN0dURCTFk4NHF2ZFZzQVYtSUlzeVBhS3M3TFRydmZyWE1oTHI0T1NwQQ?oc=5)
+- **[한국] 기보, '제18기 기보벤처캠프 통합 데모데이' 개최 - 뉴스드림**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ubkNQb0thY1kwOHJmYXo1aWhpMVNnSjRRVmF0VWszMGJDWGpUdm00MUhTYng0VU04RFhaRXBxZFRYa3RNRG8xNzZPbjhwQ1B5ZGlnZFBjNTE2cDFJaVY0S190UVRYVmg4TlHSAW5BVV95cUxNTE1GX0tvWG9LNUo2cm9JWlV3cGFUYXlhcFRvRVRKdVpxYlZ6LWc4b1RBamRSQVVkMGdyU2hQNk9Qd20xUGc4S0p3c1JyaFVyLVFIc19QdkRjQ2tLN3VTc3lfZjYxRGt0MzFBVWItZw?oc=5)
+- **[한국] IBK기업은행, ‘IBK창공 대전 9기’ 데모데이 개최… 11개사 IR 무대 올라 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QTExWLU1lS3FvYWJkQjNOa1BRMGZpa1p4SHB3NFRBTWpZTDFTMUhCUTh4a3RXY2JPakN3Nl9SRjYzS2lIZWRDNg?oc=5)
+- **[미국] 미래 산업의 씨앗, C랩에서 피어나다… ‘2025 C랩 스타트업 데모데이’ 현장 - Samsung Global Newsroom**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwJBVV95cUxQTTg2bGQ5NGw1ZUFidnVVV00tVUdZc2lRdnl4eFZpRkEzMl83bFE2a1ZmZUxnelNLTzRjYWlkaHdPYmJsbTlxWXU2NDNvdWtWMlBJYnZkNzBUMHV2bFd4TkZ4TlZZM20wZzJNQ2VLZjFTSW4xWU1RMXJoeXBxVTdqU3UyaUlyM3pSaFFEN0hpQ1Z1Xy1NMnlMdU1fUGUtX1JlWXRyT2VPTUpzSXEwaGtjT09nT1IxeEJ6STR3V1lXVnRsWFFqNk1BVFh2Y2J5SmRENzlqdFZFZkRTS3R2SmxfV3pvNm5vQVRRb0tQMXZ0ZXhfMmNBN3VQb3pTTGlJSHdBVGF2TEVkcFRfS2JUcHFycGVoQUszeUdGcjlCMzJvR1lFZTVRdXlLVjk1Zw?oc=5)
+- **[미국] [현장] '위기 속 기회 찾는 스타트업' IBK 창공 마포 16기 프리 데모데이 개최 - 프라임경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBTVS1kTDBkSE01WGp2d25jNnhQNXNPdjhmVUdaSnRaU2drLVhKR2RKWnJBNjkxV3RyNGxRU1B5VlRaNTRieTIxQ2RMeDBqSW01LWVQMU1uSlhldlllVVBsV0JBYWhHX1RsMFQwbURlUHpxdw?oc=5)
+- **[미국] 컴투스, 서울대 창업동아리 'SNUSV' 데모데이 후원... 송병준 의장 “세계적 기업 만들길” - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE84aWlndTVOS0JBMnNvMGNyMWh6R0VSdVd6VFRicXRlc0JjMThBNl9GWUlNQ1hzMklZNGJpNDU5b196UVdQTERqUFpFZUVVQQ?oc=5)
+- **[한국] LG전자, 2Q 영업익 147%↑…엔비디아 등과 로보틱스 협력(종합) - 연합인포맥스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBIdG1ORkhHZ2o4YnB0NW4wbi11VEdxWnNheEx2bkk0T1R6UmZQVEZ2Q2poZjJ6Mk5oWXZzVm93clU2SEgzV2FCd2lLc1E3S3JIX2RKQU10SXR5ZnplS2MwVzh6T2lKZVpsTXdWSnkzR0Q?oc=5)
+- **[한국] [컨콜] LG전자 "로보틱스, 2030년 전사 기여 사업으로 육성" - 데일리안**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeHNVdnpkMWxnOWVKQXFQZGE2SDVXbTVDd2R4T0dVR1lHWWRpZ19pOUlCUkYzWkpUbkExTkR5WHJ4b3N2eWhKeXQzRW9wQVdkZWh5ZExfQTZpNTltbXlGMDcxU1NsT05qWTlfaWloSmo3aFE4R1hsME9sa3BjT3BtS3hPTTdkUFFZcndSN09PQ2VtRFQxaDNoNlpFZUdBRjFhTTZsYi00c08xazVSLUR1T1VfYVZRX2djZnhWUzA3WDJyaXFMdFBmSy1YWGZBbmQ3UUc4OXpJYmk4WXY3ZDNLOWVnbw?oc=5)
+- **[한국] 로봇 사업에 삼성전자가 직접 나섰다… 레인보우로보틱스·에스피지 수혜 기대감 - 주간동아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JdnA0UlA1dndTRDV4cVRteEtpNFlwUDNwU2VVRjhhblY3X2htOTlTaDZTNk5TNGdRaVUtM2lGbjVtY2t5SW9UT0ZDcElmb0tUMi1UOFhlMy1Kb08zNjNIQWVxaHlnN3dN?oc=5)
+- **[한국] "로봇이 매듭 묶고 전구 교체"…구글, '제미나이 로보틱스 2' 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE82ZHZZQUhfYUNLX1B0OWowakVNaDRBaDZ4UXNEeko5aXI5RkM2djItSU1YNE43QzMxX1JIcjZlVW9JZmhJREdVQXZ3Q21pVjg?oc=5)
+- **[미국] 미국, 중국산 첨단로봇 봉쇄… 티로보틱스, 북미 대규모 레퍼런스로 대체재 부각 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LSG5kSUZEZk9nOW5JQUhhNXVvalhfSHlQR0VjcEl4YUxZSUJMY3pCMWNmZXJ3aXRmbHo0Skh5M2U3UmtMNDNzN0JPX09Kay1sMllKeDlOWmFudFUzUUhFWWlQS1IxVnNl0gFuQVVfeXFMTVZzUVhERElTVkE2aXp2V0xJVmhDSmx3RGNlcXVIYnlqWUFaLXk1TllGNVlzQzVZMXgwN1M4ZTFOR1E2Y19HZWJ0YjA2STlWdGEtNmkwTHRRWFNzOGFlbUtOTHdYSXdBSGZFVm9vQWc?oc=5)
+- **[한국] “로봇에 범용 지능 심는다”… NC AI, 씨메스로보틱스와 피지컬 AI 상용화 맞손 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TWDh3aG5mOEJkbktPa1RqendkZTBhbEJ4d1p2clNqM3QxLXRnRHMzbmxpYnlOU19kbWFvR1J4Vy1VTVVCN3NDX29qdms1Q28?oc=5)
+- **[한국] 바퀴 하나로 시속 30㎞…보안 순찰용 외발 AI 로봇 등장 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zLURvOFczWFQ2d0R6eGZNR3YtS3VfTWZEWm9HNmJWZmNHZ2VtdTM3a0NleW5GbGU5b2RDLW4tM21kUDg1LXloNnVuNWJvUEd0N0d1T1B3?oc=5)
+- **[한국] 지퍼백 닫고 쓰레기봉투 묶어…제미나이 로보틱스2 공개 - 연합뉴스TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mWWtYNkpHSzhTd0p3WklvZDFOdVZOMm4xMUhkQ0tFYWZfazE3Uk15a0lmaWFIX1dWb2R0RWNQYUdvWVBUaERVSGdqd29xb09EUk5FZ3d6S3RXZ3hFRTRPdXAtR1lBZWc?oc=5)
+- **[한국] 제미나이 로보틱스 2: 로봇에 전신 지능을 구현하다 - blog.google**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTE5VaF96eVNpckZmSGc1Tzc1R1ZIOUJ5cHZ3dkw5QWpjZHVZeFNNVmIxdWdqZldzdXJwZzlka1pIZ281NE1EWHp2QnZFdTk2OU9BZVI5UXoxWTNqS0pMdjFqWmNFTVJTX2JrSldQdTZjSVYyNzNuV1I5YjlUa2N2QQ?oc=5)
+- **[한국] [테크스냅] SKT, 피지컬 AI 스타트업과 로보틱스 생태계 간담회 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZX1FkLVZwcGZ5cWM3VjRkZzUwRWowSkhXR2ZWME13cWZjN3prLWRHX0N6MXlHRnBKZjRSa0xrWkJUdE1HQkxvUVFjNEZ3TkE4R3RNaWdVdlB5YTJnbG10X9IBYEFVX3lxTE5ZX1FkLVZwcGZ5cWM3VjRkZzUwRWowSkhXR2ZWME13cWZjN3prLWRHX0N6MXlHRnBKZjRSa0xrWkJUdE1HQkxvUVFjNEZ3TkE4R3RNaWdVdlB5YTJnbG10Xw?oc=5)
+- **[한국] 씨메스로보틱스, SK텔레콤 ‘피지컬 AI·로보틱스 스타트업 간담회’ 참석 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE13bkZFMFVwbG83YXE4cng0dWh2eF9Mc2g1X2xfR3BiNGpuVUFVRVN5SlZrdEdUc25BaUJ1T193cnBFdTdyZFJTalo4bWlydnY0ZzNvb3FaM01hMWZrY0pzZkQyYVBkdG1fWmJLZw?oc=5)
+- **[한국] 물뿌리개 옮기고 스탠드 전구 갈고…구글 '제미나이 로보틱스2' 공개 - 동아사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BcmtXeGd1MlBKcHVzd2ZZdldFTWFwamdMM0RtbDNMY1Fpcjg4WHNSeTFSQlg1cGRCdWptQXYwUnZ2WUM1ajJUWUZkMG5sM29jUHFBZA?oc=5)
+- **[한국] 로봇 전신제어 구현…구글, '제미나이 로보틱스2' 공개 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Qd2RKTFJDcTUwZjhGYndIS0h0NWRLYUkxTDhHMHU2YzZCMG9Mck1KTnBpemUteWx0enBCT0czRE9aRzRFSnp6b29saXJ1dw?oc=5)
+- **[한국] SKT, 피지컬AI 스타트업과 로보틱스 생태계 강화 - 오피니언뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFB4dVVhT3BkUjlHMThleUlVOUVaQXVqeXdiblE4bElWdGV5Q3NxVzVGa0RNWTV5cGx3azRGMjFKUEZGWTBOV1lsa3RhS1JnR3NDazYxNGZTVEN1d185Ry1RRFRHd2UwelBFdFpJRW8yYnBIUQ?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업과 손잡고 로보틱스 생태계 키운다 - 인포스탁데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE1uMEFCVlEzRXpnZ1E3V2lISmhKRDdrX3lwM3NZNWJFZlQtXzI5dFFOOVlIVlVJVnNROUlJVGt6X1hIQ0FCdkkwWU5oY0t3aEZHRVRHNGd4S0V3X0NJZDhYczJMcWhtMkFvcEx4aDBmdlgtZzdrdlE?oc=5)
+- **[한국] 구글, 차세대 피지컬 AI 모델 ‘제미나이 로보틱스 2’ 공개…전신 제어 구현 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBud2thMnNTOUhqbDljX2d2LUNUbFRDXzUwcU9OS0tGM1p2Nm92ZEI1WXVlOFF4N3RyREdzMXpla1kzc1Rnang2NU53WXN0d1ZUNzRJQnhMdzBzcjIzYmIwbldyQzhlbnQt?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 협업 확대…'로보틱스 생태계' 구축 속도 - 인더스트리뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFA2ekNPZHpzY0c4cUhhbWNBY1hpS044YmNCN2xVSlVWVG5TSWE2MnFaMVVUM1QzZm9vWVZpZzlzRVdwOU9jSHlTVTRLUzdzSFBiTGpLNTl3aXBQajhHWE5yNTNMWHFQZkF1YkM2NjJISkpoZw?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8곳과 협력… 로보틱스 생태계 확대 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxQalRaZEtkb1ppVXJvdzBUaHNuOHhvNWlyMk03T1Rla1VTWmdPYXlGaURrRXFFdXZ0eERiQmJ2b0Nqd3NlazhFQmc4Y0xSZkdBUU1yS090VDY2ZDhDZ09FNW9qRFQ0SHZzbHI5NFNRRXdVLWd0OEc3aGw5X2poMGdCakJB0gGWAUFVX3lxTE5WRlZVbTlvVmhzblVqeGJBME9GVHJqLVNoZ1FweV9oRm5YQmpqbkNzMDBXLTYta21fLW5hUGUwckdUX1A4OV9lYlo2Y1V2MS1fZXRrWnl5dUltZzR5YTFCNEctZHlqZFJpMUFyRnBFMnozSXc1MUNrY3BMajNGMk45aWtfM1lja0RDQklrTEgxcGdPSzczQQ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 협력 확대…로보틱스 생태계 강화 - 이로운넷**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zWWZCTXZYelBWVkNOOU01eFZFcGQzRUZfNDM5T05xMnNLYUh6MkJyUmFtcndOQlpXTkxCQ1lJLVlveExNWWpxLUk2NTFiOEZZRm1WcDJKclRWOHJ3ZDlyRHV3MDhWUQ?oc=5)
+- **[한국] SKT, 피지컬AI·로보틱스 스타트업과 협업 확대 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hSkw3enU2eUZobUduVjVOLVhicEo1LXZJa1JWU1R6azBQUkJGTTMwRkIyMjcwaVlfQWxUNzVlRmxzaDJwRnVYMmFxUEJDa0o0TGpsSTZR?oc=5)
+- **[한국] SKT, 8개 피지컬 AI 스타트업 맞손…로보틱스 생태계 강화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtYXhXYjVhbHprTHc2NDlFTTRvWGNfM19GZGp6TC05aExEQlBqdl9rVTJWQXNCMk5GTUVMNzdrc3hmWXJUTVlaeUJReHNPcDA?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 로보틱스 생태계 구축 나서 - e4ds news**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1oZ2IyY01jQnJ3V1RCS2poWXc5UlQ1bFAxdFF1LWQ0R1BfTnpZZDZHRHZia0hfSVh1R3l0WjFFSV9oalBaNjVJdllFV052QjdQbW9Yem9jYnRQcC1FUGJqX3AzTQ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 맞손…로보틱스 생태계 키운다 - 더트래커**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE11aVJ5UkFVdEJQNEZXaXhrNWdUcHFQaExuYlAzQXVKdkY5bThuWjdGVGFqd2xEQTUyUGpRX3dRVEFDMGJiZjhhcC1XQnlKZHBweWZBZXhOalc?oc=5)
+- **[미국] SKT, 피지컬 AI 스타트업과 로보틱스 생태계 키운다 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LYUVrbFJ6WHNfanB2RVdEemNTZVM5a1l6QklZdXJ3S09sUkhiWjA4WUs3Q05hdXBBeXNxbEgtWTBmUVg3SF9vVlhfT1Ztdw?oc=5)
+- **[한국] 푸두로보틱스, 제1회 ‘ISSA SHOW ASIA 2026’ 참가 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zYXA5dVVWSW55RUY2NkJEek5IemVCV3d6aFp3NVZvbUt5NGRITnFLNk45dlBaNDRPZXFCcWE5Z0ZrSzdCYTQ3X2VycHpCVHVQZ1hkd29WNWViSFBCRFNWckpnYVJuU0tl?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 협력…로보틱스 생태계 강화 - 아이뉴스24**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE5HaUo5akR2ZFFtQ3BqaVNmUl9yWVdKZEdKQmZManlndGtNa3ZWMlBtVjBPZW01aXpHcFZjc0UzVEg2OGFZSVN4eGZ0VQ?oc=5)
+- **[한국] 구글, ‘제미나이 로보틱스 2’ 공개 ··· 로봇 전신 제어·협업 확대 박차 - 데이터넷**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5jTzBscUF6cGlZNGdrWkhIYzVEZmtuQzhPVkhZV3U0VEV6NEFHRVhvSFAwNGEwaTdOWGQtNlFNck45Nndod18wcWFvN0pfczBxaTNGbmg1dk14M2hTeXdzQk9yY1R1YW56NXVZUA?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8곳과 협력 확대…로보틱스 생태계 강화 - 라이센스뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE9tSzdoOHM2TlBhZ3d2ZTNsSjZyZTRaSFVDejdpQkctMk5EV1dFYjJPZUY3MmloQ3JKclhpdWFjZUJwVG1uWTRRXzhPSFNSMkpPVFU4NExReUNNWDFnb0ZmenQxb3p1X1NxclRj?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 맞손…로봇 생태계 키운다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vLXpfTEJMWkJlcTBQTzFMdm5jeUYtZmhVSHdlQ0dhTlRGOEtaV0llSnJIaWhRRzlURzN2ck51SmRiV2NsMVJoZkxJUGloSEE?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 맞손… 로보틱스 생태계 강화 - 매일산업뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQY1NzMHdVMU5QRkVsLTlIbEhUVGFPRzl2ZWFlbVI4ajhZZDEtNlpsQ2h0THRJWEtoZHZLZzgyTmRSQ080elA4bXlOTnZNYmMtLTExd1huUUVlUVZkbXhmZ2NvOA?oc=5)
+- **[한국] SKT, 피지컬AI 스타트업과 손잡고 로보틱스 생태계 강화 - IT조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1NTXo1T0ZqTnFHZWtfRWtPVC1uLV81R0JwbTBRbEY5aHdqSnVGQi0tV2RURFZwZjV4UFM2Zmdfdkh1VEVJMmRRQnplc3dpeUV4ZUpRU0FDQ2ZiYWJYOTlWZ0c3dmRZWDZqQUVUZWJ2enDSAXRBVV95cUxQdGxKNGRIUTZaa3VURVY0MjdWSE0yX2ZTQzJkVWhtM2ZTNXBaZ1lTT3pDZ3lfNTlXT2dyY0lOODNzMkh5MGpLUDJ6dHJsWkx0ejFaWE1TQll0N2xldUpkSmlQRi11dTNKaHBsQ0gxRVp0R1Eycw?oc=5)
+- **[미국] SK텔레콤, 피지컬 AI 스타트업 8곳과 맞손…로보틱스 생태계 확대 - 뉴스락**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE14M1Y3Z2tsaFRkdFJPcHlvclhpcFYxUTkxSVpxVUxLUlNMV3ZSWWVqSTNqY0ZERU9LRHVUcFhSbVN2VjVCNlpFcldqWjc1SFBuS0hlYk1kSWw0TVRJSUVxTjBvUHk4WGY2VlBuaw?oc=5)
+- **[한국] "보고, 생각하고, 협업한다" 로봇 AI의 판을 바꿨다…구글, 제미나이 로보틱스 ER 2' 전격 공개 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xcm1YY1FZbXAyV1VoNm8xSkpteW82VTFaa1ZVZ2RfMnZyU082NWNCUzdEYVhpdjh0bXNaaU9KRjNxSlpId3JuOEMzQjFMR2Fjb2NUQUJ5OW85LU8ySWJPbnhtQmJ4bGM?oc=5)
+- **[미국] 구글, 차세대 로봇 구현 핵심 지능 모델 '제미나이 로보틱스 2' 공개 - 아이티비즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tODVXWTZjUnFOZk9GUlNqVW1pRmRLNnVUS25sVmVDMDNRaDBjdEVMWkNOd282WnB6NGhod2g4QVFkQlhlT3JxT3V5cE9NQS1pZ2lRd1NMcWJrZzRUMHQ2RzN4MkdWOEE?oc=5)
+- **[한국] SKT·LGU+, 피지컬 AI 스타트업과 로보틱스 생태계 강화·‘U+tv 아이들나라’서 참여형 이벤트 진행 - 여성소비자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fREJIanRxZnM0dkFVNkYxY3FmWDJvOVAtMXZwZXV4aUVrTk5rTFpabGlpRkxDWEFJNFJtLUc1aHFPUWdBNzE0Q0M5MlYxMXQ3aHJieDZmcXlpazNBVXFOdGdnUTR2dw?oc=5)
+- **[한국] SKT, 피지컬 AI 생태계 구축…로봇 기술 스타트업과 협업 - 경제타임스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tM2NfalU4Zkc5ckpZaW5LTmVpbkNQWlc4VUNldEdTNWxSZnlQZ0J1STN5aG4xbVFzYWtHdHVmTjl5d3JxbDNqMWlnVFhCYlZzanhV?oc=5)
+- **[한국] 中 프로축구 개막전서 '자카로보틱스' 휴머노이드 로봇 공연 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5zaDE3Vm9oU1B2eHlDQTNqa0xXdUhTTEF0eVpOdVhBb3pTTnlyMU1vM3pTWG45eHdiTUlxS2tsMXc5clJNVVJ6WHZ4b1k3NDd5R1NqYzJIX1VLQmYzS0Y4QXNfV21JMjFkWWJtVA?oc=5)
+- **[한국] 캠시스-코라스로보틱스, AI 기반 로봇 비전 플랫폼 공동 개발 협약 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE16NENMMjRDd2xQWkxIekJjNGJTeEZSdTFSWmNvamZJUjNSbW5na2taTElWVUo1TWpVejVrNFZjdE94XzNTaWlLbTY4R3Y4dHVNaHp1N1M0Y01Kc1pIRVVGYXVEaUhjNzgxYjJIWQ?oc=5)
+- **[한국] 구글, ‘제미나이 로보틱스2’ 출시…로봇이 쓰레기봉투 묶고 전구교체 - 헤럴드경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYbW5MNkd0RzEtdnpGN0tRNmRfNXVXNjVlNi05cUxlQ1JFSUFraklYQS1aNV95ZWZhY3NnVEMzY0pldUNwMENhVzFvY1FNc2NfM3VldHpn?oc=5)
+- **[미국] 열 손가락으로 쓰레기봉투 묶었다... 구글 '제미나이 로보틱스 2' 공개 - 한국일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBCWXNoR0dWOFJzUVliNUxVMFlNOUhHUnkxT2d1MU9TdEVaTnFtOUJxcFo2WDFycHpPYk1Pb3VXd0xfN0ZkSUlOOWJ6V0FCOS1WY1JQaXR4OXFHb2hfY0l3WXF5MlR0V0Y0SHJUSWhR0gFzQVVfeXFMTVdHQWlHWmNSaGZDRWFicVJoSkNaalJBdDlzNEg3aS1tNGpKM2pZdnVtYU5ZZ1RLU3hXeGFSdzRKVkdQZ3hJNjlnVF90Z3ZvcjBXbzh1clQ4R056b3FtUFZ6M0FlRk50YTNUTlJjcm5ndjJVWQ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 협력…로보틱스 생태계 강화 - 인더뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KWHpGQ0VwTVloVlJ1QzAzZ0daX1YyYjdmQWVPOXBONnRTOVV4TkZlOGpoRjcwa19Zb2s2TENva3J2SWs1VmUyQ2p1cTdqSjBoZnJ4VHE5Z1dNMVA1dk5SVUd5S1k?oc=5)
+- **[한국] SKT, 스타트업과 손잡고 로보틱스 생태계 만든다…로봇 데이터 구축 방안 논의 - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RWGIySjNlZFZGUnRkdlhCUTlYT0xadDhFZFhON0RxLU1HdnlFR040bldGRXNBM3FWN3NScnpuekVWc3JTWVNaaDhNQUJVc1EyQ004MQ?oc=5)
+- **[한국] 구글,제미나이 로보틱스2 공개..."몇 시간 만에 새 로봇에 적응 가능" - 디지털투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFBpeXBlSEdJeEJmUVNZeU9rMFJtbV8xdTdwclQ0bGlXR0hjWVF1Q1VKQ2ZmZXh0Qy1HdndqSEpTUEJxNWliUXFFeE1CZm40X1NGZFE5N3B3ak90UHRiQklwUHFHWUp3TEhTcVUwWWJUanBWcm8?oc=5)
+- **[미국] SKT, 피지컬 AI 스타트업 8곳과 로봇 생태계 확대 협력 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE16czFWOGxPUTJuSnFkN2tPeTR2c2d3c2FRd3ZPQ3pCdERSWDUzTFBkbVF6cEpocTgwMTUzOE9pNzNHX3FlaHVSWEhyWUMzUjdpMnNGdmFPZndIR3dsWmstSEZXNWk?oc=5)
+- **[미국] SKT, 8개 피지컬 AI 스타트업과 '로보틱스 풀스택' 생태계 구축한다 - 파이낸셜포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE1KcTVzNWd2TFRwSUdjcVZfQVVBMGt2Nk80dWJFNFBpVkxyMG43ajhNSlpsaExMXzR0dElUVFotVmc3UHhBTWcxSDZpTDF4NVJxX2ZvSEhmYkM2WUJZMTZETmxrUEUtMC1qZTRnVVJyazJWQUs2?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 손잡고 로보틱스 생태계 강화 - worktoday.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1jdEw5UWk1SjRhVDJyNzZ5cjV0WDczWmNCVzBRR1JMeG9vMnR5ZEV5UnNiM09ZYl9YQS1hUlFrNlZEMFN6UjVLUmtZaDRlTHRpMHZuX2VOQ3Rzbm1QVWtrNDR5N2VibVlfaTZSLQ?oc=5)
+- **[미국] SK텔레콤, 피지컬 AI 스타트업 8곳과 로보틱스 생태계 강화 - 데일리한국**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBWdzFaUUZHSWFFV2ZIOGF1SkVMdHFhWDUzMFBPdXBiUlBXS1p2RnFNLXM4VHBBT0lxTlBhd2w0SHYzUDJCaUdTWHp0QTRsSl83VVJKbjZNMmV5MldSUElTVzFKN1hVcEtyeTVqZ1ZuMNIBc0FVX3lxTE41bFBjWG5yWVMyM204US1DWFpwQ01pZm83emF3XzZfRjZZVVJKWnZpTWJTUlNjclV0aXpXWFp6Nl9EWXhPN09kaFpHTG5XblRubDRWU3UwalE1M2Q4VGNYNmlKakE3NG95VEgtVlI2d2ZfZVk?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 협력 강화…로보틱스 생태계 확산 - 디지털투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE1fX2FENVl2RVpMbGV6Uk13bnZvN2psemNXY25VdElTVDdmcjZwN0hNZlh5TWdKaTBzWXNOQXJnQ2J2TnNyNWwzRGNxbW5Yb0dGU2FDeGg2ZFg2TWlOTWZ2cUpSaEYyV3Jvb29RODVsc0lLRlk?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8곳과 협력…로보틱스 협업 확대 - 이코노뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBsYUx6Y0xnTGkzSTI4cjNDcUtObHd0UlJ3bU40SWQ1aXNqS0tnX1dKVEstSnp6LTdLdUJ0d3dvdjVTTk8xb09xOWJ6TVFMcU12bEZHQkFVMVpVSUhFQWF1QlF5MjhReUNSN1Jsd0dZVQ?oc=5)
+- **[한국] SKT, ‘AI·로보틱스 스타트업 간담회’ 개최…로보틱스 생태계 강화 목표 - SR타임스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WUjJtOVJhTXM5QmhPOS1oc1EwclJ0alFLZ1FKeG1DWDBIMWt1VGx5TlR4WWlLd2dwRGZOak5EVF9NUVRrX3RwSTlSMGYwSzRsRVJ1UGJhb1p6ZnhsaVc1Z3FVLS04cUXSAWtBVV95cUxNcVowTmZlWlgtclliQW9KYTF3VFFfZ051QVk4OUJFbnMtdzhKTW5LYzZyR0FBWVh2MmViMGhpaVMyM3BTSUZNYmJRRUZSQ1dVQktueGFqenNvcDhxMzgzbmNFSnBjY0xsbklYaw?oc=5)
+- **[한국] 험지 전용 자율 추종형 로봇으로 농작업 효율 높이는 ‘더로보틱스’ [농업이 잇(IT)다] - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBnNWxXRG1aZTVzVlhOc0RoOGJNdm54SHpPVGphVGVmWldWRU90WXdQcE9lT0l1VWQ2d1lROGJScXU3UEtVVVV2b2EwckN4ZVhEY1JDV01kOVNGS0cxbEZ6ZzllVXRzUkdDc2h4SlNEY9IBZkFVX3lxTE5keFJEU3J1dWtJV29ZN29tSGF2QzhoUjU3ZU5VVGNoTzkyRUI0REdjY1dGRVBIYl9scVkzVzBBc0VKcDVBMWU0dDU1ejJUVkh5OXgxcG12SkpIcGhEazRITG01RS1MQQ?oc=5)
+- **[한국] "로보틱스 생태계 키운다" SKT, 피지컬 AI 스타트업과 협업 - 월요신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9RcnFBYkxzYklEdHFFN0dNN1dMY3pMUWVNdTRrUzh4aTZiUHFqRXJLb2ZrV2Mtb0N6bHNNeDZEd2U2Q01HOHpYNG5icWhFSW5CMnpqQlVENmdqX1l3Nl92d0dzbkI2REdENEE?oc=5)
+- **[한국] ▒종합 경제정보 미디어 - 이데일리IR▒ - ir.edaily.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE9nWll2cWk5OEw5NzM1S3c0dUlhbVBMMGJKZnlZMWFocWk2Q0pWYXBhYnh1eFFreEFpb251WUdNVUk0bDNaOE5TdXF4V1NGQlpVRTZnYmNFTGFmZDVUeWxFZDc4WQ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 로보틱스 협력 확대 - 컨슈머타임스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ra0w4bVdZZUU0TmdmY0g5SDQwdEF1NWlZSS03cTNMT1cxYVRFOUwwTDdSX3g0NGk3dlNNdkFWY1BzVl9DM2lfTzVIUDVFdVJDbFI1V1lmaVRfMWtPZWtRRlhyemE5RDRmZWc?oc=5)
+- **[한국] 부산대·HJ중공업·레인보우로보틱스, 조선 용접 AI 개발 나선다 - 해사신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE16QU5Mbk5PSlVVeHNrUXZON1NONmpJT29CUHVkVldVd3htQkZHVndqZllPWjk1UmM5aGZ6S2R6eHNvS2IwOFRQdlNxdU0xX2Z3SkJoN25jbTNvVnQ4ODRCa2hWeUZ5MlU3NGRJ?oc=5)
+- **[한국] SKT, 피지컬 AI 생태계 확대…로보틱스 스타트업 8곳과 협력 - 이코노미사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE9pZGpILW1iRE1yVXZyazBCaFpZV2FUZzM0emxfQ2pnZWQ1YzMtemVpVkY1YTBLQ1R1ZXRNWjR6NjlLRnV0eVNCOWg3MDZHZnJ5bVlTdlNDMWhEdGZIaHZJaVdMUWFkWkc3MDVpUm9mbw?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8곳과 협력…로봇 생태계 키운다 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lMmwwQUZGbWx4V2pqUEVPMjBNZHRRUXZHOEJiVUJ0RzdBVUFpN3hJYjN3QXJyWWFKYzcwcmxoUHlqVkJzYmN0SHl1WWFkMEgxRzBQQng4RS1GOGI2N2R2ddIBeEFVX3lxTFBYRGlmQ1R2NExCbVhzc1ZjSmYwS2ZJSWYtYkY3YThlMjJIZHkyOWVqcjdPWkdZNjY1RjlxM0o2cXhGODd5al80VDY4dmdUWmd0VVVSUXR5cjVSNnBHdTNLSGExN3J1QllaN2g1U3hyVzdJcmNtYTl0MQ?oc=5)
+- **[한국] [단독]LG CNS, 중국 로봇 전초기지 세운다…'로보틱스 랩' 가동 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5RZF8tVVlMeFR2dzN4OENUOXpSY0NTZ2VrUFQ0STNVWnJmcWp0VGFQYlM4c25vV1hYd2M5eGI2cDZGM1d5OUYtdHk0Y0hsTEE?oc=5)
+- **[한국] [더벨]캠시스·코라스로보틱스 로봇 비전 플랫폼 공동개발 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBLZ216T29vcEg2djZaMDk4cDgwbm5hWTlWN1F0NnZUWFZYZmdWcl9hQjUxOVdWV3lmVEc0czR6aXlvUk16Q0ppLWx1YkJMdjRqaF9rNWhQZVZJVFA0eEc0Q2pZS2lfN19wenBsbnB30gFuQVVfeXFMUEtnbXpPb29wSDZ2NlowOThwODBubmFZOVY3UXQ2dlRYVlhmZ1ZyX2FCNTE5V1ZXeWZURzRzNHppeW9STXpDSmktbHViQkx2NGpoX2s1aFBlVklUUDR4RzRDallLaV83X3B6cGxucHc?oc=5)
+- **[한국] [심층 분석] SK텔레콤, 피지컬 AI 스타트업과 협력 확대…'통신사'에서 AI 인프라 사업자로 진화 - 뉴스밸류**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5pMmxLUHhqRDFWMEFiSzVVLUxpWG5VVGFnTFNsVGJGOXJ5Ny1IMUtNZy1Zd1gxdXZKRDRhM25DZUh2am1zWnlrakNUbDkzNVJEd20xd2pJT2MxOVNBclRlU0tpNXhVa2YxaVE?oc=5)
+- **[미국] NC AI, 씨메스로보틱스와 제조·물류용 로보틱스 솔루션 개발 - AI타임스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBWTV8xeXZrMFBsaDMxaDYzUDZSQXJzYnl4RVNuV1FlQWtZX2xBaUs1ei1ZQVBRY1B6eThGZTNhVFB3cjgwazdCemVLMVd1ZXFaLWZ1aENSX096My14ekI1MG5oZHMwUE1sOVE?oc=5)
+- **[한국] 도구로보틱스, 정보보호·준법 경영 국제 표준 인증 획득 - 로봇신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1MSWE2U1hfYWNqMzlzY2ZwVWFoQUJnN1dZQ25hUW9fMmJueDhtNGl1eDF5cUVCMDdib0VyanZfV0hvQnF6ZUI5NkFYTDZiWTM1Q292MXI0Y3QxZ0oydkpEdzlERnFfY3pzdTBvTw?oc=5)
+- **[한국] 롯데하이마트, 에프알티로보틱스와 'AI 웨어러블 로봇' 실증 나선다 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE54ZU1RSGl2ZkpXNm5BYkFvUzhVZGoxM3dqOTQ2c2RRSkI5U2NMVUZKemRZRlNMQ005T25tQmN4S2s5QnBlQzRYVGJjQnZJZw?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 손잡고 로보틱스 생태계 강화 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNNkhEcGR1QWxiel9RN3gzaWxNNy1mbE9yOWpwU2o0ckVWNHJyNmJhRXB5RVgybl9Ea0ZfR1JaZ0lXcDc1WXEyZXExZEZ4ZHdkM29R?oc=5)
+- **[한국] 구글 딥마인드 ‘제미나이 로보틱스 2’, 상반신 넘어 로봇 전신 제어한다 - 위키트리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zeWtGZkl1UnBFZjBjbi1adEl5U1FwV3FWOXZLQkhNRGZEME1jblRoNUYxdDVTWUdKY1VIRlNpb3BOTzNycGpBRllwSDRJN2FaQU1EdFlR?oc=5)
+- **[한국] 구글 딥마인드, 차세대 로봇 AI '제미나이 로보틱스2' 공개 - 글로벌E**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE56UUdmQlFrd2JuYmp3SHlnTEp3cE1oeTNELU41WlhyN0F3WXJUZ3JraTN0dC1zd284VGtubDVPcVdRa1hYRkQxVFQzMFpPQ0FsVjBuTmcwZXpwd25BMWNudDZmZktldE1jODZz0gFvQVVfeXFMTklSSFdOYUVqRUZ5OGFfM0ZiSjdvSDE1SkN2RnNsUjk3eGR4aGNxbHlybzktelk5Nm1jVlVrR045bDhjMXBGZ1NJNms5M3F6SHBvclYwUzZJUGJDVUxiVHRmbVdva2xFTV9PTmY1NkpB?oc=5)
+- **[미국] SKT, 피지컬 AI 스타트업과 손잡고 로보틱스 생태계 키운다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FMHM3Ump5bmswSXJJNHdOeXdTQ1d0YXllNlBJcFZicWZCNXZubTB6SjN5aFJubzNlXzA2cTYzRmp5VXpBY2pBR09qSXpUS3pEMktr?oc=5)
+- **[미국] “로봇을 위한 하나의 뇌”... 구글, 피지컬 AGI로 간다: 제미나이 로보틱스 2 총정리 - 더밀크**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5FclRBOUQtYUxtekhqTjdUOFJvRHBoRDFPTTY4MmdkSEF1MmZmdVVNTTZLOS1Yai1US0ZkRmJSa1BqUHViSFhPTkZHaDhDclA4?oc=5)
+- **[한국] 캠시스·코라스로보틱스, AI 로봇 비전 플랫폼 공동개발 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KZDVTaExMdUh1bFdiVDFkSWw4bGUzX3haTkFENEd4MFFqRFpBRzUwLVl6UTZ2LXQ4YUtfM1JXUGI1NVU3aHgxaVFYX2hZakNSZFhBWFQtYkZDMC1F?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 피지컬 AI 상용화 속도 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LNVZzVXhiSW9yLUtXZXpHcGtXNmVWUTRreHdncGxMOXNmbzR1X0c0RlZlaVphNlZMWC1tdEUxemxVak9IY1RCYjlPdVVfdUU?oc=5)
+- **[한국] 전구 돌려빼기 92% 성공...구글, 정교하게 손·발 움직이는 로봇 AI 내놨다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uREVxdUVGZExuc2c2T2R1R0M4cWpUaFlnQ1FWTFhQZ0d5eHl6NWhScGM4SWpyaktNQnY2TXJ5a1E5TWQxS293Ml9JTHA5NVE?oc=5)
+- **[한국] "로봇이 매듭 묶고 전구 교체"…구글, '제미나이 로보틱스 2' 공개 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DYlNob3hUcm5rYnQ1VkVGbnpzUXJtSE03bzVWRWN0a2NmbFNqcnpuczVGbUYySnR3YlpkUVl6TzJRenFnUkMtZ3I1Mk5Cd19wNjJr?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 협력…로보틱스 생태계 강화 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE45ZHFacXNjS2Q0NXZDekV3S2xxMG1xckFyWXRjc2Z1VU9wWkNyRG96LWVwYndYdDdncEFsZWhsM0YxOUk4aThPdlVzRG0yWnI4M0E0?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업과 로보틱스 생태계 키운다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xNDl1cFZDa3gzNDFRdy1PNEg2OGxTTi0tWWJJeFE2UVBvMHJ1QkEwdkxOSmZoVHYya19xQXVjUkY4UGFrSWRGNnQwd0kteVExbmVV?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 협력 강화…로보틱스 생태계 확산 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HdE8xLWVjbDZLWTVIek84aWJTSmZSX04yMHM1QUM2SFJ6azdJeGVuUkVPYW9BaGJDM2JsU0VmTDVGcWZXMG1maXVlSTk3MVIteUdN?oc=5)
+- **[미국] 바이오포아 차상호 박사 "세계 첫 SAVE 기술 적용 PRRS 백신…미국 시장까지 겨냥" - 돼지와사람**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE50SWlKMGRwQUF5cjdsYzlwOEJOYlI1MFk1clp3NDlvRWlBYzVKcXNHZHRWcFM0ZVl6ck5NSGs1Rkd6bFJnVnl0ZXlSazF1aHE1TG82UXJUVEtQVnZXRHlUc1F5aHo?oc=5)
+- **[한국] 투명성 높인다더니 기술수출 걸림돌?…바이오 공시 개편에 업계 ‘촉각’ - 이투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oa0luZnRDREM5LUNGanNfaUpFRHZNWVBBX25WMGFWVVNodG9QTzQzRHQ4YjZBMHdxaXVNZWRCYUt5c2dwbUwxQmptajdDb0Y0SGNCbQ?oc=5)
+- **[한국] 한미 평택 바이오플랜트, 국내 최고 안전등급 획득 - 청년의사**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9HTm5YaThTWF9CR3IzS0JCZzFVV3hLV1JFeVdCSy1mN251d1VmOWVTc0g3TTBQdk9XS0xGV3l3QzhoMmJyM2pUcVFoSEJmcXpEczRwbWdOZlY5bjNlc2t3MnZsX3p5amZlQTZnUkNfaHTSAXNBVV95cUxPWkY2a2ZpMk5JZ1J3NDdDUmo3bW1Vem1zVURYNS0wV1hacjRRNlhZQ1k4STVzbmF3emhoRktRYlVFVmFWWXlKdTZIalRsS0liOFdqTlJZcENrN2w3YkNNMlgxbnZHTDFpQnQxZEttSmhuLXlr?oc=5)
+- **[한국] 스톤브릿지벤처스, 3250억 AI 글로벌 펀드 결성 - newstopkorea.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBRc0d6a0d6bnJEQVZ3eFY2RGd0bXQwTzZpSk1xbVlXTW5EMkRLUktsMlNCd3lxdzdmZVp5NzJqdnBDUDdQeXVOejBuYTZRQnhHM3ZBNkd0N2R0T3JzakljN3JWeWhRUGpiQjNhNVhHUQ?oc=5)
+- **[한국] 서울창업허브 성수, 'Age-Tech/문화콘텐츠 엑셀러레이팅 프로그램' 참가기업 모집 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE10OF9VSHJDaHVRQkxNblprWVlFdktncU9RZTdlbUlidFdXWHZMUV9xWnVkdHZzZ2Z1anZMUWh6X2NVSjVJSVR6ME1hSExjZWNHcWp3WnRvVGpFcWM4NUk2dTZHQ0VnZw?oc=5)
+- **[한국] 서울, 엑셀러레이팅 프로그램 참여기업 모집 - 트래블데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1LVUI4WG42aEFsRE5TS3FYaThvU1pwT09sWXV1QWoxS3pZM1RUVGc5TEh5Sld4Zk9weERxUEI5M0pfc0p3Z0xyOHB1TnRSdXRTR3FULUlYbnNLNFV1ZTJwbnBCekNCNWxvTXJxbWQwdkU?oc=5)
+- **[한국] 팀제로코드, 서울시 '2026 관광·MICE 엑셀러레이팅' 대상 기업 최종 선정 - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE51SnMyWHBpbXEyMGZYallXRGpLd0FHX1Z6d0dFMWFCRmhQNVktNFFjanU2UF9FMjhmTEc0bGVoREs4cFNUUHlvOEhzZFpqOWQyVG9pbXFPd205NnF1VUtMMTl5MTk2TnJFVEZsMw?oc=5)
+- **[유럽] 신라대 RISE 사업단, 지역 창업 생태계 활성화를 위한 기업 엑셀러레이팅 성료 - 국제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijgFBVV95cUxPcXUtVjNfY1JISndxTVNyN0tZNGZXMEtGOXlBZW1YSVBkbWotUkNRWWtJV0lvb0twUkZQT2FSUVR2cTAzTkJ2XzBkZ3QtY3FGelVuWFY2cHotd1QzZkRDSzJ5bnNQZlRqeWduejZhU0VuLXdtN3lVeU1hbEZ1NjlGLUIyemJwdVE1R3JlSWJn?oc=5)
+- **[한국] DHP, 에이지테크 스타트업 11개사와 엑셀러레이팅 본격 착수 - medigatenews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE54SHpGTXdkZm9kbXZsRmtLME9jcm45azhQVlZ4Z0pMZUt4NmpaWnVBVE5XbjE3ejIyY3FEQ1ZaSXRYcnZkUkhsXzJwLXhMOTBmX1pvdnd3cw?oc=5)
+- **[한국] CJ온스타일, 브랜드 엑셀러레이팅 가속화…110억원 규모 전용 펀드 조성 - byline.network**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1VQUlxZllucUZ2MVBWU080QjVFRmZEbkhvb0lmcjQ5TnpDQ1V2dmkxeVNGWHVCODRQb2NFYlB1RTNRWHJGY1cza3V6cDBKdF91YWR3?oc=5)
+- **[미국] CJ온스타일, ‘2026 CJ온큐베이팅’ 110억 펀드 조성… “브랜드 엑셀러레이팅 가속” - cjnews.cj.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgJBVV95cUxQQXhpYUJCZXdwQUJJcUM1V1lDQmhBSU1GUmZhaGVoZ1NGWTQ0OHZkaHMweU9xaC1GbFBIclpFYWVoeEdZQ3ZMd1dsOWM0eFZWeTJ5SVJTR2pkdlZTM1pBd3ZlVmFlWlJ6SldsNVQwMWxGQ0xCN2h0bUw0bm1uR2RFQlh2LUs0NW82NEVXVWlMelEzZkRvOHkzbmtRWUY2LU5RMEtfY0lvNDlCcUFiXzVqSE91WDhhSDBlV3ppYUhwWURXQXk2c2NLMDlhQTJrNDlvbjVvSWRYM1p0akxCd3pPcXFSbkRfTEJ1WnIxbXFYdEIyTHBjZzV3eUQzS3Q5VkR4ejJpN1NzWjhFQVkzQ0p2R0pR?oc=5)
+- **[한국] 서울핀테크랩, 엑셀러레이팅 프로그램 'KFIP 2026 데모데이' 성료 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPQ2JLWUd4YlNCbmNoeVpJMjRTVnJhTkd3NFdvS0tZd2lUR1hqOWxEQjBIak52dVFKNVlRQWpLVkVTeWEwZ21GZVg3Q3A0cGFfTk5oV2lESXNsblFzVkhKN29UdVloUQ?oc=5)
+- **[한국] 한국산업은행, ‘KDB NextONE 부산’ 4기 스타트업 선발…엑셀러레이팅 개시 - 이코노미사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5NSUZTVURnYkxhRWFIRmRIRUNyYTYyS3BjNDBWMjU3RkVTTU5BTzE1Wkp3SktDSUtkLURpTWFxaGJ5OEFORXJDZHMtbUZDMUZJZ244QWhjQWFzNmlkbUJSNDBjOVNTbHZCNVh1NlhLVQ?oc=5)
+- **[한국] 안양산업진흥원, 엑셀러레이팅 ‘데모데이’ 워크숍 개최…청년창업 역량 강화 나서 - 경기일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSV2xmSlExTTVBUUhNc3pLcllsaEZlSTBzTnlIakdlTXBpdk1HTlFfc0pLZ3huODJsNUE4Y3lkVTh6Q0JNNU01c2JGdEl4X2lhVUxjenIwcklkdlU?oc=5)
+- **[한국] 씨엔티테크, 초기창업패키지 TIPS 스테이지 데모데이 참가기업 모집 - 플래텀(Platum)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBKd0dPbHNhQzZSWWFoREh0ZmhQZjF4RHJXa29LOEdiaVhUdGpOMzlIWXNoMUhycmNhU3YwOWt5alFuU0YyRG9HTQ?oc=5)
+- **[한국] 안양산업진흥원, 2025년 엑셀러레이팅 프로그램 ‘Demo-Day’ 워크숍 개최 - 경기시사투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE83OWFWSElWM1lIY1V3a3gtYkdCUklfUERQSlJIYXRiZjZOcXI0NkU4OXdJcGhjTV9Fb2JOX2RXazB5clJ3d3BwMUxyVm1IaGhySlRpOWJkOEkwUlEyNUFXMmFici1YMm16QkE?oc=5)
+- **[한국] 서울관광재단, '글로벌 마이스 스타' 키운다…9개사 엑셀러레이팅 참여사 모집 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkdnhMeTlseVhsakRTY2kyTTdvYURIRm9aU2hQWEY2LTZod3hfVldDRlpqTWVkNEIyNWFyVHc1TWdfYTQxdjRtaWdlYXYxb29ub0JGNVRuRmRIcmZnN1FJcA?oc=5)
+- **[한국] 안양산업진흥원, 2025년 엑셀러레이팅 프로그램 ‘Demo-Day’워크숍 개최 - 이뉴스투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBrNFEwOXlHbmJBSkNncERjckNmS05NbkctM0F3c0c3YV9YMVA2U3BGT3N6b2U0VFVwaXdNMUg1YWVpdHdrcHhRZlZJV1NLYjk5Y3JZMzRxVHp3dzNwbmRIX3BxaHJpT3RqSUdDU0EwWjXSAXRBVV95cUxQbG5nNWNfNlRBd2xMUzdHcGxtN2ZNb3RIc2QtTmx6Und2bklTbVU0WEpCbkVqRThWMWR4SDVOWk1laGYyMm5mS183YXd3ckFrTmpIeExPbHpVRmJBTEJFUVQzMzlYMzZSeEgtc1g3dkdxcWJWNw?oc=5)
+- **[미국] 아이티센글로벌, 오픈 이노베이션 개최…글로벌 AI·웹3 스타트업 발굴 - 아주경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwdl92dzdiQnZBS25oV3ZPRExEeHg1c0xQaHpjQjlhMXQ2S0d6aVRLaGFUSzBXTW5sWERCSkJqcHo4QXlUS0k2ZlVLVEZ1MjdfYXh2ckJUeGg0d9IBWEFVX3lxTE1oS05oNDlmblNGakkybUZ3QUhtR2FZck1zc3JKdURtUGIxUEZvMXN5VVBFd2tUS3EyOHRLbGc2WWRZMHhQY3JMd0NKbUs5d0kxZXlRQ25OWHQ?oc=5)
+- **[한국] 2025 28청춘창업소 엑셀러레이팅 프로그램 – 9월 창업 사업화 특강 모집 - 스타트업레시피**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Fd01GZW92UUxBQlVHaUN5OFNwVGxsY2txLU8zRU81MnRCX2d5bTR4eGhUUk1wcWMyZ1hCQlc1dU9DUkdmQ21vczR0amZLTUdjTi1oTkhjWndteDIy?oc=5)
+- **[한국] 웨슬리퀘스트, 창업기획자 AC 등록 완료..AI 특화 스타트업 지원 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9MWmFMdHYxbTB1Qm1hcDktdXhmdS0wUXVVdHRoN04wd3lJR1A4WEgxTzgyUnpPWVhjNjBtcFg2QTV1M3Y1ck5XRWFIbExrc2gtOHE0RHdtQ3RjYzc3N1daaUhvQ180c0ZjSnZGNtIBckFVX3lxTE11V3dCd1I1ZU41Vk1sYldrTDczXzl0Qlk5eHJMc0s1N3BLZWtmNjJRemNPZnJWNTQtRXIwOU5JcFpDRlhnVVU3dkZPRWw3eHVVZTlrcExQeHBJWC1nX283eFZqV2N6UmlsNktHdkpNd2RCZw?oc=5)
+- **[미국] 분산형 GPU AI 클라우드 스타트업 에이아이브, 실리콘밸리에서 GPU 효율화 솔루션으로 주목 - newswire.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZdnJfWl96SDZvZi1mcHVfaTNRSWM3QW85dnhfNVVvS0lJOTh0TEdvZTB2bFNLbWgwTHdtWHVNdlVNZ0xRMVN4eERiNEVISFY4ZXY2Nzl1VWtRdkF1NURR?oc=5)
+- **[미국] 광주 메이저병원–팬텀엑셀러레이터, 2026년 마케팅 총괄 계약 체결 - 경상일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9LVUZIeHhnYXVkcWJVOXg1X05ybHZySkVWTEhUS1FTVkFqcXdITmYzdU9mcTNfZWN2VzdXZi14MzEybnBLb3BNTU5iV3ZwbFNJZm9qSGRmVWlwWWYweDRpZTJGazdFTlBqcjYxRA?oc=5)
+- **[한국] 광주 메이저병원–팬텀엑셀러레이터, 2026년 마케팅 총괄 계약 체결 - 글로벌경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1ROXQzTFVqNnVZRFBGX1UwcDA5cjlJV0RSWlBKWHJmb1BwVGJOeTRibGhDb1gwTV9rQTM2Ni1rc3ZISUlDSUdjSEZGNXR2YmJxYVk0TmpsOGpHU01pV3Rxc3FMU2w2aTlsT21uctIBcEFVX3lxTE9Wck5fZzBuZXh2VmdIcEVRbzM3b0daSUlmajM3SHBKbWFYaVZpRDJYRHpUOVRSbVpJQ1lyNERxRkx6LUJwN3luOXNpVnY5NzM5S3ZNOHVUeWJKTThWaVdaUE44MXhob2NKTkVVR0Z0X3g?oc=5)
+- **[한국] 롯데, 사내벤처 프로그램 롯데 유니콘 밸리 출범..내년 본격 엑셀러레이팅 - 한국정경신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aM1RadFFxX202V21fTjRlM2F6Sk9yTURzMGw2eFBxRUd6eklMNFlPbnZuRDFtZnJBTmt3THFFTy1MSXB5d1d2THd0TkVLQ016TVE?oc=5)
+- **[한국] 전북창조경제혁신센터가 지난해 실시한 예비창업패키지 엑셀러레이팅 교육을 마친 뒤 기념촬영하고 있는 모습. - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilghBVV95cUxObUU5ZjlPQ3RsX0FRZlVVQXVrSkRSckhabUl1TGhKcDROZldNdE9Ucm9MX1o5Q0VmQTJOaDdZR2x3cHVqVExCUk1PSDBwM011TG96TnNsS0phYXUtWTdCNklZd3VGMmhnQVRtZ1NrcGoyQ3JrOTRFS2VsZXkzT1Vua3ZzdU1QajRnOUJrMWNyTEJTTFpsMTgyWHFva01ST09JRUh3aUN1UFBEdVBqWXhQN0Y2b1FSMmF3UlRaQXBvbVBscWFUR18ycUNXbGk2Nlhpc1V3cmh5aHUwa3BmelV2bmR0ZGI4SmRiZC1mVEJ6MjlKSlBWdUR6ZDRaVjVuc2VsZVZGXzRtTVljVTFFd1RsZ2RQRS05WEo3RFV4NFZGVjExejNra1doWmVnbm5MenJWVmJSYnhLVTNtanBYRnNrWHRjREdfaGJfTXhMbWhOWnk3OTJoSXU3SGtNczlJZmU2NTRQWHdVcVRCU2lxdHZtUkNUN0hsRjdTT1hlMFRCN243OC1mczhnb05XaVpERDI1ajNRVEJreERSeWczUkY3VlI4WXZtNS1vRkJCRlRRQkZJa3Y3cWlxVG9PcGt4QTZjMXUxY0tyQ1RPMHBKOFlhVVJvUW1UUEJPVTF1ZmF0YjRLdFRhTVJLUHA1WU5YTlhDRnZQVTc1QWh4akVGRW1jX0Rua0V0VE5td3pVQUlPZndpVG9fN3Y5ejFPLTZMajFub3BEWm1ZdlFCeTcyRmFGYjJsZVdkdGZHYVVUdUFfQXlyN013eDRYYnhYUk9QQVlMWFd2aTVjOFNidkZWdDd0OXd3c1JFalZIMlRsaWhLRGN4RU9qd3p0QkpLMGczVGpxMkY5V29FUlVVVFRjSGxIb3dYT0h3Unk0aDRqTFhGc3hLbG5vRFhYTDQtNUhBN01TY3pJLW9IWENSWmE0aTRnZGZ6TWVPU3psR2RhSU9JSFZBeXBkVUJjRDlIVWNrX2FPZTJ2SUZzV3FMbnV1VWhPZTVlbG5GNk1lLVdjR2xFZzRfSmRHYmY5QTl0cTlNODU4NXFVa1A0bV9WVkJwRFVXUllMNGN0QkRkQl9RUDNoYnVoc29scHhENHZwVHpfckgwMkZSaHB6NHdUUmpMS0VqV0hmaGhVX0phQU5ldUhQSzd5aU1SWVFpTFFLWlI0VXVHWi03VHRHZGV5Z09fS3BBS0FzUDkxYXVRZDUxcTRLUldac2NleWVSRVJKaW9IQmhfN3l2a2NXZWNjLUNnMnVxVjVUQjhIRGhYVzNKbkJTVW5UVEdjTXc3dUNyN0FLcU5kOUJjbXJKajFoOUpmTVQybGhNa2ktbW5LX0swdTFQVUxZQ0ZkMjNpTXJHTFdnZFM4U1o2bTRNLTRkUnBFVEE0ZVJzR3hidw?oc=5)
+- **[유럽] 킴벤처러스, 고려대와 K-스타트업 대상 ‘북미시장 진출 글로벌 엑셀러레이팅 프로그램 세미나’ 성료 - 에이빙**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fRkZpS1JhbF9vWUJqRTRZbWEzc1ZfSDVrQm15NFktQWZfWkNvZk1rMl9xenZNbzl0VmRBZkpHbjRWNEI5eUJoQUxZUFJsNXIxem5scGY0djFnaUlxSjBxemNXbXZqZTDSAWtBVV95cUxPRDRXWU1ZcGkyeDFFTmdNMmktbVNuYXdYWjVkbkswYjA5NWY2YlM5azc2eHdZMzNSOXlNZHpjX3dJZ1FzQXpyTXhhZ295V2M5cjRqSEp1NEVIMGFLd014aGhlLVp4MGk2Zmpqdw?oc=5)
+- **[한국] SKT AI 스타트업 엑셀러레이터 3기, 15팀 선발·10대 1 경쟁률 기록 - SK텔레콤 뉴스룸**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uZDgycXI0VFVranhfaFVENnNrTXpJR055MU5ZcVY5UXpqUUxoUmMzemRFLTkyUGQ3cjh1MFlqV3VFWW1mclN3Sw?oc=5)
+- **[한국] 한수원, 공공기관 최초 'AI 프런티어 액셀러레이팅' 추친 - 투어코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBTaTBUTEpYNkRabHFxcTRaTW5QaTlmZ1VtdDBjZXVFbWpkb2FYN0JTWVVRVmZkcUtud2pLTFRuOGtCRk9Ta3BEQjdIMkpyUTZMUGtxRkJJSzBqSVVWNHhlMHhvX28yZ09UN1JKaERn?oc=5)
+- **[미국] 와이앤아처(주), ‘판교스타트업 생태계활성화 엑셀러레이팅’ 9개사 모집 - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE54SEtDTlU5QW1zSDdrdWxoaU1MbkxNRHBBSG9USWZ2QU9aUWZfbkF4LXFsaE43VkQ5OHpRQ1RfUEhQUHF2ejQxaDJfbHJ6Q095S3BDVzVnbFNOOGlET2RRZlJTRm9hT3NO?oc=5)
+- **[한국] 와이앤아처, ‘2024 글로벌 엑셀러레이팅 프로그램’ 참여기업 모집 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Jc1NLeXJjbVp5bEJEREJHQlRESUdRMTB0NUx5cnItTzhJQlctNFRsVFBqdm9EbGt0Yi1IMXQ2ZG51UmVHd1RIUHBIaFJ0Nm1VbXpkVjc4bjN1enMweEYybDRoRlI?oc=5)
+- **[한국] '경남형 스타트업 엑셀러레이팅 지원사업' 10개사 모집 - 경남매일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5mUkRJUW5vTXlfOENiQTRfZnNSZzhCRHRvVV9IM0FTNzlhdGZ1Zk9YQVJRM3lldW8zN3EzT243TkVwcjdYaDctTXF2R2k5RlJBbmV0WG8waTFSQ3dPdmM5Rk1hNFZCamVybFE?oc=5)
+- **[미국] 서울핀테크랩, 미국 핀테크 엑셀러레이팅 프로그램 참가 기업 모집(~7월11일) - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pNlNrYTdQdnZzbnNUQ1BFUE5IbExoSGFKeWxZMmZNWkZCcE9hNFBJMGJsdlhrRGl6LUtIM3lzT3VnRWZoLUNTLWY2SDRlbHM?oc=5)
+- **[한국] 한국예탁결제원 'K-캠프 광주 6기 데모데이' 성료 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4YlV1U2dRSTBfNG1YWXpjZk50QkF6ZTFScmNmLTA2Q09MMW9MS2daRWVwRWJHR2RCdGVxWVpPV0VubVBDeklhNVhYUVhLNE5VSU9Z?oc=5)
+- **[유럽] 서울대 학생 주도 엑셀러레이터 스낵(SNAAC), 액셀러레이팅 프로그램 ‘낵스텝’(NAACst STEP) 7기 데모데이 성료 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE02TnpicEpLNGxnVW56cWhXTlZ2LVBZM2RZdDlBQmh6Um5qNlBBSWV6N1d1Ymk3LXlzbTAtbjAtU3pLeUVzbXZvbG1qaDJ6dWlrUDJ0TlcwZ2dlNmE4cnJpTjdUTWdFZ1R20gFsQVVfeXFMTjh5d0xYWVpXaXhRWlFwc1lQM2hMLVFoVjY3Z2N4TnQ0Y0E0MEdxcG1nUTRmSGhkZTdXc3pic1FNMGlJeWZMSkhneFJiT3dEZzhzb09TbEs3U0tPZHBobEhIVVdWTUNJeW4yX0ty?oc=5)
+- **[미국] 임팩트 컬렉티브 엑셀러레이팅 프로그램 우승자 발표 - United Nations Development Programme**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixAFBVV95cUxPV1F1N3RWUjVEaFhKU0ZvODIydEh1eDdnZW4ydF9mTWp0aHNrREw5bW1ORjdlWEJfa0I4em0yN09abkxZZGNZdHlFV2VoMEVwLTY5TGt1U2lnV0MyUXdKWWFqel9odlRNNHpSZXMtaGRqTjdDREZpQ3JJU2FTYWE1OTVxRWtRSmhscEQ2bUVJUTFMWTlFTFA2Nm9ZTjJfT2tqZV9Kb2c4OHFqTllzWl9BeWdVWTl6UXNUSHFXN25fSUVNQzIz?oc=5)
+- **[한국] 위플로, 글로벌 엑셀러레이팅 프로그램 선정… 美 진출 - IT조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1aZTdnclVrOWhNWkRpN0RwSk1hbTN2QWE4N041V2VHa3NTNGhoVTg1YUEyOWJaMm1pcGkzc3NKcjY3eFgyd18zOEdnWlhBejM1RFRJY2FDcmdUeVM3YmxzV2pUcDVmODV6SEpwS3QxV2zSAXRBVV95cUxQZGl4VjN6VVk4WHgwQkJCUndoZGdTTmlidkZJemV6RFRzRjBtYmt2VHY2RzRMNDFaU2dXaHdJbmFDbU42dFBYV0d0WlZpLVNiN1Vjdjk0aktKX3JxVFpVMFVNUEQ3ZVFmYll2S3dvR2xWR1pVQQ?oc=5)
+- **[한국] 2023 전북 콘텐츠 엑셀러레이팅 지원사업 실시...참여기업 모집 - 에너지경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tbEY1NDdtWTI4X2pXc1puM0Z1Z1pmWjZrSkwxLW5BMjRRNjQyTFhiWnNSWjk5dUpEVm5YZmxPa3M3X1BvUzRsRVVoX0V6b2hPZEJXQjM5c1dSQ0k?oc=5)
+- **[한국] 스타트업 엑셀러레이팅과 오픈이노베이션 - 브런치**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSkFVX3lxTE8tVVlTQ01VWTBnTnR1S1BnZFJOTDRNVlhxLUNtWGtuYUVlOFFQYlNnd2xhYUFUTTBvc1U1dWJFQXA1alp3TDJNXzBB?oc=5)
+- **[한국] 독성연-美 보스톤 '심바이오' 협약···"초격차 바이오기업 글로벌 진출 지원" - 헬로디디**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE8wRWQtalZkdUtIR1BGLWhfckhVZHFKczFoeWJHVk1QZDNmcWtkRkJBZmNyeWFCSkowRXM1YUNpVGoyUm04QVY0R0NFczYxQndDeHNreHFVUVJ1dmIxRmtTUFVGT0lHbXFIbEE?oc=5)
+- **[미국] 천안시, 스타트업 해외 진출 '글로벌 엑셀러레이팅' 성공적 마무리 - 로컬투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBMamJtbmxmQUY3TEVROThYWE1pT0JRNndOanVtUV9udkU4OXZQSVNtN3V6VWhQOEhsRG81b1ZZSW1udzZUTEZCVjJqU1FrV2xfdVVyU0JRVzRmb0FsNU5ZQWtUS09DRUpYNUQ3Z0RjMmo?oc=5)
+- **[유럽] 클리크소프트, 판교 스타트업 활성화 ‘엑셀러레이팅 데모데이’ 성료 - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2ekh3bkJZbXRQeUtSVGtyd1ZaZnF1bVNsZWp3S0ZNUWdQQ1QtaWl0LTlUNjBWTVZ4bVpkUzZPWEV4VkxxdjlKVkhfQ3hnTm5DMGt4aUw2YjZ3UFphRHI1ZllVemttSV84?oc=5)
+- **[한국] 코드프레소, 보다폰 '글로벌 엑셀러레이팅 프로그램' 국내 첫 선정 - IT조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1TeGNZdEd4UTgyMnRNWHM5SFBkRm0zcWxBdlZoUHNWS1FkOThwQy1qSTljUExvdWRaSF9vdHlzcFFoc2I4ZTRmMEN3Y1pKbkZVTmRVaTNkZzh3bk1taW9CQ2FiRGtTdk41cmpWSGwweXPSAXRBVV95cUxNeGxTS2dsYXIzN3hELVJvcEwxUTItTTl5MlJNZ3RiXzdRYTk2NzJlYk85V1BiWklLVmdhVEZVVEpMLVU1TW1ORHB2a0lvWnJDVDJna1NZXzRseVQ5TUFvWXhUVl80dThtWHhvM0p1bnZ2U2MxMw?oc=5)
+- **[미국] 뱅크엑스, 중소벤처기업부 ‘글로벌 엑셀러레이팅 프로그램’ 선정··· 미국 실리콘밸리 진출 본격화 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE10cXl5Vm5ka0FWTHdHMTgzSHJZZDhfOXN5MFRiU2NlMVZOaXVYSTZVTl9tTW1uZlpPQ3g2ZHV0c0hnaDJycnIwOUFPYTFiZzlsWlRXdC13?oc=5)
+- **[한국] 「2022년 소셜벤처 엑셀러레이팅 및 해외진출 사업」 스타트업 모집 공고 - 스타트업엔(StartupN)**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1BNF9rY2ZyaFVSaUxtR1FtT05QQUhoSVhZMEhWaGIxaGlPT2xWZ0hoLTRwbVotdHQyNlBNVkxsTTkwTk1JelRKc3pRZnkyRWU4b0FzUnRvcm4wOXcxTDg1TEFGaE5MdWQzXy1LZGtn?oc=5)
+- **[한국] 한국패션협회, 패션테크 엑셀러레이팅 지원 - 파이낸셜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oYU1uVTl6emtxRkFrMzF4TjNLZEZFbmp5emhfSG1fUUQ4a1RzY3hVaW41bWVNbjUtMTRoRkVIZEJlUjBRNnBFemhxc3p1UUZFUVJ5OGZIM016dw?oc=5)
+- **[한국] [영상] 안양산업진흥원, '2023 청년창업기업 엑셀러레이팅 IR 데모데이' 성료 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lYTlXMkl1UGZBaGdhQnFpX0RMbkJCVHFIUGJUdV85OWlVVmVMTVh5Sk9NZXhKSkE5TE1JbmRvNDVtd1ZaOEZIak1kVjZ0Zw?oc=5)
+- **[한국] 국민체육진흥공단, 스포츠 글로벌 엑셀러레이팅 사업 참여기업 모집 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkY0ZNSjVXSXNadzNvMmtIREhkbkxPVXRtZVVFYmhmcXFXb1c0M0pGYVlnYmhwVDBmWjc4N3lKd0o3TFczSEdaejFORVpLdFBDUjJOVWR2THVlZw?oc=5)
+- **[유럽] “의사 고액연봉? 딱 3년 남았다”…AI시대, 진짜 돈 버는 직업 - 중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBS2lxNWdjQ1VTY2tBN1JSbzE2TnVqREZzWG9FR3RJWVRDaE1QcnFNd3lYZVBsOWlpWXdoYmMtMFRmYjNheU55OEVxSkVXaHp1N3g0MjN3?oc=5)
+- **[한국] 빅테크, 7600조원 ‘AI 군비 경쟁’… “반도체 수요 탄탄” - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOc2RZbjU4Vk1RMHl0T3BqNTFDY29keE9KWWxiZmhMMk5qSERDQmlUMDBxM1JKQmJuV2hLRDRlRUxmZzZVQ3h3Y0tWNnk0cWRtYnd5UlFZYWc1UjJIYVVYWmhWOW82YWtJUmhjSWZkU0ZCNWlWUlNaRGJ2bEtJX194cEtObw?oc=5)
+- **[한국] KAI, 국산 AI 반도체로 무인기 '피지컬 AI' 띄운다... 953억 국책과제 방산 주관 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFB6Y0E4aE5VeDZNdGl1NEwxd3pOVXdOdExzaWl6QkVnU0NaZXJPREc3U1RuZjhSUnp6R2h4OHhoblVnTENMS19fRTd4YmNyUms?oc=5)
+- **[유럽] KAI 국산 반도체로 '피지컬 AI' 본격화…무인기 자율제어 개발 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5NWVhjQzZULTR2d0hOZlR4dW9kenJ1UUthRzJxWjdTVktwY1BZbFlXeVFqMDliYWk4eUVQbFVJaGtEX3BZLXNCYVhIUVNWVDZ0WlJ2aUZ4eFMyWTBLN1RxMWdxWU1lVm45aXJPYtIBckFVX3lxTE5PM3M4enowMTE4SlhDTEN5a0ZiTTB2cVM4TFRicldRWFJlckVfaElaZmRfVVdWalpDQkh5VUYweS1LU1BXbkV6aDNYbnRXUWxDTmtKRkR1bVdCdGJlYVZyYXRXLXlHUmh4LUkxU2lNNHVjdw?oc=5)
+- **[한국] KAI, 국산 AI 반도체 무인기에 탑재…방산 피지컬 AI 본격 추진 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zeXJyWXhPUWtHWjVweVJvN1MwN3I2RGtTS3lIWmN1dnpKRVhib0ItbjF4ZVlSLTJ1TmtFaEJyRDBnUmRUWTRPOU5NSGplSGlEMkJLUTFsM2g5eHpTa3VlTzRwZng?oc=5)
+- **[한국] "해고보다 무서운 임금 동결"... AI가 가져온 진짜 위협은 '소득 감소' - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE0tY2stbGt4UFhoTEktbldCYkFkaWdCTzVHUmg1RmhRNHNCZFZSZENMZjFrODVrVUR0ZFJ1NjlRdF9ST1FScjFyVEJOZHBKVGdnelYxVEZtN2VRWXRMbnN0dTIzaHpETXBET2c?oc=5)
+- **[유럽] "AI로 재난 실시간 알림"…세종시, 공무원 개발 플랫폼 시범운영 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xUWtSbWcxZnd0a2JpRjZJcDRtYnQxeUlDUEgxN2cxaXo3ZUlDOVFDLVp0aURpX3lGWW9nS0luQzBmQmF0YTdrcWpualJkRTVBZmdWX0FJQVg3M0HSAWBBVV95cUxNUmZLbERxZjVIV0ppX0ktT2hjNkt2MEpUYm9jLXhSeGFTNk1CX2M0N2Mxbk1VXzlJMml6OGJkaGNlbkVLLXNvOW9YVndHTDluVkw0OGFwQWZsVkVqT3JSUTE?oc=5)
+- **[유럽] AI가 DRM 해제하고 수 분 만에 새 사이트 자동생성… AI 불법스트리밍 대응 시급 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9aYWk5Q0lXWFpQMmJlbkM0eHhaVkd3TjBPWHh0Vk5SbGNVbXlQNlJBaDFjaTlGcFFxTlhPOVRFdm1DcW83cGxkWEU4NEM3Zw?oc=5)
+- **[한국] 정부 피지컬 AI에 1.4조 투입… 앞서 뛴 시선AI·유온로보틱스 주목 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0UGd2MzZzZHlCZXk2Rk5nRkktRHU2X0NOWGdNcnNmSTA0VHl4MFM1bDlxSlBYMUxFTUFueVdrNDhsTlZ5QlI4dXRIMjh1bnd5YjdRRG1LQzQ5UG04MGRiOWpzWUlSWVE10gFuQVVfeXFMUGhhWlowNWdaX1B5MHV0eHJCVXBsZEl2cVJoS3hOZTYtMG5hcVp0Q1ppSzctdjM5cEhaQW9RbGxFUjQ1Ym5lRGtROEVqcnNsVWVveWgtYmtFTXJfTUFFTjZJQkxPTzFUQTlzc3NzN1E?oc=5)
+- **[한국] 'AI주 폭락·급등' 뒷편에 숨겨진 20대 창업자 '일촉즉발' - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Bc0E1TDktcnJYMHVBZl9heEVoM0ljcGpsTC1GcFhLeG80Sy1VSkw3bXV0ZTBXc3NHYVVhRExLSUFBMjcySGRqSXZ5X2dua00?oc=5)
+- **[한국] 한 AI 펀드의 몰락, "모멘텀 청산 끝났다"…반도체 8% 폭등 [김현석의 월스트리트나우] - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mUFdjRXotckFzamtXUVg5MWJVM3I3MXF2bTVTT1FqM2U4RUVKamVfMzBvcGFiQUpHVVAwMG9fMHRqbDJaWWRsaGZndTVrZXpiX3F3VFhCTjRBUQ?oc=5)
+- **[한국] 24시간 개인 AI 에이전트 '제미나이 스파크' 를 선보입니다 - blog.google**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SRnluMnFGX3NlMEV3dTh5ZEVQNUozWThGWWktYmJPN3dlT1JMVFdVazM2cnY0ZXF4RmktenE1UDNrSWhnc1J1VVJIaFhyLTJyTFpxVGpjaGhOd1VuME85Mk5BcnlLazg?oc=5)
+- **[한국] 구글, 개인용 AI 에이전트 '제미나이 스파크' 국내 정식 출시 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE10UmFfc0VfbFFVRTdhRjRfblQ5bEs3TXVnazNuQXZuRjlFVGlwN29XT3p3U2QyMzRsT2R4TngyNVg1UU1WVGJ1QjF1RUk5Y1VSSTJRSkpnMlBNdi1CSTVpR1BlSVlEYmxUdVE?oc=5)
+- **[유럽] 구글, 로봇 구동 AI ‘제미나이 로보틱스2’ 공개…“매듭 묶기도 가능” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0N0bjBHWW56WF9RR0pFRVRpUXJ1S2tpb3UwcE5neTBEZ0Rva21xRDhBQ0VlZEdSU1hEM1A3VUd0cGktY0hreDdGRm1IUTNDN0pFdUhNWVdIMmp5Z1dMeElTUTdEZWZuc0hhdEJFQWlOOUxRbkxzNHFYLVA5MlhHNll30gGWAUFVX3lxTE1GWDJoZ1RUZE52Wk9lTy1FWVFiZThHVEUtNjNTM1NVZ1hqT1BOQVVfaFpVOFVieHMxYTZjb0lwTEhaN2lEYWhmaG9ZaEotdm1zMVhnRGJvZU9hRUp1LVdNVS1BUUlMcWJYbmczUGdldVpuOEVqUjNKcTc4cHZzcEkwUF9SLU9DQm5jRUxrVzVfVDNxc3ktUQ?oc=5)
+- **[한국] “수학 전공할 걸 그랬나”…AI 기업 신입, 연봉 14억 이하는 쳐다도 안 봐 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OX0dTalVQV0FBMjRVMHcyVk5YMHdjZFZOeEtDU1J3WEYwTEdUa1VhdVBjUTNGNWhmYXRvUzcxYjR0YVZKRml3ZWx2dUFfZU83NlBpVw?oc=5)
+- **[미국] “영양가 없는 AI 글 솎아낸다”…IT 공룡들의 ‘AI 슬롭’과 전쟁 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxPREtSWUs2VFQxTUZpWTExN3F4NzJrY1FmLWFReFZKTHhLUmJYRnlVdGtvdmEyVjlmN29PeG5uMV9ienBzc052VHhSc2JfR2dFU2pXbnVadDRYX0NCUm9BNno3ZGZjbW1DQ0IxUVk5cEt4cmI4U1Q1LWhSbnlqRXNtOEFyVQ?oc=5)
+- **[한국] AI·드론 기반 협업으로 농지·국유재산 조사 혁신 - 전체 | 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMHJ5N1JWOUxITmxnblV2VlVnc1Y5TkNOVXVHcjFIbkpiNU1WSXdfaElCc1pKaFdKM0dhb1FQYXJvWlRuN3RFUHB2V0ZzN3hwTFlROWFlTXV0TXhhb3VCUVo5amw5VWVRcVBuekZPTDc4UzZqTk0yamhYS1ZjVXNYemdDaDJmRDFkWUVj?oc=5)
+- **[한국] NC AI, 494억 규모 정부 '에이전틱 AI' 사업 주관사 선정 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1pUG5semw5UzUzcHpsSkNKNWxLdUNURWViQnhpa00xSFRGRzFJRzRmTFRJaGQ3Zy11Yjc3NjEwRTV4aGhVNHRpSUJVUTRuX2QzLTNLX2JMSFZ6eWkyRXlocExWY1ZvRzNWWGc?oc=5)
+- **[한국] 오픈AI 출신 천재 트레이더의 몰락... 반도체 반등의 신호일까 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GMjRRdFVycU1Rb0lqWFg2WnMtdUhYQXhmX0tIaDFfWkdNd1M5SmEyOHAtc0gwY2VyMWJUbWlOWDNMNEFQeFlxcDFQWjFCRndOU3c?oc=5)
+- **[한국] [AI픽] AI 신약개발 뛰어든 제약업계…발목 잡는 인력난 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iRG1Ga3p6aEwxekNMV0xuaHAtYTYtcE93ZW9sYUY4YllDRlpHU1hmLUxRSGRWaWtqakxfUmJ0WlZsek5VU01kOXhHQXNVQ0dCcTVDZ2ttSk52aDJySnluQdIBYEFVX3lxTE9iRG1Ga3p6aEwxekNMV0xuaHAtYTYtcE93ZW9sYUY4YllDRlpHU1hmLUxRSGRWaWtqakxfUmJ0WlZsek5VU01kOXhHQXNVQ0dCcTVDZ2ttSk52aDJySnluQQ?oc=5)
+- **[한국] SK하이닉스 폭락 진범은 AI 펀드 강제청산 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYjhERWhWS1NyT0l6RU5YMlNNemRPdUNlMkFSWUJma3pwSnNJWjBVaHUzeC1WQ1NWRjBMb0xELV9HaXZuaHFBdHJyZnhaVDFaMkJUWmtheXNmOGNDNGgzSWVISjRheC03V0R0Rk8zTHBXdzhrNlByTTA5NXMycDlaRENPdHVOX2hw?oc=5)
+- **[한국] 데이터이쿠, 가트너 선정 AI플랫폼 5년 연속 리더 선정 - 디일렉**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtV0szX0N1djJfTUhoajdFMnZkZmxraWVCeXE5RFl0ZXJDQlBZOW1OcjhyS1d1Y1R4a05nVWxXNFhKdklCdll6Xzlmc0l4OV9UcjhiVGhOWUVVa2NMRWVSQi1VdlZldw?oc=5)
+- **[한국] AI에 "WAR 만들어줘"…美국방부 사진이 부른 뜻밖의 논란 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnpSeGtJWGNPVHpoSGdtZUZLQy04cmk3Szk4ckpPRXFFRmRFZ3JyTURZYm1DZ3M5ajRzU2hmWVdrS3FPYzJxcmx2a3Q2VmFUOThKV29ZeWdtTHVETUtTby1JdEZQS1E4M053YVhXSzlZaGdYM2x2YXh6Ukw4QXEtVXAwRQ?oc=5)
+- **[한국] [AI픽] 딥엑스·KT·세솔, 'AI 에지박스'로 영상관제 시장 공략 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PZllIRjN1dG5rX2swT2FhUlZ1dUtSWDkxNDZuY2ZIRFl6cEFtc2RCSXU0X0U5alpjejRRNWhucEkwM1h3aGNRTTAyd0NTaVRSVjMwcVF0Szg2NG9FMUw2ctIBYEFVX3lxTE5PZllIRjN1dG5rX2swT2FhUlZ1dUtSWDkxNDZuY2ZIRFl6cEFtc2RCSXU0X0U5alpjejRRNWhucEkwM1h3aGNRTTAyd0NTaVRSVjMwcVF0Szg2NG9FMUw2cg?oc=5)
+- **[한국] 우주 AI 데이터센터 최대 난제 풀 ‘냉각 시스템’ 특허 나왔다 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxNcXlBdzBlaVpaTEdFdU9BUnk3djZEZzRFSC1NOGRta1o2TTQ0Q1VrUWRzUzRlS01YQUpSbUwtR0VTODBrMndkN2ZHSGlxM24xbzdzcHhPdlFJN2RPLTdjV2o2bWtNODFZS3RuelNCX3IzcWxCWE1GV0tnZ3JiLUxJQm5vZw?oc=5)
+- **[한국] 앤스로픽 AI도 테스트 중 탈옥해 기업 해킹 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOOXJoaHdpMnZxeG0tSlFSZ0FfcjFjb1hXV21CdnZFRDlFUFlGZno2RzFZMnBXN3BIQ0JWWWx5aUlEdXM4YkxTbFdzMW1MMXU1R3VIbHdTMzRJZDdzMTN0M3BoQmdFVUVrZk9oVFlyN3cwRk1qTHJYN3dIakdQRXJ3V2dfUQ?oc=5)
+- **[한국] 오픈AI, GPT-5.6 라인업 가격 최대 80% 인하…효율성 경쟁 가속 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1LTEpnc0RoRnJKRlFWVkpmTkZnOVJSTXdjV0psTHhUU0pRWkpQdjluVkJ5WFlqZm9kS1psSWR2by1nMWdhTnRoaks5TnBqQjFaYmNHOF92OUJhMHBzenNVdFVxVEZDM19lS2c?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사와 로보틱스 생태계 협력 강화 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1LNC1xelg1WTU0WDJIWE1GRzNmZmlTZkZ0STlMTl9oWUdENm1KckN3UHJjeWM5emNoU3JYam5yc2NGREM0YS03MV9xVDhZM0pJM0g5d01lLTNpVThOWTVVZHktZlR0SHYzakE?oc=5)
+- **[한국] 우주 AI 데이터센터 냉각, 태양광으로 해결될까 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kMkk0LUdXdmZjbUkyM09CV2R5WUdyN0I3OHJxeExqdzc3Z0hrbEEtVzJtVllWb2xUdUhtb2FRWDV3TkhvNUg4RmphbmtCQ28?oc=5)
+- **[한국] 폴라리스AI, 제약 현장에 첫 '산업안전 비전 AI' 구축 완료 - 톱데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE93NjdVUU4yR3dpTTJNLVdvNExNT0ZrbnZTTzhUb3RfOHNBMS1TajFJSFJ0OG42NWNwSmJzZEdzVFlmU09qbW9fVEptZHBtNzB4?oc=5)
+- **[미국] 크래프톤, 자체개발 음성 AI 모델 ‘K2 라온 스피치’ 공개 - 에너지경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uNzBjanAzLWZNUC0zdWMyNTU2Y3Z6SmI0RkxkTXc0eTJnWUpqQkRBbW1DSmo1TU85RUFxMkJQRDZHclh5LU9QNkpfV1VWNzhDbVUxTldkUUsxR1U?oc=5)
+- **[한국] IT서비스 3사, 2분기 실적 선방…하반기 승부처는 'AI 수익화' - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qckZLUlRycThYbFFqOEZuemFQZWxjaHhQbnhBYklOZXNQdzBtT29qZ09RR0NFR25VZUtjTG5GRnNVYWZHMGFfUjNTcC03UF9kNmwwQ1NB?oc=5)
+- **[유럽] 'AI 가성비 경쟁' 본격화…오픈AI, 기업요금 최대 80%↓ - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qOVNYZk5hdTdFNW9pSmhhNmdycHFEalJUM3RVczZwS1VEU0JmTGU2dUdmcEpHOFotejl5M3YwWHN3ZHoyTEVuQ0NmdngzTlk?oc=5)
+- **[유럽] "AI로 재난 실시간 알림"…세종시, 공무원 개발 플랫폼 시범운영 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCSjdkRERORnhoU0liNnY2eU54eVpyell4RndLclFxdUFXOW1QaVI0OGgzOXR1ekNXZDg0OGxUTllOQy00UG9UWjVLaW8yVlU?oc=5)
+- **[한국] NC AI, 에이전틱 AI 국책사업 선정…디지털 업무동료 만든다 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hck5oY2NJMlhTT04zN29TcW4tNlMtcElWM1lqUTlHZlhzbDE0cnV5NWpvbFBCQTZlbDdjSnVYX2ZPNUZCNXg4M01uc00tWWNCbUp5YWtDUmNNSUVSc2R2YzNJNDE?oc=5)
+- **[한국] [월가 톡톡] AI시대 커리어 조언…"성공한 사람 그대로 따라하지마" - KB Think**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9VZWd1ay0tb1NhWGRPWVpMaHNRcHVoaHFRUVQwNnpsbk1wMUQ0SU5uTndWdFZ4TVc2SlhzcHFiMWRkbGYzQ25zVEN3ZEVNNGFwZm1qZVRpRXNJUkVmSDZKWU5DTTJMdTU2TFJaVWFXbm1fZw?oc=5)
+- **[한국] "AI로 실시간 재난 알림"…세종시, 공무원 개발 플랫폼 시범 운영 - 티제이비**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5zcVRGcjhXZzFUOGIzLVdZU0l1b29QTTBlaHlHa0NNNWwzZTB1WFF0T1o3M1dZdGVjQkt3MWJWV2szUGEyWDd1NUlUa2xvRGdYb2lmelZyOUZhUHBX?oc=5)
+- **[한국] 숭실대 AI소프트웨어학부 윤진혁 교수 연구팀, AI 활용 서양 미술 분석 연구로 세계적 학술지 PNAS 게재 - 중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KdzM5YnFmOGdzVWNxN3UzYlJxN2lQMVlEMmhON2pnUHdlQVU1cW1fTjdBME5QQjYxcDNrTU1CMGZ3SGNaU0JOeFFXOHp1OW1udWE4RTZn?oc=5)
+- **[한국] 시흥시, '복지행정 인공지능(AI) 정책실험실' 공모 선정…인공지능 기반 복지행정 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE11Tkh5XzJ2aTdlRHZLX0FDM1RfcnlMNHg3UnJxd2JPaDlnN2tGYzEwWHRZUXlzNkJoWXN1Y0EyUkhUZnI3ZDhtcEhLS0dsZnRyM28yZEhCY1EwZnc?oc=5)
+- **[유럽] 에너지진단, AI·데이터 기반 상시관리 체계로 전환...140억 규모 R&D 착수 - 전기신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE95TWdyalRyV1FmaVpTeG1ZTDgya2lNYWlMLTRvUTJPQWNIbmcwSUl0WVJKVUpQR0VuNS03X0J0T3pUd0JLZk12ajAtdnkwZzk1aEE5N05Qc1A4d01GSmtOMUtpZDZLT19lVVhoStIBcEFVX3lxTE1VTmZKeUJsR19tempSMnpoejZ1X1VCRk81SGh3NXBFa2JqRmlVbmkzVVNtZi1rSzlJMm9pQk9HOFdvaDIybnUwSTZDWlhlNWNieWpwNGV3Q0tEUmMtTzZobzQ0aXdXZTFLbGsxekViOTA?oc=5)
+- **[한국] [AI의 선택] “보이는 모든 것이 데이터가 된다”…스마트 안경이 던진 사생활 논쟁 - 산업일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiREFVX3lxTE1wY2JKZWlFWDk1RGdtNVZ6UTZJR0FyZ3pPd0JyMWkzSWZLM25scXY2dzBtZDBIUUFQOWJ6aS03NTR3d1Vz?oc=5)
+- **[한국] SK그룹 임원진 한자리에...씨메스로보틱스, 제조·물류 피지컬 AI 실증 협력 확대 노린다 - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XX0RGZDBBdzdLd2E0SWVheThlUWhGRVNQMWNDNGRmdXEzT1d6azNaRXJERHdSVXVzVTBwN3N3TGcyZkROWGVmZGhZLUhIazBjcDhpR3drSXN6TEwxUWpJ?oc=5)
+- **[유럽] 오픈AI 해킹 AI, 허깅페이스 넘어 4개 서비스 계정 침입 - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzWmJZZG1VdXNsM3NrbDNNaVBZY0JrXzBFbTRYczFRRTFTb2FQanYwdFBTRFVWaTRfalVKR1ZjX3I5SlFvNjdyVmdLcEY5VjdTYW1ObFdlalRPTGpEU3Bn?oc=5)
+- **[미국] 충남도, AI 산업 뒷받침할 전력·용수·인력 기반 함께 챙긴다 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OVGxGTDRXNnNMRWtSNmlveWFBY2hTR1M4ZkN1UFEyd3hlaF9DSnYxazhXQ3VxOFRtejlKNnU0RWdmRExfajlWWExZbzZqQUIxdlhScDJ0Y0xyR1XSAWBBVV95cUxNd2MzWHQyejZldG8wblFzSXJsMGxFRUdlMW0zMUhlRm1jVnBYRXRzMTNRZ2ZFRjI4WTdJQi1QZzdpdXVfTmYtNE83d0s2SlBoZlM1WTNhcnZuSWxFRmdvV3c?oc=5)
+- **[한국] LG AI연구원, 국내 최대 7천500억 파라미터 'K-엑사원 2.0' 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIUUNibnUwWW0ydzJqdmNXc3dYX2xxZ0x3cUJQTENYVi15cEZydXo4RGNzTUpVeWgyQlhWLTFULVJ2ZFU5STlrNjFld2Rjakk?oc=5)
+- **[미국] LG AI연구원, 7500억 파라미터 ‘K-엑사원 2.0’ 공개…소버린 AI 승부수 - MIT 테크놀로지 리뷰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywJBVV95cUxPSDB6N0JpUDZLdVZtVV9pQ1p1ZTV1cDdxaS1vQi1WT2lGeC1jN05FcnN6SllJSkZGWHJlZTYtMEpSd3cxQWU0V2JBRlpZQU9QZlU1S3U3T2FpVlgxaFk5WVJ2dDRKT2g2RXYtb3FkSlNiU3ZhdHBUSVVaZk5PWC00aWNkaGE1bEhNeWZCN1hjTndZRE1VNDdpME5uMTg0V1RmOG5Ma2JOQ0kydUFYT1p1MHNfbUtTRnVIbVBXcTRqZHVwQ01IWlNScUJoRGQtQXhUM3JfUF9PbHkxZzJLRE9lNHJ3NHo1dEJha3hJN2lOWXhiWXhOOTg3ZWMwT09RaEFDUTI3dmNjWFNlZlgyb0w3QUpXNWlrVUdDSXQtdzlBSm9JVXM1dXk3Q2hfazVwMEhacTZSSlk2NHJRUkdKOHI2ekZwYWQ2ME9RYk9j?oc=5)
+- **[유럽] EU, AI 기가팩토리 7곳 건설…'기술 주권' 강화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1OaG14RlhVM3hicnlzaG9lbm9iTS1HUFB4bV82V0l6X2EtMGpINFJmWWxXaXFENFdmdHI1ZUo3aEtjSHhoYm12TkhSV3VHalk?oc=5)
+- **[미국] 카이스트, AI 감각 혼선과 환각 줄이는 핵심 기술 개발 - 굿모닝충청**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9Sc3doOGtIc0ZpNC01RnhJY2hBOFhHMjc2UEI3cTh2QlBxVWQ4NWg5SGVIdUVidGZVMG5DNHB6UEtnREdWQTRwUENtNUsyRnNwS1hQTS04XzdYMEFjeWc2WHRTM2o4VUJnX2t2YldyZmZRdw?oc=5)
+- **[한국] 신약개발 AI 바람 타는 K-제약…“89%가 이미 쓰거나 도입 예정” - 아시아투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9IXzF2aTVoV2IzV3RnQW9hQnFxSi1pT2xxM1pyZVJLTEJ6T1J1WmhMazFYd1kxeE1kaXRkTXVHcWpwelJlQ2xFaUFQN2l5cDN3MElPczRuRl8xVnF4VkFDODgwTHNLZjhudTBJdERR?oc=5)
+- **[유럽] AI 고속도로 먼저 깐 아마존 통행세 급증…도로 깔 때 마다 돈 버는 삼전닉스도 함박웃음 [플러스 관심종목] - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wV09BbGdQMnVvUWlTdkcyd1VlNURxMlYwZVBueUFmNGVxN3l4ZVFRQUNVOFlqSVdTbERudkFDRWEwMGx4TnRTdDgzX0hsQnRjWXc?oc=5)
+- **[한국] 인천도시공사, 인천로봇랜드에 AI 기반 스마트안전기술 도입 - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lSDhfeTgyY0xVZnZnWksyZnRFNlJySGdPeFBFbm51bWljbkpnVnRBeGpGR1I2aFphaExleWp6aXlvM2J1Um5yNFFxeGNENXBQMnc?oc=5)
+- **[한국] 부천문화재단, 생성형 AI 중심 미디어 아카데미 개강 - 생생부천**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi3wFBVV95cUxQLVNtaFp4UU81OVBOVzBCZDZPVDVtdTZBOS1OUVFXOFd2WGoxdXBDMFRjcTdUbGxxZktneWkwX0RiNEh6d2tFenlBTHZ4R2VhZm9EZEhjb2FWaWVlMzkyRV8zbk9rdUF2bzB6WTB4U2Frd0lVSnZ4Z0RCM1ZxYU1BazU4VkpQWTcybkY4SjZJcWZfWXF6T1FBendBS3Y2Nm0wUXp6VmRONTlYNGRNdGZPZU8wSVktVWNxRVhaNlpCdTFKNWFiQ0g1RGZBcFNDRENleW15OEV2M1dRRWhEWkd3?oc=5)
+- **[한국] 법무법인 태평양, 리걸AI·범용AI 통합 운영체계 구축 - 아시아경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcGZBbkY3RUVRVjdrUHhVU0xxLW93TGFSektOYVgzaERFWVNfdWZSSXVmcEJSWUVpRjdlVjNmZ3RJZ2F2LTFfY2xHdFBDaDFnU1EzUmt5aUpob0gzZW5ueg?oc=5)
+- **[한국] “문신 새기면 면접 기회 주겠다”…AI스타트업 황당 제안 사과 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE16WTJYT1dWaFVKN3pfYVdkOGpCWi1tT1NCSklEVDl1V2JmVE01SVR5OHVlTzVRT1BPX2xFc2ZDdFhNbzdlZWtUX1c3RW9zbmVfV0dlMkhwd2NSd2pkai0xRkY3eTh2Y09pNTJ4bk05Uk1HU2PSAWZBVV95cUxQMmpCQjdQMEhOVkQ2V2xNeHcwZGF4dmU4NGJQMHR5NVpiS1E2LVNodGhqUjNVN1FHRWtZNWdZWmVrQnFaZHhzaFZBT1RHbTBHYzBwVGNGemlGcm5qZi1yYmZ0dHdyNHc?oc=5)
+- **[한국] 딥시크, 中 네이멍구에 1GW급 AI 데이터센터 건설 추진 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxPTWhqZ2JTNmh3S192aFkzMmlDVG9fWUZ1UEJmc1A2ZWNMSllwdTQ3TEdoUHh1aWR2TTA5SW1rUlo0RDVLUEh0a3AtNFZ1SHZLMnFzTndvU0hlaDZOQVlMdm1teVh4TUt1Q1dHX09OOURHaGZDeVlUU3pPNlROVUJUU0pR?oc=5)
+- **[한국] 한국환경공단, 인천 공공기관과 AI 사이버 위협 공동 대응…사이버안보 협력체계 가동 - 에너지데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFByYzZxVlp4UlNyRGdIM0NOZkRWdnVtYS1yNldkZS1JNjFwQXBwOERtelFyZEdwV0ZTT1lJdlZsTDRiODJ5WGRsa0xjbWFnRnk0Si0tZmxzNmtTY1B4NndBYkwxejJORjRkeTV1MDlGenRWQQ?oc=5)
+- **[한국] GPT 이어 클로드도 외부기관 해킹…현실 된 'AI 보안 위험' - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uTVFNek5uODBQZFk1aEFWX3A3a1dTallQYlRBbkw4dXNVczNlbC1zZDJES0M4Z1Fobm82Mi16cHkxX25fZWdGZGxkbnRKYWc?oc=5)
+- **[한국] [만나보니] "생성AI 다음은 영상AI…한국에도 세계 1강 기회" - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSVkFhaXcwMndPN253REV3aUNkTHpSYWlvZThQcnhDU1ZTYVl5OHg3OGx5bWNCNUlQektZTUdtN19hVWZsVTdOX0oxU1ZBRXc?oc=5)
+- **[한국] 법무법인 태평양, 하비·챗GPT 아우른 전사 AI 체계 구축 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxNdW85N09GbjJXVU41VXJlU0d2OWhnTFE0dkExQWFPbExxc2NtdHZfVE84aF9Ic1NyZnpNUkhHVnE3R0RrLTg4NGg1cWxzOXpTUDdEMmZCQnRWaDkzVWthNXgwMFg3alQ1V3c2Tk9kOW5xZmRhX0sxUWYtS3NJdUxHaWpITdIBlwFBVV95cUxNeFh2ZEdFUXVQWV9fc2NtSHFHV01EcV9iZ0t3TWZCdEpTN3ZlQWZPTzdiSjVabnE0TzF5YnlBZnIzZTVHNk10SE5LRlp5STlBaTFuYk85VU8xLVVJTHlwcmJpQWxvSEJFT0F2UkNjZ3UzQVpkX3ZPS09VbVRZVk03QW9zT2ZITENRdWxFdHBmSzc0MHpYWDVv?oc=5)
+- **[유럽] 의료 AI부터 지역 콘텐츠까지…대전 공공데이터 창업대회 13개 팀 수상 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Sd25SYjRrbUlBeUxfbkJ1TkJmaUl1eXI2M19HN0IwTlJ4RHdHZXdTTzFEVy1NaXZaRS1DT1B3NHRoaWd6LW15eV9hUDdOZ2hPMlZjd2NSNGdTdzFa?oc=5)
+- **[유럽] AI 성능경쟁에서 가성비경쟁으로…오픈AI, 기업요금 최대 80%↓ - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IQXNpZ3JSZkgtREdNYVhSYWJrVjdqNF9IVm45NmRSVUNzcWR6cm5ObnBpYTVnQ1NYREgwbEU3N050WTdoOEd3dzJwUVYyN2Rrc2RJd2tDc2piZkV6UU4wetIBYEFVX3lxTE9IQXNpZ3JSZkgtREdNYVhSYWJrVjdqNF9IVm45NmRSVUNzcWR6cm5ObnBpYTVnQ1NYREgwbEU3N050WTdoOEd3dzJwUVYyN2Rrc2RJd2tDc2piZkV6UU4weg?oc=5)
+- **[한국] 쿠팡, 장애인 직원 AI 데이터 품질 검증 직무 신설…첨단기술 고용 확대 - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QNllCOHhqdFZnX1BwbVNya0Exckc0TV93Q2lhUVRBQ2RTLXpHRWlYbDdVR29UbmNOSjRBeTExdHZTcFZaOHVxZFlLTkxVbUYwYVgzWmtaY3dRMFFGTlcw?oc=5)
+- **[유럽] 레버리지에 무너진 AI 천재…레오폴드 청산 뒤 인프라주 ‘폭등’ - 대한데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE00ZnVTUnl0WDVfMGRodkJFVkNfQTlXVmZmT29iUi16WjBmd3lVVDAxeGlvV0I0SnhjdGdPSjFyeUlRZTNiUnJ2eDJVY1Atc2JNVkxzZmIyUDZ5dUJpbVRyZFlxX3ViM3NNU1hZ?oc=5)
+- **[한국] 서울경제진흥원·서울에너지공사, AI·자율주행으로 에너지 인프라 혁신…ESG 테스트베드 본격 가동 - 에너지데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBjb0J6dk5oN0NYaGxoT2xrUTlseXRFWDRBWEgwNGEwdWtoTkNkWXdnbEhOaVJwWVBTTlNiVmtaZzlSelJGWjkxOU1xd1hVc1VNY1ppcWdBNDM1N1QycUZMS1NfbV9FcE1SbmF0QWRNaHE0Zw?oc=5)
+- **[한국] 정의선 현대차그룹 회장 “자동차 넘어 피지컬 AI 솔루션 기업으로” - 테크월드**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YT0F5c2lJNkJ3dFFvY3dhaFFFTmNWV2NtUE8zcl9meFlLeEtjdVpoQWl3SldHNmVpZy1mdXNxWFlFcklROGdJU3FRbG5FNFBPWEFRRndleW5Tc3lwWjZiYU45OGE0TjBL?oc=5)
+- **[한국] 에너지진단, AI·데이터 기반으로 전환…산업현장 에너지효율 15% 향상 도전 - 에너지데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9lNnRqc3FnSDFWem4tbTczdGhLMDc3YWstbTNlWjY1a1lLMUdxYWpDaWRGSDhiVlZRZE93ZDVnR1dIYkpZbFNIMlVmRlg5MWh1bzZSb050VzZrMzIybTlPZU5HZkRhOXQ3R1I1ejVGVkFNUQ?oc=5)
+- **[한국] 링크브릭스 호라이즌-AI, 차세대 에이전틱 AI '보라' 한·미·일 삼국 동시 클로즈 베타 돌입 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTNDd1bTlMdWVLU0FCRktfQjFUZjBIMG1ZaXR0WWJiM3Y4bXhnMDh1UDZNSm9DWEZubmRhODFYM3RQUUNqUXRXSUEwSTB6Zw?oc=5)
+- **[한국] 마이크로소프트, AI 고객 사례 공개…업무 프로세스 혁신 가속 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE10ZGtyOWtDV2xLSnYwUUNBWTZPb3dZa1VvQmtGT2YwRWx5M0Q1NlF6bFp1TTA2S0JHdXI5Szdhejh6cmVHSlVVQzNhbFh6djlLUXNrR2pENEhyaXd5d0FKbnhRYW8?oc=5)
+- **[한국] KAI, 국산 AI 반도체 무인기에 탑재…'피지컬 AI' 구현 나선다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Fa0Ztc251ZzI4eFlPSUNBNXVlWDJwZFU5R05lTnYwYTlKa3c0NkdlbUtxMFhqWGROUUE4N25GM3pvS3Vjc2NPbGN6U1hZZms?oc=5)
+- **[유럽] 엔진 소리 안 들리는데도 ‘들린다’던 AI···KAIST, ‘환각’ 잡는 기술 개발 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Rdm5lY0lURXRzNjFua1hzNHRGbmJtaG53OERRVURpaUFFTlhYU0VaazFWakdwU0NmRUhaSUUxM182eGFZOFFJT3hNeUZtN0U?oc=5)
+- **[유럽] ‘AI로 민원 예측해 선제 대응’…화성시, 도시데이터 플랫폼 구축 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBreWgzelpXRDNBTWlJRWYtNWdPT3lQX1d2emlhbkVQWkppejgyc2tJR3dUYzAxZ21LUzlUMnlKOWFnbEdiNjN3WGVJeUpYUEU?oc=5)
+- **[미국] 엔터프라이즈 AI 에이전트, 플랫폼 전쟁은 시작됐다 - newstheai.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBRTVFPTURJOUZUUnN4RHdHQ1pCOGxuSW5oUjRLVDBQbzhhb0l5TDVJMTRUNzdrVlBHRHdXenhHaGprdVkwNy1tVVZJNnhZbHpUOHM1N3p4dVhFRFp6Vm1iVWFPeFRQY0dzcDRr?oc=5)
+- **[유럽] [7월30일] "이제는 기계가 인간에 맞춘다"...오픈AI가 '음성'에 집중하는 이유 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE0zSDZQNUtEaTQ0N3NLSnhPdDg1bzJNYWdsVy0ya1ZPN1BqXzF4dTJkTnYtQ1cwQnZhd3ZZZUpweUdqWFNFYXJrWGQ5Q1Z1ZHVMdHBPb0ZHNXctSkktTkVtWXdESkdZSkFMWkE?oc=5)
+- **[한국] 해독 불가 ‘고대언어’, AI로 번역해낸다? - 애플경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nTFVmTUptcEJQeTIyeXl4a1VsNFN2VDRtNGZtRnhoOTlUZzFsSFdUMEdHTW1xTUZINW1yRWlYMzFYbWNYam1VM0MtNUVob1ZCZW85dTFkeHBKTFJwb0dvME9BQy1XMDdW?oc=5)
+- **[미국] 현대차, 자율주행 ‘두뇌’ 수혈…AI 개발 고삐 - 뉴스토마토**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEamhJT3gxVG1WMmlUVk1xRlBVS1RSYmxJak45anBUTy1MOGNIZkMxQzE0RHZRSEo1a0drUGlCd1B3Z3hWMkpEQkZBaUNDd2hrZUttRDVVbFZuSGJzc290Vw?oc=5)
+- **[한국] 제약바이오 신약개발, AI가 ‘기본값’···업계 90% 활용·도입 - 의사신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBXNXlYaG1RNVRMSGJESjFUWVhoWlQ0SmZGNV92Qm85bVpQVHhNM2JmSV8yR1lDY3hHM0dKMjYzTGJNNGtraEQzVVhVT3FmV2h1R2pqZFUtalp0N1ZXVWREdkRvWmtuYlZzVExKSTZnSQ?oc=5)
+- **[한국] 한양대·고려대·목암연구소, AI 기반 ‘가상 실험실’ 구축해 mRNA 설계 자동화 추진 - 뉴스H**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBFNlAxM1k4Nndmd016UmJXQ2drWnlmZXRwMWxma3dSQnVGektib2hkLVpmY3hId1d6V0N1dzd2LTRvWTlERzdncDNqeVZSeGZWb05XdFZkM25nYURzczdhMWFDMW42UlVvSlE?oc=5)
+- **[한국] 폴라리스그룹, 바이브코딩 해법 제시…"운영 가능 엔터프라이즈 AI" - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pQTJuZHpCSHl3Rm11TWZyVTg0aW1YY2Q4OW1ab2FoMzhxZmcxdXhIeWRlbVVGTVpSMWlwNi1QRHNsZmI1bjFodnVIRTN0SlhnZ0hGTmw4NlQ3a1ZOU3laZlpZMEF3WXRx0gFuQVVfeXFMTnVUZm1nOHp2SG5fZkRNdUlkaEhITlYxRnVuWVlMTkI2ZXd3UnFtZ2xvMnZCVU52UXVRNTR1Uk01ZWlqRjN5NDh6a19IdUpkMWpCRllnRklyQVowSDVvYjRBQ0NXeTVZZjlnemQyWVE?oc=5)
+- **[한국] "AI 산업 사이클 초기… 야구로 치면 아직 2회, 9회까지 한참 남았다" - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihgFBVV95cUxNdDJXQUwyVTdaYUJiem9UdE5lNVVobzdNMzlUdVJKV082Q3gydnhPdDZydzF1ZnprZWEtNmVVdDBkVnVpeS1xVVNMOThzNGZaRE5QOThZY3lRVHRvZWpqeWd3ZGt3WmQ1eFJiMkxZeGxmRURCeE9OMWF3cmZ6QTNYWHE2MUZidw?oc=5)
+- **[한국] 방미통위, 지역방송에 AI 제작 지원…8개 방송사 프로그램 선정 - 디지털데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE4ySGZ2LVhLR2d6LVk2UzVheTBFQUwwWmNrM2YtT2FLbWVoUFRWd29OaEtCa09tcE1RNllCWF96aEV4TUZsWVNvWmxfWV9NeHI0UTE1Rzd5aVIxaWhkTW9oZjRXUVQ?oc=5)
+- **[한국] 구글, 로봇 AI모델 3종 발표…전신 제어와 추론 기능 강화 - 디일렉**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFByWmstY3lhZi0zOEFIVlBITVd1aHA0NjFJeTdOb1pmSW5oZ09sdnU3ak5vclNKbnVzNjFvRDhFQTdFWnZCMzRRVDdZbkVOVnNtWGxHMHB2bkYxVEVzZnhPSDU4bURHQQ?oc=5)
+- **[한국] 오픈AI, 과학자 10만명에 챗GPT 무료…한국 아태 최다 선정(종합) - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZZ3dTRng5X3lKXzlIRThYMnZybzhsczlpY2NoTno2aVhaRjNWNHIxM1R4Z0NiOFRHYmdmdVpCSUxvS1UxUWhiRjBaNDFrdVk?oc=5)
+- **[유럽] AI 신약개발, 선택 아닌 필수지만 10곳 중 7곳은 전문인력 '0명'…업계 "교육 필요" - medigatenews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNc0tIUnJkbTZVUVRBNUhxWHVyVjEwcWlaTFY0eXJIQllDdVFkT3h2NVhxZjlJaEJfMVUxTkYxckVnT2t3Wkd6WUlEUklJc21YZXpXa2haZw?oc=5)
+- **[한국] 인천대-모티프테크놀로지스, AI 기술협력 업무협약 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9PcHV4cTNVM08zaVFfV3czOFRuTU9Ha3BNVWpua0hUcE1CSnJXUFRvWE53b25DRVdmV3RwbjAzUVhNWmtVVHo2U3dBcjZ3bG9WODVYaXRLbDhMNlZ3VV9yUUQtdU9SdmU5TkHSAW9BVV95cUxPOTE5dm55aEdRSzE5bU0weG9nV19Ia3RfcTgwSUx1dm4wYWJuejVPalRRdTdybWRuR1dsT0tnOTFLYjRXNU5McUtWUUo0Z1BWcm9yUDJKYkdrdUIxbFU2VFJjcTBEeFBFLVBQcERuWms?oc=5)
+- **[한국] "상담원을 넘어 대리인으로"…시중은행, '에이전틱 AI' 경쟁 본격화 - 굿모닝경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBwNTh4NEt5UW00ZTZJOUxjRjA2Y1hicVBramk2eDU1LWNGblY0RWZsbGtpVnNCRFB3UVZpQnpqNVVoY0psS2JGUlFmUmRrMWNIc3g2eXhLc0ozb1ktbGs5Y0gtNU5YRDgxczFERA?oc=5)
+- **[유럽] 김은솔·이상욱 교수, 카카오 AI·교육 전문가 협의체 자문위원 참여 - 뉴스H**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFB1bUg2dkZjOURkVDV2TFdZZmZUeTExOEZYSG1VeUg1YjFFWERISU9abFdpNFJpaGpHbm9mcDk3cTZuZGlxeFhMNk5Qb2U4Q1NVRTZxTjVhY2Utc0RDZUlqdWpDWkEyQ1FiTWQw?oc=5)
+- **[한국] [테크스냅] SKT, 피지컬 AI 스타트업과 로보틱스 생태계 간담회 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mRll3dW9TM2ZaVHItaTA3cWZQQjdHZVByb1pha3NzS0czOFVNdnJabzZOazZ0a09fbzR5WnBkbEdIY1JIME1PeWxKQU1UN1E?oc=5)
+- **[한국] AI 쇼호스트가 바꾸는 홈쇼핑… ‘사람’에서 ‘데이터’ 경쟁 시대로 - 녹색경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE56NUdyTXZkbXBLTDFnWWlMMlBFaG1xZ3hSanhpRjFzZ003UGxSbzQ4LXM1MjRubXd6RFBXY0hQbm9hU3hucXlSZlRhSENzZU90bEtuYk1MQmhtOTVRTThIR1ZRRnd0STA5?oc=5)
+- **[한국] 외형 키운 LG CNS…하반기 피지컬 AI·북미 공략 속도 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE84azFfRjVLZVpQSUdCWkVLdmhrZElGY3l4eEtIaU5vTXVKN1BxOUo5SndLbXFIeXR5R2h2Tlp3eEJFNHVJcV9UZ05fQnI4a0RIWlg0aWEwRTJFUm5hNlZpalA0Y1c?oc=5)
+- **[한국] LG AI연구원, 국내 최대 7500억 파라미터 ‘K-엑사원 2.0’ 공개 - newstheai.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1GbXc4YWRkcTJfNnpXM3hwRzlPTmxhVWJWeV9La2twcjg4Zi1Id1BqSW9UNlRTRUl2aU11cXNBNFFLM0VHdC1xX25qQ1NHQjZfcjdPYm5vN3J5eXFTMDJiRmkzcW50bmt1Ql9V?oc=5)
+- **[미국] 실적 개선 삼성SDS, AI인프라·디지털 자산 사업 속도 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0Q3YwcExXeThUSVlZX3BWVlBmRVFZSURPV0lDSUhWdUtCcFNnODVqdmJOVFQxZEhaMWF5MWx4NTl0RUp6dElKNUNCc2VSZTVoTzMxeGJOY2VFdFU1dUItejZTZTQ?oc=5)
+- **[미국] LG CNS “2분기 영업이익 감소는 일시적…내년 피지컬 AI 사업 본격화” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxQbk1lWC1fWFhxUkQ4cjhwVGlMaXhqSFdhUkp0VGFhQUphYlBMcU1hb1RDVXZfYmV2RjB3Ni1xQVdoQmJwMEZkaTZKM0hwemhUZWQtaFQ2M1B3dmQ3RTZOQm1tVDJIdjBwSVlXYS1sNFZPNjNFTnhxdTA5LWZtS0FfbGVR0gGWAUFVX3lxTFBSSUlERmpiVnFUd1plX3dWQzFNRDBpOEIyc3dTNVB2YUNDT3d0NFhOZWJDQWhUUS1BN25nbzMzMnd6NE5rTlo1WG10VXRkRXFUZVdkZU9KNm5DTVU1OWxMQUpGMXNBRnVPUFUwak5FTEdzUmM2eV9RckZaWllvSUtFbUFiWHBUUmMtWi03QUFtY2JOVW9sdw?oc=5)
+- **[한국] 호르무즈 리스크가 만든 ‘차이나 클린테크 슈퍼사이클’… CATL 29.5% 급등의 구조적 의미 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0R2eGpGRml3aHIySlZzZDdSNnhNcHlJRjZwOHhIWko2Sjk4Vk5rcUw5Zjh3WUM3Tm5CQW0tSTJiT0tmWU5EcXdjNHpfY0NuNVFSQjRWSlBMUkl5cEFuVnlQSnBLNU9EQTlYejNib1pUOXRPWG0xYlh1cjVLZG1lcjRrUHFoTHI3?oc=5)
+- **[한국] 클린테크 리튬, 고순도 탄산리튬 330kg 생산 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9OTDNxREdaMWN4TGNqaFZ3b3hFUEtSQVhIMkNvNVNMZEMxS25tNTdVUUtxMjBiZXhMNHBpd1lSNVh2UGF2V01vSUt3OXItUDNkbTI5QjFiTVVqZXFpMUhhV0lYd09ZbS1pU3ZONVdRQkY?oc=5)
+- **[유럽] GS칼텍스 인도 '뭄바이 ESG·클린테크 서밋'서 탄소 감축·에너지 전환 로드맵 제시 - 더구루**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1TFRjUWpFb2ZWR191VllNYzdzaURBTDdYMVZJTExZdGY1dVZKeFdFcUF1eUZRQjItWVRuR3FQTmdFTEJhU0tFQW5xQXhQWkZIdkp5SDl6dVhlbDRJZ2hGVlBmbw?oc=5)
+- **[한국] 삼성전자 DX부문 “클린테크 스타트업 찾습니다” - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBXU1h5LVBneG81dG5icWt1bHhDeG9pU0NiVnhSak1YcXZUMHlqSVlueWowdVNJeDlETkE5REQwYUt5TWRBd2JNai1XeGhjdw?oc=5)
+- **[한국] 뉴라이즌, 클린테크 기술로 고부가가치 B2C 뷰티 시장 진출 본격화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTUVhqb216RmlrRFdNM0FNZUdOZGtEVHJQT2JzLUJSWDFIaGM0Y2RIanlPMlVrbUVlTEhCZEsxSmg3aFhabnZxN0xQaHdpUkk?oc=5)
+- **[한국] 에스토니아, 에너지 전환 클린테크 솔루션 소개 - 에너지데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9mZk9WdjZtZTRESGZDdUJYckxudGJUbFdtMndqQVpCMXc0Z09DSWF0M0VQNmY4SDNocXc4eEJMSlNGTnY1RXgwYlowYzlRV29fQ2hFRjlvRFRYUUdVRGdkTnJLSkdaVHJUb0c4WlpISVltdw?oc=5)
+- **[한국] 클린테크 메가라운드의 산업적 함의 - kcemedia.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5kUFJwQmdNOFptRlMyS1h0Q1BpODlFRHdMM2JVMkNPamNTTDYwTFJDbmNXWWNobzVaZmdBSy1wSWNJSUU?oc=5)
+- **[한국] 이도, 클린테크ㆍAI통합인프라ㆍ부동산 축으로 3개사 인적분할 - 대한경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9BX3FCb0FlcEdYTHBRVjFiSW9VMEplbkR0UnA2cTZCbnhyYTZGYTBrT1JrWjFpOUtONjB1TlZneTgzd3Npa2FhZU8taGJ2VkI5QWVWX05DWWlTMnJITVl0YVhaT1IyX3F2VDlvYnZ4VllyT0tP?oc=5)
+- **[한국] 이도, 클린테크·AI 통합 인프라·부동산 3개사 인적분할 - 블로터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tazFDMnd1elkxNy02YXN5dlp3c3JtUXVWZ2U0Nl92RFdKV0plSWs5cGtRY2hWc1owQUVxMVAxaHVkelZXci1fd093U3NZU3BVU0lhb1MyUWNWWWRyMEt1SjBmZDJyb0c10gFsQVVfeXFMT0g5QVZzZTZkMnMwbzBvb0RCRVpTTlgzNGlmQXd4VG10eFpYZnNqeTRPdllqUU5PMEJHLW90cDh1c3I2MWdMR3JMZnJ1Xzk5cWU0SkNEdVV2S0dvNmxyeEFaYXJfNTFTcnRhVFRF?oc=5)
+- **[유럽] 부산 클린테크 기업 뉴라이즌, 고용 늘리고 기술 키웠다 - 매일신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE95RFdHSWpSQzRrQnFobVgydmJwN21TaXlqTVVhNEV6cXdBN3hEU3dXZkVETmc4TWZTTktFbWJvd2xSeEpHbi1lZzIweDF5bUtaeDFmd1p3cDBha1NOUVA4OXJ3?oc=5)
+- **[한국] 클린테크·AI 통합 인프라·부동산…이도, 3개사 인적분할해 역량 강화 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TbGJZb3VWZ3d4cFJIakRyS3djQ2dja0dyNE1WOW01Ni12ZjAxdXlNNFRIMnhycmlpYVpBcXBaVm8wbWdtaFpzZEFJYkR0X3B6U252RV9GQTQ?oc=5)
+- **[한국] 클린테크 리튬, CEOL 비준 지연...CFO 계약 연장 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5QNGx6aG83NTFTaTg3SVVOMFB5dTcyRUVzWlpaMWhJMnJ1czEyVkZfZDdwVWV3b3pXejh4VVRlWFc2amVQYnljZG1WZ1l4NGJTYkdHRmlWM2NTSy1HSjgwYU5IUzc4Y2pIbnBaS1RkaHQ?oc=5)
+- **[미국] 구광모의 ‘클린테크’ 승부수…LG전자 ‘탄소 금융’ 정조준 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FXzFia0N1NTJyTTYtRk51d1JleVRzMjVvTHRpWllvMFVkVW9GLUxZWXg2aGY3MUJicWxLRF9DRFBTeGVEczJfa1BRSGpFenJUeVNQWkRvZXR6Yk0ySUstOHd0V0g?oc=5)
+- **[한국] [클린테크 기업 찾아서](160) ’스마클’사, 이끼 공기청정기로 공기 정화하고 탄소 흡수한다 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54RUJqNm9fZ1BrZHdYUTloRTVVb1hwLVl2Tk5aYXFxUzNoQU1NTC1MMkwxY2ZsenZmRXJHYU9iMkdWT19HS04zRVRQQVVpZ0FUWmFtMk1xMkI3aWhUQ1Rla2VROGd5XzjSAWtBVV95cUxNMjJQVWJKVU8ybHA3c0pDb3EyR2dERkJPR3ZOR29feWdULXZHQ3Z0OHJ0M1V0T1dHenpYWkRWYVZHUzFfTHFQU0lNdGtQWHJ5VThFcWZoU01pcU41TTY1MVlSZ0RvREhtSzdqNA?oc=5)
+- **[미국] LG 구광모의 'ABC'…AI·클린테크 묶어 성과로 증명 - 톱데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBldkIzdWxGSEpkR2tmeGQ1a0duSlBaLXUzeVZSQkVOUVR0UU9mekhzcWN0eDc1ZDZCTi1sUlM3Y2tXZ0JPNHl6RFBHOFNkcG9Z?oc=5)
+- **[유럽] 유럽 클린테크 40개사 서울 집결… 한-EU 녹색 산업 협력 본격 가동 - ER 이코노믹리뷰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5rMThxOFBZelFIWmIzZmx6R1ZwMjVCeXpqYVZNdFRzdzV4Tk5zVUlSSlExbzRscnZBc2d0ejZQVERzYm83RzlOMWNZN0kyYmhIYWNTZXotOUxvY1NKWFpJOVpMNDRCeklDWVVRNg?oc=5)
+- **[한국] LG그룹, AI·바이오·클린테크…미래 해법은 'ABC' - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TTmd1ZjZLVkcycDhwbl9wSUlNdjBhWmJBR2xUTHJDS19UN19ZOHZnQzZaaGE4cmp6dlk0bVFmUnZ3NU5aVmxYMHkzTFgyTlVyLXI0TVUtaWxYQQ?oc=5)
+- **[미국] [클린테크 기업 찾아서](162) 보도블록·방지턱이 ‘발전소’로…‘휴젝트’가 꺼낸 해법 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JbHFDSlRKMTUzX1k1VzhkT0tTV29YUHFLcFp1STh5NC1lR3lDSEYtQkhvNDA0MC12cDRwTEtlN0xBYS1nOTdWeFYwMGgzamxYTktrcTNjbVhuSC0zbmxKTzMtRmZ0ZWvSAWtBVV95cUxPMXlNbUsyWTdpcEZsUDNyTUdwbVdueE9KRkxXUFctQ1F2dno1ZmY4VmlkaGs5Y2JydUVPVjhzVmVyWmRKeXBzNHNISEVPc1U4THJESkVQVFpUelB0QWtyZkJSOUtib0hoV3pXMA?oc=5)
+- **[유럽] 이도, 3개 사업 인적분할 추진…'클린테크·AI인프라·부동산' 독립 체제로 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zMDIzaTk3a1FDQl9KWnhCMGZmQS1Ndy1ibEZLVFdKVW9VX2Z5QTF6QnNaRkRFd2RxaXAtc2cwcDMyeGxrMG5rdjNIWElQekZZcGs0MDBVajEyZ3pENHN0RdIBeEFVX3lxTFA4SG4tVnZxSUFGSXE3WjBxdkZub0VEUmU0dDB0VTlDTzROTktRYk1xR3FfZDdRRTEzWXdUYXJvdzlYV2c3cTZVM0hMbXBfVXVJbnh1QW9tUzhlWGlsQ3NpVFJ0MFZVSEtSalpxZG9CVmh1ZXpBcTRCVA?oc=5)
+- **[한국] 케어원 “방제 넘어 클린테크 기업 도약” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxOejU1ZnNWUnNYdHR3SkZBSkdpQWNwdmZtR3FncG1fcm44SUhxNld6SEdObENMTElPX2ZqTlZIOXVOX29FWFZoWEEtQzFPNE9GQi1RU1RWVXBKZHQ1LVVJc2N2X3FsZGFTOWk1UG1sS184MEZuLUlKRFdNT0RqZ2VmXzZ4c0lGTlBReHVQY3R6U3jSAaQBQVVfeXFMTnE2UkYwblNBY2EydTdLRUc2cENQZTdXWnBUZzVnQzNfbWhwZm1EaExCUktVcXR6dC1OTGZ0dmFpR1NvOG1yZjc3SzFzUjdNalhBcGFldXJ6eXpJemRvMWhKcnRJdXpONUx4cU9udWx3OXlBTlJDWWtxdWRteVBXMWQtUHEya3RXMEc2SXZ4aHBFRFN3dm1VMnhzemo2VjVuakkzVmI?oc=5)
+- **[유럽] 미래 산업의 열쇠 클린테크, 서울에서 확인한 한-EU 녹색 동행의 현주소 - 모터피디**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tUk5wSGk4c0xXQXRTOXNZSXh5WFZkWW9ZU3N5VnRhXzNFdzJvTFNlNm5tUmFKWndSRVNpZ3NZcVJyRUtORjZmSVB1XzV5Tk9QdVhvM2ZnN2dXSVdLZ3NkLXBMeE5ybFpa?oc=5)
+- **[한국] 미생물로 캐내는 클린테크 핵심 금속…‘바이오채광’ 시대 열리나 - MIT 테크놀로지 리뷰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizgJBVV95cUxNR1ZLTFV2QmRjS0U1VlNRaTJYU294UTRSVEFkaUhzNzVFVXNnVm5BQk5DZWNRVWdUNXdhMFJhYWJVZjRybGZzbmdKR2JsZXNPVjZCUGM2eGhTWUpQc0l6VUdXU2VpSTVLbXJLRkN0UnZEVUdta1dscm16U2s2aUJYTTBROC1mVzRpRi1zT1BBVkwya0ZsRTZSOHJZQkpOMkxWSUFzN1lmV253cFFyWmhkd05BbjB1Y29oLXZjUFAzZXBKcFRHTk5uZlVYeDZaZm04eG1yOWNaWFNscGl0M1ZBUk93LXFscWducXVmc2prcjhYMDJ4S2t4UG1aMEdiWFpMb281V1UzS2dQM1RMOGNOVUJuTkxURTliaHI0QjRjY3BTYV9Id05Nd0lyOTEzVlktYW5jTVIwUTQxTk9oSThDcWd3TDZVN2RGamNiNTBn?oc=5)
+- **[유럽] [클린테크 기업 찾아서](154) ‘플렉셀스페이스’, 더 가볍고·저렴한 우주 태양전지 만든다 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uQkFua1hWNFhBMUdIcy1vUW1lSGhzZVc5ck5SN2Zkcjh2c3FQOTd0NEZmUnJ0cU9WMHBSMXVubVRXRXEtNHIxTzBURS1RbkxrdVlBYmFSUkdNSHdack55UXB4eEplVnfSAWtBVV95cUxPcTdGQXlCU2JlVUdYNDNZWE4tckpkXzRSSGtqZ2k2d0tPTkdTWktxUE9PdGFvVmllOUlkYzhUV0FWRktEeU1zUll2ZVFVT1dTb1dObEo4aHk1ZUEzWHFRbWR4RXJWRm5oaHp1QQ?oc=5)
+- **[유럽] 클린테크 주도권 쥔 중국 [ESG 뉴스 5] - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5kWFRJNTZ1ZkFCWjRCNG9ham1KLThSRks0aFlHdjZTaHFGaGI4S1F1RXhvaVhWdnItN3FRektOb3FtSFdVWlF5OTMxTTE2TEc0eUxGelJmMVB3dVpFUnBNTWdlaFhIaTR3VHJabQ?oc=5)
+- **[한국] 위제이, ‘성남 기후테크 스케일업 지원사업’ 선정…AI 기반 RE100 솔루션 고도화 - beSUCCESS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wZTVyd19nTHFfN1YyU2g0bkY2dGRVN2NwUGNFdnFJNzRHVm1mQ3lXanU2MGo1bXNRWEh1VGU4T1ZzR05EY3c?oc=5)
+- **[한국] [클린테크 기업 찾아서](145)’브이젠’의 가상발전소, 도시의 전력공급 안정화시켜 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxSXRUN3I2V3VGVkZTck03MGN5Ry0taVRCMWZwQlphTktJdmZBUnBpVnNqLURvWVdtaWY5RUtLTWFvUkhvRWFNTVJrVWxFUlFuRjZ4dkdTdUlQa3hJdC0zZXVrWlZadmc?oc=5)
+- **[유럽] AI·배터리·탄소 제거…2025년 기후테크 시장을 움직인 키워드 - 임팩트온**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kbEwzeDdpSURLVklab1ppZmpkNTZydUkwd0QyQW5XS3VMeU9VTTZUNEtpbFQ4d2lGa1ZYVV9PU3BhaEdBV2E5OG8yWWttY25pakNvY1hnOEhBV0xha3Z2cUxrWFZZaWJh0gFsQVVfeXFMUEQ5dU95N2lFNkdFeGxlXzhTa2pmNVZ2UkdPN0hxWE9MSWh4N0VRSVUtcTRDUHVKSkZkV3g1NmZQaGxzb19oZmJxX2NpUXZhUXhKTVozUXBTeUVqWlFnSGhHVTB4dlFxTkxVeXlO?oc=5)
+- **[한국] 동파·화재·전기요금 문제까지 한 번에 해결... 젬코 양재명 대표, ‘에너지절감·클린테크 대상’ 한국특허정보원장상 수상 - 특허뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIWk94cGtIQ1ktMVBxcWRwY3ZZTU1fbk5GRmJ1MDNiWjBNX3gwZDU3UWdoeF9yMW5NdG9zb2dab3RNUzNxd2ZRMw?oc=5)
+- **[한국] 한국이 주목한 호주의 딥테크 창업 열기 - 호주 톱뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9QdzR3MUdMR3RDQjhwVnNjbHVOUlZtb1BQZWlCblBUY3NVbkRqVUZrRVZyNUFzZHFCaklFS0ZPcHdSTG9zOXBWRm50Q0NSeHFaTjZxUTUybmhpMFh6X2Y0T0dKOFI0MHNRZXFWcEc4TzM?oc=5)
+- **[한국] 한화솔루션, S&P 글로벌 '2025 1등급 클린테크 기업' 선정 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9leEJqdU5BQk94Um9mUzQyQXBoYTdWaUlyZEhSa2F5WkZwbmh6LVVIVEo2V3UtNGY3ZGtwc0Z6cG12NGpTVFRZTEF0ZHdWVGFveWU5dEZ1WklKTmNF?oc=5)
+- **[유럽] [인더스트리 리포트] 클린테크로 답하다…깨끗한나라 생활밀착형 ESG - 아주경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RVnlxNVNHMkVEajA3TzMxV19mRng3eUtBeFlVWWxDY3FXa3lsUlFsWDVVS0ZNYnZvOFFLZlhxaktqeVh4alQ2V1hIWEtvcG5uZTRwOXMxQzhVQdIBWEFVX3lxTE9KOEg3NE94UEJhYXFCclI0UjU5cFpHb3pxMU1oWmMzTHhmNkNaZnF1b1BCNkdmRXpwQzdpRjc2TnM4Tlg2bnRsOXNwM2lNTXFlZjNPOWs4MHg?oc=5)
+- **[한국] [클린테크 기업 찾아서](134)’에너지엑스’, AI·데이터 기반의 친환경 건축물 만들다 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wbnZwd3JDb2Y0SVhvQXZIclV6TGRKeTlFX3dUaS1kaEN1bWgtWW1SOTV3ZVMtS3B3NHc0V3JoeVRsY3ZBRXhneV9uZ3FEVWJSeEdTU2NpcnFvSVBONjRyd0gwOUtab3M?oc=5)
+- **[한국] LG전자, 英전력회사와 맞손…조주완 "글로벌 클린테크 리더될것"(종합) - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PZ05UMEZ1VXRVTmdLVmR6dmtqWWNJT2s4REFKbW83OVdmUXR6SUc5SE1BaU1obmxhTEhaWENHNFBqRERFU2kzcmNXamNLNDY4N04wRkRqRWFRdDTSAWBBVV95cUxOMkxrX2Y0TUlFc3BTdll2NDZleGFlTGNCY1dJTnlpVFlsQjRfRUJXTWhEMEpNQ0dHUHlCdVpvWm9hSkIxMHRYcmM4TjJiVWMwMUl0cVpsYl9yYzN1T18zRjg?oc=5)
+- **[한국] 캐나다 클린테크 기업 리티온, 현대차 이어 닛산과도 배터리 재활용 협력 - 더구루**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SRmFWYlpXdEdxQU9yT2dNU05wYXJpOGNEQTR0Y2Ntb2tXYmJGejlGM21nOXhZc0VweW9JVjEzakRzQ1lQaTV5RWlmVVl4STBlRHZYenVHZzZQUjJq?oc=5)
+- **[유럽] 구광모 ‘AI+바이오’ 전략 첫 결실 맺다 - 글로벌에픽**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTE1mREEzRW1QOXNFM3BzYTFxbXhFQ1U4M2pZVkZ6SUdwT21MQl83ZTM3UnBKcHVOZGt4OFdzSFlYQVl2SXk1dmhVV2hfVXRWeUpIS21vU09WLUdRc05mN2RQS2Q2eTE4aTRTVFhaWmYwRThZUnpXSEllSk9aU0g?oc=5)
+- **[유럽] 한화큐셀, S&P글로벌 ‘클린테크 1등급 기업’ 선정 - 그린포스트코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTFBrQkZ6VXpIUllFTlFXWXZ0QldoZEkxdDVqSXhFN3R0VldBQTVUbFZRbEhobm0zcmhoaVVKS0xJX0NjQi1pZzYtX2hZalc1ODRKT0hKWjIyeHZhN1FLRkw2UlpSX2pjdnZ5ekJGYzNBc3MwRVgydXfSAXpBVV95cUxONWJrVmVKc1FVaDgzaUtKOWJPekZsazNXQWIxNmIzVHI3cG42TjI0M2xRNjdoNDItb3RrMkNjRF9ZM1hFSVd4SVRDNHh6MmZCeEVtRGQ0eUZTMjFfTmREdTQwZEZKMzdfQU5ROWV2ZGprdERjNGV2YUIzUQ?oc=5)
+- **[한국] [클린테크 기업 찾아서](129) ’휴켐플러스’, 친환경 난연·불연 소재 기술로 시장 확대 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pMmI5a2tvMm1NVkV4ZVFuNzZXQVZjOWdQUlRWaWVpenNNNUZNQi10THNmdnhlLVE3eHpfUFdDQmwxNmtWcDB1TG1Rb20wTF9wWGJSdjMzUnprT0t6VlNFUndBV0VEdTg?oc=5)
+- **[한국] LG전자, 英최대 전력회사 손잡고 클린테크 사업 확대 - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxWkppS3lPa0F0bGRUUU9STElqVEx1ZldtaHJ4N0g4TXNNaTNVWGdnNkhmTDFGa1JoVHRNUDROYVlqUWNaSS1kMDVLd0dxeGk4SzFMVmVtMGZqZw?oc=5)
+- **[한국] [클린테크 기업 찾아서](117)전력 손실 최소화, 효율 극대화…‘에너테크’가 이끄는 전력 혁신 - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zRUd6THVIT3drdjJqb1M1MlJwejN0VXZRR24zTTN0N1ZaSEgzaGdzemlhUXh1NlZWeVY5RWhTZGtLdFhTQmFOZE5saUt2aGJ4Tk8xdHhKLWY3XzFPUjN2VE81WEd3ckU?oc=5)
+- **[한국] [클린테크 기업 찾아서](112)태양광부터 전기차까지… 에너지 혁신 선도하는 ‘브라이트 에너지파트너스’ - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WVzQyREMwUTZIdUlwYm92cnVyNzN6cWpwSU5DN2NiZmUzTFc0NThyMkFtQXI3N3AwR0N5Y0tGd0JoOWtNQVhzb2g5STNGQzNrVXNMRlRTZk9fNlN1cHl0YzhoWVo1aGM?oc=5)
+- **[한국] 한화솔루션, S&P 글로벌 '2025 1등급 클린테크 기업' 선정 - 청년일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBWQnctM05tNjZtaWs0MlB4SzNUYk9LVGhsYUo3T2xvSTh2QUR3aFFNNW9SMFpNX2UtOXFMcy1tVXN1VzREdFBTSTByS3NkUFU5QkZhOWNIUE9tcHJqT3J3YXFuLUpMR2Zpb3c?oc=5)
+- **[유럽] LG전자, 英 옥토퍼스 에너지와 맞손…유럽 클린테크 시장 공략 가속 - 전기신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE51UkJ2ekJRZGFJTU5QMGxxWXNXRklodUd6ZlFyMlRHbUhSRTk4V2VYZWxpSnREc1p1OGpTSnRHVHVwaFFSakNpT2VDcGQxT0N0UjBrTGFmUEpQNGFtd0JFZnJkdGNPT1ZiWEl1ddIBcEFVX3lxTE01RG9PN01jaW5sWkl4V0tUZEptQ21pUUh6WXJpMEwxeHprYU1sTmFZUE5DYWluOFJqWVh5MjE1VnpwYzdQak1wVkZsdlEyTnZWQVR0bWxua2VlUUVyalB2LV9rVkFaYWRXZEpZNUVlcVQ?oc=5)
+- **[유럽] 구광모 LG그룹 회장, 클린테크 육성 속도···친환경 사업 확대 - 통신일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkcnYteURmVVFBejJhVHdsT29LSVM2d2tSOXF0Y0g0QVJkN19FN2YtcEJ4SHROeXcyUkZtSzdjX1FhbmpMSEV3WC15ZUwyb2FjcURkQThHLUJTU0c2WW1sQWFxcw?oc=5)
+- **[한국] LG전자, 클린테크 사업 속도.. 英 옥토퍼스 에너지社와 협력 - 인더스트리뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE5MNlJtZWVJblRET3ZlcENDZWtJVlFRM0RDUjVJYXVqY2Rib252NXNhMEwxcTJhckxZSG9fTG96eTZ2Z3A0am1ua0p6S3ViUUFzMHY4emtTVFJ0b2JBVTMwU3o0Tm40c092YkVLMUxZV2IyZw?oc=5)
+- **[한국] LG, 英기업과 에너지 절감 솔루션 공급…구광모 역점 '클린테크' 육성 속도 - IT조선**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5BdVRNaEREQk5nN05JTF9VUGFpcnk1cE5SYjNTYXBqNm5sQnVablllTDQwSUJZMmZqZ29iZ3NzaEc3Z21yVGJvODZiTmNJM1pFZ01QNjFXUmlNYks1Mk9pRGFSMzUzMjU4cF9jaGhiZWTSAXRBVV95cUxNTlpHT0R1YjU2Ny14RTRjbEtlaGx1MVQ5WFRBdTQzc0xIR3JrSFZrTkIwUFhuUFJkQ25WaUxOaEtFTjYtaE5zM3Z6MGV5Q3dfU2RaR2ZmOGlrbDBDYWZyWVhxSWpwWDNlTndGSFp0bXp0Q0VZVg?oc=5)
+- **[유럽] LG전자, 영국 옥토퍼스 에너지와 맞손…클린테크 사업 가속 - 정보통신신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yTTJTRGt4VzhFTEE2dXdFVjNRdWxidnYzckU4OGhCODdDVVQzcDR1ckpxUUt2ZTRzVXFMMUNYVGlsUVlrckwybjZRaFpUWTZtMzZLcFVfNC1sdUppNXBWcXBmUi1TSXBG0gFsQVVfeXFMTUNuV2lOVHJGLXdVTUZvdEZneUM2ZjR6N3IxXzFtb2lsSkVlS0xmdzl2N19GTzFiUzRxWmw3TjhMbUdKUW1mbWRrWm9TU3Yxa3B2V0RlZzI4aURfUW1HLUNBSnJZZkhFdVpiQlFC?oc=5)
+- **[유럽] LG전자, 英 옥토퍼스 에너지와 손잡고 유럽 클린테크 시장 공략 - 디지털데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5rZjg4b3VVZFdXZFdtdWNFSVFmS1cybExYYWdMOW9iYlJ0RFVCUHBGN2NKTHoySUlsUGVtcXJ5NGozLS1aVTJZYmlPYnNObkpSaGt2NXp2aXpfZ0xaYzczV3ZBUTU?oc=5)
+- **[한국] LG전자, 英 옥토퍼스 에너지社와 클린테크 사업 협력 강화 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1vRmpPZTZJOU9hNE5zQko5d2NyMFdkUnNxUlVVTEI0QzQxelJlX2VwWVFYM19saGsyS3RmQzFUcXNRaDM2eVNfZWNfLWhidDg0eV9qc0N3?oc=5)
+- **[유럽] LG전자, 英 옥토퍼스 에너지 손잡고 '유럽 클린테크' 시장 공략 - m-economynews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1U3NJUmRwS1pCR2VMclhvd0F0d196eHF4ck5YMF9RS3pWSVJTeTJFX2U4SW92VExJcVptN1pDNmRCUVFaM1R5Ry1hb3FwYWZyOEE5ZWtOQnhtU0NBX1Z6TFFBMTQ2MTA?oc=5)
+- **[유럽] LG전자-英 옥토퍼스 에너지, 유럽 클린테크 시장 공략 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DanJQQnRPdDA1RWUta2Y3N29ocHVCLUU4SmhpSHlvZWpHUTN1RVJZNUgtbU83QUtFTUloVlAtSi0wLXUwZ2VNNzdoRGM2UQ?oc=5)
+- **[한국] [클린테크 기업 찾아서](108)전기차, 에너지 저장장치가 되다… V2G로 미래 여는 ‘바이온에버’ - SDG뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLOWdfYURIUDNuUzl3MTYweVVpQnBLZTkzSVdTSjB3WjBHRmtrcHZ1TTNoTUpwbDY5ekNYQlk1bzlwUUZoNzk0TkNSTlRMdU9Vcmg2aElhRW9CYjhTa1pCSEYzUDdTVVU?oc=5)
+- **[한국] 이도, 산업폐기물 자원화 신기술 2건 확보…"클린테크 역량 강화" - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YVC01NzY4cl9pVUhXTWxET1k2VUNRbUVIbmxIcERJOTEyVXpvYmE1a3hIRTZBVThyd2g1ckd6cG9DMXAzVFhOOGg4NnBGTWxFUTlKeXFQeVhTODg?oc=5)
+- **[미국] LG전자, 영국 '옥토퍼스 에너지'와 손잡고 클린테크 사업 '박차' - 글로벌경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE90enhpMFh3dlJLOEJWUGtuS3pScmp5UU5BRXh6UzBUT2gwLUQ1MEFZRDFHT0k4U3g5ZW91VHhPRXBISXppRXNNVnRiUURXbUVjVm5Wcm5QNl94MnlIVmE2LVFqUVpSUFBrdEtJedIBcEFVX3lxTE1lTzlaWVp5alJ6LXBjVG56ZXRGcWpxVGtLLU5nTXM4YmVTMmJqdW50cGt6UWs1SWhKS3h4SjhEWThvS0dLeFJqT2NNaVNQcU52T1BkVXJ2MlpLcDdXQndnTV9CY3E3Skhpa1ppWkhIVDc?oc=5)
+- **[미국] LG전자, 英 최대 전력회사와 맞손…"유럽 클린테크 사업 박차" - AP신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wQVZMQ2d5Z1V5RjJzbjYyQkZJOTZpN0tsRFJZWm8xUWhET2hGS2FHazNPVEdScmFuOC1CWjlhTjFDanR4QjVMNUstcC1DdEVRbHdCYVhrWmNLZFR2UVV4QTlxTUV2T1Bz?oc=5)
+- **[유럽] 아이레시피, '2025 서울뷰티위크' 참가…클린테크 컨셉 - 데일리안**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwJBVV95cUxOTTEyTHZfR3R6cU9qMnZuUnhZb3psX0szbWVPV2Z0dER5YXBoVm1aRmx5c1pBOVcwWjViRzZZR3U3bk14Z1dOV0k4U0FVaUl4bUM1c2tleFJ0dU9LazJJOS1aOFp6V1lBU3Y2TmpFUVJmaDY0aVJqVWotWTlETF91OGlkYjZaOHRQbjhUMElpU0FRRDNMUmJ6Y3o5RkxtRGlKWEtQYUhkZjFUZXQwYV9UR2JFMER5SmtadTV2dFIwY1NkTDRHWENQaUpUNUdHclhxMWNXMFdxM1p4djluVlBBVDhBclgxS1dCYk5ueUR5SGtId3gwaWNVcFFfdm1HbURyNWd3?oc=5)
+- **[한국] Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/31/repeat-founder-ryan-williams-raises-10m-seed-for-an-ai-startup-for-private-credit-managers/)
+- **[한국] Anthropic says its own AI models breached three companies during security tests**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
+- **[한국] Apple stockpiles inventory as it braces for ‘significant supply constraints’**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/)
+- **[한국] AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/)
+- **[한국] Reddit reports a solid quarter but shows signs of AI’s impact**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/)
+- **[한국] Investors love AI, as long as you’re a cloud host**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/)
+- **[미국] Apple says gaming slowdown and App Store changes hurt services growth**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/apple-says-gaming-slowdown-and-app-store-changes-hurt-services-growth/)
+- **[미국] Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/)
+- **[미국] Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/)
+- **[미국] Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/)
+- **[미국] Florida plans to build air taxi pads using $200M intended for EV chargers**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/florida-plans-to-build-air-taxi-pads-using-200m-intended-for-ev-chargers/)
+- **[한국] LinkedIn adds a button to report AI-generated ‘slop’**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/)
+- **[한국] Okta buys AI security startup Permiso — source says for about $200M**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/)
+- **[한국] Meta says AI is making it easier to build new apps — and more are coming**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/)
+- **[한국] What the CEO of Irish unicorn Tines learned from its AI overhaul**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/tines-interview/)
+- **[유럽] 222 spinouts, €4.9bn raised: Europe’s top universities for spinout funding in H1 2026**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/222-spinouts-e4-9b-raised-europes-top-universities-for-spinout-funding-in-h1-2026/)
+- **[유럽] The European startups racing to power the AI boom**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/ai-energy-generation-market-map/)
+- **[유럽] EU opens applications for €10bn AI gigafactory scheme**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/eu-opens-applications-for-e10bn-ai-gigafactory-scheme/)
+- **[한국] AI startup Corgi to open 24/7 cafe in London**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/corgi-cafe-london-24-7/)
+- **[한국] AI rollup startup Dwelly raises $170m backed by EQT and General Catalyst**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/dwelly-ai-property-rollup-funding-round-elevenlabs-legora/)
+- **[미국] Exclusive: ETH Zurich spinout ZuriQ raises $25.5m seed**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/eth-spinout-zuriq-seed-round/)
+- **[한국] 9fin completes first employee share sale after $170m raise**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/9fin-employee-share-sale/)
+- **[미국] ETN steps up bid to become Europe’s TBPN with $1.6m raise: ‘We’re taking this incredibly seriously’**
+  - 원문: [링크 바로가기](https://sifted.eu/articles/etn-tbpn-launch-funding-round-axel-springer/)
+- **[한국] Lovable snaps up team behind Swedish AI agent startup Nalvin**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/31/lovable-snaps-up-team-behind-swedish-ai-agent-startup-nalvin/)
+- **[미국] How CurvLabs is using wearable technology to rethink back pain treatment**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/31/how-curvlabs-is-using-wearable-technology-to-rethink-back-pain-treatment/)
+- **[한국] Perceptron raises $6.5M to build decentralised AI data network**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/30/perceptron-raises-65m-to-build-decentralised-ai-data-network/)
+- **[미국] AI for spare parts startup Intropy raises $11M**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/30/ai-for-spare-parts-startup-intropy-raises-11m/)
+- **[한국] Legora acquires legal AI startup Wexler in fifth acquisition of 2026**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/29/legora-acquires-legal-ai-startup-wexler-in-fifth-acquisition-of-2026/)
+- **[한국] Kinematic Trees raises £585K to scale nature-inspired robotics software**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/29/kinematic-trees-raises-ps585k-to-scale-nature-inspired-robotics-software/)
+- **[미국] Sigvi raises €1.2M to expand automated car rental operations**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/29/sigvi-raises-eur12m-to-expand-automated-car-rental-operations/)
+- **[한국] 5U AI lands $3.2M pre-seed for AI freight workforce platform**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/28/5u-ai-lands-32m-pre-seed-for-ai-freight-workforce-platform/)
+- **[한국] Perceptual Robotics secures £4M+ to scale AI-powered wind inspections**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/28/perceptual-robotics-secures-ps4m-to-scale-ai-powered-wind-inspections/)
+- **[한국] ZuriQ raises $25.5M to scale its breakthrough 2D quantum architecture**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/28/zuriq-raises-255m-to-scale-its-breakthrough-2d-quantum-architecture/)
+- **[한국] 暗号資産VC大手Paradigm、12億ドルの第4号ファンドはAI・ロボティクスに衣替え**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/paradigm-12b-fund-ai-robotics)
+- **[한국] 生成AIが答えられない「なぜ」に挑む──ヴェルトが賭けた因果推論という武器【Monthly Pitchの起業家たち】**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/veldt-causal-ai-assistant-beyond-correlation)
+- **[한국] 自然データでファイナンスリスクを回避するシンクネイチャー、沖縄の生物多様性を活かす #KOZAROCKS2026**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/kozarocks-2026-think-nature)
+- **[미국] ハーバード中退が創業したAIチップEtched、創業3年で103億ドル（約1.7兆円）評価に——Sequoia主導のシリーズCで過去最高評価**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/etched-ai-raises-300m-series-c)
+- **[한국] 昨年創業のインド・AIアプリ開発Emergent、1.3億ドル調達で評価額15億ドルに——SoftBank Vision Fundなど出資**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/emergent-india-series-c-unicorn)
+- **[한국] オープンソースAI推進のTogether AI、8億ドル調達で評価額83億ドルに**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/together-ai-800m-prosperity7-funding)
+- **[한국] AIチップのSambaNova、シリーズFで10億ドル調達——大規模モデルの推論を低遅延・低コストで実行**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/sambanova-series-f-funding-jpmorgan)
+- **[한국] AIがどこを攻撃してくるか予測するモデル「Empirical Security」シリーズAで2,500万ドルを調達**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/empirical-security-25m-series-a)
+- **[미국] インフラ建設の重機に後付けできる「AIロボアーム」Grittがシリーズ Aで2,600万ドル調達、太陽光パネル設置を自動化**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/gritt-series-a-infra-ai)
+- **[한국] AIエージェントが自分で支払いするためのインフラ「Natural」Forerunner主導のシリーズAで3,000万ドル調達**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/ai-agent-payment-infra-natural-series-a)
+- **[한국] 「AIを監督するAI」法務スタートアップのNorm、シリーズCで1億2,000万ドルを調達——創業3年で評価額12億ドルに**
+  - 원문: [링크 바로가기](https://thebridge.jp/2026/07/norm-ai-unicorn-series-c126m)
+- **[한국] 36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报**
+  - 원문: [링크 바로가기](https://36kr.com/p/3910776673064073?f=rss)
+- **[중국] 氪星晚报 ｜Prada集团上半年营收增长16%，Miu Miu增速显著放缓；浪潮数据发布自研AI数据操作系统**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919378312670857?f=rss)
+- **[한국] 开云的转折：在中国，做一个AI乐观派**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919225763540611?f=rss)
+- **[한국] 最前线｜创客工具赛道升温，国内首个Maker Tool行业联盟成立**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919301778288261?f=rss)
+- **[한국] 创业这件事，你最关心的问题是什么？36氪想跟你聊一聊**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919112515956355?f=rss)
+- **[한국] 最前线｜武汉建成全国首个超大城市全域低空遥感监测网络，146座无人机机场构建“城市智眼”**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919271016263303?f=rss)
+- **[한국] 滴普科技首份半年报：AI业务收入增长209%，二季度已实现盈利**
+  - 원문: [링크 바로가기](https://36kr.com/p/3919137999957382?f=rss)
+- **[한국] 菜鸟CTO李强创业做Physical AI平台，获云启、商汤超亿元种子轮融资｜硬氪首发**
+  - 원문: [링크 바로가기](https://36kr.com/p/3917874427555457?f=rss)
+- **[미국] 中层消失，Token狂热退潮，硅谷工程师眼里的「AI创业下半场」**
+  - 원문: [링크 바로가기](https://36kr.com/p/3918250549931394?f=rss)
+- **[한국] 欧盟8月2日起执行《人工智能法》相关规定，新增AI透明度要求**
+  - 원문: [링크 바로가기](https://36kr.com/newsflashes/3919473270812290?f=rss)
+- **[미국] Thinking Machines debuts Inkling Small open source AI model nearing performance of predecessor at about 1/4 size**
+  - 원문: [링크 바로가기](https://venturebeat.com/technology/thinking-machines-debuts-inkling-small-open-source-ai-model-nearing-performance-of-predecessor-at-about-1-4-size)
+- **[미국] The lineage behind 69% of open models was never verified. Cisco just fingerprinted almost 900 for free**
+  - 원문: [링크 바로가기](https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags)
+- **[미국] Inside Q2’s AI drug discovery mega-rounds**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/july-30-newsletter/)
+- **[미국] CEO Interview: VALR Capital**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-valr-capital/)
+- **[미국] CEO Interview: Quantifind**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-quantifind/)
+- **[미국] CEO Interview: Kato**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-kato/)
+- **[미국] CEO Interview: Internet Backyard**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-internet-backyard/)
+- **[한국] Inside Q2’s biggest AI deals**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/july-23-newsletter/)
+- **[미국] Executive Interview: Crabi**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/executive-interview-crabi/)
+- **[미국] CEO Interview: Penguin AI**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-penguin-ai/)
+- **[미국] CEO Interview: OrangeAI**
+  - 원문: [링크 바로가기](https://www.cbinsights.com/research/ceo-interview-orangeai/)
+- **[한국] NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/nsf-announces-first-awards-advance-ai-cybersecurity)
+- **[미국] Podcast: New microchips could supercharge AI**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/podcast-new-microchips-could-supercharge-ai)
+- **[미국] NSF announces $83M investment in integrated data systems and services to advance AI-driven science and strengthen U.S. research infrastructure**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/nsf-announces-83m-investment-integrated-data-systems)
+- **[미국] Statement from NSF Chief of Staff Brian Stone, performing the duties of the NSF director, on advancing the Administration's AI priorities through the Genesis Mission**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/statement-nsf-chief-staff-brian-stone-performing-duties-nsf-1)
+- **[미국] New NSF initiative aims to unlock dataset value for AI-enabled scientific discovery**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/new-nsf-initiative-aims-unlock-dataset-value-ai-enabled)
+- **[미국] Podcast: New treatment to fight deadliest cancer**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/podcast-new-treatment-fight-deadliest-cancer)
+- **[미국] NSF awards 12 new Regional Innovation Engines to fuel research, jobs and economic growth nationwide**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research)
+- **[미국] Podcast: The fight against high blood pressure [hypertension]**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/podcast-fight-against-high-blood-pressure-hypertension)
+- **[미국] NSF Discovering Our Universe' gallery to open July 1**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/nsf-discovering-our-universe-gallery-open-july-1)
+- **[한국] Action! NSF-DOE Vera C. Rubin Observatory begins capturing the greatest cosmic movie ever made**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing)
+- **[미국] Podcast: The future of quantum cryptography**
+  - 원문: [링크 바로가기](https://www.nsf.gov/news/podcast-future-quantum-cryptography)
+- **[한국] AI 상담원을 하나로…일레븐랩스, 전화·채팅·SMS 통합하는 멀티채널 지원 확대**
+  - 요약: AI 오디오 기업 일레븐랩스(ElevenLabs)는 기업용 AI 에이전트 플랫폼 ‘일레븐에이전트(ElevenAgents)’의 멀티채널 지원 기능을 확대했다. Consequently, 'Omnichannel AI,' where a single AI agent manage...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102681/)
+- **[한국] AI는 ‘도구’를 넘어 업무 프로세스로…마이크로소프트, 글로벌 혁신 사례 공개**
+  - 요약: The number of enterprise customers with over 50,000 licenses has also increased more than sevenfold compared to the previous year. By industry, the us...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102607/)
+- **[한국] 클라우드 운영도 ‘사용자 경험’ 경쟁…이노그리드, K-디자인 어워드 수상**
+  - 요약: 클라우드 컴퓨팅 및 AI 인프라 기업 이노그리드는 자사 ‘One UI/UX’ 디자인이 ‘K-디자인 어워드 2026’ 커뮤니케이션 부문에서 Winner를 수상했다. Innogrid's integrated UI/UX design applied to its cloud sol...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102586/)
+- **[한국] AI 안면인식으로 실종자 찾는다…슈프리마, 수색 솔루션 GS인증 1등급**
+  - 요약: Existing attribute-based search had limitations, such as reduced accuracy when clothing or belongings changed and the inclusion of individuals with si...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102544/)
+- **[한국] LG화학, AI로 글로벌 고객 찾는다…리캐치와 B2B 마케팅 협업**
+  - 요약: AI 기반 글로벌 GTM 체계 구축…잠재 고객 발굴부터 CRM까지 업무 고도화데이터 기반 고객 분석 교육 운영…글로벌 마케팅 실무 적용 확대글로벌 B2B 시장에서 고객 확보 방식이 빠르게 변화하고 있다. 최근 글로벌 B2B 시장에서는 고객 접점이 다양한 디지털 채널로 ...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102514/)
+- **[한국] (코스닥)피플바이오 - 타인에대한담보제공결정**
+  - 원문: [링크 바로가기](https://dart.fss.or.kr/api/link.jsp?rcpNo=20260731901330)
+- **[한국] (코스닥)피플바이오 - 타인에대한담보제공결정**
+  - 원문: [링크 바로가기](https://dart.fss.or.kr/api/link.jsp?rcpNo=20260731901324)
+- **[한국] AIで未来を広げ、手触りのある地域をつくる。CATENAS、教育・コミュニティ・ものづくりを循環させるローカルゼブラ経営を本格始動**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000011.000158334.html)
+- **[한국] 『アフリカの国家建設』武内進一 著 読書会開催のお知らせ**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000032.000183816.html)
+- **[미국] 「ReFa AILE BRUSH RAY」と 「ReFa ION CARE BRUSH PREMIUM」に 新たに”シャンパンゴールド”カラー追加**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000001029.000029736.html)
+- **[한국] QommonsAI活用研修を北海道豊頃町（とよころちょう）で実施 - 正職員全体の約7割が参加、本格的なAI活用に向け**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000729.000088829.html)
+- **[한국] 留学支援サービス「Mirai Bridge」、オーストラリアへの高校生の大学進学から休学留学・認定留学まで対応する個別相談会を8月開催！**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000393.000072123.html)
+- **[한국] 「Daiichi Lifeグループ　人的資本レポート2026」の発行について**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000103.000160816.html)
+- **[한국] 国産AIO（LLMO/GEO）分析ツール「DolphinX AIO」、AI流入分析機能を大幅リニューアルリリース**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000032.000092256.html)
+- **[한국] 【参加無料・限定80名】名古屋最大級の飲食店経営者限定の交流会「なごめ交流会」が2026年10月21日(水)に開催決定！最新AI＆SNS活用術から飲食店経営者同士の交流の場に**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000003.000187566.html)
+- **[한국] ナレッジコミュニケーション社員が「Microsoft Top Partner Engineer Award 2026」のCloud & AI Platforms 部門を受賞**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000090.000004474.html)
+- **[한국] 【素材探しの手間を削減】AI画像生成からページ編集までをエディタ内で完結**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000045.000013916.html)
+- **[한국] 機密データを外に出さない「ローカルLLM基盤」の運用開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000108.000048768.html)
+- **[한국] WOVN、画像翻訳 AI「WOVN visual AI」を提供、Web サイト翻訳の自動運用をよりスムーズに**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000421.000010446.html)
+- **[한국] サイバーリンク、AI 顔認証セキュリティシステム FaceMe(R) Security の新バージョン 8.9 をリリース**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000363.000005271.html)
+- **[한국] 東京23区のマンション購入、3人に1人が「必要年収2000万円以上」と回答～東京23区検討者の6割が1億円超を検討、世帯年収1000万円未満は郊外エリアへシフト～**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000352.000007875.html)
+- **[한국] デジタル庁が公開する生成AIオープンソース「源内」を活用した自治体AXの実証実験を開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000249.000028653.html)
+- **[한국] バックオフィス担当者の9割近くが「時間のかかる作業がある」と実感。AI活用への期待と不安が同時に浮き彫りに**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000078.000068334.html)
+- **[한국] ビジネスパーソンのAI利用率は6割超、関心層は7割以上に。導入の最大のハードルは「社内に詳しい人材がいない」**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000077.000068334.html)
+- **[일본] 【創立50周年】zenkenkai 全国5,000人規模の記念式典を開催**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000058.000093169.html)
+- **[한국] 『生成AI時代のセキュリティリスクとは？』というテーマのウェビナーを開催**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000005509.000054842.html)
+- **[한국] クラスメソッド、大企業向けに既存スマホアプリの作り直しを担うサービス「AI駆動アプリリニューアル」を開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000458.000014901.html)
+- **[한국] 【Globalway】プラットフォーム事業部、「PyCon JP 2026」にGoldスポンサーとして出展**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000423.000018764.html)
+- **[한국] 建設業界導入社数No.1のAIスカウトサービス「RecUp（リクアップ）」、建設業界の採用課題に特化したサービスサイトを公開**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000091.000061059.html)
+- **[한국] Craif、バイオAI領域における国内最大級のカンファレンス「バイオAIサミット2026」第2弾登壇者発表**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000425.000041883.html)
+- **[한국] 「AI社員」と創る次世代の顧客対応、人手不足を解消する組織の新フォーメーションを公開**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000330.000029485.html)
+- **[한국] KDDIアイレット、AI エージェントの継続的な品質改善を実現する新サービス「LLMOps for Google Cloud」の提供を開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000467.000009999.html)
+- **[한국] フジ・ネクステラ・ラボ、全社AI戦略「AI戦略2026」を始動**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000217.000032032.html)
+- **[일본] ReYuu Japan、ネクスト・セキュリティ株式会社の株式取得（子会社化）に関する株式譲渡契約締結のお知らせ**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000101.000111823.html)
+- **[한국] 【ロッテアライリゾート】TBS系列の人気番組「SASUKE」のアトラクションが体験できる！大人から子どもまで挑戦できる体験型イベントを8月20日～24日に開催**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000048.000154803.html)
+- **[한국] テレビ朝日チームの『ショート動画作成 AIアプリ』、Google Cloud主催「放送局合同 AI ハッカソン」にて最優秀賞を受賞**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000489.000030888.html)
+- **[한국] 【星野リゾート×集英社創業100周年 ～旅するマンガ～ 】第一弾！「BAILA」Webにて、ウオズミアミ氏が描く「OMO5金沢片町」を舞台にした描き下ろしマンガを本日公開！**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000002438.000033064.html)
+- **[한국] 通常12,999円が5,980円に！お盆ドライブ前、スマホ画面のワイヤレス投影＋CarPlay無線化を1台で叶える「GetPairr Mirror Cast」が在庫限りの特別セール**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000099.000165291.html)
+- **[한국] 株式会社Mavericksは、動画生成AI「NoLang」の動画編集画面に「AI のおすすめ」を追加。台本の内容に合うBGM・効果音・背景動画をAIが提示し、キーワード検索なしで素材を選択可能に**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000173.000129953.html)
+- **[한국] 飛騨地域の中から、AIを！都市部に頼らず地域が自走するための“地域AI推進室”を、ヒダカラが始動！**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000051.000076362.html)
+- **[한국] AI検索最適化(LLMO・AIO)プラットフォーム「LLMOinsight」、自社ブランドのAIスコア29.4点・競合16位を公開　AI露出改善の公開検証企画を開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000002.000185646.html)
+- **[한국] 日本AIセンター、FDE（フォワード・デプロイド・エンジニア）人材の専門窓口を開設 ― 現場に入り、AIエージェントを率いて実装まで解き切る**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000005.000179443.html)
+- **[한국] 広島のAI研修会社WEAVE、面倒な業務をまるっと代行する常駐型AIサービス「ハコ入りAI社員」を提供開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000018.000133455.html)
+- **[한국] AI導入企業の約半数が「成果なし」──慶應発Miyabee、中小企業に「3年間しつこく伴走する」AI導入支援『まるごとAX』を開始**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000002.000187051.html)
+- **[한국] ビースタイルスマートキャリア様の「a-assi AIマッチング」導入事例を公開**
+  - 원문: [링크 바로가기](https://prtimes.jp/main/html/rd/p/000000012.000162322.html)
+- **[한국] サウジアラビアCST、テクノロジー企業向けAI導入ガイドを公開**
+  - 원문: [링크 바로가기](https://www.jetro.go.jp/biznews/2026/07/cec69850ae699eaf.html)
+- **[한국] 名古屋「STATION Ai」で米ウィスコンシン州スタートアップ支援機関が製造業向けプログラム実施**
+  - 원문: [링크 바로가기](https://www.jetro.go.jp/biznews/2026/07/c1365172d7b5260b.html)
+- **[한국] AI普及で電力需要急増、広東省の中国南方電網が供給能力を拡充**
+  - 원문: [링크 바로가기](https://www.jetro.go.jp/biznews/2026/07/5ea10a0a395cff0a.html)
+- **[한국] カザフスタン大統領が訪中、AI分野で組織間の協力文書が締結**
+  - 원문: [링크 바로가기](https://www.jetro.go.jp/biznews/2026/07/546fbfb4950e082b.html)
+- **[한국] 飞书"出嫁"豆包、腾讯推"人机双写"：大厂AI办公终于想起要收费了**
+  - 원문: [링크 바로가기](https://www.tmtpost.com/8086639.html)
+- **[한국] AI明星粉丝快40万了，真人明星要交出饭碗吗？**
+  - 원문: [링크 바로가기](https://www.tmtpost.com/8087189.html)
+- **[미국] Paris-based Apolownia raises €1 million to scale coastal restoration and blue carbon projects**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/paris-based-apolownia-raises-e1-million-to-scale-coastal-restoration-and-blue-carbon-projects/)
+- **[미국] Lessons in resilience: What Europe can learn from emerging markets**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/lessons-in-resilience-what-europe-can-learn-from-emerging-markets/)
+- **[유럽] Málaga-based Atomic One raises €5.6 million to automate e-commerce operations with AI agents**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/malaga-based-atomic-one-raises-e5-6-million-to-automate-e-commerce-operations-with-ai-agents/)
+- **[유럽] “Now there is a real chance to become a unicorn”: Slovenia’s GenePlanet secures strategic investment from Lauxera**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/now-there-is-a-real-chance-to-become-a-unicorn-slovenias-geneplanet-secures-strategic-investment-from-lauxera/)
+- **[유럽] Pitching investors? Know which side of the Atlantic you’re on**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/pitching-investors-know-which-side-of-the-atlantic-youre-on/)
+- **[미국] London-based Intropy raises €9.5 million to build the AI-native operating system for the spare parts industry**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/london-based-intropy-raises-e9-5-million-to-build-the-ai-native-operating-system-for-the-spare-parts-industry/)
+- **[유럽] Swiss startup AI Infrastructure Capital AG launches with €16 million to tackle AI compute bottleneck**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/swiss-startup-ai-infrastructure-capital-ag-launches-with-e16-million-to-tackle-ai-compute-bottleneck/)
+- **[유럽] Swedish legal AI unicorn Legora snaps up London-based Wexler in fifth acquisition of 2026**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/swedish-legal-ai-unicorn-legora-acquires-london-based-wexler-in-fifth-acquisition-of-2026/)
+- **[유럽] Swiss preventive HealthTech Ahead Health bags €8.7 million and launches in Germany and the Netherlands**
+  - 원문: [링크 바로가기](https://www.eu-startups.com/2026/07/swiss-preventive-healthtech-startup-ahead-health-secures-e8-7-million-and-launches-in-germany-and-the-netherlands/)
+- **[한국] 아울바이오, 월 1회 투여 펩타이드 비만치료제 임상 지원 국책과제 선정 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBYcEswbzNlODNkQWhyT2x2bTBwUjFsQ015WTZBcWVUUjQ0eDRlTzUtb2dIR0JvRmZ2aWlnTXZhLVhNeWJZQXZNeWtDdzliVzlTSF96Q093elJPZkl0ekRUM0NSX1pKZ0NoTUYzTw?oc=5)
+- **[한국] AI·물리적 육류 공정 융합 딥테크 기업 딥플랜트, 중기부 ‘딥테크 팁스’ 최종 선정 - koreasprint.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5BT3lUMHBhYTE4UFVwS0ExWlVaRXZ1RGlWRmFxX29aR3dYWkRqbFdtUkl2bEVMUEtpSXUyQWtKUkQ0bTVhSHNNLWlIZW5aYko1eEF1ZFE5eDJYRTc1X0hLejZkUmw1Zmp4eDdiTUNn?oc=5)
+- **[한국] ​아티크론, 중기부 ‘스케일업 팁스’ 선정…40억 원 규모 온디바이스 AI 반도체 사업화 추진 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE03a1JLYjJ3bEZNTktzcVpBVGtzRVNnRGtBYkJwZndMcm02ZnA5NEJHSmgxbC02LUMtVEF4c3R5cFdlWllLNkE?oc=5)
+- **[유럽] ​아티크론, 중기부 ‘스케일업 팁스’ 선정…40억 원 규모 온디바이스 AI 반도체 사업화 추진 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE92X3FBWDl3MkVYZGN0ZjA1eUNydmN0Vk1ITDZkX1RnUXllay1VN1VtZ0lfOV83TW5qTjAteGY1U3NBSGY5eTh1d0Jmbw?oc=5)
+- **[한국] 바이오앱, '스케일업 팁스' 선정…반려동물 아토피 치료제 개발 착수 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTFBPMEliaGo2b0xrQTBqQnN5YXpDMjdvM2JJSkIwQXk1LTVPVDI5eWwxMlFCTi1LSDNQOTV2MjZVclp5cEd5bEJscUxyVGh2Vi1fMlc3YV9Oc3pOZVctdXJxRTRCUVhSc0VWVTNkbC0tbHNiN1BieVhFVw?oc=5)
+- **[한국] ​아티크론, 중기부 ‘스케일업 팁스’ 선정…40억 원 규모 온디바이스 AI 반도체 사업화 추진 - 경향신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JUzcxa1pIYjZ5QXc4Qnd4WmlYSzBlOHdDQzkxTTJfdERPYzY2SHY5bm41QVE3VlVOUzBEanAwazNhY1k5Nk1wSGZkLUhuUERkNk9oS1BORDRHUdIBX0FVX3lxTE93Y2Y1TTR2dmVVOG4zVFliT1NxdVRjU1NTaDRrbTJERlF2M1B5MTFBd3d2TEM4UzFJRGVMem53M0stQmdyLW9mTXg0b1RrcWVkTXlRNUJlam95ckdfZlFF?oc=5)
+- **[유럽] 서강대 교원창업 AIVY, 중기부 '팁스' 사업 선정…8억원 확보 - 뉴시스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PT0RLZDZYSVl1SUxhdmhaSkN2MmZoTk5wVk9qamNqc2w3NjNoT1U0bmJJQ29vOGN2SHpRTXhxZ056ZWxRWlFQc3NsekZNZXgwa3llZWJldnVuQ2pYMlJBa9IBeEFVX3lxTFA2U19kclRsT1ltMmZKd0tSOHM1Skt0NjhkbFF6VnRKanREeGhCczZBX1VxSXJvT0hVbHhkbzlqenNMNmRManprOVV2eGFxcHJtbmIwM1pXREU3U1lYTWlGaVNzLVJlU1owaGNBZUttVmozMjd0djloSQ?oc=5)
+- **[한국] "반도체 장비용 부품" 아이코어, 딥테크·포스트 팁스 모두 선정 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5mZ2I1WFBOTXd6WGI4U3lqR1dSWVdVTzZ2djF6eW0tV2tqdUpEajVPdkhOS1pUQW1ibENjSzYwZ3RLU3UtZEtBcUlzT3A5ZW9ZNl9SajNKOHZhM191anpJbkJaRE8yMDJHRjdzaQ?oc=5)
+- **[한국] ㈜그린에이아이, 중기부 팁스 선정… 미래 자율주행 인프라 핵심기술 개발 본격화 - 전국도민뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5wWGJSYUthN0wxQlp0UmNKbWx0dXY0c0FZekx6VzBya3Ita3gtTzdPeVZJWWNNS2pfTVlGX3J5ajhKVzN2U0xzYXM1WHAwdFZlVWVEak9ySzNHbXJ2ZjdvZnNTWnZ3XzZMcms3Wkd3?oc=5)
+- **[한국] 서강대 하정욱 교수, 창업 6개월 만에 팁스 선정, "기술력 인정받았다" - 이뉴스투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1DbWZQazMzTm55T19YWGtDLWhEYnhSUk9LZ3dyZjhONDVUdmJSR1g1b1g5MFNmYUtxbGR6SXN0SkVaRHVBS2NVbTlqcE90T3FncUc5UWUtX0NQQlFrVmxKTFozUVhvS0F3cy13ZU1CVkQ?oc=5)
+- **[한국] 농어촌 액티비티 ‘노는법’ 운영사 바바그라운드, 팁스 선정 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlRFNETGNORHhNd2lhSjlCbU5LUUo4OWpYa0xXU2M0UnJacjFMaEpFVndKSGEyYkpQVGVycmFVUkI5aUh4M2pqTDB2Um9RRE0?oc=5)
+- **[한국] 그린에이아이, 중기부 팁스 선정… 미래 자율주행 인프라 핵심기술 개발 본격화 - 도민연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE10SlFDMlZIMTJTRFdJZ0JTLU40YndxYXJKRUxIS0dRWXJvYzFfakdPaU9ZYkZkcWRZbTFZMmx4dWNFRG4yWDJFZmdRV0tSNEZjYnFOLWZNRW1vQnFlODJNWDdmWl9CMXlZRkE?oc=5)
+- **[한국] 더선한, 중기부 '팁스' 선정…'에이전틱 세일즈 AI’ 기술력 입증 - 서울경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxenR5eHRsdmRCZFJkcGd4YUtnN09IaDhidnNidmR3c0NvMWxFU0ZFT3d6SXIyenFhSGdMemo3d1h3M1dGOUJRUWFPcC1xRGpaTDNVRlhYWFZOUnVDVVZzWHhWam8?oc=5)
+- **[미국] 마이프차, 중기부 '딥테크 팁스' 선정 - 벤처타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SWEgwUTlfYUFrRnVUSE95UThnMExxclQ4WnI1QllZWU45S284U09jU2Zydm81b2hUTXdzaEN6OVE5cjdpcTVXX2lLLTVNU0FETUhoQzFRaUJlUWRRMjExVFhzclItQQ?oc=5)
+- **[한국] 트리오어, 스케일업 팁스 선정…차세대 ADC 플랫폼 개발 속도 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5INWxPVDRJak9zWXRFcVNGUmJQSDVYamU1aVlLREdUb3BieTJHZTdhMENGRVNTallVcDZxSHIyWFVpVTZaVW45WHpmcVdPdw?oc=5)
+- **[한국] 서지넥스, 중기부 ‘초격차 스타트업 프로젝트’ 선정 - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTWk11YjUyN1NiS1V0VnhOYkIxZUpXdzNNdHJtWGo4QUFTVFRVbDZOLThvenQyREFyWWtycTNLNklYY19JNHh3aHE2T1BLZzA5LUVFYVFHbw?oc=5)
+- **[한국] [씨드투유니콘2030]㉕ 팁스, 딥테크팁스, 스케일업팁스, 글로벌팁스는 무엇인가 - 브랜드뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9aTm9ITG52RU03eGgxYlBSOVZ0SjhQMTM3Y29CaG5abkNDbG1sV19Gd1RPVFBMNzlvOV9HYVNOblhjbnVoX0MzNW55MVNDVG5VMXdrYlJkYk1fU2pReVdYb0M3bWFDOURPdDdqMw?oc=5)
+- **[한국] 공카, 중기부 '딥테크 팁스' 선정…15억 원 R&D 확보 - 뉴스플릭스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1JVHVPcVotWVpGNXBYYzRBeFNpTHVuVnk5eVdWNFJFWmdmcVo5S2ZYRzNlTm1BTWNJMDNwUXhEeWdITk5lU05OelhPd3VWczd2dTRzWFFFbmM2UFE3RENJTUlsMWVpT0lHMjVBeA?oc=5)
+- **[한국] 제이인츠바이오, 중기부 ‘스케일업 팁스’ 선정…AI 신약 개발 고도화 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE4wOWpnSnBqSTlFcXRKSTBkQU5INWdKbHdOUm8wZjNXcGVhbC1PM2h3a1AzOUZfcGhEQVJrcFJFbXItMGNfQWc?oc=5)
+- **[한국] 티센바이오팜, 중소벤처기업부 주관 ‘글로벌 팁스’ 선정 - 뉴스와이어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE50TXJ2MlUySXZ4c2pxM1otS2toWkpRd21JVGsyaW9nY3ZJTVEzS3hRay03Tno5MjRFZGpPWEdXNnpLUTAxUGo1ZldWREZxMkFoOGE3Q1BCSFJjVlBJcDZR?oc=5)
+- **[한국] 서강대 교수창업기업 AIVY, 중기부 '팁스 사업' 선정 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLWGJCQzh3ckt2QzI2clRyU1FlLUU5XzJ1TGEzRkZuUnZUeHRrVXJ0NnNCeW96UVdRSEdWRlo0OVI0NmNLVzNycnA3ZThmUjRxTjJv?oc=5)
+- **[한국] 백스다임, 중기부 ‘딥테크 팁스’ 선정…단백질 생산 플랫폼 고도화 추진 - 바이오타임즈**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBPZHUzMnJhSFJJanlsVl83bExtbWRtbnRVMy12UXdmRUhUMXEyanZaeVJnY0Fkend3RkxSR2ZUREFGc2V0TXhMdGFoSi1UeWpiMG9ZZjEtLWF4Rkg5LUR3SFU2R3BvN1phV1lKdg?oc=5)
+- **[한국] 서강대 교원창업 AIVY, 중기부 '팁스' 사업 선정…8억원 확보 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE91aWdyRTlJVmlSQnhNMnhCODVnN0FUa0tkdkU4cmt0Ul9rODltaUdaSTRCa0ViblRtTGVqWmpjUHp5Mi0xb190MzVKVEJVUmNhYWZR?oc=5)
+- **[한국] World's First Spatial Agentic Browser That Works While You Rest—Fellou CE Launches - AI포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE82V0xlY2Nka2VuNjk2UGl6VVRTYUtoWG1WVlNXcWs5Q05nQkVaQkZUNnpNS1dLbTByMkg2X0FLT0ZnRmRjV2h3M2pJWjI0Sk4zWHJVLXJhaGlWSG5ZelNZMU9aRXVua0VUTjRPYtIBcEFVX3lxTE9Ua29zYmlVNlhXeEQ3NDRtbzM1V0Fja09KLS04NXpHOE5pMmhOenU3RFNQWnBZS3VkWTBTQ3F3RmRqQmFBNkJFTkZibXIyQkhGckxOakl5SVc1c01ZcGNrdmFyRWNLa2NrS1NLd1VQQms?oc=5)
+- **[한국] Resonac Launches 27-Member “JOINT3” Consortium to Develop Next-Generation Semiconductor Packaging - AI포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5UT0g3SkxuaXFzeHNGVmx4ekFVU1VJNzNVaGRiTFEtZlgwNkpiLV8yd1d0NWxiQmpybm13UERoNkJ4cmhhdmZkbTNqbjhlV1E5SlpsZWRKbTBMRnhYTVNBMzBfRnNmZ0pKdkdTUtIBcEFVX3lxTFBpQWdCYmtFUC1BMkd6blZsOWQyWHkySXJtc05Zbmt3NEdmWGFSM1BkNUdNUWt3NE9BdkNTNHlGV2pJVkp4TVhPdTFNdVlCS1lIR0RWcTVKQ2dvb25RcG1OWDFpTmdSM3RZbFE3TXZXYkE?oc=5)
+- **[한국] ‘요잇’ 운영 행복한삶, 중기부 팁스 선정 - 벤처스퀘어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE13cndGNW1WRHlvZ3NYZ2F2YkRDNTIyYWUwWUtJR2xfb3FSVkVRMjN0bkpWQWN1RHQtNkR3dV9uRVFyN1VtYTVvMlJHN0lZdw?oc=5)
+- **[한국] 한국교육파트너스, 중기부 ‘딥테크 팁스’ 선정 - 벤처스퀘어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xU2M3ZHRRd1hwVy1HSHdQS29pMGhnOFRGaWU4bUhER2hDTC1zbjhoc0VNaFp1WFBnRVJIUkVoVlI5cTBOdUZQMG9vMjgyUQ?oc=5)
+- **[한국] 컴퍼니엑스, 10개 스타트업 팁스 선정 기여 - 벤처스퀘어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFAzWDI2VkRWamdYb0k4MUk2VEJIMzNORWNjbXhNa0QydDEwWDIzT0Zpc3NoOWJRZXhBcXJqcXIxZ1JfbFAtZV9JNjNEcDk1QQ?oc=5)
+- **[한국] tvN '언더커버 셰프' 스핀오프 제작…주방 선배들 한국 온다 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UWWdGYTgxS1BTMjVMTVc0RW1MMmlmZDI5dkFaNi1RVExESExXaHJsN19fSkFrLWhfZ2dFQWVraDF1MXBWWE9SdzRKUHdGdkd3N3ZsWQ?oc=5)
+- **[한국] 아기상어 스핀오프 ‘문샤크’…버추얼 아이돌 IP로 키운다 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9aNXhROWQyR0dTazRSZ2dYTTJqZ2JFY1FiaXZPVThiOEZVWEcwLTBnY1dDdEFpT1RyWGtpMEhwMzV2MzVxNkplT3d6eXNfLVo5d19kVGV1VXJsUVlSYU5GUk5LWk1ud9IBU0FVX3lxTE4zU0ZBb2pjVU5vR0JTMmhXSi1mNm5TZVpaT01MN0dOWFJQR08wWXlMVldtek90OTRLd29Ib1NkZEI2bFlJUVZma1dCVFB2R0taV3VB?oc=5)
+- **[한국] ‘언더커버 셰프’ 스핀오프 확정…파르마·청두·나폴리 셰프들 한국 온다 [공식] - 일간스포츠**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DQU1CVGJSUXFuQmJKZXZuZ0RDYnpsS1JmeGZoMmdTWmlNNXBwUVlHUUJJeFRRcmNZQkt5RkNwRUZ4T1d3RXpRUWthRktyZktXTEd3bXhzMlhmUUk?oc=5)
+- **[한국] 파르마·청두·나폴리 셰프들 韓 온다…'언더커버 셰프' 스핀오프 확정 [공식] - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE1rZmk0WEwtQ2pYNUZfQTdQU1dyZGVrTl9WSkdDYVVRTXhZTGZYdThxX1J4U3AzUUo3bzg1Z2o3WlYya0tVNXJSMXpVRUIxck5UNFBvcGdjU2Y3bGFrTUZxN0RPSlhWZ1VkQUlLaWtFY080OFI5M1Y4Vw?oc=5)
+- **[유럽] '파묘' 이전 이야기 웹툰으로 본다…스핀오프 '맹종' 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5vNEsxeUdYbDQxWFVKQlh2YWNFQ0F1WnF3bDA3LW1SaXBFOHBhMF91TjFGSENHTk5CMGd3cFVoRGRETTFMVUE?oc=5)
+- **[한국] [인터뷰] 엘칸토, '브랑누아' 별도 법인으로 스핀오프 - 어패럴뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTFB5UXAwaWk4VTdZM1FxX0wzeTNrYTlqRGswTy0zb29Pb0ticXB3ZE5Da2NDdXRfZktOZVdjZzA2clkzaFJjbEk3d21ueDRTb21qZjJZX1kyM3ZyR2RqbFZPSWp2dFRiT1ZtN0R4b1R5YlFXdDFU?oc=5)
+- **[미국] ‘슈렉’ 인기 캐릭터 ‘동키’ 스핀오프 나온다…2028년 개봉 예정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XaG1qSm5XamV4enBuSHh5czA4M09GMUxmSXRud25CX0NtcUtpTjBXa3NscXMzRGJCckRMRTE0a05BYmF0cGdEdWZDU0Z6RTQ?oc=5)
+- **[미국] 오뚜기 열라면 스핀오프 '히트'…매콤·꾸덕함에 반하다 - 신아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9NLWdHOUp4OXo3TEl3bTVMTTR1S3UzWVNUYlhtSVJCMF82QlJhc1Npa1dnVTVtRjJ3eVhGeUE4SVF6WXhYVVBTWTlOX01nTjNuUS1fUDVvbzU0TnI0aG4wTEk2QVVwWVF3YVpDbms3ZXI?oc=5)
+- **[한국] Reacher spin-off Neagley gets first trailer - The Killing Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2FWenhjVVpoVTQ1SmNWbjRDZ1NjMjZ6cWdrTzhOUFNaM244elRRZ0lkSW01TW02ZzhDUDJtbVBfZ2hsVXExOGJDVFc2Q20yeE05UWFUTW92aXZlVi16cDVMdDBraGpveWtXZUxlN3p0SVhqSVlCU1lQLS1EZVplZ0V4Sm1jWi1XVHFHYllvVkM1ZUpETTlIRFNiNA?oc=5)
+- **[유럽] HF Sinclair posts highest profit since 2022, plans lubricants unit spin-off - marketscreener.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixgFBVV95cUxOdTB5bVRrUW5tTTlNT1FxSWZEbTd2anJ2WHpaMUpUUzY4YTRYd3RSVm45OEtkY3NBX05YUjROTmw1RU5lUHVUUHNIMkxEQjBILXZjaVJSSFJNeGJLeUlfcXZHVmxNU3dZMnFSbjNGbWV4SWs3YXVIbmJ6ZXJYRXZMV2trS0stQklFYXdnUndrd3hhaVZnMDRrcmRadUhlempieWFFaEwxMjlob3dvNmxaVWxHQXEzdWRBSUNRY1pmNGRaV2U1Y2c?oc=5)
+- **[미국] 'Big Bang Theory' spin-off intro criticised as fans call opening 'AI slop' - The Express Tribune**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTERXRnplSjVYSDdLZWY0RE5lTUI0WEwzdDZkWExxRi1CbGk3RXBZeHZqOUNIVm9kWVRzOWdVdnlNXzJhM0xRR3lPWDhiVVIwenFicW9FZXpaOEtOWjJZcVJuZ3J1R0szQXZfVEdqc1lodmY3cEpPb1l4RTJURm91QV8tWUNZbGhIaTFCaEVEVlRjUHpPRW1pTHhHdDQ5V2k2XzBtRkNxX25RMnPSAbMBQVVfeXFMTlUzUTBvc0dib3pIdlY5dFVOWlVkMTRSU3ZqN1ZkUHdtcUw2Wk9wcDdrMEFTVmVmQTYwdm9ub3k0c00xc1RuSUR6ajZTdzk0THdPWkg1NDBhX1FkcnRCMndvYVFhWTM2R0xBMlEtMGxzXzVqWjdhSGxqX1BDZ3h6NVdVTFpwYUlFbWxjcDJqRE4tUHdBODBZdWJyQ1B6OUY5SE9iOExXMFZUbW1NUFk4VTVpNGs?oc=5)
+- **[미국] Every Bravo Real Housewives Spin-Off Explained: See List - Bravo**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAFBVV95cUxNd0pGdDZNaDA1c28tWUUxN3hLOHJORERCV0ZHVUZxT0d6Mi1saGJYTnphRFhkajdXd3RkTmRURndVc2lqS1ZuY1AybktmT2cxb2dyeUMyelY5djVkRTdIWWpwSkdGOTM0MjIwZXdBVUpBdXZRQ2ZKNXZ2dXM5STRZdGtnbzdVLXlxaWt0Q2UxdkVxeTZm?oc=5)
+- **[미국] Far Cry spin-off cancelled in favour of new 'ambitious' game claims report - Metro.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHBMRUMxaWJsY0JNVmNGRFd6RWItX1NRbEJJWUY1MWVWR3Mxd3BrUVJlNDU1MkZRa2VXclpRb0hJVnROU2ViTDh5dkxGMEhZbmp3ZkRJRmcxekNtRUZ5eDF5VEMtY19HeDVIWHBlYnN0R3dpOHlHM245M2Fiazk1ejd0c19YNHZiUWpGTnFGaGF1dHdYWFlZX3d1LXJEZWpYTkMzY0xhOW8wbjTSAbABQVVfeXFMTno2U01nT1B2enUwcTkzaHdZQ1VlcV93bERLRUlJdHM5N01qNDAxcU5pOHRIaFZxR3NXTi0xb2gyYmJRUE9ReXo0X1ZtaHNsMkdtUU02d1JqTmhZY0xyZUlUY2dwUGRjallFdjRNX3g2SURrQ0J4VlZES1gzU1dpeVNSVUpyTmQ3M0wzRXprTnJqTDgyVGxsSlNKNG9CNXNZV2hmSi1TRk9razEwSU5kMXY?oc=5)
+- **[한국] How Baidu’s Hong Kong Spin-Off of Kunlunxin Could Reshape BIDU’s AI Investment Narrative - Yahoo Finance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAFBVV95cUxNNmxETmZvalQ1cFFnc1dXaFlYODBiVnpPMEs4MUNPdGhpMWpSWFlYUHNOQXVYR3dvTDRTZk5WR2xZZVY1cDZKMWhpM1hkSVNYWUtZbGh0R2RWYU1BclVMck9mdGxyNUFISWhWaDBzNFhsbkM4ZS14ZnAyZ1FoZUlTNjNuVDNwb081bWZYRDZndHpNVHFiY2dlXw?oc=5)
+- **[미국] Eddie Murphy’s ‘Shrek’ spin-off ‘Donkey’ gets summer 2028 release date - Screen Daily**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitAFBVV95cUxPTVZySHJYTkNZdXozMktVUjRVQ2dwUWlvUFNNMWNhdUl5V3VPd1NDejY1M01wTnNBcUtwSTg5VVNHeFVjUXRTUzdZYjAyc1hrS0ZYUjJYeVhyMmY0WDRxODZxSS1ZT3Z0dWNXNUF3TGZNWG5qYllQa3JtNm9wcmpzdjFjajFQSERmTXNjQjJZRE1lZHRwZEJqR1ZIVjNBTUs5UXF0eFBFeTY3c0hXRy0tUl82eVY?oc=5)
+- **[미국] Trailer: ‘Rick and Morty’ Spin-Off ‘President Curtis’ Sets July Premiere (New Images) - Animation Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivgFBVV95cUxPYUNJcWg1ODZHXzZYODc4MHo0dUJCRHZJekx3c0EzN1BUTDFnMU1jOVpSWmxXR2d3QlM4aHREZ3pTOVVuRnJWQ0NDSGpzUWxaYkhqNXQxclZaYkpQczdYVE9KbU1uSnNCSHhWOGY2dzBTUGk0Ymx5N0ZZc0RNOGY2RzBIOGJIOVVoeHB0SXUxRDVUTFo4QjNGQVUtOWVKcVdqZGhLMjBOR09qSU1GSDEtQ0VBV2ZNLWdwNlNOSFNR?oc=5)
+- **[한국] ASML spin-off raises €20 million for chip inspection - IO+**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjBuZ1BuN2xHWUZRaWZveFF0emtEQnRTVzRoNFM2RWYxaUFjSm81VjdaU1U3NFF2YTA1UXR1VmhUVmhwZ0I4ZTltMjE5OVFwNVpGQlVkQVFYTEl5emZWLW95eXpqZW5OU09VYlVkMmpVSXlEVFV3cXlDSDUwcERqT3BpUno?oc=5)
+- **[한국] ‘Vought Rising’ Trailer Gives a First Look at ‘The Boys’ Spin-Off - The Hollywood Reporter**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxPeWVFRjhFb2NWS0RLMkZnN3B4ZEc0NGFHM2p4elRiQXljRHluajJ3bjIzRkV5M3FmX05VSk1reHpoQ1Vmb3BPWjNrelhzaGdXRGZTV1NDZldGZ2dCc3M5UnAwbWk5TGplcDVPMERUaTVMdVNYNTB2OEVxSDNselJSWU8ycWowWk9FSUROd3NqQnlib2QzdmJscEZiRlQ?oc=5)
+- **[한국] Production Officially Begins on Lionsgate's ‘John Wick’ Spin-Off ‘Caine’ With Donnie Yen - Hypebeast**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxPYTRUdGw0ekhaUmFCaW9kU01kS3YteWFaWHo3czQtOHk0cUNNVzBKbDdlQlFYV2pZZXJreENLeGQxQzFmZkg4VEk3MVU3azlIb1JqeDRHdXFiRDl5OHQtVFZzdkNKT3dUNkdTeVdKdHFJZjV4UmlRbTlnSDRiblZCRlFyMEpBQjF1REE?oc=5)
+- **[미국] ‘Power’ spin-off starring Michael Rainey Jr. and Joseph Sikora in the works - Rural Radio Network**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxPWi1Yam54d2dZRGpaUS0yYTlVUk41UFVuNnNaN2RZZGdBemtBdm4zZWZwdGd1cUFyMS13c0RqZ19pRUVkbFJ0WXZWMy1GLUduaVYxYkw5NGdUdFc5U3FIODdTNTdTTUZtWkVoY0JuNTFqdUJBWExtSU1ZaVdJRFhVRUxvQ3VXZWc4eWN6MVFrVjJmOXlJQnNrVmFrY1BiR1VmSEhXdGRoLWVTX3VtLXJWdG83UGVHMG5yRDk2a3hoNA?oc=5)
+- **[한국] Where Do All the Game of Thrones Spin-Offs Stand? - vanityfair.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxNelBmZHl4d3RnLXRhRXhKcTNEWWtNLXVBY3p2N0tRN1VsWnVVQ2llaHdVa0VDbjM1ZEdYVVl3eWNzSlh5ejE3QUg0cExxMm8zYzI3cDlmZENwUkpHTUFqNFBrelI4Ti1QVGxTZm42UEdTaFV5ODlBWDRQRDdxVFZBYXpadWo?oc=5)
+- **[한국] Shonda Rhimes Teases Bridgerton Spin-Off on Violet and Edmund - Prestige Online - Singapore**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzIxWVR2T2J0Rm0yTTVzc3k4OTd4aEY0T2tNZjlTai1mbnI2QUwtWElET2Rvd1dudGJoSmhGaXZMNWFkMW9iY2t4eFZLS2NDU3JhX2NpSVlrTW5Va3hoa2lwWEx0T0ZOdUJSNlVBcS1adVBFU1llUlhjd25ZVFd1TTJwdUZLYmlSbTVaY0VqbVUtWnM4ZmNxWFBRMW5RSkRoLTJXcEl3VG8?oc=5)
+- **[한국] 'John Wick' Spin-Off 'Caine' Officially Adds 'Harry Potter' Veteran to Action Thriller - MovieWeb**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE96YU9YUy1QcEo2SlpjeVZ5cDRxV0RQakN6QXZNWVlnYzhaZGJQZFdPUDhwSzZLaHpSQjZmUnRRb0Q4TEVFM0I5NFFBUzM0RnVmenpyaGpObGZ0Qy1wMWRjX2dCVDl4bWdV?oc=5)
+- **[유럽] Taylor Sheridan's Officially Claims Victory Over Critics as New 'Yellowstone' Spin-Off Demolishes Records - Collider**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZU9vUkstMFhkcUNEZ0FDYjYtVWJBSmJ6ejNUWWtJZm95RG8xeEFQeU52MjQ5WlZxRmNqQXg4enhVNXdnYnZMczJ6VGd2c1N1MWlkREpSWjRXWkEtSF8zRnNfYkU2N1FHZDFXVGR1UXdfYUw1dzdTRVppbE9RbGhkbHhVbDJBbk82RU1WTzU1cEFpZFNXWmRkM01FQXVoRnJseGZfbFBHcjBmNWNzS09hZDVGa2dXemk1OXM0b1ZPUFpFUQ?oc=5)
+- **[일본] Kimetsu no Yaiba Reaches Final Chapter & Announces Spin-Off! | Manga News - Tokyo Otaku Mode**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixgFBVV95cUxNZkJvVVRLM1pjRE5Xa2plejIzTmFTV1BKNk5QWUtEMVVIa01rcmpHdXlyMGVuakFRTXpNT3ZSN2tXLWdvUERtNXdSMFdpcFBndjEzMjFIRjhTY3BTV3pfcTBCclk2b1gxWm9tQVk2c08zdy1aYkJRRGFhdXJNbGlSRzg1Y3MtenVDdldpUXlSckpHSWItcW4wOUtpLW9ydlByWkpJZnpRdldHSlVqd2ZoMmFkWFVSR0xTZ2xnTTI3SEpZaHp6d1E?oc=5)
+- **[미국] Alibaba Gets Go-Ahead to Spin Off Warehouse Park, List as REIT in Shenzhen - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbDVfdkxQZTFhc2ZzY19PVHNJdG1qa2hRUnRzVWd5YzE1WmxPR2RMbkJMUkpMMWZENnBvMWRCdHlnZm9vdEhDQ0hBd2p4aEluTlNNS2s3SENIcUxWOEV5X2FvMUlFZEdOSkVKMlRNTDIxTFhtaXlqejZSdGNTT2pIWnRiTzFydThycWtsY3VKbk8wYzFwcFk3aUtsVjIwUi1xS2FEc25nbTdtdDhmWE5aZk1tNzZrVjhB?oc=5)
+- **[미국] China’s Kuaishou to Spin Off Kling AI, Seek Up to USD3 Billion in Record Video AI Funding Round - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRWhGTy1INUlJYldrY296TnNrS0FsRjhfbUlJSEFHbV9FWE1ZZGhKRF8xY3lLZ3otY3U4RnBiUzRTMTl6LVpXbFlvaWxCbndkSkdka19VMnpMSG5uU2RhYlNCSElCZEh3OVBLckxUNkZIVldqQlVmSEh5WFpzTGF6bkg5QU9sSzdxd3FBYWd3ZXpEdjVEV3NrMzRROTc2bl9mcTY5MlpBbWJyUWNsdVhwSk5nOEU3MmlQMDNuZi1JbGRpZ3c?oc=5)
+- **[한국] Kuaishou’s Stock Rises on Reports of Potential Kling AI Spinoff - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxOdkZDS1M0Z3NCa0pqUU54eGI1RnhyNFEtdWR1TGNBWEFfRTNQdnlRVzY3emtTR0JKYTRwa1VOZkZlZkxMVG5XT3p5MHNNOFV0YVIxYmRZSXQ3Y1BGMG5VNkdjR3ZKZm8zMHF0OXhkTUNxcDRMUnZOUHNpRVJFR3cydVljdG8ybVdFVEdiYkNPdlljSlRlUXFmbmpuQQ?oc=5)
+- **[유럽] World’s Biggest Ice Cream Maker Goes Public After Unilever Spin-Off - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXdmSkIwSUM3UlNXTGl1MTBZRDZLZzlGVEZ1MHpJLUpHUkwyOUx3TWJuLUhpS3EtZE1tWV84Vmk5d3JRd0VOa1lYRFpVcTY1ZkFBMWRfbU9OM1ZfdHJVSHJVQ1dBeGhHSjI2XzhreHRpS1o4X0J5cXQtYmJNUWNPcmkxazhqaEJrZ1hOeUZkanZlNnR6bl9XRlQ0dC1ock1hTmktQ1EwME9VNldqWXhaUw?oc=5)
+- **[한국] Chinese Mining Giant Zijin to Spin Off, List Overseas Gold Mines in Hong Kong - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxPZzNNeEFqRGZfSFdvREFQUXBhdWJNVFhPOHRoWWNZOHYwODRNS093TWpSelM1QTlIWGxrYlNjUXp4d1dIeGNVRnBLTmtYUDd2S3EzSEhER25kMjBvZkdZY3BaZXZCNlptRDdYYm5xOXpsdmpZMG5td3VJaExuZE96SXBGbEx3ZFgzX05kREdGUGR4SUdZbkNqVGlGYXhFQlJhdTZmOE54Q1BxOURGbUpMV0dySmdKeHhidjNnZg?oc=5)
+- **[미국] SenseTime Spin-Off Sunrise Raises USD139 Million to Speed Chip Development, Slash AI Reasoning Costs - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0lvVWt4ajM2REEzd2lBcHh5WE5IZ0JmRTVVWEJtMXJqVGpPV1dhalVkel9Md2RuRGc5eXZibk91d2NaYWo2QVlQNU41dmV3a2pVTXdzV1JHSUpmS3RZWTZhX1dkalNpWUVzNFdvUVlDR0pPSGdBSGZLLTdrX3BSZ1d0c3o3S1B4aDlnRFhfN2hDeTlzTDQ0ZGd6RmhKcmtxUWxzNWFjR0JDTHpBeFE?oc=5)
+- **[미국] Gree Has Business Units That Could Be Spun Off and Listed, Chinese Firm’s President Says - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmluT2t5OUh1Z08wdjE2dGtpY0NLbm43U3ZhclpTTXd5ZkVIcnphWkc0VElBRE9tbHdJQk1nMDlJODFVaTB6QVh1RG9BRzZnSzVIZjhfNmMzTDVPS2p3Z09BOWMzcnBaNHVzSGhHYlVvVzFLMVYwZUo4dl85UGE2LXlBRGpvOUNteUxYekxZT2xYc01NbjduNjNtZzI0Q0I5Skhqdk5TbnRCR1N0YW5PMU1teE9pa0lYUDRNdkZDQQ?oc=5)
+- **[중국] China Unicom to Spin Off, List V2X Unit on Shanghai’s Star Market - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxOR25iZWQ0U3BHQ0plNFRBaF9yOGFoaTI3YS1MdWdIa3pEMDBUbi1oZU1tSld3RG1VVFUyRE5xeE9iN29ScXUzdFpVd1BsMXotcXlPOGRXQ0s5VEVaN1hXYzZXeGtrQWZ4NWNic0ExZ3hQTTlFQjNaNUFRQ2lNRkJUYnJEekczUE1VRXladHFMUFpFWGFDOVJpUllqWQ?oc=5)
+- **[한국] Trina Solar terminates the spin-off and listing of Trina Wealthy and settles the withdrawal of venture capital shareholders? - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE11SXRWSTlLNWJaTFh3X1ZnV2dib21ZaloyX2pYMUZ0a1REcGVLQzc5Z09iUXZxc0xNSmZBYWoyN2s0ZDdRYjBwUDlpMGVYdGt1UXNCZkpfb0dJOXkzMVZVcUJvbEJlUFNTdlhaLWpsT0kwdFpuZHEw?oc=5)
+- **[중국] China’s Chint Electrics to Spin Off Solar Power Unit for Shanghai Listing - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxNSEJYc2ZzOGJvcGR1bi12TzBTUFRPdlVPdTEtYmxWa3FzQ1BzU0pUbGUzNVZQWHhXOUlNb19pMHc4UlFRZ0hab0JFb3NuR0wtbk03dmtkSk5iRHg0SzBJRUtpc2ZQeGlsTWhRclpoU2NlYnFKM2hRZ2JyNUtjQnhyc3BJajgxWUZ4Mk54ZHMtVGIxOVRfbllyLXYtdndvSUhZVEFxTzdQNkI4MWFvalI1bGVKc3lvOUk?oc=5)
+- **[유럽] China’s Bringspring Sinks After Quashing Rumored Plan to Buy Huawei Server Spinoff - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDk4eWVVSkVSa00weGNXUDJVSGdPcFlyNWEtM2pYbzRZbXN3XzVIRkdON25lanZieE03VVBTcm5XWnFHQVZYRVpiaGM1REU4ZmNJQzJnTjlVQVZiMHFjQXpoUk9NaWFHelJKTHBwdFdwRXMwUVBaeDBrTk9ka0FhQkpnSWRGV2tkR3R2RUFjQ0s2Uy1SSWYzMUNPN2dzcGx1cjQ1WXdNTWxhNHNrY3kzY2VUUXJjZ1llX0tZ?oc=5)
+- **[한국] Didi's Driver Services Spinoff Snaps Up O2O Car Maintenance Provider Hiservice - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxQZlZZbXkyQjVNTGFrZEt6VTNqVTVXYTRlVDNpYXQ2UlQtT2FNSG5SRDJjanlFaEV6NlFncktPQjJXQnpGT3RkU0ZINUg5Ml9CUDN2d0UxQmljR1lNOHdvNW5wMVdCNllKZEk3QmJZdVVDSHhKNGkyd3U1UC1JMjdzU2pkenlOdkJaRV9fdGhQdmduTVpUMzZYeGZzWmpuZlBvdWdZYkVGU0M0enFjQWc?oc=5)
+- **[유럽] First Trailer For The Boys Spin-off, Vought Rising - SciFiNow**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxPX0Nkb25RUkNnbVdtUnBVdUdJQ0V0YmRGaWlnUmlSaUczN1lhcVBtcHBjLUJXb0xFUmRIdEpDYWVnVzl5QVhLekhYN1BMSFJpUkdPUEZ0d1pyc2xoNTdCN0p4MGpnUDZ3R1JXUHFleUF2aHNDWnVORGVFeTRZWVBkRlc5S0dWOHp6X0E?oc=5)
+- **[유럽] ‘Stuart Fails To Save The Universe’: Here Is Why Episodes Of ‘Big Bang Theory’ Spinoff Are So Short - Deadline**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1dMUGtYQktTSzdlZ2phNUZNeU1zcmxpNGxyenRVWFFfMXpzcG9IYm44R3hndWRYaXlyVkpGTEtkUGtsaDhOY3dUTEExM01uWTZFbDB0RXZjT3NXeXNoZG1YOVFrSGRKUDQ4eDY1V2hjbWlFOFlON2c4S01WN2w5TlZEOUpCa1ZLQjJva0phdm5PTTZCZ21Ma0lXR3g?oc=5)
+- **[미국] Kraft Heinz suspends spin-off plans - RetailDetail EU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1wVm9aTEdRWlRSRnVnc2pUbkdCUFhIRURtMUZxNFRnWFpQa0FCazUzYlg0V0xwaGIwVGdJUFlEMmF2a3AyVnc3dnUybDhBc0NULXAwX21rekE4WTQwdDgzYWhmYXF2U1ZGbkRMdGRjZHRBQVY5Yl9tT3A3NFZoMXM?oc=5)
+- **[한국] Doctor Who spin-off The War Between sets sail for screens - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJaVoyWFM2TlFhdXpfRmVzei1YQUYwb2RfcVQ4b2oxRFZPTEZiQ1F1Y3VvUjhOekppcnBZWi0wTUQzOU44X3ZSMDY1MERwaUtINWFrNXVwUzI5QQ?oc=5)
+- **[한국] Disney+ fails to stream Doctor Who spin-off when anticipated - CultBox**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxQX1JkbTJ0OUlpb21YNWpsTVpUQlBMWThMQWlyZWt3UldKS0RXdG55NENKY243Mk5tZFlqWHlablloeFRqMTBaTmdVZGt1VWtuZXNMbkQ0R2xycmFQc3RxajhlaXNaRGZSd2M1REFUcjJGX1hBZkt2aGxKWWhjMFNRV3VuM2o3RXctSlFqQkljWQ?oc=5)
+- **[미국] Stranger Things' return to Hawkins in new spinoff will "feel like a lost season" of main show - Digital Spy**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxNQjE3ei1VZzY0aTMtVFhlcExTdmdLeWVxd2hZbmRnTlE1TnRUREhpWG1WdE44M3AwU2otSmJOWW95YktzMmNfaE9WRXUyeDNmN1o5aklKUUVJZkdtWi0yQ1EzUU1laDZtNi05eHUzdlJROGYxNUs1andvSlJsTXhYc1dkWFNQRmFKTXc?oc=5)
+- **[한국] Stranger Things spin-off's first plot details are revealed – and it answers one major question - Radio Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilgFBVV95cUxOUjZCQW5DMHJpR0gtNU1fLXVQVkhaS3I4dUMzeEdzVTUyM0RnU0w4RHl4UEhZWGtybmxVdk53bVZ2STBnQzljQU9FLUE1MFJHT0liUkFmMDducVE3OGhRbzJiU1RYTHYxQzJsN0U3MURWOE5DYlN1RHdJS2swYVlYZmlFeFRyVkEtT2l3dG04b3R6TkUxdlE?oc=5)
+- **[한국] The Handmaid's Tale spin-off The Testaments based on "masterpiece" gets trailer ahead of UK release - Digital Spy**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxQZVcxQnRvcm14OVhhT0x5a1RlYVhIWFpPSXBwdGFoUUJ3aFVrN3Q5MVZTQ2RhNm91VkdHbjVqTVVtdHg4REtvVzNUWU95WjlfSk9MbXpGaVlHZnZHMWozeDM2bHF0TDFXaUwtWmdfYUhxZzdycUl6LTVnY1p0cXZEOG1lTmk0TnZlLW00YUtYWHNDUW1vRmNnVGprWk4?oc=5)
+- **[미국] How Rangers’ Marcus Pettersson is quietly effective in ‘stealth mode’ - Forever Blueshirts**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxNRTAwLWlXN2dTWm5Qc3JLRVFWdHdMNTh6bTlGNmtDTUdBMW53QTk0UUdBcU02WVZTcTQxeFZiSEdNeC1wSXY5TXVibnl3bzlXdDAxQXlONVp1ZEQtYTVOb1hIbUVhbmhsbEdDRmd1dXpvbUlEaHI1dDFORWg0OWtsTm1BLUQySFhuU3RfdjM0QjBnR01oSXlQYmtNR0xCOWJQb1Y4bGdGSUtmNlBCdnVHU2s1bw?oc=5)
+- **[유럽] Oak Emerges From Stealth Mode With $60 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxOcE43czliRHQtVUxJLTRha2c5em9zVnp0QnZMNWVHRTA0bWhUZnNmaXBieUVqblVsM1liaUphU1BXNWQtVFJ3T08xQUY0OUhfNy1aVENXRU1tSi1KN1dobXFvdExlNVdSMmlEdEtydDRoU0dvSjBHTWJPN0FMU2pJaE4zOXdMbW9NYUNCbFhoWdIBlAFBVV95cUxNSzlTWUhwanFKTHNsblVTU241c1VJMmc2WURfMy10cFJkZGItSTdQMXlNalZBdnFYdXRHVWU0VG9IbWtudlBjaUV0akoxRXRlU0kwT3pqTFgzTG8yWUVGckdiQ3p3OG9RYkhqV05OYXpXZm0wZmNROXZublZxdDk3YWVOQWVob2dKYVpTa0xDQmd0UE4z?oc=5)
+- **[한국] This Fully Loaded Affordable Automatic Dive Watch Goes Stealth Mode - Gear Patrol**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTFBOeXQ0LTRBV1RVQVV1djhHeXVtSnphSWR3cDc3UEpJdDBHYWdfTzJ4MzY4RW9IekRQTXdRbDloR0RIYWR5Umw2d3Znd3hOd08wMHp4U2dwMGE4WXUxdGxqRGFlQ1JSNnRjN05UdGxBZ3c2VUg5dm1ESVNYdnY?oc=5)
+- **[미국] Chinese AI chip start-up bets on 3D stacking to bypass US controls - South China Morning Post**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiygFBVV95cUxQcEN5WU9peU5PaHBFZ3VKWFFRZDNmUjBmQ01tSTNJdm52STMwVTBJNlJFeTkyRnVpU09SMjdSSW9MNlVTS2tiOEVEQUM4ZlpZcFJSdGdoOFZuT192aWtUam9NXzJoMGRSc3R5RnItUjAwUy1GaGJOMXlGZmVMZG5DY29VdzBzdE82Zmk0ajhpaGRfUmhVNld6cE1lTWVrN29KV1RKOUYxdHRhWkU3NW9hQmtNdndteXA0azhwWnZRX3N4UGNUMGk0WnZR0gHKAUFVX3lxTFB3dTFQaFo1NU1NcWhSVmF1bUpEaWpUbkZBU25wak1lREhyYm9idW5GLWx1MXc2djNld3pweW0wT1VVaGQzRXo5YVVpdkFIWGE3S0FaZkxuSkM4aWhmRE5EYkZTc21rTlNoV3RMbkoxZEUwck9nd3lvNUZfNkR1eVNaeHVjMzdScmhHeWc1eVNud3lOVENsdjktSDU3R0N6dmZpWjlZMjEwWE50ZV8zV1FGeTZwekx1R0d3QV9ZSUVtb1d6a0hCTWFla0E?oc=5)
+- **[유럽] AI Startup Radar: 15 Stealth Startups We Detected T… - StartupHub.ai**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTFpEbkswQnRFdzVmRTIyeFVxeTV5NnR5OFVaQzZxQ3BkQVZsUmR2dUZObnp4bUQwUHp3OTBYQ05tTWFkeURzakJNT1FHVmtXTUU5UGh1enJNbktQU1F2aHF0TUtyLWZOX29WdHQ2S2FicFFKUC00OUFOLXVMWV9mNUpjQXZ6R3ZYaXJuT2liWWxWWW1lOE8ycENnM0dqdHBmaVZNYUxrMjB4bnR2MWRYa1V2TjFwNzdZN3JfbGxPU3A3djZmRzVjME4tM2FvZmlJVHlv?oc=5)
+- **[미국] A volcanic mystery reveals that rising magma has a stealth mode - Scientific American**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMlpJRzduUDJNSno1a05PLXBuS0lXY1pKazhaZGVRc0UxaS14OEl6WElBZUFJUTZOQTdzUmtnc2I0THg5bHg0b3AyR0pBSDR6WFFIamZBVlJxbEVvVGFiekFSdHhhbTcwTzdYY21oY1FHbzdwRG9lOXBCS0pyb2FYeW9kQ2hZb25wa0pSUTlWMkkxOHVwSGl1RmxaZ3JzNWJSdDlsY05NSTRDM2s?oc=5)
+- **[미국] iRobot’s Co-Founder Just Took His New Venture Out of Stealth Mode - inc.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmZ3NE9tUDJaRnpJajhtaDdBLUFEd2g1UDU0ME1oMUtSVU5aOFd5eU01YTNoRWxCY3RqZ2h0R3lQMXNUM1dVU2VBckYwTHlBeXFtcnZqUWhXVngxb3pXVk5jS1RBR21Bc0RWczFvb3d4bWMycTN3dHg0MzQyNzZvZTVOTTRzSXVJSVhrc1RrT0x5Mjh6bXlZaUJneHNoeGozTHpwRU1LeHhjZkRw?oc=5)
+- **[한국] Travis Kalanick sees benefits of stealth mode. 'You build a culture of people that want to build' - Fortune**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTZyeVRfUUJma0FVQk93WlhJZkFFTTZERWZYUDRsX1MtZWg3Mml0TGMxdFk2VUJiajY3d1A3OWhxOXR2M2dGVFdtNTlUcmF0OUJ4OGtzUWsza3owOFFxVlNodWxpRWktWDJMeWxKZjZ5V2NFUzRKN2dkRV9idy05MGVISVN3eDR2Y0R5Y2xHbHdSeHlwS0ZiVXJYSVJISFRNR2RVSU9rbWM0Zkp1?oc=5)
+- **[유럽] Beetles Go Stealth Mode to Infiltrate Ant Societies - Caltech**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxQZmVqR2hVbVRIbVMzMDRLU3JOY0pjU3lUYy00MWowWUxqNmdEUWstVDlWbUVKSGwxRm9aa3JNeE1XdUlORkpxQW1KNDJTMzl2X2szbHBtaDVqUldRNFZRcHNHWkRmOGZrbU5VZFJBalktTXJUYWw4bE96TGlFZDl4d19ySzRnb1RrUVRrY3dkWQ?oc=5)
+- **[유럽] 2027 Corvette Grand Sport X Gets Improved Stealth Mode Compared To E-Ray - GM Authority**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirwFBVV95cUxPd0pkVXJKS0RPNklob0hzb1pEdFpabmJLT0FpbDlrYnNFV1NEc3pRS3ZLdUVLN0F1TG1rQ3JDMFdpMGdjdGszeFdiMV9IVmJqM1ZibEdwb2E3R1FOckJkeGhJbUtvTmZFamMyQ1Y3ZzZybFVTRHpfdGVVdUJ2aFB2aEt0NlBBZVpuYkRrMlk2cEtEUFM4X0dVeFVoeEZRaUhyX0RRLWxTVGtSTjF5akZV?oc=5)
+- **[한국] Review: The Stealth Mode Hybrid - RMU Sentry Media**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNnNYMDdJdjdzQ3Zla0xCQUpqSzlIRU5YdDIySTZkNkV3QmRVZllYZ2tUWk45ZjRfRDI0cjRDR1JDS3VaVVUzV241S1pFZGdqaS1hb2RLUHhLV3JaeXJQcDNfeVBiOTY1czFnRXJlVFZMUjJudGgtZHN5Z3pjeF8wTXR0cWJPekl3?oc=5)
+- **[한국] The New AWD Corvette Has A Stealth Mode And, Yes, It’s Exactly What It Sounds Like - Carscoops**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE03OU9LWU5taWJJTmZ3c3JGbTRPaGFSY0RyVjNwcUdCaVdDdFREMzFxNlQtNmZ1SXJwcTR5WXdJQksxc0MwYXI4Z2NMWEk4NFJIZ19zaS1nMC1hWHJuanNtUmxpR0V0OUtlY19JeGprZXc?oc=5)
+- **[한국] NewCore Emerges From Stealth Mode With $66 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjJsMXI5NXhteWZGdWhPZ2NLcm4yT1BKWm1aM3NUZldzaGlMc3BmNUd3amwxbXFVM3ZvSTNiVGNYc0kzVWJzU1hlMWt4NUJlU0R3SERpU2xpaU9MVGdrakdwbVMwMzVzX2FXUHEtT2s4MUItVmFJdDcwOGVveXNtbE5EdUtvZmQ0M1M4cVNibkF6MGZU0gGaAUFVX3lxTE5vWEZyM2xvRi1qYV9Wd3JRSWlZdnhFZmN6MWoxMTBHV1FwbTFhYy11NE5qNk1SdFFZSGIySHJJLTZlZk9zaUpaSWZNbUxvOEIxbS05Uko5bHp4MG1VZjlNTTh3bTdtX2RKSXFMOEMtQmp5bF9YYzdDOVZXRkpydUhRWlpUdnVGMGFhSlktRUVmVnhsWlB4Y3NpWUE?oc=5)
+- **[미국] Bethesda private equity firm exits stealth mode, strikes first defense tech deal - The Business Journals**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0VydU9VSnVrS05XVnhBRko1Ri1NN3h2MC1pSDlqOHJRNmxBQnlQaThSSjZDdUN2emNQdElDYVlHYkhPOEV2Mk9JUWp6d01UVk5mYUhYaHdaVXFuMzBuaGZ0d1JQMDBDNDRHdnp4a19uN0x1THlJUV9DX04yVmNBNy1KU1ZJWmFCN3RxUk1GdVFuWVA3T2lYT2FfWW4wN1E?oc=5)
+- **[한국] Magnitude Emerges From Stealth Mode With $10 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGhoT21ONFZMb0ptMjNIRGpJY1lmcVVxYXZfUzV0RlBDNkRBaGtwRlJUN3NDWnVEVXEzc1BvQXhkQnNlSWVwNWtGdTdMMjNIUUg2b2pGaGZsclQyLUprdzZfSUVidDZvajczQnVncERMNVc5dTZmNEZPaWU2S2RaMGNmZVpNTlB6QlBqeE1hZzdKZmYxRkJv0gGcAUFVX3lxTE1fSExWNWNaSm9lUG9iY18tcGR4bGdnUTVQenVBZDA5NzRTS2FOdFJ2bzE0ajNkSnZ2ZVUxdUxIV04tdkFuVVhGTlM5MDNjU3dJbXFNczFhQlI3bzJVMlBDeGRFOG9VR2NkRjA5Yk9zQ1pvVjV5Ukl1UlJQUlp2VC1mLXhnZXl4YUVCZC1MNk94LTdidTRlYlpGU2hVZw?oc=5)
+- **[한국] Spectrum Security Emerges From Stealth Mode With $19 Million - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQMll0X3NpbzJETmNfeFNyZDZ1VmZXcHlzQk01VkNScDBFRjhBNXBkUFdBRjFZVmIxV00zcEFaa1N5a0R2X1Zwazc0cHkyNzNKcHB2Ui1HbXFSYnlWTGxYWGlkZDk1d3VncF83T3MtWUtldjNBOUhkRlJkZThLYWtGNVRISFVPWElad29SZ3FxXzhVS1E?oc=5)
+- **[한국] Stealth Mode: Why the St. Mary Siphon Isn’t Glowing Neon - Montana Outdoor**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAFBVV95cUxOeHo3RnZOWHk2SGc5T0JJZllSOV92NGtBTEg3RzBfMHJzUTRYVk1aTVFjeXlsb2hwVU1xdEFRQ0JkemIxb0xyNVlGV3NKU3ZCcmhaT00wMXdEV29CbGxiWXJZNlZfa3U0alJSb3lMYU1kMUd3VHFyZ18xYjZEZ3I4R2YyVnRXX3lCeGRsbHM2c25oR3h2MDVmLQ?oc=5)
+- **[유럽] Product design startup Noon emerges from stealth mode with $44 million funding - The Economic Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi3AFBVV95cUxNblJidjRDWlhBYnhhczdhQTZJNzdpdWNtUTdQTktsam80b1J3bEdIcHFMaEhFd25EalBpeUhQcldoMEZJZGVObGthYTJSMVVMdmpoZWlGdEVkWmlmZkRwdVhWcmlBcXBDLVpEZ1VsUHJEdlhtUFR1YW5TZW9Jck1EdzlIUVE5THNYUTRST2wyb0ZIeEFIS29NT1Bia2xNSkZJd01ndXhTNXZTc21YQ3Rnalp3bDAwUkRGdXpjR1YwVndXTEtFeE9FMjJFUzB5ajV0cUtnWXlHSTdMNldm0gHiAUFVX3lxTE9Lc3Z3dmU3YnphbkpwMXhwOU8xQmkxSFllaW51TUpfQ0d3OU1raE40YlBZZlc1OXk5eEwteE93SWFZa0xBT2FWOG9xVmFkUEVzMzlvajZqMFNJTnpRSDJoaVNsbjdwMktBTkthS0xXZDBsd3NDamRYTHpILTdMZUpHbUUxV1UtWFFLWHF4Wkp4OXZ6VlZLal81RHlMeW5qN09LSDBvVFBDMUpaanAzaEdXVEZHNG5hYVpUWl9tajFINVdMM0J5YVlOZkstUDZYaFZDWTB6T0swRUl0eXRvTUhPcnc?oc=5)
+- **[한국] Why the F-35 Keeps Its Missiles Hidden Inside the Aircraft - 19FortyFive**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWdlLWtCbF9hbTE0TWExc1JCUXdDTWNtU0JKV2swS3VqNDhWVlVIemI2VGJpaTFUbFZ5ZGozMzFRSFc2aG45blN5TlR3UVlhTzVGaUdzUlJfakZtODhoWmlhN0p4Vks4ZW1KZkZyRkR2VEQ5RzFnSHA4SDJHRDRwZGZoZ3c4SnU0WWFuZmVSTlVDQU4xSHlDTS1ubw?oc=5)
+- **[한국] Female-led Creative Studio Dirt Unveils After A Year In ‘Stealth Mode’ - bandt.com.au**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimgFBVV95cUxNWElzS21SNzhjbVhaaGxLaE80MUlrMUFIbmExUVpaZWZDYWRCcVE4S2UxdXJyQkdwV0pRM0pNMVhnb1JZMjhiR3RxMVZBaDZPWlRlNm5Yd3JtVnBxVF9oWndwb3B2U00wZTVOeDM5NHQ0aTVNb1FLSjNDQUZVSE0zTFVDNGMzUTB1YXA2WDVZMWZreFIwMkFVUE13?oc=5)
+- **[미국] Chester County 'biotech born on second base' emerges from stealth mode - The Business Journals**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirwFBVV95cUxQUFF2RFl0VnpBOUZya1pvaXZXZnBsQ0xwTmkxWkJMdkR2THpLQWQydGZpTUVyeGgzdmJTQUNYRWNzTWw4YW55Rjh1SVkwMmNEczViUmRrbFIxS0hDRDRxcktWR0NJWGZTQ2lHQjE4TUlBN3h0Q2NGMmtFLUlPWDVkLURTek5FaXJrOFJkbGlJYWlTSGVDR2lsZW5EQ1JCeXl4VEgyaFpvTmhnMzNuSWRR?oc=5)
+- **[한국] A. Lange & Söhne Goes Stealth Mode With An Unforgettable New Lange 1 - Boss Hunting**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUFBelptSmF6SUFILUZSUkU0THJoMDg5Z3NqMUhwMVBSZ1FNM3RmcDh2R2dGRTFtZlRHNHhUc0ZCRVhKNWhmcEZTNTYyNTkzWXliTC1qdnZsVEhZRGluYkhNYVliU05nejlKZ1kxaWtmb3hqX2ZOOFFWcDlSNk1xYg?oc=5)
+- **[유럽] Biotech emerges from stealth mode with cancer drug platform - Insider Media Ltd**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxNcDJkOEh4NE84UTJxb3p3QU9Hc2JjUHhMWm83MndFZFdndXQ1RHE5R0psZ251eUpIc1VCT2pWVFJZTWZYWGd0VEtYemFHUnB2SlMyM01wVVFIYXFhZjBUa1N2aGdOWml1aUhIWm9EUjJrNUY1SnMxWVlUbTNZbGVQOF9XbktPVHRGYnhHdkJXaHJMTW5LMUxjMFNiUndydUtNZy15ZA?oc=5)
+- **[한국] Metal Gear Solid 2 modder finds hidden mode that Hideo Kojima said Konami "experimented with" before cutting it over 15 years ago - GamesRadar+**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggJBVV95cUxPLVBmTEIwcUxobVc0THk2SzdpYWRqeWZpV2RNQS1qbVBmWTRFLUpQYXpuX0k1OTJDOXhCTHNEZFFIU1dmRENMenhoMTVUdjQzZFJrZjRKQ212RlFkQjlsWUpqc2NJb05FVnRlZUxCcVNWWEFoNEVLVVpwdGZfNTMzSVdkSXFaa0dfamZ0WUFtVWdmLTItQTU5RUpmUDRVa0VLQnI1azlkQ3pIWjg3NHFRYlJ5bXNvd2tHNmtCaW9fTXJOZF9aQ0YxQ19jaVBPX3ZGQU5IaDdPMHZxaGNjcXcwOHBXU011YUd3ZTA0dlpBWWI2THB1T2xJZnNFVkU2ZkZya1E?oc=5)
+- **[한국] IWC Goes Full Stealth Mode With The Portugieser Chronograph Ceratanium - Boss Hunting**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlBBdlNkXzFKU3NyTkZjNVJIX2c1b2h6MEc4VnBJckJUWDU0ZTZEeHBQbkNwQmxfVVVPMmtyTXN3YUJSbjNCUUxlSldrMHk2cm1JTE9ISm5VZXpWNWxsN2FJdTkyTzgzVXptV3cxeHNYeVRvRmpZN1hadFFPRjZ2TF9HdTFZd2k1NlhzUUQteGo3Zw?oc=5)
+- **[미국] Scottish biotech emerges from stealth mode with cancer drug platform - TheBusinessDesk.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa2txMTFjcDJMa1BvUFUtQmc2V1RmUmNGbWpfbEVqZ3JSeHFHaDJIQzdmRXFnUS1xTklqQTVlQTVmWWVpNUhaR2luMHNFejZEaFUxSU9GNXBjc0FYeW9JRVdwTjdHaWdiSkxHbUNudVd0QTFlZ01rc0VrRUxpSG5IWDYyWVpRMzJJamsxRU5UZktXSTBfblFiTXU2N2lvU0x3dVhDdDdSTXVYRmZTSzJOenNEVnkxeEFrdXk0?oc=5)
+- **[미국] How ‘Stealth Mode’ Became The Startup World’s Most Dangerous Trap - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0lvZ01NUlFNdnFCZW1iT0NwTlQ3TFhwM0o4R3U1X0ZqYmIteGRvZUh0eGlzQ1NFcDdjY0lEbkdzVmk5d3Q4dTFWR3VhbG1BLUFrZ0lNYUpiNFlyeXBycmR1ejZWT2JhMl8xMDd1NE0zTTFoN3h6Qnc1V253Rk55MTBCVWR1dEZ0OXMtMzg5TjNIdXBvLWtvYWc2S3BqSmgzOWhQcWhsYkZpQWFub3UyREdPVQ?oc=5)
+- **[유럽] Jetour Dashing goes stealth mode with Dark Warrior Limited Edition - RM117,200 - Auto News - Carlist.my - Carlist.my**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPamw3cGdIdkJGTkVXWjF3Y3pEWkxESGowQVM1aVFvYXlTNVF6M0tyZWxTOTdUanhLaGJIek1wNXlybEhHSVc2UXNpVVZERU15WkI5bVo3cE1IWnl5cFZrOTNEUVpvSGx5ZG5MYVlFZ3hPRGtJcXhRbElaSjJXTGFKZWd1WnVidjNkaWJjOFk0dTNuUnFSYTgzbzZjRzFQLWMxbWtta1h0Q3dRQTcxUXJWVGtRb1JqamV6dXZN0gHLAUFVX3lxTE5PQnBSQzF3RE4tckpKU1g2R3ZNS0tDbUtoemRBT0V4Ymd4X1VWZEljNURaSzRwZlN1WDQ5RXFpYjlrODY3QzVXcU1QYXlzU0FnS3MwSF9CV2NVRlMwWG5qOVVTNnZGV2ViREc2MEZxT3c3cHBBYWZKU1dXZk8wRFd3Y09yNEtmQlJGdGVSNHFUOGJ1RmloWWVuZXVFSHFlR0F1VWFBc0owTGozcHR5bDRNNHp3dHRQOTVxaDBUV1d2aWV1M011bU1mbk1v?oc=5)
+- **[미국] Zero Point Motion Emerges from Stealth Mode | Industry News | Jun 2025 - Photonics Spectra**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijgFBVV95cUxQeEpGZHFhOTdMRlpkU0ZTaHIwMzktX3ZnTXhFamEzSEtEYUc3N2NtTGQxdzdmRjR3YXBRR190eXpJcy1jeXVBR0RXSUJ5UUVsbE9vcnlxLTg4SmhiZ2pzVFNXaGlBV25SSDRzazNrWENoWTAzaDFYOHNySjRHNkVWWFNocEpuOW1VNTNCNVlB?oc=5)
+- **[한국] Wild Moose emerges from stealth mode with site reliability platform - Network World**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOHNoNUNibVV1LUZCclE2VDBXU1RQckxkTWFHRVA3dlNfRG1aVHgxNUNfTXF0TG9ubHkySkF0RDdwbGNPUFJab1h5LWhUakVRUmQ0MnNZSmZnYVBRNlZaRnNzbTlZYVlheWxkdzRyNmFTaFN4dlRDR01RdjY0VEgzU2tiYWRPd1ZfUWl5cDBHOE56VHBGb2xFSU4wMVdzYWNvczRSR1dkdzZacGpqanZMQm85Y20wY0xB?oc=5)
+- **[미국] The Definitive Affordable Minimalist Tool Watch Just Entered Stealth Mode - Gear Patrol**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNOEJZWnJjUldmOVU2S1ozTDYyc1dqOUR1aFRfNlJEa1RvazV3VGZqNzJfbksxYzdPWEZ1bDF1bG9oV2dkNGV3VU52RWdFQUVRSEplN1luNDYyZEpSOEVDMWFQN09wcVpOY3FpcjdvMnJmQVZzeF9INm0yaFp3dVdVUElsajlNU00?oc=5)
+- **[한국] Helmet Security Emerges From Stealth Mode With $9 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxOY1VaTUx3QktpTUFVeXdKdkh5R1NMMzNwaWFSS0VCbVN3ekRJSVl3eXlhd2xzcTI0bm51cnZvRWp4ejdJV09PTW1MWDd0SlJ0eGNKaVhzWGhPdmRDeHBNenFvcTdWX3dIeFM0dDZjWl8zejFxVW1YTGdsU2RlbnZUUkRKUmFyMkhhLTRMQ1VpeXdtejFWVHJ2WTVMV3dFUdIBowFBVV95cUxPRmpHUDhqeEJoZXAxckwwZTZiQjM4RTYtR3Y1SEJncW02OWFHMmczUHJWdE92enhacnRaX0RweDFxSkUydkdkQ3otSXY4NmNGem9IZXFrNld4a0ZkTXNUNm9Hd3Y4SVBHUDFMd29GeHR3TEE4VVNva3p4aW9FRzI0V21FbzBpVXlMWW5YWlhTc2RoaUo0S1BnLXNyQm9CZU9YWU5V?oc=5)
+- **[유럽] Biologics CDMO Rezon Bio leaves stealth mode - European Biotechnology Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxOWjhfNlFIM3VKUWQ1TzhDS0NLcHdFY2VfUjduZ2sxTGdsVEo1TkliajhYU29Xd09FeDZxSlpqbjJKUmRsRkRoTVhqT3g2RUt1OE1tMHphdkVQcTd3VjgzaGFEMGsyVi1pOVVoYXBSdGl0TXhydlI3dGFJeXlkRDB6V3ZHZGIxZ3RVYVl2bTRvWXdWZGFWaWhJ?oc=5)
+- **[한국] OKX SWITCH McLAREN MCL60 TO STEALTH MODE FOR THE SINGAPORE GRAND PRIX - mclaren.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1BpYmU2LTNmdWduMDJJemJaS0d5UFpWT1JZUXlZdWJQTlNNLUlQRFdHN0NfM0M0dExSZU5ycndLUDlUdDhMQzh3UkxyQ2FrbWNNcVI0bnQxbmg5ZmtHRTRtNlNHT3NIbnRQOGdtRUw1RVJZOXFONjFCYVczVDFVWmZabEVKYkFqcnZhZFhocDZsQ0RESTlwOVNfRV9YT196d1BKZVducGxYNkdjYm5fdkNOX20?oc=5)
+- **[유럽] LiveEO Exits Stealth Mode With Twinspector Earth Observation Plan - Aviation Week**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxOOHhhUTIyNDNzZTV4NjBvdTVTY3RwZTR1dTJfUXVwU04wdlgzNGZRZ3lfV2dtbTNSVG1pdW1JUWNXYVBCWjE4bVE0MHVwS3RwWUp2M2FXcWZsczRUbllINFpsVDhGeFlXWWpINU9NQXQ1dXBMWEUxaWRFbU14LTlNNlBvM2VaVFpNaUpPWTBhUmpQbk4xdDJHb1dNQzBxdGdqckNUNA?oc=5)
+- **[한국] Issue No. 351: Stealth Mode - Fitt Insider**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuUjVnbGxpWGFjWlJlN1I4ZkVFQzdveHNuenFDTHNwbXFWeDRJRzUxZDR2YlI1Y0oxQWhNTE9sRk1FS2ptT0RiNkNtQ0EtQXhDT0hTLUNYZV9mOE94WnJJ?oc=5)
+- **[유럽] Hunting Stealth Mode: The E-Bike Advantage | An Official Journal Of The NRA - American Hunter**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWp2Vm5YRVFVV3RBQ2diTUFNWUJ4d3M2Z0hGZlplUnYwMmlLWWRNbWxlYVpHMWJZdlg2bFVXZW9lYVctLWNPNEVfTjBNTjJvLTZ0a2NET3pIbFVMcDFCcVBYSEkwM0NDcmVYUE10RXFva2t1WHhTblgtT05XeUJwNWZaRll1WHhX?oc=5)
+- **[미국] Keycard Emerges From Stealth Mode With $38 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAFBVV95cUxOWVhCbjBweDV3OHMtYllrSDQ1YktsWXZwUER5ejV5cFhwaFNCNGRrNmduUWhoWUlIbFRmeTNaR2d5YXJ5aWtlUjFnbXBVZk9WTDdqV1k2WGktYlNLVloyeUZUQzI1dDl2Zi1qdmR0R001cjh2NkNUSjFCZUFpVTRRWXBXaUU0MUg2d0czbzhTMVBOdGlo0gGaAUFVX3lxTFBkQ3piZllremVmOHdvRGU2TnhFM1lDaVNZWkFXU21mUnVMZDdTOEwyX1Bkc0xIaTdTbG9FdC1YUVQySnBfNEFoeHFnbF9EeXNhS1F4aGhqR282dTFZek5US2xMb0YyTnlXUnFuZjZkODNyZldvQklIV2hRRUVCMGVrVkdzVUFCVzdleDVvSTlQNExyVWNJRHA3T2c?oc=5)
+- **[한국] Surf: Stealth Mode Stripers - thefisherman.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBpZEluYXVtMjN0Y1ZVTGRWb2FkRmZEOV94MVRSOExMSTM1bWFoZlRmMGE4akY2WEZHcWVYV01xdFNYckZKWW9EeGcwdGExczV2UTZ3YUxpUE1BZ0lEMXJ3aXdveGRaMzVZRm1ISzVJUXNiQQ?oc=5)
+- **[한국] Runlayer Emerges From Stealth Mode With $11 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilgFBVV95cUxPTTVxSkVvNGVmRzd5UUtZc0dSQTVReWZIMnREMlhLZ1VwbzNsbGhkYkQ0Y21wQkhOUDZTN1g2SlJCaGloTWRWdVFkeWpaMkxJNXBXOEQxZTl6X3lSSmYyVVMtMG9zRXRaMVFFSWl5eDM4SGtmS29sUU15R3pSZG01VEp1SWM4XzVqSkVOZEowRlg3VkhBUmfSAZsBQVVfeXFMUEJOalJiR053a1FPelU5RTl6UG1MYWY4dUVSV1FGN0xQcXVKb2VjTzRpM0Y1ckkwd2tPZEZ5UGI1X1FyQWQ2eVFramZ3TGNOZ3BaTUJISGxrbHJZSV9OQ3lfbTdyYjJFamFkZGNCRGl4djlITG1VTUJsbC1VLVk4ODk5UE5kdTNvRjRib0Y4MlFGTXdBSTNpdUJWelU?oc=5)
+- **[한국] Start-up health tech company Alita steps out of ‘stealth mode’ tomorrow - McKnight's Senior Living**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnZhRUo2V1FHS1A1UW54NkF1ZkFBSHNDMVZiZmxncGVGZ1JDbzZoX3ZxUEQzQ044TVd2TG9veXpld3AwNDhzTFdFa0R6YV96SktyT09kV3o3YV9od1VHanlMdm5DdERwVE8wenpZTFo4eXRLUUJRYndLLUduNlRveXFPbWJWSEJmNHNEZ1V6T29yeDFrOHRlSVZTODkzMHhvenBrLWprZDRtYjRBTzRYM3QtWQ?oc=5)
+- **[미국] Stealth Mode DEI: The New Normal in Workplace Inclusion? - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHo3MEZMWjkzNmRsWjkyUGFHQXlLRmNKMEl4c3VxdzB3SzFDQTZZM1FHMS1QRDNKdDRqVVVLdmZNZmFVVXpQRzFNVFZTQ0xVbm1MV2dxMmh1ZGpNbURLTG5pXzZOeXlZbG9RbDkwSUNsOXN4ek1FajhvUlNOUTEzTkFoamlEOFY0ZFUwU2tEamt2NkVkNlE?oc=5)
+- **[한국] Garmin's latest watch has a kill switch and a stealth mode - Android Headlines**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2c3eFBCd3cySFQzSndtTk42ZHZrR0gyZWJMSU9vMFQ5NWxUMXdmV05rekFBOFFSaTlmcDNvQzJKQ3lReEdUT1EyN01nZUdWYm8tdXdBTlY3VmJuUGZhWXNGUDR3Q3Jhb3k1Z0hsdVd0bkpqWm9Ba0lHMkZKTUJXc3ROU2JzTTVoSUZzcjRCN2RsOVE4RV9tbjFVMmdjcmtSSlFxb1hn?oc=5)
+- **[한국] F1: McLaren Go Into Stealth Mode for Barcelona Shakedown - autoevolution**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxPc0E3UnB2QmJkWGtOckcxQWZUZjZ0TXdlLVY3Q0kwelB0bkZVQjA4UlpBbmh5NW5BR3B0dHQ1NndmRnBlemZLVDI0YUd1TmRtVnpYd05lV3BhRXRuQm9sQ2hPSnhaSnRub2N0OEhvNENwbzR0aXBoc2N6SGlPWC1EMUNJdzZHcWlHdlZBenFxWWRpMi1OazRhbGYxdjdXdVcyc3d5SQ?oc=5)
+- **[미국] Medical device startup exits stealth mode to name CEO, announce $21M in funding - Cardiovascular Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU3o0UDlkZ2p0b2lyZ3M1b2JHSFp3WjJjVGJzVDBIWGpGUVlfLXRxQVBHRnMyTGpkell0VGNpS1h2V0ZsTU92b183M3djVlE2Q1JTM0pjZkswbkFFRXo5aEJPT3ZIeTVnZEliS3lBWjh2QVowc3UxWVRZX3Z2dXRJMm9lX0JRQ0RfTlkxTUpfZ0JlVDg4S2E1UGFnQ1dTc2tncUpIWmRKVjFFX2FFUlZtbWJPLXY2YTFyc0J0OWM0Nk1XeHlGcHhoYnVOY3BFN3Z0Z19GS3M1RFVydmlUN3F0bTdtTmwzNGtxM2V3dw?oc=5)
+- **[한국] Sam Fisher Goes Stealth Mode in New ‘Tom Clancy’s Splinter Cell: Deathwatch’ Clip - Animation Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxPUlctVGJycHA5V2xaUjRRUjE2MG1uVjJNYi00VlVQeGMxSEktYnd2LVVBNDBDVnkyOHBWcFJjSkxyXzdCd0JYSmpRQmxTb0pfM0E1ZENXSDA3U3NZU0pNY0MyRFVtajFlc0otZ1lfV3VCaGV5Z2pkaGo3OG9lMnlwc3oyaVU1YVB6dGM4ekVmbDNMSWhRQWtFSWV3NzRrV3k3Vk1vcDJlZmo1MF9UNWEwUEJnZ1JRTy1sSThiMQ?oc=5)
+- **[한국] Stealth-Mode Startup Wamy Unveils AI Workforce Platform for Property & Casualty Claims - PR Newswire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZnAxOTJidS1fNW1XT3o2WndsamNvVDl4TjdmQ2I4eGpYWVlmb3NBMTVyQ01lSXBiLXJiWU1YczIzemVyUlpSS0p6VnBYWTEyM2w1dEEyZlAxeGNwWFVfU200VGlNUXFrNjhsQXdxTkZnTW5Wdm5ubzlJd3RVUXo5ZWNWcW1EdDE0WlhCNmJzdVV5NEFBc0NxczY3elFDd3NmRUJoV0lEMk5icVhyZG4taGJQRTBJZ3NXUFZRTDE4cEdxUjVYZ25sR3F3aGZKZkdvWWR6SkI5QWs?oc=5)
+- **[미국] Rendezvous Robotics emerges from stealth mode for in-space assembly - Electronics Weekly**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizAFBVV95cUxQSEVSaFVBR0FvT3ZqeFpkbVNqd0RwMFBwcDhhUWtPNnVTaWZCMUhUaThkSnBJVkM5cjZhTURFVDJZenZ0RjlOaW5TVktveHhoRHJFcTJNX3BsTXpjRUxMRDBqVUpZUFo2aml4ZDRGUEZ5YUdYM1pzeU1jWEpoZzcycFdHZWxBMWZrTFF1U2tIRU9ndERSZFFSN0drWkJKM3piR0Z3cVJoQ3FpY1B6Sm9vdzAzZEdSV2dtODJCVXdNUVltYy1WNmJxNkNPSW8?oc=5)
+- **[한국] American-Based SiFly Comes Tearing Out of Stealth Mode with Quiet, Powerful Helicopter Drones - UAV Coach**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiQEFVX3lxTE5LQTdEQkZaN3l4OTI3dzVSRlBDcEs5NXZKRjg4OXd1bDhHVGJwVzMwN0pmNC1HSHI0T2UzeW1GdF8?oc=5)
+- **[한국] Kapta Space exits stealth mode with bold plans for space-based target tracking - SpaceNews**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWk2XzJXNFhwcFhkc3pxRWU2ZlhhVGdVSzBfWXBReS0zWWQ1TjNWOHFTNnJCN1Rjdi1VVXEzNUVPVzhCMEhWVFh6R1RoZlc2NkVTT0kwUWc3VUcydDJCdDhPcWhmZ2Q1OVM3b0g4U292X3ZEMGRoMExQaThiSWRVMHJ1TmFFckhxb3MtV1lzV1d4QWxMZFJmSm42eXFVcVhWYndr?oc=5)
+- **[미국] Here’s How To Use The 2024 Corvette E-Ray Stealth Mode: Video - GM Authority**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxObVRVVzV6WHZ5a2xsUHF0T2FDcGxZNURsVXBXMzZpMFpvejdqZE5US1JPLW1QM2dhZXFQNmJaLWFNSjYxZDJTTi1jVXNIQ1VOZWZLN25uZ3J1X0pIaGJMenNJMTZzZjBQUElPQXg1MHJLSW43My1iOVJsSVZlUzl4ZjhHQjRWNjAwY2Vub3dnVGJtWk10ZlVXZHdPR1pIQQ?oc=5)
+- **[미국] Fore Enterprise Exits Stealth Mode With $4M - Los Angeles Business Journal**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwUGc0a3A4X2pSLVVoRUFuNEViR2RldGREeS1vd042MVl3OE9Zd2RLMkFlUGNQbTJWLUtFWFBNQVRZNTFLMjZKc1EzZ3FuYVBxM21NVGl3S2lZS3gyMHA0S0I5ajJKOGhH?oc=5)
+- **[유럽] BCI maker Subsense emerges from stealth mode with $17M in seed funding - massdevice.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE44UTVPX28zangydm9qZ1RlcGtXTEsyZWx5N1ZleElwd203UG92NDJfNkdPYW54eUFuWnZFR3J3ajZfc2Z5dkdyekZhem9pTm90eGRzR3E4Mk1GNjdiaER0WHdmLUxzd2JzZ0E4VXJPeFg5YXludHYw?oc=5)
+- **[미국] Video: ‘Hunting Dog’ Goes Into Stealth Mode Approaching a Bunny in Bushes - DogTime**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1WVDluWUlmRi15bWRLWGI2dTY0YmVYRnl2ZmJNR1BraFdscVVwNDlVb25kcVBvYUVyRlBhRkR3enZVblFKczNIV3NIclFlV2VEdWhvcGNRRkFlbllvcEpEdHU4cXpDVDNudkROcG5R0gFzQVVfeXFMTzIzUUV2OENYUm42blJHaFNmZkpnN21zYXNiRlUzRUtlTTV1Q2x2X3pxR0lqRmxKbXBfQVBnRkp0TUtkbHZOYXQ3dUlNb2lwSFZNVkNuTGx6T0ktTFVMOEg2ZjZ2V3hxMXBXeWtqRW9Ed2hZQQ?oc=5)
+- **[유럽] Adidas’s Beloved Everyday Running Shoe Looks Even Sharper in Stealth Mode - Gear Patrol**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNGFPNDdvVlAyajY4UEwtTkdLVDVPSnJqNENFdDNkM2dzNkRlT0pHekoteUtDc2E1NVBWT1ZrSWZ6Q0JPbU53Z3h6RmVjNHdqckEzQVc5ZDRnejl2eHlhaVQ4cjlqbmp2Rk9MbW5JeDZabk9Ral9NLVVHVEtBVVNFdFJNMVV4TU5jMzZj?oc=5)
+- **[미국] Turning on stealth mode: 5 simple strategies for staying under the radar online - WeLiveSecurity**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxPV0ZGUjZIMG9CaXZOTnFibS1NQ0dYWUQ0NDI5cURBa20xMVhKUTFCWWZsXzVFejhMeFlSeTN3b2l5dUVmVXljYU5fSTZFRjZ3U2hRVGhyV1lhMFpoMndudFhqZ0RtS0ZOOFdBNlB1ZXhjUl9nX2ptQ2w5V1JQNmdySjJ2TlFERXlHWWg1OGttZERPdmRuSkl3Q2tBV2xsV29NWTNqMQ?oc=5)
+- **[유럽] Still in Stealth Mode, Dallas-Based Surgical Automations Closes $3.4M Seed Round - Dallas Innovates**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbk5SeGRFOEpfMzJWYUVyb3FQTzQ5d2djWG5aeU44YUVtYTRyN0xOOVd0NTRpT0RHcTdrSEpVYkZPdHFWVGk2NFMwTHVRSHFvVUJodlFrdXpWeHJDNU8xM3FGdkUxSDM2LU1ZOE4xQU1sN0w3MGE4SUYtOTV0bzViSVcyOWlpNkpDVnYyZ0tPQVFNSFNRZ3NMUWpiMHBNYXN4d2N4aEQwaU1PY3c?oc=5)
+- **[한국] Database startup Regatta emerges from stealth mode - blocksandfiles.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ0ExUVhMSXJnY1ZMOVNXU1I1SWpGVlJLeHBHQURyM3lwalJha2Mta283RkxDb3paZWNYQVJ4cHhrVDk3RFUzeVJ0b01YZjZ3SXhHb1p0VzFTRDZqUG1Mb3o4X21ZUm52TWZxTmw1d1JiOWlhMnRTUjkzeGE5Rl9KQlJfUDlhNjVoWXlUbjI3TUpvNS1ZOGdoTnp1OWNxQVp1aDRwQlBtSUNXQWFkUXJhSlpwZTIxTDg?oc=5)
+- **[한국] Honda eVTOL Emerges From Stealth Mode: Full-Scale Prototype Flying March 2026 - DroneXL**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE52Wmo3N2tpUkVvTGhobXR6X0djR2pOamxKaDVXeFdLYWp3T0JtSU13c3ZLbEZaLU81YWg2ZXdQMWpuc0UxM25OM3VySlFHWWV2RmI1S0I1Wkt2YzNEdTJvaGVMaE9YTjdfWVpiSTdHTGFXV21kRHk4?oc=5)
+- **[한국] Deep Tech Playbook: How Market Shaping Beats Stealth Mode for Startup Success - The Quantum Insider**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2RzM0NLV3NjQzg0TkxvZEZTbmpuR3Z6aU91VFZpWkdSMGFYcU5fSzlJWHBYMWhyQVQ0c2M5eE5xV0U2aEEzc1dlZzJWTWJjN1RUbUFqanhocm0yeVZUWHVRTWVNMnNjTkwtbWpsRngyOUNYUEJYMEtGcEtDV1VOQmdBNlltSDBtamZmRjNXS05VS1QxTm5XOFhfTzZ6OWZ4VlM3bGtZRWdVMGgzVHRtN1NtR3o5dzhrV2c?oc=5)
+- **[미국] A virus in stealth mode: Zika infects babies by tunnelling into placenta - Gavi, the Vaccine Alliance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxOMTQzenROc3h1QWcxOUhvRmZlM3FJM0N4S1J4ZzdYMU4zUmpndGEtTm5Gd3dETmdMeVVFenZwNXdSNTk4ZWsyMllRTkZZLUprQXVSenFzaC01bEZMMk1peGpPSEZLT3V6TEZrc1FFeGxnUG9Wc3NyNFdxSEZncmI5UzFGM25nVTktTXB6WDN0QThIWEYzdnZB?oc=5)
+- **[미국] Kayak Fishing: Attack Shallow Crappie in Stealth Mode - Game & Fish Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmN2SEhyUHRzVUlwZnhfRHI0dUdvekRoT0tmU2djaXotcWU1cU01eHBIM0l3NkVsRzd2Zm5nUUg1VFBFMXFTWWU5STQ5Z1hxMVJUSTRTWnQwQXBSN0NubTEtaUFtTXdvNndqRERMX1g5VVZ4QWdfeUx1U2FFR3EtdnpiTlVRNmxRZGg0Q0ZmWWFkX3VQdlJFeEVPQnlidTh0cFE?oc=5)
+- **[미국] HOT TOYS Exclusive "Iron Man Mark III (Stealth Mode Version) 2.0" 1/6th Scale Collectible Figure, Reflective High-Quality New Color Reappears! - 玩具人 TOY PEOPLE**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yUm11TmxZQXV1NVNMdWhSbVk4dXlxbWd2TUxrUTJJMV93aXk5RTN2dm9Md19zdThaWGpvWTVkWjNoSkRMaGdWc18tQzRWWXll?oc=5)
+- **[미국] McLaren unveil ‘Stealth Mode' livery for Singapore and Japan - Formula 1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlRzRUl1cW9zdk9nMVRIS2RZTklCYjl4X2NhMVppR2xud2Jfb3BFVGVtcGNrbmVQN0NRbVR6ZENjQW5yY25zRG0zRzVvMDItMWY2MWlOMFo0dHU5QWM0OXR5dWZVdXpUS0t6YUxFYlNoT25HMTBBYUNyeVRWNHpWYXloZHhoaXZKeDZDOGZ2SEJpeXdsbXd5UFB6a0pjOHBLLVRIcHpjMTBNQzQ3OEwtNi1NV2hJdmY3cEdvdlowZk02ajdYZzEzNkhUNXJIaG8?oc=5)
+- **[한국] Backed By $2M, Ex-JupiterOne Trio Leaves Stealth Mode With New Startup Opine - GrepBeat**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3FScnpHNHlsUFF1RmJ4QnAtNzBJN1dSVVZPUUg2Q3pYbjFzVWtFdEpoaERWZHR0bzVVM3JjWWhzZGVoZk13c0JvbkZNQTBsZlBpM2NtajViVU1PeVdkZDlpdGxoZ0RrX2tPWmpNc29TTmNVbnNxSmNjYUc3QWlKOTJzNVZkUVhpblBrSHB0SWZxLWJVTWxMY203VEFXejRJRGNWdld1Qm1ORG8?oc=5)
+- **[한국] SpaceX vet's startup Portal Space Systems comes out of stealth mode - Space**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiekFVX3lxTE1xemtmRlRXYmxpQXgzSzZRbzI4S3ZjQ01hdGxQd0s0Z2dnTkNMNDlPLW00MUN4Qi1RaDh4THRxT1FCQm1tXzFqWkJDOWhtZkEtc01ySVFvQmxHS0pSYlVpcmxFU0QzZkp0dzVES3RGX3Y3am9CLXBYX0dn?oc=5)
+- **[한국] The Corvette E-Ray's Electric Stealth Mode Will Make It the First Quiet Corvette - Road & Track**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxNX3h5UDVVSzZDVG5DU1JUXzdRc0p3Nk5ZLWZ5VmlXNmdpazRHVlNVYmtiX0dNZjJtbjl5MXYwcklaRV85ZFhwdHNmNGR4d3JuRkg3c0RHdE5QdDQ2T1o2ZXZld3dwbjJld0dGdE1rSjVFVV9DMzhRbS1vTDB1eVRFQzVoNU5lV20tdjRqQklVR1dGTzc1NUIwOF9TejY3akJQSmVNU2FjSDB4SGJKM1FQa2l4VEhWWDZrUzR0Zg?oc=5)
+- **[한국] Cat Addicted to Cuddles Goes Full ‘Stealth Mode’— Internet Obsessed - Newsweek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5Qa0dvWlgwOTRybzA0cmR5M01pOVJUQVZCdldnZVMtcXIwdEpvNXYzTnBxYXYwV2tVX2F2VXE5dDBQZFBEQU5TYmVaLThmUGRrMnJGejZmMWt3cHZtYm1oRFJFMTV1eFl1cVl2aQ?oc=5)
+- **[한국] Batman Reveals His New Stealth Mode, Marking a Major Addition to the Dark Knight's Deadly Arsenal - IMDb**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE52dEd5M1NBdDdOXzdUN1RvYlpiR1ZsRmlodk5kRUthdnZmMk91bXRNVzFHUm9tV0VYMnotY0JLMEJwNWpzVFlCdHJabmtkdw?oc=5)
+- **[유럽] 【NIJISANJI Stealth Mode Type：Ratna＆Hoshikawa】グッズを2025年3月31日(月)18時からにじストアにて販売開始！ - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9ONEEtRlhnUy1BTmdsdGdyb01JMDBIZmZIdDlucU1rZjhkenFUbUJmd1REOFZBaUZJMUxiNjNaSE5wbjNEdHZOalpQX2xLdWd4TkZxVGU4dzhGb0xBQ3FEeUlUTWNldVJyelE?oc=5)
+- **[한국] 告別会後の総括！ハリデイG2の発表：リアルタイムAIサポートとカメラなしデザインが特徴 - AIBase**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE5WQi1WeVliZE56bjd3TG5WU0pSc0NEcGlfMmMtaHA0dUpnWkk1bVd0Tjc4WjRPTnVmTmNETHdJM1U3T2JtWHB1ODhiekFYdw?oc=5)
+- **[한국] 【にじさんじ】「Stealth Mode」をテーマにしたラトナ・プティ＆星川サラのコラボグッズが発売！ 西武渋谷の「にじさんじ百貨店」でも購入可能 - AppBank**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE95TlRfYWk5aHA1SE55WnF5dnctNEZ0bFQ3WjZvQkZVYWlmd1o0VWd3NEdLZE5BWHNuRUxCSGZCNjA4c0d1UWFiamZmeFJXdThLTWVmcGJ1ajJWWWZSTDBsbzM0ZGtlVWVtelNF?oc=5)
+- **[유럽] テラスハウス出演人気モデル Nikiが新ブランド「Stealth Mode」のイメージモデルに就任！ - ACTRESS PRESS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTE00bU9PSi1wcW4zOHlQb1FOQlFMbERIT3RVTW1MMTBvZE5oZVIxSF9JZnhMWG50eFFXMjh1UldfdWFVRkp5TFFEU1RWeWI3T3dnbWVjaHhOWGRQMlRYSEN3?oc=5)
+- **[한국] 姿を現したVela Partners、属人的なVCの仕事をAIでスケーラブルに変化させるモデルとは - BRIDGE（ブリッジ）**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE1pMkJUejRfQU15UTdpWHRuVzcxbWlvVExsRnh2R1g1LThmeGR4STBPVEVEYmJfQ19HREtQZy1IbEk4eGhia0ZCc0ZBYlQ1NWZaUV94YVI4YUFtSEFfamxpWkVrbWVnYVdhNHdBNXNOSzQyZTltenRZ?oc=5)
+- **[한국] 画像生成AI「Midjourney」の使い方 Webアプリ版の画像編集機能を完全マスター (1/7) - ASCII.jp**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9PX1FHODB4QkN2TWJWOV9Yd0J0QXRGWXB2NXdNX0ozZl9YZlRWejBESm9BQUhxOTlmN3Q4emxiYzl3VENCd3J2Q3Z3Vmd1RUF5X1JzeQ?oc=5)
+- **[한국] Ryzenの性能をさらに引き出す「X3D Turbo Mode 2」マザーをGIGABYTEが発表、ロープロのGeForce RTX 5060にゲーム/AI用途に適したゲーミングノートも展示[Sponsored] - AKIBA PC Hotline!**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE9OaXNsdEhaTEhuODhmd2JVdWtoLWtzWFlBRFp4aFVPZENTMk1vTVNJWDVkbXRxNlQ4V0Rrc0FSb245dHBHdFJKXzZ1SmFyNjYyN2FkV1hxbWl1UHFfVkRlSWVkRXV2bjV6SVRwVF9oWGJxLXJfZGdV?oc=5)
+- **[한국] 告别会后总结!Halliday G2发布:主打实时 AI 辅助与无摄像头设计 - AIBase**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLMDE4cmxRWWhrbHdzX0UtUlFTaUxEZTl1MGFOSFN3dTFfNmtYai1yZGxWdHlGSC1VcEwxMFZ3RXhyZjNIak1uT1dOb1JGQQ?oc=5)
+- **[한국] Mercedes-AMG GT 全新「Stealth Mode」版本車型發佈 - Hypebeast CN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBHQW5OTVcxLUhUQU9mMXREV25FcDZZcDAxYzVfZXRhLXJxZ0ZEM3BuY1hfWlg4SFUwNk5ub3VkdHRyYWFUYkR2X3NpZEpMMTFScnY5TkRFcUk1T1IyMGcyakpLbXZWY19EOVNLVFB4SmdYZw?oc=5)
+- **[한국] Cignal AI：风投加持 光学元件初创公司数量激增 - iccsz.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTFBGTlBIdENEQWJwdTdsVG1xR1I1N1BXVE5JUjM5a1RheXlIWHJ4M2dWSjdZRWRVTVdfaXlOazNXUXMxa2R0MUxYSkRWQnFuM3FjckN6S2o4NzRET3JvMEFLRmNvUWpaZ2h6UkRId2VPM0xKcUxaS25r?oc=5)
+- **[미국] Just finished raising 200 million dollars, and then plan to lay off all the employees? - drugtimes.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxNX2d0OTVlR2ZUa3RxbG4zTG1MQS1lOUtLZWh1a283NDM1ODMzaDBIQWlqNDd4V254SW1XdWY2eFRHU0ZGcTRmeGh1SWIxV3planczcnN3a1BqcWd1Rmk1enpMeVUwaE1OZUJzVmpWSTN1THB1T2ZfTGI3U2Vnd0gxVE1ITXJ5N0l1NFpOaEE5bHp3UEI5VTBXbnF6S05Xdw?oc=5)
+- **[유럽] Off-White™ x Nike Air Zoom Tempo Next% FK 全新聯名鞋款新圖再曝光 - Hypebeast CN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE9qNU9qWENHZUpOQ2h1SzdjODRHZEpwQXRmT3o4WHZZR3JROUdmay02VFVmTzN1SjFjb2tNYWUzdTg3cFBsM0pxY2R6c0I3UDVheU9JN3dfNWpfVmUxTUxhWVhJaDhNbGVtLUxINmlGdV9YbFBrbjh1bDlKQQ?oc=5)
+- **[한국] Flexi Parking明起在霹州所有县市启用 | 霹雳 | 地方 - orientaldaily.com.my**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE1hMjdXM1oyZ1JzeTkzSDV5NTcwN2ZzdllKakthaFFRN0VpREkwY1RjVXhJeHhfQlFCUklqc0E4ak8ya2RBajRCZWZ4a054OGJpaW45emw5V2ZqT1FjZnJ2R1N0SkZYY1JTdk5jZDdR?oc=5)
+- **[한국] Scottish biotech Bead BioPharma emerges from stealth mode with novel cancer drug platform - Edinburgh Chamber of Commerce**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ3AwYVZ6RFVwNzVxOVR2aVQ2NzIxMVhyX1JhVHpONDh6d2lPZUg3X3NidU9nZjdEcnNOc293WGJfeWlORGdlWTV4T3JEalV1dHZjRVJDb0oyd0hDQWNoQnotM2VUMEF1YTN4b0wwVnZ3TWk5Y3YzRzVzV0JsYzZiMEpHRW9zM1ZXSmtUVDJScTZVbzVBY0VVbEZSaEQybkdCMU4zYlB2UVFPVnhGZFBaQWE1RUthbFVXRFV5TmlUdnhJQ0k?oc=5)
+- **[한국] Stealth Mode Activated: Nomadic Watches Launches Blackout Range - WatchPro**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTFBHcjNnZUgxekc5cWQ5TWpEQlBTS0JXR0s2c3BzZkRNOHRza1pYTFJXMnBJblBibnVRa1h0b1FKWmt3RUhwQzlFZWJ3WlB4SHNNNFNienhGallJcnZyVzB0ZEhGdVlWSWtqQjctZEpUWDE4blE?oc=5)
+- **[미국] Stealth mode: black watches are trending, and show no signs of slowing - Top Gear**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR21tSmhCT2lTSDF4T3p6dFVZaFBHa0p0M05nTmdHQ2NoMHpqdElCRGdRRXdoZUFmdHRVSUU1clVZcTdCTC1CUzRPZDAtNFpwX18xc3RNUnByNF91ZTZBRjBMU29QQnQzaGh0dFNqanV0WUtvZF9SVHpmVGMwNTVOcnFIM2VnaEhUS2ZFOFp6Q0RJZHpmMkg4WnprSDk1TlFXaFZyQnh3bjlOQQ?oc=5)
+- **[한국] Corvette E-Ray teased with electric 'Stealth Mode' - Goodwood**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxPQXZaZllEbzdheEN1UlNTTWxYVWxUeExnTVRVdENqS1NmcVFXMVpOY2Vtc0xWZ1dneEtfdTJ3ZU12SzlnMEYxVWhySTVmdHRoMEdsR0E5TXBZNnFuNHFPbWtTNlhEWEt5SFdzSExFenRzQWR1VmoxT05XQ0psQVlndm9TY1pVUVhUcV9RemlwSnRCdw?oc=5)
+- **[유럽] This is McLaren’s ‘Stealth Mode’ livery for Singapore and Japan - Top Gear**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAFBVV95cUxNNmgyZUlVaFdyNUJaMFFVVVNyZUd6NmNOeFMxVDhSUHowX3BYWGh6RVZRR1hDenQ4TWt5Z3BjTFZfX1VWM3NPUWE4bm5uWTQ2QURrNm5rU0lYWVBmQk9kdmhLVlF2aHM4OW51TzNGaUlPeU0yUEotbDBzZy1mWmxUOUYwckk5Q0RfeTdzYUhESGJmX1diZVh4Tg?oc=5)
+- **[미국] The Ecosystem: Europe’s cybersecurity investment platform comes out of stealth mode - Science|Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUjM1OW45Mkl0dlkzdjBjZnZlSVAtc01IOWowbnhtanVtd3NnV1h6LWllemRXaEY3cEt1YUpNN01vN2VxbzVGMTJ6WHhjSXN6a0lUaURzRGhqcWR3Y0pKRDFOSWhhdU01N2JmMWMtOUQzclBQUXloU3dLRXp4aXBxd3lKdllJLVM0Ml85Z0N2bVFoNGJzdkhTWEdoa19zY05sMjAtVUd6VHpkc3M?oc=5)
+- **[미국] Shop Circle ‘exits stealth mode’ with £54m funding - businesscloud.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxObkl1Nm5qckxqdmJDTkVKVUNYWHM2eXprTjk5Z25oQ29TTTU0MlR6Z2FzT291Nlp3TS0xTVFKeWJZWkRMX2VCOGJpczJMaDRCN1NlUWF3ZWxPNDBUdDJNSjJMa1R4V3hIRnY1enU4TDlaU3k1LWh0OVo0QzlPaFpocF9SanJqWWJO?oc=5)
+- **[미국] Lunar Energy emerges from stealth mode, acquires energy storage specialist Moixa - Business Green**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTF9CSk5WbFhBOWh5cnpuWDBOakxFYjhlT1IxT3BGS2xCUFN3YTBad19FTUlWVFZXUXJJazI4SkxTMFdTNFdfejZVQzA0Y3AxQkhrXzhJRDQ4TVpIUzloX1lfLXdnUDlDNU9tRy1Hbkk1bE1LYUdfci11Qmo0QVhyXzliaVN5MHBEWWFNSUJwc1hZS3ZsRFhKTDNyOVNmbzZoUW5QZDFobXh4RzAxNnlpaDVkeXVJcVpF?oc=5)
+- **[유럽] BBC’s startup investment arm emerges from stealth mode with metaverse deal - Global Venturing**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxPYUM3UzMyOHZaWlBDd0hRQUtCU1lBM2tUWnRlQUxhVE1DTnRhU0lmaEdWSXE0SmdnQ2lBTDk1eGFfRnltN2hjSldENTZYZXJyWUhMRDc4UnowNDAzaDBxMGJqNm9vRXJYSnRCcElORTJ6R1hteU9oeTctMHk5bWtpb3gwbw?oc=5)
+- **[유럽] The Advantages Of Launching A Startup In Stealth Mode - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisAFBVV95cUxOYTFJT3Z3cFRJYkNhOWh5M0hfamJudElaMEtKSFVydFdQTERDbGJENzNEVkJCbHgtYmdqVHdLdDBiSklMeURKRXpGei1SS0hyVXdDeVM0Z1JmTUh4N21aYXdsTG8zdzd5elN4Sl9ueDdLQ1NfcFU3RV95NUhOTnRlb0hmckJzUFk5R0lyOTJpZHA4eDV4MlVGaDBXeGFtdG5kZ1JTcVZCV2FkOXJvUjdhdg?oc=5)
+- **[미국] Eudia Leaves Stealth Mode To Rock The Inhouse World - Artificial Lawyer**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHZpdVIzclYzS0RUWlVZUUJQT3E4ZWV4SHgtbnpqS1ByWlAtRHdEMTJPbnRLbjZvUG1pRDlTXzhWN0w2d0Z6WUNLQmdXVzR0dkdpQmVVUDR5YUZfUmlGaS1wb3VnYkI0Z2tndGpKWlZIYm1MamkyeUFQcTA3NFRhZngtNHVSS1U2RzI1UUFZcVZlOXNVSUVKX3FkWFk?oc=5)
+- **[한국] Fidelity’s tokenized MMF emerges from stealth mode - ledgerinsights.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3pSZWEwdFdVc1pnSWtHWkd0ZHNxNjFaZVpiUU5WckNCc3hSNHJKMTlwWGEwLXpKa2dHWTFXeG9scGMtOVkyUUpwc2lYZlFxQVN5ZGdBalR1aVN4OUlMWHhaZk9TejZDdlFsX3A5amtidUhDcmVrVy14V1VLNXFuTjRpdnFYelZW?oc=5)
+- **[유럽] Aera Therapeutics emerges from stealth mode with $193M to advance gene therapies - Medical Marketing and Media**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFlzRFVjQzRXZzVaTWRZNTFNbXNtY3d5QUNNWXhKWTNlWVYybUo0OEFfUll2RXZCTzk2anA0aFVKVXZfaE82UzZHZXBxR3F6dGo4ZGN6LVVtSzZZQThxcWVFOHJkUlRzd1ZlZWpqY09yVi1iRXRIVjBwemVXc3hTTXZfYXJ0ZXAyVjVPaHYyRmtZeFE4MVlfd1kzTGJ2TGRRZlIwRmtzV3NmQ0lCeE9hWjY0NEpkQVdycHZRYg?oc=5)
+- **[유럽] Reconnect Labs emerges from stealth mode fully funded - Startupticker.ch**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAFBVV95cUxQZGowTVR2bnFSN085TXR5bVFMSVRnNlZVaGFDbGI3ZkdDMjlLVmVtbERjR1FDaUx2b0t1VXg1UU00TjBXaThRTjV1eU1GWEQyV3hBbVdTU056RXpJdmxSMmpzaEFrdkE2REY1U0Z1dXVaQm5lT1R4OFZxbjhkRW9obm1Ta1hvRVgzZnFQcnA1YWxMaEtG?oc=5)
+- **[유럽] Edinburgh image sensor company emerges from stealth mode - insider.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxOSXU1Xy1nTmxfQ181d3ZGdEgwQUEyemZhWk1OODJ6dmZlb285aE5SQnp3MGR6eEhTZFhXczY4RmszdXRCdnJwLU14RmRzeUd0dG1kaTVzdGI1YXZuQWZSY25XYUVNb2M5TDZ1N3QwT3QtNVFvck9kcEJaNmJWU0RrYVQ2VGPSAYoBQVVfeXFMUFR3YzU2VGhFclRyRkF3ck5MeXQxclFPQ2tzcERQaE8xSEs1NFhxZVEzTzhXcnFLQVE4THZoTFJ5Q2g2YUV2Y2Utd3ZWeTMwczAya0tXaWxCazl1STFqTUtfdzlDOEdFVkExalNqV3o0TlNlN3FFUjlxUE9lajFWOVRBbmRJUWRTbVpn?oc=5)
+- **[미국] F1: McLaren reveals Stealth Mode livery for next races - AutoRacing1.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxPTWNGRUJmRmlvTnA4aElMamV4dmNrYUlIc1FYUXRjR3I0d2ZVTmlVMzk1a1pWRnFNa252cExqR2xXSmVqWU11OF96V0lzOGVhNHF3RU9uTGlvcWFSV2dlWXpUZ1V4RGZ0ZWplYTJMUU4wN05YcFFmNmdQVmVIYmpUSmR0RHFCQnNHVm9rSEhtME5RYmFoLTA4?oc=5)
+- **[미국] Enhance Your Mac’s Security: A Guide to Using Stealth Mode for Increased Privacy and Protection - MacSources**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxORlg5YjFKdF9NamRBUUVpSUhHTXZ5dUxuOEc5a29HRlZBcld1eUpxb0dnSnU4cUVLRXRVNkZPZ2dCZlh0V0lMTjJacWhmRjgxcUQ2SFBqcEhPX3lVb3p2aVlid19sYXBrUzlQbXBCRGNJUzlzVC03RVZkWVdSUHNjbVMzN3AzWHE2N2VST1FadnhrRTdGelBHLS1fWnRiU3VsZEJkWEQwN1hoOEQzdjhkQ2wzMTlXd3pu0gHAAUFVX3lxTFBzT09Rd0tHTklfQ05LSWxtWTFTOWtEdmtxYUhzWTBPWmhDVkhLNThqeG9iU1BXX1QxMWNmLUhJX2dhWW9FU1ZROUxLa2poWUNsNV9RQlgtVGRYLXdXbWExUTJTSk52dld0UUpLRl9QTTlVNWRqa3lfSjhDem0tR0cyUlNRUzE5MXdUM3p0azFQbW8zbTZlMW8xeFQ3emROSVVKOFg2czc2MkV0T29MSGxCNmhkTU1CV2pYcmRrWDVjcQ?oc=5)
+- **[미국] ‘AI 사원’도 뽑았다... 진화화는 식품업계의 인공지능 활용법 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmJKMXFZR05vRW53WE5RNkZ6aWxra1FaUGRqaENrbC1id3ZpbG5ESUNGeXdYVUlxZjN5QWVkN0UySUp0bUJ4eVpSdmN2NlItWU5OMmhKc1I2NWZDX3pLQzZMZnRET21TaldGQVdxMzFwaWh1cUsyMFhaYWo5ekNqdV82emV5QdIBmgFBVV95cUxOdm55U3QyQlFLRGF1a1NiVmhlRC0tN3lZcng5M3dfanZ4SHlHTk1HZ0l0WGRiUHZQVDZ2eWw5VXkydm1SRDVrNTRqQ0Z5LTYxVWlWV2pRY2NmbW5ERFlORGN4VGxsNlhoVEJlQy1rbU80cDZ2YnJ5TWJXSnRLOTFVNnMyMVlDT3YzalRiZEoybW5odlFkb20xcllR?oc=5)
+- **[한국] 전남광주 무안에 2546억원 규모 ‘인공지능 농업 거점’ 만든다 - 경향신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nX1NTbWc3OVNGQUtlblhIVVlIaUczdEs4ZHkxZlFrbHdpejN6UEwzMWx6SVd1d0F1M3pMeW9UOTQxblBFYVAtZFF2cjJLS09TQkF6V0QyRmU4QdIBX0FVX3lxTE1fR2F0Z1U0MFNZR3dBQ0xJOUJ1eng3VmZJZ01QRUJLa3N6WTBIeFVsOF9UaDEyUXV6NmE2cEFBZXl5YWh1a3BKd1FhQWswYzdzZjBYcDIyakFqSlBNTXUw?oc=5)
+- **[유럽] ‘AI버블론’은 없던 일?…갑작스런 반등 배경은 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QLUk3eUVZeDBlVXR5bnZBT0NNemh1Qmx6WTNfejJ3djU4b19fbnEyUlBOazFxaHBvd1JFaURYMTk5eGRiRS1PSDNZdTZIZjQ?oc=5)
+- **[미국] "위험·수요 미리 예측"...인공지능 예측행정 본격화 - YTN 사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE5OZ1VEbmt2QTRFZzZEOHdzR2kzN0Vzd1pGc0pxUzltUEFfYy1wdnU3SHIzZ2ZpU3RHX1F5Mm5DSUlCdUstRmJSVU1QbWlwbFhCYVJVa0ZjOUljRWR4dTkxcjdJUlJjMDlYQ3Z0S1BFelVFdWxyTTB3a2RLZXZqU00?oc=5)
+- **[미국] [기고] 인공지능의 수명 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WNm9HaUt1S0FrbGxlSVY4WlJuSVl2dE92d2VfTm9zRHFNYUU1Vmd6ZDNFSWNkcXFUT21FeW8xM2hSTVVlMVlDMU1BYVlMRHRJLWY2SlhB?oc=5)
+- **[한국] 기정원, K뷰티에도 인공지능 입힌다…스마트제조 혁신 '시동 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE11TlpQQk9tRmlaVG1UUGFVZWlRS01RclBxLVJQRDFvU09CQmhGOE9uTktEVTBWYnptNEhUdWxQWHJFdUJtZF8wd1lNVjBnM0dJUEFaQlUzd2ZQTlVhUUZBbDhKdE12MEZ6YWpz0gFwQVVfeXFMTU5ad19LcVM1d19nOU1CazFOZ2h3dHphSTBMYVRxWG1ZeC1hVmhoM3VHdFIxdmxRRnJxVGVGZFFLa3dRbUd5cEZ5WGwyMHRKOFJTR0VEWnA0VmhyMElKUENDT210OExrMDE2UTBQcUlfeg?oc=5)
+- **[한국] 충남 첫 인공지능책임관(CAIO) 지명 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zaDZrVnF6cVBKT2Vsb3RxeklpYk1ncG1xZ0tIcEo2NTVZYlJFdnp4SDZ0UzNMVGRSbEowcTBFUzBDZGlXaFFjc01xR1lVMGI0N2fSAVNBVV95cUxNcFgtZklueDJpVHJXTkxkZzJ1UHBUN0tNVTJiREJhY3JSbmtscWkyM1FYSEhQdUFWTWQtQjhYOGJVOFhYZnFseENqZVI1WDg1Qm9kRQ?oc=5)
+- **[한국] 충남 초대 인공지능책임관에 홍종완 행정부지사 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE81aDFKanhLWlNYc3dsSmV0WXk3UGM3YlNsTXkwOHJwcGRvQlpvZGJ1dUtPcTNlN3F0VFJhc0hFTkZmaDBrQ3o3UWIzRnZBd1k?oc=5)
+- **[한국] 충남 AI 정책 ‘원톱’ 세웠다…홍종완 부지사, 첫 인공지능책임관 지명 - 녹색경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LSklKN1o2TEZNY0FEdEVTYlktM3lTb05lVWlSeGllY3p3d0NWdkQ2aFlTTHF3MTJZZnV6eGJmQlhNWW5rczJlT2tzbWJGcnI3SWFGMVlLa0o4alhHa0hlWDdCbVU3QzVU?oc=5)
+- **[한국] 충남 초대 인공지능책임관에 홍종완 행정부지사 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE85SkV4TGVHNTlEMjloM3JyNmZ0N0RIcU5RWHl6cDJjR1daTy1rb2dmUUJJek5tWnVqMEJBZVQ5YzJ3M2dBRG9hejZtYlBWNm9kLXRMd2F1VDU2eDlFLTcxR9IBYEFVX3lxTE85SkV4TGVHNTlEMjloM3JyNmZ0N0RIcU5RWHl6cDJjR1daTy1rb2dmUUJJek5tWnVqMEJBZVQ5YzJ3M2dBRG9hejZtYlBWNm9kLXRMd2F1VDU2eDlFLTcxRw?oc=5)
+- **[한국] 인공지능이 '안 들리는데 들린다' 우기는 시대 끝낸다...KAIST, AI의 감각 혼선과 환각 줄이는 핵심 기술 개발 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NUzNxd2V0bU5BT0RmVENwX0xLb3doR18xdG9idUtVeWRSZEh5RjBmOHV1clMtbmdTeGFjelFxbXNsSEFIR0NZWldVc1pvQ1Z0cGhFYlppRzZkdENqVFpRcldKUjg0WFk?oc=5)
+- **[미국] 충남도 첫 인공지능책임관에 홍종완 행정부지사 - 충청뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9QcHlJUzg1YkpnZWhLUXl4dk81T2xWcGRYV0RadUJSSEM3Y1ZMX1pSa1RreG5sM092NGVzcFU4M1czVjB3RERxX3hibDllVER3aFc4TGQtR1YyYmVuSGp5S2VqWHZpaDhuZlZvXw?oc=5)
+- **[한국] 충남 첫 인공지능책임관에 홍종완 행정부지사 - 굿모닝충청**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE9fQ1dILVpEX2taRHE2cWV0TEl6TUZPUVZhTFFibk5oYml6SVdfOHV3TFNxT3JQeEt1NUpRVGJpSVFQaWVfWmROaV9vdjU1bHNTbEtXQXBZUVliRlZnaV9xT1hnOWFMNGN5QTY1Wks0RDYwQQ?oc=5)
+- **[한국] “벼 심고, 쌀 거두고”…인공지능 농기계가 ‘척척’ - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JX0FwZDRCWnE0OXN0N20xci01cTkyNGV6QkI3UldYTURrMG9ycGVmR2ZYNmN1NU9LMEd6VmZwUkpLX2cwQUEtcEJBempOZWM?oc=5)
+- **[한국] 인공지능(AI) 대전환 선포에 이어 이젠‘챔피언’선발! - 구미뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTFBQal8tajdkRV9xZnFNc0tYWE5rWFFYdjlJVUlfeWh6Q1FkaUFEaU56UWJnWGJtZVRZaEJHUV9XRHNuZ2pxZDhvVGVScTFaN3p3aW1aWktpSGY1dVAtNUVKRERFQ2RaUzNTNDFycUJfTE83T3NQ?oc=5)
+- **[한국] AI·반도체 호실적 닛케이지수 4% 폭등… 6만 4000엔 돌파 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHN2ZXY0WHNvWXVfSktzdlZWZVkzZ1huRGctMDZ2bnZpc2NzT1p6U2owV0lPcE9wSXpwX2k1TkgtNmZ1RDVZZGpWQkIxY0x0NUhqT3diLWJTYU5pTnpxM2JQWnpTLWRVbGtmUDM0Y2VZMkt1UmtERHVBUGFKQ0kwWlQybGNPbjNT?oc=5)
+- **[유럽] 경남교육청, 인공지능(AI)·디지털 기반 ‘깊이 있는 수업’ 설계 역량 강화 - 영남매일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oS0k4bndQemZsd2d4UjE2TnFYaDZZaUtBa2NkcjBEU0xwZE44SXlmS2ZoeFJpRkFnWko1QW0xYzhVVjlEc2RGMmtLN2xmOFRZdW93ZW05bjhhN3pYeERheFJHZHZxME0?oc=5)
+- **[한국] “인공지능 대전환 시대의 K-방산” 제9회 국방과학기술 대제전 학술 세미나 개최 - 시사뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BRG5NVXBlYVAwWE5TMGx0bC1hZGRjZHV2WkkzMkhrVzF3MmxUT1dxYW9pY0FnTzN6M0RlWUhmV2pBZHBzWHdnTHMwcE41dmRaaTVTclMtb0FuUWVpUFVtXzZsRQ?oc=5)
+- **[한국] "AI 수익성 입증"...반도체 '정점 우려' 한숨 돌리나 - YTN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXkFVX3lxTE93aUlNcXpLZmZJazZWUmFHXzVVRVUxUzVMUnlSeEJJdUJOT0phc0NaQ29HUGVtbU5DOU9yUmNPX2JLbnpoYWxYT1Q0R2ZjWVlpWU1Tamc5azhuVVBwTGc?oc=5)
+- **[한국] 구리시, 「인공지능(AI) 융합 메이커 교육」 수료생 19명 배출 - 전국시민의소리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1Za08wQS10U0M1b1daSGx6LVZlRGxWZW5GT1pzMVFmVDJhd01EcTNXdndvdkFpNlVsb1VpU21aVDI0UVF5dHl0Z2xWUl9VOVRJTlZpM2VDa3FJdUpWVkhKS2ZyRnB3d2pwcVlNag?oc=5)
+- **[한국] 충남도, 대한민국 인공지능(AI) 수도’ 향한 3력 혁신 시동 - pinenews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiR0FVX3lxTE1sMkpCRzUtOTJ4MVpHMkRIbmYzc2I4UWNKa2xjSlJheFRJUTI5MmZLNTBkeWVFbzdrdVdUMUN2Y28waE9uZDRB?oc=5)
+- **[한국] 농진원, ‘AI 공동학습·실증조직’ 출범 - amnews.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE55UlRKNzlSdjRidnRYZlE2R0VMZ1c3SkJOdm5fMGNGVDZOYi1aczZIUldkZ0FBZ0ZQdGlMN3hKNjEzM1kyeXpYZnBiTHNES3VKVVhlWFRDUExIN01wMGdnNE1rd2M4azdm?oc=5)
+- **[한국] 美 "핵심 기술 쏙쏙 훔쳐가"... 中 AI 훈련법까지 때렸다 - 조선일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxQajVmVzZ2bkRaV093QUpnUmg2dkw0cHRhaWFBOFVLdHFXb3dZY1dGeWhGRGp3Y3dOcFR4cldyZE4yVXc1T0NkNlIxcWFwRnRHV0Nxa1RSaU1QNmMzSWU3OGg4ZmxHZlJlTkNhVzVDeVhVR0tuWlZvRUdIM0VnT2lhanF0QQ?oc=5)
+- **[미국] AI와 관세무역데이터로 창업 아이디어 싹틔우다...'26 관세청 공공데이터·인공지능 활용 창업경진대회 시상식 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sYzZVdkdDMlkzdFU5eWJoMGdxckU4NXJkTFhrOGozUlFySGdheFE1Sy1XeV9TNE5jQU9iTFBGa3VyTUhlbVQ1eTZrUE1GdUsyZjgyaHlRQ1Z0ZGdvdlZkNFpITTZXZlk?oc=5)
+- **[한국] 순천시, 인공지능 선도도시 도약…3개년 로드맵 마련 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE05VlAxdVN3Y014Z3pjSWNITzl2X3FNeWs1dTgteGtYZUR5ZXRWLWdGcDFMeWR6VE1LSDhHcl9NZGdoLUxfVkQtN2h5NkxWSkk?oc=5)
+- **[한국] 인공지능 기반 출판이 사용될 경우, 정보가 부정확할 때 누가 책임을 져야 할까요? - vietnam.vn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmg5bFVVdlVQdVJwdkpiREpaOUJjcGdxbDhBUVpyQzYwRFFuYlpqYkQ4QUNDRjlhRTNRck12M1p6Q0JOamdGemVKbWMyRG1tZW4zSkNFT1E1eFFWa2FfMHhQTHhRUEppQlZBSHNhN2Y2ODFGSXE1WGZJR2xYNDFxREhjWmtraHc?oc=5)
+- **[미국] AI발 메모리 대란, 자동차 업계도 덮쳤다 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FYWtlZWMtWDRHLU02ZVRfUEJhRVh0SWVUSlBwcThPSEtPV1BMYXgzUndpZVJtMVh3QXdpaHZyQTJPMmtKY20tb0lqMkI1bjFtZ2NPanBR?oc=5)
+- **[한국] 충남도, 첫 인공지능책임관에 홍종완 행정부지사 지명 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ed0l1WFBUaUJfNVRER3kxaDRRcFVrdlh6Sm5GeXlpMDVmV3B0TEw5VTdFUVFFazNwc0hRMHNyV29KeEdHWTQtMkJNVEt5ZjhfRUVhaTV2N2pWaUk2?oc=5)
+- **[한국] 구리시 인공지능 융합 메이커 교육 수료생 19명 배출 > 뉴스 - 더코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5oWXVFVTVWZDJoZzhydlE2WDJqU2xDU1BHSjNvekRaMVVmVG4xRVE0c242cEp4NFJsOTU2dWNQMVE4YzNpampyV0xrMzEtYy0tV2NWZm1JQUlVSHNmR0l3M24yQnRfOGFIRTZ1alMzVmY?oc=5)
+- **[한국] TJB '전국 TOP10 가요쇼'..AI 제작 실증사업 선정 - 티제이비**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NZ1BHQm5BbF9CNFZJN2IyYVNoYU5DQ1lUM0tzM2drRUZZQW44LWc3dzV4WlNPT3lxVS15RmUxWV8tVmxCZnBIRHVKWE81U1QzUllOWGNLQ0VWc2h0?oc=5)
+- **[한국] 충남도, 첫 인공지능책임관에 홍종완 행정부지사 - 디트NEWS24**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE9uZngzalo2eE5iaWZEdUpuTll3QmR4QU1DWEY0VFJfazk1QU5vSksycVoyOG5MclZVb2VEQTBia3U1eEEycDRsYWVTWExUc1JZNFlQQl9HTU9WV0UydEI3RmxZLW1TcWhyN284?oc=5)
+- **[중국] 시진핑, AI의 군사적 활용 강화 주문…중국군 현대화 방향 시사 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5NTHZCRHJwSl8tRE5fZFpRLUY1eVVZcDQ4VTFRVFpZdHNuWGdhaUNlb21Yd0Y3SGd6cWROTWVoV1NlNE8zbkl4a2RlSXhCOGJOdjdCQk1UWEZrY2fSAWBBVV95cUxNa0FpaTdvOU5nOE5PMXNvRTBNSHB1UkZxR1NVNTJzZGl4eG4weXNaeGpaYXBYcHhtcTNkN2QzMzM0OXFhYnB6TlE1S0JYekJ1djhERldMeWNlSlZFaU9NRUg?oc=5)
+- **[한국] 구리시, 인공지능(AI) 융합 메이커 교육 수료생 19명 배출 - 뉴스21 통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oUFAxS1l1WEpCTTd0azRMeDhobEx6ZEQ5RVlXeHdWUUpvNDQzd1RQOUZmLTJTZXhsblN3eVlLTXhBUGtaRUpGMUQtczZNR3RPNEViYWNn?oc=5)
+- **[한국] 담빛청소년문화의집, 인공지능 특화 캠프 운영… GIST 견학 - theleader.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFB1TVFVVHpGaF9SbEl2QW9sUEFMSUEtbTdGWDZTa2VoZWRiNkJYUDNXM0wySlp3WXVBZkQ2bEJ0Um5zU2s5TGlhNWtITlRqdzlidW5sU0VKM0dBdXk2Zm1PMkR2WVR0RE9sODVscA?oc=5)
+- **[한국] KAI, 국산 AI 반도체 무인기에 탑재…‘피지컬 AI' 구현 목표 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxNWEhlRkhSX0hIZzBZNHVLVUozVF9xMGk3TFNCR1I4Snh1TXI1Y2R1eWNNcldEYXVMREgzN1FHbksweG00S05nQkdVTW1BTXJfaTdWQUQ2dll2WE8zbHQzMlppbE1LZjJCOF9SSGRYWTNOV19QZzJrdFpCZWd6SmdVdHFQUXnSAZgBQVVfeXFMUFJLODltQzAxQ1FsVjFfWDdZUjNMNkxuVWdmVlppZmpuRmEtTHRubk5zbGJwZ0ptRDRXQmlHNzR5cmlEYXNGRng0b05nZUEyak1jYlJNdWs2Z1l2MUM2aktuTzA3Z21ZN05VQkVHUmR3ZEswNUVHSUZpanVneWwzUE9VQVVTVTd2b2RvdHBTelBaOWNocnIxcjg?oc=5)
+- **[유럽] 시진핑, 'AI 군사적 활용' 주문‥중국군 현대화 목표 - MBC 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTFBob0xiS0FoT0ZpeUMxaXJRUDBVMlhZcF9wUzZzRVVRYThJVnhmUzlzbi1Pbk44SnZHYXVtTUdTWHk0b1VJLVJmMS1kMUlNTEtsZWZ1QTFJcXd3dTdnS19CaWwzTXRmMGZpRGFhdDUwR2kzeDJE0gF0QVVfeXFMTUpta0tlVDU3Y2Nwakxqdmh2eFNqWHpxeUVVd1dzemtnSk1nMXFEcmMwN0V1VHNGVGNXUGppcV9GTVgzOGxwalhjT0pSY1A0cExvaHFXUWplZ3pkY2ZSLTc5SkFGVXhxaklCRzFySklzTXNib2k?oc=5)
+- **[한국] 마산자유무역지역·봉암공단 제조업·AI 융합 추진…공모 선정 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SR1FiYlNTTV8xa2pwY0R4UEZidHhNOTJCVEZiZEk3U1lwT0tlVkRSMS1LbnIwTzNHZHN2QzNrZEdiLXloNlBJb2NsME8xMnhnX0xhZ24tUTVyaFnSAWBBVV95cUxOUFdZQS1GVURFUkdmZEFucW9aV0FrN0hpVm1SX0J3R1pNeEFPVWxGdFQtdzdlaVRBc2RwS0stek1fWEgzUmVIN0h5eVdnUHFjRHAwY25UX2MtdV9udm4tMk0?oc=5)
+- **[미국] AI 감각 혼선·환각, 대규모 재학습 없이 줄인다 - 동아사이언스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE13RnItcmsxR0Ffd25hbWZDSHdNLW5uSkhIMjh4ZHRMVkpla1NCMVpXZkhGTGlHZHhhRlVPdUUxb01fc0M0OUhLRVZDcmpUTlJFaXRuZg?oc=5)
+- **[한국] 충남도농업기술원,인공지능으로 모내고 벼베기 성공 - K-Life TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE8tM2xYRVRsSDYtM2RRUVozSk5MTG1feEVjcFlDZmRhUktyOEtzZUtSSG5MZ1BqSWZnSjlhcnUyaDh2aElVb3JfYVJlWUZsOEdqY0JFMVdiQXNsanRSNE5mYWFFNDBXTGgzUTQyUg?oc=5)
+- **[미국] 경산시, 인공지능 기반 경북형 주민 대피시스템 훈련 실시 - 구미뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE5aWUFjY3dsYVRvQ1NZcV9MajhNcTk0WUZTVkdNZzNoZkk3WUZzdVFuSHNoVlZ6eXdYcUVWUUgzbFNheHhzVTNjOW1ZZWJlQlhGVndZREg1X0dlMXRVRlNyR1FYWU9uYl9UdlhSOEhoNGVOa1pw?oc=5)
+- **[한국] 충남도, 첫 인공지능책임관 임명…‘대한민국 AI 수도’ 조성 본격화 - 뉴스21 통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iM05KSHBqTlY3dlV2V0NzMEs0Qnc4c3J3TnFnZmxBMzJDeGZ0cVNpeDdSblVzRWt6Zko0UzRqdmEtQ045aDFXajRWendXN19LTlZHMVN3?oc=5)
+- **[한국] "신입 연봉 14억? 안 아까워"…AI 열풍에 수학 인재 영입 쟁탈전 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTNllmZm5VcElPeng2bzBrNXV0eTQtcjBQWFgxbTRhNWRWTEM4bDYxczB2VkhZanJMUFdiTV9BbkNYWkZhUFdXQTZSaGJiVVd3X0lIMFE1Ujd3aWxsOEdOS3h4WUtIVlZn0gFuQVVfeXFMT2I5MzdjekpZdVpySFNNVzN4SXJPZmhfYm9uRk5GUkZRMTV4a2tLdXF5WnVaLWxNU3lLbnF0cTgzWjFXN0hMX25sR3hBTVNkazhVLWlyUm13WEVNS0lnZDlJNUNmaXo3ZVFTZkJrUmc?oc=5)
+- **[한국] 10·20대도 '명장'된다…베일 벗은 ‘기특한명장’ [인공지능 시대, 명장의 기로⑤] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBucGp2SThzalhOV1Y0VXQ5eF9iS0JWMDN3VXMxa0hCcDFTWk0xVFNXS0J0RFdEcUpibF9tcmxUOHphYjZlcGdKMm9obGVBem8?oc=5)
+- **[한국] 시흥시, 복지행정 AI 실증사업 선정…생성형 인공지능 본격 도입 - 뉴스21 통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4eDJ2d3ptdDZUNl9iaEk0V0g0TjBjNG9fUHB0SEl5dTVDNnZGQmFjTXlPWlY3Tmxpak5IYmZwMVZXVWZxTl9IZWp2cVpSdWp1NUNfUjlB?oc=5)
+- **[한국] 애플 "AI 음성비서 시리 많이쓰면 이용료 매길수도" - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwaEh1NHBIMWowZGVnVXNWRFJLSFNuUTBub0FwYnY1QURYOHU2d21Tc1RERVRPSmNpMVJQYXRBem5neXA0Zk9mdVYzb1dHQ1k?oc=5)
+- **[한국] TJB '전국 TOP10 가요쇼', AI 실증 지원 대상에 선정...AI 교육과 제작 연계 - 티제이비**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1yTVJRSVNsX0dLR1RwRENqS1RFVUtlMmhZMDZjcHIyaVBuaWU1OFlJQUpfbkxZZzBwaUhHaTlsX3NvN050SXJYdkwtX2cwT044UVVxMklXODFpLS1q?oc=5)
+- **[한국] 안산시, '공공데이터·인공지능 활용 아이디어 공모전' 시상식 개최 - 경인매일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yUVBwZzh5NF9JaDBscUNFOW5Eb29TZnBvWjl2b1B6NW9KMThGZFJJYTVqR2NSLVNCU3pHOFJpUkhnbjYyQzJiYWExdFFmRkV1TGphRlJ1V0pYVDN1ZDdHcnlOWTI0clJy?oc=5)
+- **[한국] '쓰봉' 묶고 전구 빼고‥진화한 '피지컬AI', 결국 머리싸움? - MBC 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE1rNVZwUHVLZTVGZTdoYUZ2T25UR29ONjZ5aHV2cDdMblQ1eEVpcURDVElGMGVXUlo4S0NobXhPbFRCLXQxbV8wMi1qTmt6VVBMSVF1MzQyXzJ0S1RkSjFPNTR6cXFqQWo0bE1wVWk2WDhJLWFQRFBHYg?oc=5)
+- **[한국] 담빛청소년문화의집·국립광주과학관, 청소년 대상 1박 2일 인공지능 특화캠프 개최 > 뉴스 - 더코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1nQWRQN0J1cXVodVNLMDVMSHJJTHJkZ0h3bHozZ3FMWklBQTh5SjJLQjZvNmhPb205OElTWXhaUG9IVDZDQ0IzN05NdWF6dEFwTUhiTnoxeTlCeVdFbnhOZ2ltUEY0SUkzd3RGTnRzdDM?oc=5)
+- **[한국] 보험연수원, 인공지능 맞춤형 교육 플랫폼 가동 - 파이낸셜포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9Hd01Vb0F6NGJQbmZMRkRzYVozOE8zZlhvVXpBM3N1OWhOdjFzWTRWcDBMaGtad1I2dFdaVXduUjNOTVV2a2d0dERHYmNLYnc3Y0d2WktlejlwTnpRbGc0eGRQUllDbmxKcWlQenY2ZjJFUDdy?oc=5)
+- **[한국] 충남도, 인공지능책임관(CAIO)에 홍종완 행정부지사 임명 - 뉴스타운**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9aaTZxVzdwbldHalQwUmYweS1YZ0ROU3lKeWwtbzFKaURTMmtTWVo4bG1yaWZhdlpWeTJodnlRcURXeVBSSEg5dXlBaFRkVC1sOTZvMFZHZFNib2RoWTZsUm04UXoyQnRGbEliM0FB?oc=5)
+- **[한국] 인공지능 솔루션을 연결하여 스마트 헬스케어 발전을 이끌어갑니다. - vietnam.vn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxPc18yTnFlaVZURUpYd0VCWjI4WkRQSEltYUp0b044UU1WRExUUE9vTXRENVQzNmltZHlxTktYZjhwRHh1MWo4VDRSVlJVSGF5RUhHWFpiQkVvVU9GMFAtTC1peXBQbUJlTTRDNTFLdVk5ZUl3cEpfWGg2c294djI3WGFrOFp4Y3FSVnc?oc=5)
+- **[한국] 인천도시공사, 인천로봇랜드에 AI 기반 스마트안전기술 도입 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Ia0Q1UDBPNV9aNmNCcUZuanJGUGNKeXQ2ZVYwaEgzQUFab01uTFRfNXlJLTdPVmZ0R29uNDc2aTVKb0E1VkJkQXJ2ZDZ3b09hYUxLMDhMYmptUzjSAWBBVV95cUxQeXNLNi1QaGJJY1V4WEgxYXE4UG5MM1FPOW9PaUJSQmRCdjRWWUVDRW5wN0ppZGxzbFM1R0w2ams5cDN5RkxqTDIzMkpDVHIxVFo3emp0TnFtcDFTX1kzb3o?oc=5)
+- **[유럽] [월가 톡톡] AI시대 커리어 조언…"성공한 사람 그대로 따라하지마" - 연합인포맥스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE16VWJwcm4yb090TU5FVDFTMjdtOFljMlczaEVRUGgwaExTeXIzc0RucVhnc3J5VmdDVTJfdTJIdG9sQkhid3pEUmRUdGtTRl9ZSkZyYmpKUEg0M0lvenBXTVZla2QxdE9KWTcxckNwZ2Q?oc=5)
+- **[한국] 외교부, 반크 디지털 메타버스 AI 외교관 초청 멘토링 간담회 개최 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LaHpZOHdZSEtlMllJRUkyVDI3OXh4dGNyZHFGVUhOMVNtY3YwYjM5U0xHWGNmeG9XaHBDR1ozcmpyVFBvYUQ5eXRIcGlTM2ZBTV8zVDc3WUFmRENNMzlrY0lab19tTUE?oc=5)
+- **[한국] 한국에서 인공지능을 이용한 시험 부정행위가 증가하고 있다. - vietnam.vn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxQb2dqM056cWxvdkF4d3JEQ3Q0M3FPRmxJWWRPS2NHb2N1eWU0RVgwajl2eVhtM3pLSUVXcGZ0WGpEVUpTanNSSEd5bFhBTDJkVzNFRkJNN19pbnN4REZwSmxSNXA3YmlRa2VLS1cyRGxsZ3l1aDVYTjNaekhmb2lrdnFKSWMxamd3UTY4bE5CSQ?oc=5)
+- **[유럽] 충남도, 홍종완 행정부지사 초대 인공지능책임관(CAIO) 지명 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBoRXRSeTJYYm9kTGJvQlJsNk5qaEdqRnJkRXBMX0Q3ZGZIVkV5bmFIS013c3lvTFdqbHRxcEU5MWQ1aUdHZU14Z3ZFSDBKRVU?oc=5)
+- **[한국] 인천북부교육지원청, 인공지능(AI)과 인문·예술 잇는 교사 현장 연수 운영 - newspeak.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sYV9hSlJLS3htNkh5blY1a21fRU9sMENSdFNJbFRNTjJoaTRwY3FsNVdEbUpweDJTR0ttZ2NicGl1emp1Z24ya1Q2ZTlWeDFDVzZZQXRMSnZTX2pZZU9ELUtaMEVBZGU0?oc=5)
+- **[한국] 인공지능을 교사 연수 과정에 통합하기: - vietnam.vn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9IVG9zdThVaVdzOVVSNEEyLXJmbmlxMUNFWTV1a2JXRHdWeFJadGw5dHlBTzM5NHZoejJ0cFJWSWhTNWttaGFYcDV3ZEtfUnV4X0drbDM5bllBUnR5c3dKbjBWTmNXMWZDcl96X0R1WmU5OXZJ?oc=5)
+- **[한국] 국립광주과학관, 인공지능 특별전 '모두의 AI(On-AI)' 개막 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuY2NuU0ZPblhSLVA0OGlrMlM0M0pvWm9yZFdlYTFyemY5QVhoR3VuejlDZEJoQ3l3c1U5TWpkN0FvS1VyMmNodkJXWUo3QnpDOEp5M1JtX3gxdFR1QzFn?oc=5)
+- **[한국] [AI는 지금] 오픈AI 이어 앤트로픽도 '실제 해킹'…AI 통제 비상 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xblJ1UWN1RFJkN3lTSHoyWGtaa0I4OXRPSmlUR3pJQ2ItdlhiN1pBbnExTV9FRENxOXdlU2NmSjdrZjhaUHN1UmdrZzFaRUk?oc=5)
+- **[한국] [위클리오늘] 구리시, '인공지능(AI) 융합 메이커 교육' 수료생 19명 배출 - weeklytoday.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE91SG5Xa1NLTU9fWGV2cUdqc2JxcVJOWU1sRGJwUHJuYnhHRUJac043ZW85WkJadTZfaE1wdXdoMUxLMkVpTUpYa21BRHprczM3Nk5DRUhWNmtHTG9TV2pBYkVST2VMY2gyalV5OEdR?oc=5)
+- **[미국] AI 열풍에 미국은 '수학 인재' 쟁탈전…파격적 보상, 몸값 치솟아 - 아시아경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4Ty1Xc2YwVUFUWWpPY2xYU2pOWUxkTkxuVVlQOVF4NkxqT01ORWVLbzZqNzhuYXhiMkxOYl9ZNHpTNmJ3RGt6N25JcWxyZS1fX0pwbUlDNEV2N093SXBYaA?oc=5)
+- **[유럽] 박수현 충남지사, 첫 인공지능책임관에 홍종완 행정부지사 지명 - 뉴스파고**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiREFVX3lxTE1uY2IzdVJ3eUExODhHV18yWGQtSnJORFpXMFgxU05ONVg4dzlzSmR5SmJkcDI0M1RvTjhKdVR6eUpFU0tv?oc=5)
+- **[한국] [AI는 지금] 오픈AI 이어 앤트로픽도 '실제 해킹'…AI 통제 비상 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvTU5NZVpyMUJCMVpaUUx3dGxiOFVhemlvQ0RxTjJqbHRKdUVfTzJLTjd6UENRbXMxS2NOR2lreW9ucW85T0kwM2ViYXlMSUNHQTVJVWZn?oc=5)
+- **[미국] 구리시, ‘인공지능 융합 메이커 교육’ 수료생 19명 배출 - 서프라이즈뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5lSXFYSlJ0SGpxTGtFUWVLT3N4LVpCa0VKWXZ4bEQ0ajNnUS1fdG9NSGxhMUxwaXowNHNlRXJLYU94OVduUTdoeE9Lejc4dGMwQVRKVEpFREFWSDlFb3VQZFhseGVja0dOUW9uclBB?oc=5)
+- **[한국] AI주 폭락·반등엔 '25살 천재 창업자'가…"무슨 일이 있었는지" - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uRmc1ZHF5a0x0RVFsVVYxWnZzcTdhVTdGU05RNGVadHpERDVMT3g5MkZzSHBVa1VmMjY2b3ltRjNnam45ak8yZTNOZGNqaWc?oc=5)
+- **[한국] "피지컬 AI 항만 혁신, 광양항에서 시작한다"...해수부, ‘항만자동화 테스트베드’ 구축사업 착공 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OOVZNTVlScGFnT2RvYmVlSUFpUEpRX3Q5dTJ4aG5FUWtUcFdjY3NjMS04YVVSZC1GMkt5NkdZR3Z2cmI5TEM4MEpzSVRuRDJHTEN5ZVV2YnF1cmduT1NfQnNEQVFvZDA?oc=5)
+- **[한국] 시흥시, 보건복지부 ‘AI 정책실험실 실증사업’ 최종 선정 - kyeonggi.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE93RGJKT3NMSC1EZk5LemhWeTE1MktMb1FnekFCV09mTE9zaVB5WWtNbWtPSGNGRVpJNExUeDdjTE9fMlZIUTZpVjJGVmE1UFIyQXN2Ql9CTHpTLTg?oc=5)
+- **[한국] “격차 커도 무조건 만들어야”...천재 교수가 ‘자체 AI’ 고집하는 이유 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE1JRmN5eDlZYmpVNUFLUjBaeTZEVS1Gdm5RRWlEY0VYYjgwWjZRcnBIakdnUk9PVGo2YkdOMWwtb3lYeGJSYmc?oc=5)
+- **[한국] 담양군-국립광주과학관, 인공지능 특화 캠프 개최 - 중도일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE85cGdGcHNaVHFDNDJIaDJlSWRQVTllMllhcURyNFpUcVVxX3Faa1lYZWRDa2tMRmx4UVJwcklvM0c4S3U4YXptbE9zQ3NqWlAtQWNuTG9yVXpHRG12R3lvQUFJUU8?oc=5)
+- **[한국] AI '환각' 줄이는 핵심 기술 개발 外 [과학게시판] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNTUF0elBLVFFlYlRGTWk5WE1Rd1EzZFU5bEtpX1J4NloyaXRXRkFYeFBxUW5zSElLT0J4Yjg3RDFYdUkxQTNfZjJSMEhDMzA?oc=5)
+- **[유럽] 방위사업청, 방산 인공지능 경쟁력 강화를 위한 중소벤처기업 간담회 개최 - 외교저널**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GbmE3SkVfN0ZrRkU0UE9hSHlZdHJuTjhTTWR0YlJLNnhObm10b0R3bUd4WjNuYXZOZ2dyUVhwbFVNeU9aSUozWTZpbUpjUFJYMG90NG9LWFZQZWctQTZTSFJvRQ?oc=5)
+- **[한국] SK텔레콤, 피지컬 인공지능 스타트업과 로봇 생태계 구축 나선다 - 투데이e코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NQnQzWEJnNl9XeXprd0R5VjlHa2lOV0JqaTZ2Qmd2RmhtUWJDYi10TjQ3OWhtVmhpOG5hd3FDZkZ4eW9aQWlVVTB1a1FCdjNBbW5pampsSG1ITnB0M2pmZjRfdFJ1Nzg?oc=5)
+- **[유럽] "코파일럿으로 돈 버는 비결은"…MS, 글로벌 AI 전환 고객 사례 공개 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE03NXNEUjZRYmFwaTRpQnJSbUR2dFA0elJTUEpZLTB3cXduU2NYVnpPbUtvRXVmdlJFcGpwQmtpYjdqSFhVZk96amNvbGRkNGs?oc=5)
+- **[유럽] [세종소식] 인공지능 재난대응 플랫폼 ‘세종SIREN’ 시범 운영 외 - 데일리한국**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5VTW9SbVpJRW9ZWXM5UlpaTjd4b0VWSzgxWExfUFc4UWIycW5WMkk1VUtLTUZjdV9qNFpNZ3hJWnlQTDNmNGZIUkVPay1QQWY3THJtaU04M1QxWTJUc0NvVE5hQVBIcy1hMlFRVnZQd9IBc0FVX3lxTFA4OHhER0ZPbzlLdGhWRGxfZy1qR19UREsxY3R5RUZ4NS00dEtuQk5aMU45Z3ltWVZXeUpLenlXSFEwU2U3dGE2Y3IxT0tqWjlHMldIR2wxUnp2NlpWQ0pObnctNU5jZXZONWZ4MWRTTi1hNDA?oc=5)
+- **[한국] 242억원 국방 초거대 AI 사업, 한화시스템 컨소시엄 우선협상대상자 선정 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE5JSWpuZm96QV9YaUI5Q2RubldzYnotZ1Fpejd2ZWhvYlgwY0lhQjVXcnF6UnZPVDU2ZFcxSmlYdjQ5QkRGQWN5REhvOTM5Q28?oc=5)
+- **[한국] 종합 충남 첫 인공지능책임관(CAIO) 탄생 - 뉴스케이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTFFvYnAtekFSTkZKNlN2VHBMSW5zNjR1dDQ1Xy1xa1diQVFpSThJQ2tRdXlRSWlSaDVDbjFQTjdEbWdmTmFOTWpUdkQ2dkRkLVFkSzVDd1Q1QQ?oc=5)
+- **[한국] 여성과학기술인...“AI 이해·검증·판단 역량 높아, 업무 자동화 적용은 과제” - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jNzIwUWN3TXJQUy1QUnNULUhyejBFTTBxZkJ5X2JZZUFoQ1Bnc3dUaFh2aklhSnFpaWJiZDhrc1N5a00wZng5RUtUdTVhbENTQTZtZ2RFbnlpNmVveTRjMXVWR1E5a0k?oc=5)
+- **[한국] 쿠팡, 장애인 인공지능 검증 직무 확대…가품 탐지 정확도 높인다 - 투데이e코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HT1ZvWjZXT05PLUxZaDhzNVJ5S2J2RGVWT3VlX3RQRWZLTVBtdHpVT0UzRWJHeGNLbEVha2RlenBfVlhyUGI0cVBCTnFTREhOVzNNd1p1VkZFU1YtMUFDOHF1ZmZIeTg?oc=5)
+- **[미국] 독일 반도체 연합, 일본에 동맹 제안… AI 첨단 공급망 강화 - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMG0wVXEtekJGU1FuSTlKM0hXRlI1YnRlcmRBVjNEU1h5TXoydGlYZmFBSVJkRXhfVHowMDFpd0tXSmY4V3c2cXJwR1JoQXVTMEk5Q1FXZ0VER3A0ZXRpeXA0N3BMUkFPNDFTSWV0RnZqR1AyR29OekhPd1UtRGItR0JsM0ZZMXFn?oc=5)
+- **[미국] AI 시대, 수능 봐야 하나요?…입시 판도 바꾸는 인공지능 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tQXlGS2pkQzNLbHZvd05Sem44N3hGZk9PeEM5X1U1US1GOHk4bHIwWFM5NUhDbmh6QmNDQjFZaUtlM3ZQNV9WWnpzSU9JXzNrVlVFMmk4dTRlWjdTcHJuNHdEdVF4eUhF0gFuQVVfeXFMTS1LVEN1VlZGQ3JwY2c3S0FPQzBXM291Z05yRFFrcGM5MzQxVGJPbmVRUkRLbmZlb0Q1OHp4WFl4MzMtQ3RYeTRHS2prTV9UVV9GT184RTItQy03QVdQXzI3REtNekZlR1BpNU1XcFE?oc=5)
+- **[한국] "우리 아이가 AI 동화 주인공"... LG유플러스, U+tv 아이들나라 고객 사연으로 AI 동화 만든다 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85aUtudjUtdEJ0d1dBUV9mX1U4c1hSVHlKVEhYSXJ6RkEyT1N4M2cwc0NiUGd3YXNMbkFWVlU5V3RHeTJZdDQwNjhmTFUzd01ObzZSeHlSUklyd3gxTF9lZi1heWZDRk0?oc=5)
+- **[한국] 중동, 소버린 AI 경쟁 선두…한국도 존재감 확대 - 지디넷코리아**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuYk9zVDJxNmRHNDEtSFlQaktma2psZXhDZUdObEFQSERYSmtsTzBqNU9SOVM4dTRERUZuZVBjVlZWNFVRbWU5VkpEWXFSNzFnNGFDY1VB?oc=5)
+- **[한국] 앤트로픽은 인공지능 클로드가 세 개 회사의 시스템을 독자적으로 공격했다는 사실을 인정했습니다. - vietnam.vn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1VHNFp1eHZsakN3R2hpTm1WdW5ZMlQxSF9lV1VLUDRsUzBlMVdIT0M3Wi1melctM2pKc1FYaTdkTnFVd25NU0ZRNjRtejlnbVhpeXdpcEFVQUt1YjZ2djNDTFhpWmdKR0pPM3ZseG5UUk5tR2hfeGhXbUU0b09nX3lvYmJwRl9LMHhJUEpPUklSSjM2TkNJ?oc=5)
+- **[한국] 고양시, 인공지능·디지털 배움터 12월까지 운영 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQdIBYEFVX3lxTE11X1h2dDBsdjdlbHVURVFOcERLWjh0N3FINnA4MG1rWmtfbndoVl9FTTZQY1BCQk0zSUVNR004TUZ5bWpmVWZVZ01KSHB3VV9jb3c1RXItSWRsRENzaTRiQQ?oc=5)
+- **[유럽] Anthropic Says Its A.I. Systems Broke Into Computers at 3 Organizations - The New York Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTFBTSjZzYURUWVpxOFdNaTljdGpHVVp3LVNUT2VtY3JDTG9aM0lMVXp3SkRTR0JSQXl1T1gxNlhweVhISDdValFKX05HTTBoQVlXVFNIZEpCWVl0RG9raGp4MGxUM3BiV1JtU21IeE9fcVZCdm5wclEw?oc=5)
+- **[중국] Could AI take your job? Some workers in China already know the answer - The Guardian**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxOQnppV1BscTk3UThfNzVndkJITFpZV3c0NnQxNnlpaDcwOGhNcVAxc0FsVl91UnZVakRaUi1QRlJWZk92NWFsLWpLdGtYYlBhZlJPWFV6R0ZvS0tRY3huZWJOQkIwa2MtWFNJZnR5U3FEM3RpN0RnTF9zZ1NYQ2l5U0FKZ2Jtd040X3pPRDFLWWpiUTJKenVv?oc=5)
+- **[미국] EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5)
+- **[유럽] AI investor Leopold Aschenbrenner forced to unwind all public stock positions after steep losses, sources say - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFNCTUFNNVR3VnVVQjJtbXh3dU5kQVBRS2l3TktkMl8xVWJJaGtMc0t2VVVTWnVjX3Vqb2F5ZEVTa0JlU0RyMDRqN29ZX2tBaThxVnNBNUJpUm9yQjk0eUdkbXprdVcwRXBET3FyMV9OeGlFcVNqekZIeHFxdF9ZbEFrT2dtdEhzV25wYzFwdVBrdzZvRnotd013SGXSAaIBQVVfeXFMTzZOcFU1VzM1dGQ1U0JFOU44UlZKMG9VS0xoVEN0RlI0OWFyb0ZHUFhJb2ZNRFdSNUp3WWJiRk1adGI5VFhXUlJYSk03VU9YR1hRbm5NTGFCVzFlbTR3N3pZenZWdGMxNWFnRVFJZXBLbkdTX3d1cXp0TTNCc1ZiM2FhVXd3QmduajRTWW1TV2tXQndNTl9ISmRyTzZOYno0WC1B?oc=5)
+- **[한국] How Leopold Aschenbrenner, the ‘golden child’ of the AI trade, was laid low - Financial Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxOaXV3d1d0RG56UjM3Zk5PUk9jdjFSVzJsWTV3b29jODBXckFTS3JTWXo3OXVqeHlLMGg4akF5MVc0NE1uTE5FbnpiNTlDZ0ZLNHhYUWpfU3RnMUNWLWk1aGIwWDBYNW9yc1hPLWluVm41emNOZFRCLXlnSnF4dXVhUk1nVEM?oc=5)
+- **[미국] Exclusive | Citadel Buys Situational Awareness’s Stock Portfolio After Big Losses in AI - wsj.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisAFBVV95cUxNekQtbjh1NE9KcVpKaGNaY1U2UHVmNGRJZExHaHp2QWZ1ZXlxN1VBUlQwZEhkS180Sk1NUGdYR19zYkREeUxmMnF1dVVFTWVjT2lYekJ3aDJuSXFtOUZISk9PczlFdElNQUMwRTI1eC15eXJTMkQ0NFU3NkpZTk5hNlJMOFo3Z1gyelRZcFAzOXhJTHgxdldSdE9tRGVTS2YtZkg2c0RIZFhwU1BITmJXNw?oc=5)
+- **[한국] Stronger with every update: How we’re making Chrome and the web safer in the AI Era - blog.google**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFA1alhiMUotMkF4SEpTT2l0OXc3YUdiWlZvRWpCcFV4OFg0M2VLOXl3Rm5zenZialN4SEViS09icHoxNXVJc2ctY2xhRkhsN3ZiNFVRN29GSFhfS3pkR3U1MFZSV3NGZWt0bVBhT25qY1Q?oc=5)
+- **[유럽] How to spot AI writing - The Economist**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE5jT0pMcDVOUi1nenlrMHVBTU9vd0loVVZiaFNsTVluVXFjZUJ3WUlqZ25pZ29uMEl4NmlSSFkxQ1RkQmZkaVJyM2E2SEVBU0c3UFZCRW5ldTcwd1JNRHpTMExneU1FbWQ1aVBCYk1fbnB0dTFyUXc?oc=5)
+- **[미국] This bookseller thought a large request was 'spam.' It's AI companies scanning and destroying them - Fortune**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxOT1c1SXctMHlLbDd6UXJSaUpyOEtRc1dhRFljakRyRDVjdFBCSkNhb05yZ3owanR5NjdlRHp2M3dMRXhIV003WTEzdGNpclJHZGFlQWVWQ0RfWGlRcmZqSW94TUxuS1hsQ252c2xReUQ4V3AwR2RkQ3N6TWowOVJxTXQzWXlTb01hZUtiQ0w4aExtdXhURDg2UnVJTQ?oc=5)
+- **[한국] Five days inside a rogue AI agent’s stealthy cyberattack - The Washington Post**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywFBVV95cUxQOWxOLW9VTjNZWmVXR2tpX0hsUmliY3o2VE42U2dSdlV6TTdzYndqVldVa21nX1owcjBrakxQTVdld0tlR2VJbjlJenhHQmVFcEpBTFZUU3RTUFVKa0QxdTEydFlCQVo1T2FleDJ4ZFFoVjdObDBvZC1aYy05Y0FIMVk1MHVpcXQxMXlEcUQwYmhrMmFmYzI1bjhoS3JzbHZtSGJVOEpJcFdsSEJ5dlNYV0JZTVFpTU5faEw5NlVhZzJXY1RpSlVIcGhDVQ?oc=5)
+- **[미국] Microsoft's $41 billion AI bet just cleared a major test: Chart of the Day - Yahoo Finance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixwFBVV95cUxORC1PaHlTYzZ0QV90dVVsbXpGU3FqVFlnSlU4VWlEUjRzdWhwdk4tb2duSDdQQW1OU09xandQa0xYV3AwdlJXd01LRU9BbVc5T21Tc3dYbjU2R3pKdnh3YTV5TEd2Y2tveXljTE80ajA4bmluSlBVYWJOQmdvSTBpSVUxRHQ1Zkp5SmIzODdwSXlWVWtQWHctUUlUWVJZcDhMNjFYakxoUU4zaWlEb2R1UzhmdFUyc3hVV2ItNUU3TE5rbk9WS2NJ?oc=5)
+- **[한국] Adults have struggled to set rules for AI in school. These teens figured it out - NPR**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE5OWmZNbzRMR19ISE05VmhPVThfQW9ZX0REejJ5ZV9MZ2xTN1l5dkxOVEp0ajkyOEkxS09UdGRpV21HTk9tR0FLNW82VU51WjRjNFhhY2RwdU54YlRMNzNsVUFIUjQ4UzhuRF9NX2tVMTJ6VVFMMlE?oc=5)
+- **[한국] Amazon revenue soars as AI investments pay off - Axios**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBpQzEyajBlR2xJR0RIWXlQLTJsMXZwN2dhMWw3QjRldDZzenVPdEltTkwzMUZfb3VXUnVqck5lQVRhYUx6S3hBdW5wM2U2T056WWJqSDA3QkZGb200ZmhscU5wSnlDOTZQa0Nz?oc=5)
+- **[미국] Trump's AI review order raises questions about federal oversight - NPR**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxNWVNUM1A3MDVUWk8yQzEtOVpIQ01EOFVDc0phTF9FWnRMYVRJekdIb3hIQWxTWG9mSzJtOG9DQmVPUGpyWGhZQzJhOFpYSGdJQm1MSk15QU5lcDY3eHQzdnUtbVY0NUxDZ1AwakRxclh1N1hnZlNRVmd0SXZleXNaR1BTX0k5TmozWTR6a245V08wQTRtOTAwSzNqVzBJV3RRUS1YNXZyZURvY2lQ?oc=5)
+- **[한국] First AI-driven telescope goes stargazing - Northwestern Now News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxNakhNemdTN1RIUEhMYmppX1NCemx0bEd4djRyaG52N3U3NERpUXFmTnVnWWJHRUdsaXBUWG03ZDVqa0tMVkgtMHNoclBMQlhPb2JYeDc2bzZ5Vl9hSGN6YWg3R2R2SXM0TTllM0xiSUprdElGdW1TcEkzbGFXemZtM3ZGTU9tamRCZ0dISjA5ckVfdUZHZzhn?oc=5)
+- **[유럽] Advancing responsible AI across Europe - OpenAI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE55UlFLV3cyX2JQVHFFMF9HUjhJcVFhSWFSXzNPdEJ1Y0NwTEs0QlBtN0VNQ3NJam43SzJrbG91T2xCR3hWaTZ0TkN1aUpTVmlGSzAyNmgxeFBlRFBlNTc3dzktNlpZNkNQeUFMZkZuVWlEQQ?oc=5)
+- **[미국] AI Cognitive Health Startup Mantis Biotech Rethinks How Women Are Diagnosed - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixwFBVV95cUxNT0FLZ1lUSFdEQW83TUdHcTFVRVlmY1VxbURMcEFZMUp0VF81OHJaMk1xYmdVQ1BSQUJadUdweVNkZTlSU3BaVlhvTnItdDRhUDY2TTJsTkk0UjNXbHpjZDFHX0ZtY1FNZm9sc2x4RnJnc0JkZ0F2UVNJclhKdGwxRmNIQ21IdFd6Y2s1MTROYTM2U1Y0a2Y2SkpUanFwOC1mQ1Vod2ZybU9zOU9XbUM5MTF4dWxGVXMtSGhUV3M2NVZxZ0c2SGxj?oc=5)
+- **[유럽] Can the internet survive rogue AI? - vox.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1FqM0NYRkpvakdaQWNfam5fU0F2QlJ3Z24zTS1SRjRxcmVCdmNrQ2VqTjdmWTBfWmxYVm8xYzdhblBSblF4T1B4QnlTMjZFaUdkRHp2WElMSXBEcnU4R09sano1NDBBenNwNkpUcE9EUWpTNjItX1o3RVFjMFk0TWxzQXExWXY1QnAtN203ZzdJOHM?oc=5)
+- **[미국] AI and IT Teams Often Clash. But They Don’t Have To. - Harvard Business Review**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTE1CVHJlR0dWaWhwNndqc3hVb1FoZTdMSHNnSGNrNlMzWVNiSmltVmswd0xIZnRNcmdvZVZURDNOSlZOZmRhVTVOTTVNQ1RHdkptVlJQdks2VzhxZDJIZzVRd0Z2blpMZmRkQXR1aUJZaDdyc1gyS2tSNlNVSmRLdw?oc=5)
+- **[미국] The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxQOW9oSVNVR0swaEFBUHRldUl0S3lncS1NWUVfWDhKcFBOUWpEX3l6emdOR3FyWmg2X3FzeXJOVlZDcnJkM0xNV25NbmJFU2hObFBTRENxa0FSaUw5dEtPWlBBVE1Zb1Zoc3JWemJtTmZsS2dheEk5NEl0QUtUQXRtV1R0WHdzRknSAYwBQVVfeXFMUEtfaDdXS19ISmNJMGk1ZDhxRVRqY29CdzBDT1JyWVlkZmd3TWlvd1VvVUpSdTZmTjMwYm9RcHYtLW1vX0FvX291c0RweEtvQkdvQV9JUzRpQ09PVGRUNWdmREtKWTAtdzVieXBtWUR0enB4eDdKS0xxU0N4Vzc4SEgycWhJbDVkMXlwN24?oc=5)
+- **[한국] A Simple Answer to AI Job Loss: Tax Capital, Not Labor - wsj.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxOZXh6cFFZUm1BZ0d4WmZ6MHQ4ME5CR19CWThrYVNFUFU1MDFBM0MyMnVVRG1pQ3E1X2NXdUV1SWk5LXVnMC13Vm9EeDAtc3k1Yzdpc0NoSkFfTExOZTJtOE9pS3FIMHNkOVQxZHpHY0hxalhOMktHRERWSFFGSmxjQ1p2Q0ZvOUQ2RUF0QXF2aWdUX1E?oc=5)
+- **[유럽] MediaTek plans $5 billion financing for AI data-center chips - Reuters**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHlyNnM2ZnRxc183Q0dmN2V4RC1yWDBYSjdxT2kwYVd1X0U0bXc2M3ctRmpRQkx4amdockRSX3dBa3FFZ2VCMXR6bnlWRnQ4UUFVZHdpSF80UVZWc0ZjV3lvV2xVdzNpVmJoSUFQd0tGSTg4b1Vjb0pQTEFmLW1iRkRWc2RoSVF4Q3huTDhNMkp4bzNHV1lsNjRrOGlzdFJGZDdmUTE4QnJoTUpndmxRT3Q1NWg?oc=5)
+- **[미국] Tech Companies Are Rejecting Trump’s Proposed ‘Woke’ AI Ban - News of the United States - NOTUS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQT2pQcm5ISnl3WUphOXVkV3pEeHZWM280cnRwUDF3SHFadzd4VWhDUnZ1Qk10Y3VmZGZxWlliMTZkZEVOQjAxWVpwLVZxY25Bd1VxNXJDbVhaQkdVQ2hfRGVpNXE4RnREYmJ0UHBXOGk0MUtROF9hQTF5ajhXNVBqOEs4N01IQ0w4VVRpNjhSbVdKakU?oc=5)
+- **[유럽] America’s biggest companies are burning cash on AI. It’s risky for everyone. - The Washington Post**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDFlR21zT1pPMi1JUFZnSHdpZTRnbGJneFp3eUI3LU5YdWVhVGtycXBUR0F5Q2ZkVlVzTFVZaThNZlBIdWd3Rms5QjdmN2wtRmJTbG5jQzloLUJobzlQVkdINlRTaWxNemdyUXhkem9ZdlIwMXk2WkN0dmdVOWRReTJyd05oUi1nUHJLc0F5eWNrN0tIcHk3Sl9oOUdtVWNSQVNaNzdGVC1rdVN6?oc=5)
+- **[한국] The world’s most valuable companies are taking opposite paths in the AI race - CNN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93REVRQ2pzTV9FNnJWOHRtdzZqWjFnY0ZtWVNVekNMZ2lESVEzQUhlbk15R3pmWWZ4dExXMDlDRXJ4VWhiaDRRVEtBdjZsUjBCbks1cmRrZXppb01JaExtVlRRMmpkWjQ?oc=5)
+- **[한국] Publishers are losing Google traffic as AI answers replace links - Axios**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTE1fTTZiS2FjM1k1UWs3dVN6akprZXFDMkNRZHJaWU9LeElZRk4yRWZyNkdKVWg3eHVwbDl1VnNWNlVPempsMHVWeTFMdC1icEhXSXhkMFVOT1lDLUQ1RkV1QWZkZXpGRXRvT0xWMnhxQWdnY2pVTmpzM2x5Y25hZw?oc=5)
+- **[한국] Book Review: The Case for the AI-Powered Global Brain - Undark Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FQklBSUZyQ0N0NV96VjFEMHEzZXctX2l6Z2dQd053aVJjTjk2bnQ0Zlh4SWZXVGxYUlJzWlVvVWZ0S1lxekhrOW1WUW41QURSd2Zkc0w2S0V6b2RzdXBiZEJPTklNZw?oc=5)
+- **[한국] Anthropic says its AI models hacked 3 organizations during testing - AP News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxNSzh0X3ZKZHpTT1p2RjFYSGxCVkx1SVhNUWljWkR1QVRIcEcybVFFa3dKLXZiRkxLdWduOC14b1BSdGdGWVhfNk1BQWlkT3U2U3JZeDRBeGVGUHdqNC1wcGFKcE1KcWFoc09RN2FVNEdFMFkzdHN1NHR2cDJkTENLRm9uMkR5cVNFaURyWWFJTlliVVVLcjBxWVI4NGl6ak0?oc=5)
+- **[한국] Wealth manager WRISE sets up AI lab - Private Banker International**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxNenB6ckljRnlVZnY2M1RaUFNRQVF3YmMzTE93OENSR0xsNDFyQW93dWIxaDcxQUVmbEJDWWxqamc4UmlnYzJ4TDBQejU2OUg2b2pFRGFMUjNsZzBQYVFHS3F3c0EtbGtaeTJ4NVV0TWdLSEtNQkV4dkJlU1ZWUnJ3SG5KSEIzZ09lZkdjcA?oc=5)
+- **[미국] What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3E5WURUSGY0XzgwWkpzN1BZcElmbnQ0anhTSTRETHU5bHJRQ0Q2VTJpLUlBcXljWGlSX0U0QUhaVVJMTXZGN1hfbVFBU3RZckxBQW40bG52b0NKYkM5SEpobExSRDVIaENMYUpJZzUtaDFwNWZndk1jY2h1TE9Pc2VDZzdCaUJGcUJ3M2Jjcml4Nm54MDFnaVg3c2tlQ3lQX1dQSXhTeHFWR1l4Y3o2c3h1UjJONnc?oc=5)
+- **[한국] LinkedIn to add AI slop report feature that could train better AI slop - mashable.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uOWJKb1pZMWozcExPbS1qN2lXVXN6ZGtrS09OUFdoUGNIbWtrY19WVWtHTENLaTNZTWY0OXQwclZieGVENWJZS0ZlVi1Gb3VnSno5Tmc2TjFDQVNpSkQ0SFBQYWloWG5m?oc=5)
+- **[한국] Tim Cook sees Apple's hybrid AI strategy as a 'competitive weapon' - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTdCeWcwUjA3Zi1RSGRlX29GME5UUXlYMjBxS0VDM3NqbGJqUHNMeFlFck4zV0lFZUVxdk9pRXpCbUVrRVU4emFyWlBpMzBaT3l4cmdhMFR3WUxWQnBROHhjcWlCbjJSNndwc1ozaWVmZUNWdmU3a01PLTFheE5ZaDBOUmQ1VG1YUlZEdUFDSk16dm1fTHJtTlV2UWNHSkhwVWlB0gGoAUFVX3lxTE45ekR1UHBBTEFWRVRDZG0zd1hIRllPOUh2cUJCTjhoN0ZHRmNFMm91Mk1WZEQ3bFBHY0l2ZXdwdW04UmtNN0E5RWc1Z2x4d1pxMkdpMjBJTmJYOHY4Zmd1NU10R0JWMHU1cFpoUWFGeGFNcTZEcWtGZzNLbENGUFMtQVNqSXg3bUNuNUV5MUlzdHRwUDJjX3ZDbU9zYWFEMmxfSUhKaU4tRg?oc=5)
+- **[미국] AI boom is lifting industrial stocks - Axios**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5ROHJ1VlhRQ0owSUVadkQ2M2VUcDdYM2lCaHpoRVJUMlNvZE5nZFg4eU1tVlFwdmFsWGM4c2hCRFJBcXdHTl9TcGJuUHNGd1VTZFZuZmNmaXg1LTlYQThJQXZvblE5VndKa3NhTA?oc=5)
+- **[유럽] EU says necessary to monitor high risk AI systems after OpenAI, Anthropic AI hacking incidents - Reuters**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxQaFU0cGsyYkR2Q3o5TnhiOW1td0YxUFhHbzFYaHd4WlNsUkFXYTJvTkR0a3hxR252aGZUelV5eENtdXhFZlpfNlNCSjBxbTRXaHpTSGZHWWdjSllxRTdxb0dsMTVLaFJabWpRbjhYQmRMeTY0Z3JmYm1wYjk4Z3N2WkF0OUpjLTRfbW9qOWpBcnFKdThPZzd4T3B6a1pkdkdZdW5BWnI1TFc5QjZnRTZ4aWFDTzdITE9JVm9iMnpUOA?oc=5)
+- **[한국] When AI infrastructure choices become advantage - Nscale**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxNTE55MUIteFZMMUpzOGtwVTk5dDlrNFpuNkpVbDFfcXgwSGt6TXV1dTlzajd5cW9wV3ZVN2JNdENYR2FaM2FjbWJMV0oyYW45azJBcEZWc3JwVkczakd2dmVXbzVBc1BFRmJOb25PZ044N3V2bDNIdnhVSGtBVEJVSw?oc=5)
+- **[미국] Bausch & Lomb CEO: the AI hysteria is nothing new - Fortune**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxORDNYZUJtWnZROG5qZ0U3Zm5BMlpocGpCY1hJckRwSHFkRm1LN3JpZGpGR2lLalpjSGVoaVFfczFRTE1xYTlkUU55Z0RuS0dONlBCTTZ1SzNRRFdhN19nTHowaGVDSC1TSjQwbnF5SldSOW5oYTVmRnZfMnpRQ3NMbl8ycGh2S09jVHVXMWt0ODVoZw?oc=5)
+- **[한국] AI's real threat to jobs could be lower pay - Axios**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Udnd1S1dnZ21Wd0dEOFpEMHNmYkIwWEhYUFRtT2htNGk4c0lDN2Z2empJZnhBMGJhc3ZhQzhQZGFDbEh4UXZuT0QzQktZejV4VHlVRHdkY2Z1QmxQY0tLQg?oc=5)
+- **[한국] Amazon raises AI spending to $220 billion as cloud growth accelerates - calcalistech.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04X0psaHBLMW1rUGtCcEZEcXIzLWRodldjQTFEYkY3dEVmV3R1c1JMT2Jxa0xiX1NzOEpSdWU0NlY5MGZ6c3pfX2daMGl6TFlpZWtVcGZXN1FVSHE0b04yQVQycVRra0k?oc=5)
+- **[미국] NatWest CFO: Recruited more graduates this year because of AI - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxNXzhrQ3Zncm1ZalVOQ2VVYnpEQ05fcm9RNm56dzdSNU5rbUhwWENHR3dTaWF6bnJvc3RxZkRZWElBUTZQY2Y5T1pXNXpFZVRuLU85Zm1oZmVNYzMwNnBKeFlQbFFFa2dDdjFKN1FKX19Eckk2bkpleXE2RHNVSEhycXJta1g4TzZNUHVEN0s0alVOXzNEWUdIejNSekZvNi1jN21ud2FB?oc=5)
+- **[유럽] Inside Europe's lessons on AI safety as U.S. rules loom - Axios**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaGpnMG9VbE51MkJvRTF5UDVaSzZPdm5yVXdFTUJaWVE3NEJXNmFJQ2c2TTg1R29pYUdNZ09SUFg3UGxDZV9XTzhjZG9rMllSWm8zaENucF9RX2tySFptbXZsNWZxbU1xUnhTRktiejdBZlpQQUdNNUxkZHRVcl9CVHFFRjVMeU42?oc=5)
+- **[미국] Exclusive | Situational Awareness Down 67% in July in AI Stock Rout - wsj.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiowFBVV95cUxNQU5JNHQzN3pOclhOS3Q4eV9CYW9mbW51eHJGNERTeHZDcVVld3FpM0h5UTVHZGJGVXdFMzlTVERxa0RCSnl2OHhfTktmeDNXNW04Q2hOeHpYaW9udlpra3kzQnFqZnhyVmY2UThfNE9OVW5vaHBfRlM1eEJ5NUdOSW1pLWhMazF2Zk93b2YzdmRkTjI0ZlVJdUJZQXQyTnhYeG9j?oc=5)
+- **[미국] Sam Altman courts Washington as OpenAI pushes a powerful new AI - The Washington Post**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0NyNy00SGcyV3B6WkNuak1ycG5MTWlrbW9ZRFNRMWZJRXZmclJZQmRkSGYyMzV2ZVd5Y3luV3B1a3RkM01RVHBWQ2ZwTk1mRWNEdWgtbGc1YlJmdUZGbXZ0MDZJeXFCNEtRaGdpSzA2eTFqaFA0VG1WLTlxZkdXa29Wc0ZYb0hXT2h2Z09kcDJaS1gxRWxjLTd6OTcxQW0yempZa2Y2cEhMamhVcURHTjRB?oc=5)
+- **[미국] Tim Cook called Apple's on-device AI a 'competitive weapon' in his final earnings call as CEO - qz.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxPLVVUSTVKUk55Y3BPU09EVk50UGVGZ1ZPRjQ3UndJQ0FORkFRYUc4ZFhubmp2ZG9rTThWdVh4bXQzLUcySzlVX2QycTJhVXA2QkZGVlhRa3RNTENHaXh0UkM2bkFQMUkzZzhUeHBxOGpDZUtrODFwQnRfeHJaRmZPNVJCSUZZdlpyVFhCS2J1cl81Zw?oc=5)
+- **[한국] Apple warns AI-era chip shortages are limiting its growth - calcalistech.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sbDVaUmI5bmdKV0VOdEdka0VTRmpoOW5vVy0xN1pjRnJMal9yZDhnVHhFSmdyT0ZTaDRZbUVCLXRrQ2VoREpIbFUtQzR1LU12NUlabUo4X2RfcnFTSGNiRkVCOVNhc28?oc=5)
+- **[미국] Strong governance critical for businesses adopting AI tools - Maryland Daily Record**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQSFRhN1BiZHNwR19wQjJQRzRZU3ctZUxVbUc4VXNfS1JKcUp2X2gyNjJsYmRTM1lzZ01faUNOOEdHZkhwZFB0TU5wOEczSF9lX3MwelB5azk3a2VTbEh6VkJZUUxrdGxWa3B5SlBQVUpnbC1aSzhEZW9xb29OV21ReEwxUjNWNnVMbmFZSzRDdTE5cXM?oc=5)
+- **[한국] Anthropic Says Its AI Models Hacked Into Three Organizations During Testing - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPb2ItVU1UVDJ5UjZTcGZvakZoMW93Q0hJVXIyQUxRcS02V2xrZGJWcWxaQXNfVGN3Vms0amRYVHVraXBtQ01UTUprZ0lDb29DdFRSazJBaE5RQmVpM3plTGVYQzVzZU1mOG1CM2NkYnRTTmhLT3ZzcDJwU3hpSHUyb2pjUUp4QnRWRkZ5aFJPZzA0UGp2YTlLNDJPQVRxYUNOckFOM2RvQkZXdjR6aWc4d29CNGVMazFNMXotaFBhdVJRdXhFUHhrRg?oc=5)
+- **[한국] AI’s Wildest Spenders Are Hitting the Accelerator - Bloomberg.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZUlqNHZhR3BOMUthZ3l0ajdTZGZtUFg1b19GUTU0aFlfakpLdUx6MHVkR3oxbTlzcDB4cldsRVl5Mmkyd1dOcEk5ZzhWclJBNFRuQUk5RGRzbm9jY1c3czNkOWlKbFJEZ2hiM21oVVd0V3FJaXQ3OGxMSjRhckxibjJQQWVxZXpaSnZSX0tnRW95blEtaFkxVF9PWlFKLUVudlhjZW1GQUJoamV1OEhyaWw0U0stWVZHR1BKTFBGMFI?oc=5)
+- **[미국] The hidden risks of using AI in the invention process - calcalistech.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aeVRYanliUjYtT1I3Y3FQSVFhbUZRald5V21FMlRXX1FWQmRMV1pZZU9oVlZkb3ZrU3J5S2hJUTZiUzNwNENNYWdDQTFteENWWVhYVTlGb1pDRE1Cb3YwU19wUlhERkE?oc=5)
+- **[한국] Adding AI to money-laundering compliance introduces new risks - American Banker**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3A1VnQyNS0zWGRGdFI1NzVtbFd0UWdIcHNmRDM0RVBVekd5WHdRaHNhdm1Mb3lLdk01MXRSZjNCbFZsaEJsdHk5Z1BrTzdiandNaWJyV3RSYUwtQkYxNE5mSExmS0JDQ09qSE9nbmZUZkhkeDBHbkdCbFlnaXdFYi1MakZwcmdGZ2pXSHNzX2NSX1g3S3c2QlQyYk1aTjFvdFE?oc=5)
+- **[한국] Apple is growing without the AI spending spree engulfing Big Tech: Chart of the Day - Yahoo Finance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYU1uYm9hYk53cUpqam12cEVoZlViakU4ZUFYTFE2a2pCVFpLbnFOamk4UnNZMWN3VXlzME1iaGVRUVprOGUtcGRmNW96WnNvcG9hc0xZMURpdGVwOFBEMi1sUVlySi1zbVFOMzBlblRrNDNsZ0VqUkdTRVZoalMxcENsM1ZycTdkbXJaY0xmX25md082NDFFM1YzdnZZWU8wZU5RSE9NUXpKU3NsVkktX294ZDBIWE03cUhhRFcxQThmN3JLSlRlcm5vQVdQa2liV1pYZzdR?oc=5)
+- **[미국] CT bank names first chief AI officer - hartfordbusiness.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1DeG1nUVFHZDFoa2xPeXVkeGhGWUFuSzVvc3BsR0ppdnl5NnlrdUEtSXRWYlB6aTYxU0haSG9hZXFVLVpPbWZXMTZBdWJkYVZJZ0JJUEVKWVAtLWtKY2x2ZEpzVkJQMTZRSHNZQWFFeVd1a2JUeGZUUWl2Mmw4UWM?oc=5)
+- **[유럽] Out-of-favour India stocks get a boost as crowded AI trade reverses - Reuters**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2FBTEptUGJ5X2hlYWdNQjRFWFVNak01dHpKMEw1dmFOaDF3R3gxNEQxbXR3eW1qX2MyUHVoMmhxbnhfTmlubFNKMjRmYTdJdEk1Q1VrVXctREVBNTQ5OHl4VnFPaWUtNC1NbWVVcHgxa1ZHRWk4NjFQX19CZFhDbGJhT2Z0cnIzSXdsTjRucGRKYWFiZlp1ZnRVTDViZmFFOUljaFp5cGNZdWg2SG0w?oc=5)
+- **[한국] Anthropic's AI models hacked 3 organizations during testing - Politico**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9PTEFHeGt5X29ILWZpbzJ1Z2hxR2lNXzlDS0xOVGJ6MDNHQkZVUFE2ODk0LVVsbFZBZ0k4MHJoV0hzS2dpOFFVTGlBOWgwdlRibzJsQWxmRE1iWWVBTFhrMm00b2RmbXNab0FRY1EzVXlNYV9TQmU1ZVVaQzNJb0U?oc=5)
+- **[한국] U.S. Stock Futures Higher Nasdaq Gains Despite Apple Selloff - wsj.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxOakZJSnYtc0Q2VHd2YVlWSWRjdThSS0FKeFVoLUk0cEZOMXhzajN4dlhGWVRHdVhSSEtMQWhsdjFWMnFjbnltTWRWMWM3eWRIOU8zd3JSa3ZtYUZDS0N0UW5JRE82N3ZzZG9ZcG5DN3R6bDRsbFNxOTd6YXRNcEFxVldrc3J0Zjg1QVgxM1RiaW1oMGxzTFpB?oc=5)
+- **[유럽] The Market Has Changed Its AI Test - TheStreet Pro**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxOVi1ZNURTU0tBZW1yVGQ1SndscFZEeDJ5RW41ZGpGdXdRaVNVNU9XLWxuWV9rbWUxcVF3T2ZseUdlU3hXdzlaWnBnaUw2YlpHUzBobUtnUFpnOC1veEtXT3FpVktlZXlxeWdDajFGb3Y5cy03V05DS1RsaUhQZTUzd1cxbzE?oc=5)
+- **[한국] AI models' breakout from human control brings a told-you-so moment for technology researchers - AP News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFd2MTdsODdaamt3MHZQVXJaN1R3czJxQmxuNXBWTUwyN3FaMkxUMEhZVVZJTkhSeFM4SGcybnB5c2tEeHloM1hBbk9wMFRhRWcyNEZab045QTNUbkxraG1xSFJFTTY3a1gwYTJ6aVpQMXZXeE9kY0xZc0pmTm1wcXp2ZzRnTEJqZHNQNjllTjd5TWJqYXk2R1dqdTk?oc=5)
+- **[미국] 49% of Credit Unions See AI as an Acquisition Tool - PYMNTS.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiogFBVV95cUxOd09tdEhnamxGOUF5aW5CSVBLVkpkQjFTN29WSWpzaW44d1UxN2tQSF8wTVlsV09xdGxGcnQtSVFaUS1RTGtNLXVlZHVaVkdaZE9FcDBhejgzYzVrSVE5MEpRYkJqbEV3X1Z1alM4VUFETnpLWXA0S004TGl3c2RON2lZX0tOemZjcVg0enlXd0RtbTQzeVhfamNLbVlfZ3l6LXc?oc=5)
+- **[미국] EU to crack down on AI deepfakes, illicit imagery and hacking with new team in Brussels - AP News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimgFBVV95cUxPcTBCdm8wZkRScWd3Z3l5cXVycXFzcGRpTWFpQ2VMdjNibUlXZ19hNUJJOUxGWHFtNU5QekRqbnlKSVJCT3hQcG5VeXdDRGJVenE5VUhIaXBhdDdUY0NFY2ZjM0llVlpKVmlNZ0dhck5GVmppNHV6MmlrcENNTy1oSkJxa1BtX3VJb2h3VWR1RlZSWXRyYzFJQTlR?oc=5)
+- **[유럽] 1 in 3 employees are learning AI skills from YouTube - HR Executive**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOWlZPeTJtVWNDNTNESTNqc3ZmaXcwbGNGWEpWc2p3cU12U21vNnpRTkNUckxEWE0zd0ZtYnVmWmFacDF3aXMxTGlZcGhFUVZmUXFUWnR6WjY0TXE3MEpqeUhacWNLMmRyMHFGWDZjQjI4RkJYejJNR0NUWi1jMHlUYkJvQQ?oc=5)
+- **[미국] Anthropic says its AI models hacked 3 organizations during testing - wxii12.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxNbWtxM1JuOUJpSDZBNmRtZUh5djRLNFk1a1BUenBGZXp1TU9LSmoxWUJyUDM5RHhCZWsxRFNyYWZuSUtsanNDNHhYd0xvb3dqSng4VmJpaGhud2dUUWtmZklKeFJ1S01iV0ZXSDBsZ3B1VzA2c3VicmFOWWMyc2JGUncwb2Roenh3b1NTaEpFcHVFUQ?oc=5)
+- **[유럽] Donald Thompson: AI adoption increased job pressure. Company culture is your safety valve - WRAL**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOTU00SG96VEVkSFY2Vk1tc3d0NVRsZnVvV1ZjVjE1Y3o5N2xORHk2amdCeG9EUmRuaThfdkJ6eUFpd0VELV9rc2VyNkxncllzdTBBRUZmWVh3U3E1NWJBUDZQRlJ5RVRhYm9fY3YxamRRVkk0bXFlM1FvcUotY1JWaw?oc=5)
+- **[미국] Client Alert: The New AI Coverage Fight: Exclusions, Endorsements, and Denied Claims - JD Supra**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX20wU1hnTnBuQkh0WGFETjRrZVpUdEw4c2lFcnlOMFVRN0dEUTFCU1JkSWQ5bVpRblFlX0ZESklCQ1VPTTJHdngyOXV3VnJqZnlycjRGY1lHaFN2MkE3Q3N3T09OR0VKaXJBY1RoQXpnVGJEY3N6NE5SV25yTVRWbUNXRU5WQUU4?oc=5)
+- **[유럽] Reddit CEO says Google's AI Overviews can't replace '10 blue links' for referral traffic - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiowFBVV95cUxQUU5SeTJvbFhwaFZZT1BMQk9TSUZTaUhvUG9OU2FreVVCWHV3U3piSzRjQTF5QmljendWaFR5RzIyN0FVUTcxbHNKRTRvZlpfaEtBMnlQMG9NYjJJb2VJWVBQZDJrNlg3U0tiZmphbngxT3lXUTcybXZ1NGZPTGhZVWc3SlRsNHB4OWJuR0tuR2tnTDN0ZDhpMkM1QV9sNzdqdFpj0gGoAUFVX3lxTE94bkxpY1RidmFWMkE4RE50NUQtWVVCVjY2WV9HQ1lKRTBEYVBSeXNzVzljTUVvYWtabFBMTGk4NWVEMmNvRVdOTG1heHM0MVVmQ3BsUEQwWFR1ck1qLVNSMHhLZUF2NEpSZDVqZlF0SlRfYjJrX3Vkejd3TFdOeU1XLWNJWTIzazJaMUlKVW1TeGdKOHVJN3Q4eDV0ODRJWFlRSFZXVXN1Ug?oc=5)
+- **[미국] Anthropic says Claude AI hacked three companies during tests - DW.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAFBVV95cUxOeENSNk5wMnlGV25SZ3o0X0dnTVZNdjNiUlRHVnlERGdkYWc0UF8zQVozSlFzSmh1Z01OWEQ5b0R6cmJ2dEdjNGw0NGhOVlZEc1NSOWZleEZxYkFiRE5kSnBpOWRnTEI3NXRCNHpNemRSakN2UWV5RDM0Ymdhc0ltcnVHTFk5ZUFQTjFCbm9nX1ZPN0NJRUpueNIBmAFBVV95cUxPdmhpbmEwS3NqaHFmNU1xZklSY0xUck9Dd1ZiZkFYa3ZLT29uTHNmS3dpbUJHSllQMWhMRzNwZ1pid3ZCSG9qVVU5TUswTFMyek5ockgzRVd3TnVDaVJUdjN5Mll0SDc1ZE8zQXd3OWVmWUdEc0dfSFhoUnl2emlLTmt6bW9WR0ZtWVFZeUVOdWRMQWg3LXZhdA?oc=5)
+- **[미국] AI sniffs out tuberculosis in breath’s chemical signature - Physics World**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxOeEl1UWR2SC1EYnVwd2tZcDN0NlZIejNUSmhKSjJjOUNPOURueFZaNl80VlcwdkIyQy1EMmRKcUJiTlFtRFBERkExQmtMbklJU25Jc2dfZzJiN1kzZVdfTXZiS3V3Tnc4VklGUmxRc0RoYnQ3WUpJSnUzSGctckljeF9VUWRNcWdNMDk4ag?oc=5)
+- **[한국] OpenAI says its AI technology acted on its own in an 'unprecedented' hack of another company - AP News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxOWGF1TU12c0lBby0xOWkwb3VudWxHZXgxVHJ2REdXZV8tQW11RmZYMEVNVnVrMW1SY1NMTzA1aDN0ZFp1cjVTYlk0S0lVcnZES0tiOVgzV3ZaaDFKSllERVhWTFlaV0pyWk9UMGxkTHRhUmFNTzJkYXJnbjNOZmg4UHIyeWk4Q0NRUHQwZjNnclZLTXc?oc=5)
+- **[미국] Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot - AP News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTZ6VGQyajZtTWlFeVhiZkpmTnFLSG5jbU1Gb2llZndJZjByTC01SjVLS1R0Z1FTSTRmeDM4VUJ0X1VIby10bVBNU2QtRHpoZFE5MFlPMG43aURMUjNvMEN4WkZsUXBZdFRlci12MTlqbkRJX0VtcW9paUFuc3N1YTR5bXlIUldYcE9QWmR2TkFyTkV3aFFUQXZXMUxJYUptQmwxdEpmU2NtdDBELWsxTnhR?oc=5)
+- **[중국] China’s MiniMax and ByteDance Release Dueling AI Video Models - Bloomberg.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmstWGRkX1ZlbmNFUDV1eFF4ZldyWC0wTHBOZ1NGVXR5aE8za19ZQU5sMmFWM0RBOTZtc1ZPaEZuUjNicThzWWJMbkx6YWZsSkFSSm1DMmh6dFZlcjRBM1hwMFlkbXp2bXQ2eXNxVjhrdlBKWkZ3LTNVMXlJU3RjbENYY1VDNmw0a251dlNmNUZJX3puZkRZVXd3SHZRaHgzUGRsWG55cV9ZZXl3UlJVcG1R?oc=5)
+- **[미국] AI labels to be compulsory on authentic-looking content under EU rules - The Guardian**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivgFBVV95cUxPV2huSGdaMHRVa1I5MjVGSVQteTRqQlNkMjgtOTYyNXBBeDh0N0RVQ0xnUGw0N0VMbzd4WHhKalRMVEdrU2FicndhblFDM0NEN2pILWllODVINzk3cDRHU0lCM0tvUGQzM2F5WXpIYXl2T3pGT2M0WHhRY3k2SGl2eDFCazB2ak1TX2thWHJrYnBhblBaemljVElrd1ZjdHMzVnhHR09yOTdZTGN4UjdYSWF6U1BURFJEYTdYR21B?oc=5)
+- **[미국] American workers are more disillusioned with AI the more they use it - Fast Company**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNajREbi1nS210SWxYRWlXcFJ6akZNVjhBa0tRblExWWpJaFROLVBnMm9fQ3ZuTWMyTWl6QkNXYkFELXM3SUQ1bFFoeXVkTkRkU0s0RDRDaGY4TUxxdFY1eWJTRWJ3YTFDanhWeEd0dlNTMkNhajJxQmNwdFIxWEhKdHl2dW1ORHpaRVN1UHdTbUgtQUpVTC11aFlXUzkyQ1VLaXVBeHJQNDc?oc=5)
+- **[한국] What Anthropic & OpenAI Agentic Hack Says About AI Controls - Cyber Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxPN2tpZkF5bGZhb0piSnFmV2pKNkw1cG9wYXFkVVM2cUhTSU9HdERPc2N0OFU5RkZUYTAwUXF3d2F6eHZwdGRtMlYwWktqajZUdW5wdUNSb2NYTkE3UmNaNUFkblhmVmxqYWR0X1F6aHdDV25aSk54ejg4aXBfR2VaU0FJYU84ZUxWakkwNGMzbGRRZw?oc=5)
+- **[한국] Anthropic says Claude AI hacked three companies during cyber tests - NBC News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxPWjhVSFZGNzljcllhQktZNEgtazVYSm92SE93VDFSeFU1OWFUZnlyTVNSVERQYzlhUTVkY3dVSERiMEpfalN2OFN2VWZ5OHJuOUx2VXhfVTYxZ19QWWcwWTVyRGd4eFBwb2ZEcERmSWlYMXh1aDg4Y2ZrbVYzdUFMMUc0NGgtN0R4ZWhwUkNpVWtrV0VyQlNFY085ZnJfUFp3SmZlYkNQZGlsaEM2dGc?oc=5)
+- **[미국] Familiarity with AI isn’t causing comfort for Americans, Gallup poll finds - Baltimore Sun**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXBWc3NDMmg2YXNvSUxCb1pORUJCV1U5Z0xvT2RfLTFtSThoZEJOc1FncHYtbkxzb09Ia081dXpTMkgxSm10dnlzd0pUTGt5bTdkZlJNREpIQ29vd0VfNXF1bmphT1hMVGRjZDQtTU0wbVAxTzlCMUxHNG9ZeWp4SElpR3l2eEsxY2poUjVUN2NtV1JzRmZIc0FnWDBuSnFmelRTQjg2RWE0Tko0OEFZaVJlOA?oc=5)
+- **[한국] ‘Seems Like AI Slop’ Button Added to LinkedIn - PetaPixel**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOOTFRMXdWZW1pTXNVeFFsUExkQ2VWa2pnU0U2c1NJLXJ0RFE4a01taklyaV9MajM5OHI5dlVFZ3JEdHpxbEZydmt3QlFpOVlULTRjN1B4SE5SWmZmNDJNcTl6QVI5ME9STjhNTWZTUFNYUHl6T0d3LXV0YldrM0IwbW9nRQ?oc=5)
+- **[한국] Under 30 AI Company Prior Labs Is Officially Acquired By SAP - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNdG1fWGt4WGF1T096Zk80bnJJSnpMbnFVUGFoNW5Od1MyVnRNMnF6Q3lOajZHVG1GVkE2S2NqZDFpU292S0VqbkJPZ0RON19iUWJMVXVqYXZKWi1hSVVLMG1tOHRxVHBGSmtmVkhGYmtTSnZRQ05GUXhaQUlESFVxUWFsV3pBakk?oc=5)
+- **[한국] The 25 companies and organizations defining Ohio’s AI economy - Ohio Tech News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAFBVV95cUxPM3FPd1JlRUNOWjQ5Y09BMVRSNko3Q1RHRld4RHYtUXpZemMwX1g0OHVrVFVnNVNHb08xdjloX1RhUXk1dkNYbUVrS0FwVUNBQU8wVVBjWHFpa1NxN2dySUkwZ3dqQnU1S1QwUGVBTlU4eVg1Q2VTLTVwMlJrcUxrU1dIOUtFMnhvNVB1cUh5YlNCeGNC?oc=5)
+- **[한국] Forbes Daily: Wall Street Is Skeptical Of Meta’s AI Spending - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVlyd2dPekN6VjkxazlDdjVMVHFONFNyYU5KWjVzaFEwdlFuVWFxQV9RTFZodlJGRXVIMHJZTU5NM0dtejJTc2hjV2liblZqSVRtcUdpMHFpRFpkb0xxYWtMUzdUQXJOYkkxM1FUT2ZXZXUtRXpqYWd3c3B6bFFqVlc2TjlYNm9iN0dnQTZFWDVFYWs2V3FKbnplclNHVlQ3Y2JXLVRNVmtISTlXdXJBSk10M29xdw?oc=5)
+- **[한국] Second major AI company says its systems hacked into other firms - The Washington Post**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU1N2TTQ5aVc0a2ZSUC1WVnpFRGlUTWNMNGhHdGtnbFdGVm9Ic05JaDRObUdBcFdkdXFPSnBrT0ZnTWhKTUNFeE9XZ244V0kzbmY0Z0lrSDZ3dG96akdYMU9LUHBrWk1tZFZjUnlkLTdDcEFGNkRjWWkwQTFRRWNPNVd4akM2c3FFa3MwY0ZHTkNMcUZWaUpiZm5MY1I0b2llcEQ1TmVHalVObzZEREVXUzZSNTRKeVVOX29F?oc=5)
+- **[미국] Anthropic says AI models accessed systems of 3 real organizations during testing - Fox Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxNUTYweTJKcWJZOFhHWTE1YVcwWk9kM1NRLWJKSnhaLTU0dVp4UWN0bFlrVVVfSE13TXRqRXpoMU0wUWhObWZQenk0ei14RXlBZF8wakJlTll6TjFzWHptbHFVZTdDS0U1X0JXR015Tjc5QzVtZlE0QTBQaUJINl9qOFdIZEpFQ0djMFJfeU0zZFRtSXl1WWpiaWo3MjFXV3poMmdGZmNGeWh4V2o2T0ptakNWcDE2VUHSAbwBQVVfeXFMUDJ0V1RRaU0yeFlGeEx3MXNEcTBGQVF3ZGd5d0NoNWtRWS01MDR0LWlwalJsZWdzbkFTSkZqN2tBcEtieDBzaGhCRGk2TFp1SzBOYXduSkJFUEkwNWtwNnhrZ3JSSXdGdktCMEhaOVNucXBZcTVSQW5yOE5WdDdVS0N1UXZxckl3cGd2ZWYyRWt2OXNNQ3JHUTdUNFFMX29CTFY5MGNhMWluLWx4dmFMSGpRSUY0bi00YXhTSzY?oc=5)
+- **[유럽] Anthropic AI Models Hacked Three Companies During Tests - wsj.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjZEQzNkWTRXTEx4RUI0WENMRkVLS2NacWRSQ251Z2hXeU1sMHMxTzU0cFlfX1lNZzBoUkF5djRxZUdtVm5FM3NibHBIZ19lYTdRYksxU3lJYlRVWU95T0pEUXBNYzV5U0RaSzZHUDBaWXJhRVplZllRNFl5eko1NmQtaUVkUGs3d3pLaHB0OWhSdGp1T1RZ?oc=5)
+- **[미국] Oscar-Qualifying Bengaluru International Short Film Festival Expands to 10 Arenas, Adds AI and Dance Competitions (EXCLUSIVE) - Variety**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxORXRYS3ZaZzlTd1ZxNXFPa1RKM0xST1Bybjd5Z0FoRTQ5S3MyWWxRUnlwLW1CWndBcGt1Z1lOTEFsNVhCRjEzck9ZMTU1YVZQb3pBcWVpMmI0SzNJTmQ5ZFJ2MmdneUNpMXdBOVl1VmNLTkRqTzJBYm5adHV0aTZ4Y3ZHYzhrbHVwUm1sVk13a09FUXk0cTlVQ0w4NFYwb3otbkREck13?oc=5)
+- **[유럽] SK Hynix, Samsung shares skyrocket to clock best days as AI rally roars back - CNBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTE1QSWFIbG5ZZC1Tdm0zNVB0UHptVnhRMmpoWkpXbVJDV01VWW0zZHhDRXF2U2lEQ2JiX205NmZOaUt0RkEwSW1rdEx2amg5UDVYLUgwdGR0bHlrU1NzTVBlaTRWdFdpWllGWTNleGNQM3FxckR6Rml4ZHV4SzZud9IBgwFBVV95cUxNc0tPRFNqMy0wNzBYRGRrYUpCZ1NvdHU1MGlUaFpIX0xEMnBqOTZOTW9oMmZWOFN2a0JQeldPN0h2c2tiM3BLcWZ1UE4zQ1hydFlGT3U1Y1h3eUNMT1VDUXFycWFHazBXdjRkUzlLdlJjYTFQeS1Sc0tRWWxrVng0aURNWQ?oc=5)
+- **[한국] AI Will Make Our Politics Even More Emotional - Bloomberg.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0lfbl94M0hnWFB5aTE5XzM4VXE2V04teEk4TExsVURGWWRfMUhhSTJjczV1VFliRERWdDd0eS1wSVluajViVGhlWE9LQ044ZWJMNzZhWmotMEp2cUJMUkRGeXU4NUFTdE1pc2xtUm9zQXBZMEFwLWtaNHZjLU04MVFaLVoyb0FQRDZ5MHpPVkk0QnRRTVMwZ0FTM1BHSkg4?oc=5)
+- **[미국] Not AI makes game-by-game predictions for Denver Broncos 2026 season - Broncos Wire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixAFBVV95cUxNemREOWlLQnRxSzZ4eWpyZjl5VkZLQ2lPSlN6T3ZSOGpvV3NMeUNvcHRsNDJUd00yZkZkM0plT1F1OGpnYmQ5RDV0d3pYUXpzd0lYU0h1elRBakEwNHFqcElOZ3JLeWJYcnJBQjVlcVd1NXJra3dYcWUxMHNBcnFUS1dQN2ZYQUFKM18xX0xiSnBRX1VYNjBoY2VmUkhBbFlTdmRLNXQxeW5ua21UOS05MkFuekY1ZGxadTBUTUg5OTVXSkcw?oc=5)
+- **[미국] CFR Surveyed 350 Experts About AI’s Future. Here Are the Takeaways. - cfr.org**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxOTjhpWFRpQ3hhOUd3STJJWFVyblhUX2lEUGduV2dycWtfcG5MaE05RnlybWhLbUNvSF9BLXZwYzR2bEhROXIxQXJZVzlwVk1WN3FZOF94ZWVkTHBMZ1RfY0NJLXRXX3ZKWFVhMzlmaFJGZkVuSS1UUkpzN0Rsd2otWHEyc3hGbFBSVFpSYmR0SkVJbkF1UVV5S2MyNGpPOEtxbXRkUTdB?oc=5)
+- **[미국] Inside Hirschbach’s push into AI driver communication - FreightWaves**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTFB6bnE0Zk5za2lETkJMUWVmSXIyeE5NR0M3aU5fOHhNbVBBVVQ2S1d0TlVlX2ozcjVEWk96TkRZRTlIb1ZxMml2VmZoTnhyNVdqVFJxV19UcFhjMm9zazF6UWhVb0RFWm4zNE9ib1lFd2t5dWhfV1Rn?oc=5)
+- **[한국] There’s More to the AI Nerves Than Margin Calls - Bloomberg.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRkg2NUZLNVdnX21OUmNkSDVoMVdhQnhuQzRFSFVXSUZCbmE0dUFFT0FhLXN2bkFZV1Bod1ppTE5fUElhbjRRWTJ0QzBpcVRodGdwUnpSY193VkU0Z3dEbkx0RWlTd2FicEdFbklSRWpGd0EzWWNNSk50YVZtbEVNQ0syajE2YWp2aXplcUh5RTA4RFZ5S3g1d21EQVZBaFMzWHRiT05ybWVlajFZYjZ5ZFR6aUNMTDZqSkZ2cGs1YmZQUU1WaE5mOGJHTnd0NGwybkt0aXRmUm5RcllvRk43a3Q2X2VFcGc?oc=5)
+- **[한국] Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5)
+- **[유럽] How a Yale AI-cheating dispute became a 13-count federal lawsuit - Ars Technica**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxNbkJhRUppQjJRNzBkVHk5TzM1TU5hcE1ON1J2dzFFbURGU3ZlcDNvck41YmlyM0dFTG5fY1lvWjBhSnMzQ0hZZFdWeDhPaGdrOHJaQmZ0VXl2OUViOWd6bXVZTk5MYV9nYkFKbDNPMEh4WVZfXzVEcjhDeUVWdkw1cE1lMEtDUVQ1T056bmdSRmZiSHcxRW1id2RqTzl4VWczdXlHNXpFUGoyV0Y1dlE?oc=5)
+- **[미국] OpenAI Cuts GPT-5.6 Pricing Up To 80%, As AI Costs Come Under Scrutiny - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxPYzktYjZIQ1FmQ2h5TkhKbjViTE5DdE5teG9qV2RabjlnbGR4VW9SODhuSVVBR3BuejM1N3BQSlBhc28wM0VHYjVYZXVqSTZnR1hKQWhxMVA1QkRMRFBqMmtUbzQzd054TlNSeEJJNGd6VElvQUJmSEtLZWhSNmo0enN6bUtJWmlXZkp1S2N5d2QtOEd1T3ZFd2pZSUV2dUVsYXU5eTFObDdFVmFNRHRyVHNOdG1vcjhpZzI0SQ?oc=5)
+- **[미국] Reddit reports a solid quarter but shows signs of AI’s impact - TechCrunch**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxQRFJKNGlodFZaV0JjWlBCcmZyR0tfMzZzUS1Yajl3ckxPRmFVdGtPUWlQMWtSVGNEOUhkNGwwelFFMHg1d0tSdHZ1QldqVTBNcXd6emRPZ0xaaXQxWUh1U0JOc3dYOUwtQnJiM1E1cFZVZTQ5LVBRUkxBaE14OFpaM291V3oxX0FfcURlM2N6Y0ZlcTdhclhOejR6WQ?oc=5)
+- **[한국] Elastic and OpenAI bring unstructured data to AI - Techzine Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilwFBVV95cUxNMzBzOExWdlNzR0ZRQVBXbWNOSHpWelJDUE9mQVlYM3NvNE5FYUIxVlhSQkNBZmtlczhUdlE3MTA1ZmIybjU1bTBJTzVtTGZuOWdFcEtSSFR6UnFqcmY0NzYzc0d5SndTZTFyV1d4ZmlDT19vSFQxSW9XN1dCSUdfN2RWS19aMEVWYS1OOXNnbDZfOU5ILW1B?oc=5)
+- **[한국] AI changed what high performance looks like - Fast Company**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNSmVzdDcwVEx5ajQ0eHprNnQzdy0yVGtDT1BnMEFtRmdRT2Rpa3VGNFNxeDdUQWROcDJxbjl2bFA2UG96UFVPMjRmdkRkWkZiOExKU0I1T0RiZjZGbThCT2ZtQS1KSXNQY0R3a2RMaGFKWmoxTEg3T2FuM2lEMVBObWRyUjJzTGs?oc=5)
+- **[유럽] Volume Nine Redefines AI Search Optimization with Launch of GEO Grader Tool - Yahoo Finance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxQOXl2YS1TR3NxNzF0SC1VX2dPLWlLcFkxd05SbGtRYzlQaGh3MEJkMWpPbDlCSXpYa3NydW1KaVN3TlVBOG1iMmtUc1paNk1SUHc2eU1jTWlUVkJ5OUJ5MlJ6eFI0djFuWHhNMjFsMUxVTEVleXBNUkNzMm1neXVWMFhReU1YVzczUzc2b25vbHNjTnpEeDAzcWUzWQ?oc=5)
+- **[한국] アンソロピックAI 3社に不正侵入 - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BcUtNa2VLdW0yQlVNc1Zvb0VoSTRobVB5Tl8wR3lLVVJOejc1MmRSMG5kakt2MWYwWkJNWDlFQ3dJY0RUclR6dy1PZWpjQ2lH?oc=5)
+- **[한국] アンソロピックAI「Claude」も暴走 試験中にサイバー攻撃3件 - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1YMklvMFllaHBXbzFzdWFpRkYyYU1mdzAwcnFmem0ySnZTdk8wdENSMTVlQWJhQ2taZGpzbklWS0k2cVlxZVhaYlhrVUJtTmk2djB3SHJHV0NkUkxOVnZKYk1LTk9XNFBMUWxIXw?oc=5)
+- **[미국] AnthropicでもAIモデルが暴走、「本物」と気づいても攻撃をやめなかったClaude Opus 4.7、露呈したAI隔離設計の破綻 - JBpress**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhdHVvcXlMQ1RXa1puTnM5R2lQZ3RiRHRmNlprVHZpYzNGNF9kamUxRl9wMjZUNlBpTlZWUnUydU9UU3dBWjhINDZIQ0VOdUo5MlB0TElB?oc=5)
+- **[한국] 米アンソロピック、AIモデルがテスト中に3社をハッキングと公表　オープンAIの事案受けた調査で発覚 - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6dkFlbnFON1RERUpwdzhROUZLWVJjUDVZUmNDZHdwVFpyN0tmYXNTR1UwenlRSXdWbktLdFRRMUllVmRlc0FoZ1BxWFhnZjVhTWU5d0liS1RGU3gtTHI40gFkQVVfeXFMTzRZMXJiRVowRnJSUkloNWRxNnlZdDFfWkhrT0s4Nmo2LW0xdUxfcEFwZHNJemE0LWpXS2R0TV8yMUYwM3FkOTQyVnpONVFZU1Z1dDNMYUFSU1k2MUxUbjgtNlh5Vg?oc=5)
+- **[한국] 米AIクロードも「暴走」 試験中、3組織システム不正侵入（共同通信） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9pVEJydEJScGVTQWU0cnpjOE9KejROZnI4N09lMEV0WDY2RFJDZ2x4TlItR2tDMGF2aURHajcwalNyOEh5NXcwVTBiQTF1azJpQlBLN0JMd21zalJvWnN3ODhYTWRES3Ryclh5eXdVZnVtVjF4WFc0T1pJb1FwYzQ?oc=5)
+- **[일본] AIの嘘を封じ込める最強プロンプト、「わからない」と言えない人工知能の弱点 - Forbes JAPAN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4Y01QUkQxQjJIV1RQZE9QWFhvZXFzaG1KTnBTeHBYdUNMQjBZemN6bzZFSUpoN1ZCLVhSeS04cTNsNWdTWV9IQllEbmtibF9sYTN0MEVxeDZ3QQ?oc=5)
+- **[미국] AI の成果を測る次の指標は、「仕事がどれだけ変革できたか」 - Microsoft Source**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmd3TVprR1h4emhFUnVtN1B5Q3F1ZVJOM3dFeFNUS0V1R0ZzWG1FVjd3TmRKLWZwVE85X2p1QUwwTTA0UFB3VHRuZ0E5YXdVMm1rUUN1emFtS0RoOU5tQy1zVjFrVmJYbnlyejYweno0SC13cFN1Mk5rdjhpM1RESXg1VHU0V090enB2d2FiakdxX3V6UGdfUHpBM25DWEFfNXNjNFBZT2Z4YlBD?oc=5)
+- **[미국] Sansan、メルカリ「CHRO兼AI責任者」登場 AIもヒトと同じ働き手に - 日経ビジネス電子版**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yV211ellRRDQ3ZG1mUmxUSHdPbXRjS0RhMWFsUGJIUzNWbGQ2Z1cxbHctS0hQekhBNGRUMmpTWWhxTDN2NVNidmphYXBMVURoal9kay1iUjB2WjM4czJzR01rMkY5SkE?oc=5)
+- **[한국] 超知能AIが高める人類絶滅リスク 開発競争を止めるため何ができる [AIの時代] - 朝日新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11N3Ztb2kwU0t4TVhqX2FtbFdVQlhUa3FPZWFGSnZzaGRLLUlnUEtNWVVwM25TQUp3eXI1WWR6R0U4YnJnVXdxZFdpeF8tUWF1Wm1mSGxxeGh6bEtCQl8zUVA0czl6ZWM?oc=5)
+- **[한국] ペット禁止物件・心の癒しにも適したAIねこ型ロボット「Walulu」をMakuakeで先行販売開始 グロウスコム - ロボスタ**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6d3dEaHZ6TlFSdU9KUGZrMWM1ODBJRjlfbjRPMHlJb3JsMnZBRTVPdW5NM3pmWlZscFlsakNkVFViUk1qcVdWMHpZc2N3QnJvWlQ3bzlLOWFkblpTVWhRYk9jM3I?oc=5)
+- **[한국] AIカンパニーとしての挑戦｜LINEヤフー株式会社 - lycorp.co.jp**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EbFZPQWZBeHpsWGxuNThsNS1GT3BCVXBGS3RUaDdydGl2VFgxa1hSZUtQMjBhSXI1MXNiLU5mWU1fRDU2RGExU3BQQWgzQWNt?oc=5)
+- **[한국] 〔東京株式〕続急伸＝AI関連の買い戻し加速（31日）☆差替(時事通信) - Yahoo!ファイナンス**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxQRFF3ay1lWFBLUkpEdk9aeEh3cEVlZzVUekdUVDh5Q0NwbG45bm8tNmhzTGhhdDBYemRVWkJHellhRXUxU1J0RHBDTlZEWFJ0UjFlaS1BR2UyNDlVVERNdmxZNFA3MlZ2dDI3NnZleW04M3AxdGJNdzdpNk9aQk01aURzaU1xNkk?oc=5)
+- **[일본] グーグル・クラウド、「AI Threat Defense」の国内提供を発表 - ZDNET Japan**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wR3J6dnY0SU90Y3NqNGhReWZ4MXFlZ1VyUWlGSDVpSlgwY252WGFaWF8wRFEtRmdsQUppejBvSFlpcTNvR2p5MDAxNmVGZFd0WUtn?oc=5)
+- **[한국] 株式会社イオレ、「AIデータセンター事業」の公式ブランドサイトを公開 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE14NnUwZU1xQWxGWTNwdm84QW42SEpUbVpnMkNxb1IydXYwRmdkTXJlc3ZRVlVSV3BtM1BSWGVuMjV0bjZ1VFNETDJvNEZQVFZDUWpHSkNxUGF3YmN4VDkzRnp6RWh0cXFtbHc?oc=5)
+- **[한국] MUFG、電光石火のミュトス対応 サカナAIと「48人の精鋭」で切り開くAI金融 - 日経ビジネス電子版**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2N1B0YXVsS2JiWEhzUTdXOHpDc0wyeWwxRW55cEgxNUZjMEJ6MUVhaVhSOWxxRFE0R3JDR2VMSXFocFEyRVp4TGx5SkZnc0NUQjQtcmhqMHFSVTFtXzdtaXNjZkpJLWM?oc=5)
+- **[한국] 最先端AIが勝手にサイバー攻撃、アンソロピックも 4月以降に3件 [AIの時代] - 朝日新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIS1QyUlBQcHhSUWlHbnB6RlFJd21EMm1vZnRQT205M09Qel8xUURlU192dlFacXpXSnp2YXFicVoxVTZ3cXZtSi1QNk5zeDBkVGJmU1FuejVJYkZ4TUtWZXNZcmRWTTg?oc=5)
+- **[한국] Chromeに13年超潜む脆弱性 AI発見 - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vdnZjT2ZNYmhGSWUzT2FjTHVDUXlTSE5fV2h0Y1pRLVg2N0plVmx3M0hoejNBMTBMZ3FKVGlfUTdOXzZfdlZqUUZxWGt5QnZY?oc=5)
+- **[한국] 嵐の後をにらむ投資家 AI復活、主役は「地に足着いた成長」 - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1wSEpuVC1WekdXWXNVSU4xbjN3WThBVElCVjVnemdkVzFNdmdHM01lcjQ4RDlnZjloUGJMSm45Ymw3eERLYXdnUGxnM1hJRTJhbnBvQWp5cmp6QnZBMnlhSWM2Y3FrQTNFajVYUA?oc=5)
+- **[한국] YouTubeで静かに広がる「AI動画」への見えない規制…プラットフォーム依存に潜むリスク（みんかぶマガジン） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE82cEtuWWJpdGxId0xBTFNfbUJnOXRqV3RtQTl6ZUhXWlR5RHpyXzZDdTU3ZHdvcU5oZ0Y4UlVVSjVaczFLUGswUXlGd1ZMTzd5UlBIOTI3c2lkVDI1TlFjajM3d011X2g1SGJKSzhtR0pQYVRkTFZaMklCYTdhbmc?oc=5)
+- **[유럽] EU、生成AI監督強化 「暴走」抑止、制裁金も（共同通信） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE5rUXpyS2JCUm5jaWFPUVc5S0xFNndCNlFVVlBPM0dMU0pBTi1IVmNabzVYbkIyeFB6bDIyS2o2NTFfZnl0ZkowVGE5bHZjSTdUWVZ2UWpOMUdWZHFwWFFVWG1KZV9MWVAyZ3JQTUNqNGZBcVJuZnlEOFd4MlRua3c?oc=5)
+- **[한국] アンソロピックのAIモデルも試験環境から脱出、他社に不正侵入 オープンAIの発表受け調査 - cnn.co.jp**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFA4aW5PUW8zLVlFV0xrUjE3Q3ZabnA5bFJpTl9XamNPT2k5T0d5cUNRNE5LRXdxMFJtS2ZYNFM4QWtKY3p2ODhBOTZEOFZDTTM4YVE?oc=5)
+- **[유럽] “AIで成果を出す人”は誰？ 全国3,300人調査を基に診断サービスを開発、AI活用の成果差は最大3.6倍 - パーソル総合研究所**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YeXAwMm5MaWdkWklXMmtpZlJ2c0pRdnFmUl9neUpWbkdzWEl2R2lMSGlCbnQyQUlLX0thUmJOd0JjQTJlZU9rMkJVZXJWNnZLMURyaV8tdThlQTI3ZkwyWTBaQVYzOFE?oc=5)
+- **[한국] マイクロソフト、AI訓練基盤「Echoverse」発表、9Bモデル性能は36.5％→67.1％に - ビジネス+IT**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZaXZ0R2JyaG9jUlRRem1WVzc3Z1FqVTFEeFRQMmFVNXFIbllOR0JFR0lMdURTVDE5MERHN0M3SzB1Zm5takVjbWtaY2FsM05mWURn?oc=5)
+- **[유럽] OpenAI､AI利用料を最大8割下げ 中国対抗で価格競争激しく - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5hczliUjlJNjhaRjBWNEJJWmhVaHB6dDdDVkJxbERVY1FIQklqQkxIUUtoYUV5UFBUMlRsTERCMDhBMnNsUlhSdEJYOVZiblctUldEUjFsazF3X1F6VWpRdFEtNnlBTHNVTHVvcA?oc=5)
+- **[한국] 資料作成自動化AIエージェント構築のPoC実施について （自律的に業務を遂行するAIエージェント活用に向けた取組み） - アットプレス**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rNTNHczRsMld6QjN4SU5ZLVByZTduRjlfeFdhSUU5a2xZX1g2ZDVXcUR0U21DODdvaWN1Q0xJUVhvTGZRTDJ0ZG5mVkZVNms?oc=5)
+- **[유럽] 自律走行ロボットとAIで設備点検をDX化 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1HdVpUWTAwTWNwUjFmRkhIWVRWdGlUNDlzT2NBUDl1ODN5ZFRUc1BOanZjZkFpNWd4b1V6S2ZvcnRRYUQwcXU4QmlQNXpHNXUweUNkS2xYVHpmYUo5M1R4b3JVZExiaGNObmc?oc=5)
+- **[한국] 滋賀県、日立システムズなど、滋賀県民向けAIヘルスケア事業を2026年10月開始 - ビジネス+IT**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tR21FU1RQWkpmbTFBckhJbVVjS0g4RTNvd2duQnI2NURWVWxlWE5Ob283VnEwT1Z6cmZpLThvUGptcS0tYVRDaEczYVJLLWViVG53?oc=5)
+- **[한국] AIが攻撃の「実行役」に チェック・ポイントが自律型防衛を提唱 - ビジネスネットワーク**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oVkpCSTBTandMbnJMX3BtRUxTZlJmUlEtRDR5U1M4WE0wTnAzc3dURUxZMHlQT2tlamk5MlRGMFF5dV9SRUt6YUUwUnRhSmE1ZUFn?oc=5)
+- **[미국] 米・新興AI企業アンソロピック 開発中のAIモデルが意図しない形で3つの組織のシステムにサイバー攻撃 - 日テレNEWS NNN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXZhUS1GZlVKZXgzNmwwdDZ0by1fQXVZZW83N3gtb2VoSU9UamVQaUgwVWRQeEt5MUx5eEpydmUzenRSNlE4YXV6Y0tLT3BhX0FqeTQyRnh0MFBJOC1saVBPM0VGOFc1d1VnWjE2LVpja0xBVDN4Y3VHSnpuMjl0N3NYdnk?oc=5)
+- **[한국] AIが議会の発言内容を解析・自動判定 GoSTEP、自治体の「議会議事録の検索・通知機能」の提供を開始 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE4xMFNPYlJpVVNCZFIzdTBHbkY1WHVGdHlzMHFYNjlPYlBoalFCMDdHcVhmdDlrNUNfUFpFX1I1bEZpUWk4cVhMalRrLWJ6RUFoTE40RXlRY094c1h4OUc0N05ZWlloUmwyTXc?oc=5)
+- **[한국] NTT西、ロボット×AIで設備点検をDX化する「おまかせ点検ロボパック」を提供開始 - ビジネスネットワーク**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xLVZrWFF6SUVHWUhPNmtmOHZjaEN5QVUzV1kyakZXWFl0OFJHYnNPejJtQnd5X1RiUVBWYzl1SmM5STBFa1R4Qko1ZjgwVW95Sk5r?oc=5)
+- **[한국] 【災害時のAI】ガバメントAI「源内」を熊本県の被災自治体に緊急提供 - ビジネス+IT**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BMFVTa3NlaDBTYzVtZUZFcjljbWFVSTJTVVEtVXVqenpxSkhlVzZ6VFNkR1BrdER5eXFOaVNVSDVTdFFtNTFKNXpTS3FLRVdZdXQ4?oc=5)
+- **[한국] AIはサイバー攻撃の“支援者”から“実行者”へ--チェック・ポイント、「AIセキュリティレポート」 - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE93WFBtcXNaRmhiRXJMMWU0aVg4SFJJWWswdnR6VS1yV1lobS1qc0hhLTFBNEV1RXppLWg2V1NkQktTUi1wZlllMzhQWER5WjhzX2dfWTJkWk00VjJ5d1Ayd0lSS2NMQVctTXo3QnRmWXZEZXZvMEEzeXRMNk5JeE0?oc=5)
+- **[한국] テレビ朝日チームの『ショート動画作成 AIアプリ』、Google Cloud主催「放送局合同 AI ハッカソン」にて最優秀賞を受賞 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBBYkRJUHVjUHlDdVhDNjVsNm9ycUp1YmFXZE9tZG1pTGh2WldBY1V2dnN1VERVOWQtVzNFaUNXNmNGNHotZXpqMndMeWV3TWlXanh0Vks4clNhdUdGMThOODNvWFpRQXJ3T3c?oc=5)
+- **[한국] 災害時にAIができること ――令和8年熊本地震と『期間限定アプリ』開発【生成AIストリーム】 - 窓の杜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMid0FVX3lxTE5mUDhDNVNNZ1A0QmhYN3BVYUNpcGJqWkZVU20zNnJJUVl6OVFYcUFHX0JtVE5zTkN6YkRXQzJnUnplTFZvX0M1bkxQN21iTVVjQlZTRUZjQVgtbUVtX2xFWFE0R1haalk4OFNOU3BWUW53bGxpZmU4?oc=5)
+- **[한국] AI活用で生活満足度アップ 内閣府調査（時事通信） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE05VkxTZGQ4Y0xWOVF2WHRBTmVKNzFjVzVHcWpZMnNkTFdCcTVOUmNpLXFzcWk0Z0hwTlpSTHBvVXhUc29tS3F5RUFNWURmbVhCM1p3QkZzOC05aVRVOWtuZjJxUjFreVlOdWd5YmtrYXBqcE9SLWU0SzB6VEgtZXc?oc=5)
+- **[일본] 生成AIで新材料を開発する国際ネットワーク、三井化学が参画（EE Times Japan） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE5MUi1rYThvWm1odGlkcS1FTEx6X2l6NXI2TUdNNTgzSTBEc3NzcTgyR0tkVTVORTN0am1ycGc5eVZCSUNmRTNLX0FJSzB6RXBGZUhXZE9KWkx1LWNVMkwwVEJGWVlCOXpXVE4yYndmQnRSX0VXdDhPWFVVcHFnQkE?oc=5)
+- **[한국] TIMEWELL、岡山大学で開催されたAIエージェント実践活用セミナーに登壇 - 山陽新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lamFKcXRDeWhMeF94MTZ5VVhsRHFsS3dZMW9kQnBvYUJzaUxyVVVzNkNSS3UzU2hDRVp0WFgxNk0yQ3hON3ZWSUZYWExjOFg0Unc?oc=5)
+- **[유럽] MIXI、全社AI戦略を統括する「CAIO（最高AI責任者）」を新設 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE8xa3JUb0FjeDhfbE9hOGxab09rX2dla2YzYUxkczNxaTdlWHNqTFNmQmxFbkFyVmZaeU5iUlhNQTNsN2xOaGlwN2NWbXlFM19aWHExT1RJTEZ3cVRQRndualY1Y016YV9ENkE?oc=5)
+- **[한국] パナHD、半導体製造装置で新組織 AIで増大の電力消費抑制へ - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFA1c21MZXhfOVZ0WkhiT25UMzhtTkc1RWloQVBaaXAxNkwzSHJBSzNRcUh0eW1PR2VDU3BLU3VyS3JjdnFtUEdBOGZUOHU4T3pBaGc5ZE1ZdU1ZbG5oOW5QdnhhaFJJVXBHUDNJaQ?oc=5)
+- **[유럽] システムサポートホールディングス---Databricks社と提携しデータ基盤・AI活用支援を強化(フィスコ) - Yahoo!ファイナンス**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNZzhKaTdlVXdodXJiZ0dzOWd2eUIzeVRPQy1CNW5hMkNtM0dVQk56RkNZdmotZ1NfeTYyR3lrU1VzUy1kMksxUVEzcEQ1Z0MwNDROTUVtZVdjMkFoWWU2MmFheUJtc3EyODhvd1ZObjEzQ2RobzZGUUFoWmhhZTE0ZkJHUFV1QjQ?oc=5)
+- **[한국] 「うちはAIに使えるデータがない」は思い込み？社内に眠る情報とベテランの知見が、中小企業のAI活用を動かす - JBpress**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VTnpsNnN5MHJwQkJmLXN0UF9EZGtwMnBOR2REbmh5Tk5PMWN4dWZCRlctVGRzOE1iUlEzYXlSNXBqS2cyRjR0RWdaMjBNYXR2ZHl0cVRB?oc=5)
+- **[한국] インフォマート、AI経営分析システム「IMAgent」提供開始 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFB0SGNnZXF2R2JSNi1uVGdtMFY0cE1jMEhHNzhaWGlVY0VtNzZ4TEZkSGxuekR6Mnd6eVY5dlVMZkhQNXlybS02bkc2RVZsT1BCYXdFREZ2czg4TFRYMHNQd291eHA0QVlrRnc?oc=5)
+- **[한국] 米国使用のアフリカ地図に誤り 国際会議、AI利用か - 47NEWS**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwbkM5SEpMcHR1a3lZMDhSQkc1MlRqbnZlVXNuQlh5T0FLNUoxcDFrN3JncHZVSERmYm9CSGxHZmp4blhBWk1CdVZrdw?oc=5)
+- **[미국] 台湾GDP、4~6月12.92%増 AI関連輸出がけん引 - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9VUm5uZWFCN3pXcjBuNS02QU4xWExxbG43MENxYmItMU1YRDJTTDl4MDZoV0ZTMHQ4MC0tMHpUSkJBTHVONmJKOFlYLS1rV2pDZUg0ZHA2Vi1zQmE3YUxRSTBJQkw3Sl9fczBBNA?oc=5)
+- **[유럽] AIが人間の認知機能に与える“ダメージ”とは 世界中で行われる「AIと副作用の研究」を解説（リアルサウンド） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFBlVEZsc1pNbGkwWlgwZDJnWGxfbnM3VTdQSHAyNWtXdjRXbE9hWDMxbDVydFg0VzVjSnFoRzJUZk9iMWRGUml1VlQxNHdKVi1HOGJiMWJJRkdfQUpmOVVCMXV0aXRXWlZWRnJ3VjMwc0p6NkY2VGZlMV9EUmE1NEU?oc=5)
+- **[한국] 生成AIを駆使してゲームデモを作成、スクエニ遠矢氏が講演 - 日経クロステック**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5wNlRfWk5CWV9qWUVUbWZZMnhCOTJhMGRQUWNTZU12d1VvVGlfNlpZR0wyRElRVkxHLXFNa3dlS3JUZzlRVEdGMmduOEZmVG5lc2ZqdkpGem5pc0ZmOHo4SE5PTks4VGQ1dzRWNw?oc=5)
+- **[일본] プロンプトを「3つに分割」せよ、AIの回答精度を10倍にする5つの修正ポイント - Forbes JAPAN**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RdXZwUFlaQTBjWExkMndxaXVJdXI0RF83ZlhCS19DTllGWmhRdUlPOTJUY3JHNVk2ZlJKaHdjVkVReENERnZLS0tqOUYzS0QwQ1BiNlh3dW1CQQ?oc=5)
+- **[한국] AIで完結させる業務は成果が出ない？マーケター450名のAI活用実態調査 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE44bklRSWRaOUdWTEVEc0M0a2pScHh4RkNCUkwzNy1XRXN2U05mcjFuUEZwenhzQmRzWFNBQTRVbnFmWGctR3NnRUlXMGtSSjk0TFFnT1M1OVZfYncyYlI5V21HYTQzbWM3Wmc?oc=5)
+- **[미국] CEDEC2026で語られた生成AI活用事例、コンテンツ生成とQA自動化 - 日経クロステック**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFA4N19JTDVlankwNHlBMmNpUXZUNGtFNjJNam1IUmpETjh2WkY3djMxR3NqXzhSaS05bkQwaFh2eVJvbzZ0N2txOWRxSnJ6T1FsUS0zalRTeXpZbFhSSGZDVjduUlk5UGRFY0E2SQ?oc=5)
+- **[한국] AI資格取得率が7５.０％に到達（中間報告）～ AI駆動型開発を支える人的基盤強化へ ～ - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFAyVWRhbDlBTXQ0amtRWW9QWVV5dG5rbjNEbUF2N1JrX00zSEVFV0lBLW1zVy1ETnZ1MmR5VWZseGJpRzVaYk1kWEFLM1FOYVFFRkRXWGdXMW9mZDhLQ2QzUzR4bndqVXpUX3c?oc=5)
+- **[미국] 日本HPはなぜ「Rakuten AI」を採用したのか？ 岡戸社長に直撃（ITmedia PC USER） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9uN1hiSTdXZEV1N0h0ZzB0ZmNBVHluTkR6WFdyeWFaQXRFb2RxRk5PWkxCR3dCWXp1dXRJSzh4bWF6Q1hSWG1uaVRrenhGR1o2cjZnRHZvYTE0RXR4S2JlczhMR3VMRkowMHBzTW02NGxSTXQ1RjJjaW5lNlFDZlk?oc=5)
+- **[유럽] パナソニックHD、音声ガイドでリアルタイムAI翻訳 32言語に対応 - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5GRjZmZ0ZUeWZQT2ctcnZrSlQtV0k5dDZ3eEMxUlRrcTNGLVJoUTlZOVFubHZKdzlVV0NrdkVJSi0zWjVSUy1jMFd1eUlraFdLZjZsQklCWWJpNmo5cktDX1E2YnlUVmM3WVRydQ?oc=5)
+- **[한국] アドビ、「2026年版クリエイターツールキットレポート」公開。日本でのAI利用者は64％、「意思決定の主導権」を重視する傾向 - pronews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hUTVIWDBmTUpQMHM4TktNcDlUYkdraWV5cEZGWmJDS2RNWGZVTnlRNXZ2alh3bVlBcFhDMmt0U1JVOGxlXzU1OGQ1azN6X1RJeG1SYnNvRjJSOGdUTFVDLQ?oc=5)
+- **[한국] AIの回答だけで投資、8割超が損失・後悔 うのみにしてはだめ、だめ（アスキー） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFA3UzE2TWt2UjhOaWlXSDVsTjR1YVBkTFVpSHQtbEdfTXo0enJHaThvNjAtODdIQXVmYmpVUVpWODJlek5CVkJFR1gwOVpmRE9PcWZDQXM1WG1Mc2xfV1JoX2tqakdxdFpQU0p2bFNJVTludE1wWDZVLWhxQnNnMVk?oc=5)
+- **[한국] 76％の製造業リーダーが「信頼性の低いデータ」をAIのリスクと回答──KPMGコンサルティング調査 - EnterpriseZine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWRzVWbC1ER2M2Z0Q1Sm05aUJVM0tTNGRWYVUzWlRVcmRHV2M2OWRTY2hCRkUtMUVVcmxuV1NhRHRYMHpRM1ljZlNmbGNBSXRVZjZFS0NwLXBSdw?oc=5)
+- **[한국] 中央区公式WebサイトにAI検索・RAG型生成AI「Cogmo」を導入 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE52NzdGUkszaksxX2Q4ZUgyQnlsSnA1M3BMQVp3VHozY0hVaW9teFFyQ3lZQmp6VlVteHQxNFIza0VkX2t4SGRtVDRPejVNeS1VemtqRFFMNXZwel9LMDkyOHN3WldtaERlMHc?oc=5)
+- **[한국] Googleが「AIを使ってChromeのバグを大量修正した方法」を解説 - GIGAZINE**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PVlZBSUlwcDc3YjVfakRIc1cwanZkZnNkNTljVHVTZXR0TTMxdm54cTFiRU5wbF9fbFRBb0FlOFRvdjFuMGN4ei1ZVnZSWEx5bWtBazJ3UHhzRE54Zmc?oc=5)
+- **[유럽] 東証続伸、終値2494円高 AI関連注文膨らむ（共同通信） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9OZVd4b3dGV2w3aXIyejZuaUNyX2JEcWxMQnVVbmYwd2M4aVczTWJ6Umx5Zzk1bGFCVWoxYzN3UktvT2Fqbk1LeFFKQ0QxamV6MUhCZ082RTJhNHczRkJqT1NFQmRPOE1WSk5SUlJXTGJocGh0a2Exbl9IdmxEU0E?oc=5)
+- **[미국] 日本HPはなぜ「Rakuten AI」を採用したのか？　岡戸社長に直撃（1/3 ページ） - ITmedia PC USER - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE45cUk0MUFOTWFLZ2RjUFNOdGdNSHZ5Q3VxY0MzNTJsNzY5a2VCWFFDWGJPb1cyVmwwdG9yaUlHNEg2U0RSd0RFdlcwNVplTTd0UEtRSjNwdDRWYkNtaU5MR1NDTnFrVlgzSXJfblZPY9IBaEFVX3lxTE9WSG5rSDhhSWdDbHpYMlI1bk9JWC1OU2xoSFBJRG5wMVZRTlhUTWFOMldrNzlnanJkZVowNVZoZ3YyaW5uaWlnNW1wY0xFUG0xMWxfU1hQcWN6aUNuSzMwc09FaWhtTFJq?oc=5)
+- **[한국] NTTドコモ、2027年にマーケティングを“フルAI化”へ 「現場社員も納得の切れ味鋭いAIエージェント作る」 - ビジネスネットワーク**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5XzV6a2Q3c3hUZEdILUp4YXZKZlZHcjdtZFpmU0xUcjNoaE5GX0Q5QS01VXIxeWY3TUItVXMzTjJFRXRGZVpZV3FhazNfZm5ZNnBr?oc=5)
+- **[한국] AIを「導入しただけ」ではECは伸びない――“AIを成果につなげる方法”を語るイベントを開催【ワールド・三越伊勢丹ら登壇】 - ECのミカタ**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pSlhSMkFqNTE4VW5NT2lKOXloWUlQSHRhQjIzcEdlVTgtVzI3Y1NKckRyUDYwX3RDVnZ4X1FGdVpRMzBzamNLYlFsdVlVenY4aEhTNDV2OEVRZWFRTWlvQUpjamU?oc=5)
+- **[한국] WixがAIコーディングツールとの連携でヘッドレスソリューション「Wix Headless」を強化（Web担当者Forum） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE85eTBhTHFHVUlwbGh6LV9vd2FLanRwSlB0Z0pIbkpHNGhpcVp0QXo0N0pzTG9STXNCMW5PMWRPdWZtOHRlM3QyVnFSSFh0QzZrUDNsQWRweTYyUDkwZm81N2NLY1ZEd1JqWUpyYzNwVGRBSFJwdnVIVzlsdmNlYnc?oc=5)
+- **[한국] 「第五回AIアートグランプリ」8月1日15時より応募作品受付開始 ～フィジカル部門を含む4部門の中からエントリー可能 - 窓の杜**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBib1R5ZzBDazZxRW9PcENzZ1kwdFh6SEtfcGlZQ3Vud0hFcmprUkdFcWlZNFZrdVdvRHJUel9CeXNEck5sdW1FbV9FM0ZVOUpsOUItcUFPb01XZl9pMGhyd1BFZVZPdnZj?oc=5)
+- **[한국] Simbian、自律型AIエージェント「AI Threat Hunt Agent」を日本市場で発表 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5FTy1Sb1dXT0lkbXNwODJNQmkzR3hSenQ4eHM3S2Z5cktMT01INzJnN1lnM0pkTWRLQUZheVhLM094Q0p0ZHNJemNGM3BYVW5KVXJvUXB4emFSVHdRbkRGdGRLV1JVc0VrTUE?oc=5)
+- **[한국] 駐在員75％が底堅い見方 アジア景気、AI需要で（共同通信） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9lVGZhVEwzTFpOb0x4MWVyaGZuVWFROE5La0E1eXZuVVhvWUpVSFEzTVh1TnYtVE5wdjBURUtFQ2hobkg2QTN1UWJ5ZElWbjJaMXpGSUQyY3dGTjF6R056cWRwMU0yWXN3bWl6YW9wQ1NNaUxOYnlNb0lKcmdmaVU?oc=5)
+- **[유럽] 【GAFAM最新決算比較】マイクロソフト・AWS圧勝？市場が見抜く「AI投資」の決定差 - ビジネス+IT**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tX01JZVBHOFVvUmtkWmpfQkpfOWtlRGNvWkZiRGd4RUUzSjF1WjAzNHdveUZScl9nNU5DWEpnb2Zjd2U0LTNHZ3R1aXp3Q3V0Q0RIZklMQWN0Y2VCbkE?oc=5)
+- **[한국] Google DeepMind、ヒューマノイド向けAIモデル「Gemini Robotics 2」発表 全身制御と高度な器用さを実現 - ロボスタ**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RcENQV1F4SmZ1cXZ5a083QlVueVZiWlZQbWxyemZWQ1FiQjlPeGVFbDVCV0NiS21ZdGNyRlB1VHZETFpEVHBZMUhOMWlOM0NuVDVFVWdtRnBfcElsMk1rZ0pLSDc?oc=5)
+- **[한국] 受講者満足度93%「AIに何を渡し、どこまで任せるか」-ジェイテックジャパン、企業向けAI活用セミナー実施 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9veVpOcDBtZGc1cDlWMGtyUkoxbWkxY0tYS0JHYWx2blVQZ3RjUDV4eFZBQnBrcVRfWmR3bzhDUjczN0RiOThQZU54UkllX1kwa3RZSE9SUWtaZElldTFUVVJDU1N5dzZIN2c?oc=5)
+- **[유럽] 70歳からでもAIは使える！ 話しかけるだけで毎日の困りごとを解決する、シニア向けAI入門書が発売 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1qQ2pmM1RyLTB0SkxzSnpEVjFGTmRkV25kNHI1eUtHZXNYaWJWVkZIRGpyYXo1Q3ZSTzI2MWRkQ01XSG5xSjZwSGlueklFSC04czN0YW9FQU9LV3BIeVF4Z19CSXMxZDVrZWc?oc=5)
+- **[한국] 中国軍関連機関、米ＡＩモデルを蒸留し防衛能力向上図る - ニューズウィーク日本版**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE94bldzUVlQTjFtanpZNzNLNzJkaGU4Wi1YXzNHbjdXMTRnLXI0RnJ5LU04OUxvai1Ia2xmMWpJUkZ1QWc5cUlvYlBDa2kxVVBELTJRT3pQbGxJZw?oc=5)
+- **[한국] AIの飽くなき「資本爆食」 きしむ金融市場、スペースX半値が映す異変 - 日本経済新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBHWXF4VnA5dHp6Z0oyLWY2WHBxRmpLc2FnM0s0UDZwVy1BTkJ6S1dIdWVpQUY4NjZhbU41azdwNTlDUzJhT081ME5FNW1sc0JRSlhLb09Qa2FZSVVGeEpGSmxNby11Wkl0Y0hJSw?oc=5)
+- **[한국] サイバー攻撃にAIで対抗する「Google AI Threat Defense」 - 株式会社インプレス**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2bWJnNjhqNTZRMkREdmctc0hsQjFIS2NYZWNZZUNJQ1BjZDdVUGE4aU5VTTdra1k1NGxOekV2cEozakNwWFpHVWsyZTZxa2EwNVdsR2I1WWUzcXYxSjBScXBnZw?oc=5)
+- **[유럽] AI時代のプロダクトマネージャーに必要な「3つの変化」と「変わらない1本の軸」──ARR500億円超・ラクスの組織づくり - CodeZine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2MzI0eFFIcjZJVUY3RGd5dnpYakNFSW9FQ2ozX0dVejQtQktZVlAzREg4SWZRdkhEUm03XzZCQVRCYzRxRDJTbGlIb2tCZ2dLMnc?oc=5)
+- **[한국] つくるAI、住宅・不動産の情報をデータに基づきわかりやすく発信する「つくる総合研究所」を設立 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9lcW53b2xQd0s3ZU1XcVFwSzlhNE9UbndCaXFhXzJ0c19QdGpZU0F1ZzNPLWhRYUFhUUZuQWVSS1ZWUjdUQUVkOHRfY0RKMXAxajFrNFp3ZXlJdE1aZDRRTVBvajRnd01BelE?oc=5)
+- **[한국] MIXI、全社AI戦略の統括役職「CAIO」を新設 村瀨龍馬が就任 - Biz/Zine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOcWNUVXd1WkpiMEZETjY3eXBENFRGemNaOWVuaVkyYnRwVTJjOHZ5NlQ4MGQzZEhGVzFTYnZQeXVBRWp6ZHpoMzd5WkNfYVdu?oc=5)
+- **[유럽] サムスンが3タイプの折りたたみスマホを市場へ投入､AI時代にフォームファクター競争を仕掛ける狙いとは - 東洋経済オンライン**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QUm1CdjZ0LWNYUHNRc1F4aUMxVzBXQ0JUeFRmZGRvZFlWYVRDUkZES1pfWEUtbU5aZEpfTVkwUU5VdHRsZS1SdnQxNWFKcTZFSlhVQ2JCekVIekk?oc=5)
+- **[미국] オンラインホワイトボード「Strap」、CLI・MCPでAIエージェントと連携し、業務フロー・資料のAI作図を実現する新機能を提供開始 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5GSGNDQWs0ZmtFcEllWkstcFFlMmktZGJ4Sl93QUpaV0JKbUVUa2NEcTZUY0lFbE5qaDRUQlVlbE1ZLUR2bmFTQUlYcG5LMktJMXE1SkFibVladmZuekVINUsxcHU3eVNDVlE?oc=5)
+- **[한국] キオクシア、純利益46倍 AI需要で過去最高、26年4～6月期（朝日新聞） - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1WcFM0S0JlLVY3M3RXVldyaTE1bmpick8wakFQZmplcHV3OG9wcnJvYkZmbUx0RDNGMGZZdVJnWUpjQzVHNDYwcldMSGhhQUw2dXE5RWRwZktwcW9lX2hadGx0YnZHVWgyTEN1bkFCbGh2S29KT05BUl9CMmVucEE?oc=5)
+- **[미국] LINEヤフー、ユーザー向けのAIエージェント「Agent i」の「お買い物」に写真から商品を探せる「ショッピングレンズ」機能を追加 - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE5WcmMtcTlzamFfMzF5M3FwYUpSUDZKZ19TSG9jSHItVElJeE9KOG9Xa1dybWE2TEFGUVotV2N5ZDdMRlRsbC1NT2RRdDJ6UHVma2RuS283VUJScl9INHpaV3RKOVdqTEdUSUhXcVE3UzBSVkJxekxkY09Wby1MVk0?oc=5)
+- **[한국] AIによる失業へのメッセージを変えたテックCEO、楽観論を信じてはいけない - Yahoo!ニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWk1oMU5NWFQ1QWx0b2ZobnFQLUlMY05GVk01bUJwRlRScGJabUZ2dmFqMmRWNjJCaUhzZGw0TVNiSDNDNkthUXJJZTNXSURvSWd2TEZSeERRemJGSUhHMmtQRWVpZFZCUlg4QnhzY3BIb2ZtMU0yZjNzS3ZyV28?oc=5)
+- **[한국] 広島のAI研修会社WEAVE、面倒な業務をまるっと代行する常駐型AIサービス「ハコ入りAI社員」を提供開始 - 山陽新聞**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE5fWjU4eXNKdS14SVdmUEJGc2RiY2syb3NlR3prYkJkSWtJZW5WczFaNHJuM1BsREpxYndibWNlWDdUd3dnanA5NXZJcGdmNTFlSnI3UUQtWHVQNHhHdW1HeThEd2laRDZkOU1HYXl6S2w?oc=5)
+- **[한국] 飛騨地域の中から、AIを！都市部に頼らず地域が自走するための“地域AI推進室”を、ヒダカラが始動！ - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE90S1R3aU80ZWFjdlgtRmVEOUlXZ0RjWDAxdTh6V3JHMlh1NDBEQ1U3ZXRSYkpnUzg1dGdsWkZDdkhxT1NXMXNveERDV3FvN1U3cGVYaUcxcnA3dzAyYmlDSC0tWUFSc3ZodFE?oc=5)
+- **[한국] 株式会社HALUXとセールスボンド株式会社がAI事業領域で業務提携 × 企業の安全なAI活用を支援するウェビナーを開催 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1iSURZdktVRnFOdEJkclJ5RkxqaFpjYlBBTUo0UHlsWmFXRHRxZ3NJZTdXY2F5X18waVZFSVNEOXV1RWdrZVBTRmd6aGljVjZYSWNrbmpjSjZxTi14dVE0Zl9HalN6QmNTanc?oc=5)
+- **[한국] メリサ・トクマク：AIをコスト削減に使うのはやめよう。もっと多くの屋根を売るために使おう。 - BigGo ファイナンス**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EdHJGUHdZUWhJNUpoVVpPajZkZGJwTTJnZXgxajJYTy1KOGI2QWlNS1NoQmJBVlhXdUNjOTltMVRXd3JaaTdtX1JJLVFKbHNMV3djMzBqdGt0QQ?oc=5)
+- **[한국] AI应用“易中天”来了！精品短剧涌现成强催化 哪些公司将受益？ - 财联社**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIa3RKUm5yOERqTERNY1FnSXktT3BpNnQ5NlBsbmM5c1A0ZFJBZ2VyQUpfWnJLR0VoZlVPR1JVbUZWN3FOc1NUcQ?oc=5)
+- **[한국] AI进入本地生活：从“答”到“做”，关键仍在真实、可信与可控 - 新京报**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uUnNFR2xZMDdVcmwyQUJRSnNLRVhKSEVZaXpuUGlKbVh6VHBkUU1Tbk5VdGhYbnc2N0VXVmdqUkMteFhhcF9ickZrMDkwT2ZVR3NIX2VCdGdjRTB0Yzh3S0tvZFk?oc=5)
+- **[유럽] “AI变现”成新焦点！AI应用集体爆发 - 东方财富**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qcVVwa1VCV3FWejFNRzZpTkQ0dVozMnNyMmRzazc3bTRraXdnTTBPcmhBOGNRbnlMTHlJeUwtM1ptSjFzcXVoNDFuN3FYMjdvRXVVRG1YVWdjVU83T0pySw?oc=5)
+- **[한국] 2026智博会“AI+BT”展区：当AI遇上生命科学 - sipac.gov.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNFNMSk5OZXdXS0dYLVVTb0RQT0FJeHZ3SmRFdURhOW92clVuNGlyMjdBeHRGN0NSNkxWYkgxemUwNnBhcmxUU2gzVi00bERTb2dRTkVUd0E3a0JXSUtYbzc5WG96WEozUGZiaDQybkxjSVk5RjVTR2V6WmQzN2N5VzJnTGtTN0dt?oc=5)
+- **[한국] AI热潮，悄悄推升美国人的账单-观察者网 - guancha.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JYjExZ2k0Z3dYTXVYb3lmRXBqako1WnlRRHBhODd2RXYyR1UzTlBDNWtyckZfX1RqbUpJTmNmX0ZJNS1oTno0M3ZIN0E2aE1nQzFzdUNzMm56bXFnNmxBbV9ZZTc?oc=5)
+- **[한국] “AI股神”是如何崩盘的？华尔街一线复盘爆仓全过程 - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHUzNWdS1jUjJxQ3pjU0lTUVVVUV9hZUYxU2Q4VTRnRDJWQWVBNFYwM1VRY19vN1JZLWxoMUZubF9mQ3lwc2VKOE9ZVTlab2MySzBj?oc=5)
+- **[중국] 重庆大学自动化学院开展社区AI科普托管课堂 - cq.chinanews.com.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFA1Q0RvTnZiS1B6bDBGeFV2UzRSUmpjczNPM19DNmFiVG9JR0stRlBpVkRCbUJrYnlaMnh5Q2pfc2JHNlJieXBValhqQTJzdjQ1OUFtYTJyUGhwX19kZ1NvbXV3MVBaLVhBZlE?oc=5)
+- **[한국] 下一个国民级 AI 产品，或许就诞生于一人之手 - Infoq.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tcEVyRXRCNVhtOTlyZGMwZWxmUUZqOGYtSm1ydXFNUk4wdndBcmVXRkJhVE1nTmxZTzQxYlhreW8zYnJZQWMtd3ZxY0Y4UUJfT25feGRkNUdKQ296YkE?oc=5)
+- **[한국] 菜鸟CTO做Physical AI平台，获超亿元种子轮融资 - 智东西**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE9SOUtva0ZkSm5LaHR3LVA1bzB2OUJCV29ybWZDZVlMdDVuUWdjZUhTVExzR2g3QzE2MGZQLVA4SDMzcG45dnc?oc=5)
+- **[한국] AI人才缺口超500万 海归就业黄金窗口期正在打开 - 神州学人**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE81SFh6X3BTTWUwSG1veEhwR1NGSml0WUNIa2hIdEJQQW1iTUVzZzJYS0kwd0ZrcXdGS0JpUXNKSXVTdVIxQjJFYWRWZlBXZTREQmpZTi1uUUZtNkEwOUc0UUU3ZF90MThzRW1paWp5RnItdw?oc=5)
+- **[한국] 科技巨头AI投资狂潮 总投入突破1万亿美元 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHJjRjdkZC1fZzJmUF82bmExLVBsT0xyRy0xNmhBRWZYQmdZQU9uQjhSWlhrSzVNM0xwQ0J5OGRZSGlqTktXN2hncUl6LTllX282dXRZU050OFNtVkdHZnNfUFdTQjdLaC16UFFjOUEyTHp3MGsxMmNBUVU4eDV2b2phOTJrOEE?oc=5)
+- **[한국] IBM研究：四分之一恶意入侵源自AI助力，单起事件平均损失600 万美元 - 美通社**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XUElOZGJNdmdyNU5nWUJIaWhKcGVhOEVMQWtxN203UXVITmppdXZJaGpSaFNnamU4VDlNb3gwOFl1aDlLZDJWb2FvOHVidmpaY2ZzUzktaw?oc=5)
+- **[한국] Ai 大柠檬 - 雪球**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1FZDRxUTZQZ09YWl9McTJreThPQmhkWXpHX2lEVUZKWjRDTzVJZ3IxX1Vpem94dHB6Z0FCdUxDbWJfTUZ6Y1NSeQ?oc=5)
+- **[한국] 不建数据中心的苹果，正在为AI数据中心买单 - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3bDhNVjlVclpYaVM0cmQxcUxONkVUTGNrdG5tcXlyNDE2VWo2UHFfSHdTNjQ3MW1jSHhzbmhuZ1FMRTBRb0U3WUpQYUlpSk85UnR3?oc=5)
+- **[미국] 机构调研丨AI应用+AI短剧+AIGC概念 这家公司AI短剧正批量上线 AI互动影游等产品正在准备中 - 东方财富**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wR3diMEUzNHllRmdNYS1RdFQ1UkdZblR6RWxEeGhvV2tCVk80dEsxYlh6bWtsUUtfUjk3b0tUSWU5V2lHUzFCZXRxUlA0WDAwYUxhS3NMSFo1bW1GZEhnc1p3Vlc?oc=5)
+- **[한국] 谁将为AI超级周期买单？ - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQTNzSHBMdS1OUk4zQkxRYU9sYW40cnNxT1VWOFBWV1JJaXQ4amMxazZNb1JCekpsYXV1NlVVaGM5N1RMY3JLR0lNanhabEVGWGc4?oc=5)
+- **[한국] 达利欧重大判断：教科书式AI资产泡沫，80年一次的“大周期”已进入尾声 - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tNnVYMzg2QnBOZXdkN1d4Mnhpd29FZk5FdUVRVVdBV1owbnVVRnlIWWhtWXdtZ0NpRTlLV2NHSzJObEJYQTZQT0hDTnRZdmtYbXlZ?oc=5)
+- **[한국] 全力推动企业部署AI！微软之后，OpenAI成立“FDE公司” - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE11RW82ZDBKcHRyVU9uVjRyTlFwekV0cDNTNlBpVHo2NjlBdENENGZvNG1IbU9KVUZfVTUxeG5qM3pDWWhNZ09aQnJyaTFFTjhza2pj?oc=5)
+- **[한국] 模访｜2个月，1个人！他用AI“手搓”出一款完整游戏 - 新华报业网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFA3eGhQYjJZQnFGWTM5S21CblRIYlhPQ0pqRi1vY1JmdXRDMDZ5Tm9PSHl0d21WYldDR2dtX1Bwc3R5R0lXN3dNZUV4dThFLVNXcDVQMk5zZTlXMmhuWVBoaHZnRFRIeW15RXJv?oc=5)
+- **[한국] 字节ToB变阵，一次新AI入口之争 - 维科号**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1zNjc0ekdWU1BqQ3dfRmk3LXFRdXRCY3Z6V01wMGNRSzIwanlBZWhJVy1Ib3pOZjU2bVRLRDQxQ2Y4NUVXcUoxdUNSYkhQSjQ?oc=5)
+- **[한국] “AI股神”崩了，“带血的筹码”出了，华尔街押注：AI见底了！ - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE80UVh4cGYzaGp0blY0bmlNRlVfaHB3cmx5ZG1PZHUwd21MLThHX1MzRU5qYWdpeld3UTdSaG80RHFCbW00c0FSMGVhT2VMc0VhZkJF?oc=5)
+- **[한국] AI在哪些领域的应用已经超过了人类？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFBZMjQ1S2FaZmkyYWNmbGprSjc4aE9oY0Q2SWdVTS1WSjAzMlVCdU5Db2tQcTdPZzQxNmJUb0RHM3c5cHo2S0p0UVY3TzFjV291WlZzb3plcGM2MmFlRGpXS01VQW9LVVFnUmk2a1ptMUJ3cldud0tRajlwUUYtQlE?oc=5)
+- **[유럽] AI夜校，“越夜越热” - 人民网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1EbzRvZkY1elMxSURRNFB5MDVGdjQ3SkRaa2N2cmlHNS1kakVsdXhfaDRqbFNCcWlUQlVsMk9xTjlqa011blJuZUtrVFoxQnQ5VElCaU9aLUN0eUEyNWVkNUJpY2txN3hCVEE?oc=5)
+- **[유럽] 市场不相信“神话”：“AI股神”死于杠杆？ - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE84QnZXRVREWWJsRC1kU0tPY1h6TVotUEczVlJVZnhiS2w3dEhmZ0ktb0VMU0hJaUU1ZDIwRWdnT01iQi1RR1hJNFVLLTFpVEU2WTFR?oc=5)
+- **[한국] 京东MALL智能眼镜同比增长超350%，AI消费激活科技新穿戴 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxQYXpiZlhDcHpQRnAza1JZcU93VTBMdjdCaUU0STUxd04tekVRQ1NQR0lzNEg0b3RPS3FXRGVXMUhBeVhLekV1cUpPN3AyeW5WWG1aZFoyeVcwa1NSMjRrcTFhTENuXzNRcWRSRExYSVNfRFdPUVBjVnlidXNVaTVTamt5U0pFbWxub3lQMw?oc=5)
+- **[한국] AI发展引焦虑，刹车键该握在谁手里？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFBXMW9zUGVJNDl0Q1FFSi1HSU10SGk2Z1dINTFHWTgxMFZibWVMYWhlUVkxMldELUkwcjRCcGlaZTc2ZndYZzczMUo4MGJYMGtlM0wtUGxtSVYxY2ZPMk9iOWYwTy14R2ZiX0J3Z3NQdW9kRjhReEw3VkQxTFVOZ0k?oc=5)
+- **[유럽] 本轮牛市“最大神话”落幕！短短数周，“AI股神”被击溃，Citadel出手收购全部仓位 - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KeU5PUHhNSm8zVk40aVBLXzhyYXlDY2YwdFRac1VXYV9OUWM4MHU5cHRaSVMwQ2NuX2tHYzJwZHNFMzJldVpYUWNmTXk4MzN0TGVz?oc=5)
+- **[한국] 铠侠财报出炉：受AI拉动，季度净利润暴涨45倍 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxQMUI0U3hMbFNIMUNOeVNGMEtrdDFRZVFHX25lVENHXzZCUlhCTVI1U2lUVjk5YWNYYTFsbWZVZ1pZdzhjdUtxWU45NXEzRHQwZTlib1JHb09pMm9aV2hncW1hX3RPdkF1TmVINzNGZjVMTzNGeDYtSUVWM0k0QXNTbDROcmNhSDg?oc=5)
+- **[한국] 未来人类和AI的关系会是怎样的？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE5wWDg1dGp3amZiWGlNV1ZkSDJWYkZtY0FYVWdNazNxb0ZIUDExN0oyZUZfb3JXYjVfcTUwWnBsSndoRmRqZ3Vhbk50QXN0TGR5T2RXa3V1MVIyWVpNYlVoUHZpQldEME9sX3hYS1V2SXBPRTJ1Ty1ZclIzeDdHcWs?oc=5)
+- **[한국] 马斯克对普通人用AI创作持什么态度？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE9uYWJfS3M2LWc3Zm5qRHpPVnRMbFgxVkotNGY5VkVvVTE4X0dUTjlzRWxBQ2V3QlBFNW1Lc2dFb3dLdWdXRjF2X2Y2RTg1eWZ1VFhieWYtLVRpTlRBWWJtUHE3bUhHU1p6aDJ4ajBxbDNSMk8zYkZIak5VVklkejA?oc=5)
+- **[한국] AI语音交互颠覆式创新：3个维度解读智能副驾体验升级，值得关注吗+FAQ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1CYzliWTNsYVlBUnVRZW1wU19zZ25qT2dtT1FjeEZiOTRqUEZXUDBWeFdqSEY1aXJTWURDVVZ1dkExaU9kMUhPNVZuMUxudWtNSm9EQXlmNC1ERmdYX3U0T0NkS2J2a0hmRURCQUI3ejFLMHd4NHRtc0ZFanZ6LWM?oc=5)
+- **[한국] “千企调查”进行时 | 解锁AI产业人才密码 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBIZ0VOQ3pSTkNxQ0RUcmFSU1p6c2JsS0ZfbldndWs5RWtjeE9xbWNyLW9EX0EzZWY3Z19rVzhuTG9WWTJ4X2hOYVpqalMzLUU4bW1XeHVHNHZENkx1VDhPSXZzcWVMVlJ0WFp0dFpOTW0xUQ?oc=5)
+- **[한국] LinkedIn新增"AI垃圾内容"举报按钮，打击低质AI帖子-AI应用 - 至顶网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTFBmUHpBb21IclpDYXhnc0RMRHFmS0VHSnlpVklERUN6VXNQbnRhSGJKOGZNOXJuQmh4NVVyVnoybElzWDV4UjB4aXU0YzFQeVNVeXNEejdwUFRtTGdtanE3S2xIN2lqWTQyaVBhdUJZRQ?oc=5)
+- **[한국] AI公司收购旧书为何选择2022年前出版的？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1BelJJdm9QblYyMW1kVWYzcHNhMUhXYkVKSmVFMzl3X0Vhd202RHpyYmF1QzJtSVZ6UU5mNG0zMzdjTHNoYUo2eXlEV3NCR3VJanlSX2NGUVBNVTFtVHJkMVdCYUYzRHVyLVhFYWZfclcxSDNYb3pYMmhXZXFfdUE?oc=5)
+- **[한국] AI焚书为何选择2022年前出版的纸质旧书？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBBekZZa29JMFV3UkpSM2RWN2JGS0pwNkI2OHhDZlZ0WU9YMkZzXzBEYTVhei1mcmJoVDZLbTBfLWNla2dZZEN1Z1AtTkpsOVVVRkRueE9lZVA4cGx0cEI4MzlxR0R1NVhSeldhclRjMm9nZw?oc=5)
+- **[유럽] 人工智能到底是什么？普通人一眼看懂AI原理 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxQbTNHQkdpbHVFdld0Ty1NNGhDUVY5UDNjQzZldVNZOEdjQmtVYklLMWRHUXBsQVVfUnJzeUtWVmNYTkg2REFNdUUxSGlLYm9TTUtHLW9BNDl1dXFmVVR2VmQyQzZWcGxKREQ0OTRrRVpoeU1MZ243SmtJMjBPbldrTVpMdnZscXBTb1UweHZfdw?oc=5)
+- **[미국] 努比亚手机怎么样？AI智能体重构交互体验，3个维度说清+FAQ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1KQmh1V2tqMXc2Q1BqZ05YVVp0NGd1Y2kzUkxqUEZNLXdTS1AyZWtlWWxnY21Yblluam44RGp6c3NWVDZpSjlWZkgtWmdRQVl0X3dNSXdaZTYyeno5VjR4SUs5TVplaHB6UUFESHFRNlpyRE9QZXN2a1hOOThGQ2M?oc=5)
+- **[유럽] AI加持下，终端如何与游戏“同游” ——六联智能全栈AI终端亮相ChinaJoy 2026 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTFBrbHBXZFFwNmpkdGdueU8tVndIdlpnQ09kVHlCTmpoSks4MUdGeTBOaXBaMXNDVnlOZ1BzcDlFaWN6Njc3dVlSOGlCZlpOa3JMc2pzZk13X0trcGVpX2tLUzBCN09BNkJZMm9JTU5uTTRYN1QxdlppakY1ZG9qV1E?oc=5)
+- **[한국] 台积电研发AI芯片封装技术，正面抗衡英特尔 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNQXdYbGQyMVEwN3JpRGppVjFyOHU5ZDVFcVFvYjRtYmQxa3VJMGcxME10TDd0bHpUZ29LLUhLYUVUcmtrdTM5Q1BzaGdKX3g3bVhDZjVacnJBaF9TcWlsN0tiNExXN2JHa2gtNTJBcXU1bHl3akhzNjJFMWpDV0hXNVBoRW81alE?oc=5)
+- **[유럽] AI烧钱不灵了，股市拒绝听“故事” - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE1iVG9Yb2RtOWNKck9tQWUtMmR0aFZlQmctNmZaZnd1eXpIczJDMGdEZ1RCcHZjYzZtQWx6Y3BSSU5fRDFReUhrVXh2aUpVV1hzS3M3Wk1tenAzZTcwT2ZGWmN3aFZpNGtlOXV1VE5zMmJVUTNLZFJLcg?oc=5)
+- **[유럽] OPC创业谈｜AI能理解情绪吗？26岁清华创业者寻找心理健康新答案 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzVrS3Fyd0s3Vlg2ZWhiYzN2Vl9OTkcwZGt0TnA1UWRDWkVKeFYtWDlXaVR0V2Jsd3dvWHVvRGIxWFRZeUdaQ3BKekxSbkwzNktVbnlwcHRRYnlSS0JOSGJzVHEwaWNPQXV1NjRNdkkzaEVDRTRmZENQYW1zVDlPUFZKNFo5ZWZ6?oc=5)
+- **[한국] OPC创业谈｜90后创业者用AI重做招聘 8人团队如何让简历被“看见” - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS0U1OWVTOEJUNzlpbHhZVEFhV0RMYmpyazA5NEtaOUFuVGFhZUZOcDhuQnN2a3hrbGhQSkFxNXVoa1BhQV9pM09JZjlLN2J4Tk9ES3lGUmljaEFDNnJyTVVNV0NLVlcwbDVSSmZ1QXBTeGpFbzd2MGE2LXoycmd1cGFXWnlPRGo3?oc=5)
+- **[한국] 如何看待微软公司在AI领域的竞争优势和劣势？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1JcjFScVlZNWI5VG90TVFtMU9lZVJPajFLcFppQVltMnlnU2NKVS1Yd3l0d1pvSVNtb3c3a3pqLUhvTk9ZSndZRjgtdjRqb1h0Ym9wcGFtVzhndjFoZGxrbjhKXzgzR2YtTm9iWlZXZWJrcmNZX1MwTmV6cWhkblU?oc=5)
+- **[한국] AI焚书真相中，Anthropic为何要销毁纸质书来训练模型？ - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE0tdzV0N2NDTkI2eVp4OTAzYkR5SVJDa0Z3U29zSTlNSS1FQVNMck5TdHVqVThzb1dRRk9qUmdPNGNfcG56QkFwZHVOZVNzWVNabWFMbGNlZDJVSHVZUXR6MzJVWHZfTFRwNjlvN29vejlnZE1GQ0hyMmxRV3YwT00?oc=5)
+- **[한국] 25岁“AI股神”，倒在科技股暴涨前夜 - 文学城**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZclJDSHVjVjQyR1phSXR3NjdZZlZkeVZaSlo5UXpiLTMzT1cyR0Uxa1NFaDdhSE5YM0tnSTJJZWpSSDR5OS1yVzQ1MUkyMDl4dXFiaW5SZ2NPeGtKc3V5SVpEdV9ndzRN?oc=5)
+- **[한국] AI重塑跨境服务生态亚马逊SPN加速从“服务商网络”走向“能力生态”|跨境电商|成都市|卖家|产业带|升级_手机新浪网 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAJBVV95cUxOaVNDMG40LW1wWURrYWppNllPOENnSHRPaGZXYzN2bk9QN3NwM2Q4WW94TWJtc0Q2NDJOMjBMZU13R2o0RnhCUVhzelkwT3NmY2lHMXg2cTV4cFRqeF9XaV9BYUhIS2RDN0hib09iT0lpSDZRY2dLczQtN25GRkE1RmFERGJDZENMckI2d3BqdUtsYU1hSHNuZ01JZWVfV05sRWFFZEVndmhtMXhFQXQzNWVNczN2Q2hUbU9QbnJVNWljZlVBZ2VOamlyN2JKUDI0SWlmZWpQSTJyLXhkc2tXZTRCWUFMT0FjQ0R6Vmh5T0pmTVh4ZnV5YUFuZ3hwNzZPYnFfaw?oc=5)
+- **[유럽] OPC创业谈｜AI能理解情绪吗？26岁清华创业者寻找心理健康新答案 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijgFBVV95cUxQb3Nac3hTYlVQbThEU3ZhR2wyeFlWbHJVZzZFdlQyRDlwVVNLdkpDS1RlQ2x0T1dpVnFmMU1QejVVc0oxdVZzZ0JicFY1VENqYjdFbnNYV2xCUmFSZmd0cWNsLXlHR3hETWVaaGFlMnBMc2ZhVHdlbV9MSjcwWldCNXRMSzg4WWZVU3ltekF3?oc=5)
+- **[한국] 韩股创纪录大涨18% AI交易乐观情绪回暖 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxOaVlwOVJWV2JQY21XdmVvNjVhUFlvazZjaHQ3dU44Q3RReEhMcnl3enJXOUVoOFBOeFc3aGRScndnc1NzVWVCS0NRVnUyUXlyTnVla0NnRDJRLXJidUZLdHNsMFdnRmdzcjZDaHFzRktrbm9leTc4T1h3TUNwU2xpS0lXV3RPTW8?oc=5)
+- **[유럽] 中国信通院敖立：明确万兆AI园区网络四大特征 助力千行百业智能升级 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRzJackdXVkZYZzVaY3pkVkpfLWJtZlhmNExHS2VFaVR2WmhBckFpSzlBSGhDeWVzZF9LVXY1SGRYbTgyR202VThUWExVN0RJZjRMNkZXSThSUThCa2xGT0FNenUxVDk5dnF2Y2dwQjJ6bHp5bXZjdUY3Ym5lUjNXbGxnbW9nSWlObS01cnMyS1BlN19hQnRVbWJGNVMwZkMxQUdod0lhbUZiajJwOHZ0blRCS3dNeUFaYks2WFR2dUhZYlRfY3plZWc5UnFOT09SRG5vOUYxRjRCR1Q2S1hzaTNFeXpVWlZYblhxYWU3RVp1TlBqekt4SDNB?oc=5)
+- **[한국] 加拿大议员发言时直接念出AI提示词，在场无人发觉异常…… - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTE1NcDRDRnBTbDhhbUR0ZGRkNWZ2bnZtMnBKQzlsRVVzSkRuOFNJOW4yTjFGb0FFZ0Jja3lMTDB2b2RqNnZEcmhxRWctb2kxRGlZMklXNGRHRjMtUHBkdXBQMVdWZ1dpcGlSN25UcklQVDZHdw?oc=5)
+- **[한국] AI硬件风口向端侧迁移，路线分野瑞芯微、全志科技谁能穿越周期 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxQLTRIeXl0V05qQUlrUlNLTzBOdUx5dXYzaDdoYjhzYWE3SnhQbmxWUlVpcDNaVnpPME40emJuNkw0cHZsb0l6ODNZZlJYM2t2WkhqLTVja1F2a3V3NnYxTkFoUTV5aFR6WXVWZnViUDQxVUx6aGtKczJ2VF9lRmI4SHhZUE05U3lVc3RqTXBiQmhEZDFoVTB2emRha29pOGlmd09sYmtQVEpJQ01jNGF4YTNn?oc=5)
+- **[한국] OpenAI：失控AI曾试图入侵其他公司系统 - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlbmRZNlV6UU50NzQ2b3l4dnVCV01WaTQ0NUh2anJXQjRCazFaOGtid0JVMTQyVnB3MFdWaUhFX0JoQmtKbE1vOGhlS1JiYzA5b0dQNXBtcEtmRFFIQl93dG9EVUNrQdIBa0FVX3lxTE1raEpJTVFsWVFwWkNaNGVnb3Z0ZGZUc09yN1FZZkxTR1FRMXI5Ykh4TVFEVkVmWVFRZ055N1ZqZTdMN2Z4MnRLbUtFamFWRjdNcHZOQkNRQVhsU3Z1LVVxOFRzNkg0N3BlT1lF?oc=5)
+- **[한국] 广告遇上AI，合规如何作答？这场主题交流活动带你看 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1pSN0UyLVBWMmN6MFduMl9sZ1QzWkw5cHJoVkx0MGtBcXhlMklFWlFaUGVDdnBGeF9rVHduYjdiRFBib3RIdGRXTU1JdDBCWFZuQ1E5blp4MVdTcjZvYU1ON0FKOXpXeXlVOElxbVZvaUdwWFFtNVk3LW1PUzJQaUdJcHE1dVVr?oc=5)
+- **[중국] 腾讯游戏"AI全家桶"亮相ChinaJoy 2026 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9wVzJNaEFCckx5c211d1NDdm1QR2VUaWJEblRKdjlQZ3p4LXVXNVIzdTVsRWxqcXNJMElGdUxUMVgwRDloc0hzWGZSdXM5SmtrSS0xYjB0bm16TFRWWERMOWpVbWF0WnozZERMZmF4NFE?oc=5)
+- **[한국] 九方智投发布AI股票机“智航版” - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTFBpNjFPN0dQRnR2S0o2YVVRWVZtYTk1aTJDRGNwNlZ1eVY4U2hFSFhVZGkxb0doQ0ZwX09GNGpLT3U1WUxGX1hWVEdnRUlZc2d6Q3otLUVkQUxaQ1R4ZkcwTlhad0FZSG9IcVp3RElScnI5QkVoQjV3dQ?oc=5)
+- **[한국] 美国AI政策及隐患（二）：“AI麦卡锡主义”反噬美国、累及世界 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxOakQxbXBxWFpsRm9IMnI1UlZKZm52Sk04WEtKOWw5Q244RHBtNjd2WjlvN1huQTNNNjhyZ3k2OGJXb3BEYkF0bjZWQnBza2hoNjFDQjBlbDFFaWRkYUhHZnJWUFllTzg1YngxUWNUNm5odGdWc0g4bnlZeER2RGNxODBoSEhmS1llZ0RvZmw3LXpsWXhYc080c2lVZDlOZzRvQ2RRVkhSdVlKT3RJZzZOTnlR?oc=5)
+- **[유럽] AI如何破局消费、赋能品牌创新？这场圆桌给出答案 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTzlaandVOUh4Ujk4S3cwM1N5NHdaWm5QN0Rza1RPU3FyQkJjMGxCaF9naFR6eXktM1R6Q2k0eUxIQm82aV9YZ2RwNmZUUklBTS1lOXhQZTJET243N1JWbEhWZHVjMGtkdzY2d01Gb1J6TFoyNWFkNXp4dk1HUVB6VWY0X3lXQi02?oc=5)
+- **[한국] 昆仑万维：AI挂件、AI戒指等Skywork整套智能硬件将陆续登场|IT之家|录音笔|华为|天工大模型|官方_手机新浪网 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipwFBVV95cUxONk1tRV9UVW5iNkJ0MURPTUhobWw1cVVic25vVjFOaTVMWTlrOFR6Yjc4VDUxMjFWR0pRc2g0azMxWmxXaDd3OHBSdzNIU3YwM0d5ekx5dk9yYmJsQW16M1BvZHFaaVJYbkVCNUlrUjFvd0M3bFlVNmN1a0dKdzZ2NnVSWGxha3FJTktOdmJldC1aYmFGYlY1N0VxR2tTNUtPS2RZNURwQQ?oc=5)
+- **[미국] 第二十三届ChinaJoy开幕 玩家解锁“与AI同游”新体验 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTFBDWUVacjg3aUwzQmtIaDFLS1AyN0FIMnlkMlpjU2d2X3RPenFDeHJrRjVpa0NlaGlRa1l0amZZcUZzUS1aU1V4RUZXLWttcEt4eGk0VC0wUU5sbGY3b3ZkLUw4STd3LTZ5RF9LRkNYNk1RVDhXeHJCNA?oc=5)
+- **[미국] 国金证券陈芷婧：AI通过新品类创造等三条路径影响消费 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS19MQnc5X0dFV2EyZU5HVWg0VWJyTEJQdFlJNVFmNjh4YUQ4ekNOOXJqeFg2NjQyYWZ3ZUp6RXJibTV6dWJXckJReU1mV2dSWlVGSTJnUUsyNTJ1M2RzY29WbENOUXdDSU9GRWxkemNTNE9QOGU5S0I4SFBYVTJOOEZMVkJwTlY2?oc=5)
+- **[중국] 智冠集团“AI赋能一站式解决方案”ChinaJoy盛大亮相 - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxPZURveEhzU295U01OZDV0QW5qaklJeGhxcWVnOVpJbjczU3EzOGczOTV5cGZaWk55LXN1SDZrSURySFlkZDBWdDk5ZVA5WjRpUVllMURQelRhWEJ4WHFCZTg4OVhmWmZ5ZElVLWN4NXB3UUF3V1Y5aTNBQWdnY2xsRWlLaEFmVTJfMHhxSQ?oc=5)
+- **[한국] AI伪造视频：自然灾害频传，中国面临新挑战 - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SV0RvYUJUMXZpLVo5aEdNWXlVUmJaYzh0MlFsNDhsekxiWC1Bb2dTS09QcVpNci1PRjhKdnBlSWs5TWpialY3bU01Z3B2OWN6VzlqamtZYWp3QUU0bHpFYThqTVdaUdIBa0FVX3lxTE1Bd25tdGRWVXV1dWhUaXg2dlhyQUlVdloxcG9RMXJfYkdnb1lSMlFNaGhiSU9ySzdaaFBFLVdyNTBWWEV3bGV4Q0RlYWMzcDFNdFUweHRodWZLck54NngwRllpUEI2c2lNaDJz?oc=5)
+- **[한국] 欧盟启动300亿欧元AI超级工厂计划 法国积极参与 - RFI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywJBVV95cUxNYmtiMWtJRkhKSlpMMER4dDMzb0RqRzhtclFla1hFNzhRQjFXOXotSzBZMi1yMWI5V0VzQmphamZmNDFCeThjU1lET2Y2X2JiWVMweHI4aGFBdmRobzdlRkJyQ1Q2c0RiZnc3YThRcFZLTGJjY2stdzRsVEw4MkNyYkpMMXlvSVdtSUZuaGlBS3d4Z0ZjbktUY3pDenVnamFyVFljUFlxcWhlM01WQjAwNnF2b0RYZmMzV1VETVVfYjhoaG04aUN0MFplWGNYUThDdVB4dDZILUExS0p6R3dUdXA1UVFDaXJGM1U1dm94QlJuYi1CbHhNQjVGcnh1TWdycnV4TWtXSmtGYkhhZzh1djFERzdtSloxY0l0V2pDN25hNE5ubFNPYmVFYUY0dzlRQUdvT1lhZUNLY0dYaXdFalBmVDQ5T1VZWTEw?oc=5)
+- **[한국] AI金属：AI基础设施建设浪潮下的金属原材料产业研究（上） - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9lVDZ4MFduUTZBMEZBaUl1Y05DWFdpaWEwNTMxQzgtS2FpVHd5ZG93Q3NSd3M2N1VldUlyS3MzdXBBcXVFUHVUTDl5eGVsSkZEZDFKamRlNElLT3h1Y1hNYU9PMzZZZFpmTE1pdUQtV3o?oc=5)
+- **[유럽] TCL华星CEO赵军：AI终端对屏幕提出了低功耗和交互窗口化两个核心要求，已规划44英寸AI超宽屏 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbktwOEpxY0R6NVJQbmtVY0szUFlyMkJraVd2QTdLTVhVVUVEUC1JOUtWTWFDV2o5eXpjZWhaT1MwYkZaY2RqZ2hHZnJ1RGtkTDhzcFhFVndHcDNlbW5yNWNqTjlJaVBWSEY5WE9Obl91ckp1dDQ1Rkd1eUpoc3JYV1p1dGZoWG1JeVdxcmN3c05LTkpfQWczLTJZUHFBcXpienlzQWdYbmlmcklld2RwdjBzekdONmd6azY0QjNfTHZCWS1tYVZZcFd1ZUVJQUM4NkZPVTNkUjEyZw?oc=5)
+- **[한국] 美图设计负责人许俊：让AI从“听话”升级为“懂需求” - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQlBpLU9yVk5CMEhrYWVoeHlUd2dkOHdBbzZfTzBWQ0FUZDBleWVGWWt0b2x0U2pJTGRaaW5TbmdzQl9fOGNSSXBJSTFmUlpjb3ZBWDdUTlQ5d2EySnpzeVI2cUUtc0lSdTJ3b3ZtYUlDYVJuTklDSTBXTFpyb0h1TmxtUjcydHVud2NWLWFPUUVXUnU5N19kUU8yLUxyUzd5U2ZCZVgxWGgzamI4R0hKR3NGUkhKODBKaUlMTHczUGV4R2pkSW1aTDlCbHVhUFFfUlgwTlo4QUY1QQ?oc=5)
+- **[한국] 三七互娱王传鹏：用AI原生重构游戏产业价值链 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxPUUQ2Zm43T0Z6Z255TnV5RDU2Mkd1MlF3Tko5REVLRTNBQzNZMVBFWlVhdUlGN2lHUHJKSlU2RFZuZXVrS05aRUlPRUl3SngwZ0JkU3U4NmthMnRKRUdQT3NjSjdOZGttWEx3Rm50blRabzVkQmRMdzlkVlpDRVU0Rw?oc=5)
+- **[유럽] 行业热议AI变革 游戏企业积极探索落地路径 | 虚实无界·直击2026China Joy - 富途牛牛**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixwFBVV95cUxPZVVlNGM2dnZaNVdGc2tvMWRRUjFaOW5xZ2RkMVVZWVJacjl1V1BfWV83Q0todk5zSzhfLUluRE5yZW5ZNm83Q0xHR3dReDNzMlQ0dXZhRzVudlZKTzktalp4RVljaEhQQXkxSWd3MjhrNWs1ZEFObTZuZmR3cWZlcmxmellYdFhQdzhSeUpjdkF0bWtPblNpc1BBUGJYdkpqeEVXN0gyZHlpanE5dW9kN3ktb3dac0V4RS1XUEZFT2hra2JqWXBB?oc=5)
+- **[한국] 马斯克最新定调：5年内AI超越全人类智力、美国挡不住中国成为AI领跑者 - 驱动之家**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KdFRQeWZPWENQTThrSG53X2ZPaUdGNE1rTEFueEpkeGs4UzlRMlprS0lBSVdPN2FoWVMtcXN5bU5MVlhkYXJUVWtLSHZjd1AtSmVOZnA2Rms?oc=5)
+- **[한국] 半夏投资创始人评“AI股神”爆仓 神话落幕警醒市场 - 中华网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFAzSFR5S1A5cU9YcTJqWlRzcUNpQmVoajFac0lQT052LVl5bUx4cWlxNG05dUlXNV92MDd3ZDJ2cVFaOW53Qnk5Y0RCU3ZQNzQxSGlhN0p2anczQzl3LUVIRzlIQmlxQmMya0hVdVZTN3o?oc=5)
+- **[한국] 深度伪造：怎样学会辨识出“AI脸”？ - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qQzU0RWN0SjNuUjhXbnhUb2cyX2pqVWkxc3pQS21aUGFINkxqcTNyMWJrR3dqSVpvMDNnbjUzNUxCQkdHNWRpaWtsN3pQQ2p1RDM1UkYxUllvZmY1WXQwQllMbWQyQdIBa0FVX3lxTE9rWWFzR3EtSUJIRUo4RUl5N3dJNExHSmJUNEdkVjFZWEhiUXB3dFNiMnVpY2haQ1A1blIyTHZMTDNLNkFxOFA0MXFQQkhGdS05REhMbTljMVE4M1hoZmI0ZHg2TkJqWE9VUEZz?oc=5)
+- **[한국] 5位清华人当选“2026年度AI人物” - tsinghua.edu.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JWml0RWlGaVE4RXFsNmZFQlpWenJ4c0dQVWFvUC1PQ1JiWWNNcFEtR2Jkd0c5YkVSZkxGc0FRanBoYnRtbjg2OGRfTTJwMjRmZ1lrQ3dzWWZiMmc4?oc=5)
+- **[한국] OpenAI入侵Hugging Face事件曝出更多细节：AI智能体为完成任务不择手段 - 新浪财经**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMUFqa2RQUjJ4d1dNZk5VNHpjb0U5bE9iUzU4UlRlSW5tcVZzaDU0MURDa09lZFZzLU5GSnNCbnRFMDFja2ZSOWZVU19pMG5yOENfMllrQkdGM1M5dGZpeTM4dEx0UjRscG1nT3h2RS1NWTZKTUpnaWU1NTB4bzBNV2daZkFXT1A5QmdNX092bFg4aWN4XzZnU2paazI5UG5wQ1VJMTNoR3p5cWpQNDJsMTgxaTFscHFLUHVfM1dtc2tWT2ZuXzlrWWNQeDVhank3WFVqek04d21CSThIMG5r?oc=5)
+- **[유럽] Alphabet(谷歌) 股价预测：新AI机器人模型助攻反弹3%，360美元关口仍难破 - TradingKey**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTUFhZWlOaTBtX0I1dGZ1eVc2VWRLeFpLZHVYelYxWm1ZbEUwbm1EQWdZMWFhUFR6MnVMRF9WN0VNWkZiLTJJcXozS0tJS2xIQlh6V0hJbFB4bnRHTTltR2tiZ0x0M3VaTVlrWU01OHVaM3ZFb1BNaEFDUXNHQlczYWdCT2tVdmszeFFUajBQbVYtVi1neGtjN1BCUjVmcTZXaGxZNHhwaFVxSWRjbGdvd2R0ZWh2U3cxbG13WmxuT2ZvTlQtOUlyTDJyQTNMbmtURTNaZg?oc=5)
+- **[유럽] 智赋精准医疗！华大获评“医健+AI创新卓越伙伴” - bgi.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hSWVNa1pVNDYxNkNkeU1TN3ZJbjZyUVhjOUtpSjI1UWxIb2lTMnJUZEdiVURyaHpGdGR4Vmpvd3JJUm96UlE1QTdQbw?oc=5)
+- **[한국] 你的工作会被AI取代吗？哪些职位受到的影响最大 - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFdHh6bTVZaDA0NXlyWndMRFp0WW9qMjhfdWZTOUNSX1hvUmtiT001eDN4MXdOUUZvMjVsb1pWM1dzS3A3bGdFdnk2TWdXN1ZyRkpQTUZPQk9vX1ZfTUlPWmJzT1JQZ9IBa0FVX3lxTE9PWXdyMFkzX2hoVW5fLUE5WXJZUGtHcGVBTFRPZXZOYXVoaFBnN1A3ZENJTm5zeHU2MVhsZkhESUwtR2FDT3ZoNmpTQ2pmVzg0YVJWRG5XcEV5ZVlERF9YdG9aelZDdjNKNklr?oc=5)
+- **[한국] 出走米哈游1000多天后，蔡浩宇的AI远征“撞墙” - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxNTWhVSjVJbmlJb2t1eWZyRmczTWF6S1ljZmF1VlF0eWE0djJ5ejZhUm11ZTNfc1NOTlVpSzZZVkwxVUdCQldFR1RvYzJPZGJ1NllpUExhMWVFTE11aDNmdlN4NjRmMzJwRXRKc09RUjJqWTM0REtaXzkyZlk0alFiYlFMb3hwUVRWd09xM1lFelc?oc=5)
+- **[한국] 新华视点丨AI发展新趋势：从“能说会道”到“真抓实干” - 新华网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTE5BYS1aQjJvMkJVaGZiWjFuNnNFOU5sWlotalJXTmwyYkdLa3NSRGFqQUV6elY2OFpYcU9DNVhTLXJBdlJMZW5ad3RBU1pBMWp4NmgxSDdsUndLWENpN3BzaVZEMEJwa0xhXzlDN0JxSTRjV3ozMEdVMDRFdGEtUQ?oc=5)
+- **[유럽] 追光丨AI，悄然焕新世界杯赛场内外 - 新华网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOZEUyNWN0VzFTUDZvUFM3REJpN3NWZ2x4VXYxMXZDMWRrOE9wUnQxc1lFQVBBX3hGeHc2V05rX09hdTJ5bE9JWHZaVFozcG5JYmc1NDJLNWJxMDM5dXV6ekJzY3lSTkVYd0ItVklab3FrOVB0QmU4eFNzbU8zWTQxLQ?oc=5)
+- **[한국] 法国世界报 - 中国AI新模型让硅谷不安 - RFI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirwJBVV95cUxNM3NINzFDLXVreDE5cDYyX3BwM3FmcXVpelJFVWNpY1ZlRWs3Yi00TUxlX0NscFNfbTFaSHM2eTJDZlRrRmxzakZtbkdxMU1iSUxTeTNfcWNQQmJJR0ZZdklQSG5sMmlCU3F2a1I5SzJiWnpzUFFVWXFBMlJ1cWJuVUlJbUo2UTM2UDV6UmRsWl9xczloNFdBbkxIajJtYkFJMkVFZzBtRlhEV1lGd25CU01HTGlXMFN1Unl6Ml9tV0xrcl92UUpWa3RSb1lKMlN2WGUyMnl6Q084OG5wZ0R6Qm0wSTl3cElndk1RcXp1UDg2b3U5UGd0YnVJa05ZLWFCWEZsbE41QWdURVlHVktOcE0xbzZxOEE1Znk2MHhqYWtnS1RPcl9XUVRKVG02aG8?oc=5)
+- **[한국] 美中AI科技战：白宫称中国“月之暗面”Kimi K3模型窃取Anthropic技术 - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4OWlMbElJZmY2UHFyTEV1QkduWXZ5Z211Qkt1d2F1ZnpPcDNTQTJRQjRMLUJyUXZQQnFjZFJuUFQwcGZPbDRKekw2U1Z2OTJOMDFVOTgyRC1heklTMk1fdXdXODBkZ9IBa0FVX3lxTE9lYzhkN1hHc1VtejJVRVZsVnB5M0IzNHNoNF8xdjliZV92Y0Q1NHIyNDBuUjNqVTlmdVViLTZYY2l1SnZFdjZ4RXVoQ0pmZ1dlamhrUXltTnp0UjRqcS1yVEgwSV9lbTBEMzU4?oc=5)
+- **[한국] NVIDIA 在 SIGGRAPH 上展示代理式 AI 与物理 AI 成果，推动图形与仿真技术进步 - NVIDIA**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2akxBWWRFZ3NHUkpUTzhFbi12QS02UmVYQkVoS2g0V1ZCck5RaGdJUkJJSlZrUmVQRWJ5M2txbTBQTFkxWG80bHF3NnhrN1YyVHpVZ0ZWRVV4bnhO?oc=5)
+- **[한국] Xi Offers Four Observations on AI Development, Governance - stdaily.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE8tM3NLekx3LUNFcmgxdFlDbDhoelZ5dnU0SWd6dFJ4SERjeV9RYlNRQ1FBNTFKLXdEM18yQ1ZiTksyOTlXb1FIUXpvazllTy1YcFB3ZGhrUG9mRTM3Z3FiMUJkVUZzRHd6T1Vyc3VDZW1uVlZv?oc=5)
+- **[한국] 法国世界报 - 中国对AI陪伴伙伴出台新的限制措施 - RFI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi6wJBVV95cUxNZUZJSy1hbXMxdzlkNFZob1hiMFROcElJRnNlMlUtc1hHWkQtQmo5RjR2cnU4VHd6OTNHbEx1N1JIOE9zRTVBMjFRVFlCLURWekRBZGw1NkhWcE1oRnhwbnVTV092VkNCOFZzS2tFY2ZMbW9zWWo1OFBLVE5WbHZIQVVIdFFJM25XWUluMWxESG16cUN2Um9UWTQ3TllfVUUtT3B4aFRtUmdmRVRCZ01PLXp4YXVpSEJDMG9FWFVib2c4MmctM3haNkIwdWVaWS14dlRDemRkdExFc1FITzU0Zjc1UmpQVUppbks1al9ndU9ZYlFwTGM1NHBSUlZPbDRfUEo4bGNqVEhVQUpZN2FpUHVZZ09QQzVhdkJ5QURqb09vOE9OY1prWHhONDI4dWlvNHQxTmVndEdBM2d1eTlua3p1WXZaZDdSM3hHU0dXaXY1YjloMkh4T3ZRM1F5NnFoMXdCTzlLZU5Qbmc?oc=5)
+- **[유럽] 新闻机构如何利用 AI 推进其重要使命 - OpenAI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTFBjUldMbWFDTkgzZEJ4ck1iRmxlZGZUY1ZKWlJHZVNZNGY2VlllNmRRMkk5S3BuWDVyZUtEc1I4TTYzQWV3eUd4RG5EZE1raW1IdVB2c0JqZmctZFRnbFVYYWlJVDBaUTJXTjRjcEdwVkxrRjYtQUh5OENCX2k?oc=5)
+- **[유럽] 财经聚焦丨从“技术可用”到“商业可赚” AI智能体加速落地 - 新华网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxOak8zcHIyY2l1NHg1Z3VCRXE2SnBKcC13Mk1pMlhLeUR5b1JlSzNSczZfMzhyN0FqQzFRMWFvbDFMbzI3ZnIzMFVEa3dfRmx3cVlYcjJrUldkZGtWZFV0UHFOMHd4aWpKejltMU1FWXMwQkZ3VkdqQU9sRU5tQUZzSmV3?oc=5)
+- **[한국] 中国AI放大招后，美政府要下死手了？-观察者网 - guancha.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1QSkpzNWszS0NLajdwLTdxMnJTTDd0bkZQQTNTNXd0aHd5YlN6TkFxVWRFdHM3OHhzMzBUdmw0bnA2YmtvWVl3YkNkZ0F6MWZlTnJ4S1NkSmlvd2pHU3BsN1hGVGJEdFhpbWc?oc=5)
+- **[한국] 新华视点丨深耕算力强支撑 广拓AI新场景 - 新华网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxOUm1hVzFVTzFld0EwVUlIc21OSkk4WDNkc3VBa29HLUtLQ1NGcWF2dEtJUUNKUGRuYlhxZGpMdVFLZlpqN0Z1aXoyTGJIdkh0bzh2SERpZ1JxNmxQSDI3VmpDaVJGdGJMUlY3amtKV2c4eGFBVFFHdWNYcUFobTl1OTBPRQ?oc=5)
+- **[한국] 黄仁勋谈中国AI：非常优秀，就该用-观察者网 - guancha.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFB2Yjc3czZuTjZ5LUF4NlZTaFhmT1hONW9FWnV3X2Fvb3JDZlAxZ29XcnU1NmFTckZHRGZUNVRlUHY0UjEtNlo0WXRMWk9xYjNXRlBSRldhajJ6aDJjVHhMaC0tS2stc1k2QlE?oc=5)
+- **[한국] 法国报纸摘要 - 从AI到机器人，中国正将霸权扩展至全球 - RFI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwNBVV95cUxOYXA1bU9nWnd6UWxNQ3hsemFfM3p0aV9wY1V3LVJKVWNpRzNYenhBZEZiN2hUM211ZVROUUNCdER4WXZCbURoWi10NlVsMjJNcWZHMkpIdjl1anJUNGFoZVo3aXBVbmdsUnFCTVBweWtSY095WERZbFJvdWZjWXFYWS1CMzV1QW5UUkxxVVdINHRFNmtYM09lRDdmZC1KZnZjZXpoN2Y1UXlVNHFXLWtpd3dIUkxtZVJDZkFPMmhpZXc5ZkpQYnRwOWlHbkVEX09uTzBzWUx1cW91Qk1GeTZ3dTZ4VEVBcGVHSENzRXFsbDJYMTgyWm8zWkhLTDhkQWZvOGpUd3d1am9rY254NkpKcUNoUHkxOURjS2ktV0IyZ1dnNU0xZEQ0YkhjanVSMXlraHFIcDFTaDVFbU9kMTdlRUhveEhyZzBmS1BNMmxOZ3ozQWctbmRwUFB3OEpFNVJRVGR2d0tYdUEtS2w4MHRDZTg5eTFlNnctSDVScllDdnlEdzZKR0laN256SXg0a00?oc=5)
+- **[한국] 为什么青少年应能使用安全的 AI - OpenAI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE1BajhqemowTk11WldHVThWb2ZOckI5R28yTHlhaHpZWkpCTzJUQ21uZFFXZWRlb0tzaE1UX1BDWTExUzUxRWpHc0FmdXRFSk01UTNCeHB2YTBFTnBESlpGdjBSZWZVa0diMGNYS2ExTTVhbnQtVlg3eA?oc=5)
+- **[유럽] 习近平首度现身世界AI大会：中国的“开源”战略意味着什么？ - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE05Q2RYOUdwUHBxU1V1ZUQtMXF2STRnUjI3TlZYQ1JTQUxYeUVtS1hSTEYwVHBPcmg2aEJaM3JMdjJCX2VOaHgtLXgwS01WWG91eVNYMm9hZEExb2drSjlWMzduV3BMQdIBa0FVX3lxTFAzUGNwTUZRSXRXckZ3dDEyUUJKdXBhNEQ1WDlpMFBMd3lLWWhBT3Y0d0VtdTZuTG1QazhidlU4bmtYOW90ZmdfcThKU0NXYWN3SFE5c3BpRGhkVmlKT3RydDBtTDNSSGF5d0xZ?oc=5)
+- **[중국] AI时代，职场未来的“变与不变” – McKinsey Greater China - 麦肯锡**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTWJSZVJDZHVQblRFU1I4TmZOUjkxN1ZUTTBtYklOWkRqNzRDSUlsVDBJaHlsYVMtMUw5MGctdi1PdU1rXzZaU1NTMjBPRzRPUXJualB1NTgtbGpIRVFOXzdLNHEtb3pzcGVzUTNnSl9sMDNLb0dPZDVzbUNjWWlnRE15N1RrUzlyZEE3YUNhSnFpUlZZODA4T1VvNXItdm5VWkk3dXM5QWZmRzVZTW0yQnFHWVZXc2xRaC1Vd3ZIU2VXN19Qcm8xaHBVaEpOSS1LN1lqdjBB?oc=5)
+- **[한국] 中兴通讯亮相2026世界人工智能大会 全栈AI创新成果集中展出 - ZTE**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUJvcnVqekx1VF9SamhIN2UyZ1VZYWFJTlN6ZTlrZ21MLUNRSUo0dk5URG5iZDA0VllOWXdDZ1UtNnZLRzY0SlRac2tCQUJoMDNaN2x6NGYwZVdQVVVvNlozM3pLemVuTURZNUVLNXkweEJwN1VhWjNUdE9hY01OSDlZWEtpT25FWFVISlBUZFg?oc=5)
+- **[한국] 如何在智能体时代管理 AI 投资 - OpenAI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxOREc1UzNiYUpPYmdwZzh5TTExUFRIM3pRVC03cUE2SlZ5SjlxaVlmTHhnVkxNN3dBTmJFWUR6UENUeW05OFloS0NtMVdUQVpmQTBHalFJOXkwTW41MExYdi1kSXpWM3pNY2tlaVExYU55dlZiaHJqWTZRbEtEbnpPTw?oc=5)
+- **[한국] 到2030年，中国企业私有化部署的AI基础设施所用AI加速卡，超50%将由中国厂商提供 - Gartner**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwJBVV95cUxPNm1fN0FOd2JVMkFmNXZIWHNSV25XNHVtYlFKQTNnbmxtNm1VNEtMaDA5Sm9uZ0l5em9EdXc0bzd0dXFDREJvTlNLeE9ueDBOVWlVVWw0WnJIajFQMzNtOUtrT2dQRGVRcXVpanI2ZTh6OS14SERXdnhaSVl6dVJTVTBzWl9QTnpKbWpHMGlHa1dSNUxEQmMxcGVfNkZiOFNYREhvSFAweW9HZ0p3TWVJNkszOEJmdUhJT0lXOWtPdXJQMVdDeGVYOURTQ3BYUlZZVEFyQ05ScjROWlZra04tWGVmTG1KeWUycnRybnZZbF81NTRRb0xTSUU2VnFZSWtNcm9R?oc=5)
+- **[한국] 研究指中国将政治内容管控嵌入AI模型 随DeepSeek等技术「出海」影响海外 - RFI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqANBVV95cUxOTThwZmlDTUZoT2c3elUyeHl0bk1FbHpKTVVwd250ek9JNVhRbF9RT3BRQkl1UjVxRkJISmtfRENhQnJsaFFIR2k0b19qNFZhUC1xVGszUGRmd0NVRmk3TmdZTG40WTNfWmExdGkxTXNDMWtGbmxhTGxPaWtFWmRKV05RMldiNUNod2VncUF4bS1zV2k1NzNld1JscHR6VDV1S0xmeWpUekRVWTI0bkhTUEhnR3hyNlNuVlFZa2dzdnNjVmI4VVVLU25ETU1GTkZhemdZYkE0VkVKYTJDdllCRWVxaTF4azFHXzJSVzRFNk9lV1dRYW5kRnR5Z3o1VGNfZTFOTFB5NFB2V3RBc2ZWWVNtMmJmWWRsTjd3OUpjTk5WdnJpMXZ2cjAyMk9iRk9WcWRpSzJ4dnBMcHFrZHdYTnR0WmFWYjNUYllVY2ZtN1ZacUpna0t5UERzWDhiTFZfbzMwNDBsV2YzTERxN3NWbzVRdUlXZmR6eWdYakNTS0pTdGxJV1FPWDFXT1I3Zk1YMURYZk9oNkdmWUZHc21MWHlvdUo2aXpu?oc=5)
+- **[유럽] Trump considering AI controls after OpenAI hacking incidents - bbc.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kVzAxSWk5cThzeUJld1hVbm4wRlBVMnN4QTA5T3VXb3l6ZHo2dm9XOERlV1lrc0R1N2EzajNoWHpIUDVCZjBzeWYxUzg4eHNmcUwza3c2UkhyTm9v?oc=5)
+- **[한국] Anthropic’s AI Claude escaped testing environment and hacked organizations - The Guardian**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxPNmpPbElvVm1iS3RySHgyeGxYYjRuaFB4elhBWjdaX2lQdUZIbURlVXhCTENnSnBmTmNMR2t1RkYteVhtUGlsOGVURU1YdzZmS0M4a1AydFpXOHM0ckstVVJVWUp6TWFrSVhudGVmdHI2Z0xzdmFMV1Izd0pQVUlVUw?oc=5)
+- **[한국] Cultural barbarism: How AI companies are destroying the world’s books - The Telegraph**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxONWlLUXFTeEhKb3FxQ0ZpSEVncUphajVabjRWeFRiZ0xVdkM3UzJvazdqWHpCLWpxWDZ4VnJyTVFQNmxpck8tTzJXczJaZ0xlcE9KRTFZXzJnQWJfTVhVQlluZmVqZVYyYllUNXJnaHpWNTNOQUYteVFoNUx6WVNFQzF5Y21NR29GZ0NZSGxxR0VDNHQ2SzJfMWI3eGtUZVk?oc=5)
+- **[한국] Accelerating scientific discovery with ChatGPT for Academic Researchers - OpenAI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5RdURTcDByN0NKcGZ6RzBEWmk1SjV5T1hEOG82MXp2cmRCc09ZLUxUV1JjX0dtYUlxTEVfLXVyUHI3dWIxMnNydzIxR0hwb1kxbU15dlQ1bThHYmc2M1lyeFM2eXpENWRKUlE?oc=5)
+- **[한국] Sam Altman says we’re ‘in the singularity’ with AI. Here’s why he’s wrong - The Conversation**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxNOEVWSUltSGt1UzhacjktcGZsMFM2ME5GeWFEMlkyc0txTDd3S0k1cHVSMU9tMllLRHJuWDc5UW4xSDZEYUxWTFktWW1icmNMdHVfaWttemdxTWxLWXpCTUh0eGlMcFctakMwRmNpVDA0RWFrZTBWS19RWDdaWUxWOGVsaVdjUVlrOUZNbVVYbWdWNzZTZVNpMm1HUkhtLTRBTVpoaw?oc=5)
+- **[유럽] Europe gets ready to police frontier AI - The Parliament Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQdmdlWEh3NWVGWFBsZGY4Q3VqTzFDWFZHQWVwODBIOWNvSC1HTEg3czM1MjZuWmlLSUwwdEI0VWZzNDc2VVlIWWlHVWZacDItY1pQbnhIUUpOT1VaZlhLSUFkcHBhQUpWdzVTdVRmLXdiMEtKMFBzZnppVXZzSlNqeXZLeFRaWkhNcTJqU0ZFNTZiVG8?oc=5)
+- **[유럽] The new AI labelling rules for “deployers” in the advertising supply chain - Lewis Silkin LLP**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivAFBVV95cUxNdnRJMFJlcDdfZU45YlMzMTNKMmNKNG81VkVKcU4tS250VEU5ZTI3VGg5NHlOMVFodlpOTUJ3cjJ0LUxqbGdDU2Q3RGpNY0w1SkdUOUdONFFkQ3VQbTRidjFRUUhkM3FUb3FoVkxQU1F1UXhPS0ZwSzBkeldkamp1Vmh4WjlTMGZtTXJPeUVfS0h5dVcyWENwWnZBMGZwZXpNV3FwWVhRUXZ5MTNiQ2NsUkJneVJCUmh2SGJFUw?oc=5)
+- **[유럽] What the EU's final AI transparency guidelines mean for providers and deployers - Mishcon de Reya LLP**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSkI1YXFmcTBQUnJta2tabWp6UjNaVFVHZW54VmYyRlR3eXpzS0ZNa1FSMHdFc1dYdHJXRWRjc1R6Wk1aSzd5WTlnU29SaHVJeWFsbTl5NVJDRHlPcVVMS25Jc2NNSVJ3UjE4eGZVVllkUFlfVXluZ3lOX21HQ3M5MlRsNmpYTnF2dnpJUVY1WEsyWkJON1kyb1U2b0lWRkdHRGxLUTB0ZjNrMzQ?oc=5)
+- **[유럽] PwC AI reports tainted by hallucination errors – report - International Accounting Bulletin**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUmE2MURRWWZKdjA5TXVzLUp0YnR2ek1mTDViZl9rbDFDSzl2bktxM1JPTEU5Z19uZEVPLWtsT2lsOFZqTlpjVXhDbjZvRVVQZ184aHYzeUZMcHFoUEkyU3FHdE9ydVp0ZGNtSlA1YlJvOWhYODczbjNId2lsSWpIaVVJcFN3M0xjOGFQVlk0emRPTjZqMDJtOWhuNjNYbVl5QnRxWHd1WklwV3M?oc=5)
+- **[한국] Big Tech AI spending spree tops $1tn - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxPVnh4X1BCWTB5dFFVWWJWRzZKWmhLZl9BbmloMEFDQ2RobExYTHMxSUdyeTljSnFvdWZJSFVZXzZoU2lta1lHS0lkVnc5Sl9XY0VGcUp4VW9jNEdZMVZ2VHdkd0UzX2tUTHRUZjJrSVd3ZXNjX2c3X0dVQWZ1YVRsd1hEX2I?oc=5)
+- **[미국] Earnings roundup: Tech giants diverge as AI spending faces scrutiny - Trustnet**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekFRSmRXNjI1X0pUNHZRa2hOSTdMcTlWZHNNY0hvVnJnMEprMk1lcU1zalRQMTJ6S3gxdGN4TU92dUlXb01oYUZuZF9Lb0t3NDMxRmxDcU9DaXE5d3FSQ093aUh5dGFfVG5SdkhIaXhRZEhIZ0NPdUszNTBLWWlBckM0di00eTA2cUFtNlJYWDRIdXNmLU1BOEZScW5sOWZXb2twSUpKY0I?oc=5)
+- **[미국] HR must ensure AI becomes a tool for inclusion - hrmagazine.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilgFBVV95cUxOUV9FMm5jN3FqSEJVRVB0TFVVbGJDMHVoN3JrOUtFNkQ0MVFQbW1fa3dzR2dNR1BWUE9UNmZFTm5VVWxGRXktMzVVOUFoMnEycnlRcGhmbFduSy1ZS1FydmxVNTdGQmU1OHBoNm9fTUcxS1l0emJLUmRwTUx3STVmcmR6YXJsWVZfQ1hSNlBpMEM3NXRLVkE?oc=5)
+- **[한국] Anthropic's Claude AI escapes tests to hack three organisations - bbc.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE50SmtNcDZCM3hZNTNTOG02SDc1MFhUT2JNc3gzUGVEeVl4dDB2WWJmejdYMDNqUnY2T1MybmcyXzQ5akxPU3ZRNDBycVRiMzVTcDczdDE4Qjc5NUFV?oc=5)
+- **[한국] Deep Dive: AI 'most consequential economic event' as spotlight shifts to infrastructure - Investment Week**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixwFBVV95cUxPR21Bd1d5T25naHZlRk9TQnVjUkhGb2daSGNxcFVlOXB0eXRtY1oyZ2lvcnpDLXhsYVFRamlLZ1IwSUNhNExKTGdrV0J4TnpZZkNtWV9qYzRJWnhJXzgwdVNJN3ZRa3N4ZE9oRHRJay1GR2VHUEd0OFZaR2RCWExPaWtmMW52VHI5S3J6Q1QwcVVjQ3ZFYk9CUld3cFFWaWYxeWJEMkVzSG9GNk9wc0YtT09IZ3Fac2ZXTzVDbFptWVhnektNNjdN?oc=5)
+- **[미국] The great corporate AI con has been unleashed on customers - The Telegraph**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmZWRnliclN6RmNGWGRPdnN0WkRqcW8zbkstZUFxcFhkZF9nbjB3Umpuek9VUzNfd010Zm5keF9WVnpFc003S0p1MktUWWpTZVdTM2tGVkFPUDlPOEM1Y2ZKcXJuZllLRzFEWE9XS3k3Zk5ia3RhTVlHbEJCQS1IZnJvSUxKRFR3aWY1S3FCN1JGZzY1Qmh2OGNWVzltUHEyc1pwQk5BUzE0Z3c?oc=5)
+- **[유럽] EU AI transparency code's many sign-ups don't include Chinese AIs - euractiv.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2thS1h3cWpQSlJlQ1lhWEdOcnNFTzRNdFB2dU9NOHdVLUduUmVlTm40RWdVUG5mR0xsRmdndmVYN1UxTW5Xc1Z3cFRyTXdoS2JCQ1Jyek9jSEZZUVZfOXkzdndJWHlySWRuOXgxdUtGbGUzQ1FXcndtQjZ6d2pWTmp2RjRyQmR6WUJRTXlsT1hYZDBwT29BQjl3?oc=5)
+- **[미국] How NVIDIA Uses AI to Scale Global Translations - NVIDIA**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTFA0UmRTbjZKcVFkYWlGc3RmaGVrUWN0aG1iaklTNW83YkpLV282Vk5MYjRFYy1ad0tPRHh5b0ctQ3ROaFR2M1lPazhnclU4Y2ZQZ2o1c29wYzlGVTlud2U5QXRSZW9YenRQWl8yYkk5SGI3T3BNdHA3T3BhUzVCQQ?oc=5)
+- **[한국] Rightmove reports H1 revenue up 7% claiming major AI progress - thenegotiator.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHRQUm9Wa2NJTHhyMmFweFduWktCWGVkMkN2dEQ3a3ljS2dOUlNQTnpCalJaTjR0SWJvOWtyMlBwQXl0NnI3eGpkTFhzQk5hZlB6VnE5aTZ0QjJPZ0tDMHFrcUVXeklIcDhhbVNNV0FSazNsQkw4RXQxRUdCSFRfdGotWTlnUzhlQlRQODE4WFFWbWxncFZIa3pDRjJ2N2NiTkZGS1lPNlU?oc=5)
+- **[미국] Commission launches major hiring push for AI Office - politico.eu**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxPZmQ2R1Q2dVhaakVXMnhGeEp4N1F1YkEyTGdFdWh6czRvcWdKRDdPSjhOVTlfMmhlMVFwVHVHVEhJTjNTaHNxNHdYUWNDZ0tkSnBjRkdpMDhjOXJ4UGhmOFk2V3RQTWN1MDBtS20tY21EajNqWXhmTmQ5T3VJN2JTR0hpbGhiZEdSaDRQWg?oc=5)
+- **[한국] Anthropic’s Claude AI models hack into 3 outside groups during testing - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxNZXNhY20yblU5Q1d4YllxXzJQZHJQYTYwZnJZRWp1YUFYNHRBTS1VZnlQQmRkRHd1NHlFMVRhT2QyRjZmZWVSTDZQeVBjZ0JyLTI5UUNndXFyUFBXT0pjelU0VFZSbDJaaUlTQV9RQVVoeDl4UTFpUFpGOTRqTHpQaElBZW0?oc=5)
+- **[미국] Nine in ten financial services leaders say strategy is focused on AI tools brand - Credit Connect**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcFY1bEhhWXRrMXYwSjA0Q3dySGs4STV6aExvaTl6Ymo0RWFtdHp5aDZydEtZTWJQRDJodlBOZWNPcWNjZ2t0NzlmTkFOTGJtSXVCSFNScm9BTWV4eVFJUVZMWXBLaVVwb1IyM1pESHVOZVZNd2RZT080WlVXeUZYREJzSHQ2TVg5T29xN19QVlg0dTdNM2VvMkwzbGY3bXNRUk5Ya2JfclhDU1hHSVg3U3RzdnpIOWFMYmxv?oc=5)
+- **[유럽] The European startups racing to power the AI boom - Sifted**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1mR3pJb1NjdWVJUWlYbXYwUEJ0WWZ4ZnJTV2kxWEFROGFZUi1kcXo0WEt3ZFp4cFpXWF9VTFpmNUZtSU1ZcnpKM21kZmQyUkZkLVE2RDJOV0lCekRhd3QzQW56RUlLNWxOd1E?oc=5)
+- **[유럽] Human error still bigger cyber risk than AI-native attacks - Insurance Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxQS1NCaXAtYmpiMGt4d1ZRMm1WRzQ0dXAxNkhpQ3ZFc21oaFZ5NmptVmp3VGVyU1ZyclZoUG9CeUJzN2ZBZlVzTThLbUoxQWEybDI1eDNsVE1QcTFtc25MeERKSXpMR3gyd0NFMFBCV1dpS0RTbks4di1OaFczcjVXUWNqMjJRSG1Gckk4cFl3WUZjVHYzSTZ5ajBFbFI5Ump4Zl9LclJvQUhmeFFsc1lGYmxR?oc=5)
+- **[한국] Decoy Font protects messages from being read by AI - Dezeen**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkSDRjQmtYbFQ0dnBoWDRwbVp1ZTVXRV93ZHFMVFpXeFhSV184Y3ZxZTZRUUQxc01EVGF0VFBMYzRkR1ZOSnY4UVlDT0NTY2lzZmJqQ3JPRVBCV0tyZWxkaHJwc0JqY3M?oc=5)
+- **[유럽] Enterprises give AI agents the keys to financial workflows, yet oversight lags behind - - Enterprise Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ1BCVFFJQnRibjRyTWc5Z1ZROWlEUlEtV19DYllnZjZPbTl5VTFKVkhqT2c5NzhNQVg4ZkM0cmJwVmZCUE1ESV9lOU9FU2ZjVHBqQ0xMaWVYWktURTFoY1d3Ry1JM0NGZ1FMWkFtanpJT0VOa1pkUm9EbjRuaEx3eWo2bnZoM0RlOXZUZER1YlpMRUVlX09Db3dsRkpsMlhNMHF1aFVrZi1OWDlkdk5zOElpbUxuZEdRSlFsSFozbXZiWTA5R245UlNR?oc=5)
+- **[미국] EU's network of AI gigafactories could span 12 countries - euractiv.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijwFBVV95cUxNVDVSSUxOa3EtNThjeFRucnVpek5objhJUjY4U0JFQUppd1BDRWhVQ09aMzNHUko3c0MxRk9McENBa2dKQVFrcDVkQTc1bEQweTBISlppa1N0U1NUSnNacW42bE9uYU9KeWx6ZHZtTWlCRkQ3cHZaeklJQW5UbzFPMnc0S25jS2RHVGNaYlQwQQ?oc=5)
+- **[미국] NatWest profits up by a fifth after AI-led tech drive and wealth focus - Yahoo Finance UK**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwFBVV95cUxNQlJEOWsyS2FqS1pMRk9fWUNLWmw0UHJGNmtRTzgxN2JOb01UTjNXUnN0WUZwOUFFVEFXcWZIQVZZWGxsOVg4Y2l5UW93RFVZeHFCRloxc0dHdVc3eFZsR1FvdEJObG9QaWFPR1VYNUNPems5N1AwRlIwVFZNTHJ0eDdUWQ?oc=5)
+- **[유럽] EU to fund seven AI gigafactories with $11.5bn plan - verdict.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KWTMyVTlKRnlHNmFSZV9NU3BseDVYbEdGMHBUdWV6Qi1VY2JZS25tM3BOTTdJbDRSNHpRUHdzQVJsREtrRE40eF9pN2k3b1RBQnB3MWJzZ0dna3FnRDlYVWxxdnluNkhR?oc=5)
+- **[한국] “Cognitive Spoofing”: How AI Fakes Expertise, And Why It’s A Huge Problem In Healthcare - Forbes**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywFBVV95cUxNZGVCRzVfUWRsT0lsbkFuejBLMWdOT1ppMlBGNlQ5Z0FYdnZuN2NmNzYtVW1Kcm5TRWZja3JUQUhER0NSeExxLVFLb3JXMXFJc1QtaGh4Q1JsQWFqb2wzTEl2eTdzVnZYZVV5TzhxYWRrSmNIOXFaMXhXUU5RVHZ6RGxPYVFSRnl0Qy1pQmpKd2UxMzBJN29zaWRDdW5Xd1kyZVJCOGZVVGxFQXR5XzNWV1NwdzhCNGtUYTlLSDkwckRUcGVGMFpZQkRxbw?oc=5)
+- **[유럽] AI breaks free of lab and goes on hacking spree - The Telegraph**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxOQlBwNnNQNFdnNGN0eHdSREsyZFFtMEF4MzJyaXU5NFJIRDN5VTRQNkFCZW04eFhHajFoa3Vfd2ZQc1VqeTVLZ080Uk9CU29PbHNCdkNuQThKMF9NanpXeUNrVElMRjRFQkdFT25Lam9GTUhkYllCUkpENXBjYURIUjNULTBLZzZWczF0all2ZXlUQllXdFBTMEhGZUtIdw?oc=5)
+- **[미국] Gennexa Wins 2026 Global Elite Business Award for AI-Powered Intelligent Operations - PR Newswire UK**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNN2VMVmdaZS0zZlhWOHFBTWpTXzlkOVJKeVZ3UHV1aU1LaDJWU3FqU0s0OTdwZ3VIdTloTE9JRzRGV2VQeWl1RW9mT05Db0RYckF3YkdnLU81djlwZkR5dEpFODdrMmFtT2t2ckpEaURlUzN4ekVMbHo5aXY0dDNJbGx0V2oxSFRsVHNaa1lqQVhzVDRUZWlRTDJjNFJOTTBQdTBFWVpGX01ENHRHNmQyN3dHRUJjUFVQUWtic3ZoRTZQd1NjLWU0b2hCM0NscjYycnFFRFBNbWI?oc=5)
+- **[한국] Anthropic says Claude AI models breached three organisations during cyber tests - thenationalnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizwFBVV95cUxNZHo4VWRfQTNFZ3BOLTJMcWNuejFMS1dvRWdOeS1YT0hLNVN1WUNJY0l1YlBaRV9LYnF6SmpEWWtCUmdTaC03eWw2cXJmQ1FlM0ZRTTlSWFFWT0lGZmlYZUFsekFyMVpNTG5yTTlyeFV1cERkQ3dWQXBiVGxXdzNVbkJvZ2dYZzN1YTZrc0tVMHF0ZjVoWmxxVVNpRVlnUzdHVms4dFNya01WWHdRVUNDRkpsblZIcW9tVng3U2c4cjM0dGl1U1lfUmhNX2RLUkk?oc=5)
+- **[한국] The AI Act’s next big deadline is here (via Passle) - Bristows**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxNOUFJSzlQdVpCRFZ1SFd6QUlneFBnUmhnLW50NjJ0MS12Q1BRdzlWQXZJMFZmWTBhVktfTjR3aVZxVTBmTTE0NTlXdXdialZkdElTWmc3VW11MVowcUgwWVRVemlOYXEtRS1jeTZvWnBLWXFsTER3dWdoN2hQM0V6d1NDTG1vUU5VcElCN1ZlWE8tQQ?oc=5)
+- **[미국] Claude AI has gone dangerously rogue, Anthropic says - independent.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3VQZUxSekd2YkZ0YmpyLXF5WmpYd3IxaUZwcTc0QzQwU2FJUU5UNENFTEE5S0Y3a2EzMFdwVVZoa3U5RzJyOUJPWGZxcjYzcWgwNWhHTFY2ZG1OcXhLUE85eXhDcHhPLVpBMUN3NzVmX2dZNUFTNzVVNXFrNXJOR29jZ2JLLXJuaV9LcW8zTkxpNjFPUG92MDdR?oc=5)
+- **[미국] UK's biggest financial groups are racing to deploy AI - and the bar just moved again - Insurance Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaThXVDEyYWZiQ2hBbGhockpvRmxaaE1mdkotTC1fMGhHVXRfcklNYXg4MnhrS0JqVnpId1FQeEtaSjA2cm13czJ0ckEycS03eWQybVRxd3NhUGtmb2UxSEk3QUxLeGxhSDIzYk9uT2JaR0lYa1c3MlYxUmNxNVdIeVRnUDhXbWVpdVpaRlhHOUU2Zkc4RU1wTmd1amhRckpJLXh5bzNsbFZwUms2bXA3ZDFXU0dmT2hoOXZnZmZoc1c1X2JsQjBfMThRTW1yNTVMQVNOODdXdUxTaWo5ak56UG9zSXU?oc=5)
+- **[한국] Xinhua Silk Road: Guotai Haitong Securities leverages AI fintech to boost high-quality development of capital market - Yahoo Finance UK**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNNTBrSTBNdWpkc19QYWJyXzVvWElRdU55OHJfRkhrLW83SFcwSHJydnk1RUlKa2EyZEVUczRHVGlCY2NqN2hqakZkb1cyZmRXZS1uMGNHRE5QZGE1elZ2UmVjMUplR3p4MEkwbDNMRG0ycVUwa0gzYVc0VlZMUE5RaV9YZFNybkU?oc=5)
+- **[한국] Amazon increases AI infrastructure spending to $220bn this year - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxQYzJLMGFEaU1ZUFlOOHhFMXVsMzVBU05TS1hQWFctYXRFNlFHSEFCV3VCS1pXVC1EQi1POUV6eEpuMmNtWTRaMzlhSGtmbmVjTXhWTmlrSVVGTlBkc1dzanNQTk9MUHpZV1ZvLVlweTNNTXVvN2Q5ZmlIRnVtRy0xcjFjelI?oc=5)
+- **[미국] Regulators unleash AI as ad complaints become obsolete - FinTech Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxQVHdQUVRXZ0o2dGNvWk5ISWlnbnpyNEhkSE5NTzZwdndmZloxZFVKamJkVS01R3YydloycElqbDVIcUxZTl9zc0ozckk2NXladUpUcnZwVUw0ZVdLelZndEoyNzBiYnFHTmJ2ZHZGZGt2Si0zQnJULTRQY1BuSGVEZkkwYVJTR2xGcDl4Ujc1Z2hqbTQ?oc=5)
+- **[미국] EU to crack down on AI deepfakes, illicit imagery and hacking with new team in Brussels - independent.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNU1ySmtmRkpZWmhwbnFqclZtVThFUzJxeE9RWWU5U3dERGxOZUFXbzBheTB4MFkzTWgwWFpwVFFqRzJPVVo5ZDhSYjhVTDRMOVFOWkgtQzhfUU9zX2dDVDhuMlFZMGxzUndxWlpfRF8xYlRGdG85eDJqOVdIWDNiS09LNWpEcEp2elhyLVdIMFAxclBFaEl0WjY5TTNGSDYzR3BBVFJuY0NwZw?oc=5)
+- **[유럽] Avocados From Mexico launches AI-powered consumer answer engine - Fruitnet**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxOVUhhR1RXNnowZU1EQ0Z4QU1DVDFqOThFUDgwUDI3VWdmWk9PUlhzbXdYdWFnb1JneU1PdF9naVMzaTA0UUpCRkNuVWttUkdWUlZJQ1Uweno0cHp6aEdfX0dqcjdhanhJSFZsR3dPa3Y2Yk1pdV9uUk5TTXJyRTFNeW1yVDlTcjhEZmMxMlpRbzlmY1VHX3h4NzlCR2R1WW9FbVZ6ZnZBd2FULWRzY0s0V0hCOA?oc=5)
+- **[한국] AI a growing factor in cybersecurity buying process - TECHNOLOGY RESELLER**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWY0TE5qWlhMU05SUDlDZHRNQmQ0LVZHdHFOQlEySm1wSldhWFJqa0l2TDBxTHlRdTVjOUg3aHR2b2hlcUtvczduQU9JWWoxNl81ZFV2WGdrYjZJOVZBT1BCVGQyT001elNOSWJBak1kVk9ENFJEcUFkSTVoSHZIR1ZGZ2Y5bmFHb1E?oc=5)
+- **[미국] Nscale to acquire Anyscale in full-stack AI cloud push - verdict.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiY0FVX3lxTFAzZzdUZHhoUFdYUHdHSE1mQTVzQnV0a1h3aTltWkVWRU1fQTNSdG5NV0N5M1VQLUVrNUM3eUlKV1ZnU2VoSEhxX1RCYk5iS3VRYnVEY0lBUnJUblhyTjZKcmNwNA?oc=5)
+- **[미국] Improving industrial performance with Agentic AI - Plant & Works Engineering**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiekFVX3lxTE13ZVMwZ2NLVi1ZZkFWQlJFMEl0dUk5aDRuVmdvQTRReUJOcVk1UXhRTUhzMUw4dzd0MHpvSE9vU2x2XzRFc0JydUNjd3NkSTl2VHFWaVpJMEsyYXFoWHBDUU5NMlhiTU40aXZlbzFpTTJ4UEpTSHVGdktB?oc=5)
+- **[미국] Resource develops specialist AI tech to help jobseekers find work - Jewish News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimwFBVV95cUxNb1hhQnJYWGtvZmVkWmZKTzVvQ21fYU5ESXNTUkZEMXVZLUd6R29nejFPS1lDSWRsRV9PcXBDcmt5MzVhNFkyYmhUREp2ZFZZYWpOamJ6VHZsQWZybWh6blBQRExRcW1aQjJwRDNwdWdzcFREclRHa3BYQXE4TWl3cWxzclRPLUVFTWpvRjdmY0pQeUpyZlJIM0p6VdIBoAFBVV95cUxOU2J0MFJodHktc1lQV25tWm1mZDBGcFVTVFprNWY4VnhjT2Q1SWpzS2FKUnBlOThXMWp5NTF3b09sd0ZKcDFuanVONWdSdTBLQ21qdnFIQks4MUdwQXNQT1lXeXFreElKZ2NlUnhja1htTF92VUdiTzN2VUlYWXFpa2hEMllKczY1cTVKWTFwbVVaajlyS3NUSklIVmZ1ZTN2?oc=5)
+- **[미국] Amazon and Apple just told us more about their AI plans - here are three things we learned - BBC**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4Tk9KM0RQSVhlNjVDMWlJWUQ4YmxpQlZ0NFdXMF9qZEpPSnd6OGVBeHJmYWNXTkw4SXF2djM4MlcyX3hIenowbC1WRkpVMkV4WEFNQW1OOV9vZw?oc=5)
+- **[한국] Panopto adds AI search & learning tools to video hub - IT Brief UK**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxPOEJ5eFNKTml4MnduNlRrSDhod1cwbXd3dmI2alN6UzVKVVpHNklSazRxTTlzNFB6aXJYVDl3Q0xSai1WT2JWRUhZam9aZW5yTXBBd1RPaEZzMHo1dmw0S1NpNzVvcU9CWXFEZzdOcUhPUGtDSHJxVE9LTUdDc2EtbS1jYUI?oc=5)
+- **[한국] Anthropic says its AI models hacked three companies during cyber tests - v2radio.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxQM3l1aG9KTXg4bkE3RklHdGV6eDZ2VjU5dkp3NlFHcllNZGc5dVI1YnYxYXoyNVNmNWRBcTdiaURYakFFRWdhalViRkFhU3BCX0EzQ0g3ZWRVVEtTZ1lWcHdmVC04dk9RYzdfN19WYlktXzMwU2lOTHJ2OVJCbThfa29ybVlaR1hkQ0hULWRSTnp6LThWMU02ck9zbnpMSW5FeTl3ZXR6TE1DRFJWajIyMzV5MjR6MDZlbHhMOHo2QQ?oc=5)
+- **[미국] AI given biggest seat yet in government – now let’s see what it builds - businesscloud.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipwFBVV95cUxOa3ZaVlhTdU82ZzNhQkJtaUdONFh1a1kwUHFrTTdfYmFNRU1oQW9kS2REYjRaQklqQklpejJQY2o5M0RDbkRYaHZ4b3IyQ2hHV2k2YVZKNzhraFQ5LXpSOXgzQkRCXzBaRy1pZlQxT2RGckZmaDJEQlFmZ3JFak1jaTV2WkJKa0pmdFRkOXlRN1I3MmF6Yms0bzloYUtiNGxWczd3N3pfbw?oc=5)
+- **[유럽] The European Commission's Code of Practice on Transparency of AI-Generated Content (via Passle) - Bristows**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywFBVV95cUxNbl9OeWkwYjVLUU5zT01VbFlBX1pvV3NqVmdRdTVLRGt0azN5STc5THpjZmxIb3Bzc25KNWZLd05paFlMUUJsYVF1TjNpc3NNYy0zQzBwbG5yQm52MHItSVNoc1BxOGRrZHdmLS0zSE1kQXpyRmlncGNNVldoLXhlQUc2RWxHTGtIU3RkNnpfeVdlMVNKUFpSdS0zMDM5V3lCVk1nTURqMGVFR1VBYkVtZFBtWjJEQ0ptc0o4MzZCa3lBMGRvN3pjVF9oWQ?oc=5)
+- **[한국] The Future of Finance Panel at AI LIVE: The London Summit - AI Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxQS3l4TVhQMW9UcndGVlNNY1BmcUV6dm5PRlZ3VGtzaVcwUWVvV1dnNlJ4enh2aWVtYVItWnNVSFJaQkNqWHZjVS1fUXI1WVdYVHhfMnhCTWg0ZmJIOWNySzExVXhZbm9jblBjQ29IbEtGVnNiaVNLQTZlMFV3VjBCRkx3dWlwR3JJQjE4UjNlWmZEZw?oc=5)
+- **[한국] You Can’t Regulate Your Way to AI Sovereignty - The Recursive**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVUhtVjNkbjJseVZvVUliVDRaV2RnSjMwVmt5NXpRODhOdHAxYXdKQWE1RXRVSjh0bDNEeXhMUG54bVh1dTJjY3lXU1NkaEdZUlBXaFVtVlZnMDlkeENuclJ1Ny1PY2pxU1ZIOURtVzlUd05tSVVya1F0aVNmdms?oc=5)
+- **[한국] Are investors really getting cold feet about the AI boom? - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxPTlM4WlJmaXlxLXAwTlZjbUlLb3dkNWtoUWcyRmVTX2tSQzlCTXdMSm0wRE5MS3FscG4ySjRkdkFKOUFhZG5QQktjbEgyQmYtSkx0Wnh4UEpBa3I4UFZfX2V2VEQ1Z2s0YjdiMWFRZktVRm42TUNBRXUyQl95eWwxc0JPUGM?oc=5)
+- **[한국] Anthropic says its AI models hacked three companies during cyber tests - coastfm.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxPYm9GR0JITFh5REFHcFNJNVM2QVRaVmlpMlFBYUk1Ulk2YXd2Qklhbi1NUF96UVBIb2pNRVBMYktFWHBRamkybHRGbVU2NUQ4MEpBOEN4eWVRTF9haG5KNUk3MTlpaElGU0gxcVhTOHozWWEzUlRrOTZlYndmSmVpaFdGYXU?oc=5)
+- **[한국] Is AI Forcing a Maintenance Revolution in Data Centres? - Data Centre Magazine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimgFBVV95cUxOY3hvNVNsWE9falJTMVBiOWE3ODZPR2cyX3FxblRRU0pFdjdRRHNrNkREbVF1WXZ0Vk9vUFREakxUazY4dmpQUFV0RG5uOHIzZ0FiZ2oyal9VNHcyZHl6VnBvUGVvNTZjRXUwYl9QdmVWWmt4MG52N2dua05jZTRud09BTGhTQmZUNFZuLVZ5RVhIX3pvTno4eHFR?oc=5)
+- **[유럽] The future of AI hinges on openness and cooperation. China and Britain can gain much by working together - The Guardian**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxONzJrTmd4ODFfcjA1SlRjMTBzVzVtZWQ3NVZJcHB5b1NHNEx1cjZLQ0xSeUpFRXpmVlIyZG1kSkhld2xkakZsZWVNbnNlbVJGVEFZNXA1SnQ1YnNxNk1KWXVRNGFteWRvUDY0TmJJNTlvdHZXb3JLNlcyakR0VVJuZERJWWllMGFKYTdNWmxtMGFnUkU0SVYxclUyaDA0QQ?oc=5)
+- **[미국] EU launches €30B push to build 7 massive AI data centers - E&E News by POLITICO**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxNYXVpdHFUZkg3cVVvcDdHcWFBLVhTR3JfZ1VMTVV3U21LNEl6T0NzSkx5NUVkYTNyS1M0R0VyQzM5ckdxNVh1T1BiT0dtWFhaOEZ3NzUzeDFxT1pmdm8yWVQ3UDI2Y3A3MnFFSVZpbFpJTERpZmJjcGZ2TWNsenF5SU14ZFZXVkdRM2k4U2ExNks2eWs?oc=5)
+- **[미국] Forbidden Planet hit cinemas in 1956. Its warnings about AI should terrify us - The Conversation**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisAFBVV95cUxPN0V3blZrOWl4dURSb1hKRERwRWFWOU44VThUSms0NDVlUk5oczctWFhOMUdRM2F1OFRVWTc4YVJmZ19rd1dRaFZfaE9DOG5xSWZscV8wTllsclkwdmxnSGJNZDQxaFR2VU1DUHU2dHJTVmhVY1JYWkJkWUlzQjFvZ3lmZHFTYUhvdnZ3NDZ2dXhhMEo2WXNzVFlKNkFvdnp1akU4M0tuaWtORkQ5eFBuNg?oc=5)
+- **[일본] Anthropic’s AI models hacked three organizations during tests - The Japan Times**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUlXUnllUEZzcWtWcU1rcUNLbGtBcVhVRHRYLVctMEZTYmpHTlE0bURZT240Wkh4dllnRGQ4WG9ERkJqZ2d6ZXFNTFRFWU1XNU9RZmxRR3pNb2NyMnB3bEtRYndmS1lrUGxrV1VrYXhVWjdacTZRVThWQWg5cDBzQWxGSzBodnFV?oc=5)
+- **[중국] China’s military tapped U.S. AI to build battlefield systems: report - independent.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3pkOTUyZjNtS2JkYW1PUzBXdS1DX2RHRWZKRUIyYWxJTGs3b0RTd0JKNGZybXVOSndaQjlxbG9CSjdPWnk3M1N4ZmFzRFMzWjkxYWRqdks1cG81eklxQUtxYkV6bXlEbFgzNVNKR09xdk84T25GWXlWQ3V4U0FJLWFDX3U5eXo2OHZja0Z1dGVXMjRJSF9jWTY3aERKNnhGaUQwTzhUYUlJdjVUUlE?oc=5)
+- **[유럽] Anthropic admits its AI models hacked three companies during testing - Euronews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiywFBVV95cUxQbzQxbW1KMTRxY1p2emdBc2xmTnlxZnlTUmp6dHJ1b3RRMl95cmdqZklrRnpoYW1LQUUyVjNEaHVoMVpNY2F2U1BwS2FJeGNTZE1xVzRCSEhheVQyNWhJY2dhNGRwdkhtaG81OGFvQ1c4SFluZnJ4eldjWkg2MzVFaUZGWFFDSld1aE0zb1kzREx3MkJRZUpDQlpKRktLQVpwMGdsV3pwRFNoVTdNVTNLSmt1TjItTlo4TnRZZ29TTC1fcThhMWpvcEYtUQ?oc=5)
+- **[미국] Amazon finds cases of AI causing runaway spending on tech projects - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxOM3pRTk83WVNWN29PVmFHMzNwcTFEOXJOVi1TeDdSaWx0eGY5NEtaRXlkUEViX1ZNQjFWcWlJU3pVbkpWUzVxdkJiTm5EMUI0QWhVR2NCd1lqc21NZ0lzenJ2a25YUGI4MkF5SEQ3aFFnMElSMHRRYTRGNklJZnhLeXp6REc?oc=5)
+- **[한국] AI Is Complicating Relationships at Work and Home - Bloomberg.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQclpxcDZBOVZpbDcxMmFEaDd3UDd2SjBKN09QS0M3WEhSWldBVmxYX2h4VHFqbVBHMlRzNHVzaDY3Xy1YVVNGazNsNGx0Q2VqaTgyLUxrd25iZy1YS3NLeXdyVlFXSU1IVUFPb2NSSjdCTENLUXhYRUZGaHBVcjRlVUtxNm1SZktPUzJmNlJGU2FnY1JNeHgwZ05ITEs5blZsTW9JQ2s1NUxmM2haRHFTbnQ4aUR4NEZY?oc=5)
+- **[유럽] AI momentum shows no sign of slowing: recent regulatory developments in the EU and UK (via Passle) - Slaughter and May**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWTZUWG1GWEhzWVNCaUxjUnl3UWhKOXNBdk9ZQkllb2I3Y19kbkpraVNQSGJVa3RIZGF6Z0xldGV5T2R5Vk1DU3dJY0tVU2l0a2FPTDZPNG9oT0lmckpmNTZ3OEsyaThXZ01WRUprUWQtX1ZtM2dmS3Y4MjRKTTRabmVpRi1tb2I4cjcxd0NyVjJFX1Bwb2c2NThHd3NuOGl4bDc1cmFtQ3pUd0ctOG5SLW9VNnpqMzNyNDh1WEZwTTdrQUpzY3NBUA?oc=5)
+- **[미국] Experts call for inclusive development of AI in Asia-Pacific - chinadailyasia.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RR0tqNzVKSkRmZENUeHJpZV9fS0FBUmIybjBXZWNrVEYtX0NkbnhMTmRzSDNaTWRMM1E3Sm5lMjB4X3p1MEIxX0xVMDBjWjNhSjNOUFp1WVU?oc=5)
+- **[한국] Silicon Valley sees AI as the solution – for everyone else, it’s the problem - The Observer**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixgFBVV95cUxOdTlPWkt0S0ZYWVRhTGtBMWNvWVF5NDVEaEM3NlpTekRjeFRaeVpWT29NVkFtbGEyLUlfS1JzdzFYUXUzQlY1T3NiNTJ5ZVgyWjlFU0dyLUpZLWZtdDA1YmRvT2tYbllhZm50ZEZzODFkUHZnWjBXMUJZSTZQU0NHNUhXOFNRTHctcGY4RFRwb2ltLWE5X1d0S1FwQXpmSEtoTEdGYlliTGxzUTN2Mm1ENndSUE0xby1NcjR2WjI1NVlVaDhUM0E?oc=5)
+- **[한국] Can ChatGPT For Academic Researchers Shift AI From Tool To Lead Scientist? - TechRound**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGpzR0dVWnRPTlpESHMtVjhjS2JRVHlNajBreWwzYmVxUEdXU1NzbTRmRFVybGl4cVRTWWRaRC1mUW1YdWs4MzZMZ1Ntc1Q0aFM5X1RCdHEwWURNbU1YX3g2OThjRUN3em9WYS1jdkJabWFnVnNnbzdnVUd0VnN5T0NNMWJNME1LSGpZYWF4LWJNY3hBZlpxV0hlQjlwalFHWGZsVWlMM2twRDdGZkVfa1U2LVoya2c4UFhHOTNQRQ?oc=5)
+- **[한국] The Four Horsemen of the AI Bubble Apocalypse - derekthompson.org**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE15eGdFam1oS2V6U1YtTVQzdzN1WWEwWE5tb2lkWm05Vk8zSUgwMC03UHROLW9YUGxCbnNER19Dci1vNGJXZGF2R0c4QmFqVHR3MHc5TnJXZ0xKTkhrek42RzBIWUQ2ZUVNVEtuYnptQlhtRTdN?oc=5)
+- **[한국] Durable monetization: How four AI founders solved the pricing puzzle - Bessemer Venture Partners**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMimAFBVV95cUxQTS0yQW9saVRnSEt0Z010NUtsSDIwSUdnRHhLbHFkY0hMOW1YblRNTGlVWktUNEZPTWdWZU5yVGVlMzdxSW1oakJNQ2pMeG5uMlFQa0k2Rzl5b2tEVWZncWRKRE9zdTRvSFVDUTZhd1lDYy1xa3JZN1JYdmU3QUtQbGFwa1pTSXJicE9GUnY1UE9TQ3hVQXNNRg?oc=5)
+- **[미국] Meta shares fall as frustration grows over AI spending plans - bbc.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZYUo4MGdmeHNEakE0Nm5EaGR4eWx1M29hXzRaVXZQSVVzcDVIaW03MWk3WjdYM2hlcVFnbk9LREQyM20wMGludklkNXJjblFWWmlzWXJfYXAyMjVD?oc=5)
+- **[한국] ByteDance’s big bet on AI - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxQbGFiQWd2SU1kRkZON1JiSmp0eWhKTTlEdGwyWEpRYW9DQWQxUTlTWnJtdk5ZZFl0amF2YTJpTmM3V3RFdXlJSUJHNENBeVZTbk1kRFNxd0U1emVhcHhBRlNnNkVuUHhMMmhjbl9YSzNieGQ2TmFtYXQ5Q0dTNFJRVTljU3k?oc=5)
+- **[미국] AI investment concentration risk is not just in equities - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxNcldqal9yRV9aT0EzTzZjU1ZqUlZsRWhDR0ZqVlFwNXBWc0lCSUNNcGRZbTdmZjQ1NkJRQnpVWDZ6eFZQSEt6REw3UUpsbUpsT2Vfb0djdVk2U3VrV05ZMlZ5NGFTcC1kTGpuRXFBQ2x1dXpqVG9IcjN0WE1IaXQycVBRVWM?oc=5)
+- **[미국] New Statement on Liability for AI Harms (via Passle) - Slaughter and May**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxObmRCR21HaE40ZjR5VTIyYVc4WHROTXdKdk5zSUIxV01sWkFiRFlKN1U0MW5ldEFjaVV6aVIxeHZTbGs4ZEtFdExQTXh6UXhKQURPbU03UEtEeGtlelduU3VLMjFuWFRuSDR4N19sTThZMm9lcmwtSkdyYXVQUkpTRTU5NVgzSWgtNkI4a0l4SG9HZw?oc=5)
+- **[유럽] ‘Shut it all down’: The AI nightmare scaring the West - The Telegraph**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdXduOWtvR29QdmZncDlFYmtTUnpvRWhUTmZTYk9Ea1JVMGF5X3dIODRIZ2VkYkJpSWY0QVdmWEp1ZlRMVTdfYjJlNHNRa2ZqaklXZWg4WmVWS3NydWFMNUY2M0FZSFEzczdEUFZZZ0lHcG12N0ZRTVVaT2ltcU80LU9IQmo3TWtmb2pEVHlsd2RkWW92aGNvYUx6QWJlTGZXcGxYOThhRTdZM28?oc=5)
+- **[미국] Some tech shares are plunging - what does that mean for the AI revolution? - bbc.co.uk**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaVUVPeW1fc0s5NFdMcm9yU2V3dzVESVllWXNwZDRtSTZhSTc1MHh0ckp3cXFic1NFUFF2NWV4LUF0NnNJa0dVVDg2R2hUcUJfUS1teTh0T05mYnFK?oc=5)
+- **[한국] AI 시대의 B2B SaaS, 시트과금에서 성과과금으로 - 브런치**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTFBpZE5JYklDNkUxbUZIcDhkQzJycUxjOF9ob2xoUkg5SHJ5THlFbTZFcklEV0N3cG1lMTA3YnNjblpiWnFOcEE?oc=5)
+- **[한국] LGU+, B2B SaaS 보안 강화…비즈니스캔버스에 '알파키' 제공 - 더팩트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE91Y09vTUhocmxuMWVZelNHNzZkNGdiRkdvMWFWSDkwWHQ1aTl5c2JOcFQyOURmbEdrVy1nWXo2a3hXX2dIVlVVdkdXeEpidVRPbGdsVUVpd3NJUdIBVEFVX3lxTE5TVnZXamxyT3Q5bGtEdk85WDhYLVNPUGozNS1nempVVnJHZ0RsYlRsZzMwRXFtelhpWmFTMmZFUzROV0tLSWc3VHlmR1ZYa09RLXVhRA?oc=5)
+- **[한국] AI Isn’t Killing SaaS. SaaS Is Killing Itself. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE5jb01MaS1rdmJKWThUQ0RxRmdRQWdSYlBrMGRBdmxlR1c0dUdfMkFrbHUydFY0NTVHd29zMHNBazJjYkdfX1I4OHBzdUM4eWVNUlg1UVd3TGJxQzA0YW1ocEk1bDdJNDU5VGU3a0RfR0lwTWZvV2c?oc=5)
+- **[유럽] Top 5 Influencer Marketing Firms for B2B SaaS Companies in 2026 - The Ritz Herald**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxNMnRxdzRzb2NldzBZenFJa0NPMjlab2hUM2NaeVY5U0NkZ3lQNERZc05HNWZ4bkhMMXlYQ3JVaWY2VDZWZkZKaDROZlJIZGo4X1doQ0xhalVJMUVKMktpY2hDSU9mdjdmY0s0ZjFSOGxob3ktWVRxNGtyeUJmU2RYTUNjamQxRGF6dVBYTXJGY2w?oc=5)
+- **[미국] B2B SaaS SEO Agencies: How to Evaluate the Options in 2026 - globenewswire.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaVRkN2t0VURLNXpUSk4yQnU2cDdNRVlLUTE4T29Tcl9iMkxXUUJhSGx2Q2czOWJWVGxIZng5RFF2c1pBa2xXRThuVnBzTDRHMkhTVWFNczRMNVNUaEVINmNaU1NIVXNPWG9fVzFtWU11Z1Z6bFY1N1ZvekY5a2ZvMnVaaU1zZW4tLWZCNWY1YnczR2JrLUIydG9kWGk4bC1XYWd3T2QzV0hvdDlsMGlzM0lNbGtHVGt1WXdLQ1FGbVl2VEk4RFc4bw?oc=5)
+- **[한국] Agentic AI Is a Massive Opportunity for B2B Software - cathaycapital.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSUtmTHVsbXRncExyajEtSDZNSXlpNWZGMUx5X3lndzMxYXV2Mm4yb0xkZkZWQnB0WFROR1V2elBDN3FadEFQUjk2YjZwWGpXQldpSTd2MWFLRURwYU05TGRsZzU1cC1Ra3lOYUllWFZXWHpKRGtQS1BkWUUxWWJ3V0lUWTJEZnZ1MWow?oc=5)
+- **[미국] SailoLabs Launches AI RevOps Readiness Audit to Help B2B SaaS Teams Prepare for Agentic CRM - The National Law Review**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxPbW0zb3ZiVE40UG5WSjBxalo5X245QWxiaWFlUXFjLUJ1U1Y3LUVKclREbmV4SkRnMDV1bVNrX1ExdEdnaXV6Y1JjSmtoTXpVZk5tc3pKcGlNZFFTN0pQcGJnbjZ6cm1OUW5vd2h0a243M3UwNlhwQXNCaXZHX1JTQ1pNV2hoRnc2SG1XcmpJQm5uRjhNaXE3QTcyRXh0c01SWF9sUEJlUGxINm5HQUswamVZanViRkU?oc=5)
+- **[미국] Maxio Launches Native Entitlements, Making Access Part of the Subscription Record for B2B SaaS and AI - Business Wire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQl96anFFejAwWmUyTlh4RDV2T2l6UUtqSGpKMXNHcE9kb1FVUTk5X2ZGRE5HX3hoZTlSd09IQnM0aGJNWlNGUG9KU0szRnZTeldoZFFEQno5UlctRjVPZFZza253RzFKMFhaTl9nb21yQmxSNEZsQ1RFeWkyeHd4aTNRX3pOaHFuVTRJVjR2R0ZObHc1Rm9WNFotYlFENy1EWldEY0FFV3RFOHFxRGxTdVUtOXpOVXA3U0lHS2h0a0NfVEFHRmlILXVCeXd5TmN3eHR6WjRiZDJqaHAzOWlZSHNDODM2WEZYQnJ4VDJR?oc=5)
+- **[유럽] Today’s Media Agency Unlocks $1.1M+ in New Revenue for B2B SaaS Client via 'Zero-Click' AI Search Optimization - EIN News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVdsN1Zwekdsd3owelVhd3lUN2JILXFxbnhSVURGUno3aFpZSUpZMF9WMUQ2T3Y1NXZRcFVhT3QtM1dyZXFfdUdyOTNGek82SFEwc2tfcVJobWRrMVVDYk1UQzl4RDNpLUIwZTl2cFpGalRtdEg3empvQS1KeUVmTzJWYkFuZGpwcHgzU3BXTzJnMkZoZEMwTWdPV0lOOTctTHcwRWt3WWUteUEtbnRQeHhpbkVJem02UXpCU1ZQRnlobkg1NGg5NFhycjNlQm1YbkRsemFOdnNTaXdrOXd0bWNB?oc=5)
+- **[한국] Mike Cannon-Brookes CEO Atlassian on Why B2B Software Isn’t Dead, But Many Won’t Thrive In The Age of AI, and What Actually Matters Now - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPa20xd2FZWTR3bVNjamZEQ0VMajlobFdBODZkYUFEN29INWtGM00xUnhmWWpTN0YxVEhXTWtZcHhEQ3JLdWtoS1ZvaVJBakJ3Tlo3UzhnYmwyZXZSOHhjUzhnMl85aF9HTURmZER5aVppTnlhNDZITUMtaXEtSVZ2MUlPSDhUZU5xY1NwbmFmTExFOEdmbzM4ZDZmajZxblFYMm8yOGZXUlZIdFM0OGhkbGNSWk9XaTZfSHNNaE9YY1FxNkdQcXpEaHRNXzBKY19Ka05uNE11aEVUNWVwVk5J?oc=5)
+- **[한국] Webyansh Reports B2B SaaS Clients See Average Triple-Digit Organic Traffic Growth Following Webflow Website Rebuilds - Yahoo Finance**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxNYTd4cmxVeFpmWkphTU1MVFFsNlZ5bHNzWHpxWnNDVmItUEJDUnNVRTB4VURsdjJHYm8zT0FVREtxZDZyb1hQTnRMcUR2eFpMZlFsNktVa0pTOS01cW5CUTJ0eGlFalRGbFh6cjhibUFyRllJTktPYWxaTC05cm9zWlVVNDhRMFBQcFdtcG9LWk1pblpqZko0QVB1ZU9SOHM?oc=5)
+- **[한국] The Painful Gaps Between AI-Native and Traditional B2B Startups Today. Here’s a Checklist To Help. Which Are You … Really? - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdElsYnMzdktpT1o2eW9uQ3Z1QnRPSlFpenJBYVVHR05uNFdTbnpiM3g1VzJiam9zcmwwRjF1c1lBM3l2c1hyajJvdmF2VU9lNG96VGpXa2MtdUo3aVdoU3A5UW9yLWp4bnpuT2dkTkhUci12Mk1MbF8zWC1GS3RTak5GM18wU2dXMjYxWlRlUEdUMmlHdFVhQm9mbXJYOGtjT3pmek5hM0FPcmJpZ0NaY2hxMW13Rm9C?oc=5)
+- **[한국] SaaStr x TBPN: If Growth Isn’t Accelerating, You’re Not an AI Company. And 9 Other Hard Truths for B2B in 2026 - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ2RULXpNZDRHUzU1a1QzM2NuUUxILWZYbVZtZ0RRRzFDWmp5SnRHNzNGRmVhVXFwQnNJMW1mWHFJcksyZXk3dzc1amp1UlVrRTB1TTk4N1p4Tmt2TTRua1VpOHRDajE3c2l6N0NjTkYwX2ZNZ1NDNTlZZzFsSEs1YllQXzFleDdCcmhoWHR0NS16Q3otSDV3MGdWcldXUmtzSGl0VC1va0VCX2J5cUxZV2I4Q2x5Q01VdzBCNklxcDh1dlNTVEtSZQ?oc=5)
+- **[미국] The Real Reason B2B Stocks Are Crashing in 2026: The Software Just Isn’t Good Enough for the AI Age. Not Anymore. The Latest Case Study Here. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMizgFBVV95cUxOakRRZFhPU3lZbWlqakRKenlRYUpxSHVFeHN5Q2JPOENlWG40X25IOWVLejU0dWVYS2VFa3N5bXpoYm93WHM3N3NiQmhBeTJreVBqaXh2YXgwR3gya1hoYm44Qk5jaXJ5UC1LV3lvNzN0bUhENXVkNmZlLXhBMnc5bURjTVNXcDZVZ2x4WDM0UjhfYWt0bVVBSzNrZEFJYzlJZEtVVXRnZ3lCLXFENXJlOWtEN1FNMHU1TGNTRXZ1RDVVcVhmbXJoZzA0U3dLQQ?oc=5)
+- **[유럽] The 12 Cybersecurity and B2B SaaS Podcasts I Listen to Weekly (and the 6 I Quit) - Security Boulevard**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR1B2UkRHaEhCXzhtWUVqaVp6X3gyNzFoMEsyejcwampqVktjOFdHdGJVQkVoWkkyUlpLRkJmM3Q2ZjUtb3Z4bDF6S29IN2xZQ29DdFJYWmFxd3lYRTBkd2MxcUQ0WGpSb2FzeGtiNWw5Q0k2clJ6R1JHbVB1eHB5RzhmQTN4TF8tUDd0R0hKSTFCUFRZcEpJQUF0OFpUVnFZeURJaDQtNlljZU9ZZThHcWgwM2VfNlRL?oc=5)
+- **[미국] Maxio Launches the First Native Surcharging for B2B SaaS and AI Companies - Business Wire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiygFBVV95cUxNRWhYMlZLM0EzM192aTBITFhQOS1uSG4xZnNXNzlhLUlCUzdGeGxzWUdPNXdNX0RtU1BXOUl6NXBFZXpObDRpaWp6Q3FMN1hNUzNPWlYxMG5ldHgtcWRVOXFSdVlOa0ZnX0cwVlBQZUg0RlFTOUxyLUdWRkNtR3ZGREE4UWhZV3JlcHljdzJZbHVUNDc2em9kMlNPYmlDSGRrLUxzZHMyMGxhXzA0R1J2UmJ0ajZQZE9zSXJUN29yUklLSVZ3UnNpbmdR?oc=5)
+- **[한국] Kinetic Pricing Launches Self-Serve Pricing Research Platform for B2B SaaS Companies - WBOC TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMilAJBVV95cUxPX21nc2VXb2x5bjBKdUc4ZENVNGhCVC1uU25Eck16Wkg2RjlqOTZtenAxazZZR1VPbE1lSGxRTjY5clBhc2xFbi1Vbnk4OGJGYzRscXVhVGhBdXhET2tMNEZ5Z2dXR1RhQmVDd216MjFqUTJuWjRCLVVOLXNmWmtiaG50Z0RDaEN0Q0xCMWJZNmlRQlNiSjdabWMtNjhFZHpMVWVHVWNxTDdmeTVpd3JvcERjamExZHpOc1BHSTR6LWdQS19WOXRwLWVYR2plVlhYbzhsb3dzN3dCMWZySThldXBUV0FETDZHVm9NTHRSbTE2RTZPa1NOcFpmMHdwNWx3eE1lWHFVQzR3aWZGX0E3T3h6by0?oc=5)
+- **[한국] Beyond Subscriptions: SaaS AI Pricing - FTI Consulting**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxONXAyTlNwVnYzY2V0c0F3U3ZCcG1BOVJaNkxGbEZRaDdJdGJ6YWxHWGlaMGYzY3BXSER6N3NOSnpXZkV6M3dSRlM2SmNBTk94TUlZbkRmNk5vbVR5amc5bEd1ZUMwUHNiSVQzN09sdVNPSW4xTWJtUUJ1X3d1OWtmS2RTaEM4SU5YVTB4ZFlvWDNTQQ?oc=5)
+- **[미국] Atlassian and Twilio Crush the Quarter, Accelerate. Is the SaaSpocalypse Over? - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMioAFBVV95cUxOeE84Q2p5aEdHaVQ3dzk1aC1YM1JmYXJKd1Q0NWhuTXRXYTYzdlE2cUZYVTNMbkxsRDJ4UXl2RGI4TzQ5NHVPQnJnMEdvY3lSTzJCV3BfaUpaTmxnS2FMTUNpTjdrSEhxUlY1X3ZJUXdROElOZXJXTUpRSHlSaG1PNVNlNEhOZlNrOVRxV0c4R0hxai1QeHFuUEJZdElXTlZv?oc=5)
+- **[한국] The 12 Cybersecurity Tool Categories Every B2B SaaS Should Evaluate (and the 8 Most Over-Buy) - Security Boulevard**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiygFBVV95cUxPcUVQSzktRlNxWGd2Q0QwemdjcXNlZENka0NkTFRFUk03RXRrcFVEVl9Xc1JiMkZRb3RyaUdndFE1ZlFINkRFRktpSmdlNUlVVHZ3YVd5NnV2Q2ZvTElrZG5mTmViMXFQZ1VfQi1rWmlfUTdROFlkZ2Qyd2pfWXdXcElxOHFLR1pOdDVjcVZFcThPakVmbU16UEE4QWN1blF4Rl8tdTN0SHdScEpQMHlrbmdVUVA5UXBOOFhGOVczcVNFLTFwSENVcGN3?oc=5)
+- **[유럽] Why Most B2B Companies Are Failing at AI (And How to Avoid It) with Intercom’s CPO - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxQQmoydUtVWjY2eUVxaURzeEl3c092QUFlNEljNXFPQUpad2hmd0xqQ3FxcF9FV2k3MzBZVnFQTnRoTG9iZ3pUakJ4SDd5dVVCREhYUXc1cVZFUC1tSk1NMXJnbjNmTzdZbUZTZGU4VWo4eVFMY1Z6T2RvRlJIOGxERDNhOEZtcXZwWXVTVEM4dTRVcEhJeHhkVUtpai00QlNBY0JVdy13?oc=5)
+- **[한국] B2B SaaS Market Size & Share, Growth Analysis 2035 - Research Nester**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFB4MFhXRC1aVTFLWVE4b3k1SlJKLTBCa1UzZ21kc1FmNHZTY0NOZERRRWRzZm1zMkl4V0Y2VngwNE0wQzZSSkV0ZkE3WGtuR0lRWlM0cUtQNzF1bzRHMUdMMjMwRFRUT0dVNnFj?oc=5)
+- **[미국] How B2B tech brands can command the spotlight in the AI era - lippincott.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE5WV2VodHVDeHRUSTRNUzNOa1RPWGt3OTY5QmxfbFVXamtRS3Z2ek80QlVjWTRXQXFlRHNoZ1lQd1BmaWRPM3drZlBHQ2trZlUyS0YwQVJYVEZIR05sYkJIa1ZqR2FTLUc2RDIyb2Zn?oc=5)
+- **[유럽] SaaS Capital Raises $100 Million Fifth Fund to Support B2B SaaS and Subscription AI Application Companies - PR Newswire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdWZtWTZMOWZkNEozWGhKWUdjS25qTUVfYmU1Rzh6Mmo3WlpsalZpd1BVSUdwX2hTS3RjT0ktS1RCQklhQzZWT2NGbjZNNWxYRTY3aVpZVHJMY0U5M3RxTjN0aTlmWWpLaWpiaGpHMzVUY1RucUZLZk5nZzZYc00yOUgzWDNfM2d4Mko2YUFidHFPTjE4SW0zVFVPTFpLOXpyNXJoR3ZzeU9oMWdTel94X3Y4d1FPR3pURHBEX0xKX2d4N0lqZkdndnFpNl94WExuU05vUTdJYnhkdlV4UHkwR0ZDcFcxNG44QkJfUmptVTNidw?oc=5)
+- **[한국] The Wave of AI Agent Churn To Come: Prompts Are Portable - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihgFBVV95cUxQM000UGdZWVpjWjJ0RHFSUTZYZmdPMzFpeEt5YXVQZTlHU2RPX1BkVHpLZC1wckM4Q0xVVzNWODlLOWQ3VWhWcWNGUWlWT1ZiMGRFdUxOT1NRU2h0dEJZRkhBRkZWcElvRkt4YkZLQ0dPYkEzd2piQ296Qm9NdnpLMHUtYzNvQQ?oc=5)
+- **[유럽] Best SaaS SEO Agency in 2026: How PipeRocket Digital Turned Organic Search into a 2.5x Revenue Channel for B2B SaaS - PR Newswire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigwJBVV95cUxNeVM1MF9JQ2g4ZnVHSjdOTHhvdGZDaGpDZXlDNGRVVGhSbFR5VVg4dzFFY08tOUxTRE9BcHJqWEdkcFdXODBlc2RpVWJpandVeEtIM19Tb242VnNHWlNCZ2hnY1k5MGhWbEZTYXBQVTVqdi02bGltNm13em5RUl9SSk1ZNzhObXJfZnU5cjNrdzJwYkF1VEVWVTR3OGlxY0w0NDF5WXVBNmw3V3B5S0UtV3I0blYyQmNUQjNITlk0c2ljSEpZMl9reUkySmhSR1A5UFpadEZ5TzJtMnlaeDNyNHpob0tMMHctTjJmQTFrSy13MkZYaXMxbjMwbjRkVnFDX2pB?oc=5)
+- **[유럽] Breaking B2B vs. MADX Digital: Which B2B SaaS SEO agency is right for you in 2026? - AZ Big Media**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisgFBVV95cUxNeEhPNGtLbHlxNmVOMTBQcVdpZ3FoUHJvMGJHY3JPc1EyS1ltOTBjUGhfcWNoX2hMZnhYOVpBWEIyMGVkY2VmV1R0YTNaQ3VULVpOYkE5REJTSFBLeU1MRzFFMUJBYWFJTmZlQzAtMVVhOUVHZXdSQndxd1ExZkdzT0pJZXNfTElPRFBHNEFpUV9qVWdHUm8yZXo3emlONEdKOGJyelB5NHgyX25laF94OTRR?oc=5)
+- **[한국] Madison Logic CEO Keith Turco on AI, SaaS Expectations, and the Future of Performance Marketing - Demand Gen Report**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbmJhU1RkSV9zcVFKLVN2RF85WkdDTXJDTnpsZGU0SzFjNnRvWmZ1bWQtSlg4bjRFbFc5NkI3S3J4MGN6Q3E2enFIQ1hTWnpjRWRaSzRjeV9uZDNydWRwWVlzNzNNU1VtVTR1OUhiRkhsdVFtR2tnYkxtekc5N2FwOXV3RTYybEFrb1E4bVlMX29UeGRucDZ4b0g1c1k1VzllY1V3LUtObVlQR1lDdldhMG5kMExmMlVYbTlXY2VzdldsRDhmZ2ptX2M5TDhTb0dXay1wNGphSlFyS0tzRVhpS29hT2hTQkdHTmc?oc=5)
+- **[유럽] Inference Costs Average 23% of Revenue at AI B2B Companies. How Will You Pay For It? - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc2dKZkdkYWxFbnpJS2J3cVA4dm5relZhdlhEUFU5ZHc3ZlZoQnRuYWxOaFB4VmZUaEtjdUhSVXdFdmZjcWNzSVFheVBNTV9oSGRSaDRZbGxzblFqaF8yUUVFRFFlRG5EVzV6Rko0RE9ILW41XzFkbFRrTTg0MHdpUDl6QWN5eE03YTlqWi1PbWJCNU9GY2NBWTkyYTZCUW0zb1dicUw3QWI?oc=5)
+- **[한국] Grow Predictably Publishes The Translation Layer Framework for Technical B2B SaaS Messaging - The National Law Review**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiswFBVV95cUxOdmRxU2xJNzFzWTBJMHl0a1A1SUR5OTJWLVAxemVkcktjT1p5TW8wUHZ6eGNtQ29mRS1LMGlOVkM5bXZVaFdILUFpT1pWWVJZeE02ODlJVTNmUGF3R3VEMnRTOWZXQk1lbTllVHZRdGR1UlcwNHRYZmF2YjVkWVFuOG1vWmxGN0FNalJDcVM2QzJ3cVRfTWZTMHE2ZGdFbWtPRGtvd3hqZFpNTHJDaktDVklYYw?oc=5)
+- **[한국] Strange World Indeed, January 2026 Edition: The Massive, Unprecedented Divergence Between Public B2B and Private AI B2B - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixAFBVV95cUxPWVZTZXNMY0p4c29JZ0lMOVlsa3VhMGF1cWZ3cGd5cUFBNXRvYnRkS1R1d0w0N2lGeHAxSHdCNEk4NTV6cDdZbXMwcTNVLUtIaVAxYk1pMlVPTDZJUkx3NFRaOTdCam43SUFVaXp5RXBlYjRrZkRCQ2FqTXdGX0lMVmlJMTZSclp5S1VBLTAwUm1aTE1tM0RlSzdwUkFmUnpZTFFRVmhJY1F0S1BTZ2dYWEpIUng4SnU4aF80dDVlZ0FwYnVQ?oc=5)
+- **[한국] Why HubSpot Is Winning at AI Visibility in B2B SaaS - MarTech**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE9VSUNjMnVLYjR3cHdDcG1lSVk0OGVuaWw4SnhXU01KRTZLcDZBLV8wX0JOTk10MDBWRmU5ejlPOFFHX29McnFNZlRZM01HTmpJMVBhXzUxaFVDOU1MdGZidzVOaHY1QzlPbVJQV2Q3VGk?oc=5)
+- **[한국] Enterprise SaaS Contracts Are Secret AI Training Licenses - PYMNTS.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1RxQjVKNUFwdFhzcGF4ZlU4QmlWU2xmMTdyOWRabks0S3B6VllKVGJZcllBTktSa0YzMXB3NE1WdjJxTkxwU3hVOWJsQk44VS1YRThxblBnNmdDa0tZbngyNW5JZjUwTEh5X25zNC1yTXdVUjZ4R2FKV2Z2Q1FJTTdVemRfTXJJM2M2OVBSUU9uVXc2TVRwYWdMeXZEZU50TkFFajhoeVQ2YnZMVElESWotOGFqUQ?oc=5)
+- **[한국] The Future of B2B Marketing is AI Agent Recommendations. And AI Agents Play Favorites. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipAFBVV95cUxNTkNMc0RnN2RzRnVuLWM2VlJGWGphNHl5c2xIQ0dQX0dRS1VGY1ByaTM2MTg3cmRzWGdDSHRhV0piOGZhcUdUeG9CQ1FiQUlVYlJGcjJMTkpmNWVJMFJLX19Yc2Rwa25LaXZHMDRkMXRES2FLeGtPNDN2SGsySFdMTDE2RWdGYjhfam5lR3pPNWNJTTNuVmIzamxaYUMzOGx2R3dONg?oc=5)
+- **[한국] Your Job In AI + B2B in 2026: Grab The Tailwinds, For Real. It’s Not Too Late. But It’s Different. (Updated with Video) - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxOVDA3V0RmTUhfOC1UOE9ia2h2SUV3UkRQNnZHUkZJUTU5TzNlR2hCUDhkVmdmQVZWUUlKajdmQmtreWV5c3pESzdyWTVkajVMaXIyb3hOWUx0NW5paE1lNEVRcC01MDZqYm5GUmFFWFhtRkxmemZUcXRxMnFZZGV4NDF3?oc=5)
+- **[미국] Why SaaS Product Management Is the Best Domain for Data-Driven Professionals in 2026 - Towards Data Science**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFJBb0N5S3BaYUlvekRVM092bjFCSjBtdkNIZHB1REdVd2s5ekNDRlhPeE84RkdLYW0zR0hEU2JoenFOcTE3czRBZ0NFeEJMS3hlaEhpYkdVVlZtXzUxRGRKR2VvaEJpVDdxMEhIbklPcEs2RnJsQ1Y5WVJfeFRqUS1iMWo2WW5yd1NJeHBlV0QwQzFQNHR4V0dXZUxaMFVqRnVMVDRlbVNJU3NKd09FcVNEbFdKODA?oc=5)
+- **[유럽] Monday.com’s AI Layoffs Expose the Distributor Trap in B2B SaaS - fourweekmba.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE0tZlUxcXE1NkxLTC11YWlfYjFzT0xyS3BPVE9wOHJRMzNRTGphVUxBVFJmcENhU2w3WkZTcGZjdV9sQWlYV2hyYk5oTkY1dVJLTkRtQmlhcXRzNG5oVDZwYjE3WkZTekdzeVdONDJsVDVieU44?oc=5)
+- **[한국] B2B Budgets Are Up 8%, App Counts Are Flat, But AI Spend Is Up 108%. The Latest Data from Zylo - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUVV5N1c1Yk1RWHJEVDlTWkhETWhpSkNEQUNnSnFrZ19Mc2pldUp0VDRTNkFWTU9VVVp1czByOFRqZmJsTDdOQU1LSFJ2ZXkyZ0xWaGlSQ3F2dVpJUWtxcFRrQmIzMFhFWWRvRnNqQ05nLXNRQU13V1dxNHowTnR0R2g1NzJLMU85bnJQMjNvUTloUnBRZkhGa2Zoa1A4S0MxZTFRRWxDMXc4NHQ5eDZDWWt6UElZN1Jf?oc=5)
+- **[미국] ChatGPT Recommends B2B SaaS Tools but Cites Their Own Sites Just 12% of the Time, Study Finds - FinancialContent**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi9gFBVV95cUxQajFpU3llX0RtaU12MGRnQ0pTblJvaFpZSWZ1dVhXbXdDVjJoSFJzbTMtbmFpYzNRWUJaVFdYS1ByZVhRQV9yZWU2MHpBZlJ4Mm9Nd3lCeE1wUjdKMWRTOU12NTNHdXM0bkYzc2VEUHMwQlVvbGxkX1pvMDVkd1VzWUtrblA5TjZPQ2RGNTNueW00dk82NXhTU1dISUxmSldCRGFrc0U4cWxQQjB6a0pGUDV2R1FTMHN6U0RlU2NSeE93bGpIcElRQlhpNV8teWNVV01BeVlJa2xuc1NjbVlvTXpVajhaV05KQVdkR0ktZDRnZkVJdnc?oc=5)
+- **[미국] 20VC x SaaStr: Anthropic Raises $30B, The B2B Software Gravity Well, and Why Corporate America Is Willing AI Into Existence - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX2Vfdkc2VG9VNkg0UzA3QWpzRVVxZDhHbEwwaFVSNE1saExXbnVWX29JcG5iUnl5MkFqMW5sVmhkLTdqdWk2eGtLNlgxOU41TERUdFFXR1dzR1VvckJnLVpHUzhmYWM5WndqZ2ZQOGZrSDRBbnZ5TDRfcmRtbUQ2Z0tnVWg0UnVoR25WbGNOblVsTjk4dGZHdVRqZ1U5eFJkMTNudDhmRjhsYTM4UXhmLUdwX3lmMUJTZE1jN0RUSjZzaHFNMmtZZ1dpX3NqaWpGWEIzdkxGcHVfSUU?oc=5)
+- **[한국] Dear SaaStr: What is the Most Typical Career Path to VP Sales in a B2B SaaS Company? - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYVBoWm5fZzVNa1RUMEl0RTRZcjgxX0xrR01FeXNKbGFqX2F4OWFIZXNVLUJjNDRQa0s1akxmZThRd1NucF9SR2xlVkJwWUMwRDJ3bEdnVEJQU2VmaEVlYll1Zl95ZXIzSlVRdUFscVozYU12c2Jhc1RoUW53dk1TNG82b2lqb1dDanNHSzZUdl93SlZSUzhYZUJqY2VsTWhBOTdTaW1GN0RkQQ?oc=5)
+- **[미국] Touring Capital closes $330m Fund I, focusing on AI-driven B2B SaaS innovation - venturecapitaljournal.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFFuUmtfaGhJcWc5SXctRlU2NG5UTm1hWVc0ckdLYmNyX2NoRUJ5Tmd4Qkx3TEFOMTBqMFQzdG12dWg5c3ZZemJqdE9Ya2VWa3AtTG90Z0wyaTVXd2g1ZVVFV3NOMk9BQ1NyOFYxN3djQ09UaXh0Q2o2TGxXTHlfY1FGN0l3X0tYVXVocWJhQ1FIZk9rYUxqVURNbGNnbTk1MU5WODhWUVM3Y1I2UFZiOS1WaEZtZw?oc=5)
+- **[한국] AI is powering the loss of B2B marketing jobs - MarTech**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1oVHUzeGpoWEN0MGUwR0RoSUpfeS1ScWk3d0t3cTZtc0I3T0lMc3U4Q2YteEJTUXZ1RHBpbFBULThabUpjYlQ5RkFnQkloalMxWnZWeG8xOFlHY3RHQW9aN1pNNWw5RVRNTHFibWRxZw?oc=5)
+- **[한국] Sismai Vazquez Recognized as a Leading Voice Shaping the Future of Women in B2B SaaS Sales in 2026 - The News Journal**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi7AFBVV95cUxNV0lFM1FhUFBjUDl2N1Y0dG4yWm0yMGVUMnpPc2FxVHJwclFuU0c0SGVnWkFEakh3d01iZC1ia1J0czI3S0prakN5NUJkWlREY0ZnWk1qbGtFb3pFNFlRLS1kQnBxZUdCeGt2X2k3MTBYdHdGM0VlUm9PWVZneE1sdEYxcnNDVW1mM1lPYXVzdVdjNERrUFIyekVtNGxEWGJYdmNSQ2pxSlZKa214QzIyYWJLdzlMXzZ6VmRfc0pFd0I3dFVCVHA2b0Y1Mll1V0NaWWFuVWlMckRjMFpHSThBdzBWWHRXTmxtWjVUVw?oc=5)
+- **[미국] Only 8% of Brands Use AI for Campaign Optimisation: The B2B SaaS Affiliate Opportunity This Creates - Affiverse**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSzJnSW9VeVRfcUczbmw2RWJDUXFFNFhKRWh0aU1zUUZFSFA1eTVlU1Fzak84bXVDY0pWb3N6cEppN2ZrOGtBbDZqbXNyVVk5RDh0UThRYzdUTXhoMmFOVTNaUXh1SHJPaTltRHZUOUlUVlBoVEMxZGh5d1pPckhreTJwTzdmcnI1MDZLb0NZTmZUSzNfeTRIelFDMEN5aFJTcUswdTZON0NGRWlVSFZ4WGdET09qQ3pJOVBpdVczREtjYWRYRmJzcw?oc=5)
+- **[미국] The Great Rotation: How AI/ML Crushed Traditional SaaS in Seed Investing During 1H 2025, Per AngelList - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSkxaLVRHSUI2VHZDb0hCRk1IYVZtOXM5akdLcndETFlJQkYwTmxtNFZORHJzUkNwZFBoNEwxVGZQUEZkTTZZYUZwQU5wRGd2eHRmdUx5MFh2bjd6UWFleEYtbkotZ3dxNHpFVkFpbEVvemhjWXVEclh0bUgtQkpCR0Zpem5MUmF0MHhfVDVUNVJtVmkxVUcwal9SWVgyRkZzdFlDUVEwQUhBMjY0N2VGcGxPdVhtUFBuYk1qQXRLcW9DUQ?oc=5)
+- **[한국] ARTICLE: Did the market bury B2B SaaS too soon? - NeoFeed**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNcTJERkI2bkU0anBLSTRnWGVIUlVTUXBjNnBybGlvNFR3UDFkUkh4SjVnOU9HZE8tZFJ5SnRLcnpVc3RRQjNsdGJEZ08tek1neWRJRnZsR3hIYTVfRUhLMXpEbS1fWDZIN0dWUmVVbXNHXzdVWks5cEVmT2VtMlFjQm0xVzBMLUU?oc=5)
+- **[한국] Standard Rail Launches New B2B SaaS Platform - railwayage.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1NBa0tYN1pQSlE3cHV3R21lLWZhV0JQeFEzUzdmRjlaTDdUVlRqb0MydEx1ZFFoRC1reTdIMVEzTVprTkdkTkUxd0RSWVI4d3RibGMzVTJmOGJfN3p4NFVBenZiMjZtX0xkd1Q3OFVVMTVadU91d2M3ZXA4TWtNVQ?oc=5)
+- **[한국] SaaSpocalypse Watch: 4A’s Jeremy Lockhorn on how AI will disrupt SaaS’s weak middle - The Drum**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMisAFBVV95cUxQcE01LVprNlJOUTc1aXdEbTFZV1pIN2JaSmZ5TWNWSHZ1Q2J0VUhNZDFBM2g1SkU4UE5DNnFYbkVLWHBIVWhYdVgxdlYtQWR2N2d3c2pXUEhpZEVzR29sU1ViaEVUMGNXRlJha3hmclJUeDB4MWEtOG1nUmFvM3ZIUnByLUVob20wRlo3Z2d2d2M1WnMxMkt3NTgwY0k1YlRmX0VZVDRxNFJIeWV5Q1JSdw?oc=5)
+- **[유럽] AI Is Eating Software Margins: How SaaS Companies Now Have to Price In the Token Tax - trendingtopics.eu**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3UmhiLUdPNXBJd1V3RVViUkREVjJYVmkxY1BlWmRTQ2Z5TFlTN0ZtOWpmbzZqaW9rNjZRVERTRzlpd3pUc2R3ajZrcDhsWVRPd3UyQ0JRSEJpUXlQWUhn?oc=5)
+- **[미국] B2B Saas Startup Rocketlane Gets $60m from Insight for Big AI Push - ETEnterpriseai.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQjBpXzdwZHBqdWN3V2JnY2JFT3ZGdDF1MmpIbWE3NGk1bzhFeGNxZUpzRlNGR0hMZzlGSmI3c3h3aEtPR2xHRVY0VzlMcmRpVFhQNmIwbGRlbTVOVzBuNzc2Q3Q4T19xQXJvQm81MTVEaUlqT3h3amkycEJBLVVseHRQYm9mS1k2TTJvT1Q5N1puWjNHdHVzVUQyQVNmVnQ4U2lNNTdDVU16VVU1emFkT09uTTRDZmk1TkJ2LWRRYzNNNWEwY2xkaEJvN0xhd2FiVWg3aEtn0gHbAUFVX3lxTE5jbm83QjJVWTFUODVPZUNaNGtuTS1WLVo2TGw2VnBrelpReloyUFFoX1pOZE9OMmhXVjN6UnFsQzZET05sekthVGlNS2V5Ynl5NG91ajZ2dGVpQU9aN1YzU3NLYkZHWnhKM1pFRUs1a2UxVmRCd2FTTEgtWFBST2xTOTdmTlQ4bk1iQWV1eDNHR0s0Vnd0OG9ZZFAwTThLMFpCeDFCUG9sc1BOYU9DSWNyRlJPQ29aSlRkdTN6V3VSR2F4dkdBMmxJdkZYbWt3dmhfYkZQaEp0YVY3RQ?oc=5)
+- **[미국] AI Agents vs. B2B SaaS: How Morgan Stanley is Ushering in the Agent-to-Agent Economy - CTOL Digital Solutions**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihgFBVV95cUxQNWxyUmEtUEtjb2FHV3JQTmFfc3RnaExnY29BbXV1NnU0cEZyTlMzRTlaVUlIUjgxWkpFcXRRYS1mVkVOSWhyQ3JKSDRIZndacmpQOUE3b0NHZmlJNHhLRzh1SENEY2ozOTJubnhnamU5WHhiUURKUm1yNHVscnpoVHczVzFrUQ?oc=5)
+- **[유럽] B2B SaaS platform Mojro raises $3 Mn led by IAN Alpha Fund - Entrackr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinAFBVV95cUxPT2Jxekw2TjYwT3lCcWVjd0sydzB4NVdDc1JmeGZTLW1GT2NycmRwMUc3MnZ6Ri1EbnZQbGhsRlFNMUp2dWcwVEdPTWRkbEhkbmotQmJLR1l3cHBGMVY3cGxWbEJfbTJpMzFsNFBGb3NCNE03eV9JRXhLUWNwb1VkQ0c4QS1VQWl5Slo1aWNacnN5b29WUFZwR3hFNFjSAZwBQVVfeXFMT09icXpMNk42ME95QnFlY3dLMncweDVXQ3NSZnhmUy1tRk9jcnJkcDFHNzJ2ekYtRG52UGxobEZRTTFKdnVnMFRHT01kZGxIZG5qLUJiS0dZd3BwRjFWN3BsVmxCX20yaTMxbDRQRm9zQjRNN3lfSUV4S1FjcG9VZENHOEEtVUFpeUpaNWljWnJzeW9vVlBWcEd4RTRY?oc=5)
+- **[한국] Dublin AI SaaS provider Apex B2B launches with €1.5m backing - Silicon Republic**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipgFBVV95cUxPM1YyMGJaSlRSMmJOTzllT1R4RWZoWUxrWjNjakRPSnZHR2hEWnJ1U1R3LUlWdXhlTlhHWHF6cGttdjJmeGRhOTV0NC1LX1B4Mk5sTXZHZEh6LS1VWXVQVG1MWDB0bmo2LWJnS3hwdlJDWkoxSE52UFc0OE53Y1hMQ0FRcWVPUXVqbXllalhSMjVTUk90Nlpod21XaFlZaDQ5bVZuZnB3?oc=5)
+- **[한국] Neon Fund Closes Third Fund At $25 Mn To Back B2B SaaS Startups - Inc42**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzlOb2tFN1A0MzFpUnFiS2dFelBXYzlabkxvTF8tOUx3SFozRmxrZE9leHd5N3V4SWg2S3dGZlB5QlRsR0gtUlB1eHRwQm0tY0pfZGttYXVEY29lOUtBTjBJYU5qSEdSRm9tbEFmTEhCcTBNNFU5aVktZE90V2h0ODZLR1RHMUlfOEt0MW9pVk0?oc=5)
+- **[유럽] How AI Has Changed the Rules of SaaS: What Every Founder Needs to Know. A Live Deep Dive. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxPM1g5b0FOTlJESm5nQXh5OXZfY2VBWGZCZnV6VnpJdzR6Yklwc0tLWnR0c0ZqNThUY3AtVGtQNkkyQ3dWZ0lSZTNwekVYRFFQbXZMajhVTU1TeEt6UFAxcmZWM2Q2dF9WSEM5eUkybXRjeDJ2QkhlUXVrQzc2cHZLN0hoUEhTTjNZN2g0ekdfU08zVTFWVWhUY01fdFA1RHBhRTltenVfUmRZTmo2Q0JLREhPaXNLRDlSYncxbk9rdw?oc=5)
+- **[한국] Plaid Launches Embedded Bank Payments for SaaS Platforms - PYMNTS.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitwFBVV95cUxQNjVRMHFBRXZ6MjE2TlAyaWJqWnFZbHl3NWp3MldjZlJ5UFVpRElNeXlYSVBVMDlsMXZ3V19MdS02Mm42bzRBcU9CTW8weVB1VTRHT1lvM0Y0WFJkOXR5RXZMb2cxaHl5LUFzaHphUE0zcDZqckdtc0doaFRxamtDckZiVUNpSnNJenpwNk1rRzBvcTVRQVlQTGY5emdRRWlnNUlONTcwd1N5bzFUTW01VjNsckVpRGM?oc=5)
+- **[유럽] Winning Strategies for B2B SaaS Companies - Boston Consulting Group**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihgFBVV95cUxOMEw2aDdUOFp1TVZOR1hUcG9PMW5TQWNzdUFGdFRYRmpZMkN0UzNaU2k3Y2hZV3Y4cHRTOVpKTUlSQkRiMDlJZGxFLTVQcXNSOURvdWtfSUw4T1NmRGpqVXFZTUZSMHVwVFVqa3MtdzhsYnh1VDFEeEFnOC1rVXdweUpXUm5Gdw?oc=5)
+- **[한국] ドコモが自社製B2B SaaSまとめたオンラインストア 中小向けに「はじめてのDX導入をサポート」（画像）（2/2枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE8wbzVPWHdmR2NHeTRxWHo5azNKNnZ5a0JjWDBlMXlCTVpCSm10V0NzbUxKblJZSi03LU9GMk5XajFBS2dsWnk4elhycWxVRHZ0Q0hhcUpyWE9TUVNMbjFKczVJQWJwX19Gd2JSV0VhXzQ0UnlGRk91M0FLSQ?oc=5)
+- **[한국] ドコモが自社製B2B SaaSまとめたオンラインストア 中小向けに「はじめてのDX導入をサポート」（画像）（1/2枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE14cEMyX3hJbURQUjhTMnJYRS1SZ1pXSzVUb0ZjdUphd2QxMlJ5OUZ2SDUyZXdMc1BEQzNyc0VKRmlJUHpicjJDZkpNRmRwZWZNMjlEOURlV0xNYlp5bjI5Sy1aRXBBcG1OWFZ1S29JaVpYWndEbFNkUGpzYw?oc=5)
+- **[한국] BtoB SaaSは死ぬのか？生き残るのか？ AIエージェント時代のアプリケーションビジネスの未来 - EnterpriseZine**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nTk5oQjh6TS1BTHpXMHhsY2g0WHdyeGtaUW0yYXhaQmhRSTFVODUtS25nTXNSemZ3UmRyb2lqYm5xQTNpNjh1VHdqdVczcjc1Q1ExWTYtWi1wdw?oc=5)
+- **[한국] 株式会社アンチパターン、B2B SaaSに関わるすべての挑戦者による“共創と進化”のためのコミュニティ『SaaS Harbor』を新設 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1wMjNYNmhDa0xTNGFKeEFQNnZ1bmV6S3VMTEVObXhxWktTVnVNeVdLZm93bVBmUVg3N3RRUUtObnJrR284aHBOY3pVYk9BbHB2ZlkwSDhjSzJ1MFVaZ3pFZWFDWllFSWpCVVE?oc=5)
+- **[한국] OpenAIも「SaaSの死」促す AIエージェント基盤「Frontier」発表、BtoB特化 - 日経クロステック**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE50ZlQ5WjR3QnVmTlA4VmVYelVuOVVFS0RTb1owWWtKbHl6YnB5VVJmV094d1NRWk1hQ2dIazJ5bWVrRGxLSTZrLXRrQm8zUG51b0p2VUxEa1RlaUJjcWhyZWZDNGxLREhpbDhncQ?oc=5)
+- **[한국] 急成長中のSansanに学ぶ、B2B SaaS開発組織の広げ方 3度の体制変更を経てたどり着いた答え（画像）（4/5枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTFB5amk2NlhEQ0I2cVQ0TVFvVkplOU43N1BGNFh3WkJ5U1ZCYUZDMThUM1dCMVU1QTlldlpIVWpub2FiOVRlMHdlZ282MFhXOVl5X0tBUElmYUdDU2pJSXFJS0lhY2pWaVh4eXN1empPUHIxcVprd1lHV3FuMA?oc=5)
+- **[한국] 検索型FAQから対話型AIへ ― BtoBバックオフィスSaaSのCSの次の打ち手 ― - ドリームニュース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE15QldrWjR5bExIRHo1OXA4c3NuclcwTnhHcld0R21vVld6NkVnalpGVjdwb0NJV3JtelJsZlNCMXg1ZEc2clRsT09zZXV5QlYtc3M4?oc=5)
+- **[한국] 資料を最短数分でAIナレーション動画化するB2B SaaS『VIDEO GATE』を正式リリース！月額4.5万円〜「10分単位のオンデマンド追加機能」も搭載 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1OaU9QRTdaX3RoT28xVGNRTTZUWHdxelRlUGpoOU9qOEpKWWU0STVBMkdCRU84TnNoZ1QwYmhSXzRjb0k5UlM2NXlsaTV0TEVHSEtJNnFvQjVhUnZYQVlhZlJQTGNjRkFuZnc?oc=5)
+- **[유럽] 「身内に使ってもらうだけ」なB2B SaaSスタートアップにならない方法 ユーザー課題の正しい見極め方（画像）（3/3枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTFBnR2FmMlJoMWhmUmk2NjNlTlR4cGFmX0hkcUlqUzkya2NZcWJTdUxPVEx2Um5sVVV3NHJELXM3UG9vUEpPbU9feTljNTAtbFFhWUlNeUJIdnNYSGozMGZKeEFVc3VxNjIxcVRjU1dleU9KbWJ1Y1lFR2huaw?oc=5)
+- **[한국] 急成長中のSansanに学ぶ、B2B SaaS開発組織の広げ方 3度の体制変更を経てたどり着いた答え（画像）（1/5枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE9hRERweTRhRVlJUHNyNmNIU0tsejBNd2lqSDZ3dmlWLWtJcVB1QzBvdUcwOWhvbE0xT1pkbVlQVmd2aXBwWjhVc2FkcHRDbXlPNEEyQTRPZVVaMUx6UFFXdS1ibXczSllhR2ZxZG1Da2dXNDRydmY0Tmg1MA?oc=5)
+- **[한국] ITreview、B2B向けレビューが15万件を突破！AI時代のIT選びへ。 | アイティクラウド株式会社のプレスリリース - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5rQmk0bE0wQnhablNoRVgtYS1laGJFOE9ycjVad2lqYk5OdzBqV1V5YVdxcEFDR0RVLWItUzVhSXp0VEpnZENWdmdyTVh3UTVDUnItOGh2UlJZOHZfRVBOOTdZc0VTNHVJZFE?oc=5)
+- **[미국] 「身内に使ってもらうだけ」なB2B SaaSスタートアップにならない方法 ユーザー課題の正しい見極め方（画像）（2/3枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE5EQTFLbmtQLS1YdlNLM082SmFXOVhobmhSU2RyaE1vY3RUMlJLUTZTVTZiSkhqYjFlUlRWRFJvM241S1RUS0QyX1ZESEc0aHBCd0JaRDFOM3czZzEwdXZ1dXVQblU4dXJCS05xVGV0NEYybkg2THdxbENRUQ?oc=5)
+- **[한국] ITサービスの比較・紹介サイト「アスピック」、AI Search Cited Award 2026 上期において「SaaS・B2B部門 総合ドメイン引用ランキング」1位を獲得。 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE11X2lVckg1dnl4S0pXa2RHOWJWc3NIc2FGQkt1ZTN6aVU0SmlEVUQtbk1aVzZIclhQWURiQ2gzaXpmdFFiVEtxY3lYbWJHcW5BbFVZcHljczVyazBWYmcwb2tMSnRLVFdCS3c?oc=5)
+- **[한국] 「身内に使ってもらうだけ」なB2B SaaSスタートアップにならない方法 ユーザー課題の正しい見極め方（画像）（1/3枚目） - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE1uenFwOVNIcVpCbTV6emJaSVlzU0I4cW9VeTQwdlhkbEdta1ZaQTRNWTlzOTZSdVZMMnF1T0lReThYcTRQeVJKNTFWTFFIRVduUF96VDJUcUEwLWF0aDI0UERhQVF0MkFjeXNfVmpVdE1iaWttcjQzSkVlWQ?oc=5)
+- **[한국] B2B SaaSがネットワーク効果によって爆発的な成長を手にするための戦略について考えてみた - newspicks.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUmRnd3VtWkFfME9MYmloVTJkY0gyZ05sX2gzdlpOT0xBNGMtUTd6WFhSbVF6YTRfZE5fS2w2YkJ3NWFZanVxZFI5UzExeWQ1OTgw?oc=5)
+- **[미국] B2B SaaS事業に「Chief Customer Officer（最高顧客責任者）」を新設 | お知らせ | 株式会社ユーザベース - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5iR3dTRGFCNDFYTzFMc1ROR0gwWUlVeHh1bk5vQTN2azFGZGhDWnBTeXAtU3Bwek43cTdWMTdfUVpZUS1QN3JvSzRBSjdXZG9sUzEyWGh0azRuMUN6NmFlV1lqTDZ3UG5mZFNKckxDaw?oc=5)
+- **[미국] 急成長B2B SaaSスタートアップが明かすPMF達成に向けたAtoZ | アドビ - Adobe for Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifkFVX3lxTFBNS1B2bklTeE85Zm1jVFc1dG9pLTRHYnFLWE5uZXdQMDl3YnRHSENMZ1VBbm5oZTR1NmpxcEFVNHBDc05nM2FZdS1IZnVjT0F6YnFxT3d1djc3YWVQWmM5SGtXaUN2NThyLWF2bHlQWVlhZ3NuRjdoVmlhWWNfQQ?oc=5)
+- **[미국] B2B SaaS企業3社のマーケターが実践する「収益プロセス」の設計方法とは | アドビ - Adobe for Business**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXB5X194ZFpSeTd5bzJ1VC1ZZFJBN2tXWkJwb0poOUZ3a1RHUlRhUFlrSmEyNWt5TGd3R25yazhtSlh2UGJpMlpORWhJVnZ3UTc2U1FHTFZIY25Hdm5SOGpiUjROYTdCUEtIRlZmRVRadllmNDhhMGRWcUFHd0kxaE16c0RYVGM?oc=5)
+- **[한국] B2B SaaS PLG SLG Meet-Up 「PLG vs SLG 2つの戦略から読み解く最適なSaaS運営方法」を6月22日に開催します。 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBPRXpxbXg2QTQxMnZVQ05kZm5TS1Q2U2hSeFVodHozTnFUc1NDU0hhYmtKblNDUjVHcHgwZk9JNUgway1FdjRXV3BGM1ZWT2M4N3ZIbV9Pdkh3X3N0WjFmN2E4LXlLTlNNVUE?oc=5)
+- **[한국] DNX Ventures、B2B SaaS特化型ベンチャースタジオ「DNX Studio」をローンチ - BRIDGE（ブリッジ）**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE15bGhFT2tBckJJOFRLRENJZ1BuTXpSc3FUNV80VFBnNzUySUdKcTVDSTVscVNkNGRmQVZmdHY1SkFOa3ZfRTNaSlhWb3BOUWtSTW5xMkwtZ1hhSktsRkRNeTRPWGl5RXJuZzdOWl9n?oc=5)
+- **[한국] SPEEDA・FORCAS・INITIALのデータを「つくり」「守る」（B2B SaaS オペレーションマネジャー崎田大樹） - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xSi1YMjRyU1pSQWNwNWZYZWRKN3VsZGd0M2JBRjkzRGJmNVZNUmY5My02LTRRRWEzbFE0cXVjempoZTZqOXlvbDNDblMtN3pJTzJyQ1FmNk5nOXdnTHBmMms3REQ2S085?oc=5)
+- **[유럽] ドコモが自社製B2B SaaSまとめたオンラインストア 中小向けに「はじめてのDX導入をサポート」 - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE14dnRSd1JMajN2RGhEbnhySHQ3Tjl4ejd4cjcxNjNvRWJfc3RjSC1ocjJ6cFNxRXFfcFEtUkh6WmRYNGVUWnFxQVM3bTZlbU9qMG9jeU5kSmZKTFJqQmNxMEVyd2Yxb2dNZFE?oc=5)
+- **[한국] ビジネスパーソンのニーズに寄り添い、変革に必要な「本質的な価値」を届ける──B2B SaaSマーケティング イベント・セミナー企画担当 - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE1ILXZuc0ROU2FCQ0dLdUtuYUh6TS1UWHJaVXlSWnZGaVVZTnduN0VuaTk1Mm5acXBHekUwYVZCVmlqOVJ0T0htVkY4NFAzel9uaEhkaHV5T1B1QWwyX1c5Y2VVT3ExYVQxMEw4TXZDRQ?oc=5)
+- **[한국] 日本B2B SaaS事業 新経営体制に関するお知らせ | お知らせ | 株式会社ユーザベース - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE9la0tJdmpyU1ozQ2VHQngzUFVTa0tGd1Z1a1VERkxkUW5QOUpLbVZkUUJ0cVNNSnpXeEtieXN2S1MyQnBFNGpiUEJ1V3pKdF9oWm90S0UwYW4wT0lFNEtiQ2FvdC1sZmJEX2luOWNtN2dfVHVzblVIaQ?oc=5)
+- **[한국] 急成長中のSansanに学ぶ、B2B SaaS開発組織の広げ方 3度の体制変更を経てたどり着いた答え - ITmedia**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1YVFEwaGxDQ0RaQ09ndGhpR0xwQjVSb1hDUHptbENaYmkwOW5uWGhGcm9aZHAyc09ubUE4NjNpanRibmxnWXZmdXl5bnRXMVcwWnM2LWtSaThFRkFHd0dvSllTb2JyakRPSm1v?oc=5)
+- **[미국] SmartHRが「ARR100億円」到達で国内B2B SaaS上位圏へ、「T2D3」達成も - businessinsider.jp**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LSk5RZGNHUzJsNGlqS3R3UW9NVU1aZ2NRYy0tNklpazA3Y1pCNlRmSjMtUC1LYks1REVnYU1PcW1TMndQR0FFRDVjcE8wel9RaXNMYk45U282QQ?oc=5)
+- **[한국] クエリアがテナント単位でのアクセス権限管理を簡単に実現する、B2B SaaS事業者向け新プランの提供を開始 - PR TIMES**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE0tWDBpU0lmTFpONHIzSWxSS0tnZXhxYzVHYW1YdVp4M0hfLUZpZHJIdUFteHp1QWFQTDVReHFkck1aQUt1em1zLVZ4UmdaYy10bnBOQWVnZHExVzA3Zy11a2x6TnJwU1VNeGc?oc=5)
+- **[한국] 削減効果は月160時間以上。事業に大きなインパクトをもたらすセールスオペレーションの仕事（B2B SaaS 岡崎佑子） - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE9OYWw2eGdsc2FlZ1ctUlRaQVJKUUhtNW9pWlNIX2huVzloSHROTno3U0lFRmFWN0drbHhad3NGcXV4WnA2bmV3T0FWRHQ5RVo1ZWNmSWhkSFJDZ2NrOFZOeWpLRXh5Y3MtdjZjellNMnBJUFk?oc=5)
+- **[한국] 自由と責任の両輪があるからこそ、ユーザベースの仕事は最高に楽しい（B2B SaaS インサイドセールス 路星） - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE04MDJhdm1xYUd6MXU3dFlUUFNQV0NXa0poV25kRTRzUTA2MGpYUG1iSnZCNzlrVDEyejVXeWRvNVBnaHdJTGVCdjlxTE1wR0ZDOXo5dGZ5Y2JzMjZLWDJKTjkySmE?oc=5)
+- **[한국] B2B SaaS全盛・進む多様化・高止まりし続けるバリュエーション ― YC Summer 2019から紐解くスタートアップ新潮流 - addlight journal**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3Q0ZranJQdUtkUGMzU0NHck45VTd1NDRVRGpHNExsRVZCeW8xTFZpYkFZNlVqNHVNdHJ3eG14X0kyMl9JYUxxYk9uQk9HRlJUbGNXSkU5Ri1Ga25ncHpYVVFJWFR1bVE?oc=5)
+- **[미국] 「異能は才能」を武器に、誰も見たことのないコンテンツをつくりたい（B2B SaaS Business 執行役員 森 敦子） - 株式会社ユーザベース**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Hb3hPX0UtUHU0clhyZlV0UzNWQW1GSjNVM2ZkT19JZmdnVEhhZTNLd1JMc2wxOHRscXVQMVltUG5OV1dSWUhUUkg2d0YwQjNTUy1jWU9JV1E5eWpVc2pwVUl4RkZqQQ?oc=5)
+- **[유럽] “API公開率が2割未満”の国内SaaSを変える 生成AIでAPI実装を60分にまで短縮 - ASCII.jp**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QRWsyVmxDeDBFN2YxWk5QRWZMa2xZdHlZQW5lenVVQ2FWaWlTUWpNeUdfX2Z0REFsZXZ1WWxpWmxNbmZFb0Q5bm9xZUdNMHhQaTY4Wg?oc=5)
+- **[미국] 聚焦快速落地：数商云推出轻量版B2B交易系统，30天即可完成上线部署 - 手机新浪网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMif0FVX3lxTE04ZDZuRjItU244bldSai1XUEpDTFVpeWtUMlZIOU12bG1QVWRfendUSmlxVGJzOTA4aVloUDMxbHF2ZUNJeVdSZmc4dGVPdEY4OG5rYTIzQkJxQnhrTjFpS01EU2VHMmp4MlRMdEU5SWVHVXk4NFBySUdxbUpBNU0?oc=5)
+- **[한국] AI驱动的B2B SaaS绩效路径：数字化变革下网站交互性与区域差异的作用机制 - cdn.ebiotrade.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1XOFVGZnVFdTc1cDNwVVBFNm1reHpqTXZQVk5FYm9lUjlSa1JOVXdWVjVIeEZyWDk5NWlTRFN6Tm9jaVZRZEVpbHAyWm1TTXNlSHNSbWsxQUhseTN1ZjByZjBCSXA0MENYT3lNaw?oc=5)
+- **[한국] B2B SaaS 市场规模、份额、增长和趋势，2032 年 - Kings Research**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBwNVpOSjMzQzh1MUY4eWZBUi1PbmR2bUY2T2NHV000QktjT3RaTnNqR1BXS1lpbFNKWHRERXllV2FmUFNmeVVReXpWZFdZNXRvSU1qWUpqQmpKRjdLU296d25KRTJQb3VuYkxzTg?oc=5)
+- **[한국] B2B SaaS官网：2025年10大设计趋势抢先看 - news.qq.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JTzNqNzBpX2xMdS1PWkp4Yy1HbkNSVXZHTUtiUUtyTXg0S01ROVhXSkhnQmVBMWpjZkR4bjh5UTl6RjU0SDlQX0V1bUpTN2ZUZk5JX21R?oc=5)
+- **[한국] Skyfall AI拟用AI接管中小企业运营，验证“AI CEO”可行性 - TradingView**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mcWRXWFF1enJDbk56dTUzN1JHVWlOU0wxaWZWRjEtajF1NjhXQkxkMHhwM3g0UUk3SHFGMlVwUjRVZjBCU0JzQXNWaDNwN3FDYUpxWFJvdFN5Ym01RmxUQVp1R1o3QQ?oc=5)
+- **[한국] SaaS+AI的最大回报在这里- B2B - 亿邦动力网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE16dVUtaGtCdng0bXg4WlVzV1ZMNXlicDhBenRqT1hXX0FhVG5oajVyM0dUdm1jZy14QnU5SkcxUHFPNFBvc29ObTM4SmVZYXUza3E0eGF3?oc=5)
+- **[한국] 浅谈北美餐饮B2B SaaS：外卖行业的下半场 - 36 Kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9kbHhqRWFzdUkySG14eWxlRzZVeW9uVDVtVXFqX05IbFdFSjNFNm5wdEZZUmpQcUxCckJON2RKM3lDZDRua2M0eERPS1lidw?oc=5)
+- **[한국] AI赋能全球化的商业信息SaaS平台AroundDeal获数千万元Pre-A轮融资 - 36氪出海**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ3h0TzYyZ1NPRFlYa2JLNHltZTZFUTdXLWdhVmc2bThBcVo0TlRGbXQ2YjBSWUMxNTFaV2NNQUUzaW9VMkE2OC12UlZsam5fMW1NbmNIcG0tWDJJNTRwM2lSeWtGZG1PZWR3VEIwV2FhamNCb0l3OVROQXg2N0pmQTJuUWo5eHpaVEtsNVMtQ3Itajl4bnNmNFpNaXZBRFlp?oc=5)
+- **[유럽] 4452倍超额认购！明略科技港交所敲钟 AI真能救SaaS？ - 亿邦动力网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVdEFtSTU3RTZzNzhPYmxzSk5DRnlrMVhsN2UwaFlUQjdHX2FLVjRsWTM1YzM0cU1uUkFmMTJ3ZGYxdkt4eU1lS055WGF3YUU1dnV0UjFB?oc=5)
+- **[한국] 有赞、微盟1年多涨8倍背后：资本和2000家企业豪赌SaaS - news.pedaily.cn**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fUzhyWXJ0Wl94d2ItTm9DUmtoVDVMQzFVejJZMVEzTDBJd0NoN1VEXzNXU1RQLVhvYzZ3ZGp4M0VsQlAzUXpDMVVZRTZfX0R2U2lTVzh3?oc=5)
+- **[유럽] Y Combinator：垂直领域AI Agent的市场规模将是SaaS的十倍 - 华尔街见闻**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xenlfTXNpN19oRE9zbV9LMHhkUkVHQkhpeUZtemlnQV80Y05OOUlXOVo0NVcxbkNlaWtYWDhfNFhKRlBpZkFFcWZqRTFpeTllQlF3?oc=5)
+- **[한국] 百度爱采购用AI重构B2B商业模式：一场关乎生存的“数智进化论” - 36 Kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zLWJDVVlVYlVtQjl1UkF5Y0xMcEh6ckxRdXozdzlaLTVvU21ERk16ankxWkhpZjgxWnRULVg0dkFOb2hLWXgyRmIwcWlDZw?oc=5)
+- **[미국] 生成式AI公司Haut.AI融资200万欧元，以在护肤B2B SaaS 领域扩展业务 - Business Wire**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1jbkhTNV9kYVNtZjZTSGlRdGFhbjY3MHNMeGtKQmd5bzZqallFM0owQjJPVkFoVHc0XzlqOHV6bVUwdGxNVG81VnBITnlLRGxBQVpsX2kydHhRQnl3NDM3YWJabXJfd09ya3RR?oc=5)
+- **[미국] AfterShip AIGC 黑客马拉松大赛圆满落幕，全面拥抱 AIGC - 品玩**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GTVVkU3p4RVgtaDFlQ2JyYXhXYXN2RW5nelFoZGxfcTNTWkcyU09Xb0pJY1BOd3ZuX3hZSXNiX2VRdVlUSFhzNw?oc=5)
+- **[한국] 2026年广州GEO业务公司哪家靠谱？深耕全域AI引擎优化落地服务公司选型参考 - 手机网易网**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fTGFoRlFSaFBqMnNJbzdUeFlMZzFjX1VPa3NoUmhCTUtkakw4dllEdVNQNHJ6TTQ0NE9PbmduUldwUFVQUUN0MGZCbGIwczVlR09VcHBnMGRoNFBtUkdFaEFB?oc=5)
+- **[한국] 【新闻】Catcha Digital收购Nexible Solutions 51%股权！进军SaaS和AI领域！ - goody25.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Hd1JDa3FEb3NYRnA3eDhjQ0wzSnFWQ1FHelZvOEpMRUZmRHdKejNJdmR0WGw4WFhLa3lIVndRMnFZTm9nOEYyNTRsZmY?oc=5)
+- **[한국] Turnstile Launches with $29M to Bring AI-First Quote-to-Cash to Growing B2B SaaS Companies - FF News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMixwFBVV95cUxPVEpwUjZpY1ZJcGpXdGdySXRfdlJ4OWgzbEdMVC1NMzNodmlfdHZzZWpOdGthS2dhaDYzajZ0MDZhX0tER0d4WFdoeGVnNVNiU1NfelJpNVVzQUJGVkZ5dU9CVjV0MmJKRUNKT09wQ2xHTFpZT2NzYlNwbWc1TVZ6TlBMc21KTE5UdlZlMElUazAyQmMzMUtFeFRPeW5MRFR5NnlaYjVyeW1hdDliQ2pyUnRfWHpfQWV5dlhsZHVDVXZRblo4TjI0?oc=5)
+- **[미국] Techshop prepares to launch its second fund for B2B SaaS start-ups - Startupbusiness.it**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWRuVXcyc2N5S2MwaEVMMEpDc3hnM2FaQnNqZHhTRGlxV1dnbTFVR2dWME1zS2k2YmxKZy1QODN0YXZjbHJLSmZ3ODU2ZjYzbWp1SmtVQ3hlcWFHNXRNNGxzYXF1Wmp2TDJ1VUtUc3I2NUlpbnA4a1B0MENKSU1XRV8yQXpWVTlOMTczc0xYRUVLanBsdjBnVXBzWVYwb0NKd3N2d0ZDZ0s1OUJy?oc=5)
+- **[한국] Best SSO & SCIM Providers for B2B SaaS Selling to Enterprise (2026 Ranked Guide) - Security Boulevard**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMitgFBVV95cUxONHpsMGdwUEtXaGYzMmFucWNVcnZwUThRaVhNUlItaW5yRHY0LVh3VTdNbDY3LWhHb25UczJUOXZSMFQxeGhfWmhwSVlyVEVycmpVR0w2UHJpYk5FNGRYU01rZFhYLXFlV25vbTl3emNqT251clZRTWhTb0NISkVrN0Z2QUtORktMalpFV3AzTV9Wd09jM1JrZldrOXlDZmxuX1lVRjdrc216aldMRFUzRkNOVER6Zw?oc=5)
+- **[한국] How Big of a Sales Team Do You Really Need at a Hot AI B2B Startup? The Two Playbooks. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirAFBVV95cUxNUzZkR0JITFotS3JHZXZmQWNiaXlhSFRIQTNNWmxsYkVfVXp6T3lGVjhPOG5XMXpKd3NBaFM2MHlhTzRSOUdueHhGUUVFTVdMT0F4T1VpUkdvWHk0UTN2MUhmOEptWXNxR1liYUVhclBqOFVJWHRTMjk0dVVHclFIX1M2U29xaVRxU3gybWpKamVxUEpCUzNSR0pQZlhYc1R5alczeWxlNExFY3Zh?oc=5)
+- **[유럽] Fortino Capital bags €700M for third PE fund, targeting Europe’s B2B SaaS laggards - Tech Funding News**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2tMS1hRU2hEWDNJYWU1YWtNVzVVSnh4YzVnaEhFWDZjVE1WdzIxMU10cHZ0Z1BzX2dITFpJdXJkQ2diN2JObHNiVGVwdVBDMEJUd2ZLemRpUm92a3BhY0doUFliZDByVjc4dDRCMm5VMzdGRkk4VEJkeER0YXBlMk13OGY1dVJvZkF5eGdNaE5WLVU?oc=5)
+- **[유럽] Neon Fund Closes Fourth Fund To Back Early-Stage AI B2B SaaS Startups - BW Disrupt**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXNWSUFub1hGNW9XOHJCbzdNQmJJTURMWG1EbW5aZlgwNU9EemlvYlJ2YlI2aUlkUUNGWmxsZHZhVURwMUFiUTVTdWZnZDB4ejZjdVJNcU1EaGViWExWekp2Z3JXejVXNEh1eU5KajZpeFJNcGpKbFIzT3JsVlhKYWx2aWpydzRkMktFNmpaT19uTFU0UVRFSG5adFZpZDgzaWVjRU9Na2lOTnZSWVE?oc=5)
+- **[미국] Top 30 B2B SaaS Companies & Startups to Watch in 2026 - StartUs Insights**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE9qUk1YS1F3U1hGVEw2Z3FyZEMwWjVqdkE0dUpyUGJNVnhCaElfTmtuTzZCdjVqdUExUG5EeFlBN1VaV3F6dEdYd0xhcXJvRVVpZ3lQRWFMc081czlsWTBvSkZIajExem9HeF9XckpxUFY3dUUxTnRyRQ?oc=5)
+- **[미국] Apex B2B launches SaaS platform after raising €1.5m - businessplus.ie**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTEFVX3lxTE5abklxMUVIR1pKanZQNHlXQndaWDFQWEQzSjc2aG9feFV5UFRhdDZ3a3JfeWotLVVGdFZfcEp1b3hONHFUWVctWmhQemg?oc=5)
+- **[한국] Pentathlon Ventures Closes Second Fund At ₹255 Cr To Back B2B SaaS Startups - Inc42**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYTdnb1k5bTF6d1lWOWJyRlRub0JCanJEcE9aalRZejgyczVzVHRkalVTUWsyWjdXbzRoU3JuYk5BdHM4Q1dHdTcwZGNSOUtvLVNHbkkxWUI5ZzU1YUUzU1Vqa28wVmxYQkJMY0UtdmhnWFdJVnNHd2lrSmRuOVNpMkZGQWQ4YUoxb3hlcHFWZWVsbk9ta3d5VTJEX21nQms5ZWVLeGM3V0Q5VXM?oc=5)
+
+### 📍 Exit
+- **[한국] 펫비즈코리아, 라운지엑스와 맞손∙∙∙AI 로봇카페 기반 미래형 펫 창업 생태계 구축 - 한국M&A경제신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBhRFYwNGl6QzkxdG5HVWljQk80ZUVkekRHcTI0TFZ5UHN0bndCazlUenM5QTEyUE9MSlhteUY4Z1U3QXUxcU5PbWs5ZzVnVzBaTW15Zjd0Yzcwd3JHaUc5ZWVmeDNmYWE3dGc?oc=5)
+- **[미국] Factor2 Energy Raises US$9.1M to Unlock Scalable Geothermal Power from Geologically Stored CO₂ - KIPOST**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNSkNzOTRmcEVnclBFaHFGZlFqVVJYXzU0LXpsN0Rxb2I3T2xPajM4YzlIWXAtV3ZycDRVOGZMcGZrVG5mUnFKLTZMS0tWWHBncFBfM1JRWU5fQmhCNGx6SGtxdVc1b2l60gFsQVVfeXFMTm5HMEpEYnFrLUtOUTJIUnBneFBsTkZGOFJ5SXRYNmlqbkZzNURFTGxFOUxQay1DM2hQaFRuazdqRHNOWXFxaTZMWVFuSHRoY1pIWTM4RkJ0YlNpUDkzZ24yYXNFaFdBN09iSXgt?oc=5)
+- **[미국] CarbonSix Raises $4M Seed Funding Led by Top Silicon Valley VCs - KIPOST**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nOU5oUUs3NjVMS3VGQUs3TWJnenQ5cS13eUFVVlJYRjhZVzVIVm9RUGtvRUxIc2h4NFF5WTVhVE9yZXFwQlRXaW1Eem04VGgzenJfSlBOYVR1YXdqNmx4a1BKUVVRcVlq0gFsQVVfeXFMTkhOQWtrZTQtU1hRc29JX2JyR2tNMk1kUnphLXRaU28tR09VNHp6LXBscDVkUjA1aFljdHJsN2xfN1dDaFhNMnplcWRaUy0xWTNNcjZpdkw0WTRNcVFzMXhreDVVbEpiQXhBZXRJ?oc=5)
+- **[한국] [특징주] 로킷헬스케어, 나스닥 상장 철회 소식에 20% 급락 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVWRrV0IxNHlTQzRZVlZxRGsyeW1xU0M4ZWpGbXd3bnk2UTdDb2ZSYy1MSk05bWRTRFdXR0hXNlFTdHRHdTk5dTRvRjVkTXA4QTdXTmxyc2VvTzZ2RVliSlVHRW1SaWVhYm9PY2FkazVWRVNySjN1cUFJY094dlAwaEFQaWR3MGFQ0gGcAUFVX3lxTE9QdFFDQ0VQNGZrT1pxSXdodE1zbjlJdWN5R2lLeV8zSjI4dS1FQXg2ZTFTZHowb21NV0Vjb2Y3ZVAzZFFpNlRwamtwSlE4RDN0OWZnVlNlcWRMOWV4TDVRTXZ4RGpmOEdaQVh5NnRlQ1Baamk2ZjJXRU9KUTdJbVBFVkJWdHk3c0Jvbjdqd1RheFVXOXdtYXNNaG0yMA?oc=5)
+- **[한국] [ET특징주]로킷헬스케어, 나스닥 상장 철회 소식에 하락세 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Gazg1aXFNVVNSdzR1cEJ1S2VvN2tYdmpzNVJJamgyMnV2LXBXcXRCYXhIbG5XOGtrQk5xRkNsbU5kVDRLSXcwT0hFak9Zdw?oc=5)
+- **[한국] 로킷헬스케어, 나스닥 상장 자진 철회…“유동주식 비율 보완” - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihwFBVV95cUxNc3V2XzY1azI1Q1lmNHcyeXA0VHRhMDRYVy1Ec3VTS2JzX015YnZoYm11LTVaX29YRkwtc21URkMzQ3F1Um9neEtSR2xKRXAzeVNJMVI3c0FZYmgtSVg3UXFTVE93ci1PU0VpZllicW9Nb3dkejUzVkNYQ3YzU2VvaTl0RFAyTVXSAZsBQVVfeXFMTWJ0UTYyUUVod0dsRmtjVGljZHJ6YzVvSVVjVWdqUVRTbjBTY0hhN2JRcVpUWFhMTlRVd0U0QlFNdDVpd3VEdjFld0k0Y0xIOGFLU0NKM3R6MDEzYjNfXzVvZWxvVUlBUzhxRTJhcE52dFM0d2lJRGdhMVhUcVROU1phVGF3SXNPTUFDMnJpTE1LLXFnSUxmaDBBemc?oc=5)
+- **[한국] 헬스케어 트라이앵글, 코스모이노베이션 지분 51% 인수 LOI 체결 - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBTNS1NNU9QeDc2QjVJeEJ5U0tkTjdDR1ZkQnFkcFJnTmE4VklaYXh4QWJQRmNWME9zc0U1VDlpMXFKeU9iUWdyTXNTZzFualc2akRFcUZOSEt4UTBvSTdLa3YxdlY3UWV0V3pUek54Wmw?oc=5)
+- **[한국] [특징주] 로킷헬스케어, 美 나스닥 상장 자진 철회.. '급락' - 글로벌이코노믹**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY0VZSVJTX0lObmVibEtVMEFRZ2IwWXdSUEw0NUZWc01ac1dSdjBLNzNjZlhGeWRiemJwTGZmMF8yeU5zel9aUVhhYlU5UmtCZERMQlhFMVlrNzNVckVSXzc2Qm10MXlnZkFEZC1EaTJ0NXRYX29KUzNNX3ZodEx6Tkl4RVdYMVdC?oc=5)
+- **[한국] 특징주, 레몬헬스케어-2026 하반기 신규상장 테마 상승세에 5.93% ↑ - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxUDRSRnBkRU9vbWo5NUdSandHTVlVX0J4UndyMzQxUEZ0SF9DaVl0OVQ2TDlYUDdPaF9hdlFDM3pKdE5xcENmQnVlX1NIT09JQVE?oc=5)
+- **[한국] 서울대 포함 빅5 병원 스핀오프 잇단 ‘상장’ - 데일리메디**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIcHpxSElzUmdGMDB6M1oxdHJ4RVpLODJJNU9oT2hmQmNFU2x1WVBUanBBMnNuLXFMNzIyMHRzcUp0YnhwZ0YwNXRXajFsWHI0VGZycWNncWVyV1lWZ2U5eUY3d2hkQkJT?oc=5)
+- **[한국] ‘예일대 스핀오프’ 中 사플럭스(Saphlux), 3억 위안 시리즈C 투자 유치…AR용 풀컬러 디스플레이 양산 속도 - kipost.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE9taWNkclhQUFBPQXVPMjJFWDl5dWlNdkZDd2dyZ2NnSThjLVFnM1d6d2JhS21tNnVvVUI4WWF6Q1pUTjVld1I5Y2hwTmduLWYyUjFjUmgzUnVXVlBfRWRFVDZFZ0wzQkxm0gFsQVVfeXFMUExWSG9GeThfQVkyd0FCN2x2bHdMMDFLZTBEX0Z4aU13MlhYRno3bzgwYUxnam1SQUpJOTFEZkxYNDFlemFEZ1VzTzd0c09fLUZwbjYzWmJYRC1ncHRja3hVcTUxQ0FGanVCelZq?oc=5)
+- **[한국] [바이오 공시 새 기준]①추정실적 빗나간 IPO…시장·허가·개발비 산정근거 밝혀야 - 메디코파마**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBYZVhjQmNwYVlER0V0NnZQMVdZMUZpQU5tamF3Wk5FazgtMGpSNXA3b05kUFBBNzBIdklfeVVKUklQUnJZbFE1eU4zUlFwODVyWFROTlBGSXBCTHZDTzdraElwNHVCblp3MlFJTldOYXlRQQ?oc=5)
+- **[한국] 파블로항공, 50억 브릿지 투자 유치…IPO 재도전 절치부심 - 톱데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE45U2RhakFzcVdGbVNOQ1VaZFM1LUFhS0prMnU1WUYyRS1YUllwdkRXMW1Zc2FHckE0bEZiLVg2STVOdEpCSnY4RTU5V1hJS1N6?oc=5)
+- **[한국] 파블로항공, 110억 프리 IPO 브릿지 투자유치…누적 1,075억 확보 - 와우테일**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE41eWYzcFB3enlJLVFuTWVLN2VYT2Uta0MzcXFCay1PYmFGbnBHV0tUN1RBY0NMakZjWU90Tjl3LW9oa3liTUh2S0Uzd2t6V2M?oc=5)
+- **[한국] 파블로항공, 110억 프리IPO 브릿지 투자유치…누적 1075억 - 머니투데이 - 머니투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1tN0pUTndDX1o3VlJsUE9YRk4tNGxKWF9UZ0tXdG1ndjNOMWVrRHctYjQwQWx0ZEp1V3k1QXpxaV8wZ0xlU2RqXy1BMG14WUxlR2JWYlJldGpISV8zMUY2NlpwNFRWUWNVVnfSAW9BVV95cUxOVjdoTHViblg4T3l3NXJ3Sm9WUXFsY3RtcUFFbFJQd1owa29xTV9NOUJKR3dXSDhLSnktOGF6eW1xblNXYkJxam5uUG5aZHY1TU5LU3NCMG9OOU4yYTZXVy1fb0JmakNZV1NPS3R5TVk?oc=5)
+- **[유럽] 'AI 투자손실' 헤지펀드 시추에이셔널, 시타델에 자산 매각 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JZGtweTRBcTU4WDVPRTJSZkdCMlQ4bFRydkE0VGhnb1pzakp0WlNLekxFRVBneU9qSG14aEtuZFZEaDNDZjNVSTgzUFNYSTZSR0wxSW9jeEkxZUXSAWBBVV95cUxQZkpBRGxSa2ZTTjJPOXVpbzBzNDFaM0tDRWxfc1gyVjllNmJlQVVfcktLZ3dPV1RGSjhDSWhGNU1OcW82eE03QVJpZ2Y4THZldWZGYmwyS2tRN21hdjMzUWU?oc=5)
+- **[유럽] AI 스타 헤지펀드 '시추에이셔널', 시타델에 주식 포트폴리오 매각 - 연합인포맥스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTFBzWmdlZGlfSEd0OEx3c0Z4TlBGazhXNUc4Tk5RRzlDb3otU3NxMXY2eUZxMEVBZEtMeGNfVmhXZGk0alByQldrYThHRUVodGRPMmJwbFBaYUl2am1JWFpZbFJMNnBmbTRMVXpQQzhod3E?oc=5)
+- **[유럽] "레버리지 이렇게 무섭다"…마진콜 몰린 美 AI스타펀드 23조 통매각 - 뉴스1**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5tbWUwMzkyUkVQTC1pQjVEVG1VUTBsS3BEVFNYX0lKeDZHeFJtWlV5bVpMTlJYMXZYS0NRbUdEc3VfaEp6aVZPWWp5Um02MnZZeUNzOHpYQW8wTEdRSnZObEhXdEFHcjA?oc=5)
+- **[한국] JE 클린테크 홀딩스, 주당 0.44달러 특별배당 결정..매각이익 활용 - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PMXJteVpta1pwU0FPRUFkZnNjc3JJSWR5dXFSZWtXN2U4Rjd2WVJoNFF3b2cxdUJOVUMzd0JYTThCX3k3Z3lrNjFFVVJSTFBQ?oc=5)
+- **[한국] "내년 뉴라이즌 상장으로 '글로벌 클린테크' 도약할 것" [희망 2026 부산, 청년이 뛴다] - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mbHdjWnA0Y3ZUNk1uZDRuVWpUUEM3ZDkwV2ZGS2N4bmg0ZnhFTTA1THhTbFl0QlJQdUFrMUQtS2NiVHl5WWc?oc=5)
+- **[한국] 클린테크 기업 (주)이도, ‘클럽디 금강’ 매각…비핵심 자산 유동화 - 가스신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE1FM1ZuancyN1R4RlFac3FxaXFaU3ZkZlJqOVgxWkZmQ21VSUlsWTk1VnpUeHdlb3h0ZzR6MnpiUlNqdUpEVy1WaUgtQ1FLMXl3ZTctSGpHQmlWcVFkbFlJNXZpSXluNXFxLWfSAW5BVV95cUxNRjYySnhsdVB1ckFwQ3Mtb2ZpcUlscXNUNXp2MmlLQ3ZDa1VvRUZjb1FJQXdWTG95SzhwODM3Q2ViVUpLYlNUWjUtblNmQVUxQ3hxWFYwcWNYVmh5UUozUGRrR1ZqTEtBUFMtTmFyUQ?oc=5)
+- **[한국] 이도, 태양광·클린테크 기업 도약 본격화…"IPO·글로벌 진출 속도낸다" - 팍스경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1dHcwamlNejZiLUdveEFvbzAyZ1ZGWVowRVRGY0djV0Qtc3FjZlgtM3kyUjRJbnM1SEtfVXRsNHY5NUptMTdfZXZzaElQUmtSRVpaaUtIOHVzeFN5RUZUTDJkZ2xsb2xa?oc=5)
+- **[한국] 8点1氪丨宇树科技：8月10日网下申购；字节跳动成立新的豆包产品团队；美股三大指数集体收涨，微软创近18年以来最大单日涨幅**
+  - 원문: [링크 바로가기](https://36kr.com/p/3918776472022402?f=rss)
+- **[한국] Alibaba's Smart Car Tech Unit Banma Plans Hong Kong IPO - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMinwFBVV95cUxOOENhUE1IUGFoNEEwZHZNZDVTZGMzNkVQTDNTUTF1QjlLWDdSSlBWQktDeVBzeV9FeXNISHNIMXBTY3ZxTEM0ME5NR2F0MUJFZmdsYm9oVzZGN1JuLV9nTDhMOUFOTk5DMU9sc1lzWDNLR0NSSlNxY3lEOHNCNENSREx2eGtibHk5N3ZoVkVUMHFwVFZRdmxrQXhrS1U1T2M?oc=5)
+- **[유럽] Huawei Spin-Off Honor Gets Pre-IPO Investment From China Mobile - 一财全球Yicai Global**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMingFBVV95cUxNNU9Vc0VMQ0hDcHdKRWdKOG5VcFlSQURxcGN1RlZycHFLYnJpRXZDQkJpYnJfVkE4QlRvUWljOGNNRzJzdzJXczhISFJaVTNaSWtPSk81RDN4VnpZdkxsLWhMQURNRjBLb0ozZWRqb3hSX2dzVW5TWFNXajY2REg4Q0NFczVJdm1fSWJhSDBKZFNTeU9ETk55eE5Mb09vZw?oc=5)
+- **[미국] The Navan IPO Reminds Us: AI is On Fire. Everything Else in B2B? Still Really, Really Hard. - saastr.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMipwFBVV95cUxPbEt0YzZkUmhXZk9kSHIwS00wUEkzN0VHTFZsOWcwbTk3UHlLRkJvcXNKSnpjb0c3ZC1rOGMybkJnZF9ySzA5QmJ6SkZ0dXBJdWpKQnFBN054b0N2b013cUNvb2hrUk0wb3NkUmttMGtJN0FCNkI0bjdZdEczYk01cTZvMGRaZzFaYWEtUUw0d3F6bnJFOGxSTVNuOVNuNkMtNEo1N09CTQ?oc=5)
+
+### 📍 Value-up
+- **[한국] 대전 버드내초 인근 신생 핫플레이스로 '주목'... 신규 창업점포 지속적 증가 - v.daum.net**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wZExvRTNlQnVsZHd2WHhYbVN2bEpUT21TYmdHazdMZXRwZjFSczUyUHRzTTk4MFd2NXVBM3NhdGhxYXZoQmNoajBVeUh4T00?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8개사 협력…로보틱스 생태계 확장 - 헤럴드경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sWDhXNkRDN29zU2hGbVM3UVBuejRKYzY4dzJneDB3cmE5M25wUGI1dXZSczd6ZHpva2hwa0lua1ZxRjA2OTZKNzEyV1dEZl9oSFZ6S2p3?oc=5)
+- **[한국] [The Company] 엔비디아·팔란티어 손잡고 AI 생태계 확장 - 중앙일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oV0kyVnptOGVhNWNhS1BaWHNjSmYya1NNaHFXVDYzeWszZlJyMnZUNV8taUhIdTJGejlpQ0hZWTRISEZwcEhwLVozT1VoQWNQOTAycGVR?oc=5)
+- **[한국] [종합] LG전자, 2Q 최대 실적…“피지컬 AI 솔루션 프로바이더로” - 디지털데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE04a2MtOXpNQ2NrRlZTd3ctY25uYUFDUXZBZy1HT21LWWJCM3EyU1BrNHI0QUtTMGQxRTZSUlVTRDh6QjlTeVMxMmJqTXYxNm45bWZlX1c4X1hZVTBybEpZQkJLWlI?oc=5)
+- **[한국] NC AI, 씨메스로보틱스와 피지컬 AI 기술 고도화 협력 - 조선비즈 - Chosunbiz**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFNucnZxckxJclZ3LW81TDBRbEpiRDVoNmpXMTlaM0hZVGlQSGhvNTBNUHB1UWNhTWRHM1h6bHUxZGRrdFAxZUJndWdJWjVsQUc2Qk5fMnhGV2FIUUVtYXRuaTBCdTE1S3l5OWhQQW1qQWdhQkhYSHZXc2Nxb2hGZzZ30gGWAUFVX3lxTE9hQU5nSnNVai1Id0pycEVCOTItMEpHOHN1eVpiNHoycmxkMFFCeTZxUUNGQU5ESU9uYXpVRlNWOU9peS1VS1hjVnRKYmRMSlFJX19lb0MzbmlsbFdKdjU4VUVlWXAyd1BDdHB2b05WTko3NUVBQ3ViMUxQQ1FxTHRGaFpHdGhHWE1mVldYellRYmg3cXhEQQ?oc=5)
+- **[한국] BPA, HD현대삼호와 ‘피지컬 AI’ 공동 개발 MOU - 데일리안**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS2JVSkpPNk5OSVUxZ3oteWJaSDhDR09JWUdpUklDb2lpREM0SlJDMThTUXN6V2J1NkRnUnVZWlI4c1B5ZkdQNFpVTmxtaVdXWW9NaEhHVmRxWVBQejVuTXQwNlpBRGNhd1I2QVo4dHVJWmtBWmpKaDJFdDg4RldVWW9mbDA4dnJZQ213SnBEcFZhVWhmX0FKUmVtWnlmOFdvdFVjVkR6ejh0LVFoSXItc244cE9TSWNCOENLMlp0UzVqWUhIWFE5LUk2MkRac2RXRHpZTVZpYw?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8개사 협력…로보틱스 생태계 확장 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE04WEtFX3FxOVdPc1ItQzhyVExraVN3OFF3Q2tCWlhEWmlwbW5jZ04tb2tOYk44OHNMQ0E3MjVHRUdrS0VVRmxQeGdmNHgySkhYZ19N?oc=5)
+- **[한국] 헬스케어 리얼티 실적 주목: 운영 성과가 매출 감소를 상쇄할까? - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1PaFdxZmNERm5LUEFrN1E3UjhBQ1FUTDhLQkZ0SWpIdTF3YmFXM1Qtc056RUZ6eDBkUEU4OGJHV1ZvZGF1TEp0S181YjhhS3RHMExQS2xyU2EzakhMTlpxSFdRemw3RXhpLTZR?oc=5)
+- **[한국] GE 헬스케어 ① 사상 최대 수주 실적에 투자심리 회복 - 네이버 프리미엄콘텐츠**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE1xdkJhQ2dOREJMTHVqRUxIY2FUQnQwWUNSbWRnVFRvTWtXZG9WNmtZQUpGVjZWTWZmbXJKdkd3Zm54ZFNjTkd0bmpJQzVFQjh2TlQzNy01MmNYbTdfUmZidW5BWWdPcy04OVEzZ05NcGg5a3dUdG5Tc2VScw?oc=5)
+- **[한국] [GAM] GE 헬스케어 ① 사상 최대 수주 실적에 투자심리 회복 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wS3hCaFlkeXg0TndzWGZaN0JwdGZEYWFyRDRWNHdnNTZSTkprQXVNR19iOWREcWN5amV6ZWN1ME1PVzd6REZBczNTYWcxeGgwaDBibGhhVWFPd3p2?oc=5)
+- **[한국] 얼라인먼트 헬스케어, 2분기 매출 13억 3560만 달러 기록…연간 전망치 상향 - 데이터투자**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE93dElFejBwaG5iTFFIMEtQV1oyUWlkRzFMX0NadjlGUnEyME8zM0luZWhBRHFZLUN6MmV5aEhhOGVMVE1XSlY1VEpVTmFwSm5ocmhuTDVnNXB2dkplb2ZoaTlaeWdvYm5kS3FlcU52My1YSE0?oc=5)
+- **[한국] '최대 실적' 대웅제약, 톡신 이은 '디지털 헬스케어' 성장 축되나 - fetv.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sTU1lekp5RlhlbjU4ZnBfNjJQeUVEYnlxY2dLVnFIUDRrYnhvQVY0T2gwNF9MZlpodHZEY2I4c3BYQkVfZnhla2hFNGs4NnRLTGh0N0VGRXVWMEZ3S1dlSDBqVFRkWnhf?oc=5)
+- **[한국] JP모건 "S&P 500 헬스케어 섹터, 희귀한 성장 조합 제공" - Investing.com 한국어**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMicEFVX3lxTE1NLTZpTjF4WXprMWpSbWpVVDNSenN3Yl9vLVBId2VxTk5nTjRPcDlKb1dFTHZTd1dpaFpVb1FsY3FKWnFTNlhDdWdBOUxzdzh6eWdFbXRvR19TemJ6ZHhSTWxtLWpWTC1pUFVobWlXTlI?oc=5)
+- **[한국] 테넷 헬스케어, 2분기 매출의 7%는 병원이 아니라 커먼스피릿 계약해지 대가 - 데이터투자**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE9pQW5xanhCa2pfakZNdEhRVWJ4bFV0NHAxcG4zaUFBa3FId1FOcW12MXZUXy1NVmRPVnZ5OU9QcnZvc3dKWWJvNzFMMF8xajJxOVY1SlZCX1B2Zk1yVGlmRW1lNF9JZFFhTFZzSU01U0pyUkU?oc=5)
+- **[한국] KMI, 中아이캉 헬스케어 그룹과 MOU - 의학신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE0wZVRDTmg1cmY5V1J2QlA1UlRWVGxNTllBQklPMzJraWJ2ZTlxVU1VZUtwTTduMC0zbEpmaGx3Z0QxSE52V0I3SHVHaEphZVRfelRLS2NTZ3RWaUY3ZDNrWWhvX2hjc0ViS2c?oc=5)
+- **[한국] [美공시]아카디아 헬스케어, 2026년 2분기 실적 발표 및 매출 성장 동향 공개 - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1POEVXMEVsNmpkVTRtN1FtU1NacEhNVzE1d05XSERveXBYY0ZLdldGTE02NzUxNFVhOUdlcVkwamRyVVBQQ3NXQ1NPWHR1UlpDUUE?oc=5)
+- **[미국] 한·브라질 기업 간 MOU 7건…항공·희토류·헬스케어 등 협력 - news.kbs.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fVU5TX3dGRHFJMTRjRm5EVkxjT3UxY1R2VzEwcExMVktiUXYyOFVjc3UtQUV5TmI5VldnWTlaaDQ2aS1XR3hyN2tyTExOYkczaUs3TXRqeFVNdGs?oc=5)
+- **[한국] 더인벤션랩, CRO 비앤피랩과 MOU…바이오·헬스케어 투자 강화 - besuccess.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiRkFVX3lxTE5jdUlfVDlLTlJ4OTlOeWxzdWtHS0ZYSTNnLW1pbVBMT2RVUG5zdlFTTFk0ckZ5QU92UFdaUTNGenVWTTBJVlE?oc=5)
+- **[한국] 한미사이언스, 2분기 매출 3,679억원 달성..."글로벌 헬스케어 리더 도약" - 팍스경제TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WS0h2VjNNWnMxeWY5c1JQdWd1UzBzMWZYTmtuajFhNy1YX29fSzJvZ2MtaFVUVW1ua3NrUnpQQ1p4dDQzUHppUHdEbXpKX3dHQlg0SVhIUEpmY2QwRTVyOXE4b3BiV1k?oc=5)
+- **[미국] 디즈니+ '운명전쟁49' 스핀오프 제작…'신빨스테이' 내년 공개 - 연합뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOME0wNmJWcXg1em9sSjVUdWIyLXhWSjFkYW82RVdQd2lUSjF0NmJ4dEk5NXpPMWxZT0ZRQllYcTMtZVZXdzFRS28tZV9tLVhQLVUxNnkxVDdwekHSAWBBVV95cUxOWkl4dHgzU294R1hkUC12bmxTUmJISGRaUWdPbmRPMWlCdS1iZFNYZjZ5ekk2Ql9PdnRsMGFxd3EzVDRBWWRTaXN5dEh6V2h1NFBSVVNxSVNBUk9HQko1U3Q?oc=5)
+- **[한국] 종영 '언더커버 셰프' 다시 만난다…스핀오프 확정 [공식] - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiaGFDUmhRa2dodE5xeWUtZ0ljWWpSU1k4NEUtWjZ3dUJKNmdMNmlKOEhDdWtpbEpRSlUydk9PS2hJZGdUUlltNzdJNnFFaUg3SlpV?oc=5)
+- **[한국] tvN '언더커버 셰프' 스핀오프 제작…주방 선배들 한국 온다 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMieEFVX3lxTE5DemxxcFVsU0IxT3dpb0pET2xGY3JyN3RHdVFKTElfMTZ1YlJWaUV0cTlDMEoyZ3lCXzhaeVV0T01zXzN4ODR0UGxPZGJMOUxZa3haN2FOeHdiTWg3a2JpUjlkeHkzbEIzZVdEODdob2lfZGN4UUpPLQ?oc=5)
+- **[한국] 천만 영화 '파묘', 웹툰으로 확장…스핀오프 '맹종' 공개 - 노컷뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PaFJGMzQzMnhmbXNsMGR2N3pqVXNaNC00YkpUMzk5NVVnaXd2Q3FvRmp3ckxra1lwYlRNTllROC0zYmszS090LVNwMlI3QzFQUmc?oc=5)
+- **[한국] 전북도, 민관 협력으로 TIPS 생태계 강화…창업기업 성장 지원 확대 - todayan.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE05OEstUFllN1Y5Zk1OaUpHTmppOFVBdjgyXzU4Tmp5Q0tCUi1JMnFnZHZqUi1UaEM4blE2ai0xV0xyd1RUeVJGVXBuREY5MmNIUk1vNTdnN09TeGV6eG5SZG02TWY1R2NYWEE?oc=5)
+- **[한국] 큐네스티, 지역 소셜벤처 5곳 TIPS 선정…'씨드투자→사업화' 성장모델 입증 - ebn.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zei1OTl9MQUl6b3plYUJjRjJkYWpuZXhjbG8yYnhNa1lNTF8xWHFXQnBtbXRScUIwVW1mMUdSUzl0V2JZckthNDU3V3hOQ3JjS2Z4NEtHQ1htdU9heEhpYXRsU05fUVpE?oc=5)
+- **[한국] 아임인, LIPS 2.0 이어 프리팁스 선정…'Fit하니' 성장 가능성 연이어 인정 - etnews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTFBack5yeW9VanJ4UGxuRDNXV0YySWlhRXNSbllTWk1SOWNnb0FNQVd4dzFpTUlfM01IRVBqX1JDYlR2eHl1RUE5Nm02cURLQQ?oc=5)
+- **[한국] 이희용 지투지바이오 대표 “항체 SC 제형, 두 번째 도약 이끌 성장축” - 팜이데일리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9iOGQyYWtvMkMwM09QWDcwVnZTeGxzdXhZNGxESlJ3NjRzWFowQ0p2aGRpeTVNMTBfZUN2TlFUZmNMMHd5UHBjYnl4SFM3bWxUbmMtaTlFUTlFbjMxRE83RFBWaEhIQ081Ui1ieVpR?oc=5)
+- **[한국] 이희용 지투지바이오 대표 "장기지속형 이어 항체…두 번째 성장축 확보" - 머니투데이 - mt.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE5JT3lBNGx6NlI1THlCT19sVzcwc01wYllYZHhVX2U5emFpb19xb1lYeVpGYzZlV3Q4cWNxdm50TlVjeGQwVUMySk5XdXgtcXBhMEMtM1ZRdm02THBBQ09Vc0V4ZnNwWVdET0HSAW9BVV95cUxOYzZCYVdReFZxU1BHZGtjYmtUTXdYUTlad2FlMDFlUUpQUERFSDRGa1hvRF9wc2JFLXVCQnZKU2JhdGpCdjVIOTF6aVBWSVNzaEIyZW96VWJMdmF6cUNNcUNsS2Q2dlV6NjhGei1raFE?oc=5)
+- **[한국] 지투지바이오, 셀트리온과 '초고농축 항체SC' 협력 MOU - 바이오스펙테이터**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WZThFTThmek94MjJDMldBNTZSYTdxSHg5djdfLW9OUjZwOE9Kcl9UNFkzWHNaWWVvdDlSSExOQUV3RGJEMThqMDJ4aGdOeW1adWNjMFlsNA?oc=5)
+- **[한국] 셀트리온, 이탈리아서 신규 바이오시밀러 잇단 수주…직판 경쟁력 입증 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE91dDVGLUpjeWJYRXB5aU9rT05uVzV2QzJFcFljM0Y5U1FCY19tMUVhOHNOY2ZjTFo0dElwUVBlVnVKTFdQM1VkMEhHUEM0TUdEZHJr?oc=5)
+- **[한국] 역대 최대 실적에도…삼성바이오, 3개월째 대형 수주 공백 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BVHNBdnZaZmxtZzh6TkkweksyQ2h3RjFNcW5hejN6Q3RfS1JsZEJ5eExDck9WUGlMTldQSi00WjA2WW5FTVVvY2tEMkVnaVFwLVdzWEg1bWJmbXdK?oc=5)
+- **[미국] [경인방송 경제뉴스] 종근당바이오 보툴리눔 톡신, 미국 우울증 임상 1상 승인 - 경인방송 뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Nem4tNS15WjdJOXFQQ0NTWkNqbEpodm5Gc0RnNFRaSzNEc29rNXR6MDc2aDNwb1YwQzBnNTBsaUc5clZfdW5BTmZpeE0zaDJGZUZrODE1UFB5MllUZ3dvbjUtRHbSAWhBVV95cUxNZ2FRWUlOOHRqR3VGQ1FaV3htYThvZVhMWDlENnZpZjd2Z1BNTUVhNlNqd3VKRHF2R0R0eWthUlJyUzBCc1JzNGk5eTZqVW9DRzBfcTFtNy04WTJxaUNEYmgxSnNpVDVVVg?oc=5)
+- **[한국] 셀트리온, 이탈리아서 신규 바이오시밀러 수주·공급 확대 - 아시아투데이**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9LV2RjazBKYWwzQnNtcF9SdmZ6SDhzT3lTQUFJa19rMWlTUDNHbzZVcldUbFhyNnlFWUw3cEdjdU1PLWE0WFN0cmZFRjN2MWt0V0Y4Qmxjcmxpc01iYkM1UF9OZVhGSERud3FIOHhB?oc=5)
+- **[한국] [리포트 브리핑]바이오비쥬, '하반기 북미 채널 확장과 다각화된 성장 모멘텀 확보' Not Rated - 하나증권 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTFByU2ZIWUx4clVNYnlkcHhYRExyQ053NkM0NWRPNjlmZE0yeDI4dE1tbHR6d01xZTZWV0dVS1R4Y2M0OFlVWWtoSjZvQnZGdlpHOUc5LWVvNDE1cEh5?oc=5)
+- **[미국] 셀트리온, 이탈리아서 신규 바이오시밀러 잇단 수주…직판 경쟁력 입증 - ebn.co.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE03Sm5VOHlPMV81SFlkR2MxMG9IMEJOUHozRG9Uc0wwTWoyT0JueFV2NkhTWi14QW45TnpzN1lMOE52cS0xSUFubHlpRFh6QXIyOFhJRTRYQ21SMlVuSGdReHBQeW1ndVQx?oc=5)
+- **[한국] '미립구' 넘어 항체로…지투지바이오, 두 번째 성장축 키운다 - PRESS9**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZEFVX3lxTE50enpIaXJjWWVVdEhhVllrQmVzVjFmUVBjMElQeldnWVBCVDhZN2FFcE1uVVBPTlpjZXZvZU9zWVFlZV9lcFdyTmVzV21maGtXbHlHZmd4dU1rTmZOYWNpNUNlUUo?oc=5)
+- **[한국] 셀트리온, 이탈리아서 바이오시밀러 수주 확대로 직판 경쟁력 입증 - 파이낸셜뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tZ3NWY2phRkd5NGlXM2FsYmVVV2VFM1V5N0V3RTRWOEZIUm5uUFRQc0QwTVUwV083LXRoVG5hczJzdHVmREJvSUdVc1Q2cUh6STVEdnF4MVZPdw?oc=5)
+- **[한국] 유니온바이오메트릭스, 합천축협과 스마트 이력관리 MOU - newsis.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wOXMtZGhYM2pJbmpRbnFLWEVLaFFMSWxnZUVkMmNLekViR29tMS1DQURzNWNGTU0wYmRLTDF6WnV6RnRmNmFjWVhfTXZXMXVodGwtSVo4N3JTRjBvcXNhVdIBeEFVX3lxTFBfcHpWWG9SU3hCbWlNcUZJR0RyM3hJZ1N4UDEzZVhCb3dvU3JISXZGeE9saFZGMjdBSlB5cmJmMkNIVkFRcFhmREpmTVpvWFVqU1RBX0ltU2QycWZOa3hCSGtQWm52aER2WVRXaktCWk53MWNibU5SVw?oc=5)
+- **[한국] 와이앤아처, ‘2026 예술기업 성장도약 지원사업’ 1차 데모데이 성료 - 비욘드포스트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMie0FVX3lxTE1hSy1UQS1sODdGanlsOEtuWllZNEVDY2U5SEkySnp3QmY4amM4SlJVRnJlMzdmYmo2cTVBbnJJeXNNLUp4dzBBelRld2tFbGR0SFhoUzExOHRCMW82VDJFcGVqYVoxVERsTTJvX1BzVmlYakhUZmNTaEc4dw?oc=5)
+- **[한국] 울산 콘텐츠기업 투자무대 마무리…IR 데모데이서 성장 가능성 선보여 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xa3lGbjMwekxfX3F3SGxncndFU0lXbDFlMkliUDNDaWJQczNRWVkxUHdzV1FJX2FVQWg1a2FMdUR6TlVRM0txdUJKNTZrWXlxck04?oc=5)
+- **[한국] 아산나눔재단, ‘아산 유스프러너 데모데이’ 성황리에 개최 - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aUXowWnhDc20tc092SGVDTF9PdjduRF9aWnJmaDAydHM4aWp6bnJ5bTd5N2lYZmZHdzFfd1E1X3VKZ0RySnEzUVRqYlpaTmQ4ZGfSAVNBVV95cUxQeWl3Qnc5aS1PVVU4bEpHTHMzdzVKTXRHeWwtNDVrQU84TE5IUzRpX0Y1WWw1M0RQQ2tKOGFHamg1RVN0cnJKT2hEbHBoQ0ZhMUwwbw?oc=5)
+- **[한국] 기보벤처캠프 18기 통합 데모데이 및 수료식 성료…70개 혁신기업 성장 발판 마련 - 전자신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JVS1QOWsxd0NfNXVpZ3hzdWtVQm9JUGpZUm1HTHI1UG1aUGZReWdtbzk5TmJFUFRwUUxQWFA5aTVGWlRpSV82RmRQekRzZw?oc=5)
+- **[한국] "4개월 간 고속성장"…IBK창공, 대전 9기 데모데이 성료 - 유니콘팩토리**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE1VQXFyM3NoV2p1cjJ1OFAxd3R5eDZRZ1pnTEZwSTljQWdsZU5LNjJ3cE5zWnpGMGVIZEo0eU5BMFdlUmt1aXFoZVgxQjZWY3p4dnVkZUJZUEV0MDhLdEpURTJSS29UTGtLcFRmUQ?oc=5)
+- **[한국] 해성에어로보틱스 "반도체 공정용 로봇 감속기 수주 확대" - 마켓인**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMic0FVX3lxTE1TWFgzNGhadVN6SkNMWklaUXJfTnlZLWVFZnhRb0VyR1daUWVHUzZ5YXdCQTlQaGs2T2ZDc0Q2RkpNeVJCTFhMNEZna01SMXVacEx6MWZ3c3Q2RXkxWFFYN1I4QjVQdVk3TkJHNUVXZFVUWXc?oc=5)
+- **[한국] [홍콩 특징주] '징둥' 로봇사업 확장, 특수로봇 기업 '세븐스로보틱스'와 합작 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JM0kyQkNMNnFHRC0zeTBjTjdBSF9JVzMzVHA0bmowcXFMUzh0SElKc3dNQ1ZHdHhtOTQxMm5nX0ttaFVXOUF1emxYdTI3V1F5RFlSLVEtV0JSejlm?oc=5)
+- **[한국] 해성에어로보틱스, 반도체 공정로봇 장비용 감속기 수주 확대 - 뉴스핌**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OQXRYSlNqQ09fZ0h3UDkxTXBBaTlpbTZXS25RQ2JfMDFaRmFCME95NnNEdjhSX2VkVkY2Yzdqa3dhYVlXWHlUMjAwTkN3Q1hXRzNfUjZvemYwMlBJ?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사 손잡고 로보틱스 생태계 확장 [로보 인사이트] - 서울경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE55RHNVYXdCejFHUlY4N3hjOHBfNUcyUUQ1U0VXVWZIbEhXT1ZZbk9ZYVZiNzVwRkcwb0ZoVUVPaHlPN21MZmwwMVR4QW1xMHYzOUHSAVNBVV95cUxQdVJucTlRSTM5dDBOOS0yTUxXSkEwS0pOQTNMdkpWWjhyYWo2ZWRoSE84d2IxMnJWY0htdUIzaVlzb1QwQVRMYURRRUxwcDcyQm9GYw?oc=5)
+- **[한국] SK텔레콤, 피지컬 AI 스타트업 8곳과 맞손…로보틱스 생태계 확장 본격화 - 나눔경제뉴스**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFB5RFBKcXo4WGM1cjZyMThlZjZ0WXBEU2tndExVT3pHYU05c1lyaVZSeWpqeUlMWHFJcmFOa19XZEdxOElDNlZfNk9DY2ZVZ3BRLWFDRFZHZ1ZDcy10TzFzTktsVUgxUHFnV0JRSQ?oc=5)
+- **[한국] SK텔레콤, 피지컬AI 스타트업 8개사 협력…로보틱스 생태계 확장 - 헤럴드경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZdWhHV2pCbnlPYUI4UGJpRm5YRGVhQ0h5NTRGa1NMeHlnUlBnZHBoa3JJdTk4QnJqVkFRRkhVTU9BRnBnRDVHRmZrM0sxS3ZXS21NWnRR?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업과 손잡고 로보틱스 생태계 강화 - 디지틀조선TV**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTFAtalphUUJjWS10OGFySTg5d2U3dUE1MXhIcnZFVlhFUXFyeFp1N0k2RWlkVHV4NFUwbEpOb2lQR0RLZ0FZUW9pSTVjWnlqMmhmWnNKcC1PcWx3cjdlM2QtcHNvODFtM185amY4YVlIcW9YS1FPT1djcjROSkc?oc=5)
+- **[한국] “로보틱스 생태계 확장” SKT, 피지컬 AI 스타트업 8곳과 맞손 - ER 이코노믹리뷰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFBwTE9XUDVuNHRLZnNfcVFjbDRhU21RVGRDWXc0N0p0UVV6aGFqRW9ZVmNrMGdjazZXcV9xWV82UjVNX3NYd2Q1dFlwU2VpZmtUX01qZU9CZUM1aE5sYzBqOFBUWlJBMkMxc1hWTQ?oc=5)
+- **[한국] 캠시스·코라스로보틱스, 'AI 로봇 비전 플랫폼' 공동 개발 MOU - 파이낸스스코프**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTFBuZElYUVoxOWVZclFGUVlsN0dwaGt2MGpKVWNQWFpOYlVmbm5HQnlsWHlodF9rWVlPbTZNZi0tS1JmTm9sWHJkQ25pOVhfbDJSSzBEN2tHcjI3S19ONDgzemduNFBpcmVxamc?oc=5)
+- **[한국] SKT, 피지컬 AI 스타트업 8개사 손잡고 로보틱스 생태계 확장 [로보 인사이트] - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yRW96U2hSemhqb042UTM2X0ZwdXVQbDh1cGdmbXZHOWl5SFN1WW9Zd3djU3dRTGM1QWtvVnVScnpVTmpPUUZRbHVBNTlBcnNKMUFB?oc=5)
+- **[한국] 플랜트너, 알긴산 국산화 사업 성장성 인정…프리 시리즈A 투자 유치 - 네이트**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JcWdEWnhlMFFxVm1ocFBEa25uOXROXzQzQ29sWDFLMXlhOVVzRUlaZlBJdHktV3dRVHF3blpIOE9PTFdQRGZMVUFKaVdTZE5LLUNZ?oc=5)
+- **[유럽] [투자 라운지]김현기 스톤브릿지벤처스 전무 “AI는 이제 기본 인프라… ‘빅파마 맞춤형’ 기업에 초기 투자” - 한국경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qSkZYdjh1VUpLUWNweU5od0otbEpNUFg3d1RVd1ZRQ1RhNEh6aUFQZFp6bkVpMnQxanJyWnBBQmpNU2lXR1BYWndQMkJkTkx3YnZhX25TU3Jvdw?oc=5)
+- **[유럽] ‘포들’ 운영 라스트스프링, 브릿지 투자 25억 유치… 글로벌 사업 확장 이어간다 - 동아일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidkFVX3lxTE8xc1lORzUyV0RQNzlsMk5sMnFQUUhNNjMtQk1McmlEYTUtTEhnQlFaU01ORFFFTXl6WDlwdUVWX2hqU1RVakx4bm9CUVlTNlJuRzVtcm9WS0s0bHg3WkdzVE5iczkxR3V4WVp6b0dpekI0aWNLMWfSAWZBVV95cUxQQVJybnNZOE1xemZVTEdOR04tUDZ4aGRIeWMyYk5JSk5nSUo3MFBRVmkyeU85TWpmVF84bF9PcWFOOG1abW9iMkFydkJ6UVVZM2dfZC16Nl9BY2pvU3QxMEJ2aVpxR1E?oc=5)
+- **[한국] 광주시, 청년창업기업 성장 사다리 놓는다…기술고도화·엑셀러레이팅 참여기업 모집 - sports.donga.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMickFVX3lxTFBVMmx2Sng2aFo2MmE0Wk5XNnlVSHJ6TnBieWk4Rm1ILWF2dWFoVktXMWVQYnNKRm9KSEZEZXQ1eVkzMW1taUVfdHVSa3ZGOFVNdUl2Sk1QZWdWdms2cmVVQVZqVUEweDQwSk1yc1MzNHc2QQ?oc=5)
+- **[유럽] 알파랩, 머스트비전과 ‘외식 업계 셰프 IP 활성화’ MOU 체결 - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9mREo2ZGljVHFOZFpRZ19vT3hUd3doRFJSbTRKazlsZmlBWE1VMUpIemZfZjMxRXdGemd0eGVsYkFoOUlkX2F1YW1xWGhocTJjOTlMTGVlVTY1amxWUEJfSGtFYlZjeUZJSVloZQ?oc=5)
+- **[한국] 아마존, AWS 37% 급성장…'AI 투자 회의론' 잠재우고 주가 9% 급등 - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE9OSW0yNHpNcWRWU2FaS0xxVXhtbUMyQ21ONHNZc1JuZWNzNGdGQ1I0RDRmYnNER0ZpYURQWmU0ZDgyRV9XN0hFV3ZjNUx3YnNfMm55R2RIUVdqS3IxdlVZWDNrLXEzU0xEaWc?oc=5)
+- **[한국] LG CNS, 상반기 매출 2.8조 달성..."AI·클라우드가 59% 차지" - aitimes.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE13eC1EV0JGcVRuYmRGWXVVSFozTlpIelNla2JPZlNYNWdMN1pad09kelc5R2Y5cGllOVhuMzRxdXc1ZjdvWlFiMnQzMGZGZDZQQWV2Sm5tNU5fQXBlb2dDQ19UT0ZCc3ZrdVE?oc=5)
+- **[한국] 캠시스-코라스로보틱스, AI 로봇 ‘눈’ 만든다...MOU - 헬로티**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjUVFmRjRhS2RMWWg4LXlWWE5oNnQtelZyVGJTSEw5cjVZQVQ3LUpDREFLUms0RDUteW0zQjJJbDRXdlR4SjFodFhuWGpEMm54R2l0QUNhcHJodHhWa280?oc=5)
+- **[한국] 성장·탈탄소 다 잡는 '클린테크' 뜬다 … 10년내 시장 3배 성장 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GRmpfZnJmdEFIY1NTbnJESnZEcnhrOGdZR1ZlZ0VyOGtRcDBCaHJaSEIydnNFVXRkQnhLUFp3dEJwOTZGVDl2VmVqc3pTYmJlR3hOTA?oc=5)
+- **[한국] JE 클린테크 홀딩스, 2025 회계연도 순이익 106배 급증..2030만 싱가포르달러 매출 - 매일경제 마켓**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlQVIxdXJJVnE1dVVjNE9VVTI5R1F5T2ExYVA1ZHpWX2JHV0xGNG1FSUtPc2dnVUxYNTVhNUhqRmplQVFsaXFDN0lsQ2ZGRGRjSVE?oc=5)
+- **[한국] AI 버블 우려에도…블랙록 “클린테크는 구조적 성장 국면” - 임팩트온**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qd1I1UG5QcUlWU29hUkN5ekJIT0Y5Q1FpSVNocUxna0otS0RLTktPWlR1YjhELWJ5eVBEdFZ3bkZPcTNYMW9hbzZhS0IzMUtHSVdMVzFOc2w4Y0tyM1NaY2VlYy15V1ZR0gFsQVVfeXFMTWNIeWhpaEZDbkZGMnFVRjQ2eHhaMjdJYlc3ZTBLUmR6SUxZVnVIYTB1bHNUU2sySk4tdG9QWnh1VDJKcnlIb0ZNdGJBRGZ4SjNTQ3ItNW01dWRpYTZ1Q1lwNFU4ZWE1YmVMZ0Nw?oc=5)
+- **[한국] LG, 클린테크로 미래 연다…“ESG, 비용 아닌 성장 동력” [공존을 택한 온기UP] - 시사저널**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE9vbTNwZTNnM3p1ZHBFbEpkd1c4NDVSZkczZW1QNHdiLXpkOWd2WjBIeFl6LThqTEx0NnBwOGRuNUNLYjJpb2xXTWJfTlhGaXF2Q1BManY4NU5IVVJEQklhVVJlQnFMeGJwSkhKbXIwc9IBc0FVX3lxTE1fZkktNVE4UG02QnlWUkdKMlV5bEZlb243NXJDc2ZReEQ1bl8tdG5ZMU1KNlRxa0xLVnFySGtmb0I3ZmlkWThDZHA3aWdiZVVIM200a3g0WVlVYjJLMjFMN25EMUg2RVpaeXJtOUUyaFppbFU?oc=5)
+- **[한국] LG 슈퍼스타트, 넥스트라이즈 2026서 AI·클린테크 스타트업 선보인다 - 한경매거진&북**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFAwakVyd3ZxVG9MOE1DVkdNZUJUNmwycmlZMjc3QlZFSGtfSUt5SFJYdXJiYzVQQ1dRNFA2REVuVnExNHM0bEpKeGItVzZvcjRzakdCZ3JxeDJvTVotUDFyMkhaZzFOYWhZYmhR?oc=5)
+- **[한국] 국내 클린테크 투자 트렌드와 성장전략 - 브런치**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CaXp0dERzNWdDb0lkckh0T2hFa3RBMlI0Qy03Z3NTUzFVdnV4Y0V2SzEwaXd0U0IzRDR3ekE0bGRXTTJjbGNVOEpVSWtOajI1QUE?oc=5)
+- **[유럽] LG ESG보고서....배터리 外 클린테크 사업서 매출 8.5조원 - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oa2dfdVExR3JXNHc1N2I2SkFrTGM0eUtmcmNWX3RkeUtjUVJGTHFVd3VQaldyVE8xS3ZKZDIxMlJONWo3bTlRWTF0a1UtS3NhbE5jMVRR?oc=5)
+- **[유럽] 두산에너빌리티 동반성장지수 ‘최우수’, 한화솔루션 S&P ‘1등급’ 클린테크 - 데일리한국**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMib0FVX3lxTE5kQVgtbjFHODZTamFGSmZodHBYdzZSenZlTmI2Y0hHdzBuWWE2UEZxbzhxN1FtXzJNS2JPZUlGc3JTeENwa2o5S3VZeUVxd0ZlcEpIOFhRQzlLYzd1YWR2ODVNbkhHNmxLUGIydWZfZ9IBc0FVX3lxTE9zQjRSM3hjUDJJV1NlcTh0cUxxU1FxOUZVR3hySWgyWFY4NFJEa1BBX1plVUFVWkFxMkl5QngyR1Zkb0ZOalhsQ1NpOXBuVDFFdXBkTEtKRlRHVnFTX1FFSC1aU3RPSnNTN0l1OGVqNl9qM0k?oc=5)
+- **[미국] LG전자, 클린테크 사업 성장 속도낸다 - 부산일보**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMidEFVX3lxTE9KZEE2cGhsdUczMDNyZ0hJVjdtbEhRdVVlZlhfczV3anFONDNmS3JlN0RncFF2VExpa1N0aFpRN2xxYmkwTDhOWEg4UHpjYjNFSVFVR3JUSWxMOC01bDVvZkpfa1JRVTE4aGZZcUx5WXZtZmZP?oc=5)
+- **[한국] #216[8섹션 심층 리포트] Eos Energy Enterprises(EOSE), 고위험-고성장 특성의 대표적인 클린테크 투자 종목 - 네이버 프리미엄콘텐츠**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikAFBVV95cUxPejYycWpkRUtrUlNCME83X05XQmROeFEyNjdWVFpmQVRIaVZpVXJkRVNPZjNiRFVfVzNqLXRxYmdPOUNzSnpsUjhWLXBJWmtJd1lhak9DUnROR2dhanc2LUdCbnJUNFl6bnBlTHVJUGhHN3dpMGNHQUlMankxUjIyT2padXJiQXlyMXRRVEtKc3I?oc=5)
+- **[유럽] LG전자, 英 옥토퍼스 에너지와 클린테크 협업 MOU - 민주신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QSi1lSVBjWjhBa1B6YllqLTYzOVNNMUNHb01PQXlrVUJpaVhFVXRwcjVsZkRhMk5WM0ZqQk9aV3gwVC15bXZfUEl4NU53eEp1TlZVWDFHYy1KZ20yMllDYl9pQlZJQlXSAWtBVV95cUxPWGE0Rzh0NHZOZWM4N0FnUzBfSWhoR0c2YWU1X3AwUjNQREU1WENFNzJyREFJTk5uTzZPeEszWkFDb0JNQWVfNmFxUVFibklIcnlVdWlMYWFJN1pOc2dkbHhyeEtEc3QwdGhiVQ?oc=5)
+- **[유럽] 두산에너빌리티 동반성장지수 ‘최우수’, 한화솔루션 S&P ‘1등급’ 클린테크 - 한국아이닷컴**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTE1GanpCUmwxd2JvWm1UYmhSVFh2dkNQZjFyNkM2NVd2REhZZFg1Q2o2N0hSYTJqQmFRa18tTnlOemZKNWxxcVhqSlQ0UjhLUEZFTUl6Q3hrSmZFMDctTE0yREdEVlZDS2FDUHVZ0gFvQVVfeXFMTUN0RDZ0dzFGcm5laWJISVZlZThKN0FfSkFhZUdqZWxKNF83TF9SM2ZTOXFqbTdSSWtOd1RPV25BVHVuWWpaODNfTlNhektjQ0VRV0pWcXYwTmJWcjNPeTcxS1pGVDQyeUFFQ0VHc2ww?oc=5)
+- **[유럽] LG전자, 英 옥토퍼스 에너지社와 클린테크 분야 전략적 협업 MOU - 뉴스웨이브**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiakFVX3lxTE84RWZVR2pIY1ZtNFAza1VFZFpCTWlLNkZaMHpfMDhZYjhvOGhuU0xtVGVESDhrNWgzWXNvRUFsSTAydmNXOUkwSi03aGhVeUozaW1CckRzX0ozR3ZJaUJjRG9DalNwa0ttRVE?oc=5)
+- **[미국] LG전자, 英 옥토퍼스와 맞손…클린테크 사업 성장 ‘속도’ - ER 이코노믹리뷰**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE9Iak45d21GZ1V6NHVDQkhxTGl2UWhtMlRPNjhfVWJpRndKTGVFaV9idUthS2dqdEFoa19Ba2cyU2xqWFlDQlkta2x2TGlPaC1KMFpQMkwwMTVUSG5TOUVvZjRSMER2SEI1amRLNA?oc=5)
+- **[미국] CareCloud begins to notify hundreds of thousands after hackers stole medical records**
+  - 원문: [링크 바로가기](https://techcrunch.com/2026/07/30/carecloud-begins-to-notify-hundreds-of-thousands-after-hackers-stole-medical-records/)
+- **[미국] British defence startup Agon creating virtual battlefields to combat drone attacks launches, raising $30M**
+  - 원문: [링크 바로가기](https://tech.eu/2026/07/29/british-defence-startup-agon-creating-virtual-battlefields-launches-raising-30m/)
+- **[미국] Not just OpenAI: Now Anthropic says its internal models got online and cyberattacked 3 other organizations**
+  - 원문: [링크 바로가기](https://venturebeat.com/security/not-just-openai-now-anthropic-says-its-internal-models-got-online-and-cyberattacked-3-other-organizations)
+- **[미국] Mastercard spent decades training its fraud system to see bots as thieves. Now bots are the ones doing the buying.**
+  - 원문: [링크 바로가기](https://venturebeat.com/security/mastercard-spent-decades-training-its-fraud-system-to-see-bots-as-thieves-now-bots-are-the-ones-doing-the-buying)
+- **[미국] Hush Security says the AI security problem has shifted from protecting models to governing identities as autonomous agents spread**
+  - 원문: [링크 바로가기](https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread)
+- **[미국] Companies are finally seeing AI ROI — and now they know how much more value it can deliver**
+  - 원문: [링크 바로가기](https://venturebeat.com/technology/companies-are-finally-seeing-ai-roi-and-now-they-know-how-much-more-value-it-can-deliver)
+- **[한국] AI 스타트업 5곳, 디캠프 1년 만에 평균 매출 3배 키웠다**
+  - 요약: 스타트업 성장 파트너 디캠프는 지난 30일 디캠프 마포에서 ‘배치 3기 디데이(d.day)’를 열고 1년간 배치 프로그램에 참여한 AI 스타트업 5개사의 성과를 발표했다. D.CAMP, a startup growth partner, held the 'Batch 3 D....
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102742/)
+- **[한국] AI가 ‘답변’ 넘어 직접 일한다…NC AI, 에이전틱 AI 국책사업 주관기관 선정**
+  - 요약: 이연수 NC AI 대표는 “이번 과제는 AI가 단순히 답을 제시하는 수준을 넘어 기업의 업무를 함께 수행하는 새로운 패러다임을 제시하는 연구”라며 “기업 환경에서 검증한 에이전틱 AI 기술을 기반으로 디지털 업무 혁신은 물론 피지컬 AI까지 이어지는 차세대 AI 기술 ...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102655/)
+- **[한국] [컬처슬로건 탐방기] 베슬AI – 흩어진 GPU처럼, 흩어진 생각도 잇는다**
+  - 요약: Sharing 200 thoughts every Friday , 'T5T' I'm working on this project, but I'm worried because this place is a blocker. However, as the company grew, ...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102542/)
+- **[한국] AI 치과 플랫폼·초정밀 제조 주목…벤처기업협회 ‘이달의 우수벤처’ 선정**
+  - 요약: 제일프로토·이노바이드, 제3회 '이달의 우수벤처' 선정초정밀 제조기술과 AI 기반 디지털 플랫폼 성장성 인정벤처기업협회가 기술 혁신과 성장 가능성이 높은 벤처기업을 선정하는 ‘이달의 우수벤처’ 제3회 결과를 발표했다. 이번에는 제조 기술 기반의 고성장 기업과 AI 기반...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102599/)
+- **[한국] AI 도구보다 ‘문제 해결 경험’…그룹바이, AI 핵심인재 5000명 확보**
+  - 요약: Like this: Like Loading...Related'Problem-solving experience' over AI tools… Groupby secures 5,000 key AI talents With the spread of generative AI, co...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102589/)
+- **[일본] AI가 만든 ‘가짜 논문’까지 잡는다…무하유, 일본 교육시장 공략**
+  - 요약: 무하유는 2020년 카피모니터를 앞세워 일본 시장에 진출했으며 현재 일본 주요 대학을 포함한 80여 개 기관과 약 24만 명의 이용자를 확보하고 있다. While existing plagiarism checks focused on sentence similarity, ...
+  - 원문: [링크 바로가기](https://www.venturesquare.net/1102556/)
+- **[한국] 3D LiDAR 기반 그린에이아이, 충남혁신센터 추천으로 팁스 선정 - gukjenews.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTFBmWmo4UHZ6LUJXb19YVDdMTS05TENpT3I4N0dvbEpFMkZKQm8zUDJZRmdUZF8yc29XNWJHXy1RM0s2LXNYRUdDQlBnV1MxNTNWMWtxVnoxSlRwalBmaGZDTVZVUkFYQV9JclhUNE5R?oc=5)
+- **[미국] Stack AV unveils new autonomous truck after years in stealth mode - WPXI**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMivwFBVV95cUxQVUxyaGR0aEhIbFRWYk52NHR5amhOTFJTNE45dWxwUWZCc2ROdkRFenRqdHg3bWI4dFM1N1YwbFRBTnJKcDVIWDh5THZfOHRTdHZ0MjE0ejRBLUdpbWVvSF83NVlJUGo3M0NOSmhXOVpFZmNNMHhYcmVCUlRWYlBXektZS2VRVVlKdXVlQnJLRUVEOWQzWGY0NTdaQVVySlB4U3dVeHBGYkkzb3ZHaTRLemxaR2N3NEdtT2ZWSXFVTdIB0wFBVV95cUxQZHppeEUwaFpBU3BySTluV216LVdJLUtGM29kSWlNY1dHYWlRQUh3NTV3REJlbDJRRVJLSlBlWjI4NTZXMVFENlduYXdELUZhdjc1MHFmUnVtNnY3cGEzTklUblp1T1ZMX0w0NHgwUEZlZFZSc0xJNTh3S2c2a1BRbzI0N2k4d3EzYmxFT1FVbkQ3WHFSRy1POWxBTEdBZ2FfX0R0OUJCWWRXcnppNllTeXlUT2EtdWYycUljODRlYjY3RDBPaEdYSURmVjRlWDNiVVhr?oc=5)
+- **[한국] West Harlem: A Secret Neighborhood Coming Out Of Stealth Mode - Bisnow**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiugFBVV95cUxQaGRObEp4NVZwTmRteWhNc0YxN29wZExfRVEwWi1ya1FMMm03Y3ZleVQxNy0yaWN0dUdCc3J1Qkh4VkRTc1VVNWpOQjc4Z3NNR2JoQi1MX09ETm5jT212YkJQZkk2alhJMVZaLTRTOGpZOW1zQnhkQ29hRFNLdHFfM0Y0UU0wdVhlc2hTM1Z3S1BsN0d1UndLWE5ZbTROekwwX3hxbi04RkZiLXZZd3c2SmMwUkg0b3Z4bGc?oc=5)
+- **[유럽] Dux Emerges From Stealth Mode With $9 Million in Funding - SecurityWeek**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijgFBVV95cUxQMHozODAwNkJXNVFHWEFZV2VoQ01UR0YtV0lMVGhKUGFYTGp0VU1ramJ1eUpRVVVWRzJFYm5EWW1SalVRdU9scnVZV1k1MHhTeGxwVkhWYnBtaG9qcGlSZVozZWpkSDFlMzJtbi1FU2VSbDZXU0tYYzRZZDNoLUV1WnoyZHNwLXVveGVDRUJB0gGTAUFVX3lxTE16WjdpMlV2aXhZRG1XZWxET0hpSzlWeU5nem1RaDdoZGNlT3ZxWEc4RGFTQVFhcVlZTG5JS2xWVEhhbWkzcURnTGxEZG53NDk0RWpZbE5ydWo4bEpKeW5oSi1ob0NnVlVKLVVKZmc0YzdBTGIyQndlZl93QW1lV0VhRjlJdmU5Z3dtLUZKdHh0X3gxRQ?oc=5)
+- **[유럽] AI 날개 단 아마존, 2분기 매출 288조·영업이익 39.5조원…AWS 37% 성장 '18분기 만에 최고' - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zUGVtOVRFMzhJc21XaTJaN3BQa0ROVXpMUFNVZm9jdFBZT2xkTGM4TGd0SV9GY1RMajFNTm9DRlJNamZqSEZGcDN3NlhuRHN4N25WSUtQZ2JPV3U5eG5Nd2pzb1JGNEU?oc=5)
+- **[한국] 특징주, 매드업-지능형로봇/인공지능(AI) 테마 상승세에 8.48% ↑ - 매일경제**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QX0hyeXRxOHRhY0EtVkcwdmNOb2lZbEp1N09qMGVnLVBhYW8waW84TjV3a2RETXVFdzVxUUpabUo3UmNPWnQ3emhyRzlCenFIQmc?oc=5)
+- **[한국] [이슈/한-노르웨이 인공지능(AI) 분야 협력] "AI 신뢰·혁신 함께 이끈다"…한국·노르웨이, 글로벌 AI 파트너십 본격 확대 - 코리아포스트 한글판**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibkFVX3lxTE9PWFVLYjJJOW0zeDJIMVRlSmtFdUVPb3lyWXdid3B4UnRvdlV2TGpDN2VqakJlZ0dCYmt2Tm9ObWFwRGpkT3UyLWpsa0JYZHhGM2MxSVBVb2RVbE5fZm8yWndzUkZPaU1leTVabnNR?oc=5)
+- **[유럽] 담빛청소년문화의집-국립광주과학관, 청소년대상 1박2일 ‘인공지능 특화캠프’ 개최 - 서울뉴스통신**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMia0FVX3lxTFBuYmZWZHNCOThyY2c4Z2duYVhqM3JRZ0tUR3ppNExkY1lMOUM2YXN3T3ppdDNIZGR0eGYzOWs1ZUpaRFh1N2twOVhKMEcyVU9TcVFWbGJQSkhBeUExVWdPWTN6T25RUWg4cXV3?oc=5)
+- **[미국] AI data center boom exposes labor crunch as Schneider Electric, Iron Mountain push workforce development - Fierce Network**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikwFBVV95cUxNM2pSN1lhdTRVel95RFRZSjdDZ2NERWhjLUFKSFFlWW9JcEN5eGhmZ21pRUw5NGd3bUJKa2lmMkwzU3FPOFNHQWptVTV5aXA1SHJ5U1E1Ymt3UjVpQkN5MHBuRTJtWVM1dWV0Zkl3QVV5WWNXaHdhdG9yMEtnR3B4dWdSY0ZyU3hEUjZGZWhZa1FZUHM?oc=5)
+- **[한국] ‘Right thing to do.’ Manatee County puts the brakes on AI data centers - Bradenton Herald**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMifEFVX3lxTE04c0xudTJscWZZaFRKeTRBcElwa1FZUzBmRnlCYVpzTUtvWUw3TUNwM0lHNk1IbzBBWDRvdDlHZU1mNlhTNV9EQjV3M1hyYld3MjRHOWpxZ0NnVHRUZzNITVlwQjVGZV83NkJ3NkNmOUdBTDNmWnBZM2ZFc3nSAXxBVV95cUxOeEhGdk1iM1hVbGpTVHkzZ3k5dGRieHl0dWJiSGRCQnNHVV9KV3ZIWFl2aUNEVzYzYTlMRlZnaHdORS1Gb1gzS0tHZTA1eFgyX0oxaUhmRXVDY3RnVVUxbTdNbkpnRjNOS3RGUXBRUDhrWV9kaUU0MjR3Z0h1?oc=5)
+- **[한국] 手游要用AI超分、帧生成，最后一块拼图也补上了… - 电子工程专辑**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiXEFVX3lxTE10dFliWkVpVWxrTkFqWnpFV3Ixa3FFd1RNbEpNWGZrclNlUV8yVmZaR3V1c1I2aWY0QWhxTmtnZHhhUmxaU3pwbG84WkpIUFU1YzhnYnRhUk9FZDkw?oc=5)
+- **[미국] 調查：中共軍方正廣泛向美國AI「偷師」 - 大纪元**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aTU0xY3lzZVRwM0RIZkdweXpVRWl5MG5kaXNHeGV3blFuOWVaWTFGdFoyeDVOZDE0YVNQR1VIZE5MUlp6Sy0tWXN6OFpGS1lORGxyUFVXekIxaWtXczJPX9IBZkFVX3lxTE1wRGtDM3FWVmxVdEdodEd1RkJYeTNHT2JLZmpuS2ZyaXQ5a0U4bmQwWnJKS2w4cUJoRXprdjZzR3dUamZnMURGaTRmMzM4aWlMOUtUWHdoZnlWcGUtRkV1QW9CelQ0dw?oc=5)
+- **[한국] 新“易中天”来了？AI应用爆发涨停潮，光模块龙头反弹，创业板人工智能ETF华宝（159363）怒涨7.55% - SOHU**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMijAFBVV95cUxOV2VzQnFRamNZRVJ6Y3R6eWNhdERnOEtBR0R6RVBLSVZmU0ZCRjZkNHdOZ0NwUTFfcmdQMGx5SUxPdm4zOFNWcDFIUnhtSDJxS3d0b1VXTlkzYzZlcWhsVmU0a1VSci1MOUJ6azhFN2hhRGE2R3k2Q1FjcllqajdiaHdvcktqMjZiVXBjUA?oc=5)
+- **[미국] The AI Shift: How autonomous are AI agents? - ft.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMihAFBVV95cUxPajd0aERTcDg1MnN2eGlXNlEtc1l5N1pfYVhrdmU3UmVKTkdDRFFILWk1S21iNzRsNmp2amMwaE02U2Jac296M195dGFtT0dqdDBfb29hXzdSUHQ0NjFSaTBhQlpyQXVmTFhnX0VxaG5RVUJHamI1TUNnU3R5amc5UHBHd2g?oc=5)
+- **[한국] SEO - The Impact of Reddit on B2B SaaS Search - MarketingProfs**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMikgFBVV95cUxNTjRmOURTWml2Sjh0VzcxTkhiMkxNY3kybkpMTEZjaUt1bWhydzdJUTJaUFd2V2ZrSEVIbHJIU3VxR0NBQ3c5Umd2d2oxM2xNckhuTkFCQ1Bqc2NrMjdzMDV0ZXFkVGljaE8zeERGWG02bmV4dDhfWFJlcWladWVyaGhMVWFNUGc1VFhYMVA5N0RIZw?oc=5)
+- **[한국] The B2B Growth Marketing Agency, Defined: From Campaigns to a Pipeline System - globenewswire.com**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQnpDNzFLVkdJdjNHdFNJa3MxTDhobjRXLXRvRkZVTm9kdmV5ZzBWZ3YxTmFVd0xwb3d0WVFQbVhDMzVGWFdBRHcwS1psREZZQ3IwSnVvaFhrZlkwb3N2NURYaUNSSTdncUp1N3B1anpqUGllZWZTb29xbENpWlF3LU93TE5CR2VJaEZxOXBrdlBhaTlhenROX1N5SDhXSXIzME52QjJScl9mRldfRTFaSDMzbFZSa3FXTHNJNzkxM1Q5RUljdWxjVEd3SW9zU3IwbjJhelphSEhjUTlobEpKZQ?oc=5)
+
+### 📍 Due Diligence
+- **[한국] 국민이 직접 평가 참여 '혁신제품 데모데이' 현장 - korea.kr**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTE5aS1JqeU00alphZVotd2V0aTU1ZVFVcXBWY3ZJdmg0bDZVei1uOTdwYzk3N0xOVFIyYVZRRDhrZE0tbXg5XzY4MjNIa3RMbFF2aDhOcC1uZC1fY3ItOWd2dkNqa3gtdEk1LUM0Nw?oc=5)
+- **[유럽] 한화큐셀, S&P글로벌 첫 ‘클린테크’ 평가서 1등급 기업 선정...글로벌 위상 입증 - 전기신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMibEFVX3lxTFAxS28yODg2MU82b0FkQVlVSXFPeUdoaHpJVGM1Vld2OExuV1JNMFlETWZ6MXpVSmRGc1czSHRqOUFndXI0MnlvY1Y0UHUyelBqOXZuOEROd0QzemExbUxNS3k4ZWNBN0JXNVo0cNIBcEFVX3lxTE5JaW1iS0pLaDczOHpfMTNkd1gxcEN3TkViNWI0RWdtOFliaGdfVGJuYlZlRGJrVUxzZ0RxMzB0d2lpUFJXZGdERVpIeWNoQ3c1eGNHS25uUVdnUFNaaU15M2JzRWtRenpmZk84VTVNaUw?oc=5)
+- **[한국] 달구, 온디바이스 AI 상용화...응급처치 평가 AI 기술사업화 착수 - 인공지능신문**
+  - 원문: [링크 바로가기](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53TW1Xa1VWNC1WRVZ3WldUeDJ3ZnliNmR3cDV6aENBUkVPS1kzb0JnOEtxTG50QndiR2xiUmVqQlpqOTBjbGQxT2Uxd3dYSTBjTFI1dURuZElaelRYN1YtdE5Vbk40dzA?oc=5)
