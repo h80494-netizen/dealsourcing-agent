@@ -7,6 +7,11 @@ import os
 import sys
 import yaml
 import datetime
+import asyncio
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
+import google.generativeai as genai
+from dotenv import load_dotenv
 
 # 상위 폴더 경로 추가하여 모듈 임포트 가능하도록 설정
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -35,6 +40,24 @@ class KeywordCreate(BaseModel):
     keyword: str
     type: str
     category: str
+
+class UrlBriefingRequest(BaseModel):
+    urls: List[str]
+    grade_option: str
+
+async def fetch_url_via_mcp(url: str) -> str:
+    server_params = StdioServerParameters(
+        command="uvx",
+        args=["mcp-server-fetch"],
+        env=None
+    )
+    async with stdio_client(server_params) as (read, write):
+        async with ClientSession(read, write) as session:
+            await session.initialize()
+            result = await session.call_tool("fetch", {"url": url})
+            if result.content and len(result.content) > 0:
+                return result.content[0].text
+            return "내용이 없습니다."
 
 # CORS
 app.add_middleware(
@@ -330,6 +353,62 @@ def analyze_custom_url(req: AnalyzeUrlRequest):
         return {"status": "success", "message": "URL 수동 분석 및 저장 완료", "data": result}
     except Exception as e:
         session.close()
+        return {"status": "error", "message": str(e)}
+
+@app.post("/api/generate_url_briefing")
+async def generate_url_briefing(req: UrlBriefingRequest):
+    if not req.urls:
+        return {"status": "error", "message": "URL을 1개 이상 입력해주세요."}
+    
+    # .env 로드
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+    load_dotenv(dotenv_path=env_path)
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        return {"status": "error", "message": "API 키가 설정되지 않았습니다 (.env 파일 확인)."}
+
+    # 1. URL 스크래핑
+    articles_content = ""
+    for idx, url in enumerate(req.urls):
+        url = url.strip()
+        if not url: continue
+        try:
+            text = await fetch_url_via_mcp(url)
+            if len(text) > 2000:
+                text = text[:2000] + "... (중략)"
+            articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n내용: {text}\n"
+        except Exception as e:
+            articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n수집 실패: {e}\n"
+
+    # 2. 등급 조건
+    grade_instruction = ""
+    if req.grade_option == "A":
+        grade_instruction = "사용자가 'A' 등급을 선택했습니다. 기사의 중요도를 평가하여 'S급'과 'A급' 기사들만 골라서 설명해주세요."
+    else:
+        grade_instruction = f"사용자가 '{req.grade_option}' 등급을 선택했습니다. 해당 등급에 맞는 중요한 기사들을 골라서 설명해주세요."
+
+    # 3. Gemini 호출 (마크다운 포맷)
+    prompt = f"""
+당신은 전문적인 글로벌 뉴스 애널리스트입니다.
+다음은 사용자가 제공한 뉴스 기사들의 원문 내용(또는 일부 발췌)입니다.
+
+{articles_content}
+
+지시사항:
+1. {grade_instruction}
+2. 각 기사의 내용을 읽고 '국가별(예: 미국, 한국, 중국, 유럽 등)'로 분류하여 한국어로 보기 좋게 정리해주세요.
+3. 단순 URL만 나열하지 말고, 각 국가별 주요 이슈를 2~3줄로 요약하여 브리핑 리포트 형식으로 작성해주세요.
+4. (중요) 결과는 반드시 프로페셔널한 **마크다운(Markdown)** 포맷으로 작성하세요. 
+   - 큰 제목은 `#` 
+   - 국가 분류는 `##` 
+   - 기사 항목은 `###` 또는 불릿 포인트(`-`)를 사용하여 깔끔하게 렌더링되게 하세요.
+"""
+    try:
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-1.5-flash-8b')
+        response = model.generate_content(prompt)
+        return {"status": "success", "report": response.text.strip()}
+    except Exception as e:
         return {"status": "error", "message": str(e)}
 
 if __name__ == "__main__":

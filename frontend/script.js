@@ -458,10 +458,63 @@ document.addEventListener('DOMContentLoaded', () => {
         reportModal.style.display = 'none';
     });
     
+    // URL Briefing Modal Logic
+    const urlBriefingModal = document.getElementById('url-briefing-modal');
+    if (urlBriefingModal) {
+        document.getElementById('btn-open-url-briefing').addEventListener('click', () => {
+            urlBriefingModal.style.display = 'flex';
+        });
+        document.getElementById('btn-close-url-briefing').addEventListener('click', () => {
+            urlBriefingModal.style.display = 'none';
+        });
+
+        document.getElementById('btn-generate-url-briefing').addEventListener('click', async () => {
+            const text = document.getElementById('url-briefing-input').value;
+            const grade = document.getElementById('url-briefing-grade').value;
+            const urls = text.split('\n').map(u => u.trim()).filter(u => u);
+            
+            if (urls.length === 0) {
+                alert('URL을 1개 이상 입력해주세요.');
+                return;
+            }
+
+            urlBriefingModal.style.display = 'none'; // 입력창 닫기
+            
+            // 결과 모달창 띄우기
+            reportModal.style.display = 'flex';
+            document.getElementById('report-loading').style.display = 'block';
+            document.getElementById('report-loading').textContent = 'AI가 기사 원문을 수집하고 브리핑 리포트를 생성 중입니다... (약 10~30초 소요)';
+            document.getElementById('markdown-container').style.display = 'none';
+
+            try {
+                const res = await fetch('/api/generate_url_briefing', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ urls: urls, grade_option: grade })
+                });
+                const json = await res.json();
+                if (json.status === 'success') {
+                    const markdownText = json.report;
+                    const markdownContainer = document.getElementById('markdown-container');
+                    markdownContainer.innerHTML = marked.parse(markdownText);
+                    
+                    document.getElementById('report-loading').style.display = 'none';
+                    markdownContainer.style.display = 'block';
+                } else {
+                    document.getElementById('report-loading').textContent = '생성 실패: ' + (json.message || '알 수 없는 오류');
+                }
+            } catch (e) {
+                console.error(e);
+                document.getElementById('report-loading').textContent = '요청 중 오류가 발생했습니다.';
+            }
+        });
+    }
+    
     // Close on click outside
     window.addEventListener('click', (e) => {
         if (e.target === settingsModal) settingsModal.style.display = 'none';
         if (e.target === reportModal) reportModal.style.display = 'none';
+        if (urlBriefingModal && e.target === urlBriefingModal) urlBriefingModal.style.display = 'none';
     });
 });
 
