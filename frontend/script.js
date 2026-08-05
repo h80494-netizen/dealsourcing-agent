@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const renderTable = (data) => {
         tbody.innerHTML = '';
         if (data.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="8" class="empty-state">데이터가 없습니다.</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="9" class="empty-state">데이터가 없습니다.</td></tr>';
             return;
         }
 
@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             tr.innerHTML = `
+                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}"></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${item.news_grade || '-'}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
@@ -128,7 +129,41 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             tbody.appendChild(tr);
         });
+
+        // "전체 선택" 체크박스 상태 초기화
+        const chkAll = document.getElementById('chk-all');
+        if (chkAll) {
+            chkAll.checked = false;
+        }
     };
+
+    // 체크박스 전체 선택/해제 이벤트
+    document.getElementById('chk-all').addEventListener('change', (e) => {
+        const isChecked = e.target.checked;
+        document.querySelectorAll('.chk-row').forEach(chk => {
+            chk.checked = isChecked;
+        });
+    });
+
+    // 선택된 기사 다중 리포트 생성 버튼
+    document.getElementById('btn-generate-selected-report').addEventListener('click', () => {
+        const selectedUrls = Array.from(document.querySelectorAll('.chk-row:checked')).map(chk => chk.dataset.url);
+        
+        if (selectedUrls.length === 0) {
+            alert('리포트를 생성할 기사를 하나 이상 선택해주세요.');
+            return;
+        }
+
+        const urlBriefingModal = document.getElementById('url-briefing-modal');
+        const urlBriefingInput = document.getElementById('url-briefing-input');
+        
+        if (urlBriefingModal && urlBriefingInput) {
+            // URL 목록을 줄바꿈으로 텍스트 영역에 넣음
+            urlBriefingInput.value = selectedUrls.join('\n');
+            // 모달 오픈
+            urlBriefingModal.style.display = 'flex';
+        }
+    });
 
     btnApply.addEventListener('click', () => {
         fetchArticles();

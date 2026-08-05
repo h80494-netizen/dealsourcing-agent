@@ -101,11 +101,15 @@ def analyze_text(title, content="", url="", source_country=None):
                 model = genai.GenerativeModel('gemini-1.5-flash-8b')
                 eval_prompt = (
                     "당신은 벤처캐피탈(VC) 심사역입니다. 다음 기사의 [제목]과 [내용]을 읽고, "
-                    "이 벤처/스타트업 기사가 투자 대상으로서 가지는 '영향력 점수(0~100)'와 '등급(S, A, B, C)'을 평가하세요.\n\n"
-                    "- S 등급 (80~100점): 대규모 투자 유치, 인수합병(M&A), IPO, 대규모 흑자 전환 등 매우 결정적인 기사\n"
-                    "- A 등급 (60~79점): 유의미한 실적 개선, 시리즈 A/B 등 중간 규모 투자, 주요 파트너십 체결\n"
-                    "- B 등급 (40~59점): 일반적인 산업 동향, 신제품 출시, 초기 시드 투자\n"
-                    "- C 등급 (40점 미만): 단순 가십, 광고, 벤처 투자와 무관한 기사\n\n"
+                    "이 벤처/스타트업 기사가 투자 대상으로서 가지는 '영향력 점수(0~100)'와 '등급(S+, S, A+, A, B+, B, C, D)'을 평가하세요.\n\n"
+                    "- S+ 등급 (95~100점): 초대형 메가 딜, 글로벌 시장 판도를 바꾸는 M&A 등\n"
+                    "- S 등급 (90~94점): 대규모 투자 유치, 주요 상장(IPO) 등 결정적 기사\n"
+                    "- A+ 등급 (80~89점): 대형 시리즈 B/C 투자, 핵심 파트너십 체결\n"
+                    "- A 등급 (70~79점): 시리즈 A/B 등 중간 규모 투자, 주요 실적 발표\n"
+                    "- B+ 등급 (60~69점): 초기 시드 투자(팁스 등), 유의미한 신제품 출시\n"
+                    "- B 등급 (50~59점): 일반적인 산업 동향, 벤처 관련 일반 기사\n"
+                    "- C 등급 (40~49점): 영향력이 미미한 기사\n"
+                    "- D 등급 (40점 미만): 단순 가십, 광고, 벤처 투자와 무관한 기사\n\n"
                     f"[제목]: {title}\n"
                     f"[내용]: {compressed_summary if compressed_summary else full_text[:500]}\n\n"
                     "반드시 아래 JSON 형식으로만 응답하세요. 다른 설명은 제외합니다:\n"
@@ -126,18 +130,26 @@ def analyze_text(title, content="", url="", source_country=None):
                 # Fallback to rule-based
                 base_score = calculate_mock_score(found_industry, found_signal, found_financial)
                 impact_score = base_score * 20.0
-                if impact_score >= 80: news_grade = "S"
-                elif impact_score >= 60: news_grade = "A"
-                elif impact_score >= 40: news_grade = "B"
-                else: news_grade = "C"
+                if impact_score >= 95: news_grade = "S+"
+                elif impact_score >= 90: news_grade = "S"
+                elif impact_score >= 80: news_grade = "A+"
+                elif impact_score >= 70: news_grade = "A"
+                elif impact_score >= 60: news_grade = "B+"
+                elif impact_score >= 50: news_grade = "B"
+                elif impact_score >= 40: news_grade = "C"
+                else: news_grade = "D"
         else:
             # Fallback to rule-based
             base_score = calculate_mock_score(found_industry, found_signal, found_financial)
             impact_score = base_score * 20.0
-            if impact_score >= 80: news_grade = "S"
-            elif impact_score >= 60: news_grade = "A"
-            elif impact_score >= 40: news_grade = "B"
-            else: news_grade = "C"
+            if impact_score >= 95: news_grade = "S+"
+            elif impact_score >= 90: news_grade = "S"
+            elif impact_score >= 80: news_grade = "A+"
+            elif impact_score >= 70: news_grade = "A"
+            elif impact_score >= 60: news_grade = "B+"
+            elif impact_score >= 50: news_grade = "B"
+            elif impact_score >= 40: news_grade = "C"
+            else: news_grade = "D"
             
         promising_industry = ", ".join(found_industry) if found_industry else "기타/미정"
         
