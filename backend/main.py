@@ -460,8 +460,8 @@ async def generate_url_briefing(req: UrlBriefingRequest):
 """
     try:
         genai.configure(api_key=api_key)
-        # NotebookLM과 동일한 수준의 고품질 분석을 위해 Pro 모델 사용
-        model = genai.GenerativeModel('gemini-2.5-pro')
+        # 다량의 기사 요약 시 무료 티어 토큰 한도(Rate Limit) 초과를 방지하기 위해 2.5-flash 모델 사용
+        model = genai.GenerativeModel('gemini-2.5-flash')
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
     except Exception as e:
