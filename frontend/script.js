@@ -554,8 +554,6 @@ document.addEventListener('DOMContentLoaded', () => {
         settingsModal.style.display = 'none';
     });
 
-    let revealInstance = null;
-
     document.getElementById('btn-report').addEventListener('click', async () => {
         reportModal.style.display = 'flex';
         document.getElementById('report-loading').style.display = 'block';
@@ -567,24 +565,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const json = await res.json();
             if (json.status === 'success') {
                 const markdownText = json.report;
-                const revealSlides = document.getElementById('reveal-slides');
-                revealSlides.innerHTML = `<section data-markdown data-separator="^---"><textarea data-template>\n${markdownText}\n</textarea></section>`;
+                const reportHtml = marked.parse(markdownText);
+                document.getElementById('report-content-container').innerHTML = reportHtml;
                 
                 document.getElementById('report-loading').style.display = 'none';
-                revealContainer.style.display = 'block';
-                
-                if (window.revealDeck) {
-                    window.revealDeck.destroy();
-                }
-                window.revealDeck = new Reveal(revealContainer, {
-                    plugins: [ RevealMarkdown ],
-                    slideNumber: true,
-                    hash: true,
-                    width: 1024,
-                    height: 768,
-                    margin: 0.1
-                });
-                window.revealDeck.initialize();
+                document.getElementById('report-content-container').style.display = 'block';
                 
                 
             } else {
@@ -714,47 +699,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 const json = await res.json();
                 if (json.status === 'success') {
                     const markdownText = json.report;
-                    const revealContainer = document.getElementById('reveal-container');
-                    const revealSlides = document.getElementById('reveal-slides');
-                    
-                    // Reveal.js 마크다운 렌더링을 위해 section 데이터 속성 설정
-                    // 백엔드에서 구분자로 준 '---'를 기준으로 슬라이드를 분할합니다.
-                    revealSlides.innerHTML = `<section data-markdown data-separator="^---"><textarea data-template>\n${markdownText}\n</textarea></section>`;
+                    const reportHtml = marked.parse(markdownText);
+                    document.getElementById('report-content-container').innerHTML = reportHtml;
                     
                     document.getElementById('report-loading').style.display = 'none';
-                    revealContainer.style.display = 'block';
+                    document.getElementById('report-content-container').style.display = 'block';
                     
-                    // Reveal 초기화
-                    if (window.revealDeck) {
-                        window.revealDeck.destroy();
+                    // 왼쪽 상단 일자 표시
+                    if (!document.getElementById('report-date-overlay')) {
+                        const dateOverlay = document.createElement('div');
+                        dateOverlay.id = 'report-date-overlay';
+                        dateOverlay.style.position = 'absolute';
+                        dateOverlay.style.top = '15px';
+                        dateOverlay.style.left = '15px';
+                        dateOverlay.style.zIndex = '1000';
+                        dateOverlay.style.fontSize = '14px';
+                        dateOverlay.style.color = '#334155';
+                        const d = new Date();
+                        const yyyy = d.getFullYear();
+                        const mm = String(d.getMonth() + 1).padStart(2, '0');
+                        const dd = String(d.getDate()).padStart(2, '0');
+                        dateOverlay.innerHTML = `생성일: ${yyyy}-${mm}-${dd}`;
+                        document.querySelector('.modal-body').appendChild(dateOverlay);
                     }
-                    window.revealDeck = new Reveal(revealContainer, {
-                        plugins: [ RevealMarkdown ],
-                        slideNumber: true,
-                        hash: true,
-                        width: 1024,
-                        height: 768,
-                        margin: 0.1
-                    });
-                    window.revealDeck.initialize().then(() => {
-                        // 왼쪽 상단 일자 표시
-                        if (!document.getElementById('report-date-overlay')) {
-                            const dateOverlay = document.createElement('div');
-                            dateOverlay.id = 'report-date-overlay';
-                            dateOverlay.style.position = 'absolute';
-                            dateOverlay.style.top = '15px';
-                            dateOverlay.style.left = '15px';
-                            dateOverlay.style.zIndex = '1000';
-                            dateOverlay.style.fontSize = '14px';
-                            dateOverlay.style.color = 'rgba(255, 255, 255, 0.7)';
-                            const d = new Date();
-                            const yyyy = d.getFullYear();
-                            const mm = String(d.getMonth() + 1).padStart(2, '0');
-                            const dd = String(d.getDate()).padStart(2, '0');
-                            dateOverlay.innerHTML = `생성일: ${yyyy}-${mm}-${dd}`;
-                            document.getElementById('reveal-container').appendChild(dateOverlay);
-                        }
-                    });
                 } else {
                     document.getElementById('report-loading').textContent = '생성 실패: ' + (json.message || '알 수 없는 오류');
                 }

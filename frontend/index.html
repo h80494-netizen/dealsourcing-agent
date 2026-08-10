@@ -339,12 +339,9 @@
                     <button class="btn-close" id="btn-close-report">&times;</button>
                 </div>
             </div>
-            <div class="modal-body" style="flex: 1; padding: 0; position: relative; overflow: hidden;">
-                <div id="report-loading" style="padding: 2rem; text-align: center; position: absolute; width: 100%; top: 50%; transform: translateY(-50%); z-index: 10;">리포트를 생성 중입니다...</div>
-                <div id="reveal-container" class="reveal" style="display: none; width: 100%; height: 100%;">
-                    <div class="slides" id="reveal-slides">
-                        <!-- Markdown sections will be injected here -->
-                    </div>
+            <div class="modal-body" style="flex: 1; padding: 0; position: relative; overflow: hidden; background: #e2e8f0;">
+                <div id="report-loading" style="padding: 2rem; text-align: center; position: absolute; width: 100%; top: 50%; transform: translateY(-50%); z-index: 10; color: #0f172a;">리포트를 생성 중입니다...</div>
+                <div id="report-content-container" class="markdown-body" style="display: none; width: 100%; height: 100%; padding: 2rem; overflow-y: auto;">
                 </div>
             </div>
         </div>
