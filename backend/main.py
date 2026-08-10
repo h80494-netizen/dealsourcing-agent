@@ -44,6 +44,9 @@ class UrlBriefingRequest(BaseModel):
     urls: List[str]
     grade_option: str
 
+class ApiKeyRequest(BaseModel):
+    api_key: str
+
 async def fetch_url_content(url: str) -> str:
     import asyncio
     # newspaper3k를 사용하여 본문 텍스트 추출 (mcp-server-fetch 대신 내장 라이브러리 사용)
@@ -464,6 +467,36 @@ async def generate_url_briefing(req: UrlBriefingRequest):
         model = genai.GenerativeModel('gemini-3.5-flash')
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+@app.post("/api/update_api_key")
+def update_api_key(req: ApiKeyRequest):
+    try:
+        env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+        
+        lines = []
+        if os.path.exists(env_path):
+            with open(env_path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                
+        new_lines = []
+        found = False
+        for line in lines:
+            if line.startswith("GEMINI_API_KEY="):
+                new_lines.append(f"GEMINI_API_KEY={req.api_key}\n")
+                found = True
+            else:
+                new_lines.append(line)
+                
+        if not found:
+            new_lines.append(f"GEMINI_API_KEY={req.api_key}\n")
+            
+        with open(env_path, 'w', encoding='utf-8') as f:
+            f.writelines(new_lines)
+            
+        os.environ["GEMINI_API_KEY"] = req.api_key
+        return {"status": "success", "message": "API 키가 성공적으로 업데이트되었습니다."}
     except Exception as e:
         return {"status": "error", "message": str(e)}
 

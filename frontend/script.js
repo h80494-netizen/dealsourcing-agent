@@ -870,4 +870,55 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch(e) {}
     };
     if (industrySelect) loadIndustryOptions();
+
+    // API Key Modal Logic
+    const apiKeyModal = document.getElementById('apikey-modal');
+    const btnOpenApiKey = document.getElementById('btn-open-apikey');
+    const btnCloseApiKey = document.getElementById('btn-close-apikey');
+    const btnSaveApiKey = document.getElementById('btn-save-apikey');
+    const inputApiKey = document.getElementById('input-api-key');
+
+    if (btnOpenApiKey && apiKeyModal) {
+        btnOpenApiKey.addEventListener('click', () => {
+            inputApiKey.value = '';
+            apiKeyModal.style.display = 'flex';
+        });
+        
+        btnCloseApiKey.addEventListener('click', () => {
+            apiKeyModal.style.display = 'none';
+        });
+        
+        btnSaveApiKey.addEventListener('click', async () => {
+            const newKey = inputApiKey.value.trim();
+            if (!newKey) {
+                alert('API 키를 입력해주세요.');
+                return;
+            }
+            
+            btnSaveApiKey.textContent = '저장 중...';
+            btnSaveApiKey.disabled = true;
+            
+            try {
+                const res = await fetch('/api/update_api_key', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ api_key: newKey })
+                });
+                const json = await res.json();
+                
+                if (json.status === 'success') {
+                    alert('API 키가 성공적으로 변경되었습니다! 서버가 재시작될 수 있으니 잠시 후 사용해주세요.');
+                    apiKeyModal.style.display = 'none';
+                } else {
+                    alert('오류 발생: ' + (json.message || '알 수 없는 오류'));
+                }
+            } catch (e) {
+                console.error(e);
+                alert('API 키 업데이트 중 오류가 발생했습니다.');
+            } finally {
+                btnSaveApiKey.textContent = '저장 및 적용';
+                btnSaveApiKey.disabled = false;
+            }
+        });
+    }
 });

@@ -221,6 +221,14 @@
                 </section>
             </div>
         </main>
+
+        <!-- API Key Setup Button at the very bottom -->
+        <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+            <button class="btn-secondary" id="btn-open-apikey" style="background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 8px 16px; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+                <span style="font-size: 1.2rem;">🔑</span>
+                <span>법인 API 키 전환</span>
+            </button>
+        </div>
     </div>
 
     <!-- Settings Modal -->
@@ -338,6 +346,21 @@
                         <!-- Markdown sections will be injected here -->
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- API Key Modal -->
+    <div id="apikey-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass-panel" style="max-width: 500px; width: 95%;">
+            <div class="modal-header">
+                <h2>🔑 API 키 설정 (법인 전환)</h2>
+                <button class="btn-close" id="btn-close-apikey">&times;</button>
+            </div>
+            <div class="modal-body" style="display: flex; flex-direction: column; gap: 1rem;">
+                <p style="font-size: 0.9rem; color: #cbd5e1;">회사 모델이나 다른 API 키로 전환할 경우 아래에 입력해주세요.<br>(새로운 키는 서버에 안전하게 저장됩니다)</p>
+                <input type="password" id="input-api-key" placeholder="새로운 Gemini API 키를 입력하세요..." style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                <button class="btn-primary" id="btn-save-apikey" style="padding: 10px; text-align: center;">저장 및 적용</button>
             </div>
         </div>
     </div>
