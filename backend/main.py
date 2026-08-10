@@ -8,8 +8,7 @@ import sys
 import yaml
 import datetime
 import asyncio
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
+
 import google.generativeai as genai
 from dotenv import load_dotenv
 
@@ -23,7 +22,7 @@ from sqlalchemy import desc
 from pydantic import BaseModel
 from typing import Optional, List
 from newspaper import Article
-from processor.analyzer import analyze_text
+from processor.analyzer import analyze_text, extract_and_clean_text
 from processor.report_generator import generate_daily_report
 
 app = FastAPI(title="VC Deal Sourcing API")
@@ -45,19 +44,14 @@ class UrlBriefingRequest(BaseModel):
     urls: List[str]
     grade_option: str
 
-async def fetch_url_via_mcp(url: str) -> str:
-    server_params = StdioServerParameters(
-        command="uvx",
-        args=["mcp-server-fetch"],
-        env=None
-    )
-    async with stdio_client(server_params) as (read, write):
-        async with ClientSession(read, write) as session:
-            await session.initialize()
-            result = await session.call_tool("fetch", {"url": url})
-            if result.content and len(result.content) > 0:
-                return result.content[0].text
-            return "내용이 없습니다."
+async def fetch_url_content(url: str) -> str:
+    import asyncio
+    # newspaper3k를 사용하여 본문 텍스트 추출 (mcp-server-fetch 대신 내장 라이브러리 사용)
+    loop = asyncio.get_event_loop()
+    text = await loop.run_in_executor(None, extract_and_clean_text, url)
+    if text and len(text.strip()) > 0:
+        return text
+    return "내용이 없습니다."
 
 # CORS
 app.add_middleware(
@@ -89,13 +83,30 @@ def get_articles(
     deal_stage: List[str] = Query([]),
     news_grade: List[str] = Query([]),
     promising_industry: List[str] = Query([]),
-    sort_by: str = Query("latest") # "latest" or "importance"
+    sort_by: str = Query("latest"), # "latest" or "importance"
+    date_filter: str = Query(None) # e.g. "yesterday"
 ):
     engine = init_db()
     session = get_session(engine)
     
     query = session.query(DealArticle)
-    
+
+    if date_filter == "yesterday":
+        yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
+        start_of_yesterday = yesterday.replace(hour=0, minute=0, second=0, microsecond=0)
+        query = query.filter(DealArticle.created_at >= start_of_yesterday)
+    elif date_filter == "today":
+        today = datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        query = query.filter(DealArticle.created_at >= today)
+    elif date_filter == "1week":
+        week_ago = datetime.datetime.now() - datetime.timedelta(days=7)
+        start_of_week_ago = week_ago.replace(hour=0, minute=0, second=0, microsecond=0)
+        query = query.filter(DealArticle.created_at >= start_of_week_ago)
+    elif date_filter == "1month":
+        month_ago = datetime.datetime.now() - datetime.timedelta(days=30)
+        start_of_month_ago = month_ago.replace(hour=0, minute=0, second=0, microsecond=0)
+        query = query.filter(DealArticle.created_at >= start_of_month_ago)
+        
     if country and len(country) > 0 and country[0] != "":
         query = query.filter(DealArticle.country.in_(country))
     if deal_stage and len(deal_stage) > 0 and deal_stage[0] != "":
@@ -137,29 +148,31 @@ def get_articles(
         })
     return {"status": "success", "count": len(data), "data": data}
 
+crawl_result = {}
 is_crawling = False
 
 def run_pipeline_task():
-    global is_crawling
+    global is_crawling, crawl_result
     if is_crawling: return
     is_crawling = True
     try:
-        run_pipeline()
+        crawl_result = run_pipeline()
     finally:
         is_crawling = False
 
 @app.post("/api/crawl_now")
 def crawl_now(background_tasks: BackgroundTasks):
-    global is_crawling
+    global is_crawling, crawl_result
     if is_crawling:
         return {"status": "error", "message": "이미 수집 중입니다. 잠시만 기다려 주세요."}
+    crawl_result = {}
     background_tasks.add_task(run_pipeline_task)
     return {"status": "success", "message": "실시간 데이터 수집 및 업데이트가 백그라운드에서 시작되었습니다."}
 
 @app.get("/api/crawl_status")
 def get_crawl_status():
-    global is_crawling
-    return {"status": "success", "is_crawling": is_crawling}
+    global is_crawling, crawl_result
+    return {"status": "success", "is_crawling": is_crawling, "result": crawl_result}
 
 @app.get("/api/domains")
 def get_domains():
@@ -325,7 +338,8 @@ def analyze_custom_url(req: AnalyzeUrlRequest):
         article.parse()
         title = article.title
         
-        result = analyze_text(title, "", req.url)
+        from datetime import datetime
+        result = analyze_text(title, "", req.url, pub_date=datetime.now())
         if not result:
             session.close()
             return {"status": "error", "message": "유효한 벤처/스타트업/경제 키워드가 매칭되지 않았습니다."}
@@ -373,39 +387,59 @@ async def generate_url_briefing(req: UrlBriefingRequest):
         url = url.strip()
         if not url: continue
         try:
-            text = await fetch_url_via_mcp(url)
+            text = await fetch_url_content(url)
             if len(text) > 2000:
                 text = text[:2000] + "... (중략)"
             articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n내용: {text}\n"
         except Exception as e:
             articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n수집 실패: {e}\n"
 
-    # 2. 등급 조건
-    grade_instruction = ""
-    if req.grade_option == "A":
-        grade_instruction = "사용자가 'A' 등급을 선택했습니다. 기사의 중요도를 평가하여 'S급'과 'A급' 기사들만 골라서 설명해주세요."
-    else:
-        grade_instruction = f"사용자가 '{req.grade_option}' 등급을 선택했습니다. 해당 등급에 맞는 중요한 기사들을 골라서 설명해주세요."
+    # 2. 등급 조건 (이제 프론트엔드에서 필터링해서 넘어오므로 모든 기사를 활용)
+    grade_instruction = "제공된 기사들의 핵심 내용을 분석하고 가장 중요도가 높은 이슈들을 선별하여 설명해주세요."
 
-    # 3. Gemini 호출 (마크다운 포맷)
+    # 3. Gemini 호출 (마크다운 포맷) - NotebookLM 에뮬레이션 프롬프트
     prompt = f"""
-당신은 전문적인 글로벌 뉴스 애널리스트입니다.
-다음은 사용자가 제공한 뉴스 기사들의 원문 내용(또는 일부 발췌)입니다.
+당신은 최고의 벤처캐피탈(VC) 시니어 애널리스트이자, 방대한 자료를 한눈에 이해하기 쉽게 엮어내는 AI 리서치 어시스턴트(NotebookLM)입니다.
+아래 제공된 여러 개의 뉴스 기사(URL 및 본문)를 바탕으로, 투자 심사역들이 단 3분 만에 글로벌 트렌드를 파악할 수 있는 **최상급 프레젠테이션 슬라이드**를 작성해주세요.
 
+[분석할 기사 원문 데이터]
 {articles_content}
 
-지시사항:
+[작성 지시사항]
 1. {grade_instruction}
-2. 각 기사의 내용을 읽고 '국가별(예: 미국, 한국, 중국, 유럽 등)'로 분류하여 한국어로 보기 좋게 정리해주세요. (원문이 외국어인 경우 반드시 한국어로 완벽하게 번역하여 요약할 것)
-3. 단순 URL만 나열하지 말고, 각 국가별 주요 이슈를 2~3줄로 요약하여 브리핑 리포트 형식으로 작성해주세요.
-4. (중요) 결과는 반드시 프로페셔널한 **마크다운(Markdown)** 포맷으로 작성하세요. 
-   - 큰 제목은 `#` 
-   - 국가 분류는 `##` 
-   - 기사 항목은 `###` 또는 불릿 포인트(`-`)를 사용하여 깔끔하게 렌더링되게 하세요.
+2. **NotebookLM 스타일의 종합적 시각화**: 기사들을 단순 나열하지 말고, **공통된 테마, 국가별 동향, 투자 산업별 핵심 인사이트**를 도출하여 스토리텔링 형식의 슬라이드로 구성하세요.
+3. **엄격한 인용(Citation)**: 정보의 신뢰성을 위해 각 슬라이드의 핵심 팩트나 수치 뒤에는 반드시 `[출처: URL 또는 기사번호]` 형태로 인용을 명시하세요.
+4. **마크다운 슬라이드 포맷 준수 (Reveal.js 렌더링용)**:
+   - 각 슬라이드는 반드시 `---` (수평선 3개)로 구분해야 합니다.
+   - 텍스트는 너무 길지 않게 **핵심 키워드 위주의 불릿 포인트(`-`)**로 정리하세요 (한 슬라이드당 4~5줄 이내 권장).
+   - 필요하다면 마크다운 테이블(표)을 활용하여 비교 분석 자료를 시각화하세요.
+   - 각 슬라이드의 큰 제목은 `#` 또는 `##`을 사용하세요.
+   - 가독성을 극대화하기 위해 중요한 키워드나 기업명, 금액은 **굵게(Bold)** 처리하세요.
+5. **출처 명시**: 슬라이드의 마지막 부분(또는 각 핵심 팩트 옆)에 반드시 해당 기사의 원래 출처(URL 등)를 눈에 띄게 적어주세요.
+
+[슬라이드 구성 예시 (반드시 이 흐름을 따를 필요는 없으나 참고할 것)]
+# 📊 [오늘의 브리핑 제목]
+- 주요 인사이트 1줄 요약
+---
+## 🌐 글로벌 메가 트렌드
+- 트렌드 설명 및 핵심 팩트 [출처: URL]
+- 관련된 주요 기업의 행보 [출처: URL]
+---
+## 🇺🇸 지역별 포커스: 미국 / 북미
+- (내용)
+---
+## 🇰🇷 지역별 포커스: 한국 및 아시아
+- (내용)
+---
+## 💡 종합 투자 인사이트 및 결론
+- (VC 심사역을 위한 액션 플랜 또는 결론)
+---
+## 🔗 참조 출처 모음
+- [기사제목] - URL
 """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash-8b')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
     except Exception as e:

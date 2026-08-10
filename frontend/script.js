@@ -6,47 +6,99 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusBadge = document.getElementById('status-badge');
     const updateMsg = document.getElementById('update-msg');
 
-    // 다중 선택(Ctrl 없이) 및 '전체' 단일 클릭 로직
-    document.querySelectorAll('.multi-select').forEach(select => {
-        // 최초 상태로 '전체' 자동 선택
-        if(select.options.length > 0) select.options[0].selected = true;
-        
-        select.addEventListener('mousedown', function(e) {
-            e.preventDefault();
-            const option = e.target;
-            if (option.tagName === 'OPTION') {
-                const originalSelected = option.selected;
-                
-                if (option.value === "") {
-                    // '전체' 클릭 시 나머지 해제
-                    Array.from(this.options).forEach(opt => opt.selected = false);
-                    option.selected = true;
+    // 커스텀 드롭다운 토글 로직
+    document.querySelectorAll('.custom-select-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const dropdown = btn.nextElementSibling;
+            const isOpen = dropdown.classList.contains('open');
+            document.querySelectorAll('.custom-select-dropdown').forEach(d => d.classList.remove('open'));
+            if (!isOpen) dropdown.classList.add('open');
+        });
+    });
+
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.custom-select-dropdown').forEach(d => d.classList.remove('open'));
+    });
+
+    // 드롭다운 내부 클릭 시 닫히지 않도록
+    document.querySelectorAll('.custom-select-dropdown').forEach(dropdown => {
+        dropdown.addEventListener('click', e => e.stopPropagation());
+    });
+
+    // 체크박스 상호작용 ('전체' vs 개별) 및 버튼 텍스트 업데이트 로직
+    const setupCheckboxes = (containerId) => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const btn = container.querySelector('.custom-select-btn');
+        const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+        const chkAll = container.querySelector('.chk-all-opt');
+
+        const updateBtnText = () => {
+            if (!btn) return;
+            const checked = Array.from(checkboxes).filter(cb => cb.checked && cb !== chkAll);
+            if (chkAll && chkAll.checked) {
+                btn.textContent = chkAll.parentElement.textContent.trim();
+            } else if (checked.length > 0) {
+                btn.textContent = checked.map(cb => cb.parentElement.textContent.trim().split(' (')[0]).join(', ');
+            } else {
+                if (chkAll) {
+                    chkAll.checked = true;
+                    btn.textContent = chkAll.parentElement.textContent.trim();
                 } else {
-                    // 다른 항목 클릭 시 '전체' 해제
-                    if(this.options.length > 0 && this.options[0].value === "") {
-                        this.options[0].selected = false;
-                    }
-                    option.selected = !originalSelected;
-                    
-                    // 만약 모두 해제되었다면 '전체' 다시 선택
-                    const anySelected = Array.from(this.options).some(opt => opt.selected);
-                    if (!anySelected && this.options.length > 0 && this.options[0].value === "") {
-                        this.options[0].selected = true;
-                    }
+                    btn.textContent = '선택됨 없음';
                 }
-                this.focus();
+            }
+        };
+
+        checkboxes.forEach(chk => {
+            chk.addEventListener('change', (e) => {
+                if (e.target === chkAll && chkAll.checked) {
+                    checkboxes.forEach(cb => { if (cb !== chkAll) cb.checked = false; });
+                } else {
+                    if (chkAll) chkAll.checked = false;
+                    const anyChecked = Array.from(checkboxes).some(cb => cb.checked);
+                    if (!anyChecked && chkAll) chkAll.checked = true;
+                }
+                updateBtnText();
+            });
+        });
+        updateBtnText();
+    };
+
+    ['dropdown-country', 'dropdown-stage', 'dropdown-grade', 'dropdown-industry'].forEach(setupCheckboxes);
+
+    // 라디오 버튼(정렬, 일자) 텍스트 업데이트 로직
+    ['dropdown-sort', 'dropdown-date'].forEach(containerId => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        const btn = container.querySelector('.custom-select-btn');
+        const radios = container.querySelectorAll('input[type="radio"]');
+        radios.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                if(e.target.checked) {
+                    btn.textContent = e.target.parentElement.textContent.trim();
+                }
+            });
+            // 초기 텍스트 세팅
+            if(radio.checked) {
+                btn.textContent = radio.parentElement.textContent.trim();
             }
         });
     });
 
+
     const fetchArticles = async () => {
         try {
-            const getSelected = (id) => Array.from(document.getElementById(id).selectedOptions).map(opt => opt.value).filter(val => val !== "");
+            const getSelected = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(cb => cb.value).filter(val => val !== "");
             const countries = getSelected('country');
             const dealStages = getSelected('deal-stage');
             const newsGrades = getSelected('news-grade');
             const industries = getSelected('industry');
-            const sortBy = document.getElementById('sort-by').value;
+            const sortByNode = document.querySelector('input[name="sort-by"]:checked');
+            const sortBy = sortByNode ? sortByNode.value : 'latest';
+            const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
+            const dateFilter = dateFilterNode ? dateFilterNode.value : 'all';
 
             const params = new URLSearchParams();
             countries.forEach(c => params.append('country', c));
@@ -54,6 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
             newsGrades.forEach(n => params.append('news_grade', n));
             industries.forEach(i => params.append('promising_industry', i));
             if (sortBy) params.append('sort_by', sortBy);
+            
+            // 일자 필터 적용
+            if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
 
             const res = await fetch(`/api/articles?${params.toString()}`);
             const json = await res.json();
@@ -62,19 +117,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById('collected-count').textContent = `검색된 딜: ${json.count} 건`;
                 
                 // --- 동적 유망산업 필터 연동 ---
-                const industrySelect = document.getElementById('industry');
-                if (industrySelect) {
-                    const existingValues = Array.from(industrySelect.options).map(o => o.value);
+                const industryDropdownList = document.getElementById('industry-dropdown-list');
+                if (industryDropdownList) {
+                    const existingValues = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).map(cb => cb.value);
+                    let changed = false;
                     json.data.forEach(item => {
                         if (item.promising_industry && item.promising_industry !== '기타/미정') {
                             item.promising_industry.split(',').forEach(ind => {
                                 const cleanInd = ind.trim();
                                 if (cleanInd && !existingValues.includes(cleanInd)) {
-                                    const opt = document.createElement('option');
-                                    opt.value = cleanInd;
-                                    opt.textContent = cleanInd;
-                                    industrySelect.appendChild(opt);
+                                    const label = document.createElement('label');
+                                    label.className = 'checkbox-label';
+                                    label.innerHTML = `<input type="checkbox" name="industry" value="${cleanInd}"> ${cleanInd}`;
+                                    
+                                    // 이벤트 리스너 부착
+                                    const chk = label.querySelector('input');
+                                    const chkAll = industryDropdownList.querySelector('.chk-all-opt');
+                                    chk.addEventListener('change', () => {
+                                        if (chkAll) chkAll.checked = false;
+                                        const anyChecked = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).some(cb => cb.checked);
+                                        if (!anyChecked && chkAll) chkAll.checked = true;
+                                        // Update button text logic manually
+                                        const btn = document.getElementById('dropdown-industry').querySelector('.custom-select-btn');
+                                        const checked = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).filter(cb => cb.checked && cb !== chkAll);
+                                        if (chkAll && chkAll.checked) {
+                                            btn.textContent = chkAll.parentElement.textContent.trim();
+                                        } else if (checked.length > 0) {
+                                            btn.textContent = checked.map(cb => cb.parentElement.textContent.trim()).join(', ');
+                                        }
+                                    });
+                                    
+                                    industryDropdownList.appendChild(label);
                                     existingValues.push(cleanInd);
+                                    changed = true;
                                 }
                             });
                         }
@@ -104,16 +179,28 @@ document.addEventListener('DOMContentLoaded', () => {
             let gradeTooltip = '';
             if(item.news_grade === 'S') { 
                 gradeClass = 'news-grade-S'; 
-                gradeTooltip = 'S 등급 (80~100점): 대규모 투자 유치, M&A, 확실한 흑자 전환 등 핵심 시그널'; 
+                gradeTooltip = 'S 등급 (95~100점): 초대형 메가 딜, 글로벌 시장 판도를 바꾸는 M&A 등'; 
+            } else if(item.news_grade === 'AAA') { 
+                gradeClass = 'news-grade-AAA'; 
+                gradeTooltip = 'AAA 등급 (90~94점): 대규모 투자 유치, 주요 상장(IPO) 등 결정적 기사'; 
+            } else if(item.news_grade === 'AA') { 
+                gradeClass = 'news-grade-AA'; 
+                gradeTooltip = 'AA 등급 (85~89점): 핵심 파트너십 체결, 주요 규제 통과 등 큰 호재'; 
             } else if(item.news_grade === 'A') { 
                 gradeClass = 'news-grade-A'; 
-                gradeTooltip = 'A 등급 (60~79점): 유의미한 실적 개선, 중간 규모 투자, 주요 파트너십'; 
+                gradeTooltip = 'A 등급 (80~84점): 시리즈 B/C 이상의 유의미한 후속 투자 유치'; 
+            } else if(item.news_grade === 'BBB') { 
+                gradeClass = 'news-grade-BBB'; 
+                gradeTooltip = 'BBB 등급 (70~79점): 시리즈 A/B 등 중간 규모 투자, 주요 실적 발표'; 
+            } else if(item.news_grade === 'BB') { 
+                gradeClass = 'news-grade-BB'; 
+                gradeTooltip = 'BB 등급 (60~69점): 초기 시드 투자(팁스 등), 유의미한 신제품 출시'; 
             } else if(item.news_grade === 'B') { 
                 gradeClass = 'news-grade-B'; 
-                gradeTooltip = 'B 등급 (40~59점): 일반적인 산업 동향, 신제품 출시, 초기 시드 투자'; 
+                gradeTooltip = 'B 등급 (50~59점): 일반적인 산업 동향, 벤처 관련 일반 기사'; 
             } else { 
-                gradeClass = 'news-grade-C'; 
-                gradeTooltip = 'C 등급 (40점 미만): 벤처 투자와 무관한 단순 기사 (수집 안 됨)'; 
+                gradeClass = 'news-grade-기타'; 
+                gradeTooltip = '기타 등급 (50점 미만): 영향력이 미미하거나 벤처 투자와 무관한 가십/광고'; 
             }
 
             tr.innerHTML = `
@@ -147,20 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 선택된 기사 다중 리포트 생성 버튼
     document.getElementById('btn-generate-selected-report').addEventListener('click', () => {
-        const selectedUrls = Array.from(document.querySelectorAll('.chk-row:checked')).map(chk => chk.dataset.url);
-        
-        if (selectedUrls.length === 0) {
-            alert('리포트를 생성할 기사를 하나 이상 선택해주세요.');
-            return;
-        }
-
         const urlBriefingModal = document.getElementById('url-briefing-modal');
         const urlBriefingInput = document.getElementById('url-briefing-input');
+        const sourceOption = document.getElementById('url-source-option');
         
         if (urlBriefingModal && urlBriefingInput) {
-            // URL 목록을 줄바꿈으로 텍스트 영역에 넣음
-            urlBriefingInput.value = selectedUrls.join('\n');
-            // 모달 오픈
+            if(sourceOption) sourceOption.value = 'checked'; // 기본값: 체크된 기사
+            if(sourceOption) sourceOption.dispatchEvent(new Event('change'));
             urlBriefingModal.style.display = 'flex';
         }
     });
@@ -175,6 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
         statusBadge.textContent = '수집 중...';
         statusBadge.classList.add('active');
         updateMsg.textContent = '데이터 수집 및 분석을 시작합니다 (약 1~2분 소요)...';
+        document.getElementById('new-news-stats').textContent = '';
         
         try {
             const res = await fetch('/api/crawl_now', { method: 'POST' });
@@ -190,8 +271,26 @@ document.addEventListener('DOMContentLoaded', () => {
                         
                         if (statusJson.status === 'success' && !statusJson.is_crawling) {
                             clearInterval(pollInterval);
-                            updateMsg.textContent = '수집 완료! 화면을 새로고침 합니다.';
-                            setTimeout(() => location.reload(), 1500);
+                            updateMsg.textContent = '수집이 완료되었습니다!';
+                            
+                            // 결과 표시
+                            if (statusJson.result && Object.keys(statusJson.result).length > 0) {
+                                let stats = [];
+                                for (let [country, count] of Object.entries(statusJson.result)) {
+                                    stats.push(`${country} ${count}건`);
+                                }
+                                document.getElementById('new-news-stats').textContent = `[신규 추가] ${stats.join(', ')}`;
+                            } else {
+                                document.getElementById('new-news-stats').textContent = '[신규 추가] 0건 (최신 유지 중)';
+                            }
+                            
+                            btnRealtime.disabled = false;
+                            btnLoader.style.display = 'none';
+                            statusBadge.textContent = '완료됨';
+                            statusBadge.classList.remove('active');
+                            setTimeout(() => {
+                                statusBadge.textContent = '대기 중';
+                            }, 5000);
                         }
                     } catch(e) {}
                 }, 3000); // 3초 간격으로 더 빠르게 업데이트
@@ -457,18 +556,33 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-report').addEventListener('click', async () => {
         reportModal.style.display = 'flex';
         document.getElementById('report-loading').style.display = 'block';
-        document.getElementById('markdown-container').style.display = 'none';
+        const revealContainer = document.getElementById('reveal-container');
+        if (revealContainer) revealContainer.style.display = 'none';
         
         try {
             const res = await fetch('/api/report');
             const json = await res.json();
             if (json.status === 'success') {
                 const markdownText = json.report;
-                const markdownContainer = document.getElementById('markdown-container');
-                markdownContainer.innerHTML = marked.parse(markdownText);
+                const revealSlides = document.getElementById('reveal-slides');
+                revealSlides.innerHTML = `<section data-markdown data-separator="^---"><textarea data-template>\n${markdownText}\n</textarea></section>`;
                 
                 document.getElementById('report-loading').style.display = 'none';
-                markdownContainer.style.display = 'block';
+                revealContainer.style.display = 'block';
+                
+                if (window.revealDeck) {
+                    window.revealDeck.destroy();
+                }
+                window.revealDeck = new Reveal(revealContainer, {
+                    plugins: [ RevealMarkdown ],
+                    slideNumber: true,
+                    hash: true,
+                    width: 1024,
+                    height: 768,
+                    margin: 0.1
+                });
+                window.revealDeck.initialize();
+                
                 
             } else {
                 document.getElementById('report-loading').textContent = '리포트 생성 실패: ' + (json.message || '알 수 없는 오류');
@@ -480,13 +594,60 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('btn-print-pdf').addEventListener('click', () => {
-        // 모달창만 인쇄되도록 설정
-        const originalBody = document.body.innerHTML;
-        const modalContent = document.querySelector('.reveal').innerHTML;
-        document.body.innerHTML = `<div style="color: black; background: white;">${modalContent}</div>`;
-        window.print();
-        document.body.innerHTML = originalBody;
-        location.reload(); // 리로드하여 이벤트 리스너 복구
+        // PDF 출력을 위한 새 창 열기 (Reveal.js print-pdf 모드 활용)
+        const textarea = document.querySelector('#reveal-slides textarea');
+        if (!textarea) return;
+        const md = textarea.value;
+        
+        const printWindow = window.open('', '_blank');
+        printWindow.document.write(`
+            <!DOCTYPE html>
+            <html lang="ko">
+            <head>
+                <meta charset="UTF-8">
+                <title>AI 요약 브리핑 리포트 (PDF 출력)</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/css/print/pdf.min.css">
+                <style>
+                    /* 인쇄 시 왼쪽 상단에 날짜 표시 */
+                    @page { margin: 0; }
+                    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+                    .print-header {
+                        position: fixed;
+                        top: 20px;
+                        left: 20px;
+                        font-size: 14px;
+                        color: #ccc;
+                        z-index: 1000;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="print-header">생성일: ${new Date().toISOString().split('T')[0]}</div>
+                <div class="reveal">
+                    <div class="slides">
+                        <section data-markdown data-separator="^---"><textarea data-template>${md}</textarea></section>
+                    </div>
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"><\/script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.js"><\/script>
+                <script>
+                    Reveal.initialize({
+                        plugins: [ RevealMarkdown ],
+                        width: 1024,
+                        height: 768,
+                        margin: 0.1,
+                        pdfSeparateFragments: false
+                    }).then(() => {
+                        // Reveal.js 렌더링 완료 후 인쇄 다이얼로그 호출
+                        setTimeout(() => { window.print(); }, 1500);
+                    });
+                <\/script>
+            </body>
+            </html>
+        `);
+        printWindow.document.close();
     });
 
     document.getElementById('btn-close-report').addEventListener('click', () => {
@@ -497,19 +658,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const urlBriefingModal = document.getElementById('url-briefing-modal');
     if (urlBriefingModal) {
         document.getElementById('btn-open-url-briefing').addEventListener('click', () => {
+            const sourceOption = document.getElementById('url-source-option');
+            if (sourceOption) {
+                sourceOption.value = 'checked';
+                sourceOption.dispatchEvent(new Event('change'));
+            }
             urlBriefingModal.style.display = 'flex';
         });
+        
         document.getElementById('btn-close-url-briefing').addEventListener('click', () => {
             urlBriefingModal.style.display = 'none';
         });
 
+        const sourceOptionEl = document.getElementById('url-source-option');
+        if (sourceOptionEl) {
+            sourceOptionEl.addEventListener('change', (e) => {
+                const opt = e.target.value;
+                let urls = [];
+                if (opt === 'checked') {
+                    urls = Array.from(document.querySelectorAll('.chk-row:checked')).map(chk => chk.dataset.url);
+                } else {
+                    urls = Array.from(document.querySelectorAll('.chk-row')).map(chk => chk.dataset.url);
+                }
+                document.getElementById('url-briefing-input').value = urls.join('\n');
+            });
+        }
+
         document.getElementById('btn-generate-url-briefing').addEventListener('click', async () => {
             const text = document.getElementById('url-briefing-input').value;
-            const grade = document.getElementById('url-briefing-grade').value;
             const urls = text.split('\n').map(u => u.trim()).filter(u => u);
             
             if (urls.length === 0) {
-                alert('URL을 1개 이상 입력해주세요.');
+                alert('URL을 1개 이상 입력(또는 선택)해주세요.');
                 return;
             }
 
@@ -519,22 +699,59 @@ document.addEventListener('DOMContentLoaded', () => {
             reportModal.style.display = 'flex';
             document.getElementById('report-loading').style.display = 'block';
             document.getElementById('report-loading').textContent = 'AI가 기사 원문을 수집하고 브리핑 리포트를 생성 중입니다... (약 10~30초 소요)';
-            document.getElementById('markdown-container').style.display = 'none';
+            const revealContainer = document.getElementById('reveal-container');
+            if (revealContainer) revealContainer.style.display = 'none';
 
             try {
                 const res = await fetch('/api/generate_url_briefing', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ urls: urls, grade_option: grade })
+                    body: JSON.stringify({ urls: urls, grade_option: "ALL" })
                 });
                 const json = await res.json();
                 if (json.status === 'success') {
                     const markdownText = json.report;
-                    const markdownContainer = document.getElementById('markdown-container');
-                    markdownContainer.innerHTML = marked.parse(markdownText);
+                    const revealContainer = document.getElementById('reveal-container');
+                    const revealSlides = document.getElementById('reveal-slides');
+                    
+                    // Reveal.js 마크다운 렌더링을 위해 section 데이터 속성 설정
+                    // 백엔드에서 구분자로 준 '---'를 기준으로 슬라이드를 분할합니다.
+                    revealSlides.innerHTML = `<section data-markdown data-separator="^---"><textarea data-template>\n${markdownText}\n</textarea></section>`;
                     
                     document.getElementById('report-loading').style.display = 'none';
-                    markdownContainer.style.display = 'block';
+                    revealContainer.style.display = 'block';
+                    
+                    // Reveal 초기화
+                    if (window.revealDeck) {
+                        window.revealDeck.destroy();
+                    }
+                    window.revealDeck = new Reveal(revealContainer, {
+                        plugins: [ RevealMarkdown ],
+                        slideNumber: true,
+                        hash: true,
+                        width: 1024,
+                        height: 768,
+                        margin: 0.1
+                    });
+                    window.revealDeck.initialize().then(() => {
+                        // 왼쪽 상단 일자 표시
+                        if (!document.getElementById('report-date-overlay')) {
+                            const dateOverlay = document.createElement('div');
+                            dateOverlay.id = 'report-date-overlay';
+                            dateOverlay.style.position = 'absolute';
+                            dateOverlay.style.top = '15px';
+                            dateOverlay.style.left = '15px';
+                            dateOverlay.style.zIndex = '1000';
+                            dateOverlay.style.fontSize = '14px';
+                            dateOverlay.style.color = 'rgba(255, 255, 255, 0.7)';
+                            const d = new Date();
+                            const yyyy = d.getFullYear();
+                            const mm = String(d.getMonth() + 1).padStart(2, '0');
+                            const dd = String(d.getDate()).padStart(2, '0');
+                            dateOverlay.innerHTML = `생성일: ${yyyy}-${mm}-${dd}`;
+                            document.getElementById('reveal-container').appendChild(dateOverlay);
+                        }
+                    });
                 } else {
                     document.getElementById('report-loading').textContent = '생성 실패: ' + (json.message || '알 수 없는 오류');
                 }
