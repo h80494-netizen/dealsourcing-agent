@@ -7,7 +7,7 @@ from collectors.naver_news_collector import collect_naver_news
 from processor.analyzer import analyze_text
 from config import INDUSTRY_KEYWORDS, SIGNAL_KEYWORDS
 
-def run_pipeline():
+def run_pipeline(progress_callback=None):
     print(f"[{datetime.now()}] 파이프라인 시작...")
     engine = init_db()
     session = get_session(engine)
@@ -48,25 +48,33 @@ def run_pipeline():
     
     import concurrent.futures
     new_count = 0
+    country_stats = {}
     
     def process_article(art):
         try:
-            return art, analyze_text(art['title'], art['summary'], url=art['link'], source_country=art.get('country'))
+            return art, analyze_text(art['title'], art['summary'], url=art['link'], source_country=art.get('country'), pub_date=art.get('pub_date'))
         except Exception as e:
             print(f"Error analyzing article {art['link']}: {e}")
             return art, None
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         # submit all tasks
         futures = {executor.submit(process_article, art): art for art in new_articles}
         
         for idx, future in enumerate(concurrent.futures.as_completed(futures), 1):
             art, analysis_result = future.result()
             
-            if idx % 20 == 0 or idx == len(new_articles):
-                print(f"분석 진행 중... ({idx}/{len(new_articles)})")
+            msg = f"분석 진행 중... ({idx}/{len(new_articles)})"
+            if idx % 5 == 0 or idx == len(new_articles):
+                print(msg)
                 
-            if analysis_result and analysis_result.get('news_grade') in ['S', 'A', 'B']:
+            if progress_callback:
+                try:
+                    progress_callback(msg, idx, len(new_articles))
+                except Exception as e:
+                    print(f"Callback error: {e}")
+                
+            if analysis_result and analysis_result.get('news_grade') not in ['기타', 'C']:
                 new_deal = DealArticle(
                     source_name=art['source_name'],
                     title=analysis_result.get('title', art['title']),
@@ -88,6 +96,12 @@ def run_pipeline():
                 try:
                     session.commit()
                     new_count += 1
+                    
+                    c = analysis_result.get('country') or '기타'
+                    if c not in country_stats:
+                        country_stats[c] = 0
+                    country_stats[c] += 1
+                    
                 except Exception as e:
                     session.rollback()
                     print(f"Error committing article {art['link']}: {e}")
@@ -98,6 +112,10 @@ def run_pipeline():
     from processor.report_generator import generate_daily_report
     print("일일 요약 리포트 생성을 시작합니다...")
     generate_daily_report()
+    
+    return country_stats
 
 if __name__ == "__main__":
-    run_pipeline()
+    def simple_progress(msg, current, total):
+        print(f"[PROGRESS] {msg}")
+    run_pipeline(progress_callback=simple_progress)

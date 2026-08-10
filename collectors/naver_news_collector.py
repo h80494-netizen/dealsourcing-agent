@@ -1,46 +1,46 @@
-import requests
-from bs4 import BeautifulSoup
 import urllib.parse
 from datetime import datetime
 import time
+import requests
+import feedparser
+import random
 
 def fetch_naver_news_html(keyword):
-    """네이버 뉴스 검색 결과를 HTML 스크래핑으로 수집합니다."""
-    encoded_keyword = urllib.parse.quote(keyword)
-    url = f"https://search.naver.com/search.naver?where=news&query={encoded_keyword}"
+    """네이버 뉴스를 검색합니다. (Google News RSS의 site:naver.com 필터 활용하여 우회)"""
+    encoded_keyword = urllib.parse.quote(keyword + " site:naver.com")
+    url = f"https://news.google.com/rss/search?q={encoded_keyword}&hl=ko&gl=KR&ceid=KR:ko"
     
+    user_agents = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0'
+    ]
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+        'User-Agent': random.choice(user_agents),
+        'Accept': 'application/rss+xml, application/xml, text/xml'
     }
     
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-    except requests.exceptions.RequestException:
-        return []
-
-    soup = BeautifulSoup(response.text, 'html.parser')
     articles = []
-    
-    # 네이버 뉴스 검색 결과 구조 파싱 (2024년 기준 썸네일/제목 구조)
-    news_items = soup.select('.news_wrap.api_ani_send')
-    
-    for item in news_items:
-        title_elem = item.select_one('.news_tit')
-        desc_elem = item.select_one('.api_txt_lines.dsc_txt_wrap')
+    try:
+        response = requests.get(url, headers=headers, timeout=15)
+        if response.status_code == 200:
+            feed = feedparser.parse(response.text)
+            for entry in feed.entries:
+                try:
+                    pub_date = datetime(*entry.published_parsed[:6]) if 'published_parsed' in entry else datetime.now()
+                except:
+                    pub_date = datetime.now()
+                    
+                articles.append({
+                    'source_name': 'NaverNewsWeb',
+                    'title': entry.title,
+                    'link': entry.link,
+                    'summary': entry.get('summary', ''),
+                    'pub_date': pub_date
+                })
+    except Exception as e:
+        print(f"Error fetching Naver news via Google RSS for {keyword}: {e}")
         
-        if title_elem:
-            title = title_elem.get('title') or title_elem.text
-            link = title_elem.get('href')
-            summary = desc_elem.text if desc_elem else ''
-            
-            articles.append({
-                'source_name': 'NaverNewsWeb',
-                'title': title,
-                'link': link,
-                'summary': summary,
-                'pub_date': datetime.now() # 정확한 시간 추출은 복잡하므로 현재 시간 처리
-            })
     return articles
 
 def collect_naver_news(keywords):
@@ -48,5 +48,5 @@ def collect_naver_news(keywords):
     for kw in keywords[:5]:
         articles = fetch_naver_news_html(kw)
         all_articles.extend(articles)
-        time.sleep(0.5)
+        time.sleep(1)
     return all_articles

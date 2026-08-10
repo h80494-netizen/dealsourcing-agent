@@ -49,7 +49,7 @@ def generate_daily_report():
     api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
     if api_key:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash-8b')
+        model = genai.GenerativeModel('gemini-1.5-flash')
     
     # 전체 기사를 하나의 컨텍스트로 통합
     context_lines = []
