@@ -156,7 +156,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
                 
-                renderTable(json.data);
+                // 테이블 렌더링 전 기존 체크 상태 저장
+                const checkedUrls = Array.from(document.querySelectorAll('.chk-row:checked')).map(cb => cb.dataset.url);
+                renderTable(json.data, checkedUrls);
             }
         } catch (e) {
             console.error(e);
@@ -164,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    const renderTable = (data) => {
+    const renderTable = (data, checkedUrls = []) => {
         tbody.innerHTML = '';
         if (data.length === 0) {
             tbody.innerHTML = '<tr><td colspan="9" class="empty-state">데이터가 없습니다.</td></tr>';
@@ -203,8 +205,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 gradeTooltip = '기타 등급 (50점 미만): 영향력이 미미하거나 벤처 투자와 무관한 가십/광고'; 
             }
 
+            const isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
             tr.innerHTML = `
-                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}"></td>
+                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" ${isChecked}></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${item.news_grade || '-'}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>

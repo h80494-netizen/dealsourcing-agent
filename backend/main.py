@@ -381,23 +381,44 @@ async def generate_url_briefing(req: UrlBriefingRequest):
     if not api_key:
         return {"status": "error", "message": "API 키가 설정되지 않았습니다 (.env 파일 확인)."}
 
-    # 1. URL 스크래핑
-    articles_content = ""
-    for idx, url in enumerate(req.urls):
-        url = url.strip()
-        if not url: continue
-        try:
-            text = await fetch_url_content(url)
-            if len(text) > 2000:
-                text = text[:2000] + "... (중략)"
-            articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n내용: {text}\n"
-        except Exception as e:
-            articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n수집 실패: {e}\n"
+    engine = init_db()
+    session = get_session(engine)
+    
+    # 1. DB에서 URL에 해당하는 기사 정보 한 번에 가져오기
+    db_articles = session.query(DealArticle).filter(DealArticle.link.in_(req.urls)).all()
+    url_to_summary = {article.link: article.compressed_summary or article.summary for article in db_articles}
+    session.close()
 
-    # 2. 등급 조건 (이제 프론트엔드에서 필터링해서 넘어오므로 모든 기사를 활용)
+    # 2. URL 콘텐츠 확보 (DB 활용 및 동시성 비동기 스크래핑)
+    async def get_content(url):
+        if url in url_to_summary and url_to_summary[url]:
+            return url_to_summary[url]
+        try:
+            # DB에 없는 경우에만 스크래핑 (타임아웃 방지)
+            text = await fetch_url_content(url)
+            return text
+        except Exception as e:
+            return f"수집 실패: {e}"
+
+    sem = asyncio.Semaphore(10) # 최대 10개 동시 크롤링
+    async def safe_get_content(url):
+        async with sem:
+            return await get_content(url)
+            
+    urls_to_process = [url.strip() for url in req.urls if url.strip()]
+    tasks = [safe_get_content(url) for url in urls_to_process]
+    results = await asyncio.gather(*tasks)
+
+    articles_content = ""
+    for idx, (url, text) in enumerate(zip(urls_to_process, results)):
+        if len(text) > 2000:
+            text = text[:2000] + "... (중략)"
+        articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n내용: {text}\n"
+
+    # 3. 등급 조건 (이제 프론트엔드에서 필터링해서 넘어오므로 모든 기사를 활용)
     grade_instruction = "제공된 기사들의 핵심 내용을 분석하고 가장 중요도가 높은 이슈들을 선별하여 설명해주세요."
 
-    # 3. Gemini 호출 (마크다운 포맷) - NotebookLM 에뮬레이션 프롬프트
+    # 4. Gemini 호출 (마크다운 포맷) - NotebookLM 에뮬레이션 프롬프트
     prompt = f"""
 당신은 최고의 벤처캐피탈(VC) 시니어 애널리스트이자, 방대한 자료를 한눈에 이해하기 쉽게 엮어내는 AI 리서치 어시스턴트(NotebookLM)입니다.
 아래 제공된 여러 개의 뉴스 기사(URL 및 본문)를 바탕으로, 투자 심사역들이 단 3분 만에 글로벌 트렌드를 파악할 수 있는 **최상급 프레젠테이션 슬라이드**를 작성해주세요.
@@ -439,7 +460,8 @@ async def generate_url_briefing(req: UrlBriefingRequest):
 """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        # NotebookLM과 동일한 수준의 고품질 분석을 위해 Pro 모델 사용
+        model = genai.GenerativeModel('gemini-2.5-pro')
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
     except Exception as e:

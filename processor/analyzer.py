@@ -23,7 +23,7 @@ def translate_to_korean(text):
         return text
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         prompt = f"다음 텍스트를 한국어로 자연스럽게 번역해줘. 번역 결과만 출력해:\n\n{text}"
         response = model.generate_content(prompt)
         return response.text.strip()
@@ -60,7 +60,7 @@ def extract_and_clean_text(url):
         return ""
 
 def evaluate_and_summarize_article(title, clean_text, country, pub_date=None):
-    """2단계: 정제된 기사 텍스트를 바탕으로 평가 및 요약 (gemini-1.5-flash)"""
+    """2단계: 정제된 기사 텍스트를 바탕으로 평가 및 요약 (gemini-2.5-flash)"""
     impact_score = 0
     news_grade = "C"
     reason = ""
@@ -70,7 +70,7 @@ def evaluate_and_summarize_article(title, clean_text, country, pub_date=None):
     if api_key and (clean_text or title):
         try:
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             eval_prompt = (
                 "당신은 벤처캐피탈(VC) 심사역입니다. 다음 기사의 [제목]과 [내용]을 읽고, "
                 "이 기사가 가지는 투자 '영향력 점수(0~100점)'를 아래 6가지 구체적 기준에 따라 엄격하게 평가하세요.\n"
