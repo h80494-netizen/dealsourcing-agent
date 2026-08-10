@@ -582,10 +582,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('btn-print-pdf').addEventListener('click', () => {
-        // PDF 출력을 위한 새 창 열기 (Reveal.js print-pdf 모드 활용)
-        const textarea = document.querySelector('#reveal-slides textarea');
-        if (!textarea) return;
-        const md = textarea.value;
+        // PDF 출력을 위한 새 창 열기 (A4 보고서 모드)
+        const reportContainer = document.getElementById('report-content-container');
+        if (!reportContainer || !reportContainer.innerHTML.trim()) {
+            alert('출력할 리포트 내용이 없습니다.');
+            return;
+        }
+        const htmlContent = reportContainer.innerHTML;
         
         const printWindow = window.open('', '_blank');
         printWindow.document.write(`
@@ -594,43 +597,76 @@ document.addEventListener('DOMContentLoaded', () => {
             <head>
                 <meta charset="UTF-8">
                 <title>AI 요약 브리핑 리포트 (PDF 출력)</title>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/css/print/pdf.min.css">
                 <style>
-                    /* 인쇄 시 왼쪽 상단에 날짜 표시 */
-                    @page { margin: 0; }
-                    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+                    /* 인쇄 시 여백 및 스타일 초기화 */
+                    @page { margin: 15mm; }
+                    body { 
+                        -webkit-print-color-adjust: exact; 
+                        print-color-adjust: exact; 
+                        background: #ffffff;
+                        color: #1e293b;
+                        font-family: 'Inter', 'Noto Sans KR', sans-serif;
+                    }
                     .print-header {
-                        position: fixed;
-                        top: 20px;
-                        left: 20px;
                         font-size: 14px;
-                        color: #ccc;
-                        z-index: 1000;
+                        color: #64748b;
+                        margin-bottom: 20px;
+                        text-align: right;
+                    }
+                    .markdown-body {
+                        max-width: 100%;
+                        line-height: 1.8;
+                    }
+                    .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+                        color: #0f172a;
+                        margin-top: 1.5em;
+                        margin-bottom: 0.5em;
+                        font-weight: 700;
+                    }
+                    .markdown-body h1 {
+                        font-size: 2.2em;
+                        border-bottom: 3px solid #2563eb;
+                        padding-bottom: 0.3em;
+                        text-align: center;
+                        color: #1d4ed8;
+                    }
+                    .markdown-body h2 {
+                        font-size: 1.6em;
+                        border-bottom: 1px solid #e2e8f0;
+                        padding-bottom: 0.3em;
+                    }
+                    .markdown-body h3 {
+                        font-size: 1.3em;
+                    }
+                    .markdown-body table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 1.5em 0;
+                        font-size: 0.95rem;
+                    }
+                    .markdown-body th, .markdown-body td {
+                        padding: 12px 16px;
+                        border: 1px solid #cbd5e1;
+                    }
+                    .markdown-body th {
+                        background-color: #f1f5f9;
+                        text-align: left;
+                    }
+                    .markdown-body blockquote {
+                        border-left: 4px solid #cbd5e1;
+                        padding-left: 1rem;
+                        color: #64748b;
+                        font-style: italic;
                     }
                 </style>
             </head>
             <body>
-                <div class="print-header">생성일: ${new Date().toISOString().split('T')[0]}</div>
-                <div class="reveal">
-                    <div class="slides">
-                        <section data-markdown data-separator="^---"><textarea data-template>${md}</textarea></section>
-                    </div>
+                <div class="print-header">보고서 생성일: ${new Date().toISOString().split('T')[0]}</div>
+                <div class="markdown-body">
+                    ${htmlContent}
                 </div>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"><\/script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.js"><\/script>
                 <script>
-                    Reveal.initialize({
-                        plugins: [ RevealMarkdown ],
-                        width: 1024,
-                        height: 768,
-                        margin: 0.1,
-                        pdfSeparateFragments: false
-                    }).then(() => {
-                        // Reveal.js 렌더링 완료 후 인쇄 다이얼로그 호출
-                        setTimeout(() => { window.print(); }, 1500);
-                    });
+                    setTimeout(() => { window.print(); }, 500);
                 <\/script>
             </body>
             </html>
