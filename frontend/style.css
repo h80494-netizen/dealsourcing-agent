@@ -31,9 +31,10 @@ body {
 
 .app-container {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     padding: 1.5rem;
     gap: 1.5rem;
+    overflow: hidden;
 }
 
 .glass-panel {
@@ -51,6 +52,7 @@ body {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 
 .sidebar::-webkit-scrollbar { width: 6px; }
@@ -263,6 +265,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    overflow: hidden;
 }
 
 /* Status Section */
@@ -408,20 +411,19 @@ input:checked + .slider:before {
     flex: 1;
     width: 100%;
     min-height: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: auto;
     border: 1px solid var(--panel-border);
     border-radius: 8px;
     scrollbar-width: auto;
     scrollbar-color: rgba(255,255,255,0.4) rgba(0,0,0,0.2);
 }
 
-.table-container::-webkit-scrollbar { width: 16px; height: 10px; }
+.table-container::-webkit-scrollbar { width: 8px; height: 8px; }
 .table-container::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.3); border-radius: 8px; }
 .table-container::-webkit-scrollbar-thumb { 
     background: rgba(255, 255, 255, 0.5); 
     border-radius: 8px; 
-    border: 3px solid var(--panel-bg); 
+    border: 2px solid var(--panel-bg); 
 }
 .table-container::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.7); }
 .table-container::-webkit-scrollbar-corner { background: transparent; }
