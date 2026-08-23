@@ -178,7 +178,6 @@ def analyze_text(title, content="", url="", source_country=None, pub_date=None):
                 country = "중국"
         
         # 번역 처리 (한국어가 아닌 경우 또는 한국어가 포함되지 않은 경우)
-        import re
         if country != "한국" or not re.search(r'[가-힣]', title):
             title = translate_to_korean(title)
             if clean_text:

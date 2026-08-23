@@ -6,6 +6,92 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusBadge = document.getElementById('status-badge');
     const updateMsg = document.getElementById('update-msg');
 
+    let statisticsData = null;
+    let currentPeriod = 'today';
+
+    const fetchStatistics = async () => {
+        try {
+            const res = await fetch('/api/statistics');
+            const json = await res.json();
+            if (json.status === 'success') {
+                statisticsData = json.data;
+                renderStatistics();
+            }
+        } catch (e) {
+            console.error("통계 데이터를 가져오는 데 실패했습니다:", e);
+        }
+    };
+
+    const renderStatistics = () => {
+        if (!statisticsData || !statisticsData[currentPeriod]) return;
+        const periodData = statisticsData[currentPeriod];
+        
+        // 1. 요약 값 업데이트
+        document.getElementById('stat-total-count').textContent = `${periodData.total_count}건`;
+        document.getElementById('stat-avg-impact').textContent = `${periodData.avg_impact.toFixed(1)}점`;
+        
+        // 2. 국가별 분포 렌더링
+        const countriesList = document.getElementById('stat-countries-list');
+        countriesList.innerHTML = '';
+        const totalCount = periodData.total_count;
+        
+        if (totalCount === 0 || Object.keys(periodData.countries).length === 0) {
+            countriesList.innerHTML = '<div style="font-size: 0.8rem; color: #9ca3af; text-align: center; padding: 10px 0;">기간 내 기사 없음</div>';
+        } else {
+            const sortedCountries = Object.entries(periodData.countries).sort((a, b) => b[1] - a[1]);
+            sortedCountries.forEach(([country, count]) => {
+                const percent = totalCount > 0 ? ((count / totalCount) * 100).toFixed(0) : 0;
+                const barHtml = `
+                    <div class="stat-bar-container">
+                        <div class="stat-bar-label">
+                            <span>${country}</span>
+                            <span>${count}건 (${percent}%)</span>
+                        </div>
+                        <div class="stat-bar-outer">
+                            <div class="stat-bar-inner" style="width: ${percent}%; background: linear-gradient(90deg, #3b82f6, #60a5fa);"></div>
+                        </div>
+                    </div>
+                `;
+                countriesList.insertAdjacentHTML('beforeend', barHtml);
+            });
+        }
+        
+        // 3. 투자 단계별 분포 렌더링
+        const stagesList = document.getElementById('stat-stages-list');
+        stagesList.innerHTML = '';
+        
+        if (totalCount === 0 || Object.keys(periodData.stages).length === 0) {
+            stagesList.innerHTML = '<div style="font-size: 0.8rem; color: #9ca3af; text-align: center; padding: 10px 0;">기간 내 기사 없음</div>';
+        } else {
+            const sortedStages = Object.entries(periodData.stages).sort((a, b) => b[1] - a[1]);
+            sortedStages.forEach(([stage, count]) => {
+                const percent = totalCount > 0 ? ((count / totalCount) * 100).toFixed(0) : 0;
+                const barHtml = `
+                    <div class="stat-bar-container">
+                        <div class="stat-bar-label">
+                            <span>${stage}</span>
+                            <span>${count}건 (${percent}%)</span>
+                        </div>
+                        <div class="stat-bar-outer">
+                            <div class="stat-bar-inner" style="width: ${percent}%; background: linear-gradient(90deg, #10b981, #34d399);"></div>
+                        </div>
+                    </div>
+                `;
+                stagesList.insertAdjacentHTML('beforeend', barHtml);
+            });
+        }
+    };
+
+    // 통계 탭 클릭 리스너 부착
+    document.querySelectorAll('.anal-tab-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.anal-tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentPeriod = btn.dataset.period;
+            renderStatistics();
+        });
+    });
+
     // 커스텀 드롭다운 토글 로직
     document.querySelectorAll('.custom-select-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -250,6 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnApply.addEventListener('click', () => {
         fetchArticles();
+        fetchStatistics();
     });
 
     btnRealtime.addEventListener('click', async () => {
@@ -271,10 +358,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         
                         // 주기적으로 테이블 새로고침하여 새로 추가된 데이터를 바로 보여줌
                         fetchArticles();
+                        fetchStatistics();
                         
                         if (statusJson.status === 'success' && !statusJson.is_crawling) {
                             clearInterval(pollInterval);
                             updateMsg.textContent = '수집이 완료되었습니다!';
+                            fetchStatistics();
                             
                             // 결과 표시
                             if (statusJson.result && Object.keys(statusJson.result).length > 0) {
@@ -293,6 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             statusBadge.classList.remove('active');
                             setTimeout(() => {
                                 statusBadge.textContent = '대기 중';
+                                updateMsg.textContent = '최신 데이터를 확인하세요.';
                             }, 5000);
                         }
                     } catch(e) {}
@@ -303,6 +393,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 btnLoader.style.display = 'none';
                 statusBadge.textContent = '대기 중';
                 statusBadge.classList.remove('active');
+                setTimeout(() => {
+                    updateMsg.textContent = '최신 데이터를 확인하세요.';
+                }, 5000);
             }
         } catch (e) {
             console.error(e);
@@ -311,11 +404,15 @@ document.addEventListener('DOMContentLoaded', () => {
             btnLoader.style.display = 'none';
             statusBadge.textContent = '대기 중';
             statusBadge.classList.remove('active');
+            setTimeout(() => {
+                updateMsg.textContent = '최신 데이터를 확인하세요.';
+            }, 5000);
         }
     });
 
     // 초기 로드 시 데이터 가져오기
     fetchArticles();
+    fetchStatistics();
 
     // Keyword Handling
     const keywordInput = document.getElementById('custom-keyword');
@@ -773,6 +870,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === settingsModal) settingsModal.style.display = 'none';
         if (e.target === reportModal) reportModal.style.display = 'none';
         if (urlBriefingModal && e.target === urlBriefingModal) urlBriefingModal.style.display = 'none';
+        const apiKeyModal = document.getElementById('apikey-modal');
+        if (apiKeyModal && e.target === apiKeyModal) apiKeyModal.style.display = 'none';
     });
 });
 

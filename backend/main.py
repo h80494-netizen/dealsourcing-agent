@@ -151,6 +151,71 @@ def get_articles(
         })
     return {"status": "success", "count": len(data), "data": data}
 
+@app.get("/api/statistics")
+def get_statistics():
+    engine = init_db()
+    session = get_session(engine)
+    
+    import datetime
+    now = datetime.datetime.now()
+    
+    # 시간 기준 설정
+    today_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    yesterday_start = today_start - datetime.timedelta(days=1)
+    yesterday_end = today_start
+    week_start = today_start - datetime.timedelta(days=7)
+    month_start = today_start - datetime.timedelta(days=30)
+    
+    periods = {
+        "today": (today_start, None),
+        "yesterday": (yesterday_start, yesterday_end),
+        "1week": (week_start, None),
+        "1month": (month_start, None)
+    }
+    
+    stats_data = {}
+    
+    for period_name, (start_time, end_time) in periods.items():
+        query = session.query(DealArticle)
+        if end_time:
+            query = query.filter(DealArticle.created_at >= start_time, DealArticle.created_at < end_time)
+        else:
+            query = query.filter(DealArticle.created_at >= start_time)
+            
+        articles = query.all()
+        
+        total = len(articles)
+        country_counts = {}
+        stage_counts = {}
+        grade_counts = {}
+        total_impact = 0.0
+        
+        for art in articles:
+            c = art.country or "기타"
+            country_counts[c] = country_counts.get(c, 0) + 1
+            
+            s = art.deal_stage or "기타"
+            stage_counts[s] = stage_counts.get(s, 0) + 1
+            
+            g = art.news_grade or "기타"
+            grade_counts[g] = grade_counts.get(g, 0) + 1
+            
+            total_impact += art.impact_score if art.impact_score else 0.0
+            
+        avg_impact = round(total_impact / total, 1) if total > 0 else 0.0
+        
+        stats_data[period_name] = {
+            "total_count": total,
+            "avg_impact": avg_impact,
+            "countries": country_counts,
+            "stages": stage_counts,
+            "grades": grade_counts
+        }
+        
+    session.close()
+    return {"status": "success", "data": stats_data}
+
+
 crawl_result = {}
 is_crawling = False
 

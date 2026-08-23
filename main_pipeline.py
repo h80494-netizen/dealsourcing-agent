@@ -113,6 +113,17 @@ def run_pipeline(progress_callback=None):
     print("일일 요약 리포트 생성을 시작합니다...")
     generate_daily_report()
     
+    # 4. 데이터 보존 정책 실행 (최근 1년 이외 데이터 정리)
+    try:
+        from datetime import timedelta
+        retention_limit = datetime.now() - timedelta(days=365)
+        deleted_count = session.query(DealArticle).filter(DealArticle.created_at < retention_limit).delete()
+        session.commit()
+        print(f"[{datetime.now()}] Retention Policy: 1년 경과된 기사 데이터 {deleted_count}건을 삭제하였습니다.")
+    except Exception as e:
+        session.rollback()
+        print(f"Error during database cleanup: {e}")
+        
     return country_stats
 
 if __name__ == "__main__":

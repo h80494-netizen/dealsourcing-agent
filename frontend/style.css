@@ -600,24 +600,65 @@ tr:hover td:first-child {
         padding: 0.5rem;
         height: auto;
         min-height: 100vh;
+        display: flex;
+        gap: 1rem;
     }
+    
+    .mobile-header {
+        /* Let's keep it but move it below or hide it? The user wants filters at the VERY top. Let's make it order 2. */
+        display: block !important;
+        order: 2;
+    }
+    .desktop-header {
+        display: none;
+    }
+
+    .main-content, .bottom-panels {
+        display: contents;
+    }
+
+    .top-filters {
+        order: 1; /* Move to the absolute top */
+        margin-bottom: 0 !important;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgba(15, 23, 42, 0.95); /* matching bg-color to prevent overlapping content visibility */
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+    
     .sidebar {
         width: 100%;
         max-height: none;
-        margin-bottom: 1rem;
+        margin-bottom: 0 !important;
+        order: 3; /* Sidebar directly after mobile-header */
     }
-    .bottom-panels {
-        flex-direction: column;
+
+    .preview-section {
+        order: 4;
     }
-    .main-content {
-        overflow: visible;
+
+    .status-section {
+        order: 5;
+        margin-top: 0 !important;
     }
+
     .table-container {
         overflow-x: auto;
     }
     .modal-content {
         width: 95%;
         padding: 1rem;
+    }
+    
+    .mobile-apply-btn {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-apply {
+        display: none !important;
     }
 }
 
@@ -783,3 +824,47 @@ tr:hover td:first-child {
     color: #64748b;
     font-style: italic;
 }
+
+/* Analytics Section & Tabs */
+.anal-tab-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color: var(--text-muted);
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.anal-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.anal-tab-btn.active {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    border-color: #3b82f6;
+    color: white;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+.stat-bar-container {
+    margin-top: 4px;
+}
+.stat-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #cbd5e1;
+    margin-bottom: 2px;
+}
+.stat-bar-outer {
+    background: rgba(255, 255, 255, 0.05);
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.stat-bar-inner {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s ease-out;
+}
+
