@@ -31,10 +31,9 @@ body {
 
 .app-container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1.5rem;
     gap: 1.5rem;
-    overflow: hidden;
 }
 
 .glass-panel {
@@ -52,7 +51,6 @@ body {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
 }
 
 .sidebar::-webkit-scrollbar { width: 6px; }
@@ -265,7 +263,6 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    overflow: hidden;
 }
 
 /* Status Section */
@@ -411,6 +408,7 @@ input:checked + .slider:before {
     flex: 1;
     width: 100%;
     min-height: 0;
+    max-height: 480px;
     overflow: auto;
     border: 1px solid var(--panel-border);
     border-radius: 8px;
