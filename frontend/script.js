@@ -470,33 +470,40 @@ document.addEventListener('DOMContentLoaded', () => {
                         fetchArticles();
                         fetchStatistics();
                         
-                        if (statusJson.status === 'success' && !statusJson.is_crawling) {
-                            clearInterval(pollInterval);
-                            updateMsg.textContent = '수집이 완료되었습니다!';
-                            fetchStatistics();
-                            
-                            // 결과 표시
-                            if (statusJson.result && Object.keys(statusJson.result).length > 0) {
-                                let stats = [];
-                                for (let [country, count] of Object.entries(statusJson.result)) {
-                                    stats.push(`${country} ${count}건`);
-                                }
-                                document.getElementById('new-news-stats').textContent = `[신규 추가] ${stats.join(', ')}`;
-                            } else {
-                                document.getElementById('new-news-stats').textContent = '[신규 추가] 0건 (최신 유지 중)';
+                        if (statusJson.status === 'success') {
+                            const progress = statusJson.progress;
+                            if (progress) {
+                                updateMsg.innerHTML = `<span style="color:#f59e0b; font-weight:bold;">[${progress.percent}%]</span> ${progress.message}`;
                             }
                             
-                            btnRealtime.disabled = false;
-                            btnLoader.style.display = 'none';
-                            statusBadge.textContent = '완료됨';
-                            statusBadge.classList.remove('active');
-                            setTimeout(() => {
-                                statusBadge.textContent = '대기 중';
-                                updateMsg.textContent = '최신 데이터를 확인하세요.';
-                            }, 5000);
+                            if (!statusJson.is_crawling) {
+                                clearInterval(pollInterval);
+                                updateMsg.textContent = '수집이 완료되었습니다!';
+                                fetchStatistics();
+                                
+                                // 결과 표시
+                                if (statusJson.result && Object.keys(statusJson.result).length > 0) {
+                                    let stats = [];
+                                    for (let [country, count] of Object.entries(statusJson.result)) {
+                                        stats.push(`${country} ${count}건`);
+                                    }
+                                    document.getElementById('new-news-stats').textContent = `[신규 추가] ${stats.join(', ')}`;
+                                } else {
+                                    document.getElementById('new-news-stats').textContent = '[신규 추가] 0건 (최신 유지 중)';
+                                }
+                                
+                                btnRealtime.disabled = false;
+                                btnLoader.style.display = 'none';
+                                statusBadge.textContent = '완료됨';
+                                statusBadge.classList.remove('active');
+                                setTimeout(() => {
+                                    statusBadge.textContent = '대기 중';
+                                    updateMsg.textContent = '최신 데이터를 확인하세요.';
+                                }, 5000);
+                            }
                         }
                     } catch(e) {}
-                }, 3000); // 3초 간격으로 더 빠르게 업데이트
+                }, 2000);
             } else {
                 updateMsg.textContent = json.message;
                 btnRealtime.disabled = false;

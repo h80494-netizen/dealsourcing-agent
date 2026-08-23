@@ -230,19 +230,36 @@ def get_statistics():
 
 crawl_result = {}
 is_crawling = False
+crawl_progress = {"status": "idle", "message": "", "current": 0, "total": 0, "percent": 0}
 
 def run_pipeline_task(days_limit: int):
-    global is_crawling, crawl_result
+    global is_crawling, crawl_result, crawl_progress
     if is_crawling: return
     is_crawling = True
+    crawl_progress = {"status": "starting", "message": "데이터 수집 및 크롤링을 준비하는 중...", "current": 0, "total": 0, "percent": 0}
     try:
-        crawl_result = run_pipeline(days_limit=days_limit)
+        def pipeline_callback(msg, current, total):
+            global crawl_progress
+            crawl_progress = {
+                "status": "analyzing",
+                "message": msg,
+                "current": current,
+                "total": total,
+                "percent": int((current / total) * 100) if total > 0 else 0
+            }
+        
+        # 수집 전 단계를 기록하기 위해 run_pipeline 내부 진입 전 메시지 표시
+        crawl_progress["message"] = "글로벌 뉴스 RSS 및 네이버 뉴스를 수집하는 중..."
+        crawl_result = run_pipeline(progress_callback=pipeline_callback, days_limit=days_limit)
+        crawl_progress = {"status": "completed", "message": "수집 및 AI 분석 완료!", "current": 100, "total": 100, "percent": 100}
+    except Exception as e:
+        crawl_progress = {"status": "failed", "message": f"오류 발생: {str(e)}", "current": 0, "total": 0, "percent": 0}
     finally:
         is_crawling = False
 
 @app.post("/api/crawl_now")
 def crawl_now(background_tasks: BackgroundTasks, days_limit: int = Query(30)):
-    global is_crawling, crawl_result
+    global is_crawling, crawl_result, crawl_progress
     if is_crawling:
         return {"status": "error", "message": "이미 수집 중입니다. 잠시만 기다려 주세요."}
     crawl_result = {}
@@ -251,8 +268,8 @@ def crawl_now(background_tasks: BackgroundTasks, days_limit: int = Query(30)):
 
 @app.get("/api/crawl_status")
 def get_crawl_status():
-    global is_crawling, crawl_result
-    return {"status": "success", "is_crawling": is_crawling, "result": crawl_result}
+    global is_crawling, crawl_result, crawl_progress
+    return {"status": "success", "is_crawling": is_crawling, "progress": crawl_progress, "result": crawl_result}
 
 @app.get("/api/domains")
 def get_domains():
