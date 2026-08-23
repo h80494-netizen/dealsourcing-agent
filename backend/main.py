@@ -87,7 +87,9 @@ def get_articles(
     news_grade: List[str] = Query([]),
     promising_industry: List[str] = Query([]),
     sort_by: str = Query("latest"), # "latest" or "importance"
-    date_filter: str = Query(None) # e.g. "yesterday"
+    date_filter: str = Query(None), # e.g. "yesterday"
+    page: int = Query(1),
+    page_size: int = Query(20)
 ):
     engine = init_db()
     session = get_session(engine)
@@ -127,7 +129,9 @@ def get_articles(
     else:
         query = query.order_by(desc(DealArticle.created_at))
         
-    results = query.limit(200).all()
+    total_count = query.count()
+    offset = (page - 1) * page_size
+    results = query.offset(offset).limit(page_size).all()
     session.close()
     
     data = []
@@ -149,7 +153,15 @@ def get_articles(
             "promising_industry": r.promising_industry,
             "created_at": r.created_at.strftime("%Y-%m-%d %H:%M:%S") if r.created_at else None
         })
-    return {"status": "success", "count": len(data), "data": data}
+    import math
+    return {
+        "status": "success",
+        "count": total_count,
+        "page": page,
+        "page_size": page_size,
+        "total_pages": math.ceil(total_count / page_size),
+        "data": data
+    }
 
 @app.get("/api/statistics")
 def get_statistics():

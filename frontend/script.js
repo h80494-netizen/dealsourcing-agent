@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let statisticsData = null;
     let currentPeriod = 'today';
+    let currentPage = 1;
 
     const fetchStatistics = async () => {
         try {
@@ -196,6 +197,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // 일자 필터 적용
             if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
 
+            // 페이징 파라미터 적용
+            params.append('page', currentPage);
+            params.append('page_size', 20);
+
             const res = await fetch(`/api/articles?${params.toString()}`);
             const json = await res.json();
             
@@ -245,11 +250,78 @@ document.addEventListener('DOMContentLoaded', () => {
                 // 테이블 렌더링 전 기존 체크 상태 저장
                 const checkedUrls = Array.from(document.querySelectorAll('.chk-row:checked')).map(cb => cb.dataset.url);
                 renderTable(json.data, checkedUrls);
+                
+                // 페이지네이션 렌더링
+                renderPagination(json.total_pages, json.page);
             }
         } catch (e) {
             console.error(e);
             tbody.innerHTML = `<tr><td colspan="8" style="color:red; text-align:center;">데이터를 불러오는 중 오류가 발생했습니다. 서버가 켜져 있는지 확인하세요.</td></tr>`;
         }
+    };
+
+    const renderPagination = (totalPages, activePage) => {
+        const paginationControls = document.getElementById('pagination-controls');
+        if (!paginationControls) return;
+        paginationControls.innerHTML = '';
+        
+        if (totalPages <= 1) return;
+        
+        const createButton = (text, targetPage, active = false, disabled = false) => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.textContent = text;
+            btn.style.padding = '6px 12px';
+            btn.style.border = '1px solid rgba(255,255,255,0.1)';
+            btn.style.borderRadius = '6px';
+            btn.style.cursor = disabled ? 'not-allowed' : 'pointer';
+            btn.style.fontSize = '0.8rem';
+            btn.style.transition = 'all 0.2s';
+            
+            if (active) {
+                btn.style.background = 'var(--primary-color)';
+                btn.style.color = '#fff';
+                btn.style.borderColor = 'var(--primary-color)';
+            } else {
+                btn.style.background = 'rgba(255,255,255,0.03)';
+                btn.style.color = 'var(--text-main)';
+            }
+            
+            if (disabled) {
+                btn.disabled = true;
+                btn.style.opacity = '0.3';
+            } else {
+                btn.addEventListener('click', () => {
+                    currentPage = targetPage;
+                    fetchArticles();
+                    // 페이지 이동 시 대시보드 테이블 영역으로 부드럽게 스크롤
+                    const pipelineSection = document.querySelector('.preview-section');
+                    if (pipelineSection) {
+                        pipelineSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            }
+            return btn;
+        };
+        
+        // 이전 버튼
+        paginationControls.appendChild(createButton('이전', activePage - 1, false, activePage === 1));
+        
+        // 페이지 버튼 범위 계산 (최대 5개)
+        const maxVisible = 5;
+        let startPage = Math.max(1, activePage - Math.floor(maxVisible / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+        
+        if (endPage - startPage + 1 < maxVisible) {
+            startPage = Math.max(1, endPage - maxVisible + 1);
+        }
+        
+        for (let i = startPage; i <= endPage; i++) {
+            paginationControls.appendChild(createButton(i.toString(), i, i === activePage));
+        }
+        
+        // 다음 버튼
+        paginationControls.appendChild(createButton('다음', activePage + 1, false, activePage === totalPages));
     };
 
     const renderTable = (data, checkedUrls = []) => {
@@ -335,6 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     btnApply.addEventListener('click', () => {
+        currentPage = 1;
         fetchArticles();
         fetchStatistics();
     });
