@@ -406,6 +406,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // 전체화면 토글 기능
+    const btnToggleFullscreen = document.getElementById('btn-toggle-fullscreen');
+    const previewSection = document.querySelector('.preview-section');
+    const fullscreenBtnText = document.getElementById('fullscreen-btn-text');
+
+    if (btnToggleFullscreen && previewSection && fullscreenBtnText) {
+        btnToggleFullscreen.addEventListener('click', () => {
+            const isActive = previewSection.classList.toggle('fullscreen-active');
+            if (isActive) {
+                fullscreenBtnText.textContent = '원래 화면';
+                btnToggleFullscreen.querySelector('span').textContent = '🗗';
+            } else {
+                fullscreenBtnText.textContent = '전체 화면';
+                btnToggleFullscreen.querySelector('span').textContent = '⛶';
+            }
+        });
+    }
+
     btnApply.addEventListener('click', () => {
         currentPage = 1;
         fetchArticles();
