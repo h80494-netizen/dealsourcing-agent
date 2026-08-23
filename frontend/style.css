@@ -31,7 +31,7 @@ body {
 
 .app-container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1.5rem;
     gap: 1.5rem;
 }
@@ -51,7 +51,6 @@ body {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
 }
 
 .sidebar::-webkit-scrollbar { width: 6px; }
@@ -264,12 +263,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    overflow-y: auto;
-    padding-right: 0.5rem;
 }
-
-.main-content::-webkit-scrollbar { width: 6px; }
-.main-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
 
 /* Status Section */
 .status-section {
