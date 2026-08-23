@@ -15,8 +15,8 @@ from collectors.naver_news_collector import collect_naver_news
 from processor.analyzer import analyze_text
 from config import INDUSTRY_KEYWORDS, SIGNAL_KEYWORDS
 
-def run_pipeline(progress_callback=None):
-    print(f"[{datetime.now()}] 파이프라인 시작...")
+def run_pipeline(progress_callback=None, days_limit=2):
+    print(f"[{datetime.now()}] 파이프라인 시작 (days_limit: {days_limit})...")
     engine = init_db()
     session = get_session(engine)
     
@@ -36,15 +36,24 @@ def run_pipeline(progress_callback=None):
     
     all_articles = rss_articles + naver_articles
     
-    # 2. 분석 및 저장
-    print(f"총 {len(all_articles)}개의 기사 중 새로운 기사를 필터링합니다...")
+    # 수집 리스트 자체 내 중복 링크 제거 (Deduplication)
+    seen_links = set()
+    unique_articles = []
+    for art in all_articles:
+        link = art.get('link')
+        if link and link not in seen_links:
+            seen_links.add(link)
+            unique_articles.append(art)
     
-    # 먼저 DB에 없으며, 최근 2일 이내의 기사만 추려냄
+    # 2. 분석 및 저장
+    print(f"총 {len(all_articles)}개의 기사 중 {len(unique_articles)}개의 고유 기사를 추렸습니다. 새로운 기사를 필터링합니다...")
+    
+    # 먼저 DB에 없으며, 지정된 일수 이내의 기사만 추려냄
     from datetime import timedelta
-    time_threshold = datetime.now() - timedelta(days=2)
+    time_threshold = datetime.now() - timedelta(days=days_limit)
     
     new_articles = []
-    for art in all_articles:
+    for art in unique_articles:
         if art['pub_date'] and art['pub_date'] < time_threshold:
             continue
             
@@ -112,7 +121,7 @@ def run_pipeline(progress_callback=None):
                     
                 except Exception as e:
                     session.rollback()
-                    print(f"Error committing article {art['link']}: {e}")
+                    print(f"Error committing article: {type(e).__name__}")
             
     print(f"[{datetime.now()}] 파이프라인 완료. 새로 추가된 유의미한 기사 수: {new_count}")
     

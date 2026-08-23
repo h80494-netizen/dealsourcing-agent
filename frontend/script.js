@@ -340,15 +340,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     btnRealtime.addEventListener('click', async () => {
+        const checkedFilter = document.querySelector('input[name="date-filter"]:checked');
+        const filterVal = checkedFilter ? checkedFilter.value : 'all';
+        
+        let daysLimit = 2; // 기본값: 전일
+        let periodName = '전일';
+        if (filterVal === 'today') {
+            daysLimit = 1;
+            periodName = '당일';
+        } else if (filterVal === 'yesterday') {
+            daysLimit = 2;
+            periodName = '전일';
+        } else if (filterVal === '1week') {
+            daysLimit = 7;
+            periodName = '일주일';
+        } else if (filterVal === '1month' || filterVal === 'all') {
+            daysLimit = 30;
+            periodName = '한달';
+        }
+
         btnRealtime.disabled = true;
         btnLoader.style.display = 'block';
         statusBadge.textContent = '수집 중...';
         statusBadge.classList.add('active');
-        updateMsg.textContent = '데이터 수집 및 분석을 시작합니다 (약 1~2분 소요)...';
+        updateMsg.textContent = `${periodName} 기준 데이터 수집 및 분석을 시작합니다 (약 1~2분 소요)...`;
         document.getElementById('new-news-stats').textContent = '';
         
         try {
-            const res = await fetch('/api/crawl_now', { method: 'POST' });
+            const res = await fetch(`/api/crawl_now?days_limit=${daysLimit}`, { method: 'POST' });
             const json = await res.json();
             if (json.status === 'success') {
                 const pollInterval = setInterval(async () => {

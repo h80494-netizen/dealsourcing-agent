@@ -219,23 +219,23 @@ def get_statistics():
 crawl_result = {}
 is_crawling = False
 
-def run_pipeline_task():
+def run_pipeline_task(days_limit: int):
     global is_crawling, crawl_result
     if is_crawling: return
     is_crawling = True
     try:
-        crawl_result = run_pipeline()
+        crawl_result = run_pipeline(days_limit=days_limit)
     finally:
         is_crawling = False
 
 @app.post("/api/crawl_now")
-def crawl_now(background_tasks: BackgroundTasks):
+def crawl_now(background_tasks: BackgroundTasks, days_limit: int = Query(30)):
     global is_crawling, crawl_result
     if is_crawling:
         return {"status": "error", "message": "이미 수집 중입니다. 잠시만 기다려 주세요."}
     crawl_result = {}
-    background_tasks.add_task(run_pipeline_task)
-    return {"status": "success", "message": "실시간 데이터 수집 및 업데이트가 백그라운드에서 시작되었습니다."}
+    background_tasks.add_task(run_pipeline_task, days_limit)
+    return {"status": "success", "message": f"실시간 데이터 수집 및 업데이트({days_limit}일 기준)가 백그라운드에서 시작되었습니다."}
 
 @app.get("/api/crawl_status")
 def get_crawl_status():
