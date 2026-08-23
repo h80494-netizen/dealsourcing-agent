@@ -223,6 +223,23 @@
                 </div>
             </section>
 
+            <!-- Bottom stats / progress (가로 한줄로 산업별 파이프라인 위에 배치) -->
+            <section class="status-section glass-panel" style="margin-bottom: 0.5rem; padding: 0.6rem 1.2rem; display: flex; align-items: center; gap: 20px; justify-content: space-between; width: 100%;">
+                <div class="status-header" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0; border: none; padding: 0;">
+                    <h2 style="font-size: 0.95rem; margin: 0; white-space: nowrap; color: var(--text-color);">🖥️ 대시보드 모니터링</h2>
+                    <span class="badge" id="status-badge" style="font-size: 0.75rem; padding: 3px 8px; margin: 0;">대기 중</span>
+                </div>
+                <div class="progress-container" style="flex: 1; display: flex; align-items: center; margin-bottom: 0;">
+                    <div class="progress-stats" style="display: flex; align-items: center; justify-content: space-between; gap: 15px; width: 100%; font-size: 0.85rem;">
+                        <div style="display: flex; gap: 15px; align-items: center;">
+                            <span id="collected-count" style="color: #e2e8f0; font-weight: 500;">검색된 딜: 0 건</span>
+                            <span id="new-news-stats" style="color: #fcd34d; font-weight: bold;"></span>
+                        </div>
+                        <span id="update-msg" style="color: #60a5fa; font-weight: 500;">최신 데이터를 확인하세요.</span>
+                    </div>
+                </div>
+            </section>
+
             <div class="bottom-panels">
                 <!-- Data Preview -->
                 <section class="preview-section glass-panel" style="flex: 1; display: flex; flex-direction: column;">
@@ -255,21 +272,6 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                </section>
-                
-                <!-- Bottom stats / progress -->
-                <section class="status-section glass-panel" style="margin-top: 1rem;">
-                    <div class="status-header">
-                        <h2>대시보드 모니터링</h2>
-                        <span class="badge" id="status-badge">대기 중</span>
-                    </div>
-                    <div class="progress-container">
-                        <div class="progress-stats" style="display: flex; align-items: center; justify-content: flex-start; gap: 15px;">
-                            <span id="collected-count">검색된 딜: 0 건</span>
-                            <span id="new-news-stats" style="color: #fcd34d; font-weight: bold; font-size: 0.9rem;"></span>
-                            <span id="update-msg" style="color: #60a5fa; margin-left: auto;">최신 데이터를 확인하세요.</span>
-                        </div>
                     </div>
                 </section>
             </div>
