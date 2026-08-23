@@ -1,5 +1,13 @@
+import sys
 import time
 from datetime import datetime
+
+# Windows console encoding fix
+if sys.platform.startswith('win'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except:
+        pass
 from database.db_manager import init_db, get_session
 from database.models import DealArticle, ResearchDomain
 from collectors.news_rss_collector import collect_all_rss
