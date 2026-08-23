@@ -409,7 +409,7 @@ input:checked + .slider:before {
     width: 100%;
     min-height: 0;
     max-height: 480px;
-    overflow: auto;
+    overflow: scroll;
     border: 1px solid var(--panel-border);
     border-radius: 8px;
     scrollbar-width: auto;
@@ -428,7 +428,7 @@ input:checked + .slider:before {
 
 table {
     width: 100%;
-    min-width: 1300px;
+    min-width: 1600px;
     border-collapse: collapse;
     text-align: left;
     white-space: nowrap;
