@@ -472,6 +472,20 @@ document.addEventListener('DOMContentLoaded', () => {
                         
                         if (statusJson.status === 'success') {
                             const progress = statusJson.progress;
+                            
+                            // 수집 오류 발생 시 알림창 및 전용 에러 메시지 노출
+                            if (progress && progress.status === 'failed') {
+                                clearInterval(pollInterval);
+                                updateMsg.innerHTML = `<span style="color:#ef4444; font-weight:bold;">🚨 수집 실패:</span> ${progress.message}`;
+                                alert(`수집 오류가 발생했습니다.\n\n안내: ${progress.message}`);
+                                
+                                btnRealtime.disabled = false;
+                                btnLoader.style.display = 'none';
+                                statusBadge.textContent = '실패함';
+                                statusBadge.classList.remove('active');
+                                return;
+                            }
+                            
                             if (progress) {
                                 updateMsg.innerHTML = `<span style="color:#f59e0b; font-weight:bold;">[${progress.percent}%]</span> ${progress.message}`;
                             }

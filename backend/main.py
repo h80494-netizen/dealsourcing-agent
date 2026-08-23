@@ -253,7 +253,13 @@ def run_pipeline_task(days_limit: int):
         crawl_result = run_pipeline(progress_callback=pipeline_callback, days_limit=days_limit)
         crawl_progress = {"status": "completed", "message": "수집 및 AI 분석 완료!", "current": 100, "total": 100, "percent": 100}
     except Exception as e:
-        crawl_progress = {"status": "failed", "message": f"오류 발생: {str(e)}", "current": 0, "total": 0, "percent": 0}
+        err_msg = str(e)
+        friendly_msg = f"수집 실패: {err_msg}"
+        if "429" in err_msg or "quota" in err_msg.lower() or "limit" in err_msg.lower():
+            friendly_msg = "Gemini API 호출 한도(429 Quota Exceeded)를 초과했습니다. 법인 API 키로 전환하시거나 잠시 후 다시 실행해주세요."
+        elif "rate limit" in err_msg.lower():
+            friendly_msg = "API 속도 제한을 초과했습니다. 몇 분 후에 다시 가동해 주세요."
+        crawl_progress = {"status": "failed", "message": friendly_msg, "current": 0, "total": 0, "percent": 0}
     finally:
         is_crawling = False
 
