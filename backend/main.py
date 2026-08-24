@@ -555,8 +555,8 @@ async def generate_url_briefing(req: UrlBriefingRequest):
 """
     try:
         genai.configure(api_key=api_key)
-        # 다량의 기사 요약 시 무료 티어 토큰 한도(Rate Limit) 초과를 방지하기 위해 최신 범용 flash 모델 사용
-        model = genai.GenerativeModel('gemini-flash-latest')
+        # 다량의 기사 요약 시 무료 티어 토큰 한도(Rate Limit) 초과를 방지하기 위해 최신 범용 flash-lite 모델 사용
+        model = genai.GenerativeModel('gemini-flash-lite-latest')
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
     except Exception as e:
