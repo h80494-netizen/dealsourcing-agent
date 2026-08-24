@@ -892,3 +892,8 @@ tr:hover td:first-child {
 .preview-section.fullscreen-active .table-container {
     max-height: calc(100vh - 160px) !important; /* reserve space for header/footer */
 }
+
+/* Stats Panel Collapse */
+.stats-panel-collapsed {
+    display: none !important;
+}

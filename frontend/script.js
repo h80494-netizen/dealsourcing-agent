@@ -424,6 +424,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // 실시간 간격별 분석 리포트 접기/펴기 토글 기능
+    const btnToggleStatsPanel = document.getElementById('btn-toggle-stats-panel');
+    const statsPanelContent = document.getElementById('stats-panel-content');
+
+    if (btnToggleStatsPanel && statsPanelContent) {
+        // 로컬스토리지 저장 상태 로드
+        const statsCollapsed = localStorage.getItem('statsPanelCollapsed') === 'true';
+        if (statsCollapsed) {
+            statsPanelContent.classList.add('stats-panel-collapsed');
+            btnToggleStatsPanel.textContent = '▼ 리포트 열기';
+        }
+
+        btnToggleStatsPanel.addEventListener('click', () => {
+            const isCollapsed = statsPanelContent.classList.toggle('stats-panel-collapsed');
+            localStorage.setItem('statsPanelCollapsed', isCollapsed);
+            if (isCollapsed) {
+                btnToggleStatsPanel.textContent = '▼ 리포트 열기';
+            } else {
+                btnToggleStatsPanel.textContent = '▲ 리포트 접기';
+            }
+        });
+    }
+
     btnApply.addEventListener('click', () => {
         currentPage = 1;
         fetchArticles();

@@ -184,15 +184,20 @@
                     <h2 style="font-size: 0.95rem; margin: 0; display: flex; align-items: center; gap: 8px; color: var(--text-color);">
                         <span>📈</span> 실시간 간격별 분석 리포트
                     </h2>
-                    <div class="analytics-tabs" style="display: flex; gap: 5px;">
-                        <button type="button" class="anal-tab-btn active" data-period="today">당일</button>
-                        <button type="button" class="anal-tab-btn" data-period="yesterday">전일</button>
-                        <button type="button" class="anal-tab-btn" data-period="1week">일주일</button>
-                        <button type="button" class="anal-tab-btn" data-period="1month">한달</button>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <div class="analytics-tabs" style="display: flex; gap: 5px;">
+                            <button type="button" class="anal-tab-btn active" data-period="today">당일</button>
+                            <button type="button" class="anal-tab-btn" data-period="yesterday">전일</button>
+                            <button type="button" class="anal-tab-btn" data-period="1week">일주일</button>
+                            <button type="button" class="anal-tab-btn" data-period="1month">한달</button>
+                        </div>
+                        <button id="btn-toggle-stats-panel" type="button" class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); border-radius: 4px; cursor: pointer; color: var(--text-main); transition: all 0.2s;">
+                            ▲ 리포트 접기
+                        </button>
                     </div>
                 </div>
                 
-                <div class="analytics-content-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem;">
+                <div id="stats-panel-content" class="analytics-content-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem;">
                     <!-- KPI 요약 카드 -->
                     <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                         <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 3px;">수집된 딜 기사</div>
