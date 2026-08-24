@@ -61,7 +61,13 @@ def run_pipeline(progress_callback=None, days_limit=2):
         if not exists:
             new_articles.append(art)
             
-    print(f"분석할 새로운 기사 {len(new_articles)}건 발견. 병렬 분석을 시작합니다...")
+    # API 쿼터 한도 및 속도 제한(Rate Limit)을 준수하기 위해 최대 30건만 선별 분석 진행
+    original_new_count = len(new_articles)
+    if len(new_articles) > 30:
+        new_articles = new_articles[:30]
+        print(f"새로운 기사 {original_new_count}건 중 API 한도 보장을 위해 상위 30건만 선별 분석을 진행합니다.")
+    else:
+        print(f"분석할 새로운 기사 {len(new_articles)}건 발견. 병렬 분석을 시작합니다...")
     
     import concurrent.futures
     new_count = 0
