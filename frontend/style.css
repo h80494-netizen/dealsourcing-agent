@@ -940,3 +940,258 @@ tr:hover td:first-child {
 .markdown-body tr:hover {
     background-color: #f1f5f9;
 }
+
+/* ==========================================================================
+   Startup Valuation Master Tool Styles
+   ========================================================================== */
+.val-tab-bar {
+    display: flex;
+    gap: 8px;
+    padding: 0.75rem 1.5rem;
+    background: rgba(15, 23, 42, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.val-tab-bar::-webkit-scrollbar {
+    height: 4px;
+}
+.val-tab-bar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.val-tab-btn {
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.val-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f8fafc;
+}
+
+.val-tab-btn.active {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.3) 0%, rgba(37, 99, 235, 0.4) 100%);
+    border-color: #3b82f6;
+    color: #60a5fa;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.2);
+}
+
+.val-section-header {
+    margin-bottom: 1.5rem;
+}
+
+.val-section-header h2 {
+    font-size: 1.35rem;
+    color: #f8fafc;
+    margin-bottom: 4px;
+}
+
+.val-section-header .subtitle {
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.val-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.val-kpi-card {
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.6);
+}
+
+.val-kpi-card .label {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.val-kpi-card .val {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.val-kpi-card .sub {
+    font-size: 0.75rem;
+    color: #64748b;
+}
+
+.val-card {
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.val-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.val-table th {
+    padding: 10px 12px;
+    background: rgba(30, 41, 59, 0.8);
+    color: #cbd5e1;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+}
+
+.val-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: #e2e8f0;
+}
+
+.val-table tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.val-table code {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: #93c5fd;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.val-matrix-table th, .val-matrix-table td {
+    text-align: center;
+}
+
+.matrix-active-cell {
+    background: rgba(16, 185, 129, 0.25) !important;
+    border: 2px solid #10b981 !important;
+    color: #34d399 !important;
+    font-weight: 700 !important;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+    border-radius: 4px;
+}
+
+.val-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.val-pill {
+    display: inline-block;
+    padding: 2px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.val-select {
+    width: 100%;
+    padding: 8px 12px;
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #f8fafc;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.val-input-num {
+    width: 90px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #f8fafc;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.val-input-group {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.val-input-group .label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    color: #cbd5e1;
+}
+
+.guide-rec-box {
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 10px;
+    padding: 1.25rem;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #valuation-modal, #valuation-modal * {
+        visibility: visible;
+    }
+    #valuation-modal {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        display: block !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+    .modal-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        box-shadow: none !important;
+        border: none !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+    }
+    .val-tab-bar, .modal-header button, input[type="range"] {
+        display: none !important;
+    }
+    .val-table th, .val-table td {
+        color: #000000 !important;
+        border-bottom: 1px solid #cccccc !important;
+    }
+}

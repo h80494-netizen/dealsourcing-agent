@@ -1,7 +1,7 @@
 from fastapi import FastAPI, BackgroundTasks, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, FileResponse
 import uvicorn
 import os
 import sys
@@ -591,6 +591,21 @@ def update_api_key(req: ApiKeyRequest):
         return {"status": "success", "message": "API 키가 성공적으로 업데이트되었습니다."}
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+@app.get("/api/download/valuation_excel")
+def download_valuation_excel():
+    excel_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "..", "data", "Startup_Valuation_Master_All_Methods_and_Cases.xlsx"))
+    if not os.path.exists(excel_path):
+        alt_path = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "Startup_Valuation_Master_All_Methods_and_Cases.xlsx"))
+        if os.path.exists(alt_path):
+            excel_path = alt_path
+        else:
+            return {"status": "error", "message": "엑셀 파일을 찾을 수 없습니다."}
+    return FileResponse(
+        path=excel_path,
+        filename="Startup_Valuation_Master_All_Methods_and_Cases.xlsx",
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8002, reload=True)
