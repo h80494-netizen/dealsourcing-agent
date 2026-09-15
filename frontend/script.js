@@ -363,9 +363,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 gradeTooltip = '기타 등급 (50점 미만): 영향력이 미미하거나 벤처 투자와 무관한 가십/광고'; 
             }
 
-            const isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
+            const d = new Date();
+            const yyyy = d.getFullYear();
+            const mm = String(d.getMonth() + 1).padStart(2, '0');
+            const dd = String(d.getDate()).padStart(2, '0');
+            const todayStr = `${yyyy}-${mm}-${dd}`;
+            const chkToday = document.getElementById('chk-today');
+            const isTodayAutoCheck = chkToday && chkToday.checked;
+
+            let isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
+            if (isTodayAutoCheck && item.created_at && item.created_at.startsWith(todayStr)) {
+                isChecked = 'checked';
+            }
+            
             tr.innerHTML = `
-                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" ${isChecked}></td>
+                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" data-date="${item.created_at || ''}" ${isChecked}></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${item.news_grade || '-'}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
@@ -393,6 +405,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // 당일 뉴스 체크 이벤트
+    const chkTodayEl = document.getElementById('chk-today');
+    if (chkTodayEl) {
+        chkTodayEl.addEventListener('change', (e) => {
+            const isChecked = e.target.checked;
+            const d = new Date();
+            const yyyy = d.getFullYear();
+            const mm = String(d.getMonth() + 1).padStart(2, '0');
+            const dd = String(d.getDate()).padStart(2, '0');
+            const todayStr = `${yyyy}-${mm}-${dd}`;
+            
+            document.querySelectorAll('.chk-row').forEach(chk => {
+                const dateAttr = chk.dataset.date || '';
+                if (dateAttr.startsWith(todayStr)) {
+                    chk.checked = isChecked;
+                }
+            });
+        });
+    }
+
     // 선택된 기사 다중 리포트 생성 버튼
     document.getElementById('btn-generate-selected-report').addEventListener('click', async () => {
         const urlBriefingModal = document.getElementById('url-briefing-modal');
@@ -407,26 +439,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 urlBriefingModal.style.display = 'flex';
                 
                 try {
+                    const getSelected = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(cb => cb.value).filter(val => val !== "");
+                    const countries = getSelected('country');
+                    const dealStages = getSelected('deal-stage');
+                    const newsGrades = getSelected('news-grade');
+                    const industries = getSelected('industry');
+                    const sortByNode = document.querySelector('input[name="sort-by"]:checked');
+                    const sortBy = sortByNode ? sortByNode.value : 'latest';
+                    const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
+                    const dateFilter = dateFilterNode ? dateFilterNode.value : 'all';
+
                     const params = new URLSearchParams();
-                    
-                    const countrySelects = Array.from(document.getElementById('country-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
-                    countrySelects.forEach(val => { if (val && val !== '전체') params.append('country', val); });
-                    
-                    const dealStageSelects = Array.from(document.getElementById('dealstage-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
-                    dealStageSelects.forEach(val => { if (val && val !== '전체') params.append('deal_stage', val); });
-                    
-                    const newsGradeSelects = Array.from(document.getElementById('newsgrade-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
-                    newsGradeSelects.forEach(val => { if (val && val !== '전체') params.append('news_grade', val); });
-                    
-                    const industrySelects = Array.from(document.getElementById('industry-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
-                    industrySelects.forEach(val => { if (val && val !== '전체') params.append('promising_industry', val); });
-                    
-                    const sortBtn = document.getElementById('btn-sort');
-                    const sortBy = sortBtn.dataset.sort === 'latest' ? 'latest' : 'importance';
-                    params.append('sort_by', sortBy);
-                    
-                    const dateFilter = document.getElementById('date-filter').value;
-                    if(dateFilter !== 'all') params.append('date_filter', dateFilter);
+                    countries.forEach(c => params.append('country', c));
+                    dealStages.forEach(d => params.append('deal_stage', d));
+                    newsGrades.forEach(n => params.append('news_grade', n));
+                    industries.forEach(i => params.append('promising_industry', i));
+                    if (sortBy) params.append('sort_by', sortBy);
+                    if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
                     
                     params.append('page', 1);
                     params.append('page_size', 10000);
