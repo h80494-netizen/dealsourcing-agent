@@ -364,16 +364,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             const d = new Date();
-            const yyyy = d.getFullYear();
-            const mm = String(d.getMonth() + 1).padStart(2, '0');
-            const dd = String(d.getDate()).padStart(2, '0');
-            const todayStr = `${yyyy}-${mm}-${dd}`;
-            const chkToday = document.getElementById('chk-today');
-            const isTodayAutoCheck = chkToday && chkToday.checked;
+            d.setHours(0,0,0,0);
+            
+            const scopeSelect = document.getElementById('report-scope-select');
+            const scopeVal = scopeSelect ? scopeSelect.value : 'none';
 
             let isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
-            if (isTodayAutoCheck && item.created_at && item.created_at.startsWith(todayStr)) {
-                isChecked = 'checked';
+            if (scopeVal !== 'none' && item.created_at) {
+                const itemDate = new Date(item.created_at.substring(0, 10));
+                itemDate.setHours(0,0,0,0);
+                const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
+                
+                if (scopeVal === 'all') isChecked = 'checked';
+                else if (scopeVal === '0' && diffDays === 0) isChecked = 'checked';
+                else if (scopeVal === '-1' && diffDays <= 1) isChecked = 'checked';
+                else if (scopeVal === '-2' && diffDays <= 2) isChecked = 'checked';
             }
             
             tr.innerHTML = `
@@ -405,21 +410,29 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 당일 뉴스 체크 이벤트
-    const chkTodayEl = document.getElementById('chk-today');
-    if (chkTodayEl) {
-        chkTodayEl.addEventListener('change', (e) => {
-            const isChecked = e.target.checked;
+    // 리포트 스코프 콤보박스 변경 이벤트
+    const scopeSelect = document.getElementById('report-scope-select');
+    if (scopeSelect) {
+        scopeSelect.addEventListener('change', (e) => {
+            const scopeVal = e.target.value;
             const d = new Date();
-            const yyyy = d.getFullYear();
-            const mm = String(d.getMonth() + 1).padStart(2, '0');
-            const dd = String(d.getDate()).padStart(2, '0');
-            const todayStr = `${yyyy}-${mm}-${dd}`;
+            d.setHours(0,0,0,0);
             
             document.querySelectorAll('.chk-row').forEach(chk => {
                 const dateAttr = chk.dataset.date || '';
-                if (dateAttr.startsWith(todayStr)) {
-                    chk.checked = isChecked;
+                if (scopeVal === 'none') {
+                    // Do not auto uncheck everything unless you want to?
+                    // Maybe just leave it alone if 'none' is selected.
+                } else if (scopeVal === 'all') {
+                    chk.checked = true;
+                } else if (dateAttr) {
+                    const itemDate = new Date(dateAttr.substring(0, 10));
+                    itemDate.setHours(0,0,0,0);
+                    const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
+                    if (scopeVal === '0' && diffDays === 0) chk.checked = true;
+                    else if (scopeVal === '-1' && diffDays <= 1) chk.checked = true;
+                    else if (scopeVal === '-2' && diffDays <= 2) chk.checked = true;
+                    else chk.checked = false;
                 }
             });
         });
@@ -430,10 +443,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const urlBriefingModal = document.getElementById('url-briefing-modal');
         const urlBriefingInput = document.getElementById('url-briefing-input');
         const sourceOption = document.getElementById('url-source-option');
-        const chkAllPages = document.getElementById('chk-all-pages');
+        const scopeSelect = document.getElementById('report-scope-select');
+        const scopeVal = scopeSelect ? scopeSelect.value : 'none';
         
         if (urlBriefingModal && urlBriefingInput) {
-            if (chkAllPages && chkAllPages.checked) {
+            if (scopeVal !== 'none') {
                 urlBriefingInput.value = '필터된 기사 URL을 불러오는 중...';
                 if(sourceOption) sourceOption.value = 'filtered';
                 urlBriefingModal.style.display = 'flex';
@@ -463,7 +477,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     const res = await fetch(`/api/articles?${params.toString()}`);
                     const json = await res.json();
                     if (json.status === 'success') {
-                        const urls = json.data.map(item => item.url).filter(u => u);
+                        const d = new Date();
+                        d.setHours(0,0,0,0);
+                        
+                        let targetData = json.data;
+                        if (scopeVal !== 'all') {
+                            targetData = targetData.filter(item => {
+                                if (!item.created_at) return false;
+                                const itemDate = new Date(item.created_at.substring(0, 10));
+                                itemDate.setHours(0,0,0,0);
+                                const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
+                                if (scopeVal === '0') return diffDays === 0;
+                                if (scopeVal === '-1') return diffDays <= 1;
+                                if (scopeVal === '-2') return diffDays <= 2;
+                                return false;
+                            });
+                        }
+                        
+                        const urls = targetData.map(item => item.url).filter(u => u);
                         urlBriefingInput.value = urls.join('\n');
                     } else {
                         urlBriefingInput.value = 'URL을 불러오지 못했습니다.';
