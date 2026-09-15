@@ -573,15 +573,54 @@ const ValuationUI = (() => {
             });
         }
 
-        if (btnPrint) {
-            btnPrint.addEventListener('click', () => {
-                window.print();
+        // Valuation Report Actions
+        const btnGenReport = document.getElementById('btn-generate-val-report');
+        const btnDirectPdf = document.getElementById('btn-direct-pdf-valuation');
+        const btnDirectWord = document.getElementById('btn-direct-word-valuation');
+        const reportModal = document.getElementById('val-report-modal');
+        const btnCloseReport = document.getElementById('btn-close-val-report');
+        const btnReportPrint = document.getElementById('btn-val-report-print');
+        const btnReportWord = document.getElementById('btn-val-report-word');
+
+        if (btnGenReport) {
+            btnGenReport.addEventListener('click', () => {
+                openReportModal();
             });
         }
 
-        if (btnDownload) {
-            btnDownload.addEventListener('click', () => {
-                window.location.href = '/api/download/valuation_excel';
+        if (btnDirectPdf) {
+            btnDirectPdf.addEventListener('click', () => {
+                exportValuationToPDF();
+            });
+        }
+
+        if (btnDirectWord) {
+            btnDirectWord.addEventListener('click', () => {
+                exportValuationToWord();
+            });
+        }
+
+        if (btnReportPrint) {
+            btnReportPrint.addEventListener('click', () => {
+                exportValuationToPDF();
+            });
+        }
+
+        if (btnReportWord) {
+            btnReportWord.addEventListener('click', () => {
+                exportValuationToWord();
+            });
+        }
+
+        if (btnCloseReport && reportModal) {
+            btnCloseReport.addEventListener('click', () => {
+                reportModal.style.display = 'none';
+            });
+        }
+
+        if (reportModal) {
+            reportModal.addEventListener('click', (e) => {
+                if (e.target === reportModal) reportModal.style.display = 'none';
             });
         }
 
@@ -2032,9 +2071,914 @@ const ValuationUI = (() => {
         }
     };
 
+    // -------------------------------------------------------------
+    // Valuation Assessment Report Generation Engine (PDF & Word)
+    // -------------------------------------------------------------
+    const openReportModal = () => {
+        const reportModal = document.getElementById('val-report-modal');
+        const reportBody = document.getElementById('val-report-body');
+        if (!reportModal || !reportBody) return;
+
+        reportBody.innerHTML = generateValuationReportHTML();
+        reportModal.style.display = 'flex';
+    };
+
+    const generateValuationReportHTML = () => {
+        const today = new Date();
+        const dateStr = `${today.getFullYear()}년 ${String(today.getMonth() + 1).padStart(2, '0')}월 ${String(today.getDate()).padStart(2, '0')}일`;
+        
+        let modelTitle = '';
+        let targetRound = '';
+        let execSummaryHtml = '';
+        let detailSectionsHtml = '';
+        let sensitivityHtml = '';
+        let opinionHtml = '';
+
+        if (currentTab === 'm1') {
+            const d = ValuationEngine.calculateM1();
+            modelTitle = 'M1. 스코어카드(Scorecard) & 베르쿠스(Berkus) 극초기 시드 가치평가';
+            targetRound = 'Pre-Seed ~ Seed (매출 전 단계)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">동종업계 기준 밸류</span>
+                        <span class="stat-val">${ValuationEngine.formatCurrency(d.baseline)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Scorecard 산정 가치</span>
+                        <span class="stat-val" style="color: #2563eb;">${ValuationEngine.formatCurrency(d.scorecardPreMoney)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Berkus 산정 가치</span>
+                        <span class="stat-val" style="color: #d97706;">${ValuationEngine.formatCurrency(d.totalBerkusPreMoney)}</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #7c3aed; background: #faf5ff;">
+                        <span class="stat-label">최종 권고 Pre-money</span>
+                        <span class="stat-val" style="color: #7c3aed;">${ValuationEngine.formatCurrency(d.combinedAveragePreMoney)}</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 스코어카드(Scorecard) 7대 항목 정성 평가 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>평가 항목</th>
+                                <th>가중치</th>
+                                <th>상대 점수</th>
+                                <th>가중 배수</th>
+                                <th>가치 기여액</th>
+                                <th>실사 평가 근거</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.scorecardRows.map(r => `
+                                <tr>
+                                    <td><strong>${r.name}</strong></td>
+                                    <td>${(r.weight * 100).toFixed(0)}%</td>
+                                    <td>${r.score.toFixed(2)}</td>
+                                    <td>${(r.mult * 100).toFixed(1)}%</td>
+                                    <td style="font-weight: bold; color: #1e40af;">${ValuationEngine.formatCurrency(r.contrib)}</td>
+                                    <td>${r.reason}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td>합계</td>
+                                <td>100%</td>
+                                <td>-</td>
+                                <td>${(d.totalScorecardMultiplier * 100).toFixed(1)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.scorecardPreMoney)}</td>
+                                <td>Scorecard 기준 Pre-money 가치</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">2. 베르쿠스(Berkus) 5대 위험 감소 성공요소 평가 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>위험 감소 요소</th>
+                                <th>최대 인정 한도 (Max Cap)</th>
+                                <th>달성 인정률</th>
+                                <th>산출 가치</th>
+                                <th>실사 확인 사항</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.berkusRows.map(r => `
+                                <tr>
+                                    <td><strong>${r.name}</strong></td>
+                                    <td>${ValuationEngine.formatCurrency(r.maxCap)}</td>
+                                    <td>${(r.achieved * 100).toFixed(0)}%</td>
+                                    <td style="font-weight: bold; color: #d97706;">${ValuationEngine.formatCurrency(r.val)}</td>
+                                    <td>${r.note}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td>합계</td>
+                                <td>${ValuationEngine.formatCurrency(d.totalBerkusMax)}</td>
+                                <td>-</td>
+                                <td>${ValuationEngine.formatCurrency(d.totalBerkusPreMoney)}</td>
+                                <td>Berkus 기준 Pre-money 가치</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                매출 발생 전(Pre-revenue) 시드 단계임을 감안하여 정량적 재무지표 대신 창업팀의 탁월한 엔지니어링 역량과 핵심 IP 및 비공개 베타 트랙션을 높게 평가함.
+                동종업계 기준 밸류(${ValuationEngine.formatCurrency(d.baseline)}) 대비 스코어카드 배수(${(d.totalScorecardMultiplier * 100).toFixed(1)}%)와 베르쿠스 5대 위험감소 가치(${ValuationEngine.formatCurrency(d.totalBerkusPreMoney)})의 산술평균인 <strong>${ValuationEngine.formatCurrency(d.combinedAveragePreMoney)}</strong>을 적정 Pre-money 가치로 제언함.
+            `;
+        } else if (currentTab === 'm3') {
+            const d = ValuationEngine.calculateM3();
+            modelTitle = 'M3. Forward EV/ARR Multiples & Rule of 40 (Enterprise SaaS)';
+            targetRound = 'Series B ~ Pre-IPO (고속 스케일업 단계)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">차년도 선도 ARR (Forward)</span>
+                        <span class="stat-val">${ValuationEngine.formatCurrency(d.forwardARR)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Rule of 40 점수</span>
+                        <span class="stat-val" style="color: #059669;">${(d.r40Score * 100).toFixed(1)}%</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">최종 적용 EV/ARR 배수</span>
+                        <span class="stat-val" style="color: #2563eb;">${d.finalMultiple.toFixed(2)}배</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #2563eb; background: #eff6ff;">
+                        <span class="stat-label">적정 지분가치 (Equity Value)</span>
+                        <span class="stat-val" style="color: #1e40af;">${ValuationEngine.formatCurrency(d.equityValue)}</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 멀티플 프리미엄 도출 및 가치 산출 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>평가 지표</th>
+                                <th>실적치 / 산정치</th>
+                                <th>기준 지표</th>
+                                <th>초과분</th>
+                                <th>멀티플 기여분</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Peer 그룹 기준 EV/ARR</strong></td>
+                                <td>${d.peerMultiple.toFixed(1)}배</td>
+                                <td>글로벌 SaaS 상장사 평균</td>
+                                <td>-</td>
+                                <td>+${d.peerMultiple.toFixed(2)}배</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rule of 40 프리미엄</strong></td>
+                                <td>${(d.r40Score * 100).toFixed(1)}% (성장률 ${(d.yoyGrowth * 100).toFixed(0)}% + FCF마진 ${(d.fcfMargin * 100).toFixed(0)}%)</td>
+                                <td>40.0%</td>
+                                <td>${Math.max(0, (d.r40Score - 0.40) * 100).toFixed(1)}%p</td>
+                                <td>+${d.r40Premium.toFixed(2)}배</td>
+                            </tr>
+                            <tr>
+                                <td><strong>순매출유지율(NRR) 프리미엄</strong></td>
+                                <td>${(d.nrr * 100).toFixed(0)}%</td>
+                                <td>100.0%</td>
+                                <td>${Math.max(0, (d.nrr - 1.0) * 100).toFixed(1)}%p</td>
+                                <td>+${d.nrrPremium.toFixed(2)}배</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td><strong>최종 산정 EV/ARR 멀티플</strong></td>
+                                <td colspan="3">-</td>
+                                <td><strong>${d.finalMultiple.toFixed(2)}배</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>기업가치 (Enterprise Value)</strong></td>
+                                <td colspan="4">${ValuationEngine.formatCurrency(d.forwardARR)} × ${d.finalMultiple.toFixed(2)}배 = <strong>${ValuationEngine.formatCurrency(d.enterpriseValue)}</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>순차입금 (Net Debt) 차감</strong></td>
+                                <td colspan="4">${ValuationEngine.formatCurrency(d.netDebt)} (순현금 상태)</td>
+                            </tr>
+                            <tr class="total-row" style="background:#eff6ff;">
+                                <td><strong>최종 산정 지분가치 (Equity Value)</strong></td>
+                                <td colspan="4" style="font-size: 1.1em; color: #1e3a8a;"><strong>${ValuationEngine.formatCurrency(d.equityValue)}</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            sensitivityHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">2. 2차원 민감도 분석 매트릭스 (Forward ARR vs EV/ARR 배수)</h3>
+                    <p style="font-size: 12px; color: #64748b; margin-bottom: 8px;">단위: 억 원 (현재 적용 조건 강조)</p>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>EV/ARR 배수 \\ Forward ARR</th>
+                                ${d.arrRange.map(a => `<th>${a}억</th>`).join('')}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.sensitivityMatrix.map(row => `
+                                <tr>
+                                    <td><strong>${row.multiple.toFixed(1)}배</strong></td>
+                                    ${row.values.map(v => `
+                                        <td style="${v.isActive ? 'background: #dbeafe; font-weight: bold; color: #1e40af; border: 2px solid #3b82f6;' : ''}">
+                                            ${ValuationEngine.formatCurrency(v.equityValue, '', 0)}
+                                        </td>
+                                    `).join('')}
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                고성장 B2B SaaS 기업으로서 Rule of 40 점수 ${(d.r40Score * 100).toFixed(1)}%와 NRR ${(d.nrr * 100).toFixed(0)}%의 우수한 고객 리텐션을 입증함.
+                글로벌 Peer 평균 대비 Rule of 40 및 NRR 프리미엄 배수가 가산된 <strong>${d.finalMultiple.toFixed(2)}배</strong>의 멀티플을 적용하여 도출된 지분가치 <strong>${ValuationEngine.formatCurrency(d.equityValue)}</strong>은 합리적인 협상 기준점으로 평가됨.
+            `;
+        } else if (currentTab === 'm4') {
+            const d = ValuationEngine.calculateM4();
+            modelTitle = 'M4. First Chicago Method (3대 시나리오 확률가중 DCF)';
+            targetRound = 'Series B ~ C (AI 로보틱스 / 물류 플랫폼)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Best 성공 시나리오 (20%)</span>
+                        <span class="stat-val" style="color: #059669;">${ValuationEngine.formatCurrency(d.best.npv)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Base 기본 시나리오 (55%)</span>
+                        <span class="stat-val" style="color: #2563eb;">${ValuationEngine.formatCurrency(d.base.npv)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Failure 실패 시나리오 (25%)</span>
+                        <span class="stat-val" style="color: #dc2626;">${ValuationEngine.formatCurrency(d.failure.npv)}</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #7c3aed; background: #faf5ff;">
+                        <span class="stat-label">확률가중 기업가치 (Weighted EV)</span>
+                        <span class="stat-val" style="color: #7c3aed;">${ValuationEngine.formatCurrency(d.firstChicagoEV)}</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 시나리오별 파라미터 및 현금흐름 DCF 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>시나리오</th>
+                                <th>발생 확률</th>
+                                <th>5년차 FCF</th>
+                                <th>할인율(WACC)</th>
+                                <th>영구성장률(g)</th>
+                                <th>잔여가치(TV)</th>
+                                <th>시나리오 NPV</th>
+                                <th>가중 기여액</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong style="color: #059669;">Best (고성장 성공)</strong></td>
+                                <td>${(d.best.prob * 100).toFixed(0)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.best.fcf5)}</td>
+                                <td>${(d.best.wacc * 100).toFixed(0)}%</td>
+                                <td>${(d.best.g * 100).toFixed(0)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.best.tv)}</td>
+                                <td>${ValuationEngine.formatCurrency(d.best.npv)}</td>
+                                <td style="font-weight: bold; color: #059669;">${ValuationEngine.formatCurrency(d.weightedBest)}</td>
+                            </tr>
+                            <tr>
+                                <td><strong style="color: #2563eb;">Base (현실적 기본)</strong></td>
+                                <td>${(d.base.prob * 100).toFixed(0)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.base.fcf5)}</td>
+                                <td>${(d.base.wacc * 100).toFixed(0)}%</td>
+                                <td>${(d.base.g * 100).toFixed(0)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.base.tv)}</td>
+                                <td>${ValuationEngine.formatCurrency(d.base.npv)}</td>
+                                <td style="font-weight: bold; color: #2563eb;">${ValuationEngine.formatCurrency(d.weightedBase)}</td>
+                            </tr>
+                            <tr>
+                                <td><strong style="color: #dc2626;">Failure (하방 위험)</strong></td>
+                                <td>${(d.failure.prob * 100).toFixed(0)}%</td>
+                                <td>${ValuationEngine.formatCurrency(d.failure.fcf5)}</td>
+                                <td>${(d.failure.wacc * 100).toFixed(0)}%</td>
+                                <td>0%</td>
+                                <td>${ValuationEngine.formatCurrency(d.failure.tv)}</td>
+                                <td>${ValuationEngine.formatCurrency(d.failure.npv)}</td>
+                                <td style="font-weight: bold; color: #dc2626;">${ValuationEngine.formatCurrency(d.weightedFailure)}</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td colspan="7">확률가중 합산 최종 기업가치 (Weighted Expected Enterprise Value)</td>
+                                <td style="font-size: 1.1em; color: #7c3aed;">${ValuationEngine.formatCurrency(d.firstChicagoEV)}</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                전통적 단일 DCF의 추정 편향을 제거하기 위해 3대 시나리오를 종합 모델링함.
+                사업 피벗 및 실패에 따른 25%의 하방 리스크를 전면 반영하면서도, 시장 장악 성공 시의 업사이드(20%)를 함께 가중하여 산출한 <strong>${ValuationEngine.formatCurrency(d.firstChicagoEV)}</strong>은 균형 잡힌 가치평가 결과임.
+            `;
+        } else if (currentTab === 'm5') {
+            const d = ValuationEngine.calculateM5();
+            modelTitle = 'M5. BioTech rNPV 타임라인 모델 (위험조정 순현재가치)';
+            targetRound = '임상 1상 ~ 2상 (표적항암 신약 파이프라인)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">적용 할인율 (WACC)</span>
+                        <span class="stat-val">${(d.wacc * 100).toFixed(0)}%</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">신약 파이프라인 rNPV</span>
+                        <span class="stat-val" style="color: #ec4899;">${ValuationEngine.formatCurrency(d.totalPipelineRNPV)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">플랫폼 가치 & 순현금</span>
+                        <span class="stat-val">${ValuationEngine.formatCurrency(d.bridgePlatform + d.bridgeCash + d.bridgeDebt)}</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #db2777; background: #fdf2f8;">
+                        <span class="stat-label">최종 지분가치 (Equity Value)</span>
+                        <span class="stat-val" style="color: #be185d;">${ValuationEngine.formatCurrency(d.finalEquityValue)}</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 임상 단계별 성공 확률(POS) 및 위험조정 현금흐름 타임라인</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>연차</th>
+                                <th>임상 마일스톤 이벤트</th>
+                                <th>명목 현금흐름</th>
+                                <th>누적 성공확률(POS)</th>
+                                <th>위험조정 현금흐름</th>
+                                <th>할인 rNPV</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.timeline.map(r => `
+                                <tr>
+                                    <td>${r.year}년차</td>
+                                    <td><strong>${r.event}</strong></td>
+                                    <td>${ValuationEngine.formatCurrency(r.nominalCF)}</td>
+                                    <td>${(r.pos * 100).toFixed(1)}%</td>
+                                    <td>${ValuationEngine.formatCurrency(r.riskAdjCF)}</td>
+                                    <td style="font-weight: bold; color: ${r.discountedRNPV >= 0 ? '#059669' : '#dc2626'};">${ValuationEngine.formatCurrency(r.discountedRNPV)}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td colspan="2">합계</td>
+                                <td>${ValuationEngine.formatCurrency(d.totalNominalCF)}</td>
+                                <td>-</td>
+                                <td>${ValuationEngine.formatCurrency(d.totalRiskAdjCF)}</td>
+                                <td style="color: #be185d; font-size: 1.1em;">${ValuationEngine.formatCurrency(d.totalPipelineRNPV)}</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                글로벌 제약·바이오 표준 평가 기법인 rNPV를 적용하여 각 임상 단계별 역사적 승인 확률(POS)을 현금흐름에 엄격히 할인 적용함.
+                파이프라인 rNPV(${ValuationEngine.formatCurrency(d.totalPipelineRNPV)})에 플랫폼 기술가치와 보유 순현금을 합산한 최종 지분가치 <strong>${ValuationEngine.formatCurrency(d.finalEquityValue)}</strong>을 투자 심의 권고 가치로 도출함.
+            `;
+        } else if (currentTab === 'm6') {
+            const d = ValuationEngine.calculateM6();
+            modelTitle = 'M6. 유니콘 SOTP(부문별 합산) & 청산우선권(Waterfall) 시뮬레이션';
+            targetRound = 'Pre-IPO ~ Late-Stage 유니콘 (복합 비즈니스)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">SOTP 합산 기업가치</span>
+                        <span class="stat-val" style="color: #0284c7;">${ValuationEngine.formatCurrency(d.totalSOTPValue)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">가정 Exit 매각가</span>
+                        <span class="stat-val">${ValuationEngine.formatCurrency(d.exitValuation)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">Series C 전환 여부</span>
+                        <span class="stat-val" style="color: ${d.seriesCConverts ? '#059669' : '#d97706'};">${d.seriesCConverts ? '보통주 전환 행사' : '우선권 행사'}</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #0284c7; background: #f0f9ff;">
+                        <span class="stat-label">우선주 총 분배액</span>
+                        <span class="stat-val" style="color: #0369a1;">${ValuationEngine.formatCurrency(d.totalPayoutSum)}</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 사업 부문별 가치 합산(SOTP) 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>사업 부문</th>
+                                <th>핵심 평가 지표</th>
+                                <th>지표 실적</th>
+                                <th>적용 멀티플</th>
+                                <th>부문별 산정 EV</th>
+                                <th>Peer 기준</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.sotpRows.map(r => `
+                                <tr>
+                                    <td><strong>${r.name}</strong></td>
+                                    <td>${r.metricName}</td>
+                                    <td>${ValuationEngine.formatCurrency(r.value)}</td>
+                                    <td>${r.multiple}배 (${r.base})</td>
+                                    <td style="font-weight: bold; color: #0284c7;">${ValuationEngine.formatCurrency(r.ev)}</td>
+                                    <td>${r.peer}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                        <tfoot>
+                            <tr class="total-row">
+                                <td colspan="4">총 SOTP 기업가치 (Total Enterprise Value)</td>
+                                <td colspan="2" style="font-size: 1.1em; color: #0369a1;">${ValuationEngine.formatCurrency(d.totalSOTPValue)}</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">2. 우선주 청산우선권(Liquidation Preference Waterfall) 분배 시뮬레이션</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>주주 등급</th>
+                                <th>투자 원금</th>
+                                <th>1단계 우선권</th>
+                                <th>지분율</th>
+                                <th>2단계 잔여배분</th>
+                                <th>최종 총 회수액</th>
+                                <th>투자 배수 (MOIC)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.waterfallRows.map(r => `
+                                <tr>
+                                    <td><strong>${r.name}</strong></td>
+                                    <td>${ValuationEngine.formatCurrency(r.investment)}</td>
+                                    <td>${ValuationEngine.formatCurrency(r.step1Pref)}</td>
+                                    <td>${(r.ownership * 100).toFixed(1)}%</td>
+                                    <td>${ValuationEngine.formatCurrency(r.step2Dist)}</td>
+                                    <td style="font-weight: bold; color: #059669;">${ValuationEngine.formatCurrency(r.totalPayout)}</td>
+                                    <td style="font-weight: bold; color: #7c3aed;">${r.moic.toFixed(2)}배</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                SW 플랫폼, 온디바이스 HW, IT 서비스 부문의 사업 특성에 맞춰 각기 다른 피어 멀티플을 적용한 SOTP 가치평가(${ValuationEngine.formatCurrency(d.totalSOTPValue)})를 도출함.
+                출구 전략(Exit) 시나리오에 따른 우선주 청산우선권 워터폴 시뮬레이션을 통해 라운드별 실제 회수 수익률(MOIC)과 보통주 주주가치를 사전에 완벽히 검증함.
+            `;
+        } else {
+            // Default: M2 (VC Method)
+            const d = ValuationEngine.calculateM2();
+            modelTitle = 'M2. VC Method (목표 IRR 기반 시리즈 A 역산 할인 모델)';
+            targetRound = 'Series A ~ B (AI 팹리스 / 딥테크 하드웨어)';
+
+            execSummaryHtml = `
+                <div class="val-report-summary-box">
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">금번 라운드 투자금</span>
+                        <span class="stat-val">${ValuationEngine.formatCurrency(d.investment)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">적정 Post-money 가치</span>
+                        <span class="stat-val" style="color: #059669;">${ValuationEngine.formatCurrency(d.postMoney)}</span>
+                    </div>
+                    <div class="val-report-stat-card" style="border: 2px solid #2563eb; background: #eff6ff;">
+                        <span class="stat-label">금번 라운드 Pre-money</span>
+                        <span class="stat-val" style="color: #1e40af;">${ValuationEngine.formatCurrency(d.preMoney)}</span>
+                    </div>
+                    <div class="val-report-stat-card">
+                        <span class="stat-label">목표 회수 배수 (IRR ${(d.targetIRR * 100).toFixed(0)}%)</span>
+                        <span class="stat-val" style="color: #d97706;">${d.targetMultiple.toFixed(2)}배</span>
+                    </div>
+                </div>
+            `;
+
+            detailSectionsHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">1. 투자 조건 및 단계별 밸류에이션 역산 내역</h3>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>단계</th>
+                                <th>평가 항목</th>
+                                <th>계산 공식</th>
+                                <th>적용 수치 및 결과</th>
+                                <th>비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Step 1</td>
+                                <td><strong>5년 후 예상 기업가치 (Terminal Value)</strong></td>
+                                <td>5년차 순이익 × 목표 PER 배수</td>
+                                <td style="font-weight: bold;">${ValuationEngine.formatCurrency(d.exitNetIncome)} × ${d.targetPER}배 = ${ValuationEngine.formatCurrency(d.terminalValue)}</td>
+                                <td>코스닥 상장사 피어 평균 PER 25배 적용</td>
+                            </tr>
+                            <tr>
+                                <td>Step 2</td>
+                                <td><strong>후속 라운드 희석 감안 TV</strong></td>
+                                <td>Terminal Value × (1 - 누적희석률 ${(d.dilution * 100).toFixed(0)}%)</td>
+                                <td>${ValuationEngine.formatCurrency(d.dilutedTV)}</td>
+                                <td>Series B, C 추가 유치 희석 반영</td>
+                            </tr>
+                            <tr>
+                                <td>Step 3</td>
+                                <td><strong>목표 회수 배수 (Target Multiple)</strong></td>
+                                <td>(1 + 목표 IRR ${(d.targetIRR * 100).toFixed(0)}%) ^ ${d.holdingYears}년</td>
+                                <td style="font-weight: bold; color: #d97706;">${d.targetMultiple.toFixed(2)}배</td>
+                                <td>VC 펀드 기준 수익률 충족</td>
+                            </tr>
+                            <tr style="background: #f0fdf4;">
+                                <td>Step 4</td>
+                                <td><strong>적정 Post-money 기업가치</strong></td>
+                                <td>희석 감안 TV ÷ 목표 회수 배수</td>
+                                <td style="font-weight: bold; color: #059669;">${ValuationEngine.formatCurrency(d.postMoney)}</td>
+                                <td>투자 직후 적정 기업가치</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td>Step 5</td>
+                                <td><strong>금번 제안 Pre-money 기업가치</strong></td>
+                                <td>Post-money - 투자금(${ValuationEngine.formatCurrency(d.investment)})</td>
+                                <td style="font-size: 1.1em; color: #1e3a8a;"><strong>${ValuationEngine.formatCurrency(d.preMoney)}</strong></td>
+                                <td><strong>텀시트(Term Sheet) 제안 밸류</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Step 6</td>
+                                <td><strong>금번 라운드 목표 지분율</strong></td>
+                                <td>투자금 ÷ Post-money</td>
+                                <td>${(d.acquiredShare * 100).toFixed(1)}%</td>
+                                <td>투자 집행 직후 확보 지분</td>
+                            </tr>
+                            <tr>
+                                <td>Step 7</td>
+                                <td><strong>Exit 시점 예상 잔여 지분율</strong></td>
+                                <td>확보 지분율 × (1 - 희석률)</td>
+                                <td>${(d.exitShare * 100).toFixed(1)}%</td>
+                                <td>5년차 최종 잔여 지분율</td>
+                            </tr>
+                            <tr>
+                                <td>Step 8</td>
+                                <td><strong>예상 Exit 회수금액</strong></td>
+                                <td>Terminal Value × 잔여 지분율</td>
+                                <td style="font-weight: bold; color: #7c3aed;">${ValuationEngine.formatCurrency(d.exitCashFlow)}</td>
+                                <td>투자 원금 대비 정확히 ${d.targetMultiple.toFixed(2)}배 달성</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            sensitivityHtml = `
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">2. 2차원 민감도 분석 매트릭스 (후속 희석률 vs 목표 IRR)</h3>
+                    <p style="font-size: 12px; color: #64748b; margin-bottom: 8px;">단위: 억 원 (적정 Pre-money 가치 밴드 / 현재 적용 조건 강조)</p>
+                    <table class="val-report-table">
+                        <thead>
+                            <tr>
+                                <th>후속 희석률 \\ 목표 IRR</th>
+                                ${d.irrRange.map(irr => `<th>${(irr * 100).toFixed(0)}%</th>`).join('')}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${d.sensitivityMatrix.map(row => `
+                                <tr>
+                                    <td><strong>${(row.dilution * 100).toFixed(0)}%</strong></td>
+                                    ${row.values.map(v => `
+                                        <td style="${v.isActive ? 'background: #dbeafe; font-weight: bold; color: #1e40af; border: 2px solid #3b82f6;' : ''}">
+                                            ${ValuationEngine.formatCurrency(v.preMoney, '', 1)}
+                                        </td>
+                                    `).join('')}
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            opinionHtml = `
+                5년 후 상장(IPO) 시점의 예상 순이익 150억 원과 AI 반도체 동종 피어 PER 25배를 적용하여 3,750억 원의 Exit Terminal Value를 도출함.
+                시리즈 B, C 추가 유치에 따른 40%의 지분 희석과 당사 목표 IRR 30%를 충족하기 위한 <strong>적정 Pre-money 밸류에이션은 ${ValuationEngine.formatCurrency(d.preMoney)}</strong>으로 산정됨.
+                창업자의 요구 밸류가 ${ValuationEngine.formatCurrency(d.preMoney)}를 초과할 경우, 민감도 분석표에 기반하여 후속 희석 방어 조항(Anti-dilution) 및 마일스톤 연동 단가 조정 조건을 계약서에 명시할 것을 제언함.
+            `;
+        }
+
+        return `
+            <div class="val-report-paper">
+                <!-- Header -->
+                <div class="val-report-header">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                        <div>
+                            <span style="font-size: 11px; font-weight: 700; color: #2563eb; text-transform: uppercase; letter-spacing: 1px;">VC Deal Assessment Memo</span>
+                            <h1 class="val-report-title">스타트업 투자 밸류에이션 심사 보고서</h1>
+                            <p style="margin: 0; font-size: 13px; color: #64748b;">Startup Valuation & Investment Committee Assessment Memo</p>
+                        </div>
+                        <div style="text-align: right; font-size: 12px; color: #64748b;">
+                            <div>문서번호: VC-VAL-${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, '0')}-${Math.floor(1000 + Math.random() * 9000)}</div>
+                            <div>발행일자: <strong>${dateStr}</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meta Table -->
+                <table class="val-report-meta-table">
+                    <tr>
+                        <td class="meta-label">평가 대상</td>
+                        <td><strong>(주)혁신 테크놀로지 (Deal Sourcing Target)</strong></td>
+                        <td class="meta-label">대상 라운드</td>
+                        <td>${targetRound}</td>
+                    </tr>
+                    <tr>
+                        <td class="meta-label">적용 밸류에이션 기법</td>
+                        <td><strong>${modelTitle}</strong></td>
+                        <td class="meta-label">주관 부서</td>
+                        <td>VC 투자심사본부 / AI Deal Analytics Engine</td>
+                    </tr>
+                    <tr>
+                        <td class="meta-label">심사 상태</td>
+                        <td colspan="3"><span style="color: #16a34a; font-weight: bold;">● 투자심의위원회(IC) 권고 밸류 산정 완료 (Approved for Term Sheet)</span></td>
+                    </tr>
+                </table>
+
+                <!-- Executive Summary -->
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">📌 Executive Summary (투자 검토 및 적정 가치 요약)</h3>
+                    ${execSummaryHtml}
+                </div>
+
+                <!-- Detailed Calculations -->
+                ${detailSectionsHtml}
+
+                <!-- Sensitivity Analysis -->
+                ${sensitivityHtml}
+
+                <!-- Investment Opinion -->
+                <div class="val-report-section">
+                    <h3 class="val-report-section-title">⚖️ VC 투자심사역 종합 의견 및 텀시트(Term Sheet) 제언</h3>
+                    <div class="val-report-opinion-box">
+                        ${opinionHtml}
+                    </div>
+                </div>
+
+                <!-- Signature Footer -->
+                <div style="margin-top: 35px; padding-top: 15px; border-top: 1px dashed #cbd5e1; display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: #64748b;">
+                    <div>* 본 보고서는 Deal Sourcing Agent 스타트업 밸류에이션 엔진에 의해 실시간 파라미터 기반으로 산출되었습니다.</div>
+                    <div style="text-align: right; font-weight: 600; color: #334155;">VC 투자심의위원회 대표 심사역 (인)</div>
+                </div>
+            </div>
+        `;
+    };
+
+    const exportValuationToPDF = () => {
+        const reportHtml = generateValuationReportHTML();
+        const printWindow = window.open('', '_blank');
+        if (!printWindow) {
+            alert('팝업 차단이 설정되어 있습니다. 팝업을 허용해주세요.');
+            return;
+        }
+
+        printWindow.document.write(`
+            <!DOCTYPE html>
+            <html lang="ko">
+            <head>
+                <meta charset="UTF-8">
+                <title>스타트업 밸류에이션 투자심사 보고서</title>
+                <style>
+                    @page {
+                        size: A4 portrait;
+                        margin: 15mm;
+                    }
+                    body {
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+                        background: #ffffff;
+                        color: #1e293b;
+                        padding: 0;
+                        margin: 0;
+                        -webkit-print-color-adjust: exact;
+                        print-color-adjust: exact;
+                    }
+                    .val-report-paper {
+                        max-width: 100%;
+                        background: #ffffff;
+                        line-height: 1.6;
+                        font-size: 12.5px;
+                    }
+                    .val-report-header {
+                        border-bottom: 2px solid #2563eb;
+                        padding-bottom: 12px;
+                        margin-bottom: 18px;
+                    }
+                    .val-report-title {
+                        font-size: 22px;
+                        font-weight: 800;
+                        color: #1e3a8a;
+                        margin: 0 0 6px 0;
+                    }
+                    .val-report-meta-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin-bottom: 18px;
+                        background: #f8fafc;
+                    }
+                    .val-report-meta-table td {
+                        padding: 6px 10px;
+                        border: 1px solid #cbd5e1;
+                        font-size: 11.5px;
+                    }
+                    .val-report-meta-table .meta-label {
+                        background: #f1f5f9;
+                        font-weight: 600;
+                        color: #475569;
+                        width: 18%;
+                    }
+                    .val-report-section {
+                        margin-bottom: 20px;
+                    }
+                    .val-report-section-title {
+                        font-size: 14.5px;
+                        font-weight: 700;
+                        color: #0f172a;
+                        border-left: 4px solid #2563eb;
+                        padding-left: 8px;
+                        margin: 0 0 10px 0;
+                    }
+                    .val-report-summary-box {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 10px;
+                        margin-bottom: 15px;
+                    }
+                    .val-report-stat-card {
+                        background: #f8fafc;
+                        border: 1px solid #cbd5e1;
+                        border-radius: 6px;
+                        padding: 10px;
+                        text-align: center;
+                    }
+                    .val-report-stat-card .stat-label {
+                        font-size: 10.5px;
+                        color: #64748b;
+                        margin-bottom: 4px;
+                        display: block;
+                    }
+                    .val-report-stat-card .stat-val {
+                        font-size: 17px;
+                        font-weight: 800;
+                        color: #1e40af;
+                        display: block;
+                    }
+                    .val-report-table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin: 8px 0 15px 0;
+                        font-size: 11.5px;
+                    }
+                    .val-report-table th {
+                        background: #f1f5f9 !important;
+                        color: #1e293b;
+                        font-weight: 600;
+                        border: 1px solid #cbd5e1;
+                        padding: 6px 8px;
+                        text-align: left;
+                    }
+                    .val-report-table td {
+                        border: 1px solid #e2e8f0;
+                        padding: 6px 8px;
+                    }
+                    .val-report-table tr.total-row {
+                        background: #eff6ff !important;
+                        font-weight: 700;
+                    }
+                    .val-report-opinion-box {
+                        background: #f0fdf4 !important;
+                        border: 1px solid #bbf7d0;
+                        border-radius: 6px;
+                        padding: 12px 15px;
+                        color: #166534;
+                        font-size: 12px;
+                        line-height: 1.6;
+                    }
+                </style>
+            </head>
+            <body>
+                ${reportHtml}
+                <script>
+                    window.onload = function() {
+                        setTimeout(function() {
+                            window.print();
+                        }, 250);
+                    };
+                </script>
+            </body>
+            </html>
+        `);
+        printWindow.document.close();
+    };
+
+    const exportValuationToWord = () => {
+        const reportHtml = generateValuationReportHTML();
+        const today = new Date();
+        const dateStr = `${today.getFullYear()}${String(today.getMonth() + 1).padStart(2, '0')}${String(today.getDate()).padStart(2, '0')}`;
+        
+        const fullWordDoc = `
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <title>스타트업 밸류에이션 투자심사 보고서</title>
+                <!--[if gte mso 9]>
+                <xml>
+                <w:WordDocument>
+                <w:View>Print</w:View>
+                <w:Zoom>100</w:Zoom>
+                <w:DoNotOptimizeForBrowser/>
+                </w:WordDocument>
+                </xml>
+                <![endif]-->
+                <style>
+                    body {
+                        font-family: 'Malgun Gothic', '맑은 고딕', 'Arial', sans-serif;
+                        font-size: 11pt;
+                        line-height: 1.6;
+                        color: #1e293b;
+                    }
+                    h1 { font-size: 20pt; color: #1e3a8a; border-bottom: 2pt solid #2563eb; padding-bottom: 6pt; margin-bottom: 12pt; }
+                    h2 { font-size: 14pt; color: #1e40af; margin-top: 15pt; }
+                    h3 { font-size: 12pt; color: #0f172a; border-left: 4pt solid #2563eb; padding-left: 6pt; margin: 15pt 0 8pt 0; }
+                    table { border-collapse: collapse; width: 100%; margin: 10pt 0; }
+                    th, td { border: 1pt solid #cbd5e1; padding: 6pt 8pt; font-size: 10pt; }
+                    th { background-color: #f1f5f9; font-weight: bold; color: #334155; }
+                    .meta-label { background-color: #f8fafc; font-weight: bold; width: 20%; }
+                    .total-row { background-color: #eff6ff; font-weight: bold; color: #1e40af; }
+                    .val-report-opinion-box { background-color: #f0fdf4; border: 1pt solid #bbf7d0; padding: 10pt 12pt; color: #166534; margin-top: 8pt; }
+                    .val-report-summary-box { margin-bottom: 15pt; }
+                    .val-report-stat-card { border: 1pt solid #cbd5e1; background-color: #f8fafc; padding: 8pt; text-align: center; }
+                </style>
+            </head>
+            <body>
+                ${reportHtml}
+            </body>
+            </html>
+        `;
+
+        const blob = new Blob(['\ufeff' + fullWordDoc], {
+            type: 'application/msword;charset=utf-8'
+        });
+
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `스타트업_밸류에이션_투자심사보고서_${dateStr}.doc`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    };
+
     return {
         init,
-        renderActiveTab
+        renderActiveTab,
+        openReportModal,
+        exportValuationToPDF,
+        exportValuationToWord
     };
 })();
 

@@ -394,15 +394,60 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 선택된 기사 다중 리포트 생성 버튼
-    document.getElementById('btn-generate-selected-report').addEventListener('click', () => {
+    document.getElementById('btn-generate-selected-report').addEventListener('click', async () => {
         const urlBriefingModal = document.getElementById('url-briefing-modal');
         const urlBriefingInput = document.getElementById('url-briefing-input');
         const sourceOption = document.getElementById('url-source-option');
+        const chkAllPages = document.getElementById('chk-all-pages');
         
         if (urlBriefingModal && urlBriefingInput) {
-            if(sourceOption) sourceOption.value = 'checked'; // 기본값: 체크된 기사
-            if(sourceOption) sourceOption.dispatchEvent(new Event('change'));
-            urlBriefingModal.style.display = 'flex';
+            if (chkAllPages && chkAllPages.checked) {
+                urlBriefingInput.value = '필터된 기사 URL을 불러오는 중...';
+                if(sourceOption) sourceOption.value = 'filtered';
+                urlBriefingModal.style.display = 'flex';
+                
+                try {
+                    const params = new URLSearchParams();
+                    
+                    const countrySelects = Array.from(document.getElementById('country-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+                    countrySelects.forEach(val => { if (val && val !== '전체') params.append('country', val); });
+                    
+                    const dealStageSelects = Array.from(document.getElementById('dealstage-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+                    dealStageSelects.forEach(val => { if (val && val !== '전체') params.append('deal_stage', val); });
+                    
+                    const newsGradeSelects = Array.from(document.getElementById('newsgrade-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+                    newsGradeSelects.forEach(val => { if (val && val !== '전체') params.append('news_grade', val); });
+                    
+                    const industrySelects = Array.from(document.getElementById('industry-dropdown-list').querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+                    industrySelects.forEach(val => { if (val && val !== '전체') params.append('promising_industry', val); });
+                    
+                    const sortBtn = document.getElementById('btn-sort');
+                    const sortBy = sortBtn.dataset.sort === 'latest' ? 'latest' : 'importance';
+                    params.append('sort_by', sortBy);
+                    
+                    const dateFilter = document.getElementById('date-filter').value;
+                    if(dateFilter !== 'all') params.append('date_filter', dateFilter);
+                    
+                    params.append('page', 1);
+                    params.append('page_size', 10000);
+                    
+                    const res = await fetch(`/api/articles?${params.toString()}`);
+                    const json = await res.json();
+                    if (json.status === 'success') {
+                        const urls = json.data.map(item => item.url).filter(u => u);
+                        urlBriefingInput.value = urls.join('\n');
+                    } else {
+                        urlBriefingInput.value = 'URL을 불러오지 못했습니다.';
+                    }
+                } catch(e) {
+                    console.error(e);
+                    urlBriefingInput.value = '오류가 발생했습니다.';
+                }
+            } else {
+                if(sourceOption) sourceOption.value = 'checked'; // 기본값: 체크된 기사
+                if(sourceOption) sourceOption.dispatchEvent(new Event('change'));
+                urlBriefingModal.style.display = 'flex';
+            }
         }
     });
 
@@ -993,8 +1038,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     document.getElementById('report-content-container').style.display = 'block';
                     
                     // 왼쪽 상단 일자 표시
-                    if (!document.getElementById('report-date-overlay')) {
-                        const dateOverlay = document.createElement('div');
+                    let dateOverlay = document.getElementById('report-date-overlay');
+                    if (!dateOverlay) {
+                        dateOverlay = document.createElement('div');
                         dateOverlay.id = 'report-date-overlay';
                         dateOverlay.style.position = 'absolute';
                         dateOverlay.style.top = '15px';
@@ -1002,13 +1048,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         dateOverlay.style.zIndex = '1000';
                         dateOverlay.style.fontSize = '14px';
                         dateOverlay.style.color = '#334155';
-                        const d = new Date();
-                        const yyyy = d.getFullYear();
-                        const mm = String(d.getMonth() + 1).padStart(2, '0');
-                        const dd = String(d.getDate()).padStart(2, '0');
-                        dateOverlay.innerHTML = `생성일: ${yyyy}-${mm}-${dd}`;
                         document.querySelector('.modal-body').appendChild(dateOverlay);
                     }
+                    const d = new Date();
+                    const yyyy = d.getFullYear();
+                    const mm = String(d.getMonth() + 1).padStart(2, '0');
+                    const dd = String(d.getDate()).padStart(2, '0');
+                    const hh = String(d.getHours()).padStart(2, '0');
+                    const min = String(d.getMinutes()).padStart(2, '0');
+                    const ss = String(d.getSeconds()).padStart(2, '0');
+                    dateOverlay.innerHTML = `생성일시: ${yyyy}-${mm}-${dd} ${hh}:${min}:${ss}`;
                 } else {
                     document.getElementById('report-loading').textContent = '생성 실패: ' + (json.message || '알 수 없는 오류');
                 }
