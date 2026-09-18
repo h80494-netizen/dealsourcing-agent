@@ -15,8 +15,8 @@ from collectors.naver_news_collector import collect_naver_news
 from processor.analyzer import analyze_text
 from config import INDUSTRY_KEYWORDS, SIGNAL_KEYWORDS
 
-def run_pipeline(progress_callback=None, days_limit=2):
-    print(f"[{datetime.now()}] 파이프라인 시작 (days_limit: {days_limit})...")
+def run_pipeline(progress_callback=None, days_limit=2, max_articles=50):
+    print(f"[{datetime.now()}] 파이프라인 시작 (days_limit: {days_limit}, max_articles: {max_articles})...")
     engine = init_db()
     session = get_session(engine)
     
@@ -49,25 +49,45 @@ def run_pipeline(progress_callback=None, days_limit=2):
     print(f"총 {len(all_articles)}개의 기사 중 {len(unique_articles)}개의 고유 기사를 추렸습니다. 새로운 기사를 필터링합니다...")
     
     # 먼저 DB에 없으며, 지정된 일수 이내의 기사만 추려냄
-    from datetime import timedelta
+    from datetime import timedelta, datetime as dt_class
     time_threshold = datetime.now() - timedelta(days=days_limit)
     
     new_articles = []
     for art in unique_articles:
-        if art['pub_date'] and art['pub_date'] < time_threshold:
+        if art.get('pub_date') and art['pub_date'] < time_threshold:
             continue
             
         exists = session.query(DealArticle).filter_by(link=art['link']).first()
         if not exists:
             new_articles.append(art)
             
-    # API 쿼터 한도 및 속도 제한(Rate Limit)을 준수하기 위해 최대 30건만 선별 분석 진행
     original_new_count = len(new_articles)
-    if len(new_articles) > 30:
-        new_articles = new_articles[:30]
-        print(f"새로운 기사 {original_new_count}건 중 API 한도 보장을 위해 상위 30건만 선별 분석을 진행합니다.")
+    
+    # 1) pub_date 최신순 내림차순 정렬
+    new_articles.sort(key=lambda x: x.get('pub_date') if isinstance(x.get('pub_date'), dt_class) else dt_class.min, reverse=True)
+    
+    # 2) 국가별 라운드-로빈(Round-Robin) 교대 믹싱하여 특정 국가 독점 방지
+    by_country = {}
+    for art in new_articles:
+        c = art.get('country') or '기타'
+        if c not in by_country:
+            by_country[c] = []
+        by_country[c].append(art)
+        
+    balanced_articles = []
+    while len(balanced_articles) < max_articles and any(by_country.values()):
+        for c in list(by_country.keys()):
+            if by_country[c]:
+                balanced_articles.append(by_country[c].pop(0))
+                if len(balanced_articles) >= max_articles:
+                    break
+                    
+    new_articles = balanced_articles
+    
+    if original_new_count > max_articles:
+        print(f"새로운 기사 총 {original_new_count}건 중 최신순 및 국가별 라운드-로빈으로 상위 {len(new_articles)}건을 선별하여 분석합니다.")
     else:
-        print(f"분석할 새로운 기사 {len(new_articles)}건 발견. 병렬 분석을 시작합니다...")
+        print(f"분석할 새로운 기사 {len(new_articles)}건 발견 (최신순/국가별 배치). 병렬 분석을 시작합니다...")
     
     import concurrent.futures
     new_count = 0

@@ -586,7 +586,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('new-news-stats').textContent = '';
         
         try {
-            const res = await fetch(`/api/crawl_now?days_limit=${daysLimit}`, { method: 'POST' });
+            const res = await fetch(`/api/crawl_now?days_limit=${daysLimit}&max_articles=50`, { method: 'POST' });
             const json = await res.json();
             if (json.status === 'success') {
                 const pollInterval = setInterval(async () => {
