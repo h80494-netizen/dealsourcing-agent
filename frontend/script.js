@@ -363,22 +363,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 gradeTooltip = '기타 등급 (50점 미만): 영향력이 미미하거나 벤처 투자와 무관한 가십/광고'; 
             }
 
-            const d = new Date();
-            d.setHours(0,0,0,0);
-            
-            const scopeSelect = document.getElementById('report-scope-select');
-            const scopeVal = scopeSelect ? scopeSelect.value : 'none';
+            const getTodayStr = () => {
+                const now = new Date();
+                const year = now.getFullYear();
+                const month = String(now.getMonth() + 1).padStart(2, '0');
+                const day = String(now.getDate()).padStart(2, '0');
+                return `${year}-${month}-${day}`;
+            };
+            const todayStr = getTodayStr();
+
+            const chkAllPages = document.getElementById('chk-all-pages');
+            const chkToday = document.getElementById('chk-today');
 
             let isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
-            if (scopeVal !== 'none' && item.created_at) {
-                const itemDate = new Date(item.created_at.substring(0, 10));
-                itemDate.setHours(0,0,0,0);
-                const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
-                
-                if (scopeVal === 'all') isChecked = 'checked';
-                else if (scopeVal === '0' && diffDays === 0) isChecked = 'checked';
-                else if (scopeVal === '-1' && diffDays <= 1) isChecked = 'checked';
-                else if (scopeVal === '-2' && diffDays <= 2) isChecked = 'checked';
+            if (chkAllPages && chkAllPages.checked) {
+                isChecked = 'checked';
+            } else if (chkToday && chkToday.checked && item.created_at) {
+                if (item.created_at.substring(0, 10) === todayStr) {
+                    isChecked = 'checked';
+                }
             }
             
             tr.innerHTML = `
@@ -395,46 +398,70 @@ document.addEventListener('DOMContentLoaded', () => {
             tbody.appendChild(tr);
         });
 
-        // "전체 선택" 체크박스 상태 초기화
+        // "전체 선택" 테이블 헤더 체크박스 상태 업데이트
         const chkAll = document.getElementById('chk-all');
+        const chkAllPages = document.getElementById('chk-all-pages');
         if (chkAll) {
-            chkAll.checked = false;
+            chkAll.checked = chkAllPages ? chkAllPages.checked : false;
         }
     };
 
-    // 체크박스 전체 선택/해제 이벤트
-    document.getElementById('chk-all').addEventListener('change', (e) => {
-        const isChecked = e.target.checked;
-        document.querySelectorAll('.chk-row').forEach(chk => {
-            chk.checked = isChecked;
-        });
-    });
+    const getTodayStr = () => {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = String(now.getMonth() + 1).padStart(2, '0');
+        const day = String(now.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    };
 
-    // 리포트 스코프 콤보박스 변경 이벤트
-    const scopeSelect = document.getElementById('report-scope-select');
-    if (scopeSelect) {
-        scopeSelect.addEventListener('change', (e) => {
-            const scopeVal = e.target.value;
-            const d = new Date();
-            d.setHours(0,0,0,0);
-            
+    // 테이블 헤더 '전체 선택' 체크박스
+    const chkAllHeader = document.getElementById('chk-all');
+    if (chkAllHeader) {
+        chkAllHeader.addEventListener('change', (e) => {
+            const isChecked = e.target.checked;
+            document.querySelectorAll('.chk-row').forEach(chk => {
+                chk.checked = isChecked;
+            });
+        });
+    }
+
+    // '전체(필터)' 상단 체크박스
+    const chkAllPages = document.getElementById('chk-all-pages');
+    if (chkAllPages) {
+        chkAllPages.addEventListener('change', (e) => {
+            const isChecked = e.target.checked;
+            if (isChecked) {
+                const chkToday = document.getElementById('chk-today');
+                if (chkToday) chkToday.checked = false;
+            }
+            document.querySelectorAll('.chk-row').forEach(chk => {
+                chk.checked = isChecked;
+            });
+            const chkAll = document.getElementById('chk-all');
+            if (chkAll) chkAll.checked = isChecked;
+        });
+    }
+
+    // '당일 선택' 상단 체크박스
+    const chkToday = document.getElementById('chk-today');
+    if (chkToday) {
+        chkToday.addEventListener('change', (e) => {
+            const isChecked = e.target.checked;
+            if (isChecked) {
+                const chkAllPages = document.getElementById('chk-all-pages');
+                if (chkAllPages) chkAllPages.checked = false;
+            }
+            const todayStr = getTodayStr();
             document.querySelectorAll('.chk-row').forEach(chk => {
                 const dateAttr = chk.dataset.date || '';
-                if (scopeVal === 'none') {
-                    // Do not auto uncheck everything unless you want to?
-                    // Maybe just leave it alone if 'none' is selected.
-                } else if (scopeVal === 'all') {
-                    chk.checked = true;
-                } else if (dateAttr) {
-                    const itemDate = new Date(dateAttr.substring(0, 10));
-                    itemDate.setHours(0,0,0,0);
-                    const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
-                    if (scopeVal === '0' && diffDays === 0) chk.checked = true;
-                    else if (scopeVal === '-1' && diffDays <= 1) chk.checked = true;
-                    else if (scopeVal === '-2' && diffDays <= 2) chk.checked = true;
-                    else chk.checked = false;
+                if (isChecked) {
+                    chk.checked = (dateAttr.substring(0, 10) === todayStr);
+                } else {
+                    chk.checked = false;
                 }
             });
+            const chkAll = document.getElementById('chk-all');
+            if (chkAll) chkAll.checked = false;
         });
     }
 
@@ -443,71 +470,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const urlBriefingModal = document.getElementById('url-briefing-modal');
         const urlBriefingInput = document.getElementById('url-briefing-input');
         const sourceOption = document.getElementById('url-source-option');
-        const scopeSelect = document.getElementById('report-scope-select');
-        const scopeVal = scopeSelect ? scopeSelect.value : 'none';
+        
+        // 체크된 기사 URL 수집
+        const checkedBoxes = Array.from(document.querySelectorAll('.chk-row:checked'));
+        const checkedUrls = checkedBoxes.map(chk => chk.dataset.url).filter(u => u);
         
         if (urlBriefingModal && urlBriefingInput) {
-            if (scopeVal !== 'none') {
-                urlBriefingInput.value = '필터된 기사 URL을 불러오는 중...';
-                if(sourceOption) sourceOption.value = 'filtered';
-                urlBriefingModal.style.display = 'flex';
-                
-                try {
-                    const getSelected = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(cb => cb.value).filter(val => val !== "");
-                    const countries = getSelected('country');
-                    const dealStages = getSelected('deal-stage');
-                    const newsGrades = getSelected('news-grade');
-                    const industries = getSelected('industry');
-                    const sortByNode = document.querySelector('input[name="sort-by"]:checked');
-                    const sortBy = sortByNode ? sortByNode.value : 'latest';
-                    const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
-                    const dateFilter = dateFilterNode ? dateFilterNode.value : 'all';
-
-                    const params = new URLSearchParams();
-                    countries.forEach(c => params.append('country', c));
-                    dealStages.forEach(d => params.append('deal_stage', d));
-                    newsGrades.forEach(n => params.append('news_grade', n));
-                    industries.forEach(i => params.append('promising_industry', i));
-                    if (sortBy) params.append('sort_by', sortBy);
-                    if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
-                    
-                    params.append('page', 1);
-                    params.append('page_size', 10000);
-                    
-                    const res = await fetch(`/api/articles?${params.toString()}`);
-                    const json = await res.json();
-                    if (json.status === 'success') {
-                        const d = new Date();
-                        d.setHours(0,0,0,0);
-                        
-                        let targetData = json.data;
-                        if (scopeVal !== 'all') {
-                            targetData = targetData.filter(item => {
-                                if (!item.created_at) return false;
-                                const itemDate = new Date(item.created_at.substring(0, 10));
-                                itemDate.setHours(0,0,0,0);
-                                const diffDays = Math.floor((d - itemDate) / (1000 * 60 * 60 * 24));
-                                if (scopeVal === '0') return diffDays === 0;
-                                if (scopeVal === '-1') return diffDays <= 1;
-                                if (scopeVal === '-2') return diffDays <= 2;
-                                return false;
-                            });
-                        }
-                        
-                        const urls = targetData.map(item => item.url).filter(u => u);
-                        urlBriefingInput.value = urls.join('\n');
-                    } else {
-                        urlBriefingInput.value = 'URL을 불러오지 못했습니다.';
-                    }
-                } catch(e) {
-                    console.error(e);
-                    urlBriefingInput.value = '오류가 발생했습니다.';
-                }
-            } else {
-                if(sourceOption) sourceOption.value = 'checked'; // 기본값: 체크된 기사
-                if(sourceOption) sourceOption.dispatchEvent(new Event('change'));
-                urlBriefingModal.style.display = 'flex';
+            if (checkedUrls.length > 0) {
+                urlBriefingInput.value = checkedUrls.join('\n');
             }
+            if(sourceOption) sourceOption.value = 'checked';
+            urlBriefingModal.style.display = 'flex';
         }
     });
 

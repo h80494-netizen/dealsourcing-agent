@@ -255,19 +255,19 @@
                     <button type="button" class="btn-primary mobile-apply-btn" onclick="document.getElementById('btn-apply').click()" style="display: none; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); margin-bottom: 1rem; padding: 12px; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);">
                         <span>🔍 필터 적용 및 조회</span>
                     </button>
-                    <div class="preview-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 15px;">
-                        <h3 style="white-space: nowrap; font-size: 1.05rem;">산업별 뉴스 파이프라인</h3>
-                        <div style="display: flex; gap: 8px; align-items: center;">
-                            <label style="display: flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; margin-right: 5px;">
-                                <input type="checkbox" id="chk-all-pages"> 전체(필터)
+                    <div class="preview-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 15px; flex-wrap: nowrap;">
+                        <h3 style="white-space: nowrap; font-size: 1.05rem; margin: 0; flex-shrink: 0;">산업별 뉴스 파이프라인</h3>
+                        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: nowrap; white-space: nowrap; flex-shrink: 0;">
+                            <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
+                                <input type="checkbox" id="chk-all-pages" style="cursor: pointer;"> 전체(필터)
                             </label>
-                            <label style="display: flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; margin-right: 10px;">
-                                <input type="checkbox" id="chk-today"> 당일 선택
+                            <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
+                                <input type="checkbox" id="chk-today" style="cursor: pointer;"> 당일 선택
                             </label>
-                            <button id="btn-toggle-fullscreen" class="btn-secondary" type="button" style="padding: 4px 10px; font-size: 0.8rem; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); display: flex; align-items: center; gap: 4px; border-radius: 6px; cursor: pointer;">
+                            <button id="btn-toggle-fullscreen" class="btn-secondary" type="button" style="padding: 4px 10px; font-size: 0.8rem; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); display: inline-flex; align-items: center; gap: 4px; border-radius: 6px; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
                                 <span>⛶</span> <span id="fullscreen-btn-text">전체 화면</span>
                             </button>
-                            <button id="btn-generate-selected-report" class="btn-primary" style="padding: 4px 10px; font-size: 0.8rem; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">선택 기사 리포트 생성</button>
+                            <button id="btn-generate-selected-report" class="btn-primary" style="padding: 4px 10px; font-size: 0.8rem; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); white-space: nowrap; flex-shrink: 0;">선택 기사 리포트 생성</button>
                         </div>
                     </div>
                     <div class="table-container" style="flex: 1;">
