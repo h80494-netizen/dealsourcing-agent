@@ -1051,7 +1051,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // 결과 모달창 띄우기
             reportModal.style.display = 'flex';
             document.getElementById('report-loading').style.display = 'block';
-            document.getElementById('report-loading').textContent = 'AI가 기사 원문을 수집하고 브리핑 리포트를 생성 중입니다... (약 10~30초 소요)';
+            if (urls.length >= 5) {
+                document.getElementById('report-loading').textContent = `선택하신 ${urls.length}개 기사를 바탕으로 5페이지 이상의 심층 분석 리포트(산업 동향 및 기업 정보)를 작성 중입니다... (약 15~40초 소요)`;
+            } else {
+                document.getElementById('report-loading').textContent = `AI가 ${urls.length}개 기사 원문을 수집하고 브리핑 리포트를 생성 중입니다... (약 10~20초 소요)`;
+            }
             const revealContainer = document.getElementById('reveal-container');
             if (revealContainer) revealContainer.style.display = 'none';
 
