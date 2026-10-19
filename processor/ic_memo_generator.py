@@ -196,12 +196,12 @@ async def generate_ic_memo(
         import google.generativeai as genai
         genai.configure(api_key=key)
 
-        # 고성능 최신 모델 우선순위
         model_candidates = [
-            "gemini-2.5-flash",
-            "gemini-1.5-flash",
-            "gemini-1.5-pro",
-            "gemini-flash-latest"
+            "gemini-flash-lite-latest",
+            "gemini-2.0-flash",
+            "gemini-3.8-flash",
+            "gemini-2.0-flash-exp",
+            "gemini-pro"
         ]
 
         last_error = None
