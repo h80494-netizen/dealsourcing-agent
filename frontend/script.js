@@ -630,13 +630,6 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchArticles();
     fetchStatistics();
 
-    // Keyword Handling
-    const keywordInput = document.getElementById('custom-keyword');
-    const keywordTags = document.getElementById('keyword-tags');
-
-    const loadKeywords = async () => {
-        try {
-            const res = await fetch('/api/keywords');
     // =========================================================================
     // 글로벌 VC 산업분류 체계 (42개 소분류 & 5대 대분류 계층형 드롭다운 로직)
     // =========================================================================
