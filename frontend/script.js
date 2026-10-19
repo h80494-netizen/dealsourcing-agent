@@ -181,7 +181,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const countries = getSelected('country');
             const dealStages = getSelected('deal-stage');
             const newsGrades = getSelected('news-grade');
-            const industries = getSelected('industry');
+            
+            // 소분류 및 대분류 전체 체크 항목 수집
+            const minorIndustries = getSelected('industry');
+            const majorIndustries = Array.from(document.querySelectorAll('#industry-dropdown-list .chk-major-opt:checked'))
+                .map(cb => cb.value).filter(val => val !== "");
+            
+            const industries = Array.from(new Set([...majorIndustries, ...minorIndustries]));
             const sortByNode = document.querySelector('input[name="sort-by"]:checked');
             const sortBy = sortByNode ? sortByNode.value : 'latest';
             const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
@@ -652,26 +658,47 @@ document.addEventListener('DOMContentLoaded', () => {
             const chkAll = document.getElementById('industry-dropdown-list').querySelector('.chk-all-opt');
 
             const updateIndustryBtnText = () => {
-                const checkedInputs = Array.from(document.querySelectorAll('#industry-dropdown-list input[name="industry"]:checked'))
-                    .filter(cb => cb.value !== '');
                 if (!selectBtn) return;
                 if (chkAll && chkAll.checked) {
                     selectBtn.textContent = '전체 산업';
-                } else if (checkedInputs.length === 0) {
+                    return;
+                }
+
+                // 체크된 대분류 및 소분류 분석
+                const checkedMajors = Array.from(document.querySelectorAll('#industry-dropdown-list .chk-major-opt:checked'))
+                    .map(cb => `${cb.value} (전체)`);
+
+                const individuallyCheckedMinors = [];
+                document.querySelectorAll('.ind-major-block').forEach(block => {
+                    const majorChk = block.querySelector('.chk-major-opt');
+                    if (!majorChk || !majorChk.checked) {
+                        block.querySelectorAll('input[name="industry"]:checked').forEach(subChk => {
+                            individuallyCheckedMinors.push(subChk.dataset.name || subChk.value);
+                        });
+                    }
+                });
+
+                const allSelectedNames = [...checkedMajors, ...individuallyCheckedMinors];
+
+                if (allSelectedNames.length === 0) {
                     if (chkAll) chkAll.checked = true;
                     selectBtn.textContent = '전체 산업';
-                } else if (checkedInputs.length <= 2) {
-                    selectBtn.textContent = checkedInputs.map(cb => cb.dataset.name || cb.value).join(', ');
+                } else if (allSelectedNames.length <= 2) {
+                    selectBtn.textContent = allSelectedNames.join(', ');
                 } else {
-                    selectBtn.textContent = `${checkedInputs[0].dataset.name || checkedInputs[0].value} 외 ${checkedInputs.length - 1}개`;
+                    selectBtn.textContent = `${allSelectedNames[0]} 외 ${allSelectedNames.length - 1}개`;
                 }
             };
 
             if (chkAll) {
                 chkAll.addEventListener('change', () => {
                     if (chkAll.checked) {
-                        document.querySelectorAll('#industry-dropdown-list input[name="industry"]').forEach(cb => {
-                            if (cb !== chkAll) cb.checked = false;
+                        // 모든 대분류 및 소분류 체크 해제
+                        document.querySelectorAll('#industry-dropdown-list input[type="checkbox"]').forEach(cb => {
+                            if (cb !== chkAll) {
+                                cb.checked = false;
+                                cb.indeterminate = false;
+                            }
                         });
                     }
                     updateIndustryBtnText();
@@ -688,30 +715,66 @@ document.addEventListener('DOMContentLoaded', () => {
                 const block = document.createElement('div');
                 block.className = 'ind-major-block';
 
-                // 헤더
+                // 헤더 (대분류 섹터 전체 선택 체크박스 + 토글 화살표)
                 const header = document.createElement('div');
                 header.className = 'ind-major-header';
                 header.innerHTML = `
                     <div class="ind-major-header-left">
-                        <span class="badge-major ${majorClass}">${major}</span>
-                        <span>${major}</span>
+                        <label class="ind-minor-label" style="padding:0; margin:0; cursor:pointer;" onclick="event.stopPropagation();">
+                            <input type="checkbox" class="chk-major-opt" value="${major}" data-major="${major}" style="cursor:pointer;">
+                            <span class="badge-major ${majorClass}">${major}</span>
+                            <span style="font-weight:700; color:#f8fafc;">${major} (전체)</span>
+                        </label>
                     </div>
-                    <span class="ind-toggle-icon">▶</span>
+                    <span class="ind-toggle-icon" title="소분류 펼치기/접기">▶</span>
                 `;
 
                 // 내용 (중분류 + 소분류)
                 const content = document.createElement('div');
                 content.className = 'ind-major-content';
 
+                const majorChk = header.querySelector('.chk-major-opt');
+                const toggleIcon = header.querySelector('.ind-toggle-icon');
+
+                // 화살표 또는 헤더 배경 클릭 시 펼침/접힘
                 header.addEventListener('click', (e) => {
+                    if (e.target.closest('input[type="checkbox"]')) return;
                     const isOpen = content.classList.contains('open');
                     if (isOpen) {
                         content.classList.remove('open');
-                        header.querySelector('.ind-toggle-icon').classList.remove('open');
+                        toggleIcon.classList.remove('open');
                     } else {
                         content.classList.add('open');
-                        header.querySelector('.ind-toggle-icon').classList.add('open');
+                        toggleIcon.classList.add('open');
                     }
+                });
+
+                const syncMajorCheckboxState = () => {
+                    const subCheckboxes = Array.from(content.querySelectorAll('input[name="industry"]'));
+                    const checkedCount = subCheckboxes.filter(cb => cb.checked).length;
+                    if (checkedCount === 0) {
+                        majorChk.checked = false;
+                        majorChk.indeterminate = false;
+                    } else if (checkedCount === subCheckboxes.length) {
+                        majorChk.checked = true;
+                        majorChk.indeterminate = false;
+                    } else {
+                        majorChk.checked = false;
+                        majorChk.indeterminate = true;
+                    }
+                };
+
+                // 대분류 체크박스 변경 시 하위 소분류 일괄 체크/해제
+                majorChk.addEventListener('change', (e) => {
+                    e.stopPropagation();
+                    if (majorChk.checked && chkAll) {
+                        chkAll.checked = false;
+                    }
+                    content.querySelectorAll('input[name="industry"]').forEach(subChk => {
+                        subChk.checked = majorChk.checked;
+                    });
+                    majorChk.indeterminate = false;
+                    updateIndustryBtnText();
                 });
 
                 const middles = hierarchy[major];
@@ -733,6 +796,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             if (chk.checked && chkAll) {
                                 chkAll.checked = false;
                             }
+                            syncMajorCheckboxState();
                             updateIndustryBtnText();
                         });
                         content.appendChild(label);
@@ -750,15 +814,15 @@ document.addEventListener('DOMContentLoaded', () => {
             etcBlock.innerHTML = `
                 <div class="ind-major-header" style="cursor: default;">
                     <div class="ind-major-header-left">
-                        <span class="badge-major badge-major-etc">기타</span>
-                        <label class="ind-minor-label" style="padding:0; margin-left:6px; cursor: pointer;">
-                            <input type="checkbox" name="industry" value="기타" data-name="기타/미정">
-                            <span>기타/미정 (애매한 항목)</span>
+                        <label class="ind-minor-label" style="padding:0; margin:0; cursor:pointer;">
+                            <input type="checkbox" class="chk-major-opt" value="기타" data-major="기타" style="cursor:pointer;">
+                            <span class="badge-major badge-major-etc">기타</span>
+                            <span style="font-weight:600; margin-left:4px;">기타/미정 (애매한 항목)</span>
                         </label>
                     </div>
                 </div>
             `;
-            const etcChk = etcBlock.querySelector('input');
+            const etcChk = etcBlock.querySelector('.chk-major-opt');
             if (etcChk) {
                 etcChk.addEventListener('change', () => {
                     if (etcChk.checked && chkAll) chkAll.checked = false;
