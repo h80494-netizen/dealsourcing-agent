@@ -148,6 +148,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (!anyChecked && chkAll) chkAll.checked = true;
                 }
                 updateBtnText();
+                // 필터 변경 즉시 1페이지부터 자동 재검색
+                currentPage = 1;
+                fetchArticles();
+                fetchStatistics();
             });
         });
         updateBtnText();
@@ -155,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     ['dropdown-country', 'dropdown-stage', 'dropdown-grade'].forEach(setupCheckboxes);
 
-    // 라디오 버튼(정렬, 일자) 텍스트 업데이트 로직
+    // 라디오 버튼(정렬, 일자) 텍스트 업데이트 및 즉시 검색 로직
     ['dropdown-sort', 'dropdown-date'].forEach(containerId => {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -165,6 +169,10 @@ document.addEventListener('DOMContentLoaded', () => {
             radio.addEventListener('change', (e) => {
                 if(e.target.checked) {
                     btn.textContent = e.target.parentElement.textContent.trim();
+                    // 라디오 변경 시 즉시 재검색
+                    currentPage = 1;
+                    fetchArticles();
+                    fetchStatistics();
                 }
             });
             // 초기 텍스트 세팅
@@ -702,6 +710,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         });
                     }
                     updateIndustryBtnText();
+                    currentPage = 1;
+                    fetchArticles();
+                    fetchStatistics();
                 });
             }
 
@@ -775,6 +786,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                     majorChk.indeterminate = false;
                     updateIndustryBtnText();
+                    currentPage = 1;
+                    fetchArticles();
+                    fetchStatistics();
                 });
 
                 const middles = hierarchy[major];
@@ -798,6 +812,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             }
                             syncMajorCheckboxState();
                             updateIndustryBtnText();
+                            currentPage = 1;
+                            fetchArticles();
+                            fetchStatistics();
                         });
                         content.appendChild(label);
                     });
@@ -827,6 +844,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 etcChk.addEventListener('change', () => {
                     if (etcChk.checked && chkAll) chkAll.checked = false;
                     updateIndustryBtnText();
+                    currentPage = 1;
+                    fetchArticles();
+                    fetchStatistics();
                 });
             }
             container.appendChild(etcBlock);
