@@ -1463,3 +1463,248 @@ tr:hover td {
         display: none !important;
     }
 }
+
+/* ==========================================================================
+   글로벌 VC 산업분류 체계 (대분류 > 중분류 > 소분류) & 키워드 그룹 UI 스타일
+   ========================================================================== */
+
+/* 상단 필터: 계층형 산업 드롭다운 */
+.ind-dropdown-menu {
+    max-height: 480px;
+    overflow-y: auto;
+    width: 320px !important;
+    padding: 8px;
+    background: #1e293b;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.ind-all-option {
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.ind-major-block {
+    margin-bottom: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    background: rgba(15, 23, 42, 0.4);
+    overflow: hidden;
+}
+
+.ind-major-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.04);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.ind-major-header:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.ind-major-header-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ind-toggle-icon {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+}
+
+.ind-toggle-icon.open {
+    transform: rotate(90deg);
+}
+
+.ind-major-content {
+    padding: 4px 8px 8px 8px;
+    display: none;
+}
+
+.ind-major-content.open {
+    display: block;
+}
+
+.ind-middle-title {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    margin: 6px 0 2px 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ind-minor-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 6px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    color: #e2e8f0;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.ind-minor-label:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* 대분류별 시그니처 뱃지 컬러 */
+.badge-major {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+}
+
+.badge-major-ai {
+    background: linear-gradient(135deg, #8b5cf6, #6366f1);
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+}
+
+.badge-major-ict {
+    background: linear-gradient(135deg, #0284c7, #2563eb);
+    box-shadow: 0 0 10px rgba(2, 132, 199, 0.3);
+}
+
+.badge-major-bio {
+    background: linear-gradient(135deg, #059669, #10b981);
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.badge-major-commerce {
+    background: linear-gradient(135deg, #d97706, #f59e0b);
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
+}
+
+.badge-major-etc {
+    background: linear-gradient(135deg, #475569, #64748b);
+    box-shadow: 0 0 10px rgba(100, 116, 139, 0.2);
+}
+
+/* 사이드바: 산업분류별 키워드 카테고리 네비게이션 & 태그 렌더링 */
+.kw-nav-tabs {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.kw-nav-tabs::-webkit-scrollbar {
+    height: 3px;
+}
+
+.kw-nav-tab {
+    padding: 3px 8px;
+    font-size: 0.75rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.kw-nav-tab.active {
+    background: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    border-color: var(--primary-color);
+}
+
+.kw-grouped-container {
+    max-height: 220px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+.kw-grouped-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.kw-group-card {
+    margin-bottom: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 6px 8px;
+    border-left: 3px solid #64748b;
+}
+
+.kw-group-card.border-ai { border-left-color: #8b5cf6; }
+.kw-group-card.border-ict { border-left-color: #0284c7; }
+.kw-group-card.border-bio { border-left-color: #10b981; }
+.kw-group-card.border-commerce { border-left-color: #f59e0b; }
+.kw-group-card.border-etc { border-left-color: #64748b; }
+
+.kw-group-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #cbd5e1;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kw-tag-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 7px;
+    margin: 2px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #f1f5f9;
+    transition: all 0.15s;
+}
+
+.kw-tag-item:hover {
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-1px);
+}
+
+.kw-tag-del-btn {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    line-height: 1;
+    transition: color 0.15s;
+}
+
+.kw-tag-del-btn:hover {
+    color: #ef4444;
+}
+
+/* 테이블 내 산업분류 계층형 셀 */
+.table-industry-hierarchy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+}
+
+.table-industry-hierarchy .sub-industry-text {
+    font-size: 0.78rem;
+    color: #94a3b8;
+    line-height: 1.2;
+}

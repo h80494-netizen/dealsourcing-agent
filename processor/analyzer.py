@@ -1,4 +1,11 @@
+import os
+import sys
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
 from config import INDUSTRY_KEYWORDS, SIGNAL_KEYWORDS, FINANCIAL_KEYWORDS
+from industry_manager import industry_manager
 import re
 from newspaper import Article
 
@@ -163,7 +170,13 @@ def analyze_text(title, content="", url="", source_country=None, pub_date=None):
     found_signal = match_keywords(SIGNAL_KEYWORDS, full_text)
     found_financial = match_keywords(FINANCIAL_KEYWORDS, full_text)
     
-    if found_industry or found_signal or found_financial:
+    # 42개 소분류 체계 기반 지능형 산업 분류 (대분류 > 중분류 > 소분류)
+    raw_text_for_ind = f"{title} {clean_text if clean_text else content}"
+    ind_class = industry_manager.classify_text(raw_text_for_ind)
+    
+    # 산업분류가 유효하거나(기타가 아니거나), 키워드가 매칭된 경우
+    has_valid_industry = ind_class and ind_class.get('major') != '기타'
+    if has_valid_industry or found_industry or found_signal or found_financial:
         # 1. 국가 분류 (source_country 우선)
         country = source_country
         if not country:
@@ -205,7 +218,14 @@ def analyze_text(title, content="", url="", source_country=None, pub_date=None):
             elif impact_score >= 50: news_grade = "B"
             else: news_grade = "기타"
             
-        promising_industry = ", ".join(found_industry) if found_industry else "기타/미정"
+        # 대분류 > 중분류 > 소분류 계층 분류 결과 설정 (애매하면 '기타 > 기타/미정 > 기타')
+        if ind_class and ind_class.get('formatted'):
+            promising_industry = ind_class['formatted']
+        else:
+            promising_industry = "기타 > 기타/미정 > 기타"
+            
+        matched_ind_list = list(dict.fromkeys(found_industry + ind_class.get('matched_keywords', [])))
+        matched_ind_str = ", ".join(matched_ind_list) if matched_ind_list else (ind_class.get('minor') if ind_class.get('minor') != '기타' else None)
         
         compressed_summary = ""
         if reason:
@@ -214,7 +234,7 @@ def analyze_text(title, content="", url="", source_country=None, pub_date=None):
             compressed_summary = ai_summary if ai_summary else clean_text[:200]
             
         return {
-            'matched_industry': ", ".join(found_industry) if found_industry else None,
+            'matched_industry': matched_ind_str,
             'matched_signal': ", ".join(found_signal) if found_signal else None,
             'matched_financial': ", ".join(found_financial) if found_financial else None,
             'growth_impact_score': impact_score / 20.0,

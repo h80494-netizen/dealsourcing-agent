@@ -24,6 +24,7 @@ from typing import Optional, List
 from newspaper import Article
 from processor.analyzer import analyze_text, extract_and_clean_text
 from processor.report_generator import generate_daily_report
+from industry_manager import industry_manager
 
 app = FastAPI(title="VC Deal Sourcing API")
 
@@ -330,6 +331,15 @@ def delete_domain(domain_id: int):
     session.close()
     return {"status": "success"}
 
+@app.get("/api/industries")
+def get_industries():
+    """글로벌 VC 42개 소분류 산업분류 체계(대분류-중분류-소분류) 및 키워드 목록 반환"""
+    return {
+        "status": "success",
+        "hierarchy": industry_manager.get_hierarchy(),
+        "all_rows": industry_manager.get_all_rows()
+    }
+
 @app.get("/api/keywords")
 def get_keywords():
     engine = init_db()
@@ -359,6 +369,15 @@ def get_keywords():
     except Exception as e:
         print("YAML Load Error:", e)
         
+    # 각 키워드에 대해 VC 산업분류 체계(대분류, 중분류, 소분류) 자동 매핑
+    for item in data:
+        kw = item.get("keyword", "")
+        classification = industry_manager.classify_keyword(kw)
+        item["major"] = classification.get("major", "기타")
+        item["middle"] = classification.get("middle", "기타/미정")
+        item["minor"] = classification.get("minor", "기타")
+        item["formatted_industry"] = classification.get("formatted", "기타 > 기타/미정 > 기타")
+        
     return {"status": "success", "data": data}
 
 @app.post("/api/keywords")
@@ -372,7 +391,11 @@ def create_keyword(kw: KeywordCreate):
         session.close()
         return {"status": "error", "message": "이미 존재하는 키워드입니다."}
         
-    new_kw = SearchKeyword(keyword=kw.keyword, type=kw.type, category=kw.category)
+    # 새로운 키워드가 추가될 때 산업분류 자동 판별
+    classification = industry_manager.classify_keyword(kw.keyword)
+    major_cat = classification.get("major", "기타")
+    
+    new_kw = SearchKeyword(keyword=kw.keyword, type=kw.type, category=major_cat)
     try:
         session.add(new_kw)
         session.commit()
@@ -381,7 +404,11 @@ def create_keyword(kw: KeywordCreate):
         session.close()
         return {"status": "error", "message": str(e)}
     session.close()
-    return {"status": "success", "message": "Keyword added"}
+    return {
+        "status": "success", 
+        "message": "Keyword added",
+        "classification": classification
+    }
 
 @app.delete("/api/keywords/{keyword_id}")
 def delete_keyword(keyword_id: str):

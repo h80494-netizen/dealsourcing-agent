@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateBtnText();
     };
 
-    ['dropdown-country', 'dropdown-stage', 'dropdown-grade', 'dropdown-industry'].forEach(setupCheckboxes);
+    ['dropdown-country', 'dropdown-stage', 'dropdown-grade'].forEach(setupCheckboxes);
 
     // 라디오 버튼(정렬, 일자) 텍스트 업데이트 로직
     ['dropdown-sort', 'dropdown-date'].forEach(containerId => {
@@ -206,46 +206,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (json.status === 'success') {
                 document.getElementById('collected-count').textContent = `검색된 딜: ${json.count} 건`;
-                
-                // --- 동적 유망산업 필터 연동 ---
-                const industryDropdownList = document.getElementById('industry-dropdown-list');
-                if (industryDropdownList) {
-                    const existingValues = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).map(cb => cb.value);
-                    let changed = false;
-                    json.data.forEach(item => {
-                        if (item.promising_industry && item.promising_industry !== '기타/미정') {
-                            item.promising_industry.split(',').forEach(ind => {
-                                const cleanInd = ind.trim();
-                                if (cleanInd && !existingValues.includes(cleanInd)) {
-                                    const label = document.createElement('label');
-                                    label.className = 'checkbox-label';
-                                    label.innerHTML = `<input type="checkbox" name="industry" value="${cleanInd}"> ${cleanInd}`;
-                                    
-                                    // 이벤트 리스너 부착
-                                    const chk = label.querySelector('input');
-                                    const chkAll = industryDropdownList.querySelector('.chk-all-opt');
-                                    chk.addEventListener('change', () => {
-                                        if (chkAll) chkAll.checked = false;
-                                        const anyChecked = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).some(cb => cb.checked);
-                                        if (!anyChecked && chkAll) chkAll.checked = true;
-                                        // Update button text logic manually
-                                        const btn = document.getElementById('dropdown-industry').querySelector('.custom-select-btn');
-                                        const checked = Array.from(industryDropdownList.querySelectorAll('input[type="checkbox"]')).filter(cb => cb.checked && cb !== chkAll);
-                                        if (chkAll && chkAll.checked) {
-                                            btn.textContent = chkAll.parentElement.textContent.trim();
-                                        } else if (checked.length > 0) {
-                                            btn.textContent = checked.map(cb => cb.parentElement.textContent.trim()).join(', ');
-                                        }
-                                    });
-                                    
-                                    industryDropdownList.appendChild(label);
-                                    existingValues.push(cleanInd);
-                                    changed = true;
-                                }
-                            });
-                        }
-                    });
-                }
                 
                 // 테이블 렌더링 전 기존 체크 상태 저장
                 const checkedUrls = Array.from(document.querySelectorAll('.chk-row:checked')).map(cb => cb.dataset.url);
@@ -384,12 +344,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             
+            let industryCellHtml = '-';
+            if (item.promising_industry) {
+                const parts = item.promising_industry.split('>').map(p => p.trim());
+                if (parts.length >= 3) {
+                    const major = parts[0];
+                    const middle = parts[1];
+                    const minor = parts[2];
+                    const majorClass = major === 'AI' ? 'badge-major-ai' :
+                                       major === 'ICT' ? 'badge-major-ict' :
+                                       major === '바이오' ? 'badge-major-bio' :
+                                       major === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
+                    industryCellHtml = `
+                        <div class="table-industry-hierarchy">
+                            <span class="badge-major ${majorClass}">${major}</span>
+                            <span class="sub-industry-text" title="${item.promising_industry}">${minor}</span>
+                        </div>
+                    `;
+                } else if (parts.length === 1) {
+                    industryCellHtml = `<span style="font-size: 0.85rem;">${item.promising_industry}</span>`;
+                } else {
+                    industryCellHtml = `<span style="font-size: 0.82rem; color: #cbd5e1;">${item.promising_industry}</span>`;
+                }
+            }
+
             tr.innerHTML = `
                 <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" data-date="${item.created_at || ''}" ${isChecked}></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${item.news_grade || '-'}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
-                <td>${item.promising_industry || '-'}</td>
+                <td>${industryCellHtml}</td>
                 <td><a href="${item.link}" target="_blank" style="color: #60a5fa; text-decoration: none;">${item.title}</a></td>
                 <td style="color: #34d399; font-weight: bold;">${item.impact_score ? item.impact_score.toFixed(1) : '-'}</td>
                 <td>${item.source_name || '-'}</td>
@@ -653,18 +637,266 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadKeywords = async () => {
         try {
             const res = await fetch('/api/keywords');
+    // =========================================================================
+    // 글로벌 VC 산업분류 체계 (42개 소분류 & 5대 대분류 계층형 드롭다운 로직)
+    // =========================================================================
+    const loadIndustryHierarchy = async () => {
+        try {
+            const res = await fetch('/api/industries');
+            const json = await res.json();
+            if (json.status !== 'success' || !json.hierarchy) return;
+
+            const container = document.getElementById('industry-tree-container');
+            if (!container) return;
+            container.innerHTML = '';
+
+            const hierarchy = json.hierarchy;
+            const majorList = ['AI', 'ICT', '바이오', '커머스', '기타'];
+
+            const indContainer = document.getElementById('dropdown-industry');
+            const selectBtn = indContainer ? indContainer.querySelector('.custom-select-btn') : null;
+            const chkAll = document.getElementById('industry-dropdown-list').querySelector('.chk-all-opt');
+
+            const updateIndustryBtnText = () => {
+                const checkedInputs = Array.from(document.querySelectorAll('#industry-dropdown-list input[name="industry"]:checked'))
+                    .filter(cb => cb.value !== '');
+                if (!selectBtn) return;
+                if (chkAll && chkAll.checked) {
+                    selectBtn.textContent = '전체 산업';
+                } else if (checkedInputs.length === 0) {
+                    if (chkAll) chkAll.checked = true;
+                    selectBtn.textContent = '전체 산업';
+                } else if (checkedInputs.length <= 2) {
+                    selectBtn.textContent = checkedInputs.map(cb => cb.dataset.name || cb.value).join(', ');
+                } else {
+                    selectBtn.textContent = `${checkedInputs[0].dataset.name || checkedInputs[0].value} 외 ${checkedInputs.length - 1}개`;
+                }
+            };
+
+            if (chkAll) {
+                chkAll.addEventListener('change', () => {
+                    if (chkAll.checked) {
+                        document.querySelectorAll('#industry-dropdown-list input[name="industry"]').forEach(cb => {
+                            if (cb !== chkAll) cb.checked = false;
+                        });
+                    }
+                    updateIndustryBtnText();
+                });
+            }
+
+            majorList.forEach(major => {
+                if (!hierarchy[major]) return;
+                const majorClass = major === 'AI' ? 'badge-major-ai' :
+                                   major === 'ICT' ? 'badge-major-ict' :
+                                   major === '바이오' ? 'badge-major-bio' :
+                                   major === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
+
+                const block = document.createElement('div');
+                block.className = 'ind-major-block';
+
+                // 헤더
+                const header = document.createElement('div');
+                header.className = 'ind-major-header';
+                header.innerHTML = `
+                    <div class="ind-major-header-left">
+                        <span class="badge-major ${majorClass}">${major}</span>
+                        <span>${major}</span>
+                    </div>
+                    <span class="ind-toggle-icon">▶</span>
+                `;
+
+                // 내용 (중분류 + 소분류)
+                const content = document.createElement('div');
+                content.className = 'ind-major-content';
+
+                header.addEventListener('click', (e) => {
+                    const isOpen = content.classList.contains('open');
+                    if (isOpen) {
+                        content.classList.remove('open');
+                        header.querySelector('.ind-toggle-icon').classList.remove('open');
+                    } else {
+                        content.classList.add('open');
+                        header.querySelector('.ind-toggle-icon').classList.add('open');
+                    }
+                });
+
+                const middles = hierarchy[major];
+                Object.keys(middles).forEach(middle => {
+                    const midTitle = document.createElement('div');
+                    midTitle.className = 'ind-middle-title';
+                    midTitle.textContent = `• ${middle}`;
+                    content.appendChild(midTitle);
+
+                    middles[middle].forEach(sub => {
+                        const label = document.createElement('label');
+                        label.className = 'ind-minor-label';
+                        label.innerHTML = `
+                            <input type="checkbox" name="industry" value="${sub.minor}" data-name="${sub.minor}" data-major="${major}">
+                            <span>${sub.minor}</span>
+                        `;
+                        const chk = label.querySelector('input');
+                        chk.addEventListener('change', () => {
+                            if (chk.checked && chkAll) {
+                                chkAll.checked = false;
+                            }
+                            updateIndustryBtnText();
+                        });
+                        content.appendChild(label);
+                    });
+                });
+
+                block.appendChild(header);
+                block.appendChild(content);
+                container.appendChild(block);
+            });
+
+            // '기타/미정' 소분류 블록 추가 (애매한 항목 전용)
+            const etcBlock = document.createElement('div');
+            etcBlock.className = 'ind-major-block';
+            etcBlock.innerHTML = `
+                <div class="ind-major-header" style="cursor: default;">
+                    <div class="ind-major-header-left">
+                        <span class="badge-major badge-major-etc">기타</span>
+                        <label class="ind-minor-label" style="padding:0; margin-left:6px; cursor: pointer;">
+                            <input type="checkbox" name="industry" value="기타" data-name="기타/미정">
+                            <span>기타/미정 (애매한 항목)</span>
+                        </label>
+                    </div>
+                </div>
+            `;
+            const etcChk = etcBlock.querySelector('input');
+            if (etcChk) {
+                etcChk.addEventListener('change', () => {
+                    if (etcChk.checked && chkAll) chkAll.checked = false;
+                    updateIndustryBtnText();
+                });
+            }
+            container.appendChild(etcBlock);
+
+        } catch (e) {
+            console.error("Failed to load industry hierarchy", e);
+        }
+    };
+
+    // 초기 산업 분류 트리 로드
+    loadIndustryHierarchy();
+
+    // =========================================================================
+    // 좌측 사이드바: 산업분류별 키워드 관리 & 탭 렌더링
+    // =========================================================================
+    const keywordInput = document.getElementById('custom-keyword');
+    const keywordTags = document.getElementById('keyword-tags');
+    const kwCategoryTabs = document.getElementById('kw-category-tabs');
+    let currentKwMajorFilter = 'ALL';
+    let cachedKeywords = [];
+
+    if (kwCategoryTabs) {
+        kwCategoryTabs.addEventListener('click', (e) => {
+            const btn = e.target.closest('.kw-nav-tab');
+            if (!btn) return;
+            kwCategoryTabs.querySelectorAll('.kw-nav-tab').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentKwMajorFilter = btn.dataset.major || 'ALL';
+            renderKeywords();
+        });
+    }
+
+    const renderKeywords = () => {
+        if (!keywordTags) return;
+        keywordTags.innerHTML = '';
+
+        const majorList = ['AI', 'ICT', '바이오', '커머스', '기타'];
+        const filtered = currentKwMajorFilter === 'ALL'
+            ? cachedKeywords
+            : cachedKeywords.filter(k => (k.major || '기타') === currentKwMajorFilter);
+
+        if (filtered.length === 0) {
+            keywordTags.innerHTML = '<div style="font-size:0.78rem; color:#64748b; padding:8px 4px;">등록된 키워드가 없습니다.</div>';
+            return;
+        }
+
+        // 대분류별 그룹핑
+        const grouped = {};
+        filtered.forEach(kw => {
+            const m = kw.major || '기타';
+            if (!grouped[m]) grouped[m] = [];
+            grouped[m].push(kw);
+        });
+
+        // 탭 선택 상태에 따라 렌더링
+        const displayMajors = currentKwMajorFilter === 'ALL' ? majorList : [currentKwMajorFilter];
+
+        displayMajors.forEach(m => {
+            const items = grouped[m];
+            if (!items || items.length === 0) return;
+
+            const card = document.createElement('div');
+            const borderClass = m === 'AI' ? 'border-ai' :
+                                m === 'ICT' ? 'border-ict' :
+                                m === '바이오' ? 'border-bio' :
+                                m === '커머스' ? 'border-commerce' : 'border-etc';
+            card.className = `kw-group-card ${borderClass}`;
+
+            const majorBadgeClass = m === 'AI' ? 'badge-major-ai' :
+                                    m === 'ICT' ? 'badge-major-ict' :
+                                    m === '바이오' ? 'badge-major-bio' :
+                                    m === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
+
+            card.innerHTML = `
+                <div class="kw-group-title">
+                    <span class="badge-major ${majorBadgeClass}">${m}</span>
+                    <span style="font-size: 0.7rem; color: #94a3b8;">${items.length}개</span>
+                </div>
+                <div class="kw-tags-flex" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:4px;"></div>
+            `;
+
+            const flex = card.querySelector('.kw-tags-flex');
+            items.forEach(kw => {
+                const tag = document.createElement('span');
+                tag.className = 'kw-tag-item';
+                tag.title = kw.formatted_industry ? `산업: ${kw.formatted_industry}` : `키워드: ${kw.keyword}`;
+                tag.innerHTML = `
+                    <span>${kw.keyword}</span>
+                    ${!kw.is_builtin ? `<span class="kw-tag-del-btn" data-id="${kw.id}">×</span>` : ''}
+                `;
+                
+                const delBtn = tag.querySelector('.kw-tag-del-btn');
+                if (delBtn) {
+                    delBtn.addEventListener('click', async (e) => {
+                        e.stopPropagation();
+                        if (confirm(`'${kw.keyword}' 키워드를 삭제하시겠습니까?`)) {
+                            await deleteKeyword(kw.id);
+                        }
+                    });
+                }
+                flex.appendChild(tag);
+            });
+
+            keywordTags.appendChild(card);
+        });
+    };
+
+    const deleteKeyword = async (id) => {
+        try {
+            const res = await fetch(`/api/keywords/${id}`, { method: 'DELETE' });
             const json = await res.json();
             if (json.status === 'success') {
-                keywordTags.innerHTML = '';
-                json.data.forEach(kw => {
-                    const tag = document.createElement('span');
-                    tag.style.background = 'rgba(59, 130, 246, 0.3)';
-                    tag.style.padding = '4px 8px';
-                    tag.style.borderRadius = '12px';
-                    tag.style.fontSize = '0.8rem';
-                    tag.textContent = kw.keyword;
-                    keywordTags.appendChild(tag);
-                });
+                loadKeywords();
+            } else {
+                alert(json.message || '삭제에 실패했습니다.');
+            }
+        } catch (e) {
+            console.error("Failed to delete keyword", e);
+        }
+    };
+
+    const loadKeywords = async () => {
+        try {
+            const res = await fetch('/api/keywords');
+            const json = await res.json();
+            if (json.status === 'success') {
+                cachedKeywords = json.data || [];
+                renderKeywords();
             }
         } catch (e) {
             console.error("Failed to load keywords", e);
@@ -691,6 +923,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (json.status === 'success') {
                         keywordInput.value = '';
                         loadKeywords();
+                        if (json.classification && json.classification.formatted) {
+                            console.log(`[키워드 자동 분류] '${val}' -> ${json.classification.formatted}`);
+                        }
                     }
                 } catch (err) {
                     console.error("Failed to add keyword", err);

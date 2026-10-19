@@ -61,25 +61,25 @@
                 </div>
 
                 <div class="form-section" style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
-                    <h3>커스텀 분석 및 키워드 추가</h3>
+                    <h3>커스텀 분석 및 키워드 관리</h3>
                     <div class="input-group">
                         <label for="custom-keyword">새 키워드 추가 (Enter)</label>
-                        <input type="text" id="custom-keyword" placeholder="예: 양자컴퓨팅, AGI" style="width:100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
-                        <div id="keyword-tags" style="margin-top: 5px; display: flex; flex-wrap: wrap; gap: 5px;"></div>
+                        <input type="text" id="custom-keyword" placeholder="예: 양자컴퓨팅, SMR, mRNA" style="width:100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <div class="kw-nav-tabs" id="kw-category-tabs">
+                            <button type="button" class="kw-nav-tab active" data-major="ALL">전체</button>
+                            <button type="button" class="kw-nav-tab" data-major="AI">AI</button>
+                            <button type="button" class="kw-nav-tab" data-major="ICT">ICT</button>
+                            <button type="button" class="kw-nav-tab" data-major="바이오">바이오</button>
+                            <button type="button" class="kw-nav-tab" data-major="커머스">커머스</button>
+                            <button type="button" class="kw-nav-tab" data-major="기타">기타</button>
+                        </div>
+                        <div id="keyword-tags" class="kw-grouped-container"></div>
                     </div>
                     <div class="input-group" style="margin-top: 10px;">
                         <label for="custom-url">기사 URL 수동 분석</label>
                         <div style="display: flex; gap: 5px;">
                             <input type="text" id="custom-url" placeholder="https://..." style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
                             <button type="button" id="btn-analyze-url" class="btn-primary" style="padding: 5px 10px; font-size: 0.8rem;">분석</button>
-                        </div>
-                    </div>
-                    <div class="input-group" style="margin-top: 10px;">
-                        <label>산업 분류 추가/삭제</label>
-                        <div style="display: flex; gap: 5px;">
-                            <input type="text" id="new-industry-input" placeholder="새 산업 추가" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white; font-size: 0.8rem;">
-                            <button type="button" id="btn-add-industry" class="btn-primary" style="padding: 5px 10px; font-size: 0.8rem;">추가</button>
-                            <button type="button" id="btn-delete-industry" style="padding: 5px 10px; background: #ef4444; color: white; border: none; border-radius: 4px; font-size: 0.8rem; cursor: pointer;">삭제</button>
                         </div>
                     </div>
                 </div>
@@ -142,13 +142,17 @@
                 </div>
 
                 <!-- 4. 산업 분류 -->
-                <div style="flex: 1; min-width: 150px;">
+                <div style="flex: 1; min-width: 160px;">
                     <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">산업 분류</h3>
                     <div class="custom-select-container" id="dropdown-industry">
                         <button type="button" class="custom-select-btn">전체 산업</button>
-                        <div class="custom-select-dropdown" id="industry-dropdown-list">
-                            <label class="checkbox-label"><input type="checkbox" name="industry" value="" class="chk-all-opt" checked> 전체 산업</label>
-                            <!-- 동적으로 산업 옵션이 여기에 추가됨 -->
+                        <div class="custom-select-dropdown ind-dropdown-menu" id="industry-dropdown-list">
+                            <div class="ind-all-option">
+                                <label class="checkbox-label" style="margin:0;"><input type="checkbox" name="industry" value="" class="chk-all-opt" checked> 전체 산업</label>
+                            </div>
+                            <div id="industry-tree-container">
+                                <!-- 5대 대분류 및 42개 소분류가 동적으로 렌더링됨 -->
+                            </div>
                         </div>
                     </div>
                 </div>
