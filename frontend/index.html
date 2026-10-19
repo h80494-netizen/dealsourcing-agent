@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
-    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="style.css?v=7">
     <style>
         .news-grade-A { color: #f43f5e; font-weight: 800; font-size: 0.95rem; text-shadow: 0 0 10px rgba(244,63,94,0.4); }
         .news-grade-B { color: #f59e0b; font-weight: 700; font-size: 0.95rem; }
@@ -54,6 +54,9 @@
                     </button>
                     <button type="button" class="btn-secondary" id="btn-valuation" style="margin-top: 10px; border-color: #10b981; color: #6ee7b7; box-shadow: 0 0 12px rgba(16, 185, 129, 0.2);">
                         <span>📊 스타트업 밸류에이션 계산기</span>
+                    </button>
+                    <button type="button" class="btn-secondary" id="btn-open-company-analysis" style="margin-top: 10px; border-color: #38bdf8; color: #7dd3fc; box-shadow: 0 0 14px rgba(56, 189, 248, 0.25); background: rgba(56, 189, 248, 0.12); font-weight: 600;">
+                        <span>🏢 특정기업 심층 분석 (IC Memo)</span>
                     </button>
                 </div>
 
@@ -502,6 +505,120 @@
         </div>
     </div>
 
+    <!-- 🏢 특정기업 심층 분석 (Master IC Memo) Modal -->
+    <div id="company-analysis-modal" class="modal-overlay" style="display: none; z-index: 2600;">
+        <div class="modal-content glass-panel" style="max-width: 1200px; width: 95%; height: 92vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #0b1120; border: 1px solid rgba(56, 189, 248, 0.4); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85);">
+            <!-- Modal Header -->
+            <div class="modal-header" style="padding: 1rem 1.5rem; background: rgba(15, 23, 42, 0.95); border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <span style="font-size: 1.8rem;">🏢</span>
+                    <div>
+                        <h2 style="font-size: 1.25rem; margin: 0; color: #f8fafc; font-weight: 700;">특정기업 심층 투자심사 분석 (IC Memo)</h2>
+                        <p style="font-size: 0.8rem; color: #94a3b8; margin: 0;">42개 표준 산업 분류 체계 & 6대 핵심 심사 기준 기반 자동화 모델</p>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <button type="button" class="btn-secondary" id="btn-copy-ic-result" style="display: none; padding: 6px 14px; font-size: 0.82rem; border-color: #38bdf8; color: #7dd3fc;">📋 리포트 복사</button>
+                    <button type="button" class="btn-primary" id="btn-print-ic-result" style="display: none; padding: 6px 14px; font-size: 0.82rem; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">🖨️ 인쇄/PDF</button>
+                    <button class="btn-close" id="btn-close-company-analysis" style="font-size: 1.5rem; cursor: pointer; background: transparent; border: none; color: #94a3b8;">&times;</button>
+                </div>
+            </div>
+
+            <!-- Modal Body (Two Column: Left Inputs / Right Output) -->
+            <div class="modal-body" style="flex: 1; display: flex; overflow: hidden; background: #090d16;">
+                <!-- Left Column: Input Form -->
+                <div style="width: 440px; min-width: 380px; border-right: 1px solid rgba(255,255,255,0.08); padding: 1.25rem; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; background: rgba(15, 23, 42, 0.4);">
+                    <div style="background: rgba(56, 189, 248, 0.08); border-left: 3px solid #38bdf8; padding: 10px 12px; border-radius: 4px; font-size: 0.8rem; color: #bae6fd; line-height: 1.4;">
+                        💡 기업명과 자료를 넣으시면 <strong>42개 업종별 핵심 KPI & 리스크 지침</strong>과 <strong>6대 투자심사 항목</strong>이 자동 조합되어 고품질 IC Memo가 작성됩니다.
+                    </div>
+
+                    <!-- 1. 기업명 -->
+                    <div>
+                        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
+                            1. 분석 대상 기업명 <span style="color: #f43f5e;">*</span>
+                        </label>
+                        <input type="text" id="ic-company-name" placeholder="예: 리벨리온, 몰로코, 퓨리오사AI" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.9rem; box-sizing: border-box;">
+                    </div>
+
+                    <!-- 2. 산업분류 선택 -->
+                    <div>
+                        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
+                            2. 산업 분류 (42개 업종 체계)
+                        </label>
+                        <select id="ic-industry-code" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #38bdf8; font-size: 0.85rem; box-sizing: border-box; cursor: pointer;">
+                            <option value="auto">🤖 자동 감지 (사업내용/키워드 분석 기반 매핑)</option>
+                            <!-- Dynamically populated from /api/industries -->
+                        </select>
+                        <small style="display: block; margin-top: 4px; color: #64748b; font-size: 0.72rem;">* 직접 지정하지 않으면 입력 내용을 바탕으로 가장 알맞은 소분류로 자동 매핑됩니다.</small>
+                    </div>
+
+                    <!-- 3. IR / 재무제표 텍스트 입력 -->
+                    <div style="flex: 1; display: flex; flex-direction: column;">
+                        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
+                            3. 사업 내용, 재무제표 요약 및 펀딩 조건
+                        </label>
+                        <textarea id="ic-materials-text" placeholder="여기에 기업 IR 피치덱 내용, 주요 제품/기술, 매출/영업이익 추이, 희망 기업가치(Pre-money), 펀딩 목표 금액, 사용 계획, 지분율 등을 자유롭게 입력하세요." style="width: 100%; flex: 1; min-height: 160px; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.85rem; line-height: 1.5; resize: vertical; box-sizing: border-box;"></textarea>
+                    </div>
+
+                    <!-- 4. PDF / 파일 첨부 -->
+                    <div>
+                        <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
+                            4. IR 자료 / 재무제표 파일 첨부 (PDF / TXT)
+                        </label>
+                        <div id="ic-file-dropzone" style="border: 2px dashed rgba(56, 189, 248, 0.35); border-radius: 6px; padding: 14px; text-align: center; background: rgba(56, 189, 248, 0.03); cursor: pointer; transition: all 0.2s;">
+                            <input type="file" id="ic-file-input" accept=".pdf,.txt,.doc,.docx" style="display: none;">
+                            <span style="font-size: 1.4rem;">📎</span>
+                            <p id="ic-file-label" style="font-size: 0.8rem; color: #94a3b8; margin: 4px 0 0 0;">
+                                PDF 파일을 드래그하거나 클릭하여 업로드
+                            </p>
+                            <span id="ic-file-clear" style="display: none; font-size: 0.75rem; color: #f43f5e; margin-top: 4px; cursor: pointer; text-decoration: underline;">삭제</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Button -->
+                    <button type="button" class="btn-primary" id="btn-run-ic-analysis" style="width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 700; background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%); box-shadow: 0 0 16px rgba(14, 165, 233, 0.4); border: none; border-radius: 6px; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                        <span>🚀 IC Memo 심층 분석 시작</span>
+                        <div class="loader-spinner" id="ic-loader" style="display: none; width: 16px; height: 16px; border-width: 2px;"></div>
+                    </button>
+                </div>
+
+                <!-- Right Column: Result Viewer -->
+                <div style="flex: 1; display: flex; flex-direction: column; overflow: hidden; background: #0f172a;">
+                    <!-- Result Sub-header & Tabs -->
+                    <div style="padding: 10px 16px; background: rgba(30, 41, 59, 0.8); border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                        <div id="ic-result-meta" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                            <span style="font-size: 0.85rem; color: #94a3b8;">분석 결과 대기 중</span>
+                        </div>
+                        <div class="val-tab-bar" style="margin: 0; padding: 0; background: transparent; border: none;">
+                            <button type="button" class="val-tab-btn active" id="btn-tab-ic-memo" style="padding: 6px 12px; font-size: 0.8rem;">📑 투자심사보고서 (IC Memo)</button>
+                            <button type="button" class="val-tab-btn" id="btn-tab-ic-prompt" style="padding: 6px 12px; font-size: 0.8rem;">💻 완성된 프롬프트 스크립트</button>
+                        </div>
+                    </div>
+
+                    <!-- Result Viewport -->
+                    <div id="ic-result-viewport" style="flex: 1; padding: 1.5rem 2rem; overflow-y: auto; color: #f1f5f9; font-size: 0.92rem; line-height: 1.7;">
+                        <div id="ic-empty-state" style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #64748b;">
+                            <span style="font-size: 3rem; margin-bottom: 10px; opacity: 0.6;">📊</span>
+                            <h3 style="color: #94a3b8; font-size: 1.1rem; margin-bottom: 6px;">기업 분석 리포트가 여기에 생성됩니다</h3>
+                            <p style="font-size: 0.85rem; max-width: 480px; line-height: 1.5;">
+                                좌측에서 분석할 기업명과 자료(또는 PDF 파일)를 입력하신 후<br>
+                                <strong>[IC Memo 심층 분석 시작]</strong>을 클릭해주세요.
+                            </p>
+                        </div>
+
+                        <!-- Markdown IC Memo Body -->
+                        <div id="ic-memo-content" style="display: none; max-width: 900px; margin: 0 auto;"></div>
+
+                        <!-- Raw Prompt Script Body -->
+                        <div id="ic-prompt-content" style="display: none; max-width: 900px; margin: 0 auto;">
+                            <pre style="background: rgba(15, 23, 42, 0.95); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); color: #38bdf8; font-family: Consolas, monospace; font-size: 0.82rem; white-space: pre-wrap; word-break: break-word;"></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Marked.js (still kept for other uses if any) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/13.0.0/marked.min.js"></script>
     
@@ -509,7 +626,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
 
-    <script src="script.js?v=8"></script>
+    <script src="script.js?v=9"></script>
     <script src="valuation.js?v=2"></script>
 </body>
 

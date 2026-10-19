@@ -1556,4 +1556,350 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // ==========================================
+    // 🏢 특정기업 심층 분석 (Master IC Memo) 모달 로직
+    // ==========================================
+    const companyModal = document.getElementById('company-analysis-modal');
+    const btnOpenCompanyModal = document.getElementById('btn-open-company-analysis');
+    const btnCloseCompanyModal = document.getElementById('btn-close-company-analysis');
+    const icCompanyName = document.getElementById('ic-company-name');
+    const icIndustrySelect = document.getElementById('ic-industry-code');
+    const icMaterialsText = document.getElementById('ic-materials-text');
+    const icFileInput = document.getElementById('ic-file-input');
+    const icFileDropzone = document.getElementById('ic-file-dropzone');
+    const icFileLabel = document.getElementById('ic-file-label');
+    const icFileClear = document.getElementById('ic-file-clear');
+    const btnRunIcAnalysis = document.getElementById('btn-run-ic-analysis');
+    const icLoader = document.getElementById('ic-loader');
+
+    const icResultMeta = document.getElementById('ic-result-meta');
+    const icEmptyState = document.getElementById('ic-empty-state');
+    const icMemoContent = document.getElementById('ic-memo-content');
+    const icPromptContent = document.getElementById('ic-prompt-content');
+    const btnTabIcMemo = document.getElementById('btn-tab-ic-memo');
+    const btnTabIcPrompt = document.getElementById('btn-tab-ic-prompt');
+    const btnCopyIcResult = document.getElementById('btn-copy-ic-result');
+    const btnPrintIcResult = document.getElementById('btn-print-ic-result');
+
+    let currentSelectedFile = null;
+    let latestReportMarkdown = '';
+    let latestPromptScript = '';
+    let isIndustriesLoadedForIc = false;
+
+    // 42개 산업분류 체계 옵션 로드
+    const loadIcIndustryOptions = async () => {
+        if (isIndustriesLoadedForIc || !icIndustrySelect) return;
+        try {
+            const res = await fetch('/api/industries');
+            const json = await res.json();
+            if (json.status === 'success' && json.data) {
+                // 기존 자동감지 옵션 유지 후 추가
+                icIndustrySelect.innerHTML = '<option value="auto">🤖 자동 감지 (사업내용/키워드 분석 기반 자동 매핑)</option>';
+                const hierarchy = json.data;
+                const majorOrder = ["AI", "ICT", "바이오", "커머스", "기타"];
+
+                majorOrder.forEach(major => {
+                    const middleGroups = hierarchy[major];
+                    if (!middleGroups) return;
+                    
+                    const optgroup = document.createElement('optgroup');
+                    optgroup.label = `━━━ [대분류: ${major}] ━━━`;
+
+                    Object.keys(middleGroups).forEach(middle => {
+                        const items = middleGroups[middle];
+                        items.forEach(item => {
+                            const opt = document.createElement('option');
+                            opt.value = item.code;
+                            opt.textContent = `[${item.type}] ${item.minor} (${item.code} | ${middle})`;
+                            optgroup.appendChild(opt);
+                        });
+                    });
+                    icIndustrySelect.appendChild(optgroup);
+                });
+                isIndustriesLoadedForIc = true;
+            }
+        } catch (e) {
+            console.error("Failed to load IC industry options", e);
+        }
+    };
+
+    // 모달 열기/닫기
+    if (btnOpenCompanyModal && companyModal) {
+        btnOpenCompanyModal.addEventListener('click', () => {
+            companyModal.style.display = 'flex';
+            loadIcIndustryOptions();
+            if (icCompanyName) icCompanyName.focus();
+        });
+    }
+
+    if (btnCloseCompanyModal && companyModal) {
+        btnCloseCompanyModal.addEventListener('click', () => {
+            companyModal.style.display = 'none';
+        });
+    }
+
+    // 파일 선택 및 드래그앤드롭
+    if (icFileDropzone && icFileInput) {
+        icFileDropzone.addEventListener('click', () => icFileInput.click());
+        
+        icFileDropzone.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            icFileDropzone.style.borderColor = '#38bdf8';
+            icFileDropzone.style.background = 'rgba(56, 189, 248, 0.12)';
+        });
+        
+        icFileDropzone.addEventListener('dragleave', () => {
+            icFileDropzone.style.borderColor = 'rgba(56, 189, 248, 0.35)';
+            icFileDropzone.style.background = 'rgba(56, 189, 248, 0.03)';
+        });
+
+        icFileDropzone.addEventListener('drop', (e) => {
+            e.preventDefault();
+            icFileDropzone.style.borderColor = 'rgba(56, 189, 248, 0.35)';
+            icFileDropzone.style.background = 'rgba(56, 189, 248, 0.03)';
+            if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+                handleIcFile(e.dataTransfer.files[0]);
+            }
+        });
+
+        icFileInput.addEventListener('change', (e) => {
+            if (e.target.files && e.target.files.length > 0) {
+                handleIcFile(e.target.files[0]);
+            }
+        });
+    }
+
+    const handleIcFile = (file) => {
+        currentSelectedFile = file;
+        if (icFileLabel) {
+            icFileLabel.innerHTML = `📄 <strong>${file.name}</strong> (${(file.size / 1024).toFixed(1)} KB)`;
+            icFileLabel.style.color = '#38bdf8';
+        }
+        if (icFileClear) {
+            icFileClear.style.display = 'inline-block';
+        }
+    };
+
+    if (icFileClear) {
+        icFileClear.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentSelectedFile = null;
+            if (icFileInput) icFileInput.value = '';
+            if (icFileLabel) {
+                icFileLabel.innerHTML = 'PDF 파일을 드래그하거나 클릭하여 업로드';
+                icFileLabel.style.color = '#94a3b8';
+            }
+            icFileClear.style.display = 'none';
+        });
+    }
+
+    // 탭 전환 (IC Memo 리포트 vs 프롬프트 스크립트)
+    if (btnTabIcMemo && btnTabIcPrompt) {
+        btnTabIcMemo.addEventListener('click', () => {
+            btnTabIcMemo.classList.add('active');
+            btnTabIcPrompt.classList.remove('active');
+            if (icMemoContent) icMemoContent.style.display = 'block';
+            if (icPromptContent) icPromptContent.style.display = 'none';
+        });
+
+        btnTabIcPrompt.addEventListener('click', () => {
+            btnTabIcPrompt.classList.add('active');
+            btnTabIcMemo.classList.remove('active');
+            if (icMemoContent) icMemoContent.style.display = 'none';
+            if (icPromptContent) icPromptContent.style.display = 'block';
+        });
+    }
+
+    // 복사 버튼
+    if (btnCopyIcResult) {
+        btnCopyIcResult.addEventListener('click', async () => {
+            const activeIsPrompt = btnTabIcPrompt.classList.contains('active');
+            const textToCopy = activeIsPrompt ? latestPromptScript : latestReportMarkdown;
+            if (!textToCopy) {
+                alert('복사할 내용이 없습니다.');
+                return;
+            }
+            try {
+                await navigator.clipboard.writeText(textToCopy);
+                const originalText = btnCopyIcResult.textContent;
+                btnCopyIcResult.textContent = '✅ 복사 완료!';
+                setTimeout(() => { btnCopyIcResult.textContent = originalText; }, 2000);
+            } catch (err) {
+                alert('클립보드 복사 실패: ' + err);
+            }
+        });
+    }
+
+    // 인쇄/PDF 저장 버튼
+    if (btnPrintIcResult) {
+        btnPrintIcResult.addEventListener('click', () => {
+            if (!icMemoContent || !latestReportMarkdown) {
+                alert('인쇄할 리포트가 없습니다.');
+                return;
+            }
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>VC IC Memo - ${icCompanyName.value.trim() || '기업분석보고서'}</title>
+                    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+                    <style>
+                        body { font-family: 'Noto Sans KR', sans-serif; padding: 40px; color: #111; line-height: 1.6; }
+                        h1 { font-size: 24px; border-bottom: 2px solid #2563eb; padding-bottom: 8px; margin-bottom: 20px; }
+                        h2 { font-size: 18px; margin-top: 24px; border-bottom: 1px solid #cbd5e1; padding-bottom: 4px; color: #1e3a8a; }
+                        h3 { font-size: 15px; margin-top: 16px; color: #0f172a; }
+                        table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+                        th, td { border: 1px solid #cbd5e1; padding: 8px 12px; font-size: 13px; text-align: left; }
+                        th { background: #f1f5f9; font-weight: 600; }
+                        blockquote { border-left: 4px solid #3b82f6; margin: 10px 0; padding: 8px 16px; background: #f8fafc; color: #475569; }
+                        pre { background: #f1f5f9; padding: 10px; border-radius: 4px; overflow-x: auto; }
+                        @media print {
+                            body { padding: 0; }
+                        }
+                    </style>
+                </head>
+                <body>
+                    ${icMemoContent.innerHTML}
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+            printWindow.focus();
+            setTimeout(() => { printWindow.print(); }, 500);
+        });
+    }
+
+    // 분석 실행 버튼 클릭
+    if (btnRunIcAnalysis) {
+        btnRunIcAnalysis.addEventListener('click', async () => {
+            const companyName = icCompanyName ? icCompanyName.value.trim() : '';
+            if (!companyName) {
+                alert('분석할 기업명을 입력해주세요.');
+                if (icCompanyName) icCompanyName.focus();
+                return;
+            }
+
+            const industryCode = icIndustrySelect ? icIndustrySelect.value : 'auto';
+            const materialsText = icMaterialsText ? icMaterialsText.value.trim() : '';
+
+            // 로딩 시작
+            btnRunIcAnalysis.disabled = true;
+            if (icLoader) icLoader.style.display = 'block';
+            if (icEmptyState) icEmptyState.style.display = 'none';
+            if (btnCopyIcResult) btnCopyIcResult.style.display = 'none';
+            if (btnPrintIcResult) btnPrintIcResult.style.display = 'none';
+
+            if (icResultMeta) {
+                icResultMeta.innerHTML = `
+                    <span class="loader-spinner" style="width: 14px; height: 14px; border-width: 2px;"></span>
+                    <span style="font-size: 0.85rem; color: #38bdf8;"><strong>${companyName}</strong>의 6대 심사항목 및 업종 특화 프롬프트 조합 분석 중...</span>
+                `;
+            }
+
+            if (icMemoContent) {
+                icMemoContent.style.display = 'block';
+                icMemoContent.innerHTML = `
+                    <div style="padding: 40px; text-align: center; color: #94a3b8;">
+                        <div class="loader-spinner" style="width: 36px; height: 36px; margin: 0 auto 16px auto; border-width: 3px; border-color: rgba(56, 189, 248, 0.2); border-top-color: #38bdf8;"></div>
+                        <h4 style="color: #e2e8f0; font-size: 1.1rem; margin-bottom: 8px;">투자심사보고서(IC Memo) 생성 중입니다</h4>
+                        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.6;">
+                            • 42개 산업 체계 및 포지셔닝(기존 vs 신종) 정밀 매핑<br>
+                            • Cap Table, 시장(TAM/SAM/SOM), Founder-Market Fit, Pricing, 자금용도, 자본조달 구조 심사<br>
+                            • 업종별 특화 체크포인트 분석 진행 중 (약 10~25초 소요)
+                        </p>
+                    </div>
+                `;
+            }
+
+            try {
+                const formData = new FormData();
+                formData.append('company_name', companyName);
+                formData.append('industry_code', industryCode);
+                formData.append('materials_text', materialsText);
+                if (currentSelectedFile) {
+                    formData.append('file', currentSelectedFile);
+                }
+
+                const res = await fetch('/api/analyze_company', {
+                    method: 'POST',
+                    body: formData
+                });
+                const json = await res.json();
+
+                if (json.status === 'success') {
+                    latestReportMarkdown = json.report || '';
+                    latestPromptScript = json.prompt_script || '';
+
+                    // 메타 배지 구성
+                    const ind = json.industry_info || {};
+                    const majorClass = ind.major === 'AI' ? 'badge-major-ai' :
+                                       ind.major === 'ICT' ? 'badge-major-ict' :
+                                       ind.major === '바이오' ? 'badge-major-bio' :
+                                       ind.major === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
+
+                    if (icResultMeta) {
+                        icResultMeta.innerHTML = `
+                            <span style="font-weight: 700; color: #fff; font-size: 1rem;">🏢 ${json.company_name}</span>
+                            <span class="badge-major ${majorClass}">${ind.major || '기타'}</span>
+                            <span style="background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 4px; font-size: 0.78rem; color: #e2e8f0;">
+                                ${ind.type || '신종 산업'}
+                            </span>
+                            <span style="color: #94a3b8; font-size: 0.82rem;">
+                                ${ind.middle || ''} &gt; <strong style="color: #38bdf8;">${ind.minor || ''}</strong>
+                            </span>
+                            <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; border: 1px solid rgba(56,189,248,0.3); padding: 1px 6px; border-radius: 3px; font-size: 0.72rem; font-family: monospace;">
+                                ${ind.code || ''}
+                            </span>
+                        `;
+                    }
+
+                    // 마크다운 렌더링
+                    if (icMemoContent) {
+                        if (window.marked && typeof marked.parse === 'function') {
+                            icMemoContent.innerHTML = marked.parse(latestReportMarkdown);
+                        } else {
+                            icMemoContent.innerHTML = `<pre style="white-space: pre-wrap; font-family: inherit;">${latestReportMarkdown}</pre>`;
+                        }
+                    }
+
+                    // 프롬프트 스크립트 렌더링
+                    if (icPromptContent) {
+                        const pre = icPromptContent.querySelector('pre');
+                        if (pre) pre.textContent = latestPromptScript;
+                    }
+
+                    // 버튼 활성화
+                    if (btnCopyIcResult) btnCopyIcResult.style.display = 'inline-block';
+                    if (btnPrintIcResult) btnPrintIcResult.style.display = 'inline-block';
+
+                    // 기본 탭 (IC Memo) 활성화
+                    if (btnTabIcMemo) btnTabIcMemo.click();
+                } else {
+                    if (icMemoContent) {
+                        icMemoContent.innerHTML = `
+                            <div style="padding: 24px; background: rgba(244, 63, 94, 0.1); border: 1px solid #f43f5e; border-radius: 8px; color: #fecdd3;">
+                                <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 분석 중 오류 발생</h4>
+                                <p style="margin: 0; font-size: 0.9rem;">${json.message || '알 수 없는 오류가 발생했습니다.'}</p>
+                            </div>
+                        `;
+                    }
+                }
+            } catch (err) {
+                console.error("IC Memo analysis request failed", err);
+                if (icMemoContent) {
+                    icMemoContent.innerHTML = `
+                        <div style="padding: 24px; background: rgba(244, 63, 94, 0.1); border: 1px solid #f43f5e; border-radius: 8px; color: #fecdd3;">
+                            <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 통신 실패</h4>
+                            <p style="margin: 0; font-size: 0.9rem;">서버와의 통신에 실패했습니다: ${err.message}</p>
+                        </div>
+                    `;
+                }
+            } finally {
+                btnRunIcAnalysis.disabled = false;
+                if (icLoader) icLoader.style.display = 'none';
+            }
+        });
+    }
 });

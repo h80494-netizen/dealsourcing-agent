@@ -1,4 +1,4 @@
-from fastapi import FastAPI, BackgroundTasks, Query
+from fastapi import FastAPI, BackgroundTasks, Query, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse, FileResponse
@@ -23,6 +23,7 @@ from pydantic import BaseModel
 from typing import Optional, List
 from processor.analyzer import analyze_text, extract_and_clean_text, determine_news_grade
 from processor.report_generator import generate_daily_report
+from processor.ic_memo_generator import generate_ic_memo, build_ic_memo_prompt, extract_text_from_pdf
 from industry_manager import industry_manager
 
 app = FastAPI(title="VC Deal Sourcing API")
@@ -718,6 +719,66 @@ def download_valuation_excel():
         filename="Startup_Valuation_Master_All_Methods_and_Cases.xlsx",
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
+@app.post("/api/analyze_company")
+async def analyze_company(
+    company_name: str = Form(...),
+    industry_code: Optional[str] = Form("auto"),
+    materials_text: Optional[str] = Form(""),
+    file: Optional[UploadFile] = File(None)
+):
+    try:
+        combined_text = materials_text or ""
+
+        # PDF 파일이 업로드된 경우 텍스트 추출 및 병합
+        if file and file.filename:
+            file_bytes = await file.read()
+            if file.filename.lower().endswith(".pdf"):
+                extracted_pdf = extract_text_from_pdf(file_bytes)
+                combined_text += f"\n\n[첨부 PDF 문서: {file.filename}]\n{extracted_pdf}"
+            else:
+                try:
+                    text_content = file_bytes.decode('utf-8', errors='ignore')
+                    combined_text += f"\n\n[첨부 텍스트 문서: {file.filename}]\n{text_content}"
+                except Exception:
+                    pass
+
+        # 산업 분류 결정
+        industry_info = None
+        if industry_code and industry_code != "auto":
+            industry_info = industry_manager.code_map.get(industry_code)
+            if not industry_info:
+                # 소분류명으로 넘어왔을 경우 대비
+                industry_info = industry_manager.minor_map.get(industry_code)
+
+        if not industry_info:
+            # 사업내용/기업명 바탕 자동 분류
+            classified = industry_manager.classify_text(f"{company_name}\n{combined_text}")
+            matched_code = classified.get("code")
+            if matched_code and matched_code in industry_manager.code_map:
+                industry_info = industry_manager.code_map[matched_code]
+            else:
+                industry_info = {
+                    "code": classified.get("code", "OT-T-01"),
+                    "major": classified.get("major", "기타"),
+                    "type": "기존 산업",
+                    "middle": classified.get("middle", "전통 소부장"),
+                    "minor": classified.get("minor", "기타")
+                }
+
+        # 프롬프트 생성 및 AI 분석 실행
+        prompt_script, major = build_ic_memo_prompt(company_name, industry_info, combined_text)
+        report = await generate_ic_memo(company_name, industry_info, combined_text)
+
+        return {
+            "status": "success",
+            "company_name": company_name,
+            "industry_info": industry_info,
+            "report": report,
+            "prompt_script": prompt_script
+        }
+    except Exception as e:
+        return {"status": "error", "message": f"기업 분석 중 오류 발생: {str(e)}"}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8002, reload=True)
