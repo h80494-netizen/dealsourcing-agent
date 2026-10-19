@@ -66,10 +66,30 @@ def extract_and_clean_text(url):
         print(f"Failed to extract text from {url}: {e}")
         return ""
 
+def determine_news_grade(impact_score: float) -> str:
+    """
+    단순화된 뉴스 등급 기준:
+    - A 등급: 80점 이상
+    - B 등급: 70점 이상 (70~79점)
+    - C 등급: 60점 이상 (60~69점)
+    - D 등급: 50점 이상 (50~59점)
+    - E 등급: 50점 미만
+    """
+    if impact_score >= 80:
+        return "A"
+    elif impact_score >= 70:
+        return "B"
+    elif impact_score >= 60:
+        return "C"
+    elif impact_score >= 50:
+        return "D"
+    else:
+        return "E"
+
 def evaluate_and_summarize_article(title, clean_text, country, pub_date=None):
     """2단계: 정제된 기사 텍스트를 바탕으로 평가 및 요약 (gemini-3.5-flash)"""
     impact_score = 0
-    news_grade = "C"
+    news_grade = "E"
     reason = ""
     summary = ""
     
@@ -129,20 +149,13 @@ def evaluate_and_summarize_article(title, clean_text, country, pub_date=None):
                 eval_data = json.loads(json_str.group())
                 impact_score = float(eval_data.get("impact_score", 0))
                 
-                # Python에서 점수에 따른 등급을 강제 할당
-                if impact_score >= 95: news_grade = "S"
-                elif impact_score >= 90: news_grade = "AAA"
-                elif impact_score >= 85: news_grade = "AA"
-                elif impact_score >= 80: news_grade = "A"
-                elif impact_score >= 70: news_grade = "BBB"
-                elif impact_score >= 60: news_grade = "BB"
-                elif impact_score >= 50: news_grade = "B"
-                else: news_grade = "기타"
+                # A, B, C, D, E 등급 할당
+                news_grade = determine_news_grade(impact_score)
                 
                 reason = eval_data.get("reason", "")
                 summary = eval_data.get("summary", "")
                 details = eval_data.get("score_details", {})
-                print(f"[AI 득점 로그] {title[:30]}... -> 총 {impact_score}점 {details}")
+                print(f"[AI 득점 로그] {title[:30]}... -> 총 {impact_score}점 ({news_grade}등급) {details}")
         except Exception as e:
             print(f"AI Evaluation failed: {e}")
             
@@ -206,17 +219,9 @@ def analyze_text(title, content="", url="", source_country=None, pub_date=None):
         impact_score, news_grade, reason, ai_summary = evaluate_and_summarize_article(title, clean_text, country, pub_date)
         
         # Fallback to rule-based if AI evaluation failed
-        if impact_score == 0 and news_grade == "C":
+        if impact_score == 0 and news_grade == "E":
             impact_score = calculate_mock_score(found_industry, found_signal, found_financial, country, deal_stage, pub_date)
-
-            if impact_score >= 95: news_grade = "S"
-            elif impact_score >= 90: news_grade = "AAA"
-            elif impact_score >= 85: news_grade = "AA"
-            elif impact_score >= 80: news_grade = "A"
-            elif impact_score >= 70: news_grade = "BBB"
-            elif impact_score >= 60: news_grade = "BB"
-            elif impact_score >= 50: news_grade = "B"
-            else: news_grade = "기타"
+            news_grade = determine_news_grade(impact_score)
             
         # 대분류 > 중분류 > 소분류 계층 분류 결과 설정 (애매하면 '기타 > 기타/미정 > 기타')
         if ind_class and ind_class.get('formatted'):

@@ -1708,3 +1708,31 @@ tr:hover td {
     color: #94a3b8;
     line-height: 1.2;
 }
+
+/* 뉴스 등급 텍스트 스타일 (A, B, C, D, E) */
+.news-grade-A {
+    color: #f43f5e !important;
+    font-weight: 800 !important;
+    font-size: 0.95rem;
+    text-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
+}
+.news-grade-B {
+    color: #f59e0b !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem;
+}
+.news-grade-C {
+    color: #10b981 !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem;
+}
+.news-grade-D {
+    color: #38bdf8 !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem;
+}
+.news-grade-E {
+    color: #64748b !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem;
+}

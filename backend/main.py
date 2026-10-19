@@ -21,8 +21,7 @@ from main_pipeline import run_pipeline
 from sqlalchemy import desc
 from pydantic import BaseModel
 from typing import Optional, List
-from newspaper import Article
-from processor.analyzer import analyze_text, extract_and_clean_text
+from processor.analyzer import analyze_text, extract_and_clean_text, determine_news_grade
 from processor.report_generator import generate_daily_report
 from industry_manager import industry_manager
 
@@ -118,7 +117,24 @@ def get_articles(
     if deal_stage and len(deal_stage) > 0 and deal_stage[0] != "":
         query = query.filter(DealArticle.deal_stage.in_(deal_stage))
     if news_grade and len(news_grade) > 0 and news_grade[0] != "":
-        query = query.filter(DealArticle.news_grade.in_(news_grade))
+        from sqlalchemy import or_, and_
+        grade_conds = []
+        for g in news_grade:
+            if g == 'A':
+                grade_conds.append(or_(DealArticle.news_grade == 'A', DealArticle.impact_score >= 80))
+            elif g == 'B':
+                grade_conds.append(or_(DealArticle.news_grade == 'B', and_(DealArticle.impact_score >= 70, DealArticle.impact_score < 80)))
+            elif g == 'C':
+                grade_conds.append(or_(DealArticle.news_grade == 'C', and_(DealArticle.impact_score >= 60, DealArticle.impact_score < 70)))
+            elif g == 'D':
+                grade_conds.append(or_(DealArticle.news_grade == 'D', and_(DealArticle.impact_score >= 50, DealArticle.impact_score < 60)))
+            elif g == 'E':
+                grade_conds.append(or_(DealArticle.news_grade == 'E', DealArticle.impact_score < 50))
+            else:
+                grade_conds.append(DealArticle.news_grade == g)
+        if grade_conds:
+            query = query.filter(or_(*grade_conds))
+
     if promising_industry and len(promising_industry) > 0 and promising_industry[0] != "":
         from sqlalchemy import or_
         conditions = [DealArticle.promising_industry.like(f"%{ind}%") for ind in promising_industry if ind]
@@ -137,6 +153,8 @@ def get_articles(
     
     data = []
     for r in results:
+        # A, B, C, D, E 등급 정규화
+        norm_grade = determine_news_grade(r.impact_score or 0) if r.impact_score is not None else (r.news_grade or "E")
         data.append({
             "id": r.id,
             "source_name": r.source_name,
@@ -150,7 +168,7 @@ def get_articles(
             "country": r.country,
             "deal_stage": r.deal_stage,
             "impact_score": r.impact_score,
-            "news_grade": r.news_grade,
+            "news_grade": norm_grade,
             "promising_industry": r.promising_industry,
             "created_at": r.created_at.strftime("%Y-%m-%d %H:%M:%S") if r.created_at else None
         })

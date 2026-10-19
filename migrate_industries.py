@@ -28,13 +28,29 @@ def migrate_existing_articles():
         classification = industry_manager.classify_text(text_for_eval)
         new_formatted = classification['formatted']
         
-        # 기존 값과 다르면 업데이트
+        changed = False
+        # 산업분류 업데이트
         if art.promising_industry != new_formatted:
             old_val = art.promising_industry
             art.promising_industry = new_formatted
+            changed = True
+
+        # 뉴스 등급 (A, B, C, D, E) 업데이트
+        score = art.impact_score or 0
+        if score >= 80: new_grade = "A"
+        elif score >= 70: new_grade = "B"
+        elif score >= 60: new_grade = "C"
+        elif score >= 50: new_grade = "D"
+        else: new_grade = "E"
+
+        if art.news_grade != new_grade:
+            art.news_grade = new_grade
+            changed = True
+
+        if changed:
             updated_count += 1
             if updated_count <= 10:
-                print(f"[{art.id}] '{old_val}' -> '{new_formatted}' | {art.title[:30]}...")
+                print(f"[{art.id}] 등급:{art.news_grade}, 산업:{art.promising_industry} | {art.title[:30]}...")
 
     session.commit()
     session.close()
