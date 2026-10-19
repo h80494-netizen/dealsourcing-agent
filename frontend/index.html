@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=8">
     <style>
         .news-grade-A { color: #f43f5e; font-weight: 800; font-size: 0.95rem; text-shadow: 0 0 10px rgba(244,63,94,0.4); }
         .news-grade-B { color: #f59e0b; font-weight: 700; font-size: 0.95rem; }
@@ -552,24 +552,24 @@
                         <small style="display: block; margin-top: 4px; color: #64748b; font-size: 0.72rem;">* 직접 지정하지 않으면 입력 내용을 바탕으로 가장 알맞은 소분류로 자동 매핑됩니다.</small>
                     </div>
 
-                    <!-- 3. IR / 재무제표 텍스트 입력 -->
+                    <!-- 3. IR / 재무제표 텍스트 입력 또는 홈페이지 URL -->
                     <div style="flex: 1; display: flex; flex-direction: column;">
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
-                            3. 사업 내용, 재무제표 요약 및 펀딩 조건
+                            3. 사업 내용, 재무 요약, 펀딩 조건 (또는 기업 홈페이지 URL)
                         </label>
-                        <textarea id="ic-materials-text" placeholder="여기에 기업 IR 피치덱 내용, 주요 제품/기술, 매출/영업이익 추이, 희망 기업가치(Pre-money), 펀딩 목표 금액, 사용 계획, 지분율 등을 자유롭게 입력하세요." style="width: 100%; flex: 1; min-height: 160px; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.85rem; line-height: 1.5; resize: vertical; box-sizing: border-box;"></textarea>
+                        <textarea id="ic-materials-text" placeholder="기업 IR 피치덱 내용, 재무 수치, 펀딩 조건 또는 해당 기업의 공식 홈페이지 주소(예: https://rebellions.ai, https://wrtn.io)를 입력하시면 웹사이트 본문을 자동 수집하여 함께 심층 분석합니다." style="width: 100%; flex: 1; min-height: 160px; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.85rem; line-height: 1.5; resize: vertical; box-sizing: border-box;"></textarea>
                     </div>
 
-                    <!-- 4. PDF / 파일 첨부 -->
+                    <!-- 4. PDF / Word / TXT 파일 첨부 -->
                     <div>
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
-                            4. IR 자료 / 재무제표 파일 첨부 (PDF / TXT)
+                            4. IR 자료 / 재무제표 파일 첨부 (PDF / Word / TXT)
                         </label>
                         <div id="ic-file-dropzone" style="border: 2px dashed rgba(56, 189, 248, 0.35); border-radius: 6px; padding: 14px; text-align: center; background: rgba(56, 189, 248, 0.03); cursor: pointer; transition: all 0.2s;">
-                            <input type="file" id="ic-file-input" accept=".pdf,.txt,.doc,.docx" style="display: none;">
+                            <input type="file" id="ic-file-input" accept=".pdf,.docx,.doc,.txt" style="display: none;">
                             <span style="font-size: 1.4rem;">📎</span>
                             <p id="ic-file-label" style="font-size: 0.8rem; color: #94a3b8; margin: 4px 0 0 0;">
-                                PDF 파일을 드래그하거나 클릭하여 업로드
+                                PDF, Word(.docx), TXT 파일을 드래그하거나 클릭하여 업로드
                             </p>
                             <span id="ic-file-clear" style="display: none; font-size: 0.75rem; color: #f43f5e; margin-top: 4px; cursor: pointer; text-decoration: underline;">삭제</span>
                         </div>
@@ -626,7 +626,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
 
-    <script src="script.js?v=9"></script>
+    <script src="script.js?v=10"></script>
     <script src="valuation.js?v=2"></script>
 </body>
 

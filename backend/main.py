@@ -22,8 +22,14 @@ from sqlalchemy import desc
 from pydantic import BaseModel
 from typing import Optional, List
 from processor.analyzer import analyze_text, extract_and_clean_text, determine_news_grade
-from processor.report_generator import generate_daily_report
-from processor.ic_memo_generator import generate_ic_memo, build_ic_memo_prompt, extract_text_from_pdf
+from processor.ic_memo_generator import (
+    generate_ic_memo,
+    build_ic_memo_prompt,
+    extract_text_from_pdf,
+    extract_text_from_file,
+    scrape_website_content,
+    extract_urls_from_text
+)
 from industry_manager import industry_manager
 
 app = FastAPI(title="VC Deal Sourcing API")
@@ -730,18 +736,22 @@ async def analyze_company(
     try:
         combined_text = materials_text or ""
 
-        # PDF 파일이 업로드된 경우 텍스트 추출 및 병합
+        # 1. 첨부 파일이 업로드된 경우 텍스트 추출 및 병합 (PDF, Word docx, TXT 등)
         if file and file.filename:
             file_bytes = await file.read()
-            if file.filename.lower().endswith(".pdf"):
-                extracted_pdf = extract_text_from_pdf(file_bytes)
-                combined_text += f"\n\n[첨부 PDF 문서: {file.filename}]\n{extracted_pdf}"
-            else:
+            extracted_file_text = extract_text_from_file(file.filename, file_bytes)
+            combined_text += f"\n\n[첨부 문서: {file.filename}]\n{extracted_file_text}"
+
+        # 2. 사업내용 및 펀딩조건란에 기업 홈페이지 URL이 입력된 경우 자동 웹 크롤링 수행
+        detected_urls = extract_urls_from_text(materials_text or "")
+        if detected_urls:
+            loop = asyncio.get_event_loop()
+            for u in detected_urls[:2]: # 최대 2개 주요 URL 크롤링
                 try:
-                    text_content = file_bytes.decode('utf-8', errors='ignore')
-                    combined_text += f"\n\n[첨부 텍스트 문서: {file.filename}]\n{text_content}"
-                except Exception:
-                    pass
+                    scraped_info = await loop.run_in_executor(None, scrape_website_content, u)
+                    combined_text += f"\n\n{scraped_info}"
+                except Exception as sc_err:
+                    combined_text += f"\n\n[웹사이트 크롤링 오류: {str(sc_err)}]"
 
         # 산업 분류 결정
         industry_info = None

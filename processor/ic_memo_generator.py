@@ -138,6 +138,150 @@ def extract_text_from_pdf(file_bytes: bytes) -> str:
         return f"[PDF 텍스트 추출 중 오류 발생: {str(e)}]"
 
 
+def extract_text_from_docx(file_bytes: bytes) -> str:
+    """MS Word (.docx) 파일에서 텍스트 및 표 데이터를 추출"""
+    try:
+        import docx
+        doc = docx.Document(io.BytesIO(file_bytes))
+        parts = []
+
+        # 1. 단락(Paragraphs) 추출
+        for p in doc.paragraphs:
+            text = p.text.strip()
+            if text:
+                parts.append(text)
+
+        # 2. 표(Tables) 데이터 추출
+        if doc.tables:
+            parts.append("\n[문서 내 표(Table) 데이터 요약]")
+            for table_idx, table in enumerate(doc.tables):
+                table_lines = []
+                for row in table.rows:
+                    row_cells = [cell.text.strip().replace("\n", " ") for cell in row.cells]
+                    # 중복 셀(merged cells) 정리
+                    dedup_cells = []
+                    for c in row_cells:
+                        if not dedup_cells or dedup_cells[-1] != c:
+                            dedup_cells.append(c)
+                    if any(dedup_cells):
+                        table_lines.append(" | ".join(dedup_cells))
+                if table_lines:
+                    parts.append(f"--- 표 {table_idx + 1} ---\n" + "\n".join(table_lines))
+
+        return "\n\n".join(parts)
+    except Exception as e:
+        logger.error(f"Error extracting text from Word docx: {e}")
+        return f"[Word(.docx) 파일 텍스트 추출 중 오류: {str(e)}]"
+
+
+def extract_text_from_file(filename: str, file_bytes: bytes) -> str:
+    """확장자별(PDF, DOCX, TXT 등) 통합 텍스트 추출 함수"""
+    ext = os.path.splitext(filename)[1].lower() if filename else ""
+
+    if ext == ".pdf":
+        return extract_text_from_pdf(file_bytes)
+    elif ext in [".docx"]:
+        return extract_text_from_docx(file_bytes)
+    elif ext in [".txt", ".csv", ".json", ".md"]:
+        for enc in ['utf-8', 'cp949', 'euc-kr', 'latin-1']:
+            try:
+                return file_bytes.decode(enc)
+            except Exception:
+                continue
+        return file_bytes.decode('utf-8', errors='ignore')
+    elif ext == ".doc":
+        # 구형 .doc 바이너리 파일: 문자열 검색 추출 시도
+        try:
+            raw_str = file_bytes.decode('latin-1', errors='ignore')
+            import re
+            words = re.findall(r'[\w가-힣\s.,!?:;%()/\-]{4,}', raw_str)
+            return "\n".join(words[:2000])
+        except Exception as e:
+            return f"[구형 .doc 파일 파싱 제한 (최신 .docx 파일 저장을 권장합니다): {e}]"
+    else:
+        try:
+            return file_bytes.decode('utf-8', errors='ignore')
+        except Exception:
+            return f"[{filename}: 지원하지 않는 파일 형식이거나 읽을 수 없습니다]"
+
+
+def scrape_website_content(url: str, timeout: int = 8) -> str:
+    """기업 홈페이지 URL에서 메타데이터 및 주요 텍스트를 크롤링하여 정제"""
+    import urllib.request
+    import urllib.parse
+    import re
+    from bs4 import BeautifulSoup
+
+    if not url.startswith("http://") and not url.startswith("https://"):
+        url = "https://" + url
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            html = response.read().decode('utf-8', errors='ignore')
+
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # 불필요한 태그 제거
+        for tag in soup(['script', 'style', 'noscript', 'svg', 'header', 'footer', 'nav', 'iframe']):
+            tag.decompose()
+
+        title = soup.title.string.strip() if soup.title and soup.title.string else ""
+        meta_desc = ""
+        desc_tag = soup.find('meta', attrs={'name': 'description'}) or soup.find('meta', attrs={'property': 'og:description'})
+        if desc_tag and desc_tag.get('content'):
+            meta_desc = desc_tag['content'].strip()
+
+        # 주요 텍스트 추출 (h1~h4, p, li)
+        text_elements = []
+        for elem in soup.find_all(['h1', 'h2', 'h3', 'h4', 'p', 'li']):
+            t = elem.get_text(strip=True)
+            if len(t) >= 15:  # 너무 짧은 메뉴 텍스트 제외
+                text_elements.append(t)
+
+        combined_text = "\n".join(text_elements)
+        # 중복 라인 정리
+        lines = []
+        seen = set()
+        for line in combined_text.split('\n'):
+            line_str = line.strip()
+            if line_str and line_str not in seen:
+                seen.add(line_str)
+                lines.append(line_str)
+
+        result_summary = f"[기업 공식 웹사이트 실시간 크롤링 정보: {url}]\n"
+        if title:
+            result_summary += f"- 사이트 제목: {title}\n"
+        if meta_desc:
+            result_summary += f"- 사이트 설명: {meta_desc}\n"
+        result_summary += "- 주요 소개 및 본문 내용:\n" + "\n".join(lines[:120])  # 최대 120개 핵심 문장
+
+        return result_summary
+    except Exception as e:
+        logger.warning(f"Failed to scrape website {url}: {e}")
+        return f"[기업 웹사이트 크롤링 오류 ({url}): {str(e)}]"
+
+
+def extract_urls_from_text(text: str) -> list:
+    """텍스트 내 포함된 웹사이트 URL 목록 추출"""
+    import re
+    # http://, https:// 및 www. 형태의 URL 추출
+    pattern = r'(https?://[a-zA-Z0-9.\-_~:/?#\[\]@!$&\'()*+,;=%]+|www\.[a-zA-Z0-9.\-_~:/?#\[\]@!$&\'()*+,;=%]+)'
+    matches = re.findall(pattern, text)
+    cleaned_urls = []
+    for m in matches:
+        u = m.rstrip('.,!?:;')
+        if len(u) > 5 and '.' in u:
+            cleaned_urls.append(u)
+    return list(dict.fromkeys(cleaned_urls))
+
+
 def build_ic_memo_prompt(
     company_name: str,
     industry_info: Dict[str, Any],

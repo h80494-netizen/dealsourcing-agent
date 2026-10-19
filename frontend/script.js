@@ -1687,7 +1687,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentSelectedFile = null;
             if (icFileInput) icFileInput.value = '';
             if (icFileLabel) {
-                icFileLabel.innerHTML = 'PDF 파일을 드래그하거나 클릭하여 업로드';
+                icFileLabel.innerHTML = 'PDF, Word(.docx), TXT 파일을 드래그하거나 클릭하여 업로드';
                 icFileLabel.style.color = '#94a3b8';
             }
             icFileClear.style.display = 'none';
