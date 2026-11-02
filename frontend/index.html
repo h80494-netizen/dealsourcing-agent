@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VC Deal Sourcing Pro</title>
+    <title>VC Deal Sourcing & Venture Intelligence Pro</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
-    <link rel="stylesheet" href="style.css?v=8">
+    <link rel="stylesheet" href="style.css?v=12">
     <style>
         .news-grade-A { color: #f43f5e; font-weight: 800; font-size: 0.95rem; text-shadow: 0 0 10px rgba(244,63,94,0.4); }
         .news-grade-B { color: #f59e0b; font-weight: 700; font-size: 0.95rem; }
@@ -22,49 +22,48 @@
     <div class="app-container">
         <!-- Mobile Header -->
         <header class="mobile-header glass-panel" style="display: none; padding: 1rem; text-align: center;">
-            <h1 class="gradient-text" style="font-size: 1.5rem; margin-bottom: 0.2rem;">VC Deal Sourcing</h1>
-            <p class="subtitle" style="font-size: 0.8rem;">AI News Tracking & Scoring</p>
+            <h1 class="gradient-text" style="font-size: 1.5rem; margin-bottom: 0.2rem;">VC Intelligence Pro</h1>
+            <p class="subtitle" style="font-size: 0.8rem;">Startup · Fund · Policy · Patent · News</p>
         </header>
 
         <!-- Sidebar Configuration -->
         <aside class="sidebar glass-panel">
-            <header class="desktop-header">
-                <h1 class="gradient-text">VC Deal Sourcing</h1>
-                <p class="subtitle">AI News Tracking & Scoring</p>
+            <header class="desktop-header" style="margin-bottom: 1.2rem;">
+                <h1 class="gradient-text" style="font-size: 1.55rem;">VC Intelligence Pro</h1>
+                <p class="subtitle" style="font-size: 0.82rem;">딜소싱 · 기업재무 · 펀드 · 정책 · IP 통합 플랫폼</p>
             </header>
 
             <form id="filter-form">
-
-                <div class="action-buttons" style="display: flex; flex-direction: column; gap: 10px;">
-                    <button type="button" class="btn-primary" id="btn-apply" style="background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
-                        <span>필터 적용 및 조회</span>
+                <div class="action-buttons" style="display: flex; flex-direction: column; gap: 8px;">
+                    <button type="button" class="btn-primary" id="btn-apply" style="padding: 0.75rem; font-size: 0.9rem; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);">
+                        <span>🔍 뉴스 필터 적용 및 조회</span>
                     </button>
-                    <button type="button" class="btn-primary" id="btn-realtime" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
-                        <span>🚀 실시간 업데이트 (데이터 수집)</span>
+                    <button type="button" class="btn-primary" id="btn-realtime" style="padding: 0.75rem; font-size: 0.9rem; background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                        <span>🚀 실시간 통합 수집 (민간+공공)</span>
                         <div class="loader-spinner" id="btn-loader" style="display: none;"></div>
                     </button>
-                    <button type="button" class="btn-secondary" id="btn-settings" style="margin-top: 10px;">
-                        <span>⚙️ 설정 (도메인/키워드)</span>
+                    <button type="button" class="btn-secondary" id="btn-settings" style="margin-top: 4px;">
+                        <span>⚙️ 수집 도메인 / 키워드 설정</span>
                     </button>
-                    <button type="button" class="btn-secondary" id="btn-report" style="margin-top: 10px; border-color: var(--accent-color); color: #c084fc;">
+                    <button type="button" class="btn-secondary" id="btn-report" style="border-color: var(--accent-color); color: #c084fc;">
                         <span>📋 일간 AI 리포트 브리핑</span>
                     </button>
-                    <button type="button" class="btn-secondary" id="btn-open-url-briefing" style="margin-top: 10px; border-color: #f59e0b; color: #fcd34d;">
-                        <span>🔗 URL 다중 리포트 생성</span>
+                    <button type="button" class="btn-secondary" id="btn-open-url-briefing" style="border-color: #f59e0b; color: #fcd34d;">
+                        <span>🔗 URL 다중 심층리포트 생성</span>
                     </button>
-                    <button type="button" class="btn-secondary" id="btn-valuation" style="margin-top: 10px; border-color: #10b981; color: #6ee7b7; box-shadow: 0 0 12px rgba(16, 185, 129, 0.2);">
+                    <button type="button" class="btn-secondary" id="btn-valuation" style="border-color: #10b981; color: #6ee7b7; box-shadow: 0 0 12px rgba(16, 185, 129, 0.2);">
                         <span>📊 스타트업 밸류에이션 계산기</span>
                     </button>
-                    <button type="button" class="btn-secondary" id="btn-open-company-analysis" style="margin-top: 10px; border-color: #38bdf8; color: #7dd3fc; box-shadow: 0 0 14px rgba(56, 189, 248, 0.25); background: rgba(56, 189, 248, 0.12); font-weight: 600;">
+                    <button type="button" class="btn-secondary" id="btn-open-company-analysis" style="border-color: #38bdf8; color: #7dd3fc; box-shadow: 0 0 14px rgba(56, 189, 248, 0.25); background: rgba(56, 189, 248, 0.12); font-weight: 600;">
                         <span>🏢 특정기업 심층 분석 (IC Memo)</span>
                     </button>
                 </div>
 
-                <div class="form-section" style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                <div class="form-section" style="margin-top: 16px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 16px;">
                     <h3>커스텀 분석 및 키워드 관리</h3>
                     <div class="input-group">
                         <label for="custom-keyword">새 키워드 추가 (Enter)</label>
-                        <input type="text" id="custom-keyword" placeholder="예: 양자컴퓨팅, SMR, mRNA" style="width:100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <input type="text" id="custom-keyword" placeholder="예: 양자컴퓨팅, SMR, 세컨더리" style="width:100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
                         <div class="kw-nav-tabs" id="kw-category-tabs">
                             <button type="button" class="kw-nav-tab active" data-major="ALL">전체</button>
                             <button type="button" class="kw-nav-tab" data-major="AI">AI</button>
@@ -79,233 +78,587 @@
                         <label for="custom-url">기사 URL 수동 분석</label>
                         <div style="display: flex; gap: 5px;">
                             <input type="text" id="custom-url" placeholder="https://..." style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
-                            <button type="button" id="btn-analyze-url" class="btn-primary" style="padding: 5px 10px; font-size: 0.8rem;">분석</button>
+                            <button type="button" id="btn-analyze-url" class="btn-primary" style="padding: 5px 10px; font-size: 0.8rem; width: auto;">분석</button>
                         </div>
                     </div>
                 </div>
             </form>
         </aside>
 
-        <!-- Main Dashboard -->
+        <!-- Main Workspace -->
         <main class="main-content">
-            <!-- Top Filters -->
-            <section class="top-filters glass-panel" style="display: flex; gap: 0.5rem; padding: 0.5rem; align-items: flex-start; margin-bottom: 0.5rem; flex-wrap: wrap; position: relative; z-index: 100;">
-                <!-- 1. 국가 필터 -->
-                <div style="flex: 1; min-width: 150px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">국가 필터</h3>
-                    <div class="custom-select-container" id="dropdown-country">
-                        <button type="button" class="custom-select-btn">전체 국가</button>
-                        <div class="custom-select-dropdown">
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="" class="chk-all-opt" checked> 전체 국가</label>
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="미국"> 미국 (US)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="한국"> 한국 (KR)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="유럽"> 유럽 (영국/독일/프랑스 등)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="일본"> 일본 (JP)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="country" value="중국"> 중국 (CN)</label>
-                        </div>
+            <!-- THE VC 스타일 상단 통합 검색바 & 6대 메뉴 네비게이션 -->
+            <section class="eco-top-bar glass-panel">
+                <div class="eco-search-row">
+                    <div class="eco-search-input-wrap">
+                        <span>🔍</span>
+                        <input type="text" id="global-search-input" placeholder="기업명(DART 10만 법인), 벤처펀드/GP(DIVA), 정부부처 정책브리핑, 지원사업, 특허 통합 검색...">
                     </div>
+                    <button type="button" id="btn-global-search" class="eco-btn-sm eco-btn-accent" style="padding: 10px 18px; font-size: 0.88rem;">통합 검색</button>
                 </div>
-
-                <!-- 2. 투자 절차별 -->
-                <div style="flex: 1; min-width: 150px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">투자 절차별</h3>
-                    <div class="custom-select-container" id="dropdown-stage">
-                        <button type="button" class="custom-select-btn">전체 단계</button>
-                        <div class="custom-select-dropdown">
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="" class="chk-all-opt" checked> 전체 단계</label>
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Deal Sourcing"> Deal Sourcing (딜 발굴)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Due Diligence"> Due Diligence (실사)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Investment"> Investment (투자/조달)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Value-up"> Value-up (성장/수주)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Exit"> Exit (IPO/M&A)</label>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 3. 뉴스 등급 -->
-                <div style="flex: 1; min-width: 180px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">뉴스 등급</h3>
-                    <div class="custom-select-container" id="dropdown-grade">
-                        <button type="button" class="custom-select-btn">전체 등급</button>
-                        <div class="custom-select-dropdown">
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="" class="chk-all-opt" checked> 전체 등급</label>
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="A"> A 등급 (80점 이상)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="B"> B 등급 (70~79점)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="C"> C 등급 (60~69점)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="D"> D 등급 (50~59점)</label>
-                            <label class="checkbox-label"><input type="checkbox" name="news-grade" value="E"> E 등급 (50점 미만)</label>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 4. 산업 분류 -->
-                <div style="flex: 1; min-width: 160px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">산업 분류</h3>
-                    <div class="custom-select-container" id="dropdown-industry">
-                        <button type="button" class="custom-select-btn">전체 산업</button>
-                        <div class="custom-select-dropdown ind-dropdown-menu" id="industry-dropdown-list">
-                            <div class="ind-all-option">
-                                <label class="checkbox-label" style="margin:0;"><input type="checkbox" name="industry" value="" class="chk-all-opt" checked> 전체 산업</label>
-                            </div>
-                            <div id="industry-tree-container">
-                                <!-- 5대 대분류 및 42개 소분류가 동적으로 렌더링됨 -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 5. 정렬 방식 -->
-                <div style="flex: 1; min-width: 120px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">정렬 방식</h3>
-                    <div class="custom-select-container" id="dropdown-sort">
-                        <button type="button" class="custom-select-btn">최신순</button>
-                        <div class="custom-select-dropdown">
-                            <label class="checkbox-label"><input type="radio" name="sort-by" value="latest" style="margin-right:8px;" checked> 최신순</label>
-                            <label class="checkbox-label"><input type="radio" name="sort-by" value="importance" style="margin-right:8px;"> 중요도별</label>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 6. 일자 필터 -->
-                <div style="flex: 1; min-width: 120px;">
-                    <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">일자 필터</h3>
-                    <div class="custom-select-container" id="dropdown-date">
-                        <button type="button" class="custom-select-btn">전체 기간</button>
-                        <div class="custom-select-dropdown">
-                            <label class="checkbox-label"><input type="radio" name="date-filter" value="all" style="margin-right:8px;" checked> 전체 기간</label>
-                            <label class="checkbox-label"><input type="radio" name="date-filter" value="today" style="margin-right:8px;"> 당일 (Today)</label>
-                            <label class="checkbox-label"><input type="radio" name="date-filter" value="1week" style="margin-right:8px;"> 1주일 전</label>
-                            <label class="checkbox-label"><input type="radio" name="date-filter" value="1month" style="margin-right:8px;"> 한달 전</label>
-                            <label class="checkbox-label"><input type="radio" name="date-filter" value="yesterday" style="margin-right:8px;"> 전일 (Yesterday)</label>
-                        </div>
-                    </div>
-                </div>
+                <nav class="eco-nav-tabs">
+                    <button type="button" class="eco-nav-btn active" data-view="overview">🏠 1. 통합 오버뷰</button>
+                    <button type="button" class="eco-nav-btn" data-view="news">📰 2. 뉴스 · 공공브리핑</button>
+                    <button type="button" class="eco-nav-btn" data-view="companies">🏢 3. 기업 · 재무 DB</button>
+                    <button type="button" class="eco-nav-btn" data-view="funds">💰 4. 펀드 설정 · GP</button>
+                    <button type="button" class="eco-nav-btn" data-view="policy">🏛️ 5. 벤처펀딩 규모 · 제도 (중기부)</button>
+                    <button type="button" class="eco-nav-btn" data-view="grants-ip">🔬 6. 지원사업 · R&D · 특허</button>
+                </nav>
             </section>
 
-            <!-- 통계 분석 패널 (Analytics Panel) -->
-            <section class="analytics-section glass-panel" style="margin-bottom: 0.5rem; padding: 0.5rem 0.8rem;">
-                <div class="analytics-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.3rem;">
-                    <h2 style="font-size: 0.95rem; margin: 0; display: flex; align-items: center; gap: 8px; color: var(--text-color);">
-                        <span>📈</span> 실시간 간격별 분석 리포트
-                    </h2>
-                    <div style="display: flex; align-items: center; gap: 10px;">
-                        <div class="analytics-tabs" style="display: flex; gap: 5px;">
-                            <button type="button" class="anal-tab-btn active" data-period="today">당일</button>
-                            <button type="button" class="anal-tab-btn" data-period="yesterday">전일</button>
-                            <button type="button" class="anal-tab-btn" data-period="1week">일주일</button>
-                            <button type="button" class="anal-tab-btn" data-period="1month">한달</button>
+            <!-- =========================================================
+                 VIEW 1: 통합 오버뷰 (THE VC Integrated Overview 벤치마킹)
+                 ========================================================= -->
+            <div id="view-overview" class="eco-view-section active">
+                <!-- 통합검색 결과 표시 패널 (검색 시 노출) -->
+                <div id="integrated-search-results" class="eco-card" style="display: none; border-color: rgba(56, 189, 248, 0.5);"></div>
+
+                <!-- 6대 핵심 요약 KPI 카드 -->
+                <div class="eco-kpi-grid">
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('news')">
+                        <div class="eco-kpi-label">📰 수집 뉴스 & 공공브리핑</div>
+                        <div class="eco-kpi-val" id="ov-cnt-articles">0건</div>
+                        <div class="eco-kpi-sub" id="ov-sub-articles">🏛️ 공공브리핑 0건 포함</div>
+                    </div>
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('companies')">
+                        <div class="eco-kpi-label">🏢 기업 · 재무 프로필 DB</div>
+                        <div class="eco-kpi-val" id="ov-cnt-companies">0개사</div>
+                        <div class="eco-kpi-sub">DART 10만 법인 + NICE 업로드</div>
+                    </div>
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('funds')">
+                        <div class="eco-kpi-label">💰 벤처투자조합 (DIVA)</div>
+                        <div class="eco-kpi-val" id="ov-cnt-funds">0개 조합</div>
+                        <div class="eco-kpi-sub">KVCA 전자공시 & 모태출자</div>
+                    </div>
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('policy')">
+                        <div class="eco-kpi-label">📈 국내 신규 벤처투자 규모</div>
+                        <div class="eco-kpi-val" id="ov-cnt-inv-scale">-조원</div>
+                        <div class="eco-kpi-sub" id="ov-sub-inv-scale">중소벤처기업부 공식 동향</div>
+                    </div>
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('policy')">
+                        <div class="eco-kpi-label">🏦 국내 신규 벤처펀드 결성</div>
+                        <div class="eco-kpi-val" id="ov-cnt-fund-scale">-조원</div>
+                        <div class="eco-kpi-sub">모태펀드 · 민간 모험자본 합산</div>
+                    </div>
+                    <div class="eco-kpi-card" onclick="window.switchEcoTab('grants-ip')">
+                        <div class="eco-kpi-label">🎯 정부 창업·R&D 지원사업</div>
+                        <div class="eco-kpi-val" id="ov-cnt-grants">0건</div>
+                        <div class="eco-kpi-sub">기업마당 · K-Startup 실시간</div>
+                    </div>
+                </div>
+
+                <!-- 4분면 실시간 생태계 브리핑 그리드 -->
+                <div class="eco-quad-grid">
+                    <div class="eco-card">
+                        <div class="eco-card-header">
+                            <h3>💰 최근 결성·공시된 벤처펀드 (DIVA)</h3>
+                            <button type="button" class="eco-btn-sm" onclick="window.switchEcoTab('funds')">전체 보기 &rarr;</button>
                         </div>
-                        <button id="btn-toggle-stats-panel" type="button" class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.05); border-radius: 4px; cursor: pointer; color: var(--text-main); transition: all 0.2s;">
-                            ▲ 리포트 접기
+                        <div id="ov-recent-funds">로딩 중...</div>
+                    </div>
+
+                    <div class="eco-card">
+                        <div class="eco-card-header">
+                            <h3>🎯 마감 임박 창업·R&D 지원사업</h3>
+                            <button type="button" class="eco-btn-sm" onclick="window.switchEcoTab('grants-ip')">전체 보기 &rarr;</button>
+                        </div>
+                        <div id="ov-active-grants">로딩 중...</div>
+                    </div>
+
+                    <div class="eco-card">
+                        <div class="eco-card-header">
+                            <h3>🏢 주요 기업 개황 · 결산 재무 (DART/NICE)</h3>
+                            <button type="button" class="eco-btn-sm" onclick="window.switchEcoTab('companies')">기업 DB &rarr;</button>
+                        </div>
+                        <div id="ov-recent-companies">로딩 중...</div>
+                    </div>
+
+                    <div class="eco-card">
+                        <div class="eco-card-header">
+                            <h3>📰 최신 딜 뉴스 & 정부부처 브리핑</h3>
+                            <button type="button" class="eco-btn-sm" onclick="window.switchEcoTab('news')">파이프라인 &rarr;</button>
+                        </div>
+                        <div id="ov-recent-articles">로딩 중...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========================================================
+                 VIEW 2: 뉴스 · 공공브리핑 파이프라인 (기존 기능 + 공공부처 확장)
+                 ========================================================= -->
+            <div id="view-news" class="eco-view-section">
+                <!-- Top Filters -->
+                <section class="top-filters glass-panel" style="display: flex; gap: 0.5rem; padding: 0.5rem; align-items: flex-start; flex-wrap: wrap; position: relative; z-index: 100;">
+                    <!-- 0. 출처 구분 (신규: 민간 vs 정부부처/공공기관) -->
+                    <div style="flex: 1; min-width: 150px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem; color:#fcd34d;">🏛️ 출처 구분</h3>
+                        <div class="custom-select-container" id="dropdown-source-type">
+                            <button type="button" class="custom-select-btn">전체 출처 (민간+공공)</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="radio" name="source-type" value="all" style="margin-right:8px;" checked> 전체 출처 (민간+공공)</label>
+                                <label class="checkbox-label"><input type="radio" name="source-type" value="public_gov" style="margin-right:8px;"> 🏛️ 정부부처·공공기관만</label>
+                                <label class="checkbox-label"><input type="radio" name="source-type" value="private_media" style="margin-right:8px;"> 🗞️ 민간 언론·미디어만</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 1. 국가 필터 -->
+                    <div style="flex: 1; min-width: 140px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">국가 필터</h3>
+                        <div class="custom-select-container" id="dropdown-country">
+                            <button type="button" class="custom-select-btn">전체 국가</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="" class="chk-all-opt" checked> 전체 국가</label>
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="미국"> 미국 (US)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="한국"> 한국 (KR)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="유럽"> 유럽 (영국/독일/프랑스 등)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="일본"> 일본 (JP)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="country" value="중국"> 중국 (CN)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. 투자 절차별 -->
+                    <div style="flex: 1; min-width: 140px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">투자 절차별</h3>
+                        <div class="custom-select-container" id="dropdown-stage">
+                            <button type="button" class="custom-select-btn">전체 단계</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="" class="chk-all-opt" checked> 전체 단계</label>
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Deal Sourcing"> Deal Sourcing (딜 발굴)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Due Diligence"> Due Diligence (실사)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Investment"> Investment (투자/조달)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Value-up"> Value-up (성장/수주)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="deal-stage" value="Exit"> Exit (IPO/M&A)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. 뉴스 등급 -->
+                    <div style="flex: 1; min-width: 150px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">뉴스 등급</h3>
+                        <div class="custom-select-container" id="dropdown-grade">
+                            <button type="button" class="custom-select-btn">전체 등급</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="" class="chk-all-opt" checked> 전체 등급</label>
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="A"> A 등급 (80점 이상)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="B"> B 등급 (70~79점)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="C"> C 등급 (60~69점)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="D"> D 등급 (50~59점)</label>
+                                <label class="checkbox-label"><input type="checkbox" name="news-grade" value="E"> E 등급 (50점 미만)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. 산업 분류 -->
+                    <div style="flex: 1; min-width: 150px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">산업 분류</h3>
+                        <div class="custom-select-container" id="dropdown-industry">
+                            <button type="button" class="custom-select-btn">전체 산업</button>
+                            <div class="custom-select-dropdown ind-dropdown-menu" id="industry-dropdown-list">
+                                <div class="ind-all-option">
+                                    <label class="checkbox-label" style="margin:0;"><input type="checkbox" name="industry" value="" class="chk-all-opt" checked> 전체 산업</label>
+                                </div>
+                                <div id="industry-tree-container"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. 정렬 방식 -->
+                    <div style="flex: 1; min-width: 110px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">정렬 방식</h3>
+                        <div class="custom-select-container" id="dropdown-sort">
+                            <button type="button" class="custom-select-btn">최신순</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="radio" name="sort-by" value="latest" style="margin-right:8px;" checked> 최신순</label>
+                                <label class="checkbox-label"><input type="radio" name="sort-by" value="importance" style="margin-right:8px;"> 중요도별</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6. 일자 필터 -->
+                    <div style="flex: 1; min-width: 110px;">
+                        <h3 style="font-size: 0.9rem; margin-bottom: 0.25rem;">일자 필터</h3>
+                        <div class="custom-select-container" id="dropdown-date">
+                            <button type="button" class="custom-select-btn">전체 기간</button>
+                            <div class="custom-select-dropdown">
+                                <label class="checkbox-label"><input type="radio" name="date-filter" value="all" style="margin-right:8px;" checked> 전체 기간</label>
+                                <label class="checkbox-label"><input type="radio" name="date-filter" value="today" style="margin-right:8px;"> 당일 (Today)</label>
+                                <label class="checkbox-label"><input type="radio" name="date-filter" value="1week" style="margin-right:8px;"> 1주일 전</label>
+                                <label class="checkbox-label"><input type="radio" name="date-filter" value="1month" style="margin-right:8px;"> 한달 전</label>
+                                <label class="checkbox-label"><input type="radio" name="date-filter" value="yesterday" style="margin-right:8px;"> 전일 (Yesterday)</label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 통계 분석 패널 -->
+                <section class="analytics-section glass-panel" style="padding: 0.5rem 0.8rem;">
+                    <div class="analytics-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 0.3rem;">
+                        <h2 style="font-size: 0.95rem; margin: 0; display: flex; align-items: center; gap: 8px; color: var(--text-color);">
+                            <span>📈</span> 실시간 간격별 분석 리포트
+                        </h2>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div class="analytics-tabs" style="display: flex; gap: 5px;">
+                                <button type="button" class="anal-tab-btn active" data-period="today">당일</button>
+                                <button type="button" class="anal-tab-btn" data-period="yesterday">전일</button>
+                                <button type="button" class="anal-tab-btn" data-period="1week">일주일</button>
+                                <button type="button" class="anal-tab-btn" data-period="1month">한달</button>
+                            </div>
+                            <button id="btn-toggle-stats-panel" type="button" class="btn-secondary" style="padding: 2px 8px; font-size: 0.75rem;">
+                                ▲ 리포트 접기
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="stats-panel-content" class="analytics-content-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem;">
+                        <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+                            <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 3px;">수집된 딜/정책 기사</div>
+                            <div id="stat-total-count" style="font-size: 1.4rem; font-weight: 700; color: #60a5fa;">0건</div>
+                            <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 3px;">AI 자동 감지</div>
+                        </div>
+                        <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); text-align: center;">
+                            <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 3px;">평균 영향력 (Impact)</div>
+                            <div id="stat-avg-impact" style="font-size: 1.4rem; font-weight: 700; color: #34d399;">0.0점</div>
+                            <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 3px;">100점 만점 기준</div>
+                        </div>
+                        <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                            <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 5px; font-weight: 500;">🌍 국가별 분포</div>
+                            <div id="stat-countries-list" style="display: flex; flex-direction: column; gap: 6px;"></div>
+                        </div>
+                        <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                            <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 5px; font-weight: 500;">⚡ 투자 단계별 분포</div>
+                            <div id="stat-stages-list" style="display: flex; flex-direction: column; gap: 6px;"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Status bar -->
+                <section class="status-section glass-panel" style="padding: 0.6rem 1.2rem; display: flex; align-items: center; gap: 20px; justify-content: space-between; width: 100%;">
+                    <div class="status-header" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0; border: none; padding: 0;">
+                        <h2 style="font-size: 0.95rem; margin: 0; white-space: nowrap;">🖥️ 파이프라인 모니터링</h2>
+                        <span class="badge" id="status-badge" style="font-size: 0.75rem; padding: 3px 8px; margin: 0;">대기 중</span>
+                    </div>
+                    <div class="progress-container" style="flex: 1; display: flex; align-items: center; margin-bottom: 0;">
+                        <div class="progress-stats" style="display: flex; align-items: center; justify-content: space-between; gap: 15px; width: 100%; font-size: 0.85rem;">
+                            <div style="display: flex; gap: 15px; align-items: center;">
+                                <span id="collected-count" style="color: #e2e8f0; font-weight: 500;">검색된 딜: 0 건</span>
+                                <span id="new-news-stats" style="color: #fcd34d; font-weight: bold;"></span>
+                            </div>
+                            <span id="update-msg" style="color: #60a5fa; font-weight: 500;">최신 데이터를 확인하세요.</span>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="bottom-panels">
+                    <section class="preview-section glass-panel" style="flex: 1; display: flex; flex-direction: column;">
+                        <button type="button" class="btn-primary mobile-apply-btn" onclick="document.getElementById('btn-apply').click()" style="display: none; margin-bottom: 1rem;">
+                            <span>🔍 필터 적용 및 조회</span>
                         </button>
-                    </div>
-                </div>
-                
-                <div id="stats-panel-content" class="analytics-content-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.8rem;">
-                    <!-- KPI 요약 카드 -->
-                    <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                        <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 3px;">수집된 딜 기사</div>
-                        <div id="stat-total-count" style="font-size: 1.4rem; font-weight: 700; color: #60a5fa;">0건</div>
-                        <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 3px;">AI 자동 감지</div>
-                    </div>
-                    <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                        <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 3px;">평균 영향력 (Impact)</div>
-                        <div id="stat-avg-impact" style="font-size: 1.4rem; font-weight: 700; color: #34d399;">0.0점</div>
-                        <div style="font-size: 0.7rem; color: #9ca3af; margin-top: 3px;">100점 만점 기준</div>
-                    </div>
-                    
-                    <!-- 국가별 분포 비율 차트 -->
-                    <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
-                        <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 5px; font-weight: 500;">🌍 국가별 분포</div>
-                        <div id="stat-countries-list" style="display: flex; flex-direction: column; gap: 6px;">
-                            <div style="font-size: 0.75rem; color: #9ca3af; text-align: center; padding: 5px 0;">데이터 수집 중...</div>
+                        <div class="preview-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 10px; flex-wrap: wrap;">
+                            <h3 style="white-space: nowrap; font-size: 1.05rem; margin: 0;">산업별 뉴스 & 정부부처 정책브리핑 파이프라인</h3>
+                            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                                <button type="button" id="btn-sync-public-news" class="eco-btn-sm" style="border-color:#f59e0b; color:#fcd34d;">
+                                    🏛️ 정부부처 브리핑 즉시 수집
+                                </button>
+                                <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer;">
+                                    <input type="checkbox" id="chk-all-pages"> 전체(필터)
+                                </label>
+                                <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer;">
+                                    <input type="checkbox" id="chk-today"> 당일 선택
+                                </label>
+                                <button id="btn-toggle-fullscreen" class="btn-secondary" type="button" style="padding: 6px 10px; font-size: 0.8rem;">
+                                    <span>⛶</span> <span id="fullscreen-btn-text">전체 화면</span>
+                                </button>
+                                <button id="btn-generate-selected-report" class="btn-primary" style="width:auto; padding: 5px 12px; font-size: 0.78rem; line-height: 1.25; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">
+                                    선택 기사<br>리포트 생성
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <!-- 투자단계별 분포 비율 차트 -->
-                    <div class="stat-card" style="background: rgba(255,255,255,0.03); padding: 0.5rem 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
-                        <div style="font-size: 0.75rem; color: #cbd5e1; margin-bottom: 5px; font-weight: 500;">⚡ 투자 단계(유형)별 분포</div>
-                        <div id="stat-stages-list" style="display: flex; flex-direction: column; gap: 6px;">
-                            <div style="font-size: 0.75rem; color: #9ca3af; text-align: center; padding: 5px 0;">데이터 수집 중...</div>
+                        <div class="table-container" style="flex: 1;">
+                            <table id="data-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 40px; text-align: center;"><input type="checkbox" id="chk-all"></th>
+                                        <th>국가</th>
+                                        <th>등급</th>
+                                        <th>투자 절차</th>
+                                        <th>유망 산업</th>
+                                        <th>기사 / 브리핑 제목 (클릭시 원문)</th>
+                                        <th>Impact</th>
+                                        <th>출처 / 소관부처</th>
+                                        <th>수집 일시</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-body">
+                                    <tr><td colspan="9" class="empty-state">데이터가 없습니다.</td></tr>
+                                </tbody>
+                            </table>
                         </div>
-                    </div>
+                        <div id="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 1rem; padding: 0.5rem 0; flex-wrap: wrap;"></div>
+                    </section>
                 </div>
-            </section>
+            </div>
 
-            <!-- Bottom stats / progress (가로 한줄로 산업별 파이프라인 위에 배치) -->
-            <section class="status-section glass-panel" style="margin-bottom: 0.5rem; padding: 0.6rem 1.2rem; display: flex; align-items: center; gap: 20px; justify-content: space-between; width: 100%;">
-                <div class="status-header" style="display: flex; align-items: center; gap: 10px; margin-bottom: 0; border: none; padding: 0;">
-                    <h2 style="font-size: 0.95rem; margin: 0; white-space: nowrap; color: var(--text-color);">🖥️ 대시보드 모니터링</h2>
-                    <span class="badge" id="status-badge" style="font-size: 0.75rem; padding: 3px 8px; margin: 0;">대기 중</span>
-                </div>
-                <div class="progress-container" style="flex: 1; display: flex; align-items: center; margin-bottom: 0;">
-                    <div class="progress-stats" style="display: flex; align-items: center; justify-content: space-between; gap: 15px; width: 100%; font-size: 0.85rem;">
-                        <div style="display: flex; gap: 15px; align-items: center;">
-                            <span id="collected-count" style="color: #e2e8f0; font-weight: 500;">검색된 딜: 0 건</span>
-                            <span id="new-news-stats" style="color: #fcd34d; font-weight: bold;"></span>
+            <!-- =========================================================
+                 VIEW 3: 기업 · 재무 인텔리전스 DB (DART + 금융위 + NICE 업로드)
+                 ========================================================= -->
+            <div id="view-companies" class="eco-view-section">
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <div>
+                            <h3>🏢 기업 · 재무 · 신용 인텔리전스 DB (DART 10만 법인 실시간 연동 & NICE 리포트 통합)</h3>
+                            <p style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">금융감독원 DART 전자공시(상장사·비상장 외감법인 3개년 재무·유상증자 RCPS) + 금융위 공공API + NICE/재무 리포트 업로드 결합</p>
                         </div>
-                        <span id="update-msg" style="color: #60a5fa; font-weight: 500;">최신 데이터를 확인하세요.</span>
+                        <span id="comp-total-count" style="font-size:0.85rem; color:#38bdf8; font-weight:600;">저장된 기업 프로필: 0개사</span>
                     </div>
-                </div>
-            </section>
 
-            <div class="bottom-panels">
-                <!-- Data Preview -->
-                <section class="preview-section glass-panel" style="flex: 1; display: flex; flex-direction: column;">
-                    <!-- 모바일 전용 필터 적용 버튼 -->
-                    <button type="button" class="btn-primary mobile-apply-btn" onclick="document.getElementById('btn-apply').click()" style="display: none; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); margin-bottom: 1rem; padding: 12px; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);">
-                        <span>🔍 필터 적용 및 조회</span>
-                    </button>
-                    <div class="preview-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; gap: 10px; flex-wrap: wrap;">
-                        <h3 style="white-space: nowrap; font-size: 1.05rem; margin: 0; flex-shrink: 0;">산업별 뉴스 파이프라인</h3>
-                        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
-                            <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
-                                <input type="checkbox" id="chk-all-pages" style="cursor: pointer;"> 전체(필터)
-                            </label>
-                            <label style="display: inline-flex; align-items: center; gap: 4px; font-size: 0.85rem; color: #e2e8f0; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
-                                <input type="checkbox" id="chk-today" style="cursor: pointer;"> 당일 선택
-                            </label>
-                            <button id="btn-toggle-fullscreen" class="btn-secondary" type="button" style="padding: 6px 10px; font-size: 0.8rem; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); display: inline-flex; align-items: center; gap: 4px; border-radius: 6px; cursor: pointer; white-space: nowrap; flex-shrink: 0;">
-                                <span>⛶</span> <span id="fullscreen-btn-text">전체 화면</span>
-                            </button>
-                            <button id="btn-generate-selected-report" class="btn-primary" style="padding: 4px 12px; font-size: 0.78rem; line-height: 1.25; text-align: center; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); flex-shrink: 0; white-space: normal;">
-                                선택 기사<br>리포트 생성
-                            </button>
-                        </div>
+                    <div class="eco-toolbar">
+                        <input type="text" id="comp-search-input" class="eco-input" style="flex:1; min-width:220px;" placeholder="기업명 또는 대표자 입력 (예: 비바리퍼블리카, 컬리, 루닛, 세미파이브, 무신사)">
+                        <select id="comp-cls-filter" class="eco-input" style="width:170px;">
+                            <option value="">전체 법인구분</option>
+                            <option value="비상장">비상장(외감/스타트업)</option>
+                            <option value="코스닥">코스닥(KOSDAQ)</option>
+                            <option value="유가증권">유가증권(KOSPI)</option>
+                            <option value="코넥스">코넥스(KONEX)</option>
+                        </select>
+                        <button type="button" id="btn-comp-filter" class="eco-btn-sm">DB 검색</button>
+                        <button type="button" id="btn-dart-live-lookup" class="eco-btn-sm eco-btn-accent">🔎 DART 실시간 법인 조회·추가</button>
+                        <button type="button" id="btn-sync-featured-comp" class="eco-btn-sm eco-btn-green">⚡ 대표 벤처·유니콘 DART 동기화</button>
+                        <input type="file" id="nice-upload-input" accept=".csv,.pdf,.docx,.txt" style="display:none;">
+                        <button type="button" id="btn-nice-upload" class="eco-btn-sm" style="border-color:#f59e0b; color:#fcd34d;">📤 NICE/재무 파일 업로드</button>
                     </div>
-                    <div class="table-container" style="flex: 1;">
-                        <table id="data-table">
+
+                    <div id="dart-candidates-box" style="display:none; background:rgba(15,23,42,0.75); border:1px solid rgba(56,189,248,0.3); padding:10px 12px; border-radius:8px; margin-bottom:10px;"></div>
+                    <div id="comp-detail-drawer" class="eco-card" style="display:none; margin-bottom:12px; background:rgba(15,23,42,0.9); border-color:#38bdf8;"></div>
+
+                    <div class="table-container">
+                        <table>
                             <thead>
                                 <tr>
-                                    <th style="width: 40px; text-align: center;"><input type="checkbox" id="chk-all"></th>
-                                    <th>국가</th>
-                                    <th>뉴스 등급</th>
-                                    <th>투자 절차</th>
-                                    <th>유망 산업</th>
-                                    <th>기사 제목 (클릭시 원문)</th>
-                                    <th>Impact Score (1주)</th>
-                                    <th>출처</th>
-                                    <th>수집 일시</th>
+                                    <th>기업명 / 법인구분</th>
+                                    <th>대표이사 / 설립일</th>
+                                    <th>사업자번호</th>
+                                    <th>신용 · 재무등급</th>
+                                    <th style="text-align:right;">최근 매출액</th>
+                                    <th style="text-align:right;">영업이익</th>
+                                    <th style="text-align:right;">자본총계</th>
+                                    <th style="text-align:center;">임직원수</th>
+                                    <th>데이터 출처</th>
+                                    <th>심층분석 연동</th>
                                 </tr>
                             </thead>
-                            <tbody id="table-body">
-                                <tr>
-                                    <td colspan="9" class="empty-state">데이터가 없습니다.</td>
-                                </tr>
+                            <tbody id="companies-tbody">
+                                <tr><td colspan="10" class="empty-state">로딩 중...</td></tr>
                             </tbody>
                         </table>
                     </div>
-                    <!-- 페이지네이션 컨트롤러 -->
-                    <div id="pagination-controls" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 1rem; padding: 0.5rem 0; flex-wrap: wrap;"></div>
+                </section>
+            </div>
+
+            <!-- =========================================================
+                 VIEW 4: 벤처펀드 결성 · GP 운용사 현황 (DIVA 전자공시)
+                 ========================================================= -->
+            <div id="view-funds" class="eco-view-section">
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <div>
+                            <h3>💰 벤처투자조합 · 모태출자 펀드 결성 현황 (한국벤처캐피탈협회 DIVA 전자공시 연동)</h3>
+                            <p style="font-size:0.78rem; color:#94a3b8; margin-top:3px;">신규 결성 벤처펀드의 운용사(GP), 약정총액(Dry Powder), 만기일, 주목적 투자분야 및 모태펀드 출자 여부를 추적합니다.</p>
+                        </div>
+                        <div id="funds-summary-meta" style="font-size:0.84rem;"></div>
+                    </div>
+
+                    <div class="eco-toolbar">
+                        <input type="text" id="fund-search-q" class="eco-input" style="flex:1; min-width:200px;" placeholder="조합명 / 분야 검색 (예: 초격차, 바이오, AI, 세컨더리, 창업초기)">
+                        <input type="text" id="fund-search-gp" class="eco-input" style="width:200px;" placeholder="운용사(GP)명 (예: 인라이트, 키움, IMM)">
+                        <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.84rem; color:#6ee7b7; cursor:pointer;">
+                            <input type="checkbox" id="fund-motae-only"> 모태출자/정책펀드만
+                        </label>
+                        <button type="button" id="btn-fund-search" class="eco-btn-sm">조회</button>
+                        <button type="button" id="btn-fund-diva-sync" class="eco-btn-sm eco-btn-green">🔄 DIVA 전자공시 실시간 수집</button>
+                    </div>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>등록(결성)일</th>
+                                    <th>조합명 (펀드명)</th>
+                                    <th>운용사 (GP)</th>
+                                    <th style="text-align:right;">결성총액</th>
+                                    <th>만기일</th>
+                                    <th>투자분야 구분</th>
+                                    <th>지원 / 목적구분</th>
+                                    <th>공시 출처</th>
+                                </tr>
+                            </thead>
+                            <tbody id="funds-tbody">
+                                <tr><td colspan="8" class="empty-state">로딩 중...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="funds-pagination" style="display:flex; justify-content:center; gap:6px; margin-top:12px;"></div>
+                </section>
+            </div>
+
+            <!-- =========================================================
+                 VIEW 5: 벤처산업 펀딩규모 · 제도 · 정책 방향 (중기부 / 동적 레지스트리)
+                 ========================================================= -->
+            <div id="view-policy" class="eco-view-section">
+                <div class="eco-quad-grid">
+                    <!-- 좌측: 연도별 벤처투자 & 펀드결성 추이 바 차트 -->
+                    <section class="eco-card">
+                        <div class="eco-card-header">
+                            <h3>📈 중소벤처기업부 국내 벤처투자 · 펀드결성 규모 추이</h3>
+                            <span style="font-size:0.75rem; color:#94a3b8;">막대 클릭 시 연도별 업종·업력 비중 표시</span>
+                        </div>
+                        <div style="display:flex; gap:14px; font-size:0.78rem; margin-bottom:8px;">
+                            <span style="color:#38bdf8;">■ 신규 벤처투자(조원)</span>
+                            <span style="color:#34d399;">■ 신규 펀드결성(조원)</span>
+                        </div>
+                        <div id="policy-scale-chart" class="policy-chart-wrap"></div>
+                    </section>
+
+                    <!-- 우측: 선택 연도 업종별 · 업력별 투자 비중 -->
+                    <section class="eco-card">
+                        <div class="eco-card-header">
+                            <h3 id="policy-selected-period-title">📊 업종별 · 업력별 투자 비중 상세</h3>
+                        </div>
+                        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:16px;">
+                            <div>
+                                <h4 style="font-size:0.84rem; color:#93c5fd; margin-bottom:8px;">섹터(업종)별 투자 비중</h4>
+                                <div id="policy-sector-bars"></div>
+                            </div>
+                            <div>
+                                <h4 style="font-size:0.84rem; color:#6ee7b7; margin-bottom:8px;">기업 업력별 투자 비중</h4>
+                                <div id="policy-stage-bars"></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- 모태펀드 방향 & 실시간 중기부 정책 브리핑 -->
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <h3>🏛️ 중기부 · 한국벤처투자(KVIC) 모태펀드 출자 방향 및 실시간 정책 브리핑</h3>
+                        <button type="button" id="btn-policy-sync" class="eco-btn-sm eco-btn-accent">🔄 중기부·KVIC 최신 정책브리핑 수집</button>
+                    </div>
+                    <div id="policy-motae-box"></div>
+                    <div id="policy-live-trends" style="margin-top:8px;"></div>
+                </section>
+
+                <!-- 동적 설정 레지스트리 (벤처 세제 · 조합 의무비율 · 법령 파라미터) -->
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <div>
+                            <h3>⚖️ 현행 벤처투자 법령 · 세제 · 의무비율 기준표 (Dynamic Config Registry 연동)</h3>
+                            <p style="font-size:0.76rem; color:#94a3b8; margin-top:2px;">법령 개정 시 코드 수정 없이 우측 [수정] 버튼으로 동적 레지스트리 값을 즉시 갱신하며, 기업 IC Memo 심사 시 자동 참조됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>분류</th>
+                                    <th>제도 / 세제 파라미터명 및 내용</th>
+                                    <th>현행 기준값</th>
+                                    <th>법령 근거</th>
+                                    <th>기준일</th>
+                                    <th>관리</th>
+                                </tr>
+                            </thead>
+                            <tbody id="config-registry-tbody"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+            <!-- =========================================================
+                 VIEW 6: 정부 지원사업 · R&D · 특허(IP)
+                 ========================================================= -->
+            <div id="view-grants-ip" class="eco-view-section">
+                <!-- 상단: 정부 지원사업 (기업마당 + K-Startup) -->
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <div>
+                            <h3>🎯 정부 창업 · 기술개발(R&D) · 정책자금 지원사업 공고 (기업마당 · K-Startup)</h3>
+                            <p style="font-size:0.78rem; color:#94a3b8; margin-top:2px;">TIPS, 창업사업화, R&D 출연금, 정책융자 등 스타트업 Non-dilutive(비희석) 자금 조달 기회를 실시간 추적합니다.</p>
+                        </div>
+                        <span id="grant-total-meta" style="font-size:0.84rem; color:#38bdf8; font-weight:600;"></span>
+                    </div>
+                    <div class="eco-toolbar">
+                        <input type="text" id="grant-search-q" class="eco-input" style="flex:1; min-width:200px;" placeholder="공고명 / 부처 / 키워드 검색 (예: 창업, 팁스, AI, 반도체, 수출)">
+                        <select id="grant-cat-filter" class="eco-input" style="width:140px;">
+                            <option value="">전체 분야</option>
+                            <option value="창업">창업</option>
+                            <option value="기술">기술 (R&D)</option>
+                            <option value="금융">금융 (자금)</option>
+                            <option value="수출">수출 / 글로벌</option>
+                            <option value="인력">인력</option>
+                        </select>
+                        <label style="display:inline-flex; align-items:center; gap:5px; font-size:0.83rem; color:#e2e8f0; cursor:pointer;">
+                            <input type="checkbox" id="grant-active-only" checked> 접수 진행중만
+                        </label>
+                        <button type="button" id="btn-grant-search" class="eco-btn-sm">조회</button>
+                        <button type="button" id="btn-grant-sync" class="eco-btn-sm eco-btn-green">🔄 최신 지원사업 수집</button>
+                    </div>
+                    <div class="table-container" style="max-height:360px; overflow-y:auto;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>마감 D-Day</th>
+                                    <th>분야</th>
+                                    <th>지원사업 공고명 (클릭시 공고문)</th>
+                                    <th>소관부처 / 지자체</th>
+                                    <th>수행기관</th>
+                                    <th>접수기간</th>
+                                    <th>출처</th>
+                                </tr>
+                            </thead>
+                            <tbody id="grants-tbody"></tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- 하단: 기업 특허/IP 조회 (KIPRISPlus + Google Patents) -->
+                <section class="eco-card">
+                    <div class="eco-card-header">
+                        <div>
+                            <h3>📜 기업 보유 특허 · 지식재산권(IP) 검색 (KIPRISPlus OpenAPI & Google Patents 연동)</h3>
+                            <p style="font-size:0.78rem; color:#94a3b8; margin-top:2px;">조회된 특허 이력은 로컬 DB에 자동 적재되어 해당 기업의 <strong>[IC Memo 심층 분석]</strong> 시 기술 해자(Moat) 검증 근거로 자동 투입됩니다.</p>
+                        </div>
+                        <span id="patent-source-meta" style="font-size:0.8rem; color:#6ee7b7;"></span>
+                    </div>
+                    <div class="eco-toolbar">
+                        <input type="text" id="patent-company-input" class="eco-input" style="flex:1; min-width:240px;" placeholder="출원인(기업명) 입력 (예: 리벨리온, 루닛, 레인보우로보틱스, 에스케이온)">
+                        <button type="button" id="btn-patent-search" class="eco-btn-sm eco-btn-accent">🔎 특허/IP 실시간 검색 및 DB 저장</button>
+                    </div>
+                    <div class="table-container" style="max-height:340px; overflow-y:auto;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>출원인(기업)</th>
+                                    <th>출원 / 공개번호</th>
+                                    <th>발명의 명칭</th>
+                                    <th>출원/공개일</th>
+                                    <th>상태</th>
+                                    <th>핵심 기술 초록 요약</th>
+                                    <th>출처</th>
+                                </tr>
+                            </thead>
+                            <tbody id="patents-tbody"></tbody>
+                        </table>
+                    </div>
                 </section>
             </div>
         </main>
 
         <!-- API Key Setup Button at the very bottom -->
         <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-            <button class="btn-secondary" id="btn-open-apikey" style="background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 8px 16px; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-                <span style="font-size: 1.2rem;">🔑</span>
-                <span>법인 API 키 전환</span>
+            <button class="btn-secondary" id="btn-open-apikey" style="background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(6px); border: 1px solid rgba(56,189,248,0.4); border-radius: 20px; padding: 8px 16px; display: flex; align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+                <span style="font-size: 1.15rem;">🔑</span>
+                <span>통합 API 키 관리 (AI · DART · 공공 · KIPRIS)</span>
             </button>
         </div>
     </div>
@@ -314,12 +667,10 @@
     <div id="settings-modal" class="modal-overlay" style="display: none;">
         <div class="modal-content glass-panel" style="max-width: 900px; width: 95%; max-height: 90vh; overflow-y: auto;">
             <div class="modal-header">
-                <h2>설정 (도메인 / 키워드)</h2>
+                <h2>설정 (수집 도메인 / 키워드)</h2>
                 <button class="btn-close" id="btn-close-settings">&times;</button>
             </div>
             <div class="modal-body" style="display: flex; gap: 2rem; flex-wrap: wrap;">
-                
-                <!-- Keywords Section -->
                 <div style="flex: 1; min-width: 300px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
                     <h3>🔑 키워드 관리</h3>
                     <div style="margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
@@ -335,51 +686,45 @@
                                 <option value="deal_signal">투자시그널(deal_signal)</option>
                                 <option value="profitability_revenue">수익성/매출(profitability)</option>
                             </select>
-                            <button class="btn-primary" id="btn-add-kw" style="padding: 8px 12px; font-size: 0.9rem;">추가</button>
+                            <button class="btn-primary" id="btn-add-kw" style="width:auto; padding: 8px 12px; font-size: 0.9rem;">추가</button>
                         </div>
                     </div>
                     <div style="max-height: 400px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
-                        <ul id="setting-kw-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
-                            <!-- Keyword items will go here -->
-                        </ul>
+                        <ul id="setting-kw-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;"></ul>
                     </div>
                 </div>
 
-                <!-- Domains Section -->
                 <div style="flex: 1; min-width: 400px; background: rgba(0,0,0,0.2); padding: 1rem; border-radius: 8px;">
-                    <h3>🌐 글로벌 타겟 URL 관리</h3>
+                    <h3>🌐 글로벌 & 공공기관 타겟 URL 관리</h3>
                     <div style="margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
                         <div style="display: flex; gap: 0.5rem;">
-                            <input type="text" id="setting-domain-name" placeholder="이름 (예: TechCrunch)" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                            <input type="text" id="setting-domain-name" placeholder="이름 (예: 중소벤처기업부)" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
                             <select id="setting-domain-country" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
-                                <option value="미국">미국</option>
                                 <option value="한국">한국</option>
+                                <option value="미국">미국</option>
                                 <option value="일본">일본</option>
                                 <option value="중국">중국</option>
                                 <option value="유럽">유럽</option>
                             </select>
                             <select id="setting-domain-category" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                                <option value="정부/정책">정부/정책</option>
                                 <option value="뉴스/미디어">뉴스/미디어</option>
                                 <option value="기업 DB">기업 DB</option>
-                                <option value="정부/정책">정부/정책</option>
                                 <option value="협회/기관">협회/기관</option>
                                 <option value="정보마당">정보마당</option>
                             </select>
                         </div>
-                        <input type="text" id="setting-domain-url" placeholder="URL (예: https://techcrunch.com)" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                        <input type="text" id="setting-domain-url" placeholder="URL (예: https://www.mss.go.kr)" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
                         <input type="text" id="setting-domain-rss" placeholder="RSS URL (선택사항)" style="padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
                         <div style="display: flex; gap: 0.5rem;">
-                            <input type="text" id="setting-domain-purpose" placeholder="목적 설명 (예: 글로벌 스타트업 투자...)" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
-                            <button class="btn-primary" id="btn-add-domain" style="padding: 8px 12px; font-size: 0.9rem;">추가</button>
+                            <input type="text" id="setting-domain-purpose" placeholder="목적 설명" style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
+                            <button class="btn-primary" id="btn-add-domain" style="width:auto; padding: 8px 12px; font-size: 0.9rem;">추가</button>
                         </div>
                     </div>
                     <div style="max-height: 400px; overflow-y: auto; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
-                        <ul id="setting-domain-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;">
-                            <!-- Domain items will go here -->
-                        </ul>
+                        <ul id="setting-domain-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.5rem;"></ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -414,29 +759,71 @@
             <div class="modal-header">
                 <h2>AI 요약 브리핑 리포트</h2>
                 <div style="display: flex; gap: 10px;">
-                    <button class="btn-primary" id="btn-print-pdf">PDF 저장/프린트</button>
+                    <button class="btn-primary" id="btn-print-pdf" style="width:auto; padding:6px 14px;">PDF 저장/프린트</button>
                     <button class="btn-close" id="btn-close-report">&times;</button>
                 </div>
             </div>
             <div class="modal-body" style="flex: 1; padding: 0; position: relative; overflow: hidden; background: #e2e8f0;">
                 <div id="report-loading" style="padding: 2rem; text-align: center; position: absolute; width: 100%; top: 50%; transform: translateY(-50%); z-index: 10; color: #0f172a;">리포트를 생성 중입니다...</div>
-                <div id="report-content-container" class="markdown-body" style="display: none; width: 100%; height: 100%; padding: 2rem; overflow-y: auto;">
-                </div>
+                <div id="report-content-container" class="markdown-body" style="display: none; width: 100%; height: 100%; padding: 2rem; overflow-y: auto;"></div>
             </div>
         </div>
     </div>
 
-    <!-- API Key Modal -->
+    <!-- Multi-Source API Key Modal -->
     <div id="apikey-modal" class="modal-overlay" style="display: none;">
-        <div class="modal-content glass-panel" style="max-width: 500px; width: 95%;">
+        <div class="modal-content glass-panel" style="max-width: 620px; width: 95%; max-height: 90vh; overflow-y: auto;">
             <div class="modal-header">
-                <h2>🔑 API 키 설정 (법인 전환)</h2>
+                <h2>🔑 통합 데이터소스 & AI API 키 관리</h2>
                 <button class="btn-close" id="btn-close-apikey">&times;</button>
             </div>
-            <div class="modal-body" style="display: flex; flex-direction: column; gap: 1rem;">
-                <p style="font-size: 0.9rem; color: #cbd5e1;">회사 모델이나 다른 API 키로 전환할 경우 아래에 입력해주세요.<br>(새로운 키는 서버에 안전하게 저장됩니다)</p>
-                <input type="password" id="input-api-key" placeholder="새로운 Gemini API 키를 입력하세요..." style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(0,0,0,0.3); color: white;">
-                <button class="btn-primary" id="btn-save-apikey" style="padding: 10px; text-align: center;">저장 및 적용</button>
+            <div class="modal-body" style="display: flex; flex-direction: column; gap: 0.9rem;">
+                <p style="font-size: 0.84rem; color: #cbd5e1;">변경할 항목만 입력 후 저장하시면 기존 설정된 나머지 키는 그대로 안전하게 유지됩니다.</p>
+
+                <div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.83rem; margin-bottom:4px;">
+                        <strong>1. Gemini AI API 키 (심사/리포트 생성)</strong>
+                        <span id="st-gemini-key">확인 중...</span>
+                    </div>
+                    <input type="password" id="input-api-key" class="eco-input" style="width:100%;" placeholder="새 Gemini API 키 입력 (유지 시 공란)">
+                </div>
+
+                <div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.83rem; margin-bottom:4px;">
+                        <strong>2. DART 전자공시 OpenAPI 키 (기업개황·3개년 재무·RCPS)</strong>
+                        <span id="st-dart-key">확인 중...</span>
+                    </div>
+                    <input type="password" id="input-dart-key" class="eco-input" style="width:100%;" placeholder="새 DART API 키 입력 (유지 시 공란)">
+                </div>
+
+                <div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.83rem; margin-bottom:4px;">
+                        <strong>3. 공공데이터포털 ServiceKey (금융위·K-Startup·KIPRIS)</strong>
+                        <span id="st-datagokr-key">확인 중...</span>
+                    </div>
+                    <input type="password" id="input-datagokr-key" class="eco-input" style="width:100%;" placeholder="공공데이터포털 일반 인증키 입력 (유지 시 공란)">
+                </div>
+
+                <div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.83rem; margin-bottom:4px;">
+                        <strong>4. KIPRISPlus 전용 특허 API 키 (선택 · 월 1,000건 무료)</strong>
+                        <span id="st-kipris-key">확인 중...</span>
+                    </div>
+                    <input type="password" id="input-kipris-key" class="eco-input" style="width:100%;" placeholder="plus.kipris.or.kr 발급 키 입력 (미설정 시 Google Patents 자동 폴백)">
+                </div>
+
+                <div>
+                    <div style="display:flex; justify-content:space-between; font-size:0.83rem; margin-bottom:4px;">
+                        <strong>5. NICE 기업정보 상용 API 키 (선택 · 유료 제휴 시)</strong>
+                        <span id="st-nice-key">확인 중...</span>
+                    </div>
+                    <input type="password" id="input-nice-key" class="eco-input" style="width:100%;" placeholder="NICE BizAPI 제휴 키 입력 (미보유 시 DART + 파일업로드 사용)">
+                </div>
+
+                <div style="display:flex; gap:8px; margin-top:6px;">
+                    <button type="button" class="btn-primary" id="btn-save-multi-apikeys" style="padding: 10px;">전체 변경사항 저장 및 즉시 적용</button>
+                    <button type="button" id="btn-save-apikey" style="display:none;">기존호환</button>
+                </div>
             </div>
         </div>
     </div>
@@ -455,14 +842,13 @@
                 <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
                     <button class="btn-secondary" id="btn-download-valuation-excel" style="padding: 6px 12px; font-size: 0.8rem; border-color: #10b981; color: #6ee7b7;">📥 엑셀 원본</button>
                     <button class="btn-secondary" id="btn-reset-valuation" style="padding: 6px 12px; font-size: 0.8rem;">🔄 기본값 리셋</button>
-                    <button class="btn-primary" id="btn-generate-val-report" style="padding: 6px 14px; font-size: 0.82rem; background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%); font-weight: 600; box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);">📑 심사 리포트 생성</button>
+                    <button class="btn-primary" id="btn-generate-val-report" style="width:auto; padding: 6px 14px; font-size: 0.82rem; background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);">📑 심사 리포트 생성</button>
                     <button class="btn-secondary" id="btn-direct-pdf-valuation" style="padding: 6px 12px; font-size: 0.8rem; border-color: #ef4444; color: #fca5a5;">📄 PDF 저장</button>
                     <button class="btn-secondary" id="btn-direct-word-valuation" style="padding: 6px 12px; font-size: 0.8rem; border-color: #3b82f6; color: #93c5fd;">📝 Word 저장</button>
                     <button class="btn-close" id="btn-close-valuation" style="margin-left: 5px;">&times;</button>
                 </div>
             </div>
 
-            <!-- Tab Navigation Bar -->
             <div class="val-tab-bar">
                 <button type="button" class="val-tab-btn active" data-tab="overview">🗺️ 1. 마스터 오버뷰 & 가이드</button>
                 <button type="button" class="val-tab-btn" data-tab="m1">📱 2. 스코어카드 & 베르쿠스 (Seed)</button>
@@ -473,16 +859,13 @@
                 <button type="button" class="val-tab-btn" data-tab="m6">🦄 7. 유니콘 SOTP & 청산 워터폴</button>
             </div>
 
-            <!-- Tab Contents Container -->
-            <div class="modal-body" id="val-tab-content" style="flex: 1; padding: 1.5rem; overflow-y: auto; background: rgba(15, 23, 42, 0.4);">
-                <!-- Dynamically rendered by valuation.js -->
-            </div>
+            <div class="modal-body" id="val-tab-content" style="flex: 1; padding: 1.5rem; overflow-y: auto; background: rgba(15, 23, 42, 0.4);"></div>
         </div>
     </div>
 
     <!-- Valuation Assessment Report Preview Modal -->
     <div id="val-report-modal" class="modal-overlay" style="display: none; z-index: 2500;">
-        <div class="modal-content glass-panel" style="max-width: 1050px; width: 95%; height: 92vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #0f172a; border: 1px solid rgba(139, 92, 246, 0.4); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);">
+        <div class="modal-content glass-panel" style="max-width: 1050px; width: 95%; height: 92vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #0f172a; border: 1px solid rgba(139, 92, 246, 0.4);">
             <div class="modal-header" style="padding: 1rem 1.5rem; background: rgba(30, 41, 59, 0.9); border-bottom: 1px solid rgba(255,255,255,0.1);">
                 <div style="display: flex; align-items: center; gap: 10px;">
                     <span style="font-size: 1.5rem;">📑</span>
@@ -492,99 +875,83 @@
                     </div>
                 </div>
                 <div style="display: flex; gap: 8px; align-items: center;">
-                    <button class="btn-primary" id="btn-val-report-print" style="padding: 6px 14px; font-size: 0.85rem; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">🖨️ PDF 저장 / 인쇄</button>
+                    <button class="btn-primary" id="btn-val-report-print" style="width:auto; padding: 6px 14px; font-size: 0.85rem; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">🖨️ PDF 저장 / 인쇄</button>
                     <button class="btn-secondary" id="btn-val-report-word" style="padding: 6px 14px; font-size: 0.85rem; border-color: #3b82f6; color: #93c5fd;">📝 Word 다운로드 (.doc)</button>
                     <button class="btn-close" id="btn-close-val-report" style="margin-left: 5px;">&times;</button>
                 </div>
             </div>
             <div class="modal-body" style="flex: 1; padding: 0; position: relative; overflow-y: auto; background: #ffffff;">
-                <div id="val-report-body" style="max-width: 850px; margin: 0 auto; padding: 40px 30px; color: #0f172a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
-                    <!-- Valuation report dynamically generated here -->
-                </div>
+                <div id="val-report-body" style="max-width: 850px; margin: 0 auto; padding: 40px 30px; color: #0f172a;"></div>
             </div>
         </div>
     </div>
 
     <!-- 🏢 특정기업 심층 분석 (Master IC Memo) Modal -->
     <div id="company-analysis-modal" class="modal-overlay" style="display: none; z-index: 2600;">
-        <div class="modal-content glass-panel" style="max-width: 1200px; width: 95%; height: 92vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #0b1120; border: 1px solid rgba(56, 189, 248, 0.4); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85);">
-            <!-- Modal Header -->
+        <div class="modal-content glass-panel" style="max-width: 1200px; width: 95%; height: 92vh; display: flex; flex-direction: column; padding: 0; overflow: hidden; background: #0b1120; border: 1px solid rgba(56, 189, 248, 0.4);">
             <div class="modal-header" style="padding: 1rem 1.5rem; background: rgba(15, 23, 42, 0.95); border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: center;">
                 <div style="display: flex; align-items: center; gap: 12px;">
                     <span style="font-size: 1.8rem;">🏢</span>
                     <div>
-                        <h2 style="font-size: 1.25rem; margin: 0; color: #f8fafc; font-weight: 700;">특정기업 심층 투자심사 분석 (IC Memo)</h2>
-                        <p style="font-size: 0.8rem; color: #94a3b8; margin: 0;">42개 표준 산업 분류 체계 & 6대 핵심 심사 기준 기반 자동화 모델</p>
+                        <h2 style="font-size: 1.25rem; margin: 0; color: #f8fafc; font-weight: 700;">특정기업 심층 투자심사 분석 (IC Memo · DART/특허/세제 자동연동)</h2>
+                        <p style="font-size: 0.8rem; color: #94a3b8; margin: 0;">42개 표준 산업 분류 체계 & DART 공시재무 · 특허 · 벤처세제 레지스트리 자동 결합 모델</p>
                     </div>
                 </div>
                 <div style="display: flex; gap: 10px; align-items: center;">
                     <button type="button" class="btn-secondary" id="btn-copy-ic-result" style="display: none; padding: 6px 14px; font-size: 0.82rem; border-color: #38bdf8; color: #7dd3fc;">📋 리포트 복사</button>
-                    <button type="button" class="btn-primary" id="btn-print-ic-result" style="display: none; padding: 6px 14px; font-size: 0.82rem; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">🖨️ 인쇄/PDF</button>
+                    <button type="button" class="btn-primary" id="btn-print-ic-result" style="display: none; width:auto; padding: 6px 14px; font-size: 0.82rem; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">🖨️ 인쇄/PDF</button>
                     <button class="btn-close" id="btn-close-company-analysis" style="font-size: 1.5rem; cursor: pointer; background: transparent; border: none; color: #94a3b8;">&times;</button>
                 </div>
             </div>
 
-            <!-- Modal Body (Two Column: Left Inputs / Right Output) -->
             <div class="modal-body" style="flex: 1; display: flex; overflow: hidden; background: #090d16;">
-                <!-- Left Column: Input Form -->
                 <div style="width: 440px; min-width: 380px; border-right: 1px solid rgba(255,255,255,0.08); padding: 1.25rem; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; background: rgba(15, 23, 42, 0.4);">
                     <div style="background: rgba(56, 189, 248, 0.08); border-left: 3px solid #38bdf8; padding: 10px 12px; border-radius: 4px; font-size: 0.8rem; color: #bae6fd; line-height: 1.4;">
-                        💡 기업명과 자료를 넣으시면 <strong>42개 업종별 핵심 KPI & 리스크 지침</strong>과 <strong>6대 투자심사 항목</strong>이 자동 조합되어 고품질 IC Memo가 작성됩니다.
+                        💡 기업명만 입력하셔도 <strong>DART 전자공시 재무·증자 이력, 보유 특허DB, 현행 벤처세제 레지스트리</strong>가 자동 결합되어 IC Memo가 생성됩니다.
                     </div>
 
-                    <!-- 1. 기업명 -->
                     <div>
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
                             1. 분석 대상 기업명 <span style="color: #f43f5e;">*</span>
                         </label>
-                        <input type="text" id="ic-company-name" placeholder="예: 리벨리온, 몰로코, 퓨리오사AI" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.9rem; box-sizing: border-box;">
+                        <input type="text" id="ic-company-name" placeholder="예: 비바리퍼블리카, 루닛, 컬리, 리벨리온" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.9rem;">
                     </div>
 
-                    <!-- 2. 산업분류 선택 -->
                     <div>
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
                             2. 산업 분류 (42개 업종 체계)
                         </label>
-                        <select id="ic-industry-code" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #38bdf8; font-size: 0.85rem; box-sizing: border-box; cursor: pointer;">
+                        <select id="ic-industry-code" style="width: 100%; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #38bdf8; font-size: 0.85rem;">
                             <option value="auto">🤖 자동 감지 (사업내용/키워드 분석 기반 매핑)</option>
-                            <!-- Dynamically populated from /api/industries -->
                         </select>
-                        <small style="display: block; margin-top: 4px; color: #64748b; font-size: 0.72rem;">* 직접 지정하지 않으면 입력 내용을 바탕으로 가장 알맞은 소분류로 자동 매핑됩니다.</small>
                     </div>
 
-                    <!-- 3. IR / 재무제표 텍스트 입력 또는 홈페이지 URL -->
                     <div style="flex: 1; display: flex; flex-direction: column;">
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
-                            3. 사업 내용, 재무 요약, 펀딩 조건 (또는 기업 홈페이지 URL)
+                            3. 추가 사업 내용, 펀딩 조건 또는 기업 홈페이지 URL (선택)
                         </label>
-                        <textarea id="ic-materials-text" placeholder="기업 IR 피치덱 내용, 재무 수치, 펀딩 조건 또는 해당 기업의 공식 홈페이지 주소(예: https://rebellions.ai, https://wrtn.io)를 입력하시면 웹사이트 본문을 자동 수집하여 함께 심층 분석합니다." style="width: 100%; flex: 1; min-height: 160px; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.85rem; line-height: 1.5; resize: vertical; box-sizing: border-box;"></textarea>
+                        <textarea id="ic-materials-text" placeholder="IR 핵심 내용, 희망 밸류에이션 또는 기업 홈페이지 URL(예: https://rebellions.ai) 입력 시 자동 수집 병합" style="width: 100%; flex: 1; min-height: 150px; padding: 10px 12px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); background: rgba(15,23,42,0.8); color: #fff; font-size: 0.85rem; line-height: 1.5; resize: vertical;"></textarea>
                     </div>
 
-                    <!-- 4. PDF / Word / TXT 파일 첨부 -->
                     <div>
                         <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #e2e8f0; margin-bottom: 6px;">
-                            4. IR 자료 / 재무제표 파일 첨부 (PDF / Word / TXT)
+                            4. IR 자료 / NICE 보고서 파일 첨부 (PDF / Word / TXT)
                         </label>
-                        <div id="ic-file-dropzone" style="border: 2px dashed rgba(56, 189, 248, 0.35); border-radius: 6px; padding: 14px; text-align: center; background: rgba(56, 189, 248, 0.03); cursor: pointer; transition: all 0.2s;">
+                        <div id="ic-file-dropzone" style="border: 2px dashed rgba(56, 189, 248, 0.35); border-radius: 6px; padding: 14px; text-align: center; background: rgba(56, 189, 248, 0.03); cursor: pointer;">
                             <input type="file" id="ic-file-input" accept=".pdf,.docx,.doc,.txt" style="display: none;">
                             <span style="font-size: 1.4rem;">📎</span>
-                            <p id="ic-file-label" style="font-size: 0.8rem; color: #94a3b8; margin: 4px 0 0 0;">
-                                PDF, Word(.docx), TXT 파일을 드래그하거나 클릭하여 업로드
-                            </p>
+                            <p id="ic-file-label" style="font-size: 0.8rem; color: #94a3b8; margin: 4px 0 0 0;">PDF, Word(.docx), TXT 파일을 드래그하거나 클릭하여 업로드</p>
                             <span id="ic-file-clear" style="display: none; font-size: 0.75rem; color: #f43f5e; margin-top: 4px; cursor: pointer; text-decoration: underline;">삭제</span>
                         </div>
                     </div>
 
-                    <!-- Action Button -->
-                    <button type="button" class="btn-primary" id="btn-run-ic-analysis" style="width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 700; background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%); box-shadow: 0 0 16px rgba(14, 165, 233, 0.4); border: none; border-radius: 6px; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <button type="button" class="btn-primary" id="btn-run-ic-analysis" style="width: 100%; padding: 12px; font-size: 0.95rem; font-weight: 700; background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);">
                         <span>🚀 IC Memo 심층 분석 시작</span>
                         <div class="loader-spinner" id="ic-loader" style="display: none; width: 16px; height: 16px; border-width: 2px;"></div>
                     </button>
                 </div>
 
-                <!-- Right Column: Result Viewer -->
                 <div style="flex: 1; display: flex; flex-direction: column; overflow: hidden; background: #0f172a;">
-                    <!-- Result Sub-header & Tabs -->
                     <div style="padding: 10px 16px; background: rgba(30, 41, 59, 0.8); border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                         <div id="ic-result-meta" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                             <span style="font-size: 0.85rem; color: #94a3b8;">분석 결과 대기 중</span>
@@ -595,21 +962,13 @@
                         </div>
                     </div>
 
-                    <!-- Result Viewport -->
                     <div id="ic-result-viewport" style="flex: 1; padding: 1.5rem 2rem; overflow-y: auto; color: #f1f5f9; font-size: 0.92rem; line-height: 1.7;">
                         <div id="ic-empty-state" style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #64748b;">
                             <span style="font-size: 3rem; margin-bottom: 10px; opacity: 0.6;">📊</span>
                             <h3 style="color: #94a3b8; font-size: 1.1rem; margin-bottom: 6px;">기업 분석 리포트가 여기에 생성됩니다</h3>
-                            <p style="font-size: 0.85rem; max-width: 480px; line-height: 1.5;">
-                                좌측에서 분석할 기업명과 자료(또는 PDF 파일)를 입력하신 후<br>
-                                <strong>[IC Memo 심층 분석 시작]</strong>을 클릭해주세요.
-                            </p>
+                            <p style="font-size: 0.85rem; max-width: 480px; line-height: 1.5;">좌측에서 분석할 기업명과 자료를 입력하신 후 <strong>[IC Memo 심층 분석 시작]</strong>을 클릭해주세요.</p>
                         </div>
-
-                        <!-- Markdown IC Memo Body -->
                         <div id="ic-memo-content" style="display: none; max-width: 900px; margin: 0 auto;"></div>
-
-                        <!-- Raw Prompt Script Body -->
                         <div id="ic-prompt-content" style="display: none; max-width: 900px; margin: 0 auto;">
                             <pre style="background: rgba(15, 23, 42, 0.95); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); color: #38bdf8; font-family: Consolas, monospace; font-size: 0.82rem; white-space: pre-wrap; word-break: break-word;"></pre>
                         </div>
@@ -619,15 +978,13 @@
         </div>
     </div>
 
-    <!-- Marked.js (still kept for other uses if any) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/13.0.0/marked.min.js"></script>
-    
-    <!-- Reveal.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
 
-    <script src="script.js?v=11"></script>
-    <script src="valuation.js?v=2"></script>
+    <script src="script.js?v=12"></script>
+    <script src="valuation.js?v=3"></script>
+    <script src="ecosystem.js?v=1"></script>
 </body>
 
 </html>

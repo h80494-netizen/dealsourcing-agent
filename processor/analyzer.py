@@ -7,7 +7,10 @@ if BASE_DIR not in sys.path:
 from config import INDUSTRY_KEYWORDS, SIGNAL_KEYWORDS, FINANCIAL_KEYWORDS
 from industry_manager import industry_manager
 import re
-from newspaper import Article
+try:
+    from newspaper import Article
+except Exception:
+    Article = None
 
 STAGE_KEYWORDS = {
     "Deal Sourcing": ["시드", "시리즈", "창업", "팁스", "tips", "seed", "발굴", "스타트업"],
@@ -56,12 +59,19 @@ def extract_and_clean_text(url):
     """1단계: 웹페이지 본문(텍스트만) 수집 및 정제"""
     try:
         real_url = resolve_meta_redirect(url)
-        article = Article(real_url, language='ko')
-        article.download()
-        article.parse()
-        text = article.text.strip() if article.text else ""
-        # 3000자로 Truncate
-        return text[:3000]
+        if Article is not None:
+            article = Article(real_url, language='ko')
+            article.download()
+            article.parse()
+            text = article.text.strip() if article.text else ""
+            if text:
+                return text[:3000]
+        from bs4 import BeautifulSoup
+        res = requests.get(real_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        soup = BeautifulSoup(res.text, "html.parser")
+        for tag in soup(["script", "style", "nav", "footer", "header"]):
+            tag.decompose()
+        return soup.get_text(" ", strip=True)[:3000]
     except Exception as e:
         print(f"Failed to extract text from {url}: {e}")
         return ""

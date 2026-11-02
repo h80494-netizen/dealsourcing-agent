@@ -159,8 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     ['dropdown-country', 'dropdown-stage', 'dropdown-grade'].forEach(setupCheckboxes);
 
-    // 라디오 버튼(정렬, 일자) 텍스트 업데이트 및 즉시 검색 로직
-    ['dropdown-sort', 'dropdown-date'].forEach(containerId => {
+    // 라디오 버튼(정렬, 일자, 출처구분) 텍스트 업데이트 및 즉시 검색 로직
+    ['dropdown-sort', 'dropdown-date', 'dropdown-source-type'].forEach(containerId => {
         const container = document.getElementById(containerId);
         if (!container) return;
         const btn = container.querySelector('.custom-select-btn');
@@ -200,6 +200,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const sortBy = sortByNode ? sortByNode.value : 'latest';
             const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
             const dateFilter = dateFilterNode ? dateFilterNode.value : 'all';
+            const sourceTypeNode = document.querySelector('input[name="source-type"]:checked');
+            const sourceType = sourceTypeNode ? sourceTypeNode.value : 'all';
 
             const params = new URLSearchParams();
             countries.forEach(c => params.append('country', c));
@@ -207,6 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newsGrades.forEach(n => params.append('news_grade', n));
             industries.forEach(i => params.append('promising_industry', i));
             if (sortBy) params.append('sort_by', sortBy);
+            if (sourceType && sourceType !== 'all') params.append('source_type', sourceType);
             
             // 일자 필터 적용
             if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
@@ -383,15 +386,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
+            const isGovSource = item.source_type === 'public_gov';
+            const sourceBadgeHtml = isGovSource
+                ? `<span class="eco-badge eco-badge-gov" title="공공기관·정부부처 공식 브리핑">🏛️ ${item.ministry_name || item.source_name || '정부부처'}</span>`
+                : `<span>${item.source_name || '-'}</span>`;
+
             tr.innerHTML = `
                 <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" data-date="${item.created_at || ''}" ${isChecked}></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${displayGrade}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
                 <td>${industryCellHtml}</td>
-                <td><a href="${item.link}" target="_blank" style="color: #60a5fa; text-decoration: none;">${item.title}</a></td>
+                <td><a href="${item.link}" target="_blank" style="color: #60a5fa; text-decoration: none;">${isGovSource ? '<strong style="color:#fcd34d;">[공공]</strong> ' : ''}${item.title}</a></td>
                 <td style="color: #34d399; font-weight: bold;">${item.impact_score ? item.impact_score.toFixed(1) : '-'}</td>
-                <td>${item.source_name || '-'}</td>
+                <td>${sourceBadgeHtml}</td>
                 <td>${item.created_at || '-'}</td>
             `;
             tbody.appendChild(tr);
@@ -644,6 +652,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // 초기 로드 시 데이터 가져오기
     fetchArticles();
     fetchStatistics();
+
+    window.refreshNewsPipeline = () => {
+        currentPage = 1;
+        fetchArticles();
+        fetchStatistics();
+    };
+    window.openCompanyIcMemo = (corpName, contextText = '') => {
+        const modal = document.getElementById('company-analysis-modal');
+        const nameInput = document.getElementById('ic-company-name');
+        const matInput = document.getElementById('ic-materials-text');
+        if (nameInput) nameInput.value = corpName || '';
+        if (matInput && contextText) matInput.value = contextText;
+        if (modal) modal.style.display = 'flex';
+    };
 
     // =========================================================================
     // 글로벌 VC 산업분류 체계 (42개 소분류 & 5대 대분류 계층형 드롭다운 로직)

@@ -117,9 +117,11 @@ def run_pipeline(progress_callback=None, days_limit=2, max_articles=50):
                 except Exception as e:
                     print(f"Callback error: {e}")
                 
-            if analysis_result and analysis_result.get('news_grade') not in ['기타', 'C']:
+            if analysis_result and (art.get('source_type') == 'public_gov' or analysis_result.get('news_grade') not in ['기타', 'C']):
                 new_deal = DealArticle(
                     source_name=art['source_name'],
+                    source_type=art.get('source_type', 'private_media'),
+                    ministry_name=art.get('ministry_name'),
                     title=analysis_result.get('title', art['title']),
                     link=art['link'],
                     summary=art['summary'],
