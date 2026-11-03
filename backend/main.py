@@ -4,6 +4,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import RedirectResponse, FileResponse
 import uvicorn
 import os
+import re
 import sys
 import json
 import math
@@ -38,6 +39,7 @@ from processor.analyzer import analyze_text, extract_and_clean_text, determine_n
 from processor.ic_memo_generator import (
     generate_ic_memo,
     build_ic_memo_prompt,
+    format_financial_history_table,
     extract_text_from_pdf,
     extract_text_from_file,
     scrape_website_content,
@@ -1504,16 +1506,19 @@ async def generate_url_briefing(req: UrlBriefingRequest):
 """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-flash-lite-latest")
+        model = genai.GenerativeModel("gemini-3.8-flash")
         response = model.generate_content(prompt)
         return {"status": "success", "report": response.text.strip()}
     except Exception:
         try:
-            model = genai.GenerativeModel("gemini-1.5-flash")
+            model = genai.GenerativeModel("gemini-flash-lite-latest")
             response = model.generate_content(prompt)
             return {"status": "success", "report": response.text.strip()}
         except Exception as ex:
-            return {"status": "error", "message": str(ex)}
+            err_s = str(ex)
+            if "prepayment credits are depleted" in err_s.lower() or "402" in err_s or "429" in err_s:
+                return {"status": "error", "message": "Google AI Studio 선불 크레딧이 소진되었습니다. 우측 상단 [🔑 API 키 관리]에서 유효한 Gemini 또는 OpenAI 키를 등록해 주세요."}
+            return {"status": "error", "message": err_s}
 
 
 @app.get("/api/api_keys_status")
@@ -1599,17 +1604,35 @@ async def analyze_company(
     file: Optional[UploadFile] = File(None),
 ):
     try:
+        raw_name = (company_name or "").strip()
+        clean_name = re.sub(r"(\(주\)|\(유\)|\(사\)|주식회사|유한회사|유한책임회사|㈜)", "", raw_name).strip() or raw_name
         combined_text = materials_text or ""
 
         # 0. 기업 DB 및 DART 전자공시 · 특허 · 동적 세제/법령 레지스트리 데이터 자동 결합!
         engine = init_db()
         session = get_session(engine)
         auto_enriched_sources = []
+        enrichment_bundle = {
+            "company": {},
+            "patents": [],
+            "registry": [],
+            "website_summary": "",
+            "user_materials": materials_text or "",
+        }
         try:
-            comp = session.query(CompanyProfile).filter(CompanyProfile.corp_name.like(f"%{company_name.strip()}%")).first()
+            comp = (
+                session.query(CompanyProfile)
+                .filter(
+                    or_(
+                        CompanyProfile.corp_name.like(f"%{raw_name}%"),
+                        CompanyProfile.corp_name.like(f"%{clean_name}%"),
+                    )
+                )
+                .first()
+            )
             if not comp:
-                # 로컬 DB에 없으면 DART 실시간 조회 시도
-                cands = search_dart_candidates(company_name.strip(), limit=1)
+                # 로컬 DB에 없으면 정규화된 법인명으로 DART 실시간 조회 시도
+                cands = search_dart_candidates(clean_name, limit=1) or search_dart_candidates(raw_name, limit=1)
                 if cands:
                     detail = fetch_dart_company_detail(cands[0]["corp_code"])
                     if detail:
@@ -1617,6 +1640,36 @@ async def analyze_company(
 
             if comp:
                 auto_enriched_sources.append(comp.data_source or "DART")
+                fin_list = []
+                if comp.financial_history_json:
+                    try:
+                        fin_list = json.loads(comp.financial_history_json)
+                    except Exception:
+                        fin_list = []
+
+                enrichment_bundle["company"] = {
+                    "corp_name": comp.corp_name,
+                    "corp_code": comp.corp_code,
+                    "biz_reg_no": comp.biz_reg_no,
+                    "corp_cls": comp.corp_cls,
+                    "ceo_name": comp.ceo_name,
+                    "est_dt": comp.est_dt,
+                    "homepage": comp.homepage_url,
+                    "address": comp.address,
+                    "employee_count": comp.employee_count,
+                    "credit_grade": comp.credit_grade,
+                    "latest_bsns_year": comp.latest_bsns_year,
+                    "revenue_krw": comp.revenue_krw,
+                    "op_profit_krw": comp.op_profit_krw,
+                    "net_income_krw": comp.net_income_krw,
+                    "total_assets_krw": comp.total_assets_krw,
+                    "total_liab_krw": comp.total_liab_krw,
+                    "total_equity_krw": comp.total_equity_krw,
+                    "financial_history": fin_list,
+                    "capital_increase_summary": comp.capital_increase_summary,
+                    "data_source": comp.data_source,
+                }
+
                 combined_text += (
                     f"\n\n[시스템 자동 연동 - 공인 기업개황 및 재무정보 ({comp.data_source})]\n"
                     f"- 법인명: {comp.corp_name} ({comp.corp_cls or '비상장'}) | 대표이사: {comp.ceo_name or '-'} | 설립일: {comp.est_dt or '-'}\n"
@@ -1629,20 +1682,63 @@ async def analyze_company(
                     f"부채총계 {comp.total_liab_krw if comp.total_liab_krw is not None else '-'}억원, "
                     f"자본총계 {comp.total_equity_krw if comp.total_equity_krw is not None else '-'}억원\n"
                 )
-                if comp.financial_history_json:
-                    combined_text += f"- 3개년 재무 추이(억원): {comp.financial_history_json}\n"
+                if fin_list:
+                    combined_text += f"- 3개년 재무 추이 표:\n{format_financial_history_table(fin_list)}\n"
                 if comp.capital_increase_summary:
                     combined_text += f"- 주요 유상증자·RCPS·자본변동 공시 내역:\n{comp.capital_increase_summary}\n"
 
-            patents = session.query(CompanyPatent).filter(CompanyPatent.applicant_name.like(f"%{company_name.strip()}%")).limit(8).all()
+            patents = (
+                session.query(CompanyPatent)
+                .filter(
+                    or_(
+                        CompanyPatent.applicant_name.like(f"%{raw_name}%"),
+                        CompanyPatent.applicant_name.like(f"%{clean_name}%"),
+                    )
+                )
+                .limit(8)
+                .all()
+            )
+            if not patents and clean_name:
+                try:
+                    live_pat = search_company_patents(clean_name, max_rows=8)
+                    for pit in live_pat.get("items", [])[:8]:
+                        app_no = pit.get("application_number")
+                        if app_no and not session.query(CompanyPatent).filter_by(application_number=app_no).first():
+                            clean_applicant = re.sub(r"<[^>]+>", "", pit.get("applicant_name") or clean_name).strip()
+                            pit["applicant_name"] = clean_applicant
+                            session.add(CompanyPatent(**pit))
+                    session.commit()
+                    patents = (
+                        session.query(CompanyPatent)
+                        .filter(CompanyPatent.applicant_name.like(f"%{clean_name}%"))
+                        .limit(8)
+                        .all()
+                    )
+                except Exception:
+                    session.rollback()
+
             if patents:
                 auto_enriched_sources.append("특허DB")
-                pat_lines = [f"  * [{p.application_date}] {p.invention_title} ({p.registration_status})" for p in patents]
+                pat_lines = []
+                for p in patents:
+                    clean_app = re.sub(r"<[^>]+>", "", p.applicant_name or clean_name).strip()
+                    enrichment_bundle["patents"].append(
+                        {
+                            "applicant_name": clean_app,
+                            "application_number": p.application_number,
+                            "invention_title": p.invention_title,
+                            "application_date": p.application_date,
+                            "registration_status": p.registration_status,
+                            "source_name": p.source_name,
+                        }
+                    )
+                    pat_lines.append(f"  * [{p.application_date}] {p.invention_title} ({p.registration_status})")
                 combined_text += "\n[시스템 자동 연동 - 보유 특허/IP 현황]\n" + "\n".join(pat_lines) + "\n"
 
             # 동적 설정 레지스트리(벤처 세제·조합 의무비율) 참조 주입
             reg_items = get_dynamic_legal_tax_registry(session)
             if reg_items:
+                enrichment_bundle["registry"] = reg_items
                 reg_lines = [f"  * {r['config_label']}: {r['config_value']}{r['unit']} ({r['legal_basis']})" for r in reg_items[:6]]
                 combined_text += "\n[동적 설정 레지스트리 - 현행 벤처투자 법령·세제 기준]\n" + "\n".join(reg_lines) + "\n"
         except Exception as enrich_err:
@@ -1658,14 +1754,19 @@ async def analyze_company(
 
         # 2. 홈페이지 URL 자동 웹 크롤링
         detected_urls = extract_urls_from_text(materials_text or "")
+        if not detected_urls and enrichment_bundle["company"].get("homepage"):
+            detected_urls = extract_urls_from_text(enrichment_bundle["company"]["homepage"])
         if detected_urls:
             loop = asyncio.get_event_loop()
+            scraped_chunks = []
             for u in detected_urls[:2]:
                 try:
                     scraped_info = await loop.run_in_executor(None, scrape_website_content, u)
                     combined_text += f"\n\n{scraped_info}"
+                    scraped_chunks.append(scraped_info)
                 except Exception as sc_err:
                     combined_text += f"\n\n[웹사이트 크롤링 오류: {str(sc_err)}]"
+            enrichment_bundle["website_summary"] = "\n".join(scraped_chunks)
 
         industry_info = None
         if industry_code and industry_code != "auto":
@@ -1674,7 +1775,7 @@ async def analyze_company(
                 industry_info = industry_manager.minor_map.get(industry_code)
 
         if not industry_info:
-            classified = industry_manager.classify_text(f"{company_name}\n{combined_text}")
+            classified = industry_manager.classify_text(f"{raw_name}\n{clean_name}\n{combined_text}")
             matched_code = classified.get("code")
             if matched_code and matched_code in industry_manager.code_map:
                 industry_info = industry_manager.code_map[matched_code]
@@ -1687,12 +1788,17 @@ async def analyze_company(
                     "minor": classified.get("minor", "기타"),
                 }
 
-        prompt_script, major = build_ic_memo_prompt(company_name, industry_info, combined_text)
-        report = await generate_ic_memo(company_name, industry_info, combined_text)
+        prompt_script, major = build_ic_memo_prompt(raw_name, industry_info, combined_text)
+        report = await generate_ic_memo(
+            raw_name,
+            industry_info,
+            combined_text,
+            enrichment_bundle=enrichment_bundle,
+        )
 
         return {
             "status": "success",
-            "company_name": company_name,
+            "company_name": raw_name,
             "industry_info": industry_info,
             "auto_enriched_sources": auto_enriched_sources,
             "report": report,

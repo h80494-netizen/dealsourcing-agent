@@ -315,61 +315,415 @@ def build_ic_memo_prompt(
     return final_prompt, major
 
 
+def format_financial_history_table(fin_history: list) -> str:
+    """3개년 재무 추이 리스트를 가독성 높은 마크다운 표로 변환"""
+    if not fin_history or not isinstance(fin_history, list):
+        return ""
+
+    lines = [
+        "| 결산연도 | 재무기준 | 매출액(억원) | 영업이익(억원) | 영업이익률 | 당기순이익(억원) | 자산총계(억원) | 부채총계(억원) | 자본총계(억원) | 부채비율 |",
+        "| :---: | :---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
+    ]
+
+    def _fmt(v):
+        if v is None or v == "":
+            return "-"
+        try:
+            return f"{float(v):,.1f}"
+        except Exception:
+            return str(v)
+
+    sorted_rows = sorted(fin_history, key=lambda x: str(x.get("year", "")), reverse=True)
+    for r in sorted_rows:
+        rev = r.get("revenue_krw")
+        op = r.get("op_profit_krw")
+        ni = r.get("net_income_krw")
+        ast = r.get("total_assets_krw")
+        liab = r.get("total_liab_krw")
+        eq = r.get("total_equity_krw")
+
+        opm_str = "-"
+        if rev is not None and op is not None:
+            try:
+                if float(rev) > 0:
+                    opm_str = f"{(float(op) / float(rev)) * 100:.1f}%"
+            except Exception:
+                pass
+
+        debt_ratio_str = "-"
+        if liab is not None and eq is not None:
+            try:
+                if float(eq) > 0:
+                    debt_ratio_str = f"{(float(liab) / float(eq)) * 100:.1f}%"
+                elif float(eq) <= 0:
+                    debt_ratio_str = "자본잠식"
+            except Exception:
+                pass
+
+        lines.append(
+            f"| {r.get('year', '-')}년 | {r.get('fs_div', '연결')} | {_fmt(rev)} | {_fmt(op)} | {opm_str} | {_fmt(ni)} | {_fmt(ast)} | {_fmt(liab)} | {_fmt(eq)} | {debt_ratio_str} |"
+        )
+    return "\n".join(lines)
+
+
+def build_quantitative_ic_memo(
+    company_name: str,
+    industry_info: Dict[str, Any],
+    materials_content: str,
+    enrichment_bundle: Optional[Dict[str, Any]] = None,
+    ai_status_note: str = "",
+) -> str:
+    """
+    AI 크레딧 소진·오프라인·응답 지연 시에도 깨짐 없이 즉시 제공되는
+    DART 공시재무 · 자본변동(RCPS/전환권) · 특허(IP) · 동적 법령/세제 레지스트리 기반 정량 투자심사보고서(IC Memo)
+    """
+    bundle = enrichment_bundle or {}
+    comp = bundle.get("company") or {}
+    patents = bundle.get("patents") or []
+    registry = bundle.get("registry") or []
+    web_info = (bundle.get("website_summary") or "").strip()
+    user_note = (bundle.get("user_materials") or "").strip()
+
+    major = industry_info.get("major", "기타")
+    middle = industry_info.get("middle", "기타/미정")
+    minor = industry_info.get("minor", "기타")
+    code = industry_info.get("code", "OT-T-01")
+    ind_type = industry_info.get("type", "신종 산업" if "-E-" in code else "기존 산업")
+    specific_inst = INDUSTRY_SPECIFIC_MODULES.get(major, INDUSTRY_SPECIFIC_MODULES["기타"])
+
+    fin_hist = comp.get("financial_history") or []
+    fin_table = format_financial_history_table(fin_hist)
+
+    # 재무 핵심 지표 계산
+    rev = comp.get("revenue_krw")
+    op = comp.get("op_profit_krw")
+    ni = comp.get("net_income_krw")
+    ast = comp.get("total_assets_krw")
+    liab = comp.get("total_liab_krw")
+    eq = comp.get("total_equity_krw")
+    bsns_yr = comp.get("latest_bsns_year") or "최근"
+
+    yoy_comment = "다년도 비교 데이터 확보 시 산출"
+    if len(fin_hist) >= 2:
+        sorted_fin = sorted(fin_hist, key=lambda x: str(x.get("year", "")), reverse=True)
+        r_cur = sorted_fin[0].get("revenue_krw")
+        r_prev = sorted_fin[1].get("revenue_krw")
+        if r_cur is not None and r_prev is not None:
+            try:
+                if float(r_prev) > 0:
+                    yoy = ((float(r_cur) - float(r_prev)) / float(r_prev)) * 100.0
+                    yoy_comment = f"**{yoy:+.1f}%** ({sorted_fin[1].get('year')}년 {float(r_prev):,.1f}억원 → {sorted_fin[0].get('year')}년 {float(r_cur):,.1f}억원)"
+            except Exception:
+                pass
+
+    opm_comment = "미공시"
+    if rev is not None and op is not None:
+        try:
+            if float(rev) > 0:
+                opm_val = (float(op) / float(rev)) * 100.0
+                opm_comment = f"**{opm_val:.1f}%** ({'영업흑자 시현' if float(op) >= 0 else '영업적자 구간 - 런웨이 점검 필요'})"
+        except Exception:
+            pass
+
+    debt_comment = "미공시"
+    if liab is not None and eq is not None:
+        try:
+            if float(eq) > 0:
+                dr = (float(liab) / float(eq)) * 100.0
+                stability = "매우 우량(100% 미만)" if dr < 100 else ("양호(200% 미만)" if dr < 200 else "레버리지 관리 필요(200% 이상)")
+                debt_comment = f"**{dr:.1f}%** — {stability}"
+            else:
+                debt_comment = "**자본잠식 구간** — 유상증자 또는 전환사채 전환을 통한 자본확충 시급"
+        except Exception:
+            pass
+
+    # 예비 종합 등급 산출
+    score_pts = 65
+    if rev is not None and float(rev or 0) >= 100:
+        score_pts += 8
+    if op is not None and float(op or 0) > 0:
+        score_pts += 10
+    if eq is not None and liab is not None and float(eq or 0) > 0 and (float(liab or 0) / float(eq)) < 1.5:
+        score_pts += 7
+    if len(patents) >= 3:
+        score_pts += 5
+
+    if score_pts >= 85:
+        verdict_label = "긍정적 검토 권고 (A- / 우량 정량지표 보유)"
+    elif score_pts >= 72:
+        verdict_label = "조건부 긍정 검토 (B+ / 핵심 마일스톤 및 밸류에이션 검증 조건)"
+    else:
+        verdict_label = "보수적 실사 필요 (B0 / 수익성·재무구조 또는 초기 기술실사 선행 필요)"
+
+    sections = []
+    if ai_status_note:
+        sections.append(
+            f"> 💡 **[안내] DART·특허·세제 실데이터 기반 정량 투자심사보고서 모드**\n"
+            f"> - 사유: {ai_status_note}\n"
+            f"> - 우측 상단 **`🔑 API 키 관리`**에서 크레딧이 충전된 Gemini API 키 또는 OpenAI API 키(`sk-...`)를 등록하시면 LLM 심층 서술이 추가되며, 상단 **`[완성된 프롬프트 스크립트]`** 탭을 복사하여 외부 AI에서도 즉시 활용하실 수 있습니다."
+        )
+
+    sections.append(f"# 📋 투자심사보고서 (IC Memo): {comp.get('corp_name') or company_name}")
+
+    # Step 0
+    emp_display = f"{int(comp['employee_count']):,}명" if comp.get("employee_count") else "비공개/확인 필요"
+    sections.append(
+        "## [Step 0] 기업 개황 및 표준 산업 포지셔닝\n\n"
+        "| 구분 | 주요 내용 | 구분 | 주요 내용 |\n"
+        "| :--- | :--- | :--- | :--- |\n"
+        f"| **분석 대상 법인** | {comp.get('corp_name') or company_name} ({comp.get('corp_cls') or '비상장'}) | **대표이사** | {comp.get('ceo_name') or '확인 필요'} |\n"
+        f"| **설립일 / 업력** | {comp.get('est_dt') or '-'} | **사업자등록번호** | {comp.get('biz_reg_no') or '-'} |\n"
+        f"| **임직원 수** | {emp_display} | **재무건전성 등급** | **{comp.get('credit_grade') or '산출 대기'}** |\n"
+        f"| **표준 산업 분류** | `{code}` {major} > {middle} > **{minor}** | **포지셔닝 구분** | **{ind_type}** |\n"
+        f"| **본점 소재지** | {comp.get('address') or '-'} | **공식 홈페이지** | {comp.get('homepage') or '-'} |\n\n"
+        f"- **포지셔닝 심사 기준:** 본 기업은 우리 하우스 42개 표준 업종 체계상 **`{major} > {middle} > {minor} ({ind_type})`** 영역에 위치합니다. "
+        + (
+            "기존 산업군 특성상 **실질 공헌이익·영업현금흐름(OCF)·시장점유율 방어력 및 Take Rate 건전성**을 중심으로 밸류에이션 하방을 검증해야 합니다."
+            if "기존" in ind_type
+            else "신종 성장 산업군 특성상 **독점적 기술/데이터 해자(Moat), 선점 효과, 고객 유지율(NRR) 및 다음 라운드 리레이팅 마일스톤 달성 가능성**을 핵심 잣대로 심사합니다."
+        )
+    )
+
+    # Step 1 - 1. Cap Table
+    cap_hist = (comp.get("capital_increase_summary") or "").strip()
+    cap_md = "### 1. 지분구성 및 자본변동 이력 (Cap Table & Fundraising History)\n"
+    if cap_hist:
+        cap_lines = "\n".join([f"- {ln.strip()}" for ln in cap_hist.splitlines() if ln.strip()])
+        cap_md += (
+            "**[DART 전자공시 기준 주요 유상증자 · 전환권 · 주식매수선택권 이력]**\n"
+            f"{cap_lines}\n\n"
+            "- **심사 체크포인트:** 기발행 상환전환우선주(RCPS)·전환우선주(CPS) 및 스톡옵션 행사 물량에 따른 **잠재 지분 희석률(Fully-Diluted Share Count)**과 기존 FI의 상환권·청산우선권 만기 도래(오버행 이슈)를 주주명부 원본 대조로 확정해야 합니다."
+        )
+    else:
+        cap_md += (
+            "- DART 정기공시상 최근 증자·전환 세부 내역이 조회되지 않는 초기/비외감 구간이거나 보통주 중심 구조입니다.\n"
+            "- **필수 실사 요청자료:** 최신 주주명부(Fully-Diluted 기준), 기발행 RCPS/CB/BW 투자계약서(리픽싱 하한 및 동반매도청구권 조항), 잔여 스톡옵션 부여 현황표."
+        )
+
+    # Step 1 - 2. 시장 및 사업 모델
+    biz_summary_blocks = []
+    if user_note:
+        biz_summary_blocks.append(f"- **입력된 기업/딜 요약:** {user_note[:600]}")
+    if web_info:
+        clean_web_lines = [ln.strip() for ln in web_info.splitlines() if ln.strip() and not ln.startswith("[기업 공식 웹사이트")][:6]
+        if clean_web_lines:
+            biz_summary_blocks.append("- **공식 채널 확인 사업 내용:**\n  " + "\n  ".join(clean_web_lines))
+    if not biz_summary_blocks:
+        biz_summary_blocks.append(f"- `{minor}` 도메인 내 핵심 제품/플랫폼 단가(ARPU) 및 유효 타깃 고객군 기반의 Bottom-up 유효시장(SOM) 산정이 필요합니다.")
+
+    market_md = (
+        "### 2. 시장 분석 및 사업 모델 진단 (Market & Business Model)\n"
+        + "\n".join(biz_summary_blocks)
+        + "\n- **시장 확장성 및 진입장벽 점검:** ① 고객 전환비용(Switching Cost) 및 네트워크 효과 존재 여부, ② 크로스보더(글로벌) 또는 인접 B2B/SaaS 수익모델 확장 시 한계비용 구조, ③ 플랫폼/규제 환경 변화에 따른 수수료율·원가율 방어력을 중점 점검합니다."
+    )
+
+    # Step 1 - 3. 3개년 재무
+    fin_md = f"### 3. 재무 실적 및 건전성 정량 분석 ({comp.get('data_source') or 'DART'} 기준)\n"
+    if fin_table:
+        fin_md += (
+            f"{fin_table}\n\n"
+            f"- **외형 성장성 (YoY):** {yoy_comment}\n"
+            f"- **수익성 진단 ({bsns_yr}년 영업이익률):** {opm_comment}\n"
+            f"- **재무 안정성 (부채비율):** {debt_comment}\n"
+        )
+    elif rev is not None or ast is not None:
+        fin_md += (
+            f"- **{bsns_yr}년 요약 실적:** 매출액 {rev if rev is not None else '-'}억원 | 영업이익 {op if op is not None else '-'}억원 | "
+            f"당기순이익 {ni if ni is not None else '-'}억원 | 자산총계 {ast if ast is not None else '-'}억원 | 자본총계 {eq if eq is not None else '-'}억원\n"
+            f"- **수익성 및 건전성:** 영업이익률 {opm_comment} / 부채비율 {debt_comment}\n"
+        )
+    else:
+        fin_md += (
+            "- 현재 DART 외부감사 재무제표 공시 이전 단계이거나 비외감 법인입니다.\n"
+            "- **실사 필수 징구:** 최근 3개년 표준재무제표증명원(국세청 홈택스), 월별 관리회계 손익계산서(Burn Rate 및 공헌이익 확인용), 부가가치세 과세표준증명원.\n"
+        )
+
+    # Step 1 - 4. 기술력 & 특허(IP)
+    ip_md = "### 4. 기술력 · 특허(IP) 해자 및 경영진 역량\n"
+    if patents:
+        ip_rows = [
+            "| 출원/등록일 | 특허(발명) 명칭 | 상태 | 출원/등록번호 | 출처 |",
+            "| :---: | :--- | :---: | :---: | :---: |",
+        ]
+        for p in patents[:8]:
+            ip_rows.append(
+                f"| {p.get('application_date') or '-'} | {p.get('invention_title') or '-'} | **{p.get('registration_status') or '공개'}** | `{p.get('application_number') or '-'}` | {p.get('source_name') or '특허DB'} |"
+            )
+        ip_md += (
+            "\n".join(ip_rows)
+            + f"\n\n- **IP 포트폴리오 진단:** 총 **{len(patents)}건**의 핵심 특허/출원 시그널이 확인됩니다. 핵심 매출 제품과 등록 특허 청구항 간의 직접적 매칭 여부 및 대표이사·핵심 연구인력의 직무발명보상 승계 완료 여부를 법률 실사에서 확인하십시오."
+        )
+    else:
+        ip_md += (
+            "- 조회된 공개 국내 특허 시그널이 제한적이므로 영업비밀·독점 데이터셋·소프트웨어 파이프라인 또는 브랜드/네트워크 해자 중심의 경쟁우위 검증이 필요합니다.\n"
+            f"- **경영진/조직 점검:** 대표이사({comp.get('ceo_name') or '창업자'}) 및 C-Level 핵심 인력의 도메인 경력, 임직원({comp.get('employee_count') or '미공시'}명) 인당 생산성 및 핵심 인력 이탈 방지(Lock-up) 조항을 점검하십시오."
+        )
+
+    # Step 1 - 5. 프라이싱 & 밸류에이션
+    pricing_md = "### 5. 프라이싱(밸류에이션) 적정성 및 자금 용도 가이드\n"
+    if rev is not None and float(rev or 0) > 0:
+        r_f = float(rev)
+        op_f = float(op) if op is not None else 0.0
+        if op_f > 0:
+            pricing_md += (
+                f"- **실적 기반 밸류에이션 기준점:** {bsns_yr}년 매출액 **{r_f:,.1f}억원**, 영업이익 **{op_f:,.1f}억원** 시현 기업으로, 단순 PSR 외에 동종 피어그룹 **EV/EBITDA 및 PER 멀티플 교차 검증**이 가능합니다.\n"
+                f"  - 참고 시뮬레이션 (Peer PSR 1.5x ~ 3.0x 가정 시): 내재 영업가치 약 **{r_f * 1.5:,.0f}억원 ~ {r_f * 3.0:,.0f}억원** 밴드 (순차입금 가감 및 성장률 프리미엄 별도 반영, 좌측 사이드바 `📊 밸류에이션 계산기`에서 정밀 산출 권장).\n"
+            )
+        else:
+            pricing_md += (
+                f"- **성장 단계 밸류에이션 기준점:** {bsns_yr}년 매출액 **{r_f:,.1f}억원**(영업손익 {op_f:,.1f}억원) 구간으로, 매출 총이익률(Gross Margin) 및 YoY 성장률로 보정한 **EV/Sales(PSR) 및 공헌이익 전환 시점 DCF** 병행 검증이 적합합니다.\n"
+            )
+    else:
+        pricing_md += "- **초기/비공개 실적 밸류에이션:** 마일스톤 기반 스코어카드법·VC Method(목표 Exit 가치 할인) 및 동종 라운드 거래 사례 비교법을 결합하여 Pre-money 기업가치를 산정하십시오.\n"
+    pricing_md += "- **자금 용도(Use of Proceeds) 심사 원칙:** 신규 조달 자금이 기존 고금리 차입금 단순 상환이나 비효율적 마케팅 소진(Burn)이 아닌 **R&D·핵심 인재 확보·글로벌/B2B 매출 직결 CAPEX**에 최소 70% 이상 배분되는지 투자계약서상 자금사용 협의권으로 통제해야 합니다."
+
+    # Step 1 - 6. 자본조달 구조 & 동적 법령/세제 레지스트리
+    struct_md = "### 6. 최적 자본조달 구조 및 현행 벤처투자 법령·세제 검토\n"
+    if op is not None and float(op or 0) > 0:
+        struct_md += "- **권고 딜 구조:** 영업흑자 창출력이 확인되므로 하방 보호와 업사이드를 겸비한 **상환전환우선주(RCPS)** 또는 **전환사채(CB) / 교환사채(EB)** 구조 모두 설계 가능하며, IPO 가시성에 따른 Refixing 및 동반매도참여권(Tag-along) 확보를 권고합니다.\n"
+    else:
+        struct_md += "- **권고 딜 구조:** 손익분기점(BEP) 도달 전 또는 성장 투자 구간이므로 **리픽싱(Refixing 70% 하한 등) 및 우선청산권(Liquidation Preference 1x Participating 등)이 부여된 RCPS** 또는 **마일스톤 분할 납입(Tranche) 조건부 투자**가 투자자 하방 경직성 확보에 유리합니다.\n"
+
+    if registry:
+        reg_table = [
+            "\n**[동적 설정 레지스트리(`DynamicConfigRegistry`) 연동 — 현행 벤처투자 법령·세제 기준]**",
+            "| 제도/규제 항목 | 현행 기준값 | 근거 법령 및 비고 |",
+            "| :--- | :---: | :--- |",
+        ]
+        for r in registry[:8]:
+            reg_table.append(
+                f"| {r.get('config_label', '-')} | **{r.get('config_value', '')}{r.get('unit', '')}** | {r.get('legal_basis', '-')} |"
+            )
+        struct_md += "\n".join(reg_table)
+
+    sections.append("## [Step 1] 6대 핵심 투자심사 분석\n\n" + "\n\n".join([cap_md, market_md, fin_md, ip_md, pricing_md, struct_md]))
+
+    # Step 2
+    sections.append(f"## [Step 2] 업종 특화 핵심 심사 체크포인트 ({major})\n\n{specific_inst}")
+
+    # Step 3
+    sections.append(
+        "## [Step 3] 예비 투자 심사 의견 (Preliminary IC Verdict)\n\n"
+        f"- **정량 지표 종합 예비 등급:** **{verdict_label}**\n"
+        "- **핵심 투자 포인트 (Key Highlights):**\n"
+        f"  1. 공인 기업데이터({comp.get('data_source') or 'DART'}) 및 업종 분류(`{code}`) 기준 외형·재무 구조의 객관적 검증 기반 확보\n"
+        f"  2. `{major} > {minor}` 도메인 내 사업 확장성 및 자본시장 조달 이력 보유\n"
+        "  3. 벤처투자조합 의무투자 비율 및 세제 혜택 요건과의 부합성 검토 가능\n"
+        "- **IC 상정 전 필수 확인 리스크 (Key DD Questions):**\n"
+        "  1. 기발행 우선주(RCPS/CPS)·전환사채·스톡옵션 전량 전환 가정 시 창업자 유효 지분율 및 오버행 물량은 적정한가?\n"
+        "  2. 일회성 수익을 제거한 핵심 사업부의 공헌이익률(Contribution Margin)과 순매출유지율(NRR) 추이는 어떠한가?\n"
+        "  3. 피어그룹 최근 멀티플 대비 요구 Pre-money 밸류에이션의 할인율(Safety Margin)이 충분히 확보되었는가?"
+    )
+
+    return "\n\n---\n\n".join(sections)
+
+
 async def generate_ic_memo(
     company_name: str,
     industry_info: Dict[str, Any],
     materials_content: str,
-    api_key: Optional[str] = None
+    api_key: Optional[str] = None,
+    enrichment_bundle: Optional[Dict[str, Any]] = None,
 ) -> str:
     """
-    Gemini 모델을 호출하여 심층 IC Memo 리포트 생성
+    Gemini 또는 OpenAI 모델을 호출하여 심층 IC Memo 리포트 생성.
+    크레딧 소진(402/429) 또는 API 장애 시 깨진 에러 문자열 대신 실데이터 정량 IC Memo를 즉시 반환.
     """
+    from dotenv import load_dotenv
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    load_dotenv(dotenv_path=env_path, override=True)
+
     prompt, major = build_ic_memo_prompt(company_name, industry_info, materials_content)
 
-    # API Key 확인
-    key = api_key or os.getenv("GEMINI_API_KEY")
+    key = (api_key or os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
     if not key:
-        return (
-            "### [오류] Gemini API 키가 설정되지 않았습니다.\n"
-            "환경변수 `GEMINI_API_KEY`를 설정하거나 관리자에게 문의하세요.\n\n"
-            "#### 생성된 프롬프트 스크립트 (수동 LLM 복사용):\n\n"
-            "```markdown\n" + prompt + "\n```"
+        return build_quantitative_ic_memo(
+            company_name=company_name,
+            industry_info=industry_info,
+            materials_content=materials_content,
+            enrichment_bundle=enrichment_bundle,
+            ai_status_note="AI API 키(`GEMINI_API_KEY` 또는 `OPENAI_API_KEY`)가 아직 설정되지 않았습니다.",
         )
 
+    # 1. OpenAI 호환 키(sk-...) 자동 지원
+    openai_key = key if key.startswith("sk-") else (os.getenv("OPENAI_API_KEY") or "").strip()
+    if openai_key.startswith("sk-"):
+        try:
+            import requests
+            r_oa = requests.post(
+                "https://api.openai.com/v1/chat/completions",
+                headers={"Authorization": f"Bearer {openai_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "gpt-4o-mini",
+                    "messages": [
+                        {"role": "system", "content": "당신은 글로벌 Top-Tier 벤처캐피탈 수석 투자심사역입니다."},
+                        {"role": "user", "content": prompt},
+                    ],
+                    "temperature": 0.3,
+                },
+                timeout=60,
+            )
+            if r_oa.status_code == 200:
+                choices = r_oa.json().get("choices", [])
+                if choices and choices[0].get("message", {}).get("content"):
+                    return choices[0]["message"]["content"]
+        except Exception as oa_err:
+            logger.warning(f"OpenAI fallback attempt warning: {oa_err}")
+
+    # 2. Gemini 현행 지원 모델 호출
     try:
         import google.generativeai as genai
         genai.configure(api_key=key)
 
         model_candidates = [
-            "gemini-flash-lite-latest",
-            "gemini-2.0-flash",
             "gemini-3.8-flash",
-            "gemini-2.0-flash-exp",
-            "gemini-pro"
+            "gemini-flash-latest",
+            "gemini-flash-lite-latest",
+            "gemini-3.5-flash",
         ]
 
+        credit_depleted = False
+        invalid_key = False
         last_error = None
+
         for model_name in model_candidates:
             try:
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
-                if response and response.text:
+                if response and getattr(response, "text", None):
                     return response.text
             except Exception as e:
-                last_error = e
-                logger.warning(f"Model {model_name} failed: {e}, trying next...")
+                err_str = str(e)
+                last_error = err_str
+                logger.warning(f"Model {model_name} failed: {err_str}, trying next...")
+                if "prepayment credits are depleted" in err_str.lower() or "402" in err_str or "quota" in err_str.lower() or "429" in err_str:
+                    credit_depleted = True
+                    break  # 계정 단위 크레딧 소진이므로 불필요한 재시도 즉시 중단
+                if "api key not valid" in err_str.lower() or "400" in err_str or "403" in err_str:
+                    invalid_key = True
+                    break
 
-        return (
-            f"### [오류] 리포트 생성 실패\n"
-            f"AI 모델 응답 중 오류가 발생했습니다: {last_error}\n\n"
-            "#### 생성된 프롬프트 스크립트:\n\n"
-            "```markdown\n" + prompt + "\n```"
+        if credit_depleted:
+            reason_msg = "현재 등록된 Google AI Studio 프로젝트의 선불 크레딧(Prepayment Credits) 또는 호출 한도가 소진되었습니다."
+        elif invalid_key:
+            reason_msg = "현재 등록된 Gemini API 키가 유효하지 않거나 권한이 없습니다."
+        else:
+            reason_msg = f"AI 모델 응답 지연 또는 일시적 제한 ({str(last_error)[:120]})"
+
+        return build_quantitative_ic_memo(
+            company_name=company_name,
+            industry_info=industry_info,
+            materials_content=materials_content,
+            enrichment_bundle=enrichment_bundle,
+            ai_status_note=reason_msg,
         )
 
     except Exception as e:
         logger.error(f"Error calling Gemini for IC Memo: {e}")
-        return (
-            f"### [오류] AI 분석 실행 중 예외 발생: {str(e)}\n\n"
-            "#### 생성된 프롬프트 스크립트:\n\n"
-            "```markdown\n" + prompt + "\n```"
+        return build_quantitative_ic_memo(
+            company_name=company_name,
+            industry_info=industry_info,
+            materials_content=materials_content,
+            enrichment_bundle=enrichment_bundle,
+            ai_status_note=f"AI 엔진 연결 중 예외가 발생하여 정량 심사 모드로 자동 전환되었습니다 ({str(e)[:100]}).",
         )

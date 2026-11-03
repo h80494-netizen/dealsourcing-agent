@@ -102,7 +102,15 @@ class IndustryManager:
                 kw_fr = self._clean_keywords(r.get('프랑스어_키워드(Keywords_FR)', ''))
                 
                 # 모든 키워드 통합 목록
-                all_kws = list(dict.fromkeys(kw_kr + kw_en + kw_zh + kw_ja + kw_de + kw_fr))
+                extra_domain_kws = {
+                    'CM-T-03': ['숙소', '호텔', '모텔', '펜션', '항공권', '항공', '레저', '투어', '티켓', '여행', '야놀자', '여기어때', '인터파크', 'ota', '배달'],
+                    'CM-T-01': ['컬리', '마켓컬리', '무신사', '쿠팡', '이커머스', '새벽배송', '패션플랫폼'],
+                    'OT-T-03': ['토스', '비바리퍼블리카', '핀테크', '간편송금', '인터넷전문은행', '페이'],
+                    'BI-E-04': ['루닛', '뷰노', '의료ai', '영상진단ai', '디지털헬스케어'],
+                    'OT-E-05': ['레인보우로보틱스', '두산로보틱스', '휴머노이드', '이족보행', '로봇팔'],
+                    'AI-E-04': ['리벨리온', '퓨리오사', '퓨리오사ai', '사피온', '반도체설계', '팹리스'],
+                }.get(code, [])
+                all_kws = list(dict.fromkeys(kw_kr + kw_en + kw_zh + kw_ja + kw_de + kw_fr + extra_domain_kws))
                 # 소분류명과 중분류명 자체도 매칭 키워드로 추가
                 all_kws.append(minor)
                 clean_minor = re.sub(r'\(.*?\)', '', minor).strip()
