@@ -1221,11 +1221,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-report').addEventListener('click', async () => {
         reportModal.style.display = 'flex';
         document.getElementById('report-loading').style.display = 'block';
+        document.getElementById('report-loading').textContent = 'AI가 수집된 최신 기사를 분석하여 브리핑 리포트를 생성 중입니다... (약 5~15초 소요)';
+        document.getElementById('report-content-container').style.display = 'none';
         const revealContainer = document.getElementById('reveal-container');
         if (revealContainer) revealContainer.style.display = 'none';
         
         try {
             const res = await fetch('/api/report');
+            if (!res.ok) {
+                throw new Error(`서버 응답 오류 (HTTP ${res.status})`);
+            }
             const json = await res.json();
             if (json.status === 'success') {
                 const markdownText = json.report;
@@ -1234,14 +1239,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 document.getElementById('report-loading').style.display = 'none';
                 document.getElementById('report-content-container').style.display = 'block';
-                
-                
             } else {
                 document.getElementById('report-loading').textContent = '리포트 생성 실패: ' + (json.message || '알 수 없는 오류');
             }
         } catch (e) {
             console.error(e);
-            document.getElementById('report-loading').textContent = '리포트 생성 중 오류 발생';
+            document.getElementById('report-loading').textContent = '리포트 생성 중 오류 발생: ' + (e.message || '');
         }
     });
 
@@ -1386,10 +1389,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // 결과 모달창 띄우기
             reportModal.style.display = 'flex';
             document.getElementById('report-loading').style.display = 'block';
+            document.getElementById('report-content-container').style.display = 'none';
             if (urls.length >= 5) {
-                document.getElementById('report-loading').textContent = `선택하신 ${urls.length}개 기사를 바탕으로 5페이지 이상의 심층 분석 리포트(산업 동향 및 기업 정보)를 작성 중입니다... (약 15~40초 소요)`;
+                document.getElementById('report-loading').textContent = `선택하신 ${urls.length}개 기사를 바탕으로 심층 분석 리포트(산업 동향 및 기업 정보)를 작성 중입니다... (약 5~20초 소요)`;
             } else {
-                document.getElementById('report-loading').textContent = `AI가 ${urls.length}개 기사 원문을 수집하고 브리핑 리포트를 생성 중입니다... (약 10~20초 소요)`;
+                document.getElementById('report-loading').textContent = `AI가 ${urls.length}개 기사를 분석하고 브리핑 리포트를 생성 중입니다... (약 5~15초 소요)`;
             }
             const revealContainer = document.getElementById('reveal-container');
             if (revealContainer) revealContainer.style.display = 'none';
@@ -1400,6 +1404,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ urls: urls, grade_option: "ALL" })
                 });
+                if (!res.ok) {
+                    throw new Error(`서버 응답 오류 (HTTP ${res.status})`);
+                }
                 const json = await res.json();
                 if (json.status === 'success') {
                     const markdownText = json.report;
@@ -1435,7 +1442,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } catch (e) {
                 console.error(e);
-                document.getElementById('report-loading').textContent = '요청 중 오류가 발생했습니다.';
+                document.getElementById('report-loading').textContent = '요청 중 오류가 발생했습니다: ' + (e.message || '');
             }
         });
     }

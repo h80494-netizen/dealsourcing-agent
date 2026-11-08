@@ -618,6 +618,111 @@ def build_quantitative_ic_memo(
     return "\n\n---\n\n".join(sections)
 
 
+def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeout_sec: int = 50) -> Tuple[Optional[str], str]:
+    """
+    gRPC 무한 재시도(Backoff) 대기를 원천 방지하는 고속 REST 기반 AI 호출 헬퍼.
+    1순위: gemini-flash-lite-latest (무료/유료 전 등급 즉시 응답)
+    2순위: gemini-flash-latest / gemini-3.8-flash / gemini-3.5-flash-lite / gemma-4-31b-it
+    OpenAI 키(sk-...) 입력 시 자동 분기.
+    Returns:
+        (generated_text_or_None, error_reason_if_failed)
+    """
+    import requests
+    from dotenv import load_dotenv
+
+    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
+    load_dotenv(dotenv_path=env_path, override=True)
+
+    key = (api_key or os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
+    if not key:
+        return None, "AI API 키(`GEMINI_API_KEY` 또는 `OPENAI_API_KEY`)가 설정되지 않았습니다."
+
+    # 1. OpenAI 호환 키(sk-...) 자동 지원
+    openai_key = key if key.startswith("sk-") else (os.getenv("OPENAI_API_KEY") or "").strip()
+    if openai_key.startswith("sk-"):
+        try:
+            r_oa = requests.post(
+                "https://api.openai.com/v1/chat/completions",
+                headers={"Authorization": f"Bearer {openai_key}", "Content-Type": "application/json"},
+                json={
+                    "model": "gpt-4o-mini",
+                    "messages": [
+                        {"role": "system", "content": "당신은 글로벌 Top-Tier 벤처캐피탈 수석 투자심사역이자 시니어 애널리스트입니다."},
+                        {"role": "user", "content": prompt},
+                    ],
+                    "temperature": 0.3,
+                },
+                timeout=timeout_sec,
+            )
+            if r_oa.status_code == 200:
+                choices = r_oa.json().get("choices", [])
+                if choices and choices[0].get("message", {}).get("content"):
+                    return choices[0]["message"]["content"].strip(), ""
+        except Exception as oa_err:
+            logger.warning(f"OpenAI call warning: {oa_err}")
+
+    # 2. Gemini REST API 직접 호출 (gRPC 60초+ 재시도 블로킹 제거, 무료/유료 모두 작동하는 flash-lite 최우선)
+    model_candidates = [
+        "gemini-flash-lite-latest",
+        "gemini-3.5-flash-lite",
+        "gemini-flash-latest",
+        "gemini-3.8-flash",
+        "gemma-4-31b-it",
+    ]
+
+    credit_depleted = False
+    quota_exceeded = False
+    invalid_key = False
+    last_error = ""
+
+    for model_name in model_candidates:
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={key}"
+            resp = requests.post(
+                url,
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.35},
+                },
+                timeout=timeout_sec,
+            )
+            if resp.status_code == 200:
+                data = resp.json()
+                cands = data.get("candidates") or []
+                if cands:
+                    parts = cands[0].get("content", {}).get("parts") or []
+                    texts = [p.get("text", "") for p in parts if p.get("text")]
+                    joined = "\n".join(texts).strip()
+                    if joined:
+                        return joined, ""
+            else:
+                err_txt = resp.text[:300]
+                last_error = f"HTTP {resp.status_code} ({model_name}): {err_txt}"
+                logger.warning(f"Gemini REST {model_name} status {resp.status_code}: {err_txt[:140]}")
+                low = err_txt.lower()
+                if resp.status_code == 402 or "prepayment credits are depleted" in low:
+                    credit_depleted = True
+                    break  # 계정 전체 선불 크레딧 소진 시 즉시 중단
+                if resp.status_code in (400, 403) and ("api key not valid" in low or "permission_denied" in low):
+                    invalid_key = True
+                    break
+                if resp.status_code == 429 or "quota" in low:
+                    quota_exceeded = True
+                    continue  # 모델별 쿼터 제한이므로 다음 후보 모델 계속 시도!
+        except Exception as e:
+            last_error = str(e)
+            logger.warning(f"Gemini REST {model_name} exception: {e}")
+            continue
+
+    if credit_depleted:
+        return None, "현재 등록된 Google AI Studio 프로젝트의 선불 크레딧(Prepayment Credits)이 소진되었습니다."
+    if invalid_key:
+        return None, "현재 등록된 Gemini API 키가 유효하지 않거나 권한이 없습니다."
+    if quota_exceeded:
+        return None, "현재 등록된 Gemini API 키의 분당/일일 무료 호출 할당량(Quota)을 초과했습니다. 잠시 후 다시 시도하거나 유료/신규 키를 등록해 주세요."
+    return None, f"AI 모델 응답 지연 또는 일시적 제한 ({last_error[:120]})"
+
+
 async def generate_ic_memo(
     company_name: str,
     industry_info: Dict[str, Any],
@@ -629,101 +734,17 @@ async def generate_ic_memo(
     Gemini 또는 OpenAI 모델을 호출하여 심층 IC Memo 리포트 생성.
     크레딧 소진(402/429) 또는 API 장애 시 깨진 에러 문자열 대신 실데이터 정량 IC Memo를 즉시 반환.
     """
-    from dotenv import load_dotenv
-    env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
-    load_dotenv(dotenv_path=env_path, override=True)
+    import asyncio
 
     prompt, major = build_ic_memo_prompt(company_name, industry_info, materials_content)
+    ai_text, err_reason = await asyncio.to_thread(call_gemini_or_openai_sync, prompt, api_key, 55)
+    if ai_text:
+        return ai_text
 
-    key = (api_key or os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
-    if not key:
-        return build_quantitative_ic_memo(
-            company_name=company_name,
-            industry_info=industry_info,
-            materials_content=materials_content,
-            enrichment_bundle=enrichment_bundle,
-            ai_status_note="AI API 키(`GEMINI_API_KEY` 또는 `OPENAI_API_KEY`)가 아직 설정되지 않았습니다.",
-        )
-
-    # 1. OpenAI 호환 키(sk-...) 자동 지원
-    openai_key = key if key.startswith("sk-") else (os.getenv("OPENAI_API_KEY") or "").strip()
-    if openai_key.startswith("sk-"):
-        try:
-            import requests
-            r_oa = requests.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={"Authorization": f"Bearer {openai_key}", "Content-Type": "application/json"},
-                json={
-                    "model": "gpt-4o-mini",
-                    "messages": [
-                        {"role": "system", "content": "당신은 글로벌 Top-Tier 벤처캐피탈 수석 투자심사역입니다."},
-                        {"role": "user", "content": prompt},
-                    ],
-                    "temperature": 0.3,
-                },
-                timeout=60,
-            )
-            if r_oa.status_code == 200:
-                choices = r_oa.json().get("choices", [])
-                if choices and choices[0].get("message", {}).get("content"):
-                    return choices[0]["message"]["content"]
-        except Exception as oa_err:
-            logger.warning(f"OpenAI fallback attempt warning: {oa_err}")
-
-    # 2. Gemini 현행 지원 모델 호출
-    try:
-        import google.generativeai as genai
-        genai.configure(api_key=key)
-
-        model_candidates = [
-            "gemini-3.8-flash",
-            "gemini-flash-latest",
-            "gemini-flash-lite-latest",
-            "gemini-3.5-flash",
-        ]
-
-        credit_depleted = False
-        invalid_key = False
-        last_error = None
-
-        for model_name in model_candidates:
-            try:
-                model = genai.GenerativeModel(model_name)
-                response = model.generate_content(prompt)
-                if response and getattr(response, "text", None):
-                    return response.text
-            except Exception as e:
-                err_str = str(e)
-                last_error = err_str
-                logger.warning(f"Model {model_name} failed: {err_str}, trying next...")
-                if "prepayment credits are depleted" in err_str.lower() or "402" in err_str or "quota" in err_str.lower() or "429" in err_str:
-                    credit_depleted = True
-                    break  # 계정 단위 크레딧 소진이므로 불필요한 재시도 즉시 중단
-                if "api key not valid" in err_str.lower() or "400" in err_str or "403" in err_str:
-                    invalid_key = True
-                    break
-
-        if credit_depleted:
-            reason_msg = "현재 등록된 Google AI Studio 프로젝트의 선불 크레딧(Prepayment Credits) 또는 호출 한도가 소진되었습니다."
-        elif invalid_key:
-            reason_msg = "현재 등록된 Gemini API 키가 유효하지 않거나 권한이 없습니다."
-        else:
-            reason_msg = f"AI 모델 응답 지연 또는 일시적 제한 ({str(last_error)[:120]})"
-
-        return build_quantitative_ic_memo(
-            company_name=company_name,
-            industry_info=industry_info,
-            materials_content=materials_content,
-            enrichment_bundle=enrichment_bundle,
-            ai_status_note=reason_msg,
-        )
-
-    except Exception as e:
-        logger.error(f"Error calling Gemini for IC Memo: {e}")
-        return build_quantitative_ic_memo(
-            company_name=company_name,
-            industry_info=industry_info,
-            materials_content=materials_content,
-            enrichment_bundle=enrichment_bundle,
-            ai_status_note=f"AI 엔진 연결 중 예외가 발생하여 정량 심사 모드로 자동 전환되었습니다 ({str(e)[:100]}).",
-        )
+    return build_quantitative_ic_memo(
+        company_name=company_name,
+        industry_info=industry_info,
+        materials_content=materials_content,
+        enrichment_bundle=enrichment_bundle,
+        ai_status_note=err_reason,
+    )

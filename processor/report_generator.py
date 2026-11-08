@@ -7,20 +7,24 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from database.db_manager import init_db, get_session
 from database.models import DealArticle
+from processor.ic_memo_generator import call_gemini_or_openai_sync
 
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
-load_dotenv(dotenv_path=env_path)
+load_dotenv(dotenv_path=env_path, override=True)
 
 def generate_daily_report():
+    load_dotenv(dotenv_path=env_path, override=True)
     engine = init_db()
     session = get_session(engine)
     
-    # 최근 24시간 이내 기사 수집
+    # 최근 24시간 이내 기사 수집 (없으면 최근 등록된 상위 30건 기사 활용)
     time_threshold = datetime.utcnow() - timedelta(days=1)
     recent_articles = session.query(DealArticle).filter(DealArticle.created_at >= time_threshold).all()
+    if not recent_articles:
+        recent_articles = session.query(DealArticle).order_by(DealArticle.pub_date.desc()).limit(30).all()
     
     if not recent_articles:
-        print("최근 24시간 내 수집된 기사가 없어 리포트를 생성하지 않습니다.")
+        print("수집된 기사가 없어 리포트를 생성하지 않습니다.")
         session.close()
         return
         
@@ -46,10 +50,7 @@ def generate_daily_report():
         ""
     ]
     
-    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
-    if api_key:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-flash-lite-latest')
+    api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
     
     # 전체 기사를 하나의 컨텍스트로 통합
     context_lines = []
@@ -62,47 +63,45 @@ def generate_daily_report():
             grade = art.news_grade or "C"
             source = art.source_name or "알 수 없음"
             title = art.title
-            summary = art.summary[:300] if art.summary else ""
+            summary = (art.compressed_summary or art.summary or "")[:300]
             context_lines.append(f"{idx+1}. [일자: {date_str}] [중요도: {grade}] [출처: {source}] 원문/번역제목: {title}\n요약: {summary}")
         context_lines.append("")
         
     context_text = "\n".join(context_lines)
     
     if api_key and context_text.strip():
-        try:
-            prompt = (
-                "당신은 벤처캐피탈(VC) 심사역을 위한 시니어 애널리스트입니다.\n"
-                "다음은 오늘 수집된 글로벌 벤처캐피탈/스타트업 핵심 뉴스 목록입니다.\n"
-                "이 뉴스들을 분석하여 **깔끔한 경영 보고서(Document Report) 형태**의 마크다운 리포트를 작성해 주세요.\n\n"
-                "[기준 일자]\n"
-                f"- 오늘 날짜(작성일자): {today_str}\n"
-                "- 기사들의 시점을 해석할 때 반드시 위 '오늘 날짜'를 기준으로 해석하세요 (예: 2024년 4분기 등 과거 시점으로 가정하지 말 것).\n\n"
-                "## [리포트 구성 양식]\n"
-                "# [일간] 글로벌 벤처캐피탈·스타트업 뉴스 브리핑\n"
-                f"- 발송일자: {today_str}\n"
-                "- 작성자: AI 애널리스트\n\n"
-                "## 1. 주요 기업 분석 (Company Analysis)\n"
-                "※ 제공된 뉴스 중 특정 '기업'과 관련된 기사들을 기업별로 묶어서 아래 양식으로 정리해 주세요.\n"
-                "※ 모든 기업명에는 반드시 소속 국가(예: 미국, 한국, 일본 등)를 병기하세요.\n"
-                "### [기업명 (국가 / 라운드)]\n"
-                "- **투자 금액**: \n"
-                "- **핵심 요약**: 한국어 번역 헤드라인 및 주요 비즈니스 모델\n"
-                "- **기업 분석**: (1) Executive summary (2) 산업 및 사업 분석 (반드시 괄호 안에 **[출처: 매체명 (국가) / 발행일자: 날짜]**를 표기할 것)\n\n"
-                "## 2. 시장 동향 및 정책 (Market & Policy)\n"
-                "※ 벤처캐피탈 시장, 펀드, 정책 등 일반 '뉴스' 성격의 기사들을 주제별로 요약해 주세요.\n"
-                "### [주제 카테고리명]\n"
-                "- **기사 제목 (출처: 매체명 (국가) / 발행일자: 날짜)**\n"
-                "  - 주요 내용 요약\n\n"
-                "조건: 반드시 프로페셔널한 한국어로 작성해 주세요. 모든 내용은 제공된 [뉴스 목록]에 기반해야 하며 기업명 및 기사 출처에는 국가(미국/한국/일본 등)를 꼭 표기하세요.\n\n"
-                f"[뉴스 목록]\n{context_text}"
-            )
-            
-            response = model.generate_content(prompt)
-            report_lines.append(response.text.strip())
+        prompt = (
+            "당신은 벤처캐피탈(VC) 심사역을 위한 시니어 애널리스트입니다.\n"
+            "다음은 오늘 수집된 글로벌 벤처캐피탈/스타트업 핵심 뉴스 목록입니다.\n"
+            "이 뉴스들을 분석하여 **깔끔한 경영 보고서(Document Report) 형태**의 마크다운 리포트를 작성해 주세요.\n\n"
+            "[기준 일자]\n"
+            f"- 오늘 날짜(작성일자): {today_str}\n"
+            "- 기사들의 시점을 해석할 때 반드시 위 '오늘 날짜'를 기준으로 해석하세요 (예: 2024년 4분기 등 과거 시점으로 가정하지 말 것).\n\n"
+            "## [리포트 구성 양식]\n"
+            "# [일간] 글로벌 벤처캐피탈·스타트업 뉴스 브리핑\n"
+            f"- 발송일자: {today_str}\n"
+            "- 작성자: AI 애널리스트\n\n"
+            "## 1. 주요 기업 분석 (Company Analysis)\n"
+            "※ 제공된 뉴스 중 특정 '기업'과 관련된 기사들을 기업별로 묶어서 아래 양식으로 정리해 주세요.\n"
+            "※ 모든 기업명에는 반드시 소속 국가(예: 미국, 한국, 일본 등)를 병기하세요.\n"
+            "### [기업명 (국가 / 라운드)]\n"
+            "- **투자 금액**: \n"
+            "- **핵심 요약**: 한국어 번역 헤드라인 및 주요 비즈니스 모델\n"
+            "- **기업 분석**: (1) Executive summary (2) 산업 및 사업 분석 (반드시 괄호 안에 **[출처: 매체명 (국가) / 발행일자: 날짜]**를 표기할 것)\n\n"
+            "## 2. 시장 동향 및 정책 (Market & Policy)\n"
+            "※ 벤처캐피탈 시장, 펀드, 정책 등 일반 '뉴스' 성격의 기사들을 주제별로 요약해 주세요.\n"
+            "### [주제 카테고리명]\n"
+            "- **기사 제목 (출처: 매체명 (국가) / 발행일자: 날짜)**\n"
+            "  - 주요 내용 요약\n\n"
+            "조건: 반드시 프로페셔널한 한국어로 작성해 주세요. 모든 내용은 제공된 [뉴스 목록]에 기반해야 하며 기업명 및 기사 출처에는 국가(미국/한국/일본 등)를 꼭 표기하세요.\n\n"
+            f"[뉴스 목록]\n{context_text}"
+        )
+        ai_text, err_reason = call_gemini_or_openai_sync(prompt, api_key, timeout_sec=50)
+        if ai_text:
+            report_lines.append(ai_text)
             report_lines.append("")
-        except Exception as e:
-            print(f"Briefing generation failed: {e}")
-            report_lines.append(f"AI 브리핑을 생성하는 도중 오류가 발생했습니다: {e}")
+        else:
+            report_lines.append(f"> AI 요약 생성 안내 ({err_reason}): 아래 수집된 핵심 딜 뉴스 목록을 참조하세요.\n\n{context_text}")
             report_lines.append("")
     elif not api_key:
         report_lines.append("API 키가 설정되지 않아 AI 브리핑을 생성할 수 없습니다.")

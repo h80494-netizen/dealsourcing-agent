@@ -44,6 +44,7 @@ from processor.ic_memo_generator import (
     extract_text_from_file,
     scrape_website_content,
     extract_urls_from_text,
+    call_gemini_or_openai_sync,
 )
 from industry_manager import industry_manager
 from collectors.news_rss_collector import collect_public_gov_news
@@ -1436,89 +1437,148 @@ async def generate_url_briefing(req: UrlBriefingRequest):
 
     env_path = os.path.join(ROOT_DIR, ".env")
     load_dotenv(dotenv_path=env_path, override=True)
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        return {"status": "error", "message": "API 키가 설정되지 않았습니다 (.env 파일 확인)."}
-
-    engine = init_db()
-    session = get_session(engine)
-    db_articles = session.query(DealArticle).filter(DealArticle.link.in_(req.urls)).all()
-    url_to_summary = {article.link: article.compressed_summary or article.summary for article in db_articles}
-    session.close()
-
-    async def get_content(url):
-        if url in url_to_summary and url_to_summary[url]:
-            return url_to_summary[url]
-        try:
-            return await fetch_url_content(url)
-        except Exception as e:
-            return f"수집 실패: {e}"
-
-    sem = asyncio.Semaphore(10)
-
-    async def safe_get_content(url):
-        async with sem:
-            return await get_content(url)
+    api_key = (os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
 
     urls_to_process = [url.strip() for url in req.urls if url.strip()]
-    tasks = [safe_get_content(url) for url in urls_to_process]
-    results = await asyncio.gather(*tasks)
+    engine = init_db()
+    session = get_session(engine)
+    db_articles = session.query(DealArticle).filter(DealArticle.link.in_(urls_to_process)).all()
+
+    url_to_meta = {}
+    for article in db_articles:
+        pub_str = article.pub_date.strftime("%Y-%m-%d") if article.pub_date else "최근"
+        summary_body = (article.compressed_summary or article.summary or "").strip()
+        ind_str = article.promising_industry or article.matched_industry or "벤처/스타트업"
+        meta_text = (
+            f"제목: {article.title}\n"
+            f"매체/국가: {article.source_name or '글로벌 미디어'} ({article.country or '한국'}) | 발행일: {pub_str} | 등급: {article.news_grade or 'B'} (Impact: {article.impact_score or 70})\n"
+            f"산업분류: {ind_str} | 타겟기업: {article.target_company or '-'}\n"
+        )
+        if summary_body:
+            meta_text += f"핵심내용: {summary_body}"
+        else:
+            meta_text += f"핵심내용: {article.title} 관련 주요 산업·투자 동향 보도"
+        url_to_meta[article.link] = {
+            "text": meta_text,
+            "title": article.title or article.link,
+            "source": article.source_name or "미디어",
+            "country": article.country or "한국",
+            "industry": ind_str,
+            "pub_date": pub_str,
+            "grade": article.news_grade or "B",
+            "summary": summary_body or article.title or "",
+        }
+    session.close()
+
+    # DB에 없는 외부 직접 입력 URL만 최대 5건에 한해 4초 타임아웃으로 병렬 스크래핑
+    external_urls = [u for u in urls_to_process if u not in url_to_meta][:5]
+    sem = asyncio.Semaphore(5)
+
+    async def safe_get_external(url):
+        async with sem:
+            try:
+                txt = await asyncio.wait_for(fetch_url_content(url), timeout=4.0)
+                return url, txt
+            except Exception as e:
+                return url, f"외부 URL 원문 요약 참조 ({url})"
+
+    if external_urls:
+        ext_results = await asyncio.gather(*(safe_get_external(u) for u in external_urls))
+        for u, txt in ext_results:
+            url_to_meta[u] = {
+                "text": txt,
+                "title": u,
+                "source": "외부 URL",
+                "country": "글로벌",
+                "industry": "기타",
+                "pub_date": datetime.datetime.now().strftime("%Y-%m-%d"),
+                "grade": "B",
+                "summary": txt[:300],
+            }
 
     articles_content = ""
-    for idx, (url, text) in enumerate(zip(urls_to_process, results)):
-        if len(text) > 2000:
-            text = text[:2000] + "... (중략)"
-        articles_content += f"\n\n[기사 {idx+1}] URL: {url}\n내용: {text}\n"
+    for idx, url in enumerate(urls_to_process):
+        meta = url_to_meta.get(url)
+        text = meta["text"] if meta else f"URL: {url}"
+        if len(text) > 1200:
+            text = text[:1200] + "... (중략)"
+        articles_content += f"\n[기사 {idx+1}] URL: {url}\n{text}\n"
 
     today_str = datetime.datetime.now().strftime("%Y년 %m월 %d일")
     num_articles = len(urls_to_process)
 
     if num_articles >= 5:
-        prompt = f"""
-당신은 글로벌 탑티어 벤처캐피탈(VC)의 수석 파트너이자 최고 산업 분석가(Chief Analyst)입니다.
-수집된 {num_articles}개의 뉴스 기사와 관련 기업/산업 정보 원문을 종합 분석하여, 투자심의위원회에 즉시 제출할 수 있는 **최소 5페이지(5개 이상의 대형 챕터) 이상의 전문 심층분석 보고서(Deep-Dive Investment & Industry Report)**를 작성해 주세요.
+        prompt = f"""당신은 글로벌 탑티어 벤처캐피탈(VC)의 수석 파트너이자 최고 산업 분석가(Chief Analyst)입니다.
+수집된 {num_articles}개의 뉴스 기사와 관련 기업/산업 정보를 종합 분석하여, 투자심의위원회에 즉시 제출할 수 있는 **전문 심층분석 보고서(Deep-Dive Investment & Industry Report)**를 작성해 주세요.
 
 [기준 일자]
 - 리포트 작성일: {today_str}
 
-[분석 대상 기사 원문 데이터 ({num_articles}건)]
+[분석 대상 기사 데이터 ({num_articles}건)]
 {articles_content}
 
 [보고서 구성 필수 목차 구조]
 # 📄 [글로벌 VC 심층 분석] 기술 산업 동향 및 핵심 기업 투자 분석 보고서
 *작성일자: {today_str} | 수집 딜 기사: 총 {num_articles}건*
-## 1페이지: Executive Summary & 글로벌 산업 메가 트렌드 (서론)
-## 2페이지: 주요 섹터별 기술 체계 및 세부 산업 동향 (본론 I)
-## 3페이지: 타겟 기업 심층 분석 및 비즈니스 모델 (본론 II - 기업명(국가) 표 필수 포함)
-## 4페이지: 주요 딜(Deal) 스펙트럼 & 시장 영향력 평가 (본론 III)
-## 5페이지: VC 투자 인사이트, 밸류에이션 & 리스크 평가 (결론)
-## 🔗 6페이지: 참조 기사 원문 및 출처 모음
+## 1. Executive Summary & 글로벌 산업 메가 트렌드
+## 2. 주요 섹터별 기술 체계 및 세부 산업 동향
+## 3. 타겟 기업 심층 분석 및 비즈니스 모델 (기업명(국가) 마크다운 표 필수 포함)
+## 4. 주요 딜(Deal) 스펙트럼 & 시장 영향력 평가
+## 5. VC 투자 인사이트, 밸류에이션 & 리스크 평가
+## 🔗 6. 참조 기사 원문 및 출처 모음
 """
     else:
-        prompt = f"""
-당신은 최고의 벤처캐피탈(VC) 시니어 애널리스트입니다.
-아래 제공된 {num_articles}개의 뉴스 기사를 분석하여, 투자 심사역을 위한 **A4 보고서 형식의 전문 분석 리포트**를 작성해 주세요.
+        prompt = f"""당신은 최고의 벤처캐피탈(VC) 시니어 애널리스트입니다.
+아래 제공된 {num_articles}개의 뉴스 기사를 분석하여, 투자 심사역을 위한 **전문 분석 리포트**를 작성해 주세요.
 - 기준 일자: {today_str}
 - 모든 기업명 뒤에 소속 국가를 명시하고 마크다운 표를 활용하세요.
 
-[분석할 기사 원문 데이터]
+[분석할 기사 데이터]
 {articles_content}
 """
-    try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-3.8-flash")
-        response = model.generate_content(prompt)
-        return {"status": "success", "report": response.text.strip()}
-    except Exception:
-        try:
-            model = genai.GenerativeModel("gemini-flash-lite-latest")
-            response = model.generate_content(prompt)
-            return {"status": "success", "report": response.text.strip()}
-        except Exception as ex:
-            err_s = str(ex)
-            if "prepayment credits are depleted" in err_s.lower() or "402" in err_s or "429" in err_s:
-                return {"status": "error", "message": "Google AI Studio 선불 크레딧이 소진되었습니다. 우측 상단 [🔑 API 키 관리]에서 유효한 Gemini 또는 OpenAI 키를 등록해 주세요."}
-            return {"status": "error", "message": err_s}
+
+    if api_key:
+        ai_text, err_reason = await asyncio.to_thread(call_gemini_or_openai_sync, prompt, api_key, 55)
+        if ai_text:
+            return {"status": "success", "report": ai_text}
+    else:
+        err_reason = "API 키가 설정되지 않았습니다."
+
+    # AI 호출 실패 시에도 에러 화면 대신 선택된 기사 메타데이터 기반 정량 브리핑 리포트 즉시 반환
+    rows_md = []
+    detail_md = []
+    for idx, url in enumerate(urls_to_process):
+        m = url_to_meta.get(url, {})
+        title = (m.get("title") or url).replace("|", "·")
+        source = m.get("source") or "-"
+        country = m.get("country") or "한국"
+        ind = m.get("industry") or "기타"
+        grade = m.get("grade") or "B"
+        pub_d = m.get("pub_date") or today_str
+        summary_txt = m.get("summary") or title
+        rows_md.append(f"| {idx+1} | **{title}** | {ind} | {source} ({country}) | {grade} | {pub_d} |")
+        detail_md.append(f"### {idx+1}. {title}\n- **분류/매체**: {ind} | {source} ({country}) | 발행일: {pub_d}\n- **핵심 요약**: {summary_txt}\n- **원문 링크**: [{url}]({url})\n")
+
+    fallback_report = f"""# 📄 [글로벌 VC 딜소싱 브리핑] 선택 기사 종합 분석 리포트
+*작성일자: {today_str} | 분석 대상: 총 {num_articles}건*
+
+> **안내**: AI 생성 엔진 일시 제한({err_reason})으로 인해 수집된 DB 메타데이터 기반 **정량 구조화 브리핑 리포트**로 자동 전환되었습니다.
+
+---
+
+## 1. 선택 딜·산업 뉴스 종합 요약표 ({num_articles}건)
+
+| 순번 | 기사 제목 | 산업 분류 | 매체 (국가) | 중요도 | 발행일 |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+{chr(10).join(rows_md)}
+
+---
+
+## 2. 기사별 상세 핵심 내용 및 원문 출처
+
+{chr(10).join(detail_md)}
+"""
+    return {"status": "success", "report": fallback_report}
 
 
 @app.get("/api/api_keys_status")
