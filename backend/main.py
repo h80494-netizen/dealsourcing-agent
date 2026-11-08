@@ -1452,7 +1452,7 @@ async def generate_url_briefing(req: UrlBriefingRequest):
         meta_text = (
             f"제목: {article.title}\n"
             f"매체/국가: {article.source_name or '글로벌 미디어'} ({article.country or '한국'}) | 발행일: {pub_str} | 등급: {article.news_grade or 'B'} (Impact: {article.impact_score or 70})\n"
-            f"산업분류: {ind_str} | 타겟기업: {article.target_company or '-'}\n"
+            f"산업분류: {ind_str} | 타겟기업: {article.company_name or '-'}\n"
         )
         if summary_body:
             meta_text += f"핵심내용: {summary_body}"
