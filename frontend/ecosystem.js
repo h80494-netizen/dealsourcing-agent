@@ -449,7 +449,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const metaEl = document.getElementById('funds-summary-meta');
         if (metaEl) {
-            metaEl.innerHTML = `총 조회 조합: <strong style="color:#38bdf8;">${fmtNum(json.count, 0)}개</strong> | 표시 그룹 약정총액 합계: <strong style="color:#34d399;">${fmtNum(json.sum_commitment_krw)}억원</strong> (약 ${fmtNum((json.sum_commitment_krw || 0) / 10000, 2)}조원)`;
+            const latestStr = json.latest_reg_date ? ` | 최신 결성(등록)일: <strong style="color:#fcd34d;">${json.latest_reg_date}</strong> <span style="color:#94a3b8; font-size:0.78rem;">(DIVA 월간 정기공시 전수 연동)</span>` : '';
+            metaEl.innerHTML = `총 조회 조합: <strong style="color:#38bdf8;">${fmtNum(json.count, 0)}개</strong> | 약정총액 합계: <strong style="color:#34d399;">${fmtNum(json.sum_commitment_krw)}억원</strong> (약 ${fmtNum((json.sum_commitment_krw || 0) / 10000, 2)}조원)${latestStr}`;
         }
 
         tbody.innerHTML = (json.data || []).map(f => `
@@ -495,12 +496,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 const res = await fetch('/api/funds/sync', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ pages: 3, gp_keyword: gp, fund_keyword: q })
+                    body: JSON.stringify({ pages: 1, gp_keyword: gp, fund_keyword: q })
                 });
                 const json = await res.json();
                 if (json.status === 'success') {
                     await loadFunds(1);
-                    alert(`DIVA 전자공시 동기화 완료! (신규 ${json.added}건 추가, 기존 ${json.updated}건 갱신)`);
+                    alert(`DIVA 전자공시 전체 조합 동기화 완료!\n- 신규 추가: ${json.added}건 / 기존 갱신: ${json.updated}건\n- 최신 공시 등록일: ${json.latest_reg_date || '-'}`);
                 }
             } finally {
                 btnFundSync.disabled = false;

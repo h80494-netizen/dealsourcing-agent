@@ -827,14 +827,17 @@ def get_venture_funds(
         total = query.count()
         rows = query.offset((page - 1) * page_size).limit(page_size).all()
 
-        # 총 약정액 합계 계산
-        all_commitments = [r.commitment_krw or 0.0 for r in query.limit(500).all()]
-        sum_eok = round(sum(all_commitments), 1)
+        # 총 약정액 합계 및 최신 결성일 계산
+        from sqlalchemy import func
+        sum_val = query.with_entities(func.sum(VentureFund.commitment_krw)).scalar() or 0.0
+        latest_reg = query.with_entities(func.max(VentureFund.reg_date)).scalar() or ""
+        sum_eok = round(float(sum_val), 1)
 
         return {
             "status": "success",
             "count": total,
             "sum_commitment_krw": sum_eok,
+            "latest_reg_date": latest_reg,
             "page": page,
             "total_pages": math.ceil(total / page_size) if total > 0 else 1,
             "data": [
