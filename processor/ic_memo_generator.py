@@ -744,14 +744,19 @@ async def generate_ic_memo(
     materials_content: str,
     api_key: Optional[str] = None,
     enrichment_bundle: Optional[Dict[str, Any]] = None,
+    custom_prompt: Optional[str] = None,
 ) -> str:
     """
     Gemini 또는 OpenAI 모델을 호출하여 심층 IC Memo 리포트 생성.
+    사용자 수정 프롬프트(custom_prompt)가 전달되면 이를 최우선 적용.
     크레딧 소진(402/429) 또는 API 장애 시 깨진 에러 문자열 대신 실데이터 정량 IC Memo를 즉시 반환.
     """
     import asyncio
 
-    prompt, major = build_ic_memo_prompt(company_name, industry_info, materials_content)
+    if custom_prompt and custom_prompt.strip():
+        prompt = custom_prompt.strip()
+    else:
+        prompt, _ = build_ic_memo_prompt(company_name, industry_info, materials_content)
     ai_text, err_reason = await asyncio.to_thread(call_gemini_or_openai_sync, prompt, api_key, 55)
     if ai_text:
         return ai_text

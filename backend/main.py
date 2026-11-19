@@ -1679,6 +1679,7 @@ async def analyze_company(
     company_name: str = Form(...),
     industry_code: Optional[str] = Form("auto"),
     materials_text: Optional[str] = Form(""),
+    custom_prompt: Optional[str] = Form(""),
     file: Optional[UploadFile] = File(None),
 ):
     try:
@@ -1866,12 +1867,14 @@ async def analyze_company(
                     "minor": classified.get("minor", "기타"),
                 }
 
-        prompt_script, major = build_ic_memo_prompt(raw_name, industry_info, combined_text)
+        default_prompt_script, major = build_ic_memo_prompt(raw_name, industry_info, combined_text)
+        active_prompt = custom_prompt.strip() if (custom_prompt and custom_prompt.strip()) else default_prompt_script
         report = await generate_ic_memo(
             raw_name,
             industry_info,
             combined_text,
             enrichment_bundle=enrichment_bundle,
+            custom_prompt=active_prompt,
         )
 
         return {
@@ -1880,7 +1883,9 @@ async def analyze_company(
             "industry_info": industry_info,
             "auto_enriched_sources": auto_enriched_sources,
             "report": report,
-            "prompt_script": prompt_script,
+            "prompt_script": active_prompt,
+            "default_prompt_script": default_prompt_script,
+            "used_custom_prompt": bool(custom_prompt and custom_prompt.strip()),
         }
     except Exception as e:
         return {"status": "error", "message": f"기업 분석 중 오류 발생: {str(e)}"}

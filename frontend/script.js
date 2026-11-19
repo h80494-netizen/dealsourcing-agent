@@ -1927,6 +1927,189 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const icPromptTextarea = document.getElementById('ic-prompt-textarea');
+    const icPromptStatusBadge = document.getElementById('ic-prompt-status-badge');
+    const btnHeaderOpenFsPrompt = document.getElementById('btn-header-open-fs-prompt');
+    const btnOpenFullscreenPrompt = document.getElementById('btn-open-fullscreen-prompt');
+    const btnSaveInlinePrompt = document.getElementById('btn-save-inline-prompt');
+    const btnRunWithSavedPrompt = document.getElementById('btn-run-with-saved-prompt');
+    const btnResetInlinePrompt = document.getElementById('btn-reset-inline-prompt');
+    const btnInlineFontDown = document.getElementById('btn-inline-font-down');
+    const btnInlineFontUp = document.getElementById('btn-inline-font-up');
+    const inlineFontSizeLabel = document.getElementById('inline-font-size-label');
+
+    // 대화면(Full-Screen) 프롬프트 편집기 모달 요소
+    const fsPromptModal = document.getElementById('fullscreen-prompt-modal');
+    const fsPromptTextarea = document.getElementById('fs-prompt-textarea');
+    const fsPromptStatusBadge = document.getElementById('fs-prompt-status-badge');
+    const btnFsFontDown = document.getElementById('btn-fs-font-down');
+    const btnFsFontUp = document.getElementById('btn-fs-font-up');
+    const fsFontSizeLabel = document.getElementById('fs-font-size-label');
+    const btnFsResetPrompt = document.getElementById('btn-fs-reset-prompt');
+    const btnFsSavePrompt = document.getElementById('btn-fs-save-prompt');
+    const btnFsSaveAndRun = document.getElementById('btn-fs-save-and-run');
+    const btnCloseFullscreenPrompt = document.getElementById('btn-close-fullscreen-prompt');
+
+    let defaultPromptScript = '';
+    let savedCustomPrompt = '';
+    let inlineFontSizePx = 16;
+    let fsFontSizePx = 19;
+
+    const getPromptStorageKey = (compName) => `vc_ic_custom_prompt_${(compName || 'default').trim()}`;
+
+    const setPromptStatusBadges = (text, isSavedCustom = false) => {
+        if (icPromptStatusBadge) {
+            icPromptStatusBadge.textContent = text;
+            icPromptStatusBadge.style.color = isSavedCustom ? '#34d399' : '#38bdf8';
+            icPromptStatusBadge.style.borderColor = isSavedCustom ? 'rgba(16, 185, 129, 0.45)' : 'rgba(56, 189, 248, 0.3)';
+            icPromptStatusBadge.style.background = isSavedCustom ? 'rgba(16, 185, 129, 0.15)' : 'rgba(56, 189, 248, 0.12)';
+        }
+        if (fsPromptStatusBadge) {
+            fsPromptStatusBadge.textContent = text;
+            fsPromptStatusBadge.style.color = isSavedCustom ? '#34d399' : '#fcd34d';
+            fsPromptStatusBadge.style.borderColor = isSavedCustom ? 'rgba(16, 185, 129, 0.45)' : 'rgba(245, 158, 11, 0.35)';
+            fsPromptStatusBadge.style.background = isSavedCustom ? 'rgba(16, 185, 129, 0.15)' : 'rgba(245, 158, 11, 0.15)';
+        }
+    };
+
+    const syncPromptEditors = (val) => {
+        latestPromptScript = val;
+        if (icPromptTextarea) icPromptTextarea.value = val;
+        if (fsPromptTextarea) fsPromptTextarea.value = val;
+    };
+
+    const saveCurrentPromptValue = (rawVal, showNotice = true) => {
+        const trimmed = (rawVal || '').trim();
+        if (!trimmed) {
+            alert('저장할 프롬프트 내용이 비어 있습니다.');
+            return false;
+        }
+        savedCustomPrompt = trimmed;
+        syncPromptEditors(trimmed);
+        const compName = icCompanyName ? icCompanyName.value.trim() : '';
+        try {
+            localStorage.setItem(getPromptStorageKey(compName), trimmed);
+        } catch (e) {}
+        setPromptStatusBadges('✅ 수정된 프롬프트 저장됨 (보고서 작성 시 적용)', true);
+        if (showNotice) {
+            alert('수정하신 프롬프트가 저장되었습니다.\n[🚀 수정·저장된 프롬프트로 보고서 작성] 또는 [🚀 IC Memo 심층 분석 시작]을 클릭하면 저장된 프롬프트에 맞춰 보고서가 생성됩니다.');
+        }
+        return true;
+    };
+
+    const resetToDefaultPrompt = () => {
+        const compName = icCompanyName ? icCompanyName.value.trim() : '';
+        savedCustomPrompt = '';
+        try {
+            localStorage.removeItem(getPromptStorageKey(compName));
+        } catch (e) {}
+        const fallback = defaultPromptScript || latestPromptScript || '';
+        syncPromptEditors(fallback);
+        setPromptStatusBadges('🔄 시스템 자동생성 기본 프롬프트', false);
+    };
+
+    // 인라인 글자 크기 조절
+    if (btnInlineFontDown) {
+        btnInlineFontDown.addEventListener('click', () => {
+            inlineFontSizePx = Math.max(12, inlineFontSizePx - 2);
+            if (icPromptTextarea) icPromptTextarea.style.fontSize = `${inlineFontSizePx}px`;
+            if (inlineFontSizeLabel) inlineFontSizeLabel.textContent = `${inlineFontSizePx}px`;
+        });
+    }
+    if (btnInlineFontUp) {
+        btnInlineFontUp.addEventListener('click', () => {
+            inlineFontSizePx = Math.min(28, inlineFontSizePx + 2);
+            if (icPromptTextarea) icPromptTextarea.style.fontSize = `${inlineFontSizePx}px`;
+            if (inlineFontSizeLabel) inlineFontSizeLabel.textContent = `${inlineFontSizePx}px`;
+        });
+    }
+
+    // 대화면 모달 글자 크기 조절
+    if (btnFsFontDown) {
+        btnFsFontDown.addEventListener('click', () => {
+            fsFontSizePx = Math.max(14, fsFontSizePx - 2);
+            if (fsPromptTextarea) fsPromptTextarea.style.fontSize = `${fsFontSizePx}px`;
+            if (fsFontSizeLabel) fsFontSizeLabel.textContent = `${fsFontSizePx}px`;
+        });
+    }
+    if (btnFsFontUp) {
+        btnFsFontUp.addEventListener('click', () => {
+            fsFontSizePx = Math.min(32, fsFontSizePx + 2);
+            if (fsPromptTextarea) fsPromptTextarea.style.fontSize = `${fsFontSizePx}px`;
+            if (fsFontSizeLabel) fsFontSizeLabel.textContent = `${fsFontSizePx}px`;
+        });
+    }
+
+    // 대화면 프롬프트 편집기 열기/닫기
+    const openFullscreenPromptEditor = () => {
+        if (!fsPromptModal) return;
+        const currentVal = (icPromptTextarea && icPromptTextarea.value) ? icPromptTextarea.value : latestPromptScript;
+        if (fsPromptTextarea) {
+            fsPromptTextarea.value = currentVal || '';
+            fsPromptTextarea.style.fontSize = `${fsFontSizePx}px`;
+        }
+        fsPromptModal.style.display = 'flex';
+        setTimeout(() => { if (fsPromptTextarea) fsPromptTextarea.focus(); }, 50);
+    };
+
+    if (btnOpenFullscreenPrompt) btnOpenFullscreenPrompt.addEventListener('click', openFullscreenPromptEditor);
+    if (btnHeaderOpenFsPrompt) btnHeaderOpenFsPrompt.addEventListener('click', openFullscreenPromptEditor);
+    if (btnCloseFullscreenPrompt && fsPromptModal) {
+        btnCloseFullscreenPrompt.addEventListener('click', () => {
+            if (fsPromptTextarea && icPromptTextarea) {
+                icPromptTextarea.value = fsPromptTextarea.value;
+                latestPromptScript = fsPromptTextarea.value;
+            }
+            fsPromptModal.style.display = 'none';
+        });
+    }
+
+    // 인라인 및 대화면 저장/초기화 버튼
+    if (btnSaveInlinePrompt) {
+        btnSaveInlinePrompt.addEventListener('click', () => {
+            const val = icPromptTextarea ? icPromptTextarea.value : latestPromptScript;
+            saveCurrentPromptValue(val, true);
+        });
+    }
+    if (btnFsSavePrompt) {
+        btnFsSavePrompt.addEventListener('click', () => {
+            const val = fsPromptTextarea ? fsPromptTextarea.value : latestPromptScript;
+            saveCurrentPromptValue(val, true);
+        });
+    }
+    if (btnResetInlinePrompt) {
+        btnResetInlinePrompt.addEventListener('click', () => {
+            if (confirm('수정된 프롬프트를 초기화하고 시스템 기본 자동생성 프롬프트로 복원하시겠습니까?')) {
+                resetToDefaultPrompt();
+            }
+        });
+    }
+    if (btnFsResetPrompt) {
+        btnFsResetPrompt.addEventListener('click', () => {
+            if (confirm('수정된 프롬프트를 초기화하고 시스템 기본 자동생성 프롬프트로 복원하시겠습니까?')) {
+                resetToDefaultPrompt();
+            }
+        });
+    }
+
+    // 기업명 변경 시 해당 기업의 저장된 커스텀 프롬프트 자동 로드
+    if (icCompanyName) {
+        icCompanyName.addEventListener('change', () => {
+            const cname = icCompanyName.value.trim();
+            if (!cname) return;
+            try {
+                const stored = localStorage.getItem(getPromptStorageKey(cname));
+                if (stored) {
+                    savedCustomPrompt = stored;
+                    syncPromptEditors(stored);
+                    setPromptStatusBadges(`✅ '${cname}' 저장된 맞춤 프롬프트 불러옴`, true);
+                } else {
+                    savedCustomPrompt = '';
+                }
+            } catch (e) {}
+        });
+    }
+
     // 탭 전환 (IC Memo 리포트 vs 프롬프트 스크립트)
     if (btnTabIcMemo && btnTabIcPrompt) {
         btnTabIcMemo.addEventListener('click', () => {
@@ -1939,6 +2122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btnTabIcPrompt.addEventListener('click', () => {
             btnTabIcPrompt.classList.add('active');
             btnTabIcMemo.classList.remove('active');
+            if (icEmptyState) icEmptyState.style.display = 'none';
             if (icMemoContent) icMemoContent.style.display = 'none';
             if (icPromptContent) icPromptContent.style.display = 'block';
         });
@@ -1948,7 +2132,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnCopyIcResult) {
         btnCopyIcResult.addEventListener('click', async () => {
             const activeIsPrompt = btnTabIcPrompt.classList.contains('active');
-            const textToCopy = activeIsPrompt ? latestPromptScript : latestReportMarkdown;
+            const currentPromptVal = (icPromptTextarea && icPromptTextarea.value) ? icPromptTextarea.value : latestPromptScript;
+            const textToCopy = activeIsPrompt ? currentPromptVal : latestReportMarkdown;
             if (!textToCopy) {
                 alert('복사할 내용이 없습니다.');
                 return;
@@ -2004,135 +2189,181 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 분석 실행 버튼 클릭
-    if (btnRunIcAnalysis) {
-        btnRunIcAnalysis.addEventListener('click', async () => {
-            const companyName = icCompanyName ? icCompanyName.value.trim() : '';
-            if (!companyName) {
-                alert('분석할 기업명을 입력해주세요.');
-                if (icCompanyName) icCompanyName.focus();
+    // 공통 IC Memo 분석 실행 함수 (useCustomPrompt=true 시 수정·저장된 프롬프트 적용)
+    const executeIcCompanyAnalysis = async (useCustomPrompt = false, explicitPromptText = '') => {
+        const companyName = icCompanyName ? icCompanyName.value.trim() : '';
+        if (!companyName) {
+            alert('분석할 기업명을 입력해주세요.');
+            if (icCompanyName) icCompanyName.focus();
+            return;
+        }
+
+        const industryCode = icIndustrySelect ? icIndustrySelect.value : 'auto';
+        const materialsText = icMaterialsText ? icMaterialsText.value.trim() : '';
+
+        let customPromptToSend = '';
+        if (useCustomPrompt) {
+            customPromptToSend = (explicitPromptText || savedCustomPrompt || (icPromptTextarea ? icPromptTextarea.value : '') || '').trim();
+            if (!customPromptToSend) {
+                alert('적용할 프롬프트가 비어 있습니다. 먼저 기업 분석을 1회 실행하거나 프롬프트를 입력해 주세요.');
                 return;
             }
+            saveCurrentPromptValue(customPromptToSend, false);
+        }
 
-            const industryCode = icIndustrySelect ? icIndustrySelect.value : 'auto';
-            const materialsText = icMaterialsText ? icMaterialsText.value.trim() : '';
+        // 리포트 탭으로 전환 및 로딩 시작
+        if (btnTabIcMemo) btnTabIcMemo.click();
+        if (btnRunIcAnalysis) btnRunIcAnalysis.disabled = true;
+        if (btnRunWithSavedPrompt) btnRunWithSavedPrompt.disabled = true;
+        if (icLoader) icLoader.style.display = 'block';
+        if (icEmptyState) icEmptyState.style.display = 'none';
+        if (btnCopyIcResult) btnCopyIcResult.style.display = 'none';
+        if (btnPrintIcResult) btnPrintIcResult.style.display = 'none';
 
-            // 로딩 시작
-            btnRunIcAnalysis.disabled = true;
-            if (icLoader) icLoader.style.display = 'block';
-            if (icEmptyState) icEmptyState.style.display = 'none';
-            if (btnCopyIcResult) btnCopyIcResult.style.display = 'none';
-            if (btnPrintIcResult) btnPrintIcResult.style.display = 'none';
+        const modeDesc = customPromptToSend ? '수정·저장된 맞춤형 프롬프트 기반' : '6대 심사항목 및 업종 특화 프롬프트 조합';
+        if (icResultMeta) {
+            icResultMeta.innerHTML = `
+                <span class="loader-spinner" style="width: 14px; height: 14px; border-width: 2px;"></span>
+                <span style="font-size: 0.85rem; color: #38bdf8;"><strong>${companyName}</strong>의 ${modeDesc} 분석 중...</span>
+            `;
+        }
 
-            if (icResultMeta) {
-                icResultMeta.innerHTML = `
-                    <span class="loader-spinner" style="width: 14px; height: 14px; border-width: 2px;"></span>
-                    <span style="font-size: 0.85rem; color: #38bdf8;"><strong>${companyName}</strong>의 6대 심사항목 및 업종 특화 프롬프트 조합 분석 중...</span>
-                `;
+        if (icMemoContent) {
+            icMemoContent.style.display = 'block';
+            icMemoContent.innerHTML = `
+                <div style="padding: 40px; text-align: center; color: #94a3b8;">
+                    <div class="loader-spinner" style="width: 36px; height: 36px; margin: 0 auto 16px auto; border-width: 3px; border-color: rgba(56, 189, 248, 0.2); border-top-color: #38bdf8;"></div>
+                    <h4 style="color: #e2e8f0; font-size: 1.1rem; margin-bottom: 8px;">${customPromptToSend ? '✨ 수정·저장된 프롬프트에 맞춰 투자심사보고서(IC Memo)를 작성 중입니다' : '투자심사보고서(IC Memo) 생성 중입니다'}</h4>
+                    <p style="font-size: 0.85rem; color: #64748b; line-height: 1.6;">
+                        • 42개 산업 체계 및 포지셔닝(기존 vs 신종) 정밀 매핑<br>
+                        • Cap Table, 시장(TAM/SAM/SOM), Founder-Market Fit, Pricing, 자금용도, 자본조달 구조 심사<br>
+                        • ${customPromptToSend ? '사용자 맞춤 수정 프롬프트 지침 100% 반영 중' : '업종별 특화 체크포인트 분석 진행 중'} (약 10~25초 소요)
+                    </p>
+                </div>
+            `;
+        }
+
+        try {
+            const formData = new FormData();
+            formData.append('company_name', companyName);
+            formData.append('industry_code', industryCode);
+            formData.append('materials_text', materialsText);
+            if (customPromptToSend) {
+                formData.append('custom_prompt', customPromptToSend);
+            }
+            if (currentSelectedFile) {
+                formData.append('file', currentSelectedFile);
             }
 
-            if (icMemoContent) {
-                icMemoContent.style.display = 'block';
-                icMemoContent.innerHTML = `
-                    <div style="padding: 40px; text-align: center; color: #94a3b8;">
-                        <div class="loader-spinner" style="width: 36px; height: 36px; margin: 0 auto 16px auto; border-width: 3px; border-color: rgba(56, 189, 248, 0.2); border-top-color: #38bdf8;"></div>
-                        <h4 style="color: #e2e8f0; font-size: 1.1rem; margin-bottom: 8px;">투자심사보고서(IC Memo) 생성 중입니다</h4>
-                        <p style="font-size: 0.85rem; color: #64748b; line-height: 1.6;">
-                            • 42개 산업 체계 및 포지셔닝(기존 vs 신종) 정밀 매핑<br>
-                            • Cap Table, 시장(TAM/SAM/SOM), Founder-Market Fit, Pricing, 자금용도, 자본조달 구조 심사<br>
-                            • 업종별 특화 체크포인트 분석 진행 중 (약 10~25초 소요)
-                        </p>
-                    </div>
-                `;
-            }
+            const res = await fetch('/api/analyze_company', {
+                method: 'POST',
+                body: formData
+            });
+            const json = await res.json();
 
-            try {
-                const formData = new FormData();
-                formData.append('company_name', companyName);
-                formData.append('industry_code', industryCode);
-                formData.append('materials_text', materialsText);
-                if (currentSelectedFile) {
-                    formData.append('file', currentSelectedFile);
-                }
+            if (json.status === 'success') {
+                latestReportMarkdown = json.report || '';
+                defaultPromptScript = json.default_prompt_script || json.prompt_script || '';
+                const returnedPrompt = json.prompt_script || defaultPromptScript;
+                syncPromptEditors(returnedPrompt);
 
-                const res = await fetch('/api/analyze_company', {
-                    method: 'POST',
-                    body: formData
-                });
-                const json = await res.json();
-
-                if (json.status === 'success') {
-                    latestReportMarkdown = json.report || '';
-                    latestPromptScript = json.prompt_script || '';
-
-                    // 메타 배지 구성
-                    const ind = json.industry_info || {};
-                    const majorClass = ind.major === 'AI' ? 'badge-major-ai' :
-                                       ind.major === 'ICT' ? 'badge-major-ict' :
-                                       ind.major === '바이오' ? 'badge-major-bio' :
-                                       ind.major === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
-
-                    if (icResultMeta) {
-                        icResultMeta.innerHTML = `
-                            <span style="font-weight: 700; color: #fff; font-size: 1rem;">🏢 ${json.company_name}</span>
-                            <span class="badge-major ${majorClass}">${ind.major || '기타'}</span>
-                            <span style="background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 4px; font-size: 0.78rem; color: #e2e8f0;">
-                                ${ind.type || '신종 산업'}
-                            </span>
-                            <span style="color: #94a3b8; font-size: 0.82rem;">
-                                ${ind.middle || ''} &gt; <strong style="color: #38bdf8;">${ind.minor || ''}</strong>
-                            </span>
-                            <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; border: 1px solid rgba(56,189,248,0.3); padding: 1px 6px; border-radius: 3px; font-size: 0.72rem; font-family: monospace;">
-                                ${ind.code || ''}
-                            </span>
-                        `;
-                    }
-
-                    // 마크다운 렌더링
-                    if (icMemoContent) {
-                        if (window.marked && typeof marked.parse === 'function') {
-                            icMemoContent.innerHTML = marked.parse(latestReportMarkdown);
-                        } else {
-                            icMemoContent.innerHTML = `<pre style="white-space: pre-wrap; font-family: inherit;">${latestReportMarkdown}</pre>`;
-                        }
-                    }
-
-                    // 프롬프트 스크립트 렌더링
-                    if (icPromptContent) {
-                        const pre = icPromptContent.querySelector('pre');
-                        if (pre) pre.textContent = latestPromptScript;
-                    }
-
-                    // 버튼 활성화
-                    if (btnCopyIcResult) btnCopyIcResult.style.display = 'inline-block';
-                    if (btnPrintIcResult) btnPrintIcResult.style.display = 'inline-block';
-
-                    // 기본 탭 (IC Memo) 활성화
-                    if (btnTabIcMemo) btnTabIcMemo.click();
+                if (json.used_custom_prompt) {
+                    setPromptStatusBadges('✅ 수정·저장된 프롬프트로 보고서 작성 완료', true);
                 } else {
-                    if (icMemoContent) {
-                        icMemoContent.innerHTML = `
-                            <div style="padding: 24px; background: rgba(244, 63, 94, 0.1); border: 1px solid #f43f5e; border-radius: 8px; color: #fecdd3;">
-                                <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 분석 중 오류 발생</h4>
-                                <p style="margin: 0; font-size: 0.9rem;">${json.message || '알 수 없는 오류가 발생했습니다.'}</p>
-                            </div>
-                        `;
+                    savedCustomPrompt = '';
+                    setPromptStatusBadges('📝 완성된 프롬프트 (수정 및 대화면 편집 가능)', false);
+                }
+
+                // 메타 배지 구성
+                const ind = json.industry_info || {};
+                const majorClass = ind.major === 'AI' ? 'badge-major-ai' :
+                                   ind.major === 'ICT' ? 'badge-major-ict' :
+                                   ind.major === '바이오' ? 'badge-major-bio' :
+                                   ind.major === '커머스' ? 'badge-major-commerce' : 'badge-major-etc';
+
+                if (icResultMeta) {
+                    icResultMeta.innerHTML = `
+                        <span style="font-weight: 700; color: #fff; font-size: 1rem;">🏢 ${json.company_name}</span>
+                        <span class="badge-major ${majorClass}">${ind.major || '기타'}</span>
+                        <span style="background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 4px; font-size: 0.78rem; color: #e2e8f0;">
+                            ${ind.type || '신종 산업'}
+                        </span>
+                        <span style="color: #94a3b8; font-size: 0.82rem;">
+                            ${ind.middle || ''} &gt; <strong style="color: #38bdf8;">${ind.minor || ''}</strong>
+                        </span>
+                        <span style="background: rgba(56, 189, 248, 0.15); color: #7dd3fc; border: 1px solid rgba(56,189,248,0.3); padding: 1px 6px; border-radius: 3px; font-size: 0.72rem; font-family: monospace;">
+                            ${ind.code || ''}
+                        </span>
+                        ${json.used_custom_prompt ? '<span style="background: rgba(16, 185, 129, 0.18); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); padding: 2px 8px; border-radius: 999px; font-size: 0.74rem; font-weight: 700;">✏️ 수정 프롬프트 적용됨</span>' : ''}
+                    `;
+                }
+
+                // 마크다운 렌더링
+                if (icMemoContent) {
+                    if (window.marked && typeof marked.parse === 'function') {
+                        icMemoContent.innerHTML = marked.parse(latestReportMarkdown);
+                    } else {
+                        icMemoContent.innerHTML = `<pre style="white-space: pre-wrap; font-family: inherit;">${latestReportMarkdown}</pre>`;
                     }
                 }
-            } catch (err) {
-                console.error("IC Memo analysis request failed", err);
+
+                // 버튼 활성화
+                if (btnCopyIcResult) btnCopyIcResult.style.display = 'inline-block';
+                if (btnPrintIcResult) btnPrintIcResult.style.display = 'inline-block';
+                if (btnHeaderOpenFsPrompt) btnHeaderOpenFsPrompt.style.display = 'inline-block';
+
+                // 기본 탭 (IC Memo) 활성화
+                if (btnTabIcMemo) btnTabIcMemo.click();
+            } else {
                 if (icMemoContent) {
                     icMemoContent.innerHTML = `
                         <div style="padding: 24px; background: rgba(244, 63, 94, 0.1); border: 1px solid #f43f5e; border-radius: 8px; color: #fecdd3;">
-                            <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 통신 실패</h4>
-                            <p style="margin: 0; font-size: 0.9rem;">서버와의 통신에 실패했습니다: ${err.message}</p>
+                            <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 분석 중 오류 발생</h4>
+                            <p style="margin: 0; font-size: 0.9rem;">${json.message || '알 수 없는 오류가 발생했습니다.'}</p>
                         </div>
                     `;
                 }
-            } finally {
-                btnRunIcAnalysis.disabled = false;
-                if (icLoader) icLoader.style.display = 'none';
             }
+        } catch (err) {
+            console.error("IC Memo analysis request failed", err);
+            if (icMemoContent) {
+                icMemoContent.innerHTML = `
+                    <div style="padding: 24px; background: rgba(244, 63, 94, 0.1); border: 1px solid #f43f5e; border-radius: 8px; color: #fecdd3;">
+                        <h4 style="margin: 0 0 8px 0; color: #f43f5e;">⚠️ 통신 실패</h4>
+                        <p style="margin: 0; font-size: 0.9rem;">서버와의 통신에 실패했습니다: ${err.message}</p>
+                    </div>
+                `;
+            }
+        } finally {
+            if (btnRunIcAnalysis) btnRunIcAnalysis.disabled = false;
+            if (btnRunWithSavedPrompt) btnRunWithSavedPrompt.disabled = false;
+            if (icLoader) icLoader.style.display = 'none';
+        }
+    };
+
+    // 좌측 [🚀 IC Memo 심층 분석 시작] 버튼: 저장된 수정 프롬프트가 있으면 적용, 없으면 최신 데이터로 자동 조합
+    if (btnRunIcAnalysis) {
+        btnRunIcAnalysis.addEventListener('click', () => {
+            const hasSaved = Boolean(savedCustomPrompt && savedCustomPrompt.trim());
+            executeIcCompanyAnalysis(hasSaved, savedCustomPrompt);
+        });
+    }
+
+    // 프롬프트 탭의 [🚀 수정·저장된 프롬프트로 보고서 작성] 버튼
+    if (btnRunWithSavedPrompt) {
+        btnRunWithSavedPrompt.addEventListener('click', () => {
+            const currentVal = icPromptTextarea ? icPromptTextarea.value : latestPromptScript;
+            executeIcCompanyAnalysis(true, currentVal);
+        });
+    }
+
+    // 대화면 모달의 [🚀 저장 후 이 프롬프트로 보고서 즉시 작성] 버튼
+    if (btnFsSaveAndRun) {
+        btnFsSaveAndRun.addEventListener('click', () => {
+            const currentVal = fsPromptTextarea ? fsPromptTextarea.value : latestPromptScript;
+            if (!saveCurrentPromptValue(currentVal, false)) return;
+            if (fsPromptModal) fsPromptModal.style.display = 'none';
+            executeIcCompanyAnalysis(true, currentVal);
         });
     }
 });
