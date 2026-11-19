@@ -372,6 +372,7 @@ def build_quantitative_ic_memo(
     materials_content: str,
     enrichment_bundle: Optional[Dict[str, Any]] = None,
     ai_status_note: str = "",
+    custom_prompt: Optional[str] = None,
 ) -> str:
     """
     AI 크레딧 소진·오프라인·응답 지연 시에도 깨짐 없이 즉시 제공되는
@@ -464,6 +465,16 @@ def build_quantitative_ic_memo(
         )
 
     sections.append(f"# 📋 투자심사보고서 (IC Memo): {comp.get('corp_name') or company_name}")
+
+    default_p, _ = build_ic_memo_prompt(company_name, industry_info, materials_content)
+    if custom_prompt and custom_prompt.strip() and custom_prompt.strip() != default_p.strip():
+        cp_text = custom_prompt.strip()
+        preview_lines = [ln.strip() for ln in cp_text.splitlines() if ln.strip() and not ln.strip().startswith("---")][:12]
+        sections.append(
+            "## ✏️ [사용자 수정·저장 프롬프트 맞춤 반영 지침]\n\n"
+            "> 사용자가 대화면/프롬프트 편집기에서 수정·저장한 맞춤 프롬프트 지침이 본 보고서 구성에 반영되었습니다.\n\n"
+            + "\n".join([f"- {ln}" for ln in preview_lines])
+        )
 
     # Step 0
     emp_display = f"{int(comp['employee_count']):,}명" if comp.get("employee_count") else "비공개/확인 필요"
@@ -767,4 +778,5 @@ async def generate_ic_memo(
         materials_content=materials_content,
         enrichment_bundle=enrichment_bundle,
         ai_status_note=err_reason,
+        custom_prompt=custom_prompt,
     )
