@@ -168,6 +168,7 @@ def get_articles(
     q: str = Query(""),
     sort_by: str = Query("latest"),
     date_filter: str = Query(None),
+    days_ago: Optional[int] = Query(None),
     page: int = Query(1),
     page_size: int = Query(20),
 ):
@@ -188,21 +189,32 @@ def get_articles(
         kw = f"%{q.strip()}%"
         query = query.filter(or_(DealArticle.title.like(kw), DealArticle.summary.like(kw), DealArticle.source_name.like(kw)))
 
-    if date_filter == "yesterday":
-        yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
-        start_of_yesterday = yesterday.replace(hour=0, minute=0, second=0, microsecond=0)
-        query = query.filter(DealArticle.created_at >= start_of_yesterday)
-    elif date_filter == "today":
-        today = datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        query = query.filter(DealArticle.created_at >= today)
-    elif date_filter == "1week":
-        week_ago = datetime.datetime.now() - datetime.timedelta(days=7)
-        start_of_week_ago = week_ago.replace(hour=0, minute=0, second=0, microsecond=0)
-        query = query.filter(DealArticle.created_at >= start_of_week_ago)
-    elif date_filter == "1month":
-        month_ago = datetime.datetime.now() - datetime.timedelta(days=30)
-        start_of_month_ago = month_ago.replace(hour=0, minute=0, second=0, microsecond=0)
-        query = query.filter(DealArticle.created_at >= start_of_month_ago)
+    if days_ago is not None and days_ago >= 0:
+        cutoff_dt = (datetime.datetime.now() - datetime.timedelta(days=int(days_ago))).replace(hour=0, minute=0, second=0, microsecond=0)
+        query = query.filter(or_(DealArticle.created_at >= cutoff_dt, DealArticle.pub_date >= cutoff_dt))
+    elif date_filter:
+        df_str = str(date_filter).strip()
+        if df_str.isdigit():
+            cutoff_dt = (datetime.datetime.now() - datetime.timedelta(days=int(df_str))).replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= cutoff_dt, DealArticle.pub_date >= cutoff_dt))
+        elif df_str.startswith("days_") and df_str[5:].isdigit():
+            cutoff_dt = (datetime.datetime.now() - datetime.timedelta(days=int(df_str[5:]))).replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= cutoff_dt, DealArticle.pub_date >= cutoff_dt))
+        elif df_str == "yesterday":
+            yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
+            start_of_yesterday = yesterday.replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= start_of_yesterday, DealArticle.pub_date >= start_of_yesterday))
+        elif df_str == "today":
+            today = datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= today, DealArticle.pub_date >= today))
+        elif df_str == "1week":
+            week_ago = datetime.datetime.now() - datetime.timedelta(days=7)
+            start_of_week_ago = week_ago.replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= start_of_week_ago, DealArticle.pub_date >= start_of_week_ago))
+        elif df_str == "1month":
+            month_ago = datetime.datetime.now() - datetime.timedelta(days=30)
+            start_of_month_ago = month_ago.replace(hour=0, minute=0, second=0, microsecond=0)
+            query = query.filter(or_(DealArticle.created_at >= start_of_month_ago, DealArticle.pub_date >= start_of_month_ago))
 
     if country and len(country) > 0 and country[0] != "":
         query = query.filter(DealArticle.country.in_(country))
@@ -1499,16 +1511,19 @@ async def generate_url_briefing(req: UrlBriefingRequest):
                 "summary": txt[:300],
             }
 
+    num_articles = len(urls_to_process)
+    max_per_art = 420 if num_articles >= 15 else 950
+    prompt_urls = urls_to_process[:40]  # 다량 선택 시 상위 40건 핵심 컨텍스트로 압축해 응답 지연(524) 원천 차단
+
     articles_content = ""
-    for idx, url in enumerate(urls_to_process):
+    for idx, url in enumerate(prompt_urls):
         meta = url_to_meta.get(url)
         text = meta["text"] if meta else f"URL: {url}"
-        if len(text) > 1200:
-            text = text[:1200] + "... (중략)"
+        if len(text) > max_per_art:
+            text = text[:max_per_art] + "... (중략)"
         articles_content += f"\n[기사 {idx+1}] URL: {url}\n{text}\n"
 
     today_str = datetime.datetime.now().strftime("%Y년 %m월 %d일")
-    num_articles = len(urls_to_process)
 
     if num_articles >= 5:
         prompt = f"""당신은 글로벌 탑티어 벤처캐피탈(VC)의 수석 파트너이자 최고 산업 분석가(Chief Analyst)입니다.

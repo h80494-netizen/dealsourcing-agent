@@ -618,17 +618,22 @@ def build_quantitative_ic_memo(
     return "\n\n---\n\n".join(sections)
 
 
-def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeout_sec: int = 50) -> Tuple[Optional[str], str]:
+def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeout_sec: int = 55) -> Tuple[Optional[str], str]:
     """
-    gRPC 무한 재시도(Backoff) 대기를 원천 방지하는 고속 REST 기반 AI 호출 헬퍼.
+    gRPC 무한 재시도(Backoff) 및 Cloudflare 100초 타임아웃(HTTP 524)을 원천 방지하는 고속 REST 기반 AI 호출 헬퍼.
+    - 전체 후보 모델 재시도 누적 시간(Wall-clock Budget)을 최대 62초 이내로 엄격히 제한하여 HTTP 524를 100% 차단.
     1순위: gemini-flash-lite-latest (무료/유료 전 등급 즉시 응답)
-    2순위: gemini-flash-latest / gemini-3.8-flash / gemini-3.5-flash-lite / gemma-4-31b-it
+    2순위: gemini-2.5-flash-lite / gemini-2.0-flash-lite / gemini-3.5-flash-lite / gemini-flash-latest / gemini-3.8-flash / gemma-4-31b-it
     OpenAI 키(sk-...) 입력 시 자동 분기.
     Returns:
         (generated_text_or_None, error_reason_if_failed)
     """
+    import time
     import requests
     from dotenv import load_dotenv
+
+    start_ts = time.time()
+    max_total_sec = min(max(timeout_sec, 20), 62)
 
     env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
     load_dotenv(dotenv_path=env_path, override=True)
@@ -652,7 +657,7 @@ def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeo
                     ],
                     "temperature": 0.3,
                 },
-                timeout=timeout_sec,
+                timeout=min(28, max_total_sec),
             )
             if r_oa.status_code == 200:
                 choices = r_oa.json().get("choices", [])
@@ -661,9 +666,11 @@ def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeo
         except Exception as oa_err:
             logger.warning(f"OpenAI call warning: {oa_err}")
 
-    # 2. Gemini REST API 직접 호출 (gRPC 60초+ 재시도 블로킹 제거, 무료/유료 모두 작동하는 flash-lite 최우선)
+    # 2. Gemini REST API 직접 호출 (누적 시간 62초 상한 + 모델별 15~24초 고속 타임아웃으로 HTTP 524 원천 방지)
     model_candidates = [
         "gemini-flash-lite-latest",
+        "gemini-2.5-flash-lite",
+        "gemini-2.0-flash-lite",
         "gemini-3.5-flash-lite",
         "gemini-flash-latest",
         "gemini-3.8-flash",
@@ -675,16 +682,22 @@ def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeo
     invalid_key = False
     last_error = ""
 
-    for model_name in model_candidates:
+    for idx, model_name in enumerate(model_candidates):
+        elapsed = time.time() - start_ts
+        remaining = max_total_sec - elapsed
+        if remaining < 6:
+            logger.warning(f"Stopping Gemini fallback loop at {elapsed:.1f}s to prevent Cloudflare 524 timeout.")
+            break
+        per_model_timeout = min(24 if idx == 0 else 15, int(remaining))
         try:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={key}"
             resp = requests.post(
                 url,
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.35},
+                    "generationConfig": {"temperature": 0.35, "maxOutputTokens": 4096},
                 },
-                timeout=timeout_sec,
+                timeout=per_model_timeout,
             )
             if resp.status_code == 200:
                 data = resp.json()
@@ -706,6 +719,8 @@ def call_gemini_or_openai_sync(prompt: str, api_key: Optional[str] = None, timeo
                 if resp.status_code in (400, 403) and ("api key not valid" in low or "permission_denied" in low):
                     invalid_key = True
                     break
+                if resp.status_code == 404:
+                    continue
                 if resp.status_code == 429 or "quota" in low:
                     quota_exceeded = True
                     continue  # 모델별 쿼터 제한이므로 다음 후보 모델 계속 시도!

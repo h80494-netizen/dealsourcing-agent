@@ -9,6 +9,51 @@ document.addEventListener('DOMContentLoaded', () => {
     let statisticsData = null;
     let currentPeriod = 'today';
     let currentPage = 1;
+    const globalSelectedUrls = new Set();
+
+    const updateSelectedBadge = (suffix = '') => {
+        const badge = document.getElementById('selected-articles-badge');
+        if (!badge) return;
+        const cnt = globalSelectedUrls.size;
+        badge.textContent = suffix ? `선택: ${cnt}건 (${suffix})` : `선택: ${cnt}건`;
+    };
+
+    const getCutoffDateStr = (daysAgo) => {
+        const d = new Date();
+        d.setHours(0, 0, 0, 0);
+        d.setDate(d.getDate() - Number(daysAgo || 0));
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, '0');
+        const dd = String(d.getDate()).padStart(2, '0');
+        return `${yyyy}-${mm}-${dd}`;
+    };
+
+    const buildCurrentFilterParams = () => {
+        const getSelected = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(cb => cb.value).filter(val => val !== "");
+        const countries = getSelected('country');
+        const dealStages = getSelected('deal-stage');
+        const newsGrades = getSelected('news-grade');
+        const minorIndustries = getSelected('industry');
+        const majorIndustries = Array.from(document.querySelectorAll('#industry-dropdown-list .chk-major-opt:checked'))
+            .map(cb => cb.value).filter(val => val !== "");
+        const industries = Array.from(new Set([...majorIndustries, ...minorIndustries]));
+        const sortByNode = document.querySelector('input[name="sort-by"]:checked');
+        const sortBy = sortByNode ? sortByNode.value : 'latest';
+        const dateFilterNode = document.querySelector('input[name="date-filter"]:checked');
+        const dateFilter = dateFilterNode ? dateFilterNode.value : 'all';
+        const sourceTypeNode = document.querySelector('input[name="source-type"]:checked');
+        const sourceType = sourceTypeNode ? sourceTypeNode.value : 'all';
+
+        const params = new URLSearchParams();
+        countries.forEach(c => params.append('country', c));
+        dealStages.forEach(d => params.append('deal_stage', d));
+        newsGrades.forEach(n => params.append('news_grade', n));
+        industries.forEach(i => params.append('promising_industry', i));
+        if (sortBy) params.append('sort_by', sortBy);
+        if (sourceType && sourceType !== 'all') params.append('source_type', sourceType);
+        if (dateFilter && dateFilter !== 'all') params.append('date_filter', dateFilter);
+        return params;
+    };
 
     const fetchStatistics = async () => {
         try {
@@ -352,15 +397,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const chkAllPages = document.getElementById('chk-all-pages');
             const chkToday = document.getElementById('chk-today');
+            const chkDaysRange = document.getElementById('chk-days-range');
+            const inputSelectDays = document.getElementById('input-select-days');
 
-            let isChecked = checkedUrls.includes(item.link) ? 'checked' : '';
+            const itemDateStr = ((item.created_at || item.pub_date || '').substring(0, 10));
+            const pubDateStr = ((item.pub_date || item.created_at || '').substring(0, 10));
+
+            let shouldCheck = checkedUrls.includes(item.link) || globalSelectedUrls.has(item.link);
             if (chkAllPages && chkAllPages.checked) {
-                isChecked = 'checked';
-            } else if (chkToday && chkToday.checked && item.created_at) {
-                if (item.created_at.substring(0, 10) === todayStr) {
-                    isChecked = 'checked';
+                shouldCheck = true;
+            } else if (chkToday && chkToday.checked) {
+                if (itemDateStr === todayStr || pubDateStr === todayStr) {
+                    shouldCheck = true;
+                }
+            } else if (chkDaysRange && chkDaysRange.checked && inputSelectDays && inputSelectDays.value.trim() !== '') {
+                const daysNum = parseInt(inputSelectDays.value.trim(), 10);
+                if (!isNaN(daysNum) && daysNum >= 0) {
+                    const cutoffStr = getCutoffDateStr(daysNum);
+                    if ((itemDateStr && itemDateStr >= cutoffStr) || (pubDateStr && pubDateStr >= cutoffStr)) {
+                        shouldCheck = true;
+                    }
                 }
             }
+            if (shouldCheck && item.link) {
+                globalSelectedUrls.add(item.link);
+            }
+            const isChecked = shouldCheck ? 'checked' : '';
             
             let industryCellHtml = '-';
             if (item.promising_industry) {
@@ -392,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 : `<span>${item.source_name || '-'}</span>`;
 
             tr.innerHTML = `
-                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" data-date="${item.created_at || ''}" ${isChecked}></td>
+                <td style="text-align: center;"><input type="checkbox" class="chk-row" data-url="${item.link}" data-date="${item.created_at || ''}" data-pub-date="${item.pub_date || ''}" ${isChecked}></td>
                 <td>${item.country || '-'}</td>
                 <td class="${gradeClass}" title="${gradeTooltip}" style="cursor: help;">${displayGrade}</td>
                 <td><span style="background: rgba(255,255,255,0.1); padding: 4px 8px; border-radius: 4px; font-size: 0.85em;">${item.deal_stage || '-'}</span></td>
@@ -402,9 +464,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${sourceBadgeHtml}</td>
                 <td>${item.created_at || '-'}</td>
             `;
+            const rowChk = tr.querySelector('.chk-row');
+            if (rowChk) {
+                rowChk.addEventListener('change', (e) => {
+                    const u = e.target.dataset.url;
+                    if (!u) return;
+                    if (e.target.checked) {
+                        globalSelectedUrls.add(u);
+                    } else {
+                        globalSelectedUrls.delete(u);
+                    }
+                    updateSelectedBadge();
+                });
+            }
             tbody.appendChild(tr);
         });
 
+        updateSelectedBadge();
         // "전체 선택" 테이블 헤더 체크박스 상태 업데이트
         const chkAll = document.getElementById('chk-all');
         const chkAllPages = document.getElementById('chk-all-pages');
@@ -421,54 +497,160 @@ document.addEventListener('DOMContentLoaded', () => {
         return `${year}-${month}-${day}`;
     };
 
-    // 테이블 헤더 '전체 선택' 체크박스
+    // 테이블 헤더 '전체 선택' 체크박스 (현재 페이지)
     const chkAllHeader = document.getElementById('chk-all');
     if (chkAllHeader) {
         chkAllHeader.addEventListener('change', (e) => {
             const isChecked = e.target.checked;
             document.querySelectorAll('.chk-row').forEach(chk => {
                 chk.checked = isChecked;
+                if (chk.dataset.url) {
+                    if (isChecked) globalSelectedUrls.add(chk.dataset.url);
+                    else globalSelectedUrls.delete(chk.dataset.url);
+                }
             });
+            updateSelectedBadge('현재페이지');
         });
     }
 
     // '전체(필터)' 상단 체크박스
     const chkAllPages = document.getElementById('chk-all-pages');
     if (chkAllPages) {
-        chkAllPages.addEventListener('change', (e) => {
+        chkAllPages.addEventListener('change', async (e) => {
             const isChecked = e.target.checked;
+            const chkToday = document.getElementById('chk-today');
+            const chkDaysRange = document.getElementById('chk-days-range');
             if (isChecked) {
-                const chkToday = document.getElementById('chk-today');
                 if (chkToday) chkToday.checked = false;
+                if (chkDaysRange) chkDaysRange.checked = false;
             }
+            globalSelectedUrls.clear();
             document.querySelectorAll('.chk-row').forEach(chk => {
                 chk.checked = isChecked;
+                if (isChecked && chk.dataset.url) globalSelectedUrls.add(chk.dataset.url);
             });
             const chkAll = document.getElementById('chk-all');
             if (chkAll) chkAll.checked = isChecked;
+
+            if (isChecked) {
+                try {
+                    const params = buildCurrentFilterParams();
+                    params.set('page', '1');
+                    params.set('page_size', '200');
+                    const res = await fetch(`/api/articles?${params.toString()}`);
+                    const json = await res.json();
+                    if (json.status === 'success' && Array.isArray(json.data)) {
+                        json.data.forEach(a => { if (a.link) globalSelectedUrls.add(a.link); });
+                    }
+                } catch (err) {
+                    console.error(err);
+                }
+                updateSelectedBadge('필터 전체');
+            } else {
+                updateSelectedBadge();
+            }
         });
     }
+
+    // N일 전 ~ 현재까지 뉴스 및 공공자료 일괄 선택 공통 함수
+    const selectArticlesByDaysAgo = async (daysNum, labelText) => {
+        globalSelectedUrls.clear();
+        const cutoffStr = getCutoffDateStr(daysNum);
+        document.querySelectorAll('.chk-row').forEach(chk => {
+            const d1 = (chk.dataset.date || '').substring(0, 10);
+            const d2 = (chk.dataset.pubDate || '').substring(0, 10);
+            const matched = (d1 && d1 >= cutoffStr) || (d2 && d2 >= cutoffStr);
+            chk.checked = matched;
+            if (matched && chk.dataset.url) {
+                globalSelectedUrls.add(chk.dataset.url);
+            }
+        });
+
+        try {
+            const params = buildCurrentFilterParams();
+            params.delete('date_filter');
+            params.set('days_ago', String(daysNum));
+            params.set('page', '1');
+            params.set('page_size', '200');
+            const res = await fetch(`/api/articles?${params.toString()}`);
+            const json = await res.json();
+            if (json.status === 'success' && Array.isArray(json.data)) {
+                json.data.forEach(a => { if (a.link) globalSelectedUrls.add(a.link); });
+            }
+        } catch (err) {
+            console.error('Failed to select articles by days_ago:', err);
+        }
+        updateSelectedBadge(labelText);
+    };
 
     // '당일 선택' 상단 체크박스
     const chkToday = document.getElementById('chk-today');
     if (chkToday) {
-        chkToday.addEventListener('change', (e) => {
+        chkToday.addEventListener('change', async (e) => {
             const isChecked = e.target.checked;
-            if (isChecked) {
-                const chkAllPages = document.getElementById('chk-all-pages');
-                if (chkAllPages) chkAllPages.checked = false;
-            }
-            const todayStr = getTodayStr();
-            document.querySelectorAll('.chk-row').forEach(chk => {
-                const dateAttr = chk.dataset.date || '';
-                if (isChecked) {
-                    chk.checked = (dateAttr.substring(0, 10) === todayStr);
-                } else {
-                    chk.checked = false;
-                }
-            });
             const chkAll = document.getElementById('chk-all');
+            const chkDaysRange = document.getElementById('chk-days-range');
             if (chkAll) chkAll.checked = false;
+            if (isChecked) {
+                if (chkAllPages) chkAllPages.checked = false;
+                if (chkDaysRange) chkDaysRange.checked = false;
+                await selectArticlesByDaysAgo(0, '당일');
+            } else {
+                globalSelectedUrls.clear();
+                document.querySelectorAll('.chk-row').forEach(chk => { chk.checked = false; });
+                updateSelectedBadge();
+            }
+        });
+    }
+
+    // 'N일전~현재 선택' 체크박스 및 숫자 입력칸 (예: 3 -> 3일전~현재, 7 -> 7일전~현재)
+    const chkDaysRange = document.getElementById('chk-days-range');
+    const inputSelectDays = document.getElementById('input-select-days');
+
+    const triggerDaysInputSelection = async () => {
+        if (!inputSelectDays) return;
+        const raw = inputSelectDays.value.trim();
+        if (raw === '') {
+            if (chkDaysRange) chkDaysRange.checked = false;
+            globalSelectedUrls.clear();
+            document.querySelectorAll('.chk-row').forEach(chk => { chk.checked = false; });
+            updateSelectedBadge();
+            return;
+        }
+        const daysNum = parseInt(raw, 10);
+        if (isNaN(daysNum) || daysNum < 0) return;
+
+        if (chkDaysRange) chkDaysRange.checked = true;
+        if (chkAllPages) chkAllPages.checked = false;
+        if (chkToday) chkToday.checked = false;
+        const chkAll = document.getElementById('chk-all');
+        if (chkAll) chkAll.checked = false;
+
+        await selectArticlesByDaysAgo(daysNum, `${daysNum}일전~현재`);
+    };
+
+    if (inputSelectDays) {
+        inputSelectDays.addEventListener('input', triggerDaysInputSelection);
+        inputSelectDays.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                triggerDaysInputSelection();
+            }
+        });
+    }
+
+    if (chkDaysRange) {
+        chkDaysRange.addEventListener('change', async (e) => {
+            if (e.target.checked) {
+                if (inputSelectDays && inputSelectDays.value.trim() === '') {
+                    inputSelectDays.value = '7';
+                }
+                await triggerDaysInputSelection();
+            } else {
+                globalSelectedUrls.clear();
+                document.querySelectorAll('.chk-row').forEach(chk => { chk.checked = false; });
+                updateSelectedBadge();
+            }
         });
     }
 
@@ -478,14 +660,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const urlBriefingInput = document.getElementById('url-briefing-input');
         const sourceOption = document.getElementById('url-source-option');
         
-        // 체크된 기사 URL 수집
+        // 체크된 기사 URL 수집 (페이지 간 누적 선택된 globalSelectedUrls + 현재 화면 체크박스 통합)
         const checkedBoxes = Array.from(document.querySelectorAll('.chk-row:checked'));
-        const checkedUrls = checkedBoxes.map(chk => chk.dataset.url).filter(u => u);
+        checkedBoxes.forEach(chk => { if (chk.dataset.url) globalSelectedUrls.add(chk.dataset.url); });
+        const checkedUrls = Array.from(globalSelectedUrls);
         
         if (urlBriefingModal && urlBriefingInput) {
-            if (checkedUrls.length > 0) {
-                urlBriefingInput.value = checkedUrls.join('\n');
-            }
+            urlBriefingInput.value = checkedUrls.join('\n');
             if(sourceOption) sourceOption.value = 'checked';
             urlBriefingModal.style.display = 'flex';
         }
@@ -1367,7 +1548,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 const opt = e.target.value;
                 let urls = [];
                 if (opt === 'checked') {
-                    urls = Array.from(document.querySelectorAll('.chk-row:checked')).map(chk => chk.dataset.url);
+                    Array.from(document.querySelectorAll('.chk-row:checked')).forEach(chk => {
+                        if (chk.dataset.url) globalSelectedUrls.add(chk.dataset.url);
+                    });
+                    urls = Array.from(globalSelectedUrls);
                 } else {
                     urls = Array.from(document.querySelectorAll('.chk-row')).map(chk => chk.dataset.url);
                 }
